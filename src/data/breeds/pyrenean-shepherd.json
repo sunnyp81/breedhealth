@@ -1,0 +1,181 @@
+{
+  "name": "Pyrenean Shepherd",
+  "slug": "pyrenean-shepherd",
+  "group": "Herding",
+  "size": "small",
+  "weight_min_kg": 7,
+  "weight_max_kg": 15,
+  "height_min_cm": 38,
+  "height_max_cm": 53,
+  "lifespan_min": 15,
+  "lifespan_max": 17,
+  "temperament": [
+    "energetic",
+    "enthusiastic",
+    "mischievous",
+    "devoted"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "epilepsy",
+    "patent-ductus-arteriosus"
+  ],
+  "exercise_level": 5,
+  "grooming_level": 3,
+  "shedding_level": 2,
+  "trainability": 4,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 164,
+  "origin": "France",
+  "coat_type": "rough-faced",
+  "coat_colors": [
+    "fawn",
+    "brindle",
+    "gray",
+    "merle",
+    "black"
+  ],
+  "description": "The Pyrenean Shepherd is the smallest French herding dog and one of the most energetic breeds in existence, capable of covering vast distances while herding sheep through the Pyrenees mountains for hours on end. This lively, intelligent breed served as a messenger and search-and-rescue dog during World War I, where it suffered significant casualties. Despite its small size, the Pyrenean Shepherd is an athletic powerhouse that excels at virtually every dog sport from agility to flyball.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Epilepsy",
+      "slug": "epilepsy",
+      "category": "Neurological",
+      "description": "Epilepsy is the most common neurological disorder in dogs, characterised by recurrent seizures. Idiopathic (genetic) epilepsy is the most frequent form in young to middle-aged dogs with no underlying structural brain lesion.",
+      "symptoms": [
+        "Generalised seizures (paddling, loss of consciousness)",
+        "Focal seizures (facial twitching, fly-biting)",
+        "Post-ictal confusion",
+        "Sudden falling",
+        "Cluster seizures"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Anticonvulsant drugs (phenobarbital, potassium bromide, levetiracetam) control seizures in the majority of cases. Treatment is lifelong. Cluster seizures and status epilepticus require emergency treatment.",
+      "prevention_tips": [
+        "DNA testing available for several breeds",
+        "Avoid breeding affected dogs with idiopathic epilepsy"
+      ],
+      "affected_breeds": [
+        "border-collie",
+        "labrador-retriever",
+        "golden-retriever",
+        "beagle",
+        "german-shepherd",
+        "belgian-shepherd"
+      ],
+      "typical_onset": "1-5 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£500-£2,000/year"
+    },
+    {
+      "name": "Patent Ductus Arteriosus (PDA)",
+      "slug": "patent-ductus-arteriosus",
+      "category": "Cardiac",
+      "description": "PDA occurs when the ductus arteriosus, a blood vessel that normally closes at birth, remains open. This causes abnormal blood circulation between the aorta and pulmonary artery, overloading the heart and leading to congestive heart failure if untreated.",
+      "symptoms": [
+        "Continuous heart murmur",
+        "Exercise intolerance",
+        "Stunted growth",
+        "Breathing difficulties",
+        "Left-sided heart enlargement on X-ray"
+      ],
+      "severity": "high",
+      "treatment_overview": "Surgical ligation or catheter-based occlusion of the ductus is highly effective when performed early. Without treatment, most dogs develop congestive heart failure within the first year.",
+      "prevention_tips": [
+        "Do not breed affected dogs",
+        "Cardiac screening of breeding animals"
+      ],
+      "affected_breeds": [
+        "poodle",
+        "maltese",
+        "pomeranian",
+        "shetland-sheepdog",
+        "keeshond",
+        "cocker-spaniel"
+      ],
+      "typical_onset": "Birth-6 months",
+      "hereditary": true,
+      "estimated_treatment_cost": "£3,000-£6,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Pembroke Welsh Corgi",
+      "slug": "pembroke-welsh-corgi",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Australian Shepherd",
+      "slug": "australian-shepherd",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Shetland Sheepdog",
+      "slug": "shetland-sheepdog",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Border Collie",
+      "slug": "border-collie",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Miniature American Shepherd",
+      "slug": "miniature-american-shepherd",
+      "size": "small",
+      "group": "Herding"
+    }
+  ],
+  "comparisons": []
+}

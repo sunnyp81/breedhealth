@@ -1,0 +1,117 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import BreedSearch from '../../components/BreedSearch.tsx';
+import AdSlot from '../../components/AdSlot.astro';
+import { getAllBreeds, getAllGroups } from '../../lib/data';
+import { generateBreadcrumbSchema } from '../../lib/schema';
+
+const breeds = await getAllBreeds();
+const groups = await getAllGroups();
+const breedCount = breeds.length;
+
+const SITE_URL = 'https://breedhealth.co.uk';
+
+const breadcrumbItems = [
+  { name: 'Home', url: `${SITE_URL}/` },
+  { name: 'Breeds', url: `${SITE_URL}/breeds/` },
+];
+
+const title = `Dog Breeds A-Z — ${breedCount} Breeds with Health, Diet & Care Guides | BreedHealth`;
+const description = `Browse all ${breedCount} dog breeds A-Z. Filter by breed group or size. Each breed profile covers health conditions, diet, exercise, temperament, and lifespan.`;
+
+// Colour map for size badges
+const sizeColours: Record<string, string> = {
+  small: 'bg-amber-100 text-amber-800',
+  medium: 'bg-blue-100 text-blue-800',
+  large: 'bg-green-100 text-green-800',
+  giant: 'bg-purple-100 text-purple-800',
+};
+---
+
+<BaseLayout title={title} description={description} canonicalUrl={`${SITE_URL}/breeds/`}>
+
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Page header -->
+  <div class="mb-8">
+    <h1 class="text-3xl sm:text-4xl font-extrabold text-primary mb-3 tracking-tight">
+      Dog Breeds A-Z
+    </h1>
+    <p class="text-text-muted text-base max-w-2xl leading-relaxed">
+      Research {breedCount} dog breeds — search by name, filter by group or size, and explore
+      detailed health, diet, and care guides for every breed.
+    </p>
+    <p class="mt-2 text-sm text-text-light font-medium">
+      {breedCount} breeds listed
+    </p>
+  </div>
+
+  <!-- Group filter links -->
+  <nav class="mb-8" aria-label="Filter by breed group">
+    <p class="text-xs text-text-muted font-semibold uppercase tracking-wide mb-3">Browse by group</p>
+    <div class="flex flex-wrap gap-2">
+      <a
+        href="/breeds/"
+        class="px-3 py-1.5 bg-primary text-white text-xs font-semibold rounded-full no-underline hover:bg-primary-dark transition-colors"
+      >
+        All Groups
+      </a>
+      {groups.map((group) => (
+        <a
+          href={`/breeds/?group=${encodeURIComponent(group.toLowerCase())}`}
+          class="px-3 py-1.5 bg-white border border-border text-text-muted text-xs font-semibold rounded-full no-underline hover:border-primary hover:text-primary transition-colors"
+        >
+          {group}
+        </a>
+      ))}
+    </div>
+  </nav>
+
+  <!-- Ad slot -->
+  <div class="mb-8">
+    <AdSlot position="in-content" />
+  </div>
+
+  <!-- Breed Search interactive island -->
+  <section class="mb-12" aria-labelledby="search-heading">
+    <h2 id="search-heading" class="text-lg font-bold text-primary mb-4">
+      Search &amp; Filter All {breedCount} Breeds
+    </h2>
+    <BreedSearch breeds={breeds} client:load />
+  </section>
+
+  <!-- Static breed grid (no-JS fallback + SEO) -->
+  <section aria-labelledby="all-breeds-heading" class="mb-12">
+    <h2 id="all-breeds-heading" class="text-lg font-bold text-primary mb-5">
+      All Breeds
+    </h2>
+    <ul
+      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3"
+      role="list"
+      aria-label="All dog breeds"
+    >
+      {breeds.map((breed) => (
+        <li>
+          <a
+            href={`/breeds/${breed.slug}/`}
+            class="block p-3 bg-white border border-border rounded-xl hover:border-primary hover:shadow-md transition-all no-underline group"
+          >
+            <p class="font-semibold text-text text-sm leading-snug mb-2 group-hover:text-primary transition-colors">
+              {breed.name}
+            </p>
+            <div class="flex flex-col gap-1">
+              <span class="text-xs bg-primary/10 text-primary font-medium px-2 py-0.5 rounded-full w-fit truncate max-w-full">
+                {breed.group}
+              </span>
+              <span class={`text-xs font-medium px-2 py-0.5 rounded-full w-fit capitalize ${sizeColours[breed.size] ?? 'bg-gray-100 text-gray-700'}`}>
+                {breed.size}
+              </span>
+            </div>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+</BaseLayout>

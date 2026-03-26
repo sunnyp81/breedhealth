@@ -1,0 +1,112 @@
+{
+  "name": "New Guinea Singing Dog",
+  "slug": "new-guinea-singing-dog",
+  "group": "Foundation Stock Service",
+  "size": "small",
+  "weight_min_kg": 9,
+  "weight_max_kg": 14,
+  "height_min_cm": 31,
+  "height_max_cm": 46,
+  "lifespan_min": 15,
+  "lifespan_max": 20,
+  "temperament": [
+    "alert",
+    "curious",
+    "independent",
+    "mischievous"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "dental-disease",
+    "hip-necrosis"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 1,
+  "shedding_level": 2,
+  "trainability": 2,
+  "good_with_children": false,
+  "good_with_dogs": false,
+  "apartment_friendly": false,
+  "popularity_rank": 210,
+  "origin": "Papua New Guinea",
+  "coat_type": "short",
+  "coat_colors": [
+    "red-and-white",
+    "black-and-tan"
+  ],
+  "description": "The New Guinea Singing Dog is one of the rarest and most primitive of all canines, named for its extraordinary howling vocalization that involves harmonics and multi-tonal sounds not produced by any other dog breed or wild canid. Isolated in the highland forests of New Guinea for thousands of years, this breed is closely related to the Australian Dingo and represents one of the earliest branches of the domestic dog family tree. The captive population consists of fewer than 300 dogs, all descended from a handful of animals captured in the 1950s and 1970s, and a small wild population was recently rediscovered in the remote highlands of Indonesian Papua.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Ryukyu Inu",
+      "slug": "ryukyu-inu",
+      "size": "medium",
+      "group": "Foundation Stock Service"
+    },
+    {
+      "name": "Pungsan Dog",
+      "slug": "pungsan-dog",
+      "size": "medium",
+      "group": "Foundation Stock Service"
+    },
+    {
+      "name": "Indian Pariah Dog",
+      "slug": "indian-pariah-dog",
+      "size": "medium",
+      "group": "Foundation Stock Service"
+    },
+    {
+      "name": "Telomian",
+      "slug": "telomian",
+      "size": "small",
+      "group": "Foundation Stock Service"
+    }
+  ],
+  "comparisons": []
+}

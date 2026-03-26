@@ -1,0 +1,177 @@
+{
+  "slug": "pembroke-welsh-corgi-vs-cardigan-welsh-corgi",
+  "breed_a": {
+    "name": "Pembroke Welsh Corgi",
+    "slug": "pembroke-welsh-corgi",
+    "group": "Herding",
+    "size": "small",
+    "weight_min_kg": 10,
+    "weight_max_kg": 14,
+    "height_min_cm": 25,
+    "height_max_cm": 30,
+    "lifespan_min": 12,
+    "lifespan_max": 13,
+    "temperament": [
+      "outgoing",
+      "playful",
+      "tenacious",
+      "friendly",
+      "bold"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "progressive-retinal-atrophy",
+      "degenerative-myelopathy",
+      "obesity",
+      "von-willebrands-disease"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 2,
+    "shedding_level": 4,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 11,
+    "origin": "Wales",
+    "coat_type": "short double",
+    "coat_colors": [
+      "red",
+      "sable",
+      "fawn",
+      "black and tan",
+      "tricolor"
+    ],
+    "description": "The Pembroke Welsh Corgi is one of the oldest herding breeds, famously associated with Queen Elizabeth II who owned more than 30 Pembrokes during her reign and helped popularize the breed internationally. Despite their small stature, Corgis are bold, athletic herding dogs that were historically used to drive cattle by nipping at heels and darting out of range of kicks. They have a big-dog personality in a low-riding body and consistently excel in agility, obedience, and herding trials."
+  },
+  "breed_b": {
+    "name": "Cardigan Welsh Corgi",
+    "slug": "cardigan-welsh-corgi",
+    "group": "Herding",
+    "size": "small",
+    "weight_min_kg": 11,
+    "weight_max_kg": 17,
+    "height_min_cm": 27,
+    "height_max_cm": 33,
+    "lifespan_min": 12,
+    "lifespan_max": 15,
+    "temperament": [
+      "affectionate",
+      "loyal",
+      "smart",
+      "alert",
+      "adaptable"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "progressive-retinal-atrophy",
+      "degenerative-myelopathy",
+      "intervertebral-disc-disease",
+      "obesity"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 2,
+    "shedding_level": 4,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 92,
+    "origin": "Wales",
+    "coat_type": "medium dense double",
+    "coat_colors": [
+      "brindle",
+      "black and white",
+      "blue merle",
+      "red",
+      "sable"
+    ],
+    "description": "The Cardigan Welsh Corgi is the older of the two Corgi breeds, distinguished from the Pembroke by its long, fox-like tail, rounded ears, and broader range of accepted colors including blue merle. Believed to have been brought to Wales by Celtic tribes from Central Europe around 1200 BCE, the Cardigan is one of the oldest herding breeds in Britain, used to drive cattle across the common lands of Wales. They are highly intelligent, adaptable dogs that bond closely with their families and carry a somewhat more reserved, watchful temperament than the more outgoing Pembroke."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 12,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 13,
+      "breed_b_value": 15,
+      "winner": "cardigan-welsh-corgi"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 10,
+      "breed_b_value": 11,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 14,
+      "breed_b_value": 17,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 25,
+      "breed_b_value": 27,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 30,
+      "breed_b_value": 33,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 2,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

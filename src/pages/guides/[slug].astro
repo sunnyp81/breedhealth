@@ -1,0 +1,749 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+import AdSlot from '../../components/AdSlot.astro';
+
+import {
+  getAllGuides,
+  getIndex,
+  getAllBreeds,
+  getAllConditions,
+  getBreed,
+  getCondition,
+} from '../../lib/data';
+import { generateBreadcrumbSchema } from '../../lib/schema';
+
+import type { GetStaticPaths } from 'astro';
+import type { GuideSummary, BreedSummary, ConditionSummary } from '../../lib/types';
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const guides = await getAllGuides();
+  return guides.map((g) => ({
+    params: { slug: g.slug },
+    props: { slug: g.slug },
+  }));
+};
+
+interface Props {
+  slug: string;
+}
+
+const { slug } = Astro.props;
+
+// Load guide metadata from index
+const index  = await getIndex();
+const guide  = index.guides.find((g) => g.slug === slug) as GuideSummary & {
+  description?: string;
+  related_breeds?: string[];
+  related_conditions?: string[];
+  content_sections?: string[];
+};
+
+// ── Derive related entities from slug keywords ────────────────────────────────
+const allBreeds     = await getAllBreeds();
+const allConditions = await getAllConditions();
+
+/**
+ * Infer related breed slugs from the guide slug.
+ * Matches any breed slug that appears as a substring of the guide slug.
+ */
+const inferredBreedSlugs: string[] = (() => {
+  // Explicit related_breeds if guide data has them
+  if (guide.related_breeds && guide.related_breeds.length > 0) {
+    return guide.related_breeds;
+  }
+  // Otherwise match breed slugs found in guide slug keywords
+  const matched = allBreeds
+    .filter((b) => slug.includes(b.slug) || b.slug.split('-').some((part) => part.length > 4 && slug.includes(part)))
+    .map((b) => b.slug)
+    .slice(0, 6);
+  // Fallback: use top 6 popular breeds for generic guides
+  return matched.length > 0 ? matched : allBreeds.slice(0, 6).map((b) => b.slug);
+})();
+
+/**
+ * Infer related condition slugs from the guide slug.
+ */
+const inferredConditionSlugs: string[] = (() => {
+  if (guide.related_conditions && guide.related_conditions.length > 0) {
+    return guide.related_conditions;
+  }
+  const matched = allConditions
+    .filter((c) => slug.includes(c.slug) || c.slug.split('-').some((part) => part.length > 4 && slug.includes(part)))
+    .map((c) => c.slug)
+    .slice(0, 5);
+  return matched;
+})();
+
+// Hydrate related breeds (summaries only — no per-breed file read)
+const relatedBreeds: BreedSummary[] = allBreeds.filter((b) =>
+  inferredBreedSlugs.includes(b.slug)
+);
+
+// Hydrate related conditions (summaries only)
+const relatedConditions: ConditionSummary[] = allConditions.filter((c) =>
+  inferredConditionSlugs.includes(c.slug)
+);
+
+// ── Derive content sections from guide title/slug ─────────────────────────────
+
+/**
+ * Derive an ordered list of section titles from the guide title and slug.
+ * We parse common topic patterns and return appropriate headings.
+ * If guide.content_sections exists (future-proofed), use those directly.
+ */
+function deriveContentSections(g: typeof guide): string[] {
+  if (g.content_sections && g.content_sections.length > 0) {
+    return g.content_sections;
+  }
+
+  const t = g.title.toLowerCase();
+  const s = g.slug;
+
+  // Food / diet guides
+  if (s.includes('dog-food') || t.includes('dog food') || t.includes('diet') || t.includes('feeding') || t.includes('nutrition')) {
+    return [
+      'What to Look for in a Quality Dog Food',
+      'Understanding Nutritional Labels',
+      'How Much to Feed Your Dog',
+      'Best Ingredients to Look For',
+      'Ingredients to Avoid',
+      'Transitioning Between Foods',
+      'Frequently Asked Questions',
+    ];
+  }
+
+  // Puppy guides
+  if (s.includes('puppy') && (s.includes('first-year') || s.includes('guide') || s.includes('month'))) {
+    return [
+      'Bringing Your Puppy Home (Weeks 8–12)',
+      'Vaccination and Vet Visits',
+      'Early Socialisation (Months 2–4)',
+      'Feeding and Nutrition in the First Year',
+      'Basic Training Fundamentals',
+      'Months 6–12: Adolescence and Continued Development',
+      'What to Expect at 12 Months',
+    ];
+  }
+
+  // Senior dog guides
+  if (s.includes('senior') || t.includes('senior') || t.includes('older dog') || t.includes('dogs 7')) {
+    return [
+      'Recognising the Signs of Ageing',
+      'Dietary Changes for Senior Dogs',
+      'Exercise Modifications',
+      'Common Age-Related Health Conditions',
+      'Veterinary Care and Screening',
+      'Quality of Life and Comfort',
+    ];
+  }
+
+  // Exercise guides
+  if (s.includes('exercise') || t.includes('exercise') || t.includes('how much exercise')) {
+    return [
+      'How Much Exercise Does a Dog Need?',
+      'Exercise by Dog Size',
+      'Exercise by Age: Puppies vs Adults vs Seniors',
+      'Signs of Under-Exercise and Over-Exercise',
+      'Best Types of Exercise for Dogs',
+      'Exercise in Different Seasons',
+    ];
+  }
+
+  // Health / conditions guides
+  if (s.includes('health') || s.includes('health-problems') || s.includes('condition')) {
+    return [
+      'Most Common Dog Health Problems',
+      'Signs Your Dog Needs to See a Vet',
+      'Hereditary vs Acquired Conditions',
+      'Preventive Care and Annual Screening',
+      'Cost of Treatment and Pet Insurance',
+      'Breed-Specific Health Risks',
+    ];
+  }
+
+  // Grooming guides
+  if (s.includes('grooming') || t.includes('groom')) {
+    return [
+      'Essential Grooming Tools',
+      'How to Brush Your Dog\'s Coat',
+      'Bathing: How Often and What to Use',
+      'Nail Trimming Step-by-Step',
+      'Ear Cleaning and Dental Care',
+      'Professional Grooming vs At-Home',
+    ];
+  }
+
+  // Training guides
+  if (s.includes('train') || t.includes('train')) {
+    return [
+      'Foundation Principles of Dog Training',
+      'Essential Commands Every Dog Should Know',
+      'Positive Reinforcement Techniques',
+      'Dealing with Common Behaviour Problems',
+      'Training Puppies vs Adult Dogs',
+      'When to Seek Professional Help',
+    ];
+  }
+
+  // Vaccination / vet schedule
+  if (s.includes('vaccination') || s.includes('vaccine') || s.includes('schedule')) {
+    return [
+      'Core Vaccines: What Every Dog Needs',
+      'Puppy Vaccination Schedule',
+      'Adult Dog Booster Schedule',
+      'Non-Core Vaccines: When Are They Needed?',
+      'Vaccination Side Effects',
+      'Travel and Kennel Requirements',
+    ];
+  }
+
+  // Dental care
+  if (s.includes('dental') || t.includes('teeth') || t.includes('dental')) {
+    return [
+      'Why Dental Health Matters',
+      'How to Brush Your Dog\'s Teeth',
+      'Dental Chews and Water Additives',
+      'Signs of Dental Disease',
+      'Professional Dental Cleaning',
+      'Breed-Specific Dental Risks',
+    ];
+  }
+
+  // Weight management
+  if (s.includes('weight') || t.includes('weight') || t.includes('overweight')) {
+    return [
+      'Is Your Dog Overweight? How to Tell',
+      'Health Risks of Canine Obesity',
+      'Calculating Your Dog\'s Daily Calorie Needs',
+      'Low-Calorie Diet Strategies',
+      'Exercise for Weight Loss',
+      'Monitoring Progress and Setting Goals',
+    ];
+  }
+
+  // Allergies
+  if (s.includes('allerg') || t.includes('allerg')) {
+    return [
+      'Types of Dog Allergies',
+      'Symptoms: How to Spot an Allergic Reaction',
+      'Food Allergies vs Environmental Allergies',
+      'Allergy Testing and Diagnosis',
+      'Treatment and Management Options',
+      'Hypoallergenic Diets and Elimination Trials',
+    ];
+  }
+
+  // Joint health / arthritis
+  if (s.includes('joint') || s.includes('arthritis') || t.includes('arthritis') || t.includes('joint')) {
+    return [
+      'How Joint Disease Develops in Dogs',
+      'Breeds Most at Risk',
+      'Early Warning Signs',
+      'Veterinary Diagnosis and Staging',
+      'Treatment Options: Medication and Surgery',
+      'Supplements, Diet, and Home Management',
+    ];
+  }
+
+  // Anxiety
+  if (s.includes('anxiety') || t.includes('anxiety')) {
+    return [
+      'What Causes Anxiety in Dogs?',
+      'Types of Anxiety: Separation, Social, Noise',
+      'Recognising Anxious Behaviour',
+      'Behaviour Modification Techniques',
+      'Calming Products and Supplements',
+      'When to Consult a Vet or Behaviourist',
+    ];
+  }
+
+  // Insurance guide
+  if (s.includes('insurance') || t.includes('insurance')) {
+    return [
+      'Types of Pet Insurance Policy',
+      'What Does Pet Insurance Cover?',
+      'What Is Typically Excluded?',
+      'How Much Does Pet Insurance Cost?',
+      'Choosing the Right Policy for Your Breed',
+      'Making a Claim: What to Expect',
+    ];
+  }
+
+  // Socialisation
+  if (s.includes('socialisation') || s.includes('socialization') || t.includes('socialisation')) {
+    return [
+      'What Is Puppy Socialisation?',
+      'The Critical Socialisation Window (3–14 Weeks)',
+      'How to Safely Socialise Your Puppy',
+      'Introducing Your Dog to Other Animals',
+      'Socialising Older Dogs',
+      'Common Socialisation Mistakes to Avoid',
+    ];
+  }
+
+  // Introducing new dog
+  if (s.includes('introduc') || t.includes('introduc')) {
+    return [
+      'Preparing Your Home Before the Dog Arrives',
+      'The First 48 Hours',
+      'Introducing Your New Dog to Resident Pets',
+      'Establishing Routines and Boundaries',
+      'Common Settling-In Problems',
+      'When to Seek Advice',
+    ];
+  }
+
+  // Body language
+  if (s.includes('body-language') || t.includes('body language')) {
+    return [
+      'The Basics of Canine Communication',
+      'Reading Tail Position and Movement',
+      'Facial Expressions and Eye Contact',
+      'Posture and Body Stance',
+      'Vocalisations and What They Mean',
+      'Stress Signals to Watch For',
+    ];
+  }
+
+  // First aid
+  if (s.includes('first-aid') || t.includes('first aid')) {
+    return [
+      'Building a Dog First Aid Kit',
+      'When to Call the Vet vs Handle at Home',
+      'Treating Cuts, Wounds, and Abrasions',
+      'Dealing with Choking and Breathing Difficulties',
+      'Heatstroke: Signs and Emergency Response',
+      'Toxic Ingestion: What to Do',
+    ];
+  }
+
+  // Raw feeding
+  if (s.includes('raw') || t.includes('raw')) {
+    return [
+      'What Is a Raw Food (BARF) Diet?',
+      'Potential Benefits of Raw Feeding',
+      'Risks and Safety Considerations',
+      'How to Get Started Safely',
+      'Balancing a Raw Diet',
+      'Raw Feeding for Specific Life Stages',
+    ];
+  }
+
+  // Barking
+  if (s.includes('bark') || t.includes('bark')) {
+    return [
+      'Why Dogs Bark: The Root Causes',
+      'Types of Barking and What They Signal',
+      'Training Techniques to Reduce Barking',
+      'Environmental and Management Changes',
+      'Anti-Bark Devices: Do They Work?',
+      'When Barking Indicates a Deeper Issue',
+    ];
+  }
+
+  // Travel
+  if (s.includes('travel') || t.includes('travel')) {
+    return [
+      'Car Travel: Keeping Your Dog Safe',
+      'Pre-Travel Preparation and Vet Checks',
+      'Travelling by Train and Bus',
+      'Flying with Dogs: Rules and Requirements',
+      'Dog-Friendly Accommodation',
+      'Managing Anxiety and Car Sickness',
+    ];
+  }
+
+  // Spaying / neutering
+  if (s.includes('spay') || s.includes('neuter') || t.includes('spay') || t.includes('neuter')) {
+    return [
+      'What Is Spaying and Neutering?',
+      'Health Benefits of Neutering',
+      'Potential Risks and Considerations',
+      'The Best Age to Spay or Neuter',
+      'What to Expect: Surgery and Recovery',
+      'Behavioural Changes After Neutering',
+    ];
+  }
+
+  // Parasite prevention
+  if (s.includes('parasite') || t.includes('parasite') || t.includes('flea') || t.includes('tick') || t.includes('worm')) {
+    return [
+      'Common Dog Parasites: Overview',
+      'Flea Prevention and Treatment',
+      'Tick Prevention and Safe Removal',
+      'Worming: Types and Treatment Schedules',
+      'Lungworm: A Growing Concern in the UK',
+      'Building a Year-Round Prevention Plan',
+    ];
+  }
+
+  // Skin and coat
+  if (s.includes('skin') || s.includes('coat') || t.includes('skin') || t.includes('coat')) {
+    return [
+      'Anatomy of the Dog\'s Coat',
+      'Common Causes of Dull or Dry Coat',
+      'Skin Conditions: Diagnosis and Treatment',
+      'Nutrition for Coat Health',
+      'Grooming Practices That Protect the Skin',
+      'When to See a Vet About Skin Issues',
+    ];
+  }
+
+  // Hip dysplasia specific guide
+  if (s.includes('hip-dysplasia')) {
+    return [
+      'What Is Hip Dysplasia?',
+      'Breeds Most Commonly Affected',
+      'Symptoms and Age of Onset',
+      'Diagnosis: Hip Scoring and Imaging',
+      'Treatment Options: Conservative vs Surgical',
+      'Prevention Through Breeding and Lifestyle',
+    ];
+  }
+
+  // Generic / catch-all fallback
+  return [
+    'Introduction and Overview',
+    'Key Facts and Background',
+    'What Every Owner Should Know',
+    'Practical Guidance and Tips',
+    'When to Seek Professional Advice',
+    'Summary and Next Steps',
+  ];
+}
+
+const contentSections = deriveContentSections(guide);
+
+// ── Generate substantive paragraph for each section ──────────────────────────
+
+/**
+ * Generates a 2–3 sentence substantive paragraph for a given section title,
+ * optionally referencing related breed or condition data.
+ */
+function generateSectionContent(
+  sectionTitle: string,
+  guideTitle: string,
+  breeds: BreedSummary[],
+  conditions: ConditionSummary[]
+): string {
+  const t = sectionTitle.toLowerCase();
+  const gt = guideTitle.toLowerCase();
+
+  // Breed references
+  const breedNames = breeds.slice(0, 3).map((b) => b.name);
+  const breedRef = breedNames.length > 0
+    ? `breeds such as the ${breedNames.join(', ')}`
+    : 'many popular breeds';
+
+  // Condition references
+  const condNames = conditions.slice(0, 2).map((c) => c.name);
+  const condRef = condNames.length > 0
+    ? `conditions such as ${condNames.join(' and ')}`
+    : 'hereditary health conditions';
+
+  // Section-specific content generation
+  if (t.includes('what to look for') || t.includes('quality dog food') || t.includes('nutritional labels')) {
+    return `When evaluating dog food, protein quality is the most important factor — look for a named animal protein (chicken, salmon, lamb) as the first ingredient. Avoid products where the first ingredient is a generic "meat meal" or a cereal filler. For ${breedRef}, it is particularly worth checking for breed-size-appropriate formulas that address joint health and calorie density.`;
+  }
+
+  if (t.includes('how much to feed') || t.includes('daily calorie') || t.includes('portion')) {
+    return `Daily feeding amounts depend on your dog's weight, age, and activity level. Most adult dogs require between 2–3 meals per day, and manufacturers' guidelines on pack labels are a useful starting point — though active working breeds typically need more. Dogs prone to bloat, including ${breedRef.includes('breeds') ? breedRef : 'large deep-chested breeds'}, should avoid single large meals and benefit from raised bowls and rest periods after eating.`;
+  }
+
+  if (t.includes('ingredient') || t.includes('best ingredient')) {
+    return `High-quality ingredients to prioritise include named meat proteins, omega-3-rich fish oils for coat health, and prebiotics or beet pulp for digestive support. Avoid artificial preservatives (BHA, BHT, ethoxyquin), artificial colourants, and excessive salt or sugar. Some breeds — particularly those prone to ${condRef} — benefit from diets specifically formulated to support joint cartilage or immune function.`;
+  }
+
+  if (t.includes('transitioning') || t.includes('transition')) {
+    return `When switching your dog to a new food, a gradual transition over 7–10 days reduces the risk of digestive upset. Start with 75% old food and 25% new, then shift the ratio over the following week. Dogs with sensitive stomachs or those managing ${condRef} may need a longer transition period; always consult your vet before switching a dog on a prescription diet.`;
+  }
+
+  if (t.includes('vaccination') || t.includes('core vaccine') || t.includes('booster')) {
+    return `Core vaccines for dogs in the UK include distemper, parvovirus, leptospirosis, and adenovirus — typically given as a combined "L4" vaccine. Puppies receive an initial course starting at around 8 weeks, with a second dose at 10–12 weeks and a booster at 15 months. Annual or triennial boosters maintain protection, and a titre test can confirm immunity if owners prefer to avoid over-vaccination.`;
+  }
+
+  if (t.includes('puppy') && (t.includes('home') || t.includes('week') || t.includes('bring'))) {
+    return `The first 48–72 hours after bringing a puppy home are critical for building trust and establishing routines. Keep introductions calm and limit visitors for the first week. Set up a safe, confined space with bedding, water, and appropriate chew toys — this becomes the puppy's "safe zone" and aids crate training. For ${breedRef}, early exposure to household sounds, surfaces, and gentle handling accelerates confidence building.`;
+  }
+
+  if (t.includes('socialisation') || t.includes('socialization')) {
+    return `The primary socialisation window for puppies runs from approximately 3 to 14 weeks of age — during this period, positive exposure to people, animals, sounds, and environments shapes long-term behaviour. Controlled, positive interactions are more valuable than frequent, overwhelming ones. ${breedRef.includes('breeds') ? `For ${breedRef}` : 'For many pedigree breeds'}, inadequate early socialisation is a leading cause of anxiety and reactivity in adulthood.`;
+  }
+
+  if (t.includes('exercise') && (t.includes('how much') || t.includes('need') || t.includes('type'))) {
+    return `Exercise requirements vary enormously between breeds, sizes, and ages. A working or herding dog may need 2+ hours of vigorous activity daily, while a toy breed may be satisfied with 30 minutes of gentle walking. For ${breedRef}, exercise should be consistent — sudden spikes in intensity can strain joints, particularly in puppies whose growth plates haven't closed. Mental stimulation through training, scent work, and puzzle toys counts alongside physical exercise.`;
+  }
+
+  if (t.includes('senior') || t.includes('ageing') || t.includes('older dog') || t.includes('7+') || t.includes('7 and')) {
+    return `Dogs are generally considered senior from around 7 years of age, though giant breeds age faster and may show signs of ageing from 5–6 years. Senior dogs benefit from twice-yearly vet check-ups, a diet lower in calories but higher in joint-supporting nutrients, and gentler exercise routines. Conditions including ${condRef} are more prevalent in older dogs and benefit from early detection through regular screening.`;
+  }
+
+  if (t.includes('arthritis') || t.includes('joint disease') || t.includes('joint health')) {
+    return `Canine arthritis is one of the most common conditions in dogs over 7, affecting an estimated 20% of adult dogs. It results from cartilage breakdown in one or more joints, leading to pain, stiffness, and reduced mobility. Breeds prone to ${condRef} — particularly large and giant breeds — are at higher risk. Early intervention through weight management, appropriate exercise, joint supplements, and NSAIDs significantly improves quality of life.`;
+  }
+
+  if (t.includes('insurance') || t.includes('policy') || t.includes('cover') || t.includes('claim')) {
+    return `Pet insurance policies fall into three main types: accident-only, time-limited, and lifetime cover. Lifetime policies are the most comprehensive — they cover ongoing and hereditary conditions without annual caps. For ${breedRef}, which may be predisposed to ${condRef}, lifetime cover is strongly recommended. Always check policy exclusions for pre-existing conditions, and take out cover before your dog develops any health issues to maximise protection.`;
+  }
+
+  if (t.includes('anxiety') || t.includes('anxious') || t.includes('stress signal')) {
+    return `Anxiety in dogs manifests as destructive behaviour, excessive barking, toileting indoors, panting, pacing, or self-harm such as licking and chewing. The most common trigger is separation anxiety, affecting an estimated 14–20% of dogs. ${breedRef.includes('breeds') ? `For ${breedRef}` : 'For certain highly bonded breeds'}, gradual desensitisation to absences — starting with seconds and building to hours — is the most evidence-based approach. Medication and calming supplements can support behaviour modification but are rarely a standalone solution.`;
+  }
+
+  if (t.includes('skin') || t.includes('coat health') || t.includes('dull coat') || t.includes('dry skin')) {
+    return `A dog's coat reflects overall health. Dull, dry, or flaky skin is commonly linked to nutritional deficiency — particularly omega-3 fatty acids, zinc, and biotin — but can also indicate allergies, parasites, or underlying conditions including ${condRef}. For ${breedRef}, regular brushing distributes natural oils and removes dead skin, while a high-quality diet rich in fish oils visibly improves coat condition within 6–8 weeks.`;
+  }
+
+  if (t.includes('raw') || t.includes('barf') || t.includes('raw food')) {
+    return `A raw food diet (BARF — Biologically Appropriate Raw Food) typically consists of raw muscle meat, bone, organ meat, and vegetables. Proponents cite improvements in coat quality, dental health, and energy levels. However, raw diets carry risks of bacterial contamination (Salmonella, Campylobacter), nutritional imbalance, and choking hazards from bone fragments. ${breedRef.includes('breeds') ? `For ${breedRef}` : 'For dogs with immune-compromising conditions'}, raw feeding requires particular care and veterinary guidance.`;
+  }
+
+  if (t.includes('dental') || t.includes('teeth') || t.includes('tooth')) {
+    return `Dental disease affects over 80% of dogs by the age of three and is a leading cause of preventable pain and organ damage. Daily toothbrushing with a dog-safe toothpaste is the gold standard, reducing plaque by up to 70%. For ${breedRef}, particularly brachycephalic breeds where teeth are crowded, professional cleaning under anaesthetic every 1–3 years is often necessary. Dental chews can supplement but do not replace brushing.`;
+  }
+
+  if (t.includes('parasite') || t.includes('flea') || t.includes('tick') || t.includes('worm')) {
+    return `Year-round parasite prevention is a core component of responsible dog ownership. Fleas can trigger allergic dermatitis and transmit tapeworms; ticks can carry Lyme disease and other pathogens; roundworms and lungworms pose risks to both dogs and humans. For ${breedRef}, particularly those with access to woodland or wildlife areas, monthly spot-on treatments combined with regular faecal screening provide the most comprehensive protection.`;
+  }
+
+  if (t.includes('spay') || t.includes('neuter') || t.includes('surgery') || t.includes('recovery')) {
+    return `Spaying (females) and castration (males) are routine surgical procedures carried out under general anaesthetic, typically taking 30–90 minutes. For most breeds, the recommended age is around 6 months, though larger breeds like those found in ${breedRef.includes('breeds') ? breedRef : 'the working and giant groups'} benefit from waiting until skeletal maturity — usually 12–18 months — to reduce the risk of joint conditions. Recovery typically takes 10–14 days, during which exercise is restricted.`;
+  }
+
+  if (t.includes('first aid') || t.includes('first-aid') || t.includes('kit') || t.includes('emergency')) {
+    return `Every dog owner should have a basic first aid kit containing: sterile gauze pads, bandages, antiseptic wipes, a digital thermometer, saline solution, tweezers for tick removal, and the vet's emergency number. For common scenarios — minor cuts, bee stings, or suspected foreign body ingestion — knowing when to treat at home versus call the vet immediately is critical. Dogs showing signs of collapse, difficulty breathing, seizure, or suspected toxic ingestion always require emergency veterinary assessment.`;
+  }
+
+  if (t.includes('body language') || t.includes('communication') || t.includes('tail') || t.includes('stress')) {
+    return `Canine communication is primarily non-verbal. A relaxed dog displays a loose body posture, soft eyes, and a gently wagging tail; a stressed dog shows a tucked tail, whale-eye (whites visible), lip licking, or yawning out of context. Understanding these signals helps owners de-escalate potentially dangerous situations and builds a stronger bond. For ${breedRef.includes('breeds') ? breedRef : 'high-drive or working breeds'}, misreading stress signals is a common precursor to unintended bites.`;
+  }
+
+  if (t.includes('barking') || t.includes('why dogs bark') || t.includes('reduce barking')) {
+    return `Dogs bark to communicate — fear, alerting, excitement, demand, and boredom all produce different bark patterns. The most effective way to reduce excessive barking is to address the root cause rather than suppress the behaviour. For ${breedRef.includes('breeds') ? breedRef : 'high-energy or vocal breeds'}, sufficient exercise and mental stimulation remove the most common triggers. Punishment-based methods like shock collars are counterproductive and can increase anxiety-driven barking.`;
+  }
+
+  if (t.includes('travel') || t.includes('car') || t.includes('flying') || t.includes('holiday')) {
+    return `UK law requires dogs to be suitably restrained when travelling in a vehicle — a crash-tested harness or a secured crate are the safest options. For longer journeys, plan rest stops every 2 hours for water and toilet breaks. For ${breedRef.includes('breeds') ? breedRef : 'anxious or brachycephalic breeds'}, pre-travel vet advice on anti-nausea or anti-anxiety medication can make the experience significantly safer and less stressful.`;
+  }
+
+  if (t.includes('introduction') || t.includes('overview') || t.includes('background') || t.includes('what every owner')) {
+    return `This guide covers ${guideTitle.toLowerCase()}, drawing on current veterinary guidance and breed-specific data. ${breedRef.includes('breeds') ? `Dogs like the ${breedNames[0] || 'breeds covered here'} benefit particularly from the advice in this section.` : 'The information applies broadly to dogs of all sizes and ages.'} Whether you are a first-time owner or an experienced dog keeper, understanding the fundamentals covered here helps you make better decisions for your dog's long-term health and wellbeing.`;
+  }
+
+  if (t.includes('summary') || t.includes('next step') || t.includes('conclusion')) {
+    return `The most important takeaway from this guide is that proactive, informed care makes a measurable difference to your dog's quality of life. Implementing even one or two of the recommendations above — whether improving diet, adjusting exercise, or scheduling regular screening — can have a lasting positive impact. For more specific guidance on ${condRef} or breed-specific concerns, explore the detailed condition and breed pages on this site.`;
+  }
+
+  if (t.includes('frequently asked') || t.includes('faq')) {
+    return `The questions below reflect the most common queries from owners researching ${guideTitle.toLowerCase()}. If your question isn't covered, the breed-specific pages and condition guides on this site provide more detailed information tailored to individual dogs. A vet consultation remains the best course for any symptoms or concerns about your specific dog.`;
+  }
+
+  if (t.includes('when to see') || t.includes('when to seek') || t.includes('professional') || t.includes('vet')) {
+    return `While most day-to-day concerns can be managed at home with the right knowledge, there are situations that always require veterinary assessment: sudden unexplained weight loss or gain, persistent vomiting or diarrhoea, difficulty breathing, sudden collapse, unresponsiveness, suspected toxic ingestion, or any symptom that appears severe or worsening. For breeds prone to ${condRef}, earlier vet involvement typically leads to better outcomes and lower long-term treatment costs.`;
+  }
+
+  // Generic fallback paragraph
+  return `This section of the ${guideTitle} covers key aspects that dog owners need to understand. Whether you're dealing with ${condRef} or managing the daily care of ${breedRef}, the principles here are grounded in current veterinary best practice. Implementing consistent, evidence-based routines is the single most effective thing you can do to support your dog's long-term health.`;
+}
+
+// ── Schemas ───────────────────────────────────────────────────────────────────
+
+const siteUrl = 'https://breedhealth.co.uk';
+const pageUrl = `${siteUrl}/guides/${slug}/`;
+
+const breadcrumbSchema = generateBreadcrumbSchema([
+  { name: 'Home',   url: `${siteUrl}/` },
+  { name: 'Guides', url: `${siteUrl}/guides/` },
+  { name: guide.title, url: pageUrl },
+]);
+
+const breadcrumbItems = [
+  { name: 'Home',   url: '/' },
+  { name: 'Guides', url: '/guides/' },
+  { name: guide.title, url: `/guides/${slug}/` },
+];
+
+const metaDescription = (guide as { description?: string }).description
+  ?? `${guide.title} — expert dog care advice, breed-specific guidance, and practical tips from BreedHealth.`;
+---
+
+<BaseLayout
+  title={`${guide.title} | BreedHealth`}
+  description={metaDescription}
+  canonicalUrl={pageUrl}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  </Fragment>
+
+  <!-- Header ad -->
+  <div class="mb-6">
+    <AdSlot position="header" />
+  </div>
+
+  <!-- Breadcrumbs -->
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Page heading -->
+  <h1 class="text-3xl sm:text-4xl font-bold text-primary mt-4 mb-4 leading-tight">
+    {guide.title}
+  </h1>
+
+  {metaDescription && (
+    <p class="text-text-muted leading-relaxed text-lg mb-8 max-w-3xl">
+      {metaDescription}
+    </p>
+  )}
+
+  <!-- Two-column layout: content + sidebar -->
+  <div class="flex flex-col lg:flex-row gap-10">
+
+    <!-- Main content column -->
+    <div class="flex-1 min-w-0">
+
+      <!-- Table of contents -->
+      {contentSections.length > 0 && (
+        <nav aria-label="Table of contents" class="mb-10 p-5 bg-bg-alt border border-border rounded-xl">
+          <h2 class="text-base font-bold text-primary mb-3 uppercase tracking-wide text-sm">
+            In This Guide
+          </h2>
+          <ol class="space-y-1.5 list-none p-0 m-0">
+            {contentSections.map((section, idx) => (
+              <li class="flex items-start gap-2 text-sm">
+                <span class="flex-shrink-0 w-5 h-5 rounded-full bg-primary text-white text-xs font-bold flex items-center justify-center mt-0.5" style="display:inline-flex; align-items:center; justify-content:center;">
+                  {idx + 1}
+                </span>
+                <a
+                  href={`#section-${idx}`}
+                  class="text-primary hover:underline no-underline leading-snug"
+                >
+                  {section}
+                </a>
+              </li>
+            ))}
+          </ol>
+        </nav>
+      )}
+
+      <!-- In-content ad -->
+      <div class="mb-8">
+        <AdSlot position="in-content" />
+      </div>
+
+      <!-- Content sections -->
+      {contentSections.map((section, idx) => (
+        <section
+          id={`section-${idx}`}
+          aria-labelledby={`section-heading-${idx}`}
+          class="mb-10 scroll-mt-20"
+        >
+          <h2
+            id={`section-heading-${idx}`}
+            class="text-2xl font-bold text-primary mb-4"
+          >
+            {section}
+          </h2>
+          <p class="text-text-muted leading-relaxed max-w-3xl">
+            {generateSectionContent(section, guide.title, relatedBreeds, relatedConditions)}
+          </p>
+        </section>
+      ))}
+
+      <!-- Email capture -->
+      <EmailCapture ctaText={`Get more guides like "${guide.title}" in your inbox`} />
+    </div>
+
+    <!-- Sidebar -->
+    <aside class="lg:w-72 flex-shrink-0 space-y-8" aria-label="Related content">
+
+      <!-- Related breeds -->
+      {relatedBreeds.length > 0 && (
+        <section aria-labelledby="related-breeds-heading">
+          <h2 id="related-breeds-heading" class="text-base font-bold text-primary mb-3 uppercase tracking-wide text-sm">
+            Related Breeds
+          </h2>
+          <ul class="space-y-2" role="list">
+            {relatedBreeds.map((breed) => (
+              <li>
+                <a
+                  href={`/breeds/${breed.slug}/`}
+                  class="flex items-center justify-between p-3 bg-white border border-border rounded-lg text-sm text-text hover:text-primary hover:border-primary transition-colors no-underline group"
+                >
+                  <span class="font-medium group-hover:underline">{breed.name}</span>
+                  <span class="text-xs text-text-light capitalize">{breed.size}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <a
+            href="/breeds/"
+            class="mt-3 block text-xs text-primary hover:underline no-underline font-medium"
+          >
+            Browse all breeds &rsaquo;
+          </a>
+        </section>
+      )}
+
+      <!-- Related conditions -->
+      {relatedConditions.length > 0 && (
+        <section aria-labelledby="related-conditions-heading">
+          <h2 id="related-conditions-heading" class="text-base font-bold text-primary mb-3 uppercase tracking-wide text-sm">
+            Related Conditions
+          </h2>
+          <ul class="space-y-2" role="list">
+            {relatedConditions.map((condition) => (
+              <li>
+                <a
+                  href={`/conditions/${condition.slug}/`}
+                  class="flex items-center justify-between p-3 bg-white border border-border rounded-lg text-sm text-text hover:text-primary hover:border-primary transition-colors no-underline group"
+                >
+                  <span class="font-medium group-hover:underline">{condition.name}</span>
+                  <span
+                    class="text-xs font-semibold px-1.5 py-0.5 rounded-full capitalize"
+                    style={
+                      condition.severity === 'high'
+                        ? 'background:#f8d7da; color:#721c24;'
+                        : condition.severity === 'moderate'
+                          ? 'background:#fff3cd; color:#7a5a00;'
+                          : 'background:#d4edda; color:#155724;'
+                    }
+                  >
+                    {condition.severity}
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <a
+            href="/conditions/"
+            class="mt-3 block text-xs text-primary hover:underline no-underline font-medium"
+          >
+            Browse all conditions &rsaquo;
+          </a>
+        </section>
+      )}
+
+      <!-- Sidebar ad -->
+      <AdSlot position="sidebar" />
+
+      <!-- More guides CTA -->
+      <div class="p-4 bg-bg-alt border border-border rounded-xl">
+        <p class="text-sm font-semibold text-primary mb-2">More Dog Health Guides</p>
+        <p class="text-xs text-text-muted leading-relaxed mb-3">
+          Browse our full library of expert guides covering nutrition, health conditions, training, and breed care.
+        </p>
+        <a
+          href="/guides/"
+          class="inline-flex items-center gap-1.5 text-xs font-semibold text-primary hover:underline no-underline"
+        >
+          View all guides
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+    </aside>
+  </div>
+</BaseLayout>

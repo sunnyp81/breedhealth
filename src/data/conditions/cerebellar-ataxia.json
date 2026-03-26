@@ -1,0 +1,55 @@
+{
+  "name": "Cerebellar Ataxia",
+  "slug": "cerebellar-ataxia",
+  "category": "Neurological",
+  "description": "Hereditary cerebellar ataxia encompasses several breed-specific conditions causing progressive degeneration of the cerebellum, leading to uncoordinated movement, tremors, and balance loss. Many forms are fatal.",
+  "symptoms": [
+    "Wide-based stance",
+    "Head tremor (intention tremor)",
+    "Falling",
+    "Uncoordinated gait",
+    "Hypermetria (exaggerated limb movement)"
+  ],
+  "severity": "high",
+  "treatment_overview": "There is no cure or disease-modifying treatment. Supportive care and physical therapy may help quality of life in slowly progressive forms. Many dogs are eventually euthanised.",
+  "prevention_tips": [
+    "DNA test available for breed-specific forms",
+    "Test all breeding stock in at-risk breeds"
+  ],
+  "affected_breeds": [
+    "gordon-setter",
+    "rough-collie",
+    "beagle",
+    "old-english-sheepdog",
+    "Finnish-spitz"
+  ],
+  "typical_onset": "Varies by breed — puppyhood to adulthood",
+  "hereditary": true,
+  "estimated_treatment_cost": "£500-£2,000 (supportive)",
+  "breeds_detail": [
+    {
+      "name": "Rough Collie",
+      "slug": "rough-collie",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Old English Sheepdog",
+      "slug": "old-english-sheepdog",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Spinone Italiano",
+      "slug": "spinone-italiano",
+      "size": "large",
+      "group": "Sporting"
+    }
+  ]
+}

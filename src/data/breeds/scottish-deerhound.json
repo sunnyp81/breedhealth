@@ -1,0 +1,101 @@
+{
+  "name": "Scottish Deerhound",
+  "slug": "scottish-deerhound",
+  "group": "Hound",
+  "size": "giant",
+  "weight_min_kg": 34,
+  "weight_max_kg": 50,
+  "height_min_cm": 71,
+  "height_max_cm": 81,
+  "lifespan_min": 8,
+  "lifespan_max": 11,
+  "temperament": [
+    "gentle",
+    "docile",
+    "friendly",
+    "dignified"
+  ],
+  "health_issues": [
+    "bloat",
+    "cardiac-disease",
+    "bone-cancer",
+    "anesthesia-sensitivity",
+    "factor-vii-deficiency"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 2,
+  "shedding_level": 3,
+  "trainability": 2,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 170,
+  "origin": "Scotland",
+  "coat_type": "rough",
+  "coat_colors": [
+    "blue-gray",
+    "gray",
+    "brindle",
+    "yellow",
+    "sandy-red"
+  ],
+  "description": "The Scottish Deerhound, called 'the Royal Dog of Scotland,' was once so prized that no one below the rank of earl was permitted to own one, and the theft of a Deerhound was punishable by death in medieval Scotland. This majestic breed was developed to course red deer solo or in pairs across the rugged Scottish highlands, requiring extraordinary size, speed, and courage to pull down prey three times its own weight. Despite its formidable hunting history, the Deerhound is one of the gentlest of all breeds, with a dignified, friendly disposition described by Sir Walter Scott as having 'the gentleness of a well-bred gentleman.'",
+  "conditions_detail": [],
+  "diet_recommendations": [
+    {
+      "name": "Senior Formula",
+      "slug": "senior"
+    },
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Rhodesian Ridgeback",
+      "slug": "rhodesian-ridgeback",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Bloodhound",
+      "slug": "bloodhound",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Borzoi",
+      "slug": "borzoi",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Irish Wolfhound",
+      "slug": "irish-wolfhound",
+      "size": "giant",
+      "group": "Hound"
+    },
+    {
+      "name": "Black and Tan Coonhound",
+      "slug": "black-and-tan-coonhound",
+      "size": "large",
+      "group": "Hound"
+    }
+  ],
+  "comparisons": [
+    "scottish-deerhound-vs-irish-wolfhound"
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "name": "English Foxhound",
+  "slug": "english-foxhound",
+  "group": "Hound",
+  "size": "large",
+  "weight_min_kg": 29,
+  "weight_max_kg": 32,
+  "height_min_cm": 58,
+  "height_max_cm": 69,
+  "lifespan_min": 10,
+  "lifespan_max": 13,
+  "temperament": [
+    "sociable",
+    "gentle",
+    "friendly",
+    "active"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "ear-infections",
+    "renal-disease",
+    "epilepsy"
+  ],
+  "exercise_level": 5,
+  "grooming_level": 1,
+  "shedding_level": 2,
+  "trainability": 2,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 145,
+  "origin": "United Kingdom",
+  "coat_type": "smooth",
+  "coat_colors": [
+    "tricolor",
+    "bicolor",
+    "hound-colors"
+  ],
+  "description": "The English Foxhound is one of the four foxhound breeds and was specifically developed in England to hunt fox in packs alongside mounted hunters. They are powerful, well-balanced scent hounds with exceptional stamina and a friendly, sociable temperament developed through centuries of pack living. Rarely kept as house pets, they need vast amounts of exercise and the company of other dogs to thrive.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Epilepsy",
+      "slug": "epilepsy",
+      "category": "Neurological",
+      "description": "Epilepsy is the most common neurological disorder in dogs, characterised by recurrent seizures. Idiopathic (genetic) epilepsy is the most frequent form in young to middle-aged dogs with no underlying structural brain lesion.",
+      "symptoms": [
+        "Generalised seizures (paddling, loss of consciousness)",
+        "Focal seizures (facial twitching, fly-biting)",
+        "Post-ictal confusion",
+        "Sudden falling",
+        "Cluster seizures"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Anticonvulsant drugs (phenobarbital, potassium bromide, levetiracetam) control seizures in the majority of cases. Treatment is lifelong. Cluster seizures and status epilepticus require emergency treatment.",
+      "prevention_tips": [
+        "DNA testing available for several breeds",
+        "Avoid breeding affected dogs with idiopathic epilepsy"
+      ],
+      "affected_breeds": [
+        "border-collie",
+        "labrador-retriever",
+        "golden-retriever",
+        "beagle",
+        "german-shepherd",
+        "belgian-shepherd"
+      ],
+      "typical_onset": "1-5 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£500-£2,000/year"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Rhodesian Ridgeback",
+      "slug": "rhodesian-ridgeback",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Bloodhound",
+      "slug": "bloodhound",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Whippet",
+      "slug": "whippet",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Borzoi",
+      "slug": "borzoi",
+      "size": "large",
+      "group": "Hound"
+    }
+  ],
+  "comparisons": []
+}

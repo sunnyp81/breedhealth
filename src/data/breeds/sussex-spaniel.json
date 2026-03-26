@@ -1,0 +1,182 @@
+{
+  "name": "Sussex Spaniel",
+  "slug": "sussex-spaniel",
+  "group": "Sporting",
+  "size": "medium",
+  "weight_min_kg": 16,
+  "weight_max_kg": 20,
+  "height_min_cm": 33,
+  "height_max_cm": 38,
+  "lifespan_min": 13,
+  "lifespan_max": 15,
+  "temperament": [
+    "friendly",
+    "determined",
+    "mellow",
+    "happy"
+  ],
+  "health_issues": [
+    "cardiac-conditions",
+    "intervertebral-disc-disease",
+    "otitis-externa",
+    "pulmonic-stenosis"
+  ],
+  "exercise_level": 2,
+  "grooming_level": 3,
+  "shedding_level": 2,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 146,
+  "origin": "United Kingdom",
+  "coat_type": "silky",
+  "coat_colors": [
+    "golden-liver"
+  ],
+  "description": "The Sussex Spaniel is a rare and ancient breed from Sussex, England, known for its distinctive golden-liver coat and its habit of giving tongue while hunting, unlike most spaniels. They are lower to the ground than most spaniels with a rolling gait and a solemn expression that belies their friendly and cheerful personality. Laid-back and devoted, they make excellent family companions for those who prefer a calmer, less frenetic sporting breed.",
+  "conditions_detail": [
+    {
+      "name": "Intervertebral Disc Disease (IVDD)",
+      "slug": "intervertebral-disc-disease",
+      "category": "Orthopedic",
+      "description": "IVDD occurs when the cushioning discs between vertebrae degenerate and herniate, pressing on the spinal cord. Chondrodystrophic breeds are predisposed due to premature disc mineralisation. Can cause pain, paralysis, or loss of bladder control.",
+      "symptoms": [
+        "Back or neck pain",
+        "Reluctance to move",
+        "Weakness or paralysis in limbs",
+        "Loss of bladder or bowel control",
+        "Yelping when touched"
+      ],
+      "severity": "high",
+      "treatment_overview": "Mild cases are managed with strict rest and anti-inflammatory medication. Severe cases with neurological deficits require emergency spinal surgery within 24-48 hours for best outcomes.",
+      "prevention_tips": [
+        "Use ramps instead of stairs for short-legged breeds",
+        "Maintain healthy weight",
+        "Avoid high-impact activities",
+        "Support the back when lifting"
+      ],
+      "affected_breeds": [
+        "dachshund",
+        "french-bulldog",
+        "beagle",
+        "basset-hound",
+        "cocker-spaniel",
+        "shih-tzu"
+      ],
+      "typical_onset": "3-7 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£3,000-£8,000"
+    },
+    {
+      "name": "Otitis Externa (Ear Infections)",
+      "slug": "otitis-externa",
+      "category": "Ear",
+      "description": "Otitis externa is inflammation of the external ear canal, usually caused by bacterial or yeast (Malassezia) overgrowth secondary to underlying factors such as allergies, foreign bodies, or conformational abnormalities. It is the most common reason for veterinary visits.",
+      "symptoms": [
+        "Head shaking",
+        "Scratching at ear",
+        "Ear odour",
+        "Discharge (brown, black, or yellow)",
+        "Pain on ear handling",
+        "Head tilt in severe cases"
+      ],
+      "severity": "low",
+      "treatment_overview": "Treatment involves thorough ear cleaning and topical ear drops containing antimicrobial and anti-inflammatory agents. Chronic or recurrent cases require investigation of underlying causes such as allergies.",
+      "prevention_tips": [
+        "Regular ear inspection and gentle cleaning",
+        "Dry ears thoroughly after swimming or bathing",
+        "Treat allergies to prevent recurrent infections",
+        "Regular grooming of ear hair in predisposed breeds"
+      ],
+      "affected_breeds": [
+        "cocker-spaniel",
+        "basset-hound",
+        "labrador-retriever",
+        "golden-retriever",
+        "poodle",
+        "shar-pei"
+      ],
+      "typical_onset": "Any age",
+      "hereditary": false,
+      "estimated_treatment_cost": "£150-£500/episode"
+    },
+    {
+      "name": "Pulmonic Stenosis",
+      "slug": "pulmonic-stenosis",
+      "category": "Cardiac",
+      "description": "Pulmonic stenosis is a congenital narrowing of the pulmonary valve or surrounding tissue that restricts blood flow from the right ventricle to the lungs. Mild cases are well tolerated; severe cases cause right-sided heart failure.",
+      "symptoms": [
+        "Heart murmur",
+        "Exercise intolerance",
+        "Abdominal distension",
+        "Fainting",
+        "Respiratory distress"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Mild to moderate cases are monitored. Severe cases are treated with balloon valvuloplasty, which is highly effective in reducing the pressure gradient and improving prognosis.",
+      "prevention_tips": [
+        "Cardiac clearance before breeding",
+        "Avoid breeding affected dogs"
+      ],
+      "affected_breeds": [
+        "english-bulldog",
+        "boxer",
+        "beagle",
+        "miniature-schnauzer",
+        "cocker-spaniel",
+        "samoyed"
+      ],
+      "typical_onset": "Birth-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£3,000-£6,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Weight Management",
+      "slug": "weight-management"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "German Shorthaired Pointer",
+      "slug": "german-shorthaired-pointer",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Vizsla",
+      "slug": "vizsla",
+      "size": "medium",
+      "group": "Sporting"
+    }
+  ],
+  "comparisons": []
+}

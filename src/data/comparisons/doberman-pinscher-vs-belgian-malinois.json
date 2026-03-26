@@ -1,0 +1,176 @@
+{
+  "slug": "doberman-pinscher-vs-belgian-malinois",
+  "breed_a": {
+    "name": "Doberman Pinscher",
+    "slug": "doberman-pinscher",
+    "group": "Working",
+    "size": "large",
+    "weight_min_kg": 27,
+    "weight_max_kg": 45,
+    "height_min_cm": 61,
+    "height_max_cm": 72,
+    "lifespan_min": 10,
+    "lifespan_max": 13,
+    "temperament": [
+      "fearless",
+      "loyal",
+      "alert",
+      "obedient",
+      "intelligent"
+    ],
+    "health_issues": [
+      "dilated-cardiomyopathy",
+      "von-willebrands-disease",
+      "hip-dysplasia",
+      "wobbler-syndrome",
+      "hypothyroidism"
+    ],
+    "exercise_level": 5,
+    "grooming_level": 1,
+    "shedding_level": 2,
+    "trainability": 5,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 19,
+    "origin": "Germany",
+    "coat_type": "short smooth",
+    "coat_colors": [
+      "black and rust",
+      "red and rust",
+      "blue and rust",
+      "fawn and rust"
+    ],
+    "description": "Created in the 1890s by German tax collector Karl Friedrich Louis Dobermann, who wanted a loyal and intimidating protection dog for his rounds collecting taxes in rough neighborhoods, the Doberman Pinscher was purpose-built for intelligence and courage. Modern Dobermans have been selectively bred toward a more stable, family-friendly temperament while fully retaining their natural alertness and trainability, consistently ranking among the most responsive and biddable of all breeds. Dilated cardiomyopathy is a serious breed-wide concern requiring regular echocardiographic screening."
+  },
+  "breed_b": {
+    "name": "Belgian Malinois",
+    "slug": "belgian-malinois",
+    "group": "Herding",
+    "size": "large",
+    "weight_min_kg": 18,
+    "weight_max_kg": 34,
+    "height_min_cm": 56,
+    "height_max_cm": 66,
+    "lifespan_min": 14,
+    "lifespan_max": 16,
+    "temperament": [
+      "confident",
+      "alert",
+      "hardworking",
+      "loyal",
+      "energetic"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "progressive-retinal-atrophy",
+      "cataracts",
+      "epilepsy"
+    ],
+    "exercise_level": 5,
+    "grooming_level": 2,
+    "shedding_level": 3,
+    "trainability": 5,
+    "good_with_children": false,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 42,
+    "origin": "Belgium",
+    "coat_type": "short straight double",
+    "coat_colors": [
+      "fawn",
+      "fawn sable",
+      "mahogany",
+      "red",
+      "red sable"
+    ],
+    "description": "The Belgian Malinois has become the preferred working dog of military and law enforcement agencies worldwide — including the U.S. Navy SEALs — due to its extraordinary drive, athleticism, and trainability in a lighter and more agile frame than the German Shepherd. One of four Belgian herding breeds, the Malinois is an intense, high-octane dog that requires multiple hours of structured work and stimulation per day, making it categorically unsuitable as a pet for typical families or inexperienced owners. Without proper channeling of their exceptional drive and bite-work capability, they can become difficult or dangerous through boredom and frustration."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 10,
+      "breed_b_value": 14,
+      "winner": "belgian-malinois"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 13,
+      "breed_b_value": 16,
+      "winner": "belgian-malinois"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 27,
+      "breed_b_value": 18,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 45,
+      "breed_b_value": 34,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 61,
+      "breed_b_value": 56,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 72,
+      "breed_b_value": 66,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 1,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 2,
+      "breed_b_value": 3,
+      "winner": "doberman-pinscher"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": false,
+      "winner": "doberman-pinscher"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

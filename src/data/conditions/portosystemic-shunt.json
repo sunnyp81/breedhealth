@@ -1,0 +1,69 @@
+{
+  "name": "Portosystemic Shunt",
+  "slug": "portosystemic-shunt",
+  "category": "Gastrointestinal",
+  "description": "A portosystemic shunt (PSS) is an abnormal blood vessel that allows blood from the gastrointestinal tract to bypass the liver, preventing detoxification. Toxins accumulate in the bloodstream causing hepatic encephalopathy. Congenital shunts are hereditary.",
+  "symptoms": [
+    "Stunted growth",
+    "Neurological signs after eating (circling, head pressing)",
+    "Seizures",
+    "Excessive salivation",
+    "Increased thirst and urination",
+    "Urinary crystals"
+  ],
+  "severity": "high",
+  "treatment_overview": "Surgical closure or attenuation of the shunt using an ameroid constrictor or cellophane band is the definitive treatment. Medical management with lactulose, antibiotics, and protein-modified diet is used pre-operatively and in non-surgical cases.",
+  "prevention_tips": [
+    "Do not breed from affected dogs or close relatives",
+    "Genetic testing under investigation"
+  ],
+  "affected_breeds": [
+    "yorkshire-terrier",
+    "maltese",
+    "cairn-terrier",
+    "pug",
+    "miniature-schnauzer",
+    "irish-wolfhound"
+  ],
+  "typical_onset": "Under 2 years (congenital)",
+  "hereditary": true,
+  "estimated_treatment_cost": "£3,000-£7,000",
+  "breeds_detail": [
+    {
+      "name": "Yorkshire Terrier",
+      "slug": "yorkshire-terrier",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Maltese",
+      "slug": "maltese",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Cairn Terrier",
+      "slug": "cairn-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Pug",
+      "slug": "pug",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Irish Wolfhound",
+      "slug": "irish-wolfhound",
+      "size": "giant",
+      "group": "Hound"
+    }
+  ]
+}

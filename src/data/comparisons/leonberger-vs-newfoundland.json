@@ -1,0 +1,175 @@
+{
+  "slug": "leonberger-vs-newfoundland",
+  "breed_a": {
+    "name": "Leonberger",
+    "slug": "leonberger",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 41,
+    "weight_max_kg": 77,
+    "height_min_cm": 65,
+    "height_max_cm": 80,
+    "lifespan_min": 8,
+    "lifespan_max": 9,
+    "temperament": [
+      "friendly",
+      "obedient",
+      "fearless",
+      "gentle",
+      "patient"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "leonberger-polyneuropathy",
+      "bloat",
+      "osteosarcoma"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 4,
+    "shedding_level": 4,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 80,
+    "origin": "Germany",
+    "coat_type": "long double",
+    "coat_colors": [
+      "lion yellow",
+      "golden",
+      "red",
+      "red-brown"
+    ],
+    "description": "The Leonberger was created in the German city of Leonberg in the 1840s by mayor Heinrich Essig, who deliberately bred Saint Bernards, Newfoundlands, and Great Pyrenees together with the goal of producing a dog resembling the lion on the town's coat of arms. These magnificent, lion-maned dogs became popular with European royalty, owned by Napoleon II, Empress Elizabeth of Austria, and the Prince of Wales, before World War I and II almost wiped the breed out twice. Leonbergers are gentle, patient family dogs but their enormous size and relatively short lifespan of 8 to 9 years are important considerations for prospective owners."
+  },
+  "breed_b": {
+    "name": "Newfoundland",
+    "slug": "newfoundland",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 45,
+    "weight_max_kg": 68,
+    "height_min_cm": 66,
+    "height_max_cm": 71,
+    "lifespan_min": 9,
+    "lifespan_max": 10,
+    "temperament": [
+      "sweet",
+      "patient",
+      "devoted",
+      "gentle",
+      "trainable"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "subvalvular-aortic-stenosis",
+      "bloat",
+      "cystinuria"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 4,
+    "shedding_level": 4,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 41,
+    "origin": "Canada",
+    "coat_type": "long thick double",
+    "coat_colors": [
+      "black",
+      "brown",
+      "gray",
+      "black and white"
+    ],
+    "description": "Developed by fishermen on the island of Newfoundland as a working water dog capable of hauling nets and rescuing drowning sailors in icy Atlantic waters, the Newfoundland has webbed feet and a water-resistant double coat perfectly adapted for cold-water swimming. Famously patient and gentle with children, J.M. Barrie immortalized the breed as Nana the nursemaid dog in Peter Pan, a portrayal that resonates with Newf owners who know the breed's natural watchfulness over children. Their enormous size makes early obedience training essential before they become too powerful to manage safely on a leash."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 8,
+      "breed_b_value": 9,
+      "winner": "newfoundland"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 9,
+      "breed_b_value": 10,
+      "winner": "newfoundland"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 41,
+      "breed_b_value": 45,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 77,
+      "breed_b_value": 68,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 65,
+      "breed_b_value": 66,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 80,
+      "breed_b_value": 71,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 4,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

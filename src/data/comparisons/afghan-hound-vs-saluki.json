@@ -1,0 +1,180 @@
+{
+  "slug": "afghan-hound-vs-saluki",
+  "breed_a": {
+    "name": "Afghan Hound",
+    "slug": "afghan-hound",
+    "group": "Hound",
+    "size": "large",
+    "weight_min_kg": 23,
+    "weight_max_kg": 27,
+    "height_min_cm": 63,
+    "height_max_cm": 74,
+    "lifespan_min": 12,
+    "lifespan_max": 14,
+    "temperament": [
+      "aloof",
+      "clownish",
+      "dignified",
+      "happy"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "cataracts",
+      "hypothyroidism",
+      "allergies",
+      "anesthesia-sensitivity"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 5,
+    "shedding_level": 2,
+    "trainability": 1,
+    "good_with_children": false,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 169,
+    "origin": "Afghanistan",
+    "coat_type": "long",
+    "coat_colors": [
+      "black",
+      "red",
+      "cream",
+      "blue",
+      "brindle",
+      "white",
+      "domino"
+    ],
+    "description": "The Afghan Hound is one of the most visually stunning dogs in the world, with its long, silky, flowing coat, aristocratic bearing, and exotic Eastern appearance making it a perennial showstopper in the show ring. Among the oldest of all dog breeds, the Afghan originated in the mountains of Afghanistan where its thick, long coat protected it from extreme cold while its exceptional speed and agility allowed it to course leopard and deer over rugged mountain terrain. The Afghan's independent, cat-like personality makes it notoriously difficult to train, but its unique beauty and aloof elegance attract devoted admirers worldwide."
+  },
+  "breed_b": {
+    "name": "Saluki",
+    "slug": "saluki",
+    "group": "Hound",
+    "size": "medium",
+    "weight_min_kg": 16,
+    "weight_max_kg": 29,
+    "height_min_cm": 58,
+    "height_max_cm": 71,
+    "lifespan_min": 12,
+    "lifespan_max": 14,
+    "temperament": [
+      "gentle",
+      "reserved",
+      "sensitive",
+      "aloof",
+      "loyal"
+    ],
+    "health_issues": [
+      "cardiac-problems",
+      "progressive-retinal-atrophy",
+      "hip-dysplasia",
+      "hypothyroidism",
+      "anesthesia-sensitivity"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 2,
+    "shedding_level": 2,
+    "trainability": 2,
+    "good_with_children": false,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 72,
+    "origin": "Middle East",
+    "coat_type": "smooth or feathered short",
+    "coat_colors": [
+      "white",
+      "cream",
+      "fawn",
+      "golden",
+      "red",
+      "grizzle and tan",
+      "black and tan"
+    ],
+    "description": "The Saluki is one of the oldest and most ancient of all breeds, with depictions in Egyptian tombs dating back 4,000 years and references in ancient Islamic texts that gave the breed near-holy status as a gift from Allah. Used across the Middle East and Central Asia by nomadic peoples and royalty alike to coursing gazelle and hare at speeds of up to 68 km/h, the Saluki's slender, aerodynamic build and long double-suspension gallop are optimized for pursuit over vast open terrain. They are gentle, affectionate, and deeply loyal to their families but carry the independent, reserved character typical of all coursing sight hounds."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 12,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 14,
+      "breed_b_value": 14,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 23,
+      "breed_b_value": 16,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 27,
+      "breed_b_value": 29,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 63,
+      "breed_b_value": 58,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 74,
+      "breed_b_value": 71,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 5,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 2,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 1,
+      "breed_b_value": 2,
+      "winner": "saluki"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

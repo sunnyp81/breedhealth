@@ -1,0 +1,182 @@
+{
+  "name": "Polish Lowland Sheepdog",
+  "slug": "polish-lowland-sheepdog",
+  "group": "Herding",
+  "size": "medium",
+  "weight_min_kg": 14,
+  "weight_max_kg": 16,
+  "height_min_cm": 42,
+  "height_max_cm": 50,
+  "lifespan_min": 12,
+  "lifespan_max": 14,
+  "temperament": [
+    "lively",
+    "confident",
+    "perceptive",
+    "stubborn"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "progressive-retinal-atrophy",
+    "hypothyroidism"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 4,
+  "shedding_level": 2,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 130,
+  "origin": "Poland",
+  "coat_type": "long",
+  "coat_colors": [
+    "white",
+    "white-with-black",
+    "white-with-gray",
+    "chocolate"
+  ],
+  "description": "The Polish Lowland Sheepdog, known in Poland as the PON (Polski Owczarek Nizinny), is a hardworking herding breed with a thick, shaggy double coat. They possess an excellent memory and a strong herding instinct that can extend to family members. Their confident and tenacious nature makes them best suited for experienced dog owners who can provide consistent training.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Progressive Retinal Atrophy (PRA)",
+      "slug": "progressive-retinal-atrophy",
+      "category": "Eye",
+      "description": "PRA is a group of hereditary diseases causing progressive degeneration of the photoreceptor cells in the retina. It leads to night blindness first, followed by complete blindness. There is no treatment, but DNA tests exist for many forms.",
+      "symptoms": [
+        "Night blindness (early sign)",
+        "Reluctance to enter dark rooms",
+        "Dilated pupils",
+        "Reduced daytime vision",
+        "Reflective eye shine (tapetal hyperreflectivity)"
+      ],
+      "severity": "high",
+      "treatment_overview": "There is no effective treatment or cure for PRA. Management focuses on adapting the dog's environment to maintain quality of life as vision deteriorates.",
+      "prevention_tips": [
+        "DNA test breeding stock before mating",
+        "Only breed clear or carrier-to-clear pairings",
+        "Annual ophthalmology screening (BVA/KC scheme)"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "cocker-spaniel",
+        "miniature-poodle",
+        "irish-setter",
+        "border-collie",
+        "tibetan-terrier"
+      ],
+      "typical_onset": "3-8 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£0 (management only)"
+    },
+    {
+      "name": "Hypothyroidism",
+      "slug": "hypothyroidism",
+      "category": "Endocrine",
+      "description": "Hypothyroidism is the most common endocrine disorder in dogs, caused by reduced thyroid hormone production — most often from immune-mediated thyroiditis or idiopathic follicular atrophy. It affects metabolism, skin, and coat quality.",
+      "symptoms": [
+        "Weight gain without diet change",
+        "Lethargy",
+        "Cold intolerance",
+        "Bilateral symmetrical hair loss",
+        "Thickened skin",
+        "Ear infections"
+      ],
+      "severity": "low",
+      "treatment_overview": "Daily oral thyroxine (levothyroxine) supplementation is highly effective and required for life. Dosing is adjusted based on thyroid level monitoring every 6-12 months.",
+      "prevention_tips": [
+        "No proven prevention",
+        "Regular blood screening in at-risk breeds from age 4"
+      ],
+      "affected_breeds": [
+        "golden-retriever",
+        "dobermann",
+        "irish-setter",
+        "miniature-schnauzer",
+        "cocker-spaniel",
+        "airedale-terrier"
+      ],
+      "typical_onset": "4-10 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£300-£800/year"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Pembroke Welsh Corgi",
+      "slug": "pembroke-welsh-corgi",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Australian Shepherd",
+      "slug": "australian-shepherd",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Shetland Sheepdog",
+      "slug": "shetland-sheepdog",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Border Collie",
+      "slug": "border-collie",
+      "size": "medium",
+      "group": "Herding"
+    }
+  ],
+  "comparisons": []
+}

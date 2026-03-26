@@ -1,0 +1,322 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
+import ConditionSeverityBadge from '../../../../components/ConditionSeverityBadge.astro';
+import AffiliateProductCard from '../../../../components/AffiliateProductCard.astro';
+import InsuranceCTA from '../../../../components/InsuranceCTA.astro';
+
+import { getAllBreeds, getBreed, getCondition } from '../../../../lib/data';
+import { generateConditionCopy } from '../../../../lib/copy';
+import {
+  generateMedicalConditionSchema,
+  generateBreadcrumbSchema,
+} from '../../../../lib/schema';
+
+import type { GetStaticPaths } from 'astro';
+import type { Breed, Condition } from '../../../../lib/types';
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const breeds = await getAllBreeds();
+
+  const paths: { params: { breed: string; condition: string }; props: { breedSlug: string; conditionSlug: string } }[] = [];
+
+  for (const summary of breeds) {
+    const breed = await getBreed(summary.slug);
+    if (!breed) continue;
+
+    for (const conditionSlug of breed.health_issues) {
+      const cond = await getCondition(conditionSlug);
+      if (!cond) continue; // skip conditions that don't exist in conditions.json
+      paths.push({
+        params: { breed: summary.slug, condition: conditionSlug },
+        props: { breedSlug: summary.slug, conditionSlug },
+      });
+    }
+  }
+
+  return paths;
+};
+
+interface Props {
+  breedSlug: string;
+  conditionSlug: string;
+}
+
+const { breedSlug, conditionSlug } = Astro.props;
+
+const [breed, condition] = await Promise.all([
+  getBreed(breedSlug),
+  getCondition(conditionSlug),
+]);
+
+if (!breed || !condition) return Astro.redirect('/breeds/');
+
+const siteUrl = 'https://breedhealth.co.uk';
+const pageUrl = `${siteUrl}/breeds/${breed.slug}/health/${condition.slug}/`;
+
+const conditionCopy = generateConditionCopy(breed, condition);
+
+const medicalSchema = generateMedicalConditionSchema(condition, pageUrl);
+const breadcrumbSchema = generateBreadcrumbSchema([
+  { name: 'Home',   url: `${siteUrl}/` },
+  { name: 'Breeds', url: `${siteUrl}/breeds/` },
+  { name: breed.name, url: `${siteUrl}/breeds/${breed.slug}/` },
+  { name: 'Health', url: `${siteUrl}/breeds/${breed.slug}/health/` },
+  { name: condition.name, url: pageUrl },
+]);
+
+const breadcrumbItems = [
+  { name: 'Home',   url: '/' },
+  { name: 'Breeds', url: '/breeds/' },
+  { name: breed.name, url: `/breeds/${breed.slug}/` },
+  { name: 'Health', url: `/breeds/${breed.slug}/health/` },
+  { name: condition.name, url: `/breeds/${breed.slug}/health/${condition.slug}/` },
+];
+
+// Two condition-relevant affiliate products
+const affiliateProducts = [
+  {
+    category: (condition.category?.toLowerCase().includes('orthopaedic') ||
+               condition.category?.toLowerCase().includes('joint') ||
+               condition.name.toLowerCase().includes('dysplasia') ||
+               condition.name.toLowerCase().includes('arthritis'))
+      ? 'supplement' as const
+      : 'food' as const,
+    title: condition.category?.toLowerCase().includes('orthopaedic') ||
+           condition.name.toLowerCase().includes('dysplasia') ||
+           condition.name.toLowerCase().includes('arthritis')
+      ? `Joint Health Supplement for ${breed.name}s`
+      : `Condition-Support Diet for ${breed.name}s`,
+    description: condition.category?.toLowerCase().includes('orthopaedic') ||
+                 condition.name.toLowerCase().includes('dysplasia')
+      ? `A vet-recommended joint supplement containing glucosamine, chondroitin, and omega-3s to support ${breed.name}s prone to ${condition.name}.`
+      : `A diet formulation designed to support ${breed.name}s managing ${condition.name}. Formulated with high-quality protein and easily digestible ingredients.`,
+  },
+  {
+    category: 'supplement' as const,
+    title: `Health Monitoring Support for ${breed.name}s`,
+    description: `${breed.name}s with ${condition.name} benefit from consistent supplementation. This vet-formulated blend supports overall wellbeing and may complement prescribed treatment.`,
+  },
+];
+---
+
+<BaseLayout
+  title={`${condition.name} in ${breed.name}s — Symptoms & Treatment | BreedHealth`}
+  description={`${condition.name} in ${breed.name}s: symptoms to watch for, treatment options, prevention tips, and estimated costs. Expert vet information for ${breed.name} owners.`}
+  canonicalUrl={pageUrl}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(medicalSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  </Fragment>
+
+  <!-- Breadcrumbs -->
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Page heading -->
+  <div class="mt-4 mb-6">
+    <div class="flex flex-wrap items-center gap-3 mb-3">
+      <h1 class="text-3xl sm:text-4xl font-bold text-primary leading-tight">
+        {condition.name} in {breed.name}s
+      </h1>
+      <ConditionSeverityBadge severity={condition.severity} />
+    </div>
+
+    <!-- Meta strip -->
+    <div class="flex flex-wrap gap-x-5 gap-y-2 text-sm text-text-muted">
+      {condition.category && (
+        <span>Category: <strong class="text-text">{condition.category}</strong></span>
+      )}
+      {condition.typical_onset && (
+        <span>Typical onset: <strong class="text-text">{condition.typical_onset}</strong></span>
+      )}
+      {condition.hereditary !== undefined && (
+        <span>Hereditary: <strong class="text-text">{condition.hereditary ? 'Yes' : 'No'}</strong></span>
+      )}
+      {condition.estimated_treatment_cost && (
+        <span>Est. treatment cost: <strong class="text-text">{condition.estimated_treatment_cost}</strong></span>
+      )}
+    </div>
+  </div>
+
+  <!-- Main copy -->
+  <div class="prose prose-text max-w-3xl mb-8">
+    <p class="text-text-muted leading-relaxed text-lg">{conditionCopy}</p>
+  </div>
+
+  <!-- Symptoms checklist -->
+  {condition.symptoms && condition.symptoms.length > 0 && (
+    <section aria-labelledby="symptoms-heading" class="mb-8">
+      <h2 id="symptoms-heading" class="text-2xl font-bold text-primary mb-4">
+        Symptoms of {condition.name} in {breed.name}s
+      </h2>
+      <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2" role="list">
+        {condition.symptoms.map((symptom) => (
+          <li class="flex items-start gap-2.5 p-3 bg-white border border-border rounded-lg text-sm text-text">
+            <span
+              class="flex-shrink-0 w-5 h-5 rounded-full bg-red-50 border border-red-200 flex items-center justify-center mt-0.5"
+              aria-hidden="true"
+            >
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="12" y1="8" x2="12" y2="12"/>
+                <line x1="12" y1="16" x2="12.01" y2="16"/>
+              </svg>
+            </span>
+            {symptom}
+          </li>
+        ))}
+      </ul>
+      <p class="mt-3 text-xs text-text-light">
+        If your {breed.name} is showing any of these signs, consult your veterinarian promptly.
+      </p>
+    </section>
+  )}
+
+  <!-- Treatment overview -->
+  {condition.treatment_overview && (
+    <section aria-labelledby="treatment-heading" class="mb-8">
+      <h2 id="treatment-heading" class="text-2xl font-bold text-primary mb-4">
+        Treatment Options
+      </h2>
+      <div class="p-5 bg-white border border-border rounded-xl">
+        <p class="text-text-muted leading-relaxed">{condition.treatment_overview}</p>
+
+        {condition.estimated_treatment_cost && (
+          <div class="mt-4 pt-4 border-t border-border flex items-start gap-3">
+            <div class="flex-shrink-0 w-8 h-8 rounded-lg bg-amber-50 border border-amber-200 flex items-center justify-center" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b7791f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="1" x2="12" y2="23"/>
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+              </svg>
+            </div>
+            <div>
+              <p class="text-xs font-semibold uppercase tracking-wide text-text-light mb-0.5">Estimated Treatment Cost</p>
+              <p class="text-sm font-bold text-text">{condition.estimated_treatment_cost}</p>
+              <p class="text-xs text-text-light mt-0.5">Costs vary by severity, location, and treatment path. Pet insurance is strongly recommended.</p>
+            </div>
+          </div>
+        )}
+      </div>
+    </section>
+  )}
+
+  <!-- Prevention tips -->
+  {condition.prevention_tips && condition.prevention_tips.length > 0 && (
+    <section aria-labelledby="prevention-heading" class="mb-8">
+      <h2 id="prevention-heading" class="text-2xl font-bold text-primary mb-4">
+        Prevention &amp; Management
+      </h2>
+      <ul class="space-y-2" role="list">
+        {condition.prevention_tips.map((tip) => (
+          <li class="flex items-start gap-3 p-3 bg-white border border-border rounded-lg text-sm text-text">
+            <span
+              class="flex-shrink-0 w-5 h-5 rounded-full bg-green-50 border border-green-200 flex items-center justify-center mt-0.5"
+              aria-hidden="true"
+            >
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#27ae60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+            </span>
+            {tip}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <!-- Condition-relevant affiliate products -->
+  <section aria-labelledby="products-heading" class="mb-8">
+    <h2 id="products-heading" class="text-xl font-bold text-primary mb-4">
+      Recommended Products
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      {affiliateProducts.map((product) => (
+        <AffiliateProductCard
+          title={product.title}
+          description={product.description}
+          category={product.category}
+        />
+      ))}
+    </div>
+  </section>
+
+  <!-- Insurance CTA -->
+  <div class="mb-8">
+    <InsuranceCTA breedName={breed.name} />
+  </div>
+
+  <!-- Other breeds affected -->
+  {condition.breeds_detail && condition.breeds_detail.length > 1 && (
+    <section aria-labelledby="other-breeds-heading" class="mb-8">
+      <h2 id="other-breeds-heading" class="text-xl font-bold text-primary mb-4">
+        Other Breeds Affected by {condition.name}
+      </h2>
+      <ul class="flex flex-wrap gap-2" role="list">
+        {condition.breeds_detail
+          .filter((b) => b.slug !== breed.slug)
+          .map((affectedBreed) => (
+            <li>
+              <a
+                href={`/breeds/${affectedBreed.slug}/health/${condition.slug}/`}
+                class="inline-flex items-center px-3.5 py-1.5 bg-white border border-border rounded-full text-sm font-medium text-text hover:text-primary hover:border-primary transition-colors no-underline"
+              >
+                {affectedBreed.name}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+      <p class="mt-3 text-xs text-text-light">
+        Prevalence and severity can vary significantly between breeds.
+      </p>
+    </section>
+  )}
+
+  {/* Fallback: use affected_breeds slugs if breeds_detail not available */}
+  {(!condition.breeds_detail || condition.breeds_detail.length <= 1) &&
+   condition.affected_breeds && condition.affected_breeds.length > 1 && (
+    <section aria-labelledby="other-breeds-heading" class="mb-8">
+      <h2 id="other-breeds-heading" class="text-xl font-bold text-primary mb-4">
+        Other Breeds Affected by {condition.name}
+      </h2>
+      <ul class="flex flex-wrap gap-2" role="list">
+        {condition.affected_breeds
+          .filter((slug) => slug !== breed.slug)
+          .map((affectedSlug) => (
+            <li>
+              <a
+                href={`/breeds/${affectedSlug}/health/${condition.slug}/`}
+                class="inline-flex items-center px-3.5 py-1.5 bg-white border border-border rounded-full text-sm font-medium text-text hover:text-primary hover:border-primary transition-colors no-underline capitalize"
+              >
+                {affectedSlug.replace(/-/g, ' ')}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  )}
+
+  <!-- Navigation links -->
+  <div class="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
+    <a
+      href={`/breeds/${breed.slug}/health/`}
+      class="inline-flex items-center gap-2 px-4 py-2.5 bg-bg-alt border border-border rounded-lg text-sm font-medium text-text hover:text-primary hover:border-primary transition-colors no-underline"
+    >
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      All {breed.name} Health Conditions
+    </a>
+    <a
+      href={`/conditions/${condition.slug}/`}
+      class="inline-flex items-center gap-2 px-4 py-2.5 bg-bg-alt border border-border rounded-lg text-sm font-medium text-text hover:text-primary hover:border-primary transition-colors no-underline"
+    >
+      {condition.name} — Full Condition Hub
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </div>
+</BaseLayout>

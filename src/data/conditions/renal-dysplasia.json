@@ -1,0 +1,56 @@
+{
+  "name": "Renal Dysplasia",
+  "slug": "renal-dysplasia",
+  "category": "Urinary",
+  "description": "Renal dysplasia is a hereditary condition where the kidneys develop abnormally, with immature or disorganised tissue. Affected puppies develop progressive renal failure at a young age. The severity varies from subclinical to fatal early-onset kidney failure.",
+  "symptoms": [
+    "Failure to thrive",
+    "Increased thirst and urination",
+    "Vomiting",
+    "Poor coat",
+    "Stunted growth",
+    "Signs of uraemia in severe cases"
+  ],
+  "severity": "high",
+  "treatment_overview": "There is no cure. Medical management follows CKD protocols — dietary modification, phosphate binders, and supportive care. Many affected dogs are euthanised at a young age due to severe renal failure.",
+  "prevention_tips": [
+    "DNA test available for Shih Tzu and Lhasa Apso forms",
+    "Renal biopsy of breeding stock in predisposed breeds before mating"
+  ],
+  "affected_breeds": [
+    "shih-tzu",
+    "lhasa-apso",
+    "chow-chow",
+    "alaskan-malamute",
+    "standard-poodle"
+  ],
+  "typical_onset": "Under 2 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£1,000-£3,000/year",
+  "breeds_detail": [
+    {
+      "name": "Shih Tzu",
+      "slug": "shih-tzu",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Chow Chow",
+      "slug": "chow-chow",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Alaskan Malamute",
+      "slug": "alaskan-malamute",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Soft Coated Wheaten Terrier",
+      "slug": "soft-coated-wheaten-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    }
+  ]
+}

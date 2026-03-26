@@ -1,0 +1,36 @@
+{
+  "name": "Malignant Hyperthermia",
+  "slug": "malignant-hyperthermia",
+  "category": "Neurological",
+  "description": "Malignant hyperthermia is a rare, life-threatening pharmacogenetic disorder triggered by certain anaesthetic agents (halothane, succinylcholine) causing uncontrolled skeletal muscle metabolism and a dangerous rise in body temperature.",
+  "symptoms": [
+    "Rapid rise in body temperature under anaesthesia",
+    "Muscle rigidity",
+    "Rapid heart rate",
+    "Metabolic acidosis",
+    "Cardiac arrhythmias",
+    "Death if untreated"
+  ],
+  "severity": "high",
+  "treatment_overview": "Emergency treatment with dantrolene IV, stopping triggering anaesthetic agents, cooling measures, and correction of metabolic disturbances. Prompt recognition and intervention is life-saving.",
+  "prevention_tips": [
+    "Genetic test available for dogs with family history",
+    "Inform anaesthetist of at-risk status",
+    "Use total intravenous anaesthesia (TIVA) protocols for known affected dogs"
+  ],
+  "affected_breeds": [
+    "greyhound",
+    "labrador-retriever"
+  ],
+  "typical_onset": "Any age (anaesthesia-triggered)",
+  "hereditary": true,
+  "estimated_treatment_cost": "£2,000-£5,000",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Discospondylitis",
+  "slug": "discospondylitis",
+  "category": "Orthopedic",
+  "description": "Discospondylitis is infection of the intervertebral disc space and adjacent vertebral endplates, most commonly bacterial. It causes severe pain and progressive neurological deficits as infection erodes bone and compresses the spinal cord.",
+  "symptoms": [
+    "Back pain",
+    "Fever",
+    "Progressive hindlimb weakness",
+    "Reluctance to move",
+    "Neck pain in cervical cases",
+    "Weight loss"
+  ],
+  "severity": "high",
+  "treatment_overview": "Prolonged antibiotic therapy (minimum 6-8 weeks) based on blood culture results is the cornerstone. Surgical decompression is needed when medical therapy fails or there is severe neurological compromise.",
+  "prevention_tips": [
+    "Treat urinary tract infections and skin infections promptly",
+    "Regular dental care reduces bacteraemia"
+  ],
+  "affected_breeds": [
+    "great-dane",
+    "german-shepherd",
+    "labrador-retriever",
+    "dobermann"
+  ],
+  "typical_onset": "2-8 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,500-£4,000",
+  "breeds_detail": [
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    }
+  ]
+}

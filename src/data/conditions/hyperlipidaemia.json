@@ -1,0 +1,48 @@
+{
+  "name": "Hyperlipidaemia",
+  "slug": "hyperlipidaemia",
+  "category": "Endocrine",
+  "description": "Hyperlipidaemia is an abnormal elevation of fats (triglycerides or cholesterol) in the blood. It can be primary (hereditary) or secondary to hypothyroidism, diabetes, Cushing's, or high-fat diets. It predisposes to pancreatitis and atherosclerosis.",
+  "symptoms": [
+    "Lipid deposits in eyes (lipid arcus)",
+    "Recurrent pancreatitis",
+    "Abdominal discomfort",
+    "Fatty deposits under skin",
+    "Often no signs detected except on blood test"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Underlying causes must be treated. Dietary management with low-fat diet is central. Omega-3 fatty acids reduce triglycerides. Drug therapy (fibrates, niacin) is used in primary forms.",
+  "prevention_tips": [
+    "Feed low-fat diet in predisposed breeds",
+    "Regular blood lipid monitoring in at-risk breeds"
+  ],
+  "affected_breeds": [
+    "miniature-schnauzer",
+    "beagle",
+    "labrador-retriever",
+    "brittany-spaniel"
+  ],
+  "typical_onset": "3-7 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£300-£1,200/year",
+  "breeds_detail": [
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    }
+  ]
+}

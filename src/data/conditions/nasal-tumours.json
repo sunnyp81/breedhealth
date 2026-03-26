@@ -1,0 +1,27 @@
+{
+  "name": "Nasal Tumours",
+  "slug": "nasal-tumours",
+  "category": "Cancer",
+  "description": "Nasal tumours are relatively common in dogs and include carcinomas and sarcomas arising from the nasal passages and sinuses. They are locally invasive, eroding into the skull, and metastasise late. They are difficult to treat but respond to radiation therapy.",
+  "symptoms": [
+    "Chronic unilateral nasal discharge (blood-tinged)",
+    "Facial deformity",
+    "Nosebleeds",
+    "Sneezing",
+    "Exophthalmos (eye protrusion)",
+    "Neurological signs if brain invasion"
+  ],
+  "severity": "high",
+  "treatment_overview": "Radiation therapy is the treatment of choice and can significantly extend survival to 12-18 months. Surgery alone is not curative. Chemotherapy has limited efficacy as an adjuvant.",
+  "prevention_tips": [
+    "No proven prevention",
+    "Second-hand smoke exposure may increase risk"
+  ],
+  "affected_breeds": [
+    "dolichocephalic breeds (collie, basset-hound, german-shepherd, labrador-retriever)"
+  ],
+  "typical_onset": "9-11 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£5,000-£12,000",
+  "breeds_detail": []
+}

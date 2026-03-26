@@ -1,0 +1,67 @@
+{
+  "name": "Collie Eye Anomaly (CEA)",
+  "slug": "collie-eye-anomaly",
+  "category": "Eye",
+  "description": "CEA is a hereditary congenital eye defect affecting collie breeds. It ranges from minor choroidal hypoplasia (mild, no vision loss) to colobomas, retinal detachment, and intraocular haemorrhage causing blindness. Severity does not worsen after birth.",
+  "symptoms": [
+    "Choroidal hypoplasia (pale areas in retina)",
+    "Colobomas (holes in retinal structures)",
+    "Retinal detachment",
+    "Intraocular haemorrhage",
+    "Blindness in severe cases"
+  ],
+  "severity": "medium",
+  "treatment_overview": "There is no treatment for CEA. Laser or cryotherapy can be used to stabilise early retinal detachments in go-normal or mildly affected dogs. Most affected dogs adapt well to their level of vision.",
+  "prevention_tips": [
+    "DNA test available (NHEJ1 mutation)",
+    "Test all breeding stock — breed only clear dogs or clear-to-carrier pairings"
+  ],
+  "affected_breeds": [
+    "rough-collie",
+    "smooth-collie",
+    "border-collie",
+    "shetland-sheepdog",
+    "australian-shepherd"
+  ],
+  "typical_onset": "Birth",
+  "hereditary": true,
+  "estimated_treatment_cost": "£200-£1,500",
+  "breeds_detail": [
+    {
+      "name": "Rough Collie",
+      "slug": "rough-collie",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Border Collie",
+      "slug": "border-collie",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Shetland Sheepdog",
+      "slug": "shetland-sheepdog",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Australian Shepherd",
+      "slug": "australian-shepherd",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Miniature American Shepherd",
+      "slug": "miniature-american-shepherd",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Nova Scotia Duck Tolling Retriever",
+      "slug": "nova-scotia-duck-tolling-retriever",
+      "size": "medium",
+      "group": "Sporting"
+    }
+  ]
+}

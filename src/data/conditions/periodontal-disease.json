@@ -1,0 +1,59 @@
+{
+  "name": "Periodontal Disease",
+  "slug": "periodontal-disease",
+  "category": "Dental",
+  "description": "Periodontal disease is the most common condition in dogs over 3 years old. Plaque bacteria accumulate below the gumline, triggering inflammation that destroys the attachment structures and bone supporting the teeth, eventually leading to tooth loss and systemic effects.",
+  "symptoms": [
+    "Bad breath (halitosis)",
+    "Red inflamed gums",
+    "Tartar build-up",
+    "Tooth loosening",
+    "Pain and reluctance to eat",
+    "Drooling"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Professional dental scaling and polishing under general anaesthesia addresses existing disease. Homecare through daily brushing is the most effective prevention. Advanced cases require extractions.",
+  "prevention_tips": [
+    "Daily toothbrushing with pet-safe toothpaste",
+    "Regular professional dental check-ups",
+    "Dental chews and diets can complement brushing",
+    "Annual dental examination"
+  ],
+  "affected_breeds": [
+    "yorkshire-terrier",
+    "chihuahua",
+    "toy-poodle",
+    "pomeranian",
+    "maltese",
+    "cavalier-king-charles-spaniel"
+  ],
+  "typical_onset": "3+ years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£300-£1,500/year",
+  "breeds_detail": [
+    {
+      "name": "Yorkshire Terrier",
+      "slug": "yorkshire-terrier",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Pomeranian",
+      "slug": "pomeranian",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Maltese",
+      "slug": "maltese",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Cavalier King Charles Spaniel",
+      "slug": "cavalier-king-charles-spaniel",
+      "size": "small",
+      "group": "Toy"
+    }
+  ]
+}

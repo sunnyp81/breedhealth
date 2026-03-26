@@ -1,0 +1,47 @@
+{
+  "name": "Thyroid Tumours",
+  "slug": "thyroid-tumours",
+  "category": "Cancer",
+  "description": "Canine thyroid tumours are uncommon but often malignant (carcinoma). Moveable non-invasive tumours respond well to surgery; fixed invasive tumours are associated with metastasis. Functional tumours cause hyperthyroidism, unlike the common hypothyroid tendency of inflammatory thyroid disease.",
+  "symptoms": [
+    "Palpable neck mass",
+    "Difficulty swallowing or breathing",
+    "Weight loss",
+    "Increased activity and appetite (functional tumours)",
+    "Coughing"
+  ],
+  "severity": "high",
+  "treatment_overview": "Surgical resection of moveable tumours is curative in many cases. Radioactive iodine (I-131) is effective for functional tumours. Chemotherapy is used for metastatic disease.",
+  "prevention_tips": [
+    "No proven prevention",
+    "Prompt evaluation of neck masses"
+  ],
+  "affected_breeds": [
+    "golden-retriever",
+    "beagle",
+    "boxer"
+  ],
+  "typical_onset": "9-11 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£2,000-£8,000",
+  "breeds_detail": [
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    }
+  ]
+}

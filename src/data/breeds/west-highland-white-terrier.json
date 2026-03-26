@@ -1,0 +1,120 @@
+{
+  "name": "West Highland White Terrier",
+  "slug": "west-highland-white-terrier",
+  "group": "Terrier",
+  "size": "small",
+  "weight_min_kg": 6.8,
+  "weight_max_kg": 9,
+  "height_min_cm": 25,
+  "height_max_cm": 28,
+  "lifespan_min": 13,
+  "lifespan_max": 15,
+  "temperament": [
+    "alert",
+    "cheerful",
+    "independent",
+    "friendly",
+    "stubborn"
+  ],
+  "health_issues": [
+    "skin-conditions",
+    "patellar-luxation",
+    "pulmonary-fibrosis",
+    "craniomandibular-osteopathy",
+    "jawbone-disease"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 4,
+  "shedding_level": 2,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 40,
+  "origin": "Scotland",
+  "coat_type": "wiry double",
+  "coat_colors": [
+    "white"
+  ],
+  "description": "The West Highland White Terrier was developed in Scotland in the 19th century, with its white coat reportedly bred deliberately by Colonel Malcolm of Poltalloch after he accidentally shot his brown terrier, mistaking it for a fox during a hunt. Compact, confident, and cheerful, the Westie is one of the most recognizable and popular small terriers globally, with a bold, independent terrier character that it wears with great self-assurance. Skin conditions and allergies are unusually prevalent in the breed, and Westie lung disease — idiopathic pulmonary fibrosis — is a serious breed-specific concern owners should discuss with their vet.",
+  "conditions_detail": [
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+      "symptoms": [
+        "Intermittent skipping on hind leg",
+        "Sudden leg lifting",
+        "Bunny-hopping",
+        "Hind limb lameness",
+        "Visible kneecap displacement"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+      "prevention_tips": [
+        "Breed from dogs with normal patellar scores",
+        "Maintain healthy weight",
+        "Avoid high-impact activities in affected puppies"
+      ],
+      "affected_breeds": [
+        "chihuahua",
+        "yorkshire-terrier",
+        "pomeranian",
+        "toy-poodle",
+        "bichon-frise",
+        "boston-terrier"
+      ],
+      "typical_onset": "4 months - 6 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Soft Coated Wheaten Terrier",
+      "slug": "soft-coated-wheaten-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    },
+    {
+      "name": "Cairn Terrier",
+      "slug": "cairn-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Scottish Terrier",
+      "slug": "scottish-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "American Staffordshire Terrier",
+      "slug": "american-staffordshire-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    }
+  ],
+  "comparisons": [
+    "cairn-terrier-vs-west-highland-white-terrier",
+    "west-highland-white-terrier-vs-scottish-terrier",
+    "miniature-schnauzer-vs-west-highland-white-terrier"
+  ]
+}

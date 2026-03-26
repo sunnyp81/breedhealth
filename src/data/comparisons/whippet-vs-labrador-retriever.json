@@ -1,0 +1,176 @@
+{
+  "slug": "whippet-vs-labrador-retriever",
+  "breed_a": {
+    "name": "Whippet",
+    "slug": "whippet",
+    "group": "Hound",
+    "size": "medium",
+    "weight_min_kg": 11,
+    "weight_max_kg": 19,
+    "height_min_cm": 46,
+    "height_max_cm": 56,
+    "lifespan_min": 12,
+    "lifespan_max": 15,
+    "temperament": [
+      "gentle",
+      "amiable",
+      "calm",
+      "friendly",
+      "lively"
+    ],
+    "health_issues": [
+      "cardiac-problems",
+      "eye-conditions",
+      "deafness",
+      "sensitivity-to-drugs",
+      "hypothyroidism"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 1,
+    "shedding_level": 2,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 63,
+    "origin": "England",
+    "coat_type": "short smooth",
+    "coat_colors": [
+      "fawn",
+      "red",
+      "white",
+      "black",
+      "blue",
+      "brindle",
+      "parti"
+    ],
+    "description": "The Whippet was developed in 19th-century northern England, where working-class miners bred a medium-sized sight hound for rabbit coursing and informal straight racing, earning the breed the nickname the poor man's racehorse. Reaching speeds of up to 56 km/h, the Whippet is the fastest domesticated animal of its weight, yet at home it is a calm, affectionate, and surprisingly low-maintenance companion that adapts well to apartment living provided it receives daily off-leash sprinting opportunities. Their thin skin and minimal body fat mean they feel the cold acutely and appreciate a warm coat in winter."
+  },
+  "breed_b": {
+    "name": "Labrador Retriever",
+    "slug": "labrador-retriever",
+    "group": "Sporting",
+    "size": "large",
+    "weight_min_kg": 25,
+    "weight_max_kg": 36,
+    "height_min_cm": 54,
+    "height_max_cm": 62,
+    "lifespan_min": 10,
+    "lifespan_max": 12,
+    "temperament": [
+      "friendly",
+      "outgoing",
+      "active",
+      "gentle"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "obesity",
+      "exercise-induced-collapse",
+      "progressive-retinal-atrophy"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 2,
+    "shedding_level": 4,
+    "trainability": 5,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 1,
+    "origin": "Canada",
+    "coat_type": "short double",
+    "coat_colors": [
+      "yellow",
+      "black",
+      "chocolate"
+    ],
+    "description": "The Labrador Retriever has been the most popular dog breed in the United States for decades, beloved for its even temperament and versatility as a family companion, service dog, and sporting partner. Originally bred in Newfoundland to retrieve waterfowl for fishermen, Labs retain an enthusiastic love of water and an eager-to-please work ethic. Their intelligence and trainability make them the most widely used breed for guide, therapy, and detection work worldwide."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 10,
+      "winner": "whippet"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 15,
+      "breed_b_value": 12,
+      "winner": "whippet"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 11,
+      "breed_b_value": 25,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 19,
+      "breed_b_value": 36,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 46,
+      "breed_b_value": 54,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 56,
+      "breed_b_value": 62,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 1,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 2,
+      "breed_b_value": 4,
+      "winner": "whippet"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 4,
+      "breed_b_value": 5,
+      "winner": "labrador-retriever"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": false,
+      "winner": "whippet"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

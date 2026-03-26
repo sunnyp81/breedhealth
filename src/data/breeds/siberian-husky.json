@@ -1,0 +1,250 @@
+{
+  "name": "Siberian Husky",
+  "slug": "siberian-husky",
+  "group": "Working",
+  "size": "medium",
+  "weight_min_kg": 16,
+  "weight_max_kg": 27,
+  "height_min_cm": 51,
+  "height_max_cm": 60,
+  "lifespan_min": 12,
+  "lifespan_max": 14,
+  "temperament": [
+    "outgoing",
+    "mischievous",
+    "loyal",
+    "gentle",
+    "alert"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "progressive-retinal-atrophy",
+    "hypothyroidism",
+    "epilepsy",
+    "zinc-responsive-dermatosis"
+  ],
+  "exercise_level": 5,
+  "grooming_level": 3,
+  "shedding_level": 5,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 16,
+  "origin": "Russia",
+  "coat_type": "medium thick double",
+  "coat_colors": [
+    "black and white",
+    "gray and white",
+    "red and white",
+    "sable and white",
+    "agouti"
+  ],
+  "description": "Developed by the Chukchi people of northeastern Siberia to pull light sleds over enormous distances in extreme cold, the Siberian Husky remains one of the most efficient endurance athletes in the canine world. Their striking appearance — often with blue or heterochromatic eyes and a thick plush double coat — belies a friendly, mischievous personality that can prove challenging for inexperienced owners who underestimate their independence and escape artistry. Huskies have a strong prey drive and a vocal nature, including a distinctive howl that carries for considerable distances.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Progressive Retinal Atrophy (PRA)",
+      "slug": "progressive-retinal-atrophy",
+      "category": "Eye",
+      "description": "PRA is a group of hereditary diseases causing progressive degeneration of the photoreceptor cells in the retina. It leads to night blindness first, followed by complete blindness. There is no treatment, but DNA tests exist for many forms.",
+      "symptoms": [
+        "Night blindness (early sign)",
+        "Reluctance to enter dark rooms",
+        "Dilated pupils",
+        "Reduced daytime vision",
+        "Reflective eye shine (tapetal hyperreflectivity)"
+      ],
+      "severity": "high",
+      "treatment_overview": "There is no effective treatment or cure for PRA. Management focuses on adapting the dog's environment to maintain quality of life as vision deteriorates.",
+      "prevention_tips": [
+        "DNA test breeding stock before mating",
+        "Only breed clear or carrier-to-clear pairings",
+        "Annual ophthalmology screening (BVA/KC scheme)"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "cocker-spaniel",
+        "miniature-poodle",
+        "irish-setter",
+        "border-collie",
+        "tibetan-terrier"
+      ],
+      "typical_onset": "3-8 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£0 (management only)"
+    },
+    {
+      "name": "Hypothyroidism",
+      "slug": "hypothyroidism",
+      "category": "Endocrine",
+      "description": "Hypothyroidism is the most common endocrine disorder in dogs, caused by reduced thyroid hormone production — most often from immune-mediated thyroiditis or idiopathic follicular atrophy. It affects metabolism, skin, and coat quality.",
+      "symptoms": [
+        "Weight gain without diet change",
+        "Lethargy",
+        "Cold intolerance",
+        "Bilateral symmetrical hair loss",
+        "Thickened skin",
+        "Ear infections"
+      ],
+      "severity": "low",
+      "treatment_overview": "Daily oral thyroxine (levothyroxine) supplementation is highly effective and required for life. Dosing is adjusted based on thyroid level monitoring every 6-12 months.",
+      "prevention_tips": [
+        "No proven prevention",
+        "Regular blood screening in at-risk breeds from age 4"
+      ],
+      "affected_breeds": [
+        "golden-retriever",
+        "dobermann",
+        "irish-setter",
+        "miniature-schnauzer",
+        "cocker-spaniel",
+        "airedale-terrier"
+      ],
+      "typical_onset": "4-10 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£300-£800/year"
+    },
+    {
+      "name": "Epilepsy",
+      "slug": "epilepsy",
+      "category": "Neurological",
+      "description": "Epilepsy is the most common neurological disorder in dogs, characterised by recurrent seizures. Idiopathic (genetic) epilepsy is the most frequent form in young to middle-aged dogs with no underlying structural brain lesion.",
+      "symptoms": [
+        "Generalised seizures (paddling, loss of consciousness)",
+        "Focal seizures (facial twitching, fly-biting)",
+        "Post-ictal confusion",
+        "Sudden falling",
+        "Cluster seizures"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Anticonvulsant drugs (phenobarbital, potassium bromide, levetiracetam) control seizures in the majority of cases. Treatment is lifelong. Cluster seizures and status epilepticus require emergency treatment.",
+      "prevention_tips": [
+        "DNA testing available for several breeds",
+        "Avoid breeding affected dogs with idiopathic epilepsy"
+      ],
+      "affected_breeds": [
+        "border-collie",
+        "labrador-retriever",
+        "golden-retriever",
+        "beagle",
+        "german-shepherd",
+        "belgian-shepherd"
+      ],
+      "typical_onset": "1-5 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£500-£2,000/year"
+    },
+    {
+      "name": "Zinc-Responsive Dermatosis",
+      "slug": "zinc-responsive-dermatosis",
+      "category": "Dermatological",
+      "description": "Zinc-responsive dermatosis manifests as skin crusting and hair loss, primarily around the muzzle, eyes, ears, and footpads. It occurs either due to reduced intestinal zinc absorption (Syndrome I in Nordic breeds) or feeding zinc-deficient diets (Syndrome II).",
+      "symptoms": [
+        "Crusting and scaling around face and footpads",
+        "Hair loss",
+        "Alopecia around eyes and muzzle",
+        "Secondary bacterial infection",
+        "Poor coat quality"
+      ],
+      "severity": "low",
+      "treatment_overview": "Daily zinc supplementation (zinc sulphate or zinc methionine) resolves Syndrome I rapidly. Syndrome II resolves by correcting the diet. Lifelong supplementation is needed for Syndrome I.",
+      "prevention_tips": [
+        "Feed balanced commercial diets",
+        "Do not supplement calcium excessively (impairs zinc absorption)",
+        "Nordic breeds may need lifelong zinc supplementation"
+      ],
+      "affected_breeds": [
+        "siberian-husky",
+        "alaskan-malamute",
+        "samoyed",
+        "bull-terrier"
+      ],
+      "typical_onset": "1-3 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£100-£400/year"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Doberman Pinscher",
+      "slug": "doberman-pinscher",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Alaskan Malamute",
+      "slug": "alaskan-malamute",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Portuguese Water Dog",
+      "slug": "portuguese-water-dog",
+      "size": "medium",
+      "group": "Working"
+    }
+  ],
+  "comparisons": [
+    "siberian-husky-vs-alaskan-malamute",
+    "siberian-husky-vs-samoyed",
+    "norwegian-elkhound-vs-siberian-husky",
+    "german-shepherd-vs-siberian-husky"
+  ]
+}

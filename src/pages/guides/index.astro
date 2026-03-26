@@ -1,0 +1,170 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { getAllGuides } from '../../lib/data';
+import type { GuideSummary } from '../../lib/types';
+
+const guides = await getAllGuides();
+const guideCount = guides.length;
+
+const SITE_URL = 'https://breedhealth.co.uk';
+
+const breadcrumbItems = [
+  { name: 'Home', url: `${SITE_URL}/` },
+  { name: 'Guides', url: `${SITE_URL}/guides/` },
+];
+
+const title = `Dog Care Guides — ${guideCount} Expert Health, Nutrition & Care Articles | BreedHealth`;
+const description = `Browse ${guideCount} expert dog care guides covering puppy health, senior dog care, nutrition, vaccinations, common conditions, and breed-specific advice.`;
+
+// Group guides by category when available; ungrouped fall into "General"
+const grouped = guides.reduce<Record<string, GuideSummary[]>>((acc, guide) => {
+  const cat = guide.category ?? 'General';
+  if (!acc[cat]) acc[cat] = [];
+  acc[cat].push(guide);
+  return acc;
+}, {});
+
+// Put "General" last if present
+const categoryOrder = Object.keys(grouped).sort((a, b) => {
+  if (a === 'General') return 1;
+  if (b === 'General') return -1;
+  return a.localeCompare(b);
+});
+
+// Category icon paths
+const categoryIconPaths: Record<string, string> = {
+  Nutrition:  'M18 8h1a4 4 0 010 8h-1M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8zM6 1v3M10 1v3M14 1v3',
+  Puppy:      'M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z',
+  Senior:     'M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75',
+  Health:     'M22 12h-4l-3 9L9 3l-3 9H2',
+  Training:   'M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5',
+  General:    'M4 19.5A2.5 2.5 0 016.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z',
+};
+
+const categoryColours: Record<string, { bg: string; iconStroke: string; heading: string }> = {
+  Nutrition: { bg: 'bg-amber-50',  iconStroke: '#92400e', heading: 'text-amber-800' },
+  Puppy:     { bg: 'bg-pink-50',   iconStroke: '#9d174d', heading: 'text-pink-800'  },
+  Senior:    { bg: 'bg-blue-50',   iconStroke: '#1e40af', heading: 'text-blue-800'  },
+  Health:    { bg: 'bg-red-50',    iconStroke: '#991b1b', heading: 'text-red-800'   },
+  Training:  { bg: 'bg-green-50',  iconStroke: '#166534', heading: 'text-green-800' },
+  General:   { bg: 'bg-gray-50',   iconStroke: '#374151', heading: 'text-gray-700'  },
+};
+
+const fallbackColour = { bg: 'bg-gray-50', iconStroke: '#374151', heading: 'text-gray-700' };
+---
+
+<BaseLayout title={title} description={description} canonicalUrl={`${SITE_URL}/guides/`}>
+
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Page header -->
+  <div class="mb-8">
+    <h1 class="text-3xl sm:text-4xl font-extrabold text-primary mb-3 tracking-tight">
+      Dog Care Guides
+    </h1>
+    <p class="text-text-muted text-base max-w-2xl leading-relaxed">
+      In-depth guides written with veterinary insight — covering puppy care, senior health, nutrition,
+      vaccinations, and everything in between.
+    </p>
+    <p class="mt-2 text-sm text-text-light font-medium">
+      {guideCount} guides available
+    </p>
+  </div>
+
+  <!-- Category jump links (only shown if multiple categories) -->
+  {categoryOrder.length > 1 && (
+    <nav class="mb-8" aria-label="Jump to guide category">
+      <p class="text-xs text-text-muted font-semibold uppercase tracking-wide mb-3">Browse by topic</p>
+      <div class="flex flex-wrap gap-2">
+        {categoryOrder.map((cat) => {
+          const col = categoryColours[cat] ?? fallbackColour;
+          return (
+            <a
+              href={`#category-${cat.toLowerCase()}`}
+              class={`px-3 py-1.5 text-xs font-semibold rounded-full no-underline border border-border ${col.bg} ${col.heading} hover:opacity-80 transition-opacity`}
+            >
+              {cat} ({grouped[cat].length})
+            </a>
+          );
+        })}
+      </div>
+    </nav>
+  )}
+
+  <!-- Ad slot -->
+  <div class="mb-10">
+    <AdSlot position="in-content" />
+  </div>
+
+  <!-- Guides grouped by category -->
+  {categoryOrder.map((category) => {
+    const guidesInCat = grouped[category];
+    const col = categoryColours[category] ?? fallbackColour;
+    const iconPath = categoryIconPaths[category] ?? categoryIconPaths.General;
+
+    return (
+      <section
+        id={`category-${category.toLowerCase()}`}
+        class="mb-12 scroll-mt-20"
+        aria-labelledby={`heading-${category.toLowerCase()}`}
+      >
+        <!-- Category heading row -->
+        <div class="flex items-center gap-3 mb-5 pb-3 border-b border-border">
+          <div class={`w-8 h-8 ${col.bg} rounded-lg flex items-center justify-center flex-shrink-0`} aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke={col.iconStroke} stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d={iconPath} />
+            </svg>
+          </div>
+          <h2
+            id={`heading-${category.toLowerCase()}`}
+            class={`text-lg sm:text-xl font-bold ${col.heading}`}
+          >
+            {category}
+          </h2>
+          <span class="text-xs text-text-light font-medium ml-auto">
+            {guidesInCat.length} guide{guidesInCat.length !== 1 ? 's' : ''}
+          </span>
+        </div>
+
+        <!-- Guide cards -->
+        <ul
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
+          role="list"
+        >
+          {guidesInCat.map((guide) => (
+            <li>
+              <a
+                href={`/guides/${guide.slug}/`}
+                class="group flex flex-col h-full bg-white border border-border rounded-2xl p-5 hover:border-primary hover:shadow-md transition-all no-underline"
+              >
+                <!-- Book icon -->
+                <div class={`w-9 h-9 ${col.bg} rounded-lg flex items-center justify-center mb-4 flex-shrink-0`} aria-hidden="true">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke={col.iconStroke} stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 19.5A2.5 2.5 0 016.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/>
+                  </svg>
+                </div>
+
+                <h3 class="font-bold text-text text-sm leading-snug mb-2 group-hover:text-primary transition-colors flex-1">
+                  {guide.title}
+                </h3>
+
+                {guide.description && (
+                  <p class="text-text-muted text-xs leading-relaxed line-clamp-3 mb-4">
+                    {guide.description}
+                  </p>
+                )}
+
+                <span class="text-xs font-semibold text-primary group-hover:underline mt-auto">
+                  Read guide &rarr;
+                </span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    );
+  })}
+
+</BaseLayout>

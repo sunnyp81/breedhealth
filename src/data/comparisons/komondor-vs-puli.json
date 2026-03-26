@@ -1,0 +1,167 @@
+{
+  "slug": "komondor-vs-puli",
+  "breed_a": {
+    "name": "Komondor",
+    "slug": "komondor",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 36,
+    "weight_max_kg": 61,
+    "height_min_cm": 64,
+    "height_max_cm": 80,
+    "lifespan_min": 10,
+    "lifespan_max": 12,
+    "temperament": [
+      "steady",
+      "fearless",
+      "loyal",
+      "independent"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "gastric-dilatation-volvulus",
+      "entropion",
+      "skin-conditions"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 5,
+    "shedding_level": 1,
+    "trainability": 2,
+    "good_with_children": true,
+    "good_with_dogs": false,
+    "apartment_friendly": false,
+    "popularity_rank": 151,
+    "origin": "Hungary",
+    "coat_type": "corded",
+    "coat_colors": [
+      "white"
+    ],
+    "description": "The Komondor is a massive Hungarian livestock guardian dog immediately recognizable by its extraordinary white corded coat that resembles a mop and can weigh up to 20 pounds on an adult dog. Brought to Hungary by nomadic Magyar tribes, they have guarded sheep and cattle for centuries, using their white coat as camouflage among the flocks. Fiercely independent and protective, they are impressive dogs that require dedicated owners willing to invest in their unique grooming needs."
+  },
+  "breed_b": {
+    "name": "Puli",
+    "slug": "puli",
+    "group": "Herding",
+    "size": "medium",
+    "weight_min_kg": 10,
+    "weight_max_kg": 15,
+    "height_min_cm": 37,
+    "height_max_cm": 44,
+    "lifespan_min": 10,
+    "lifespan_max": 15,
+    "temperament": [
+      "loyal",
+      "obedient",
+      "intelligent",
+      "energetic"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "progressive-retinal-atrophy",
+      "cataracts"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 5,
+    "shedding_level": 1,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 152,
+    "origin": "Hungary",
+    "coat_type": "corded",
+    "coat_colors": [
+      "black",
+      "white",
+      "gray",
+      "cream"
+    ],
+    "description": "The Puli is a Hungarian herding dog famous for its distinctive corded coat that naturally develops into long dreadlock-like cords as the dog matures. Agile and energetic, they were bred to herd flocks across the Hungarian plains, and they often ran across the backs of sheep when directing them. Clever and devoted, they are enthusiastic working dogs and family companions who need consistent training and regular exercise."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 10,
+      "breed_b_value": 10,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 15,
+      "winner": "puli"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 36,
+      "breed_b_value": 10,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 61,
+      "breed_b_value": 15,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 64,
+      "breed_b_value": 37,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 80,
+      "breed_b_value": 44,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 1,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 2,
+      "breed_b_value": 4,
+      "winner": "puli"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": false,
+      "breed_b_value": true,
+      "winner": "puli"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 4,
+      "breed_b_value": 3,
+      "winner": "puli"
+    }
+  ]
+}

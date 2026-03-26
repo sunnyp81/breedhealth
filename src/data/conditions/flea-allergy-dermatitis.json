@@ -1,0 +1,27 @@
+{
+  "name": "Flea Allergy Dermatitis (FAD)",
+  "slug": "flea-allergy-dermatitis",
+  "category": "Dermatological",
+  "description": "Flea allergy dermatitis is the most common cause of pruritus in dogs worldwide. An allergic reaction to flea saliva causes intense itching from the base of the tail, leading to self-traumatic hair loss, secondary infections, and skin thickening.",
+  "symptoms": [
+    "Intense itching especially over rump and tail base",
+    "Hair loss caudal to ribs",
+    "Hot spots",
+    "Skin thickening and hyperpigmentation",
+    "Visible fleas or flea dirt"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Strict flea control of the dog and all in-contact animals plus the environment is essential. Isoxazoline class spot-ons or oral tablets are highly effective. Short courses of corticosteroids or oclacitinib relieve acute pruritus.",
+  "prevention_tips": [
+    "Year-round prescription flea treatment on all pets",
+    "Regular hoovering and washing of bedding",
+    "Treat indoor environment with household spray"
+  ],
+  "affected_breeds": [
+    "all breeds"
+  ],
+  "typical_onset": "Any age",
+  "hereditary": false,
+  "estimated_treatment_cost": "£200-£600/year",
+  "breeds_detail": []
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Canine Hip Scoring (BVA/KC)",
+  "slug": "hip-scoring-bva-kc",
+  "category": "Orthopedic",
+  "description": "Hip scoring is a radiographic assessment scheme used to evaluate the conformation of a dog's hip joints and identify signs of hip dysplasia. Each hip is scored on nine criteria; lower scores indicate healthier hips. Breed mean scores guide breeding decisions.",
+  "symptoms": [
+    "Not a disease — a screening tool",
+    "Dogs with high scores may show hip dysplasia signs"
+  ],
+  "severity": "low",
+  "treatment_overview": "Not applicable — this is a preventive screening tool. Dogs with scores well below breed mean are preferred for breeding.",
+  "prevention_tips": [
+    "Score all breeding stock before mating",
+    "Only use dogs with scores below breed mean",
+    "Combine with DNA marker tests where available"
+  ],
+  "affected_breeds": [
+    "labrador-retriever",
+    "german-shepherd",
+    "golden-retriever",
+    "rottweiler",
+    "bernese-mountain-dog"
+  ],
+  "typical_onset": "Over 12 months (minimum scoring age)",
+  "hereditary": true,
+  "estimated_treatment_cost": "£150-£300 (screening cost)",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Bernese Mountain Dog",
+      "slug": "bernese-mountain-dog",
+      "size": "giant",
+      "group": "Working"
+    }
+  ]
+}

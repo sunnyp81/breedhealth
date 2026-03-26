@@ -1,0 +1,44 @@
+{
+  "name": "Gastroesophageal Reflux",
+  "slug": "gastroesophageal-reflux",
+  "category": "Gastrointestinal",
+  "description": "Gastroesophageal reflux occurs when gastric acid and bile flow back into the oesophagus, causing oesophagitis. It is associated with anaesthesia, hiatal hernias, and chronic vomiting. It predisposes to oesophageal stricture.",
+  "symptoms": [
+    "Regurgitation",
+    "Gulping and lip-licking",
+    "Reluctance to eat",
+    "Weight loss",
+    "Excessive drooling",
+    "Vomiting"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Proton pump inhibitors (omeprazole), H2 blockers, prokinetics (metoclopramide, cisapride), and small frequent low-fat meals. Treat hiatal hernia surgically if present.",
+  "prevention_tips": [
+    "Withhold food before anaesthesia as directed",
+    "Keep head elevated during and after anaesthesia",
+    "Feed small frequent meals"
+  ],
+  "affected_breeds": [
+    "chinese-shar-pei",
+    "french-bulldog",
+    "english-bulldog",
+    "brachycephalic breeds generally"
+  ],
+  "typical_onset": "Any age",
+  "hereditary": false,
+  "estimated_treatment_cost": "£200-£800/year",
+  "breeds_detail": [
+    {
+      "name": "Chinese Shar Pei (Standard)",
+      "slug": "chinese-shar-pei",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "French Bulldog",
+      "slug": "french-bulldog",
+      "size": "small",
+      "group": "Non-Sporting"
+    }
+  ]
+}

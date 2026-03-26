@@ -1,0 +1,56 @@
+{
+  "name": "Mitral Valve Disease (MVD)",
+  "slug": "mitral-valve-disease",
+  "category": "Cardiac",
+  "description": "MVD is the most common heart disease in dogs, characterised by progressive degeneration of the mitral valve leaflets causing regurgitation of blood back into the left atrium. It leads to cardiac enlargement and eventually congestive heart failure.",
+  "symptoms": [
+    "Heart murmur detected on examination",
+    "Coughing especially at night",
+    "Exercise intolerance",
+    "Rapid breathing at rest",
+    "Fainting"
+  ],
+  "severity": "high",
+  "treatment_overview": "The EPIC and PROTECT trials established that Pimobendan delays onset of heart failure in preclinical stages. Once failure develops, diuretics, ACE inhibitors, and Pimobendan are combined.",
+  "prevention_tips": [
+    "Follow Cavalier Health cardiac breeding protocol",
+    "Annual auscultation by cardiologist",
+    "Breed only from clear parents over recommended age"
+  ],
+  "affected_breeds": [
+    "cavalier-king-charles-spaniel",
+    "dachshund",
+    "miniature-poodle",
+    "chihuahua",
+    "shih-tzu"
+  ],
+  "typical_onset": "5-10 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£1,500-£5,000/year",
+  "breeds_detail": [
+    {
+      "name": "Cavalier King Charles Spaniel",
+      "slug": "cavalier-king-charles-spaniel",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Shih Tzu",
+      "slug": "shih-tzu",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "American Water Spaniel",
+      "slug": "american-water-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    }
+  ]
+}

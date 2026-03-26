@@ -1,0 +1,74 @@
+{
+  "name": "Legg-Calvé-Perthes Disease",
+  "slug": "legg-calve-perthes-disease",
+  "category": "Orthopedic",
+  "description": "Legg-Calvé-Perthes is an avascular necrosis of the femoral head in small and toy breeds. The blood supply to the femoral head is disrupted, causing the bone to die and collapse, resulting in severe hip pain and lameness.",
+  "symptoms": [
+    "Progressive hind leg lameness",
+    "Pain on hip extension",
+    "Muscle wasting of affected leg",
+    "Reluctance to bear weight",
+    "Irritability when hip touched"
+  ],
+  "severity": "high",
+  "treatment_overview": "Femoral head and neck excision (FHNE) is the most effective treatment. Physiotherapy post-operatively is critical for muscle strength and function.",
+  "prevention_tips": [
+    "Breed from tested stock",
+    "Maintain lean bodyweight",
+    "Genetic testing available for some breeds"
+  ],
+  "affected_breeds": [
+    "west-highland-white-terrier",
+    "yorkshire-terrier",
+    "chihuahua",
+    "miniature-pinscher",
+    "poodle"
+  ],
+  "typical_onset": "5-12 months",
+  "hereditary": true,
+  "estimated_treatment_cost": "£1,500-£3,000",
+  "breeds_detail": [
+    {
+      "name": "West Highland White Terrier",
+      "slug": "west-highland-white-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Yorkshire Terrier",
+      "slug": "yorkshire-terrier",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Miniature Pinscher",
+      "slug": "miniature-pinscher",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Russell Terrier",
+      "slug": "russell-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Chinese Crested",
+      "slug": "chinese-crested",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Schipperke",
+      "slug": "schipperke",
+      "size": "small",
+      "group": "Non-Sporting"
+    }
+  ]
+}

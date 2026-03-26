@@ -1,0 +1,177 @@
+{
+  "slug": "irish-wolfhound-vs-newfoundland",
+  "breed_a": {
+    "name": "Irish Wolfhound",
+    "slug": "irish-wolfhound",
+    "group": "Hound",
+    "size": "giant",
+    "weight_min_kg": 54,
+    "weight_max_kg": 72,
+    "height_min_cm": 76,
+    "height_max_cm": 86,
+    "lifespan_min": 6,
+    "lifespan_max": 8,
+    "temperament": [
+      "gentle",
+      "patient",
+      "thoughtful",
+      "loyal",
+      "reserved"
+    ],
+    "health_issues": [
+      "dilated-cardiomyopathy",
+      "osteosarcoma",
+      "bloat",
+      "hip-dysplasia",
+      "portosystemic-shunt"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 2,
+    "shedding_level": 3,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 82,
+    "origin": "Ireland",
+    "coat_type": "rough wiry",
+    "coat_colors": [
+      "gray",
+      "brindle",
+      "red",
+      "black",
+      "white",
+      "fawn"
+    ],
+    "description": "The Irish Wolfhound is the tallest dog breed in the world and is steeped in Irish mythology and history, where it was used to hunt wolves, elk, and wild boar, and was given as royal gifts between kings across Europe and the Middle East. Their sheer size meant that wolf hunting was not simply a matter of courage but a job that required dogs powerful enough to pull a wolf from horseback. Despite a commanding presence and ancient warrior heritage, Irish Wolfhounds are gentle, calm, and wonderfully soft-natured companions, though their lifespan of only 6 to 8 years is among the shortest of any breed."
+  },
+  "breed_b": {
+    "name": "Newfoundland",
+    "slug": "newfoundland",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 45,
+    "weight_max_kg": 68,
+    "height_min_cm": 66,
+    "height_max_cm": 71,
+    "lifespan_min": 9,
+    "lifespan_max": 10,
+    "temperament": [
+      "sweet",
+      "patient",
+      "devoted",
+      "gentle",
+      "trainable"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "subvalvular-aortic-stenosis",
+      "bloat",
+      "cystinuria"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 4,
+    "shedding_level": 4,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 41,
+    "origin": "Canada",
+    "coat_type": "long thick double",
+    "coat_colors": [
+      "black",
+      "brown",
+      "gray",
+      "black and white"
+    ],
+    "description": "Developed by fishermen on the island of Newfoundland as a working water dog capable of hauling nets and rescuing drowning sailors in icy Atlantic waters, the Newfoundland has webbed feet and a water-resistant double coat perfectly adapted for cold-water swimming. Famously patient and gentle with children, J.M. Barrie immortalized the breed as Nana the nursemaid dog in Peter Pan, a portrayal that resonates with Newf owners who know the breed's natural watchfulness over children. Their enormous size makes early obedience training essential before they become too powerful to manage safely on a leash."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 6,
+      "breed_b_value": 9,
+      "winner": "newfoundland"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 8,
+      "breed_b_value": 10,
+      "winner": "newfoundland"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 54,
+      "breed_b_value": 45,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 72,
+      "breed_b_value": 68,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 76,
+      "breed_b_value": 66,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 86,
+      "breed_b_value": 71,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 2,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "irish-wolfhound"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "newfoundland"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

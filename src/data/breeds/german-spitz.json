@@ -1,0 +1,179 @@
+{
+  "name": "German Spitz",
+  "slug": "german-spitz",
+  "group": "Non-Sporting",
+  "size": "small",
+  "weight_min_kg": 7,
+  "weight_max_kg": 11,
+  "height_min_cm": 30,
+  "height_max_cm": 38,
+  "lifespan_min": 13,
+  "lifespan_max": 15,
+  "temperament": [
+    "lively",
+    "alert",
+    "devoted",
+    "trainable"
+  ],
+  "health_issues": [
+    "patellar-luxation",
+    "progressive-retinal-atrophy",
+    "epilepsy"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 3,
+  "shedding_level": 4,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 197,
+  "origin": "Germany",
+  "coat_type": "double",
+  "coat_colors": [
+    "white",
+    "black",
+    "brown",
+    "orange",
+    "wolf-sable",
+    "cream"
+  ],
+  "description": "The German Spitz is one of the oldest and most influential of all European dog breeds, believed to be descended from ancient Nordic herding dogs brought to Germany by Neolithic peoples, and the ancestor of the Pomeranian and many other modern Spitz breeds. In the 18th century, German Spitzes were exported to England in large numbers and became fashionable companion dogs for Queen Charlotte and Queen Victoria, who is credited with miniaturizing the breed to create the Pomeranian. Available in several size varieties, the Mittelspitz (medium) and Kleinspitz (small) are the most common, with the magnificent Großspitz (giant) and tiny Zwergspitz (dwarf/Pomeranian) at the extremes.",
+  "conditions_detail": [
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+      "symptoms": [
+        "Intermittent skipping on hind leg",
+        "Sudden leg lifting",
+        "Bunny-hopping",
+        "Hind limb lameness",
+        "Visible kneecap displacement"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+      "prevention_tips": [
+        "Breed from dogs with normal patellar scores",
+        "Maintain healthy weight",
+        "Avoid high-impact activities in affected puppies"
+      ],
+      "affected_breeds": [
+        "chihuahua",
+        "yorkshire-terrier",
+        "pomeranian",
+        "toy-poodle",
+        "bichon-frise",
+        "boston-terrier"
+      ],
+      "typical_onset": "4 months - 6 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    },
+    {
+      "name": "Progressive Retinal Atrophy (PRA)",
+      "slug": "progressive-retinal-atrophy",
+      "category": "Eye",
+      "description": "PRA is a group of hereditary diseases causing progressive degeneration of the photoreceptor cells in the retina. It leads to night blindness first, followed by complete blindness. There is no treatment, but DNA tests exist for many forms.",
+      "symptoms": [
+        "Night blindness (early sign)",
+        "Reluctance to enter dark rooms",
+        "Dilated pupils",
+        "Reduced daytime vision",
+        "Reflective eye shine (tapetal hyperreflectivity)"
+      ],
+      "severity": "high",
+      "treatment_overview": "There is no effective treatment or cure for PRA. Management focuses on adapting the dog's environment to maintain quality of life as vision deteriorates.",
+      "prevention_tips": [
+        "DNA test breeding stock before mating",
+        "Only breed clear or carrier-to-clear pairings",
+        "Annual ophthalmology screening (BVA/KC scheme)"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "cocker-spaniel",
+        "miniature-poodle",
+        "irish-setter",
+        "border-collie",
+        "tibetan-terrier"
+      ],
+      "typical_onset": "3-8 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£0 (management only)"
+    },
+    {
+      "name": "Epilepsy",
+      "slug": "epilepsy",
+      "category": "Neurological",
+      "description": "Epilepsy is the most common neurological disorder in dogs, characterised by recurrent seizures. Idiopathic (genetic) epilepsy is the most frequent form in young to middle-aged dogs with no underlying structural brain lesion.",
+      "symptoms": [
+        "Generalised seizures (paddling, loss of consciousness)",
+        "Focal seizures (facial twitching, fly-biting)",
+        "Post-ictal confusion",
+        "Sudden falling",
+        "Cluster seizures"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Anticonvulsant drugs (phenobarbital, potassium bromide, levetiracetam) control seizures in the majority of cases. Treatment is lifelong. Cluster seizures and status epilepticus require emergency treatment.",
+      "prevention_tips": [
+        "DNA testing available for several breeds",
+        "Avoid breeding affected dogs with idiopathic epilepsy"
+      ],
+      "affected_breeds": [
+        "border-collie",
+        "labrador-retriever",
+        "golden-retriever",
+        "beagle",
+        "german-shepherd",
+        "belgian-shepherd"
+      ],
+      "typical_onset": "1-5 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£500-£2,000/year"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "French Bulldog",
+      "slug": "french-bulldog",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bulldog",
+      "slug": "bulldog",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Boston Terrier",
+      "slug": "boston-terrier",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bichon Frise",
+      "slug": "bichon-frise",
+      "size": "small",
+      "group": "Non-Sporting"
+    }
+  ],
+  "comparisons": []
+}

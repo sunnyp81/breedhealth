@@ -1,0 +1,27 @@
+{
+  "name": "Hypersomatotropism (Acromegaly)",
+  "slug": "acromegaly",
+  "category": "Endocrine",
+  "description": "Canine acromegaly is caused by excess growth hormone, most commonly from progesterone-stimulated mammary GH production in intact bitches. It causes soft tissue overgrowth, insulin-resistant diabetes, and cardiomyopathy.",
+  "symptoms": [
+    "Broadening of facial features",
+    "Increased skin folds",
+    "Enlarged abdomen",
+    "Inspiratory stridor",
+    "Diabetes mellitus resistant to insulin",
+    "Weight gain"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Ovariohysterectomy is curative in progesterone-dependent cases (most common). Pituitary-dependent forms are treated with cabergoline or pasireotide, or pituitary irradiation if available.",
+  "prevention_tips": [
+    "Spaying intact bitches eliminates the most common trigger",
+    "Avoid progesterone-based medications"
+  ],
+  "affected_breeds": [
+    "all intact female breeds"
+  ],
+  "typical_onset": "7-10 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£500-£2,500",
+  "breeds_detail": []
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Atopic Dermatitis (Skin Allergies)",
+  "slug": "atopic-dermatitis",
+  "category": "Dermatological",
+  "description": "Canine atopic dermatitis is a chronic inflammatory skin disease caused by an IgE-mediated hypersensitivity to environmental allergens such as dust mites, pollen, and moulds. It commonly presents with facial and limb pruritus and is a lifelong condition requiring ongoing management.",
+  "symptoms": [
+    "Intense itching (pruritus)",
+    "Licking paws and legs",
+    "Face rubbing",
+    "Recurrent ear infections",
+    "Redness and skin thickening",
+    "Secondary yeast or bacterial infections"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Management includes allergen identification and avoidance, prescription medications (oclacitinib/Apoquel, lokivetmab/Cytopoint, cyclosporine), regular bathing with barrier repair shampoos, and allergen-specific immunotherapy for long-term benefit.",
+  "prevention_tips": [
+    "Regular bathing to reduce allergen load",
+    "Omega-3 fatty acid supplementation supports skin barrier",
+    "Early intervention prevents chronic skin changes"
+  ],
+  "affected_breeds": [
+    "west-highland-white-terrier",
+    "golden-retriever",
+    "labrador-retriever",
+    "german-shepherd",
+    "boxer",
+    "french-bulldog"
+  ],
+  "typical_onset": "6 months - 3 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£800-£3,000/year",
+  "breeds_detail": [
+    {
+      "name": "West Highland White Terrier",
+      "slug": "west-highland-white-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "French Bulldog",
+      "slug": "french-bulldog",
+      "size": "small",
+      "group": "Non-Sporting"
+    }
+  ]
+}

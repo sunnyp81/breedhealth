@@ -1,0 +1,181 @@
+{
+  "name": "Shikoku",
+  "slug": "shikoku",
+  "group": "Working",
+  "size": "medium",
+  "weight_min_kg": 16,
+  "weight_max_kg": 26,
+  "height_min_cm": 43,
+  "height_max_cm": 55,
+  "lifespan_min": 10,
+  "lifespan_max": 12,
+  "temperament": [
+    "enthusiastic",
+    "brave",
+    "loyal",
+    "reserved"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "progressive-retinal-atrophy",
+    "elbow-dysplasia"
+  ],
+  "exercise_level": 5,
+  "grooming_level": 2,
+  "shedding_level": 3,
+  "trainability": 2,
+  "good_with_children": true,
+  "good_with_dogs": false,
+  "apartment_friendly": false,
+  "popularity_rank": 202,
+  "origin": "Japan",
+  "coat_type": "double",
+  "coat_colors": [
+    "sesame",
+    "black-sesame",
+    "red-sesame"
+  ],
+  "description": "The Shikoku is a medium-large Japanese hunting breed from the mountainous Kochi Prefecture on Shikoku island, where the rugged terrain kept it isolated and genetically pure for centuries as it developed into an exceptional deer and wild boar hunter. Resembling a smaller, more agile version of the Akita, the Shikoku is one of Japan's six native breeds and has been protected as a national natural monument since 1937. This athletic, wolf-like breed has extraordinary stamina and agility in mountain terrain, and is sometimes called the 'Japanese wolf' for its wild appearance and independent hunting style.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Progressive Retinal Atrophy (PRA)",
+      "slug": "progressive-retinal-atrophy",
+      "category": "Eye",
+      "description": "PRA is a group of hereditary diseases causing progressive degeneration of the photoreceptor cells in the retina. It leads to night blindness first, followed by complete blindness. There is no treatment, but DNA tests exist for many forms.",
+      "symptoms": [
+        "Night blindness (early sign)",
+        "Reluctance to enter dark rooms",
+        "Dilated pupils",
+        "Reduced daytime vision",
+        "Reflective eye shine (tapetal hyperreflectivity)"
+      ],
+      "severity": "high",
+      "treatment_overview": "There is no effective treatment or cure for PRA. Management focuses on adapting the dog's environment to maintain quality of life as vision deteriorates.",
+      "prevention_tips": [
+        "DNA test breeding stock before mating",
+        "Only breed clear or carrier-to-clear pairings",
+        "Annual ophthalmology screening (BVA/KC scheme)"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "cocker-spaniel",
+        "miniature-poodle",
+        "irish-setter",
+        "border-collie",
+        "tibetan-terrier"
+      ],
+      "typical_onset": "3-8 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£0 (management only)"
+    },
+    {
+      "name": "Elbow Dysplasia",
+      "slug": "elbow-dysplasia",
+      "category": "Orthopedic",
+      "description": "Elbow dysplasia is an umbrella term covering several developmental abnormalities of the elbow joint including fragmented coronoid process, osteochondritis dissecans, and ununited anconeal process. It causes foreleg lameness and arthritis.",
+      "symptoms": [
+        "Front leg lameness",
+        "Elbow swelling",
+        "Pain on elbow manipulation",
+        "Reluctance to exercise",
+        "Stiff gait after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Surgical intervention is often recommended to remove bone fragments or reshape joint surfaces. Medical management includes NSAIDs, joint supplements, and physiotherapy.",
+      "prevention_tips": [
+        "BVA/KC elbow score breeding stock",
+        "Control growth rate in large breeds",
+        "Avoid over-supplementation with calcium",
+        "Maintain healthy weight from puppyhood"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "golden-retriever",
+        "german-shepherd",
+        "rottweiler",
+        "bernese-mountain-dog"
+      ],
+      "typical_onset": "4-18 months",
+      "hereditary": true,
+      "estimated_treatment_cost": "£2,000-£5,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Siberian Husky",
+      "slug": "siberian-husky",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Doberman Pinscher",
+      "slug": "doberman-pinscher",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Alaskan Malamute",
+      "slug": "alaskan-malamute",
+      "size": "large",
+      "group": "Working"
+    }
+  ],
+  "comparisons": []
+}

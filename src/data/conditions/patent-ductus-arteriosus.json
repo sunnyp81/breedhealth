@@ -1,0 +1,74 @@
+{
+  "name": "Patent Ductus Arteriosus (PDA)",
+  "slug": "patent-ductus-arteriosus",
+  "category": "Cardiac",
+  "description": "PDA occurs when the ductus arteriosus, a blood vessel that normally closes at birth, remains open. This causes abnormal blood circulation between the aorta and pulmonary artery, overloading the heart and leading to congestive heart failure if untreated.",
+  "symptoms": [
+    "Continuous heart murmur",
+    "Exercise intolerance",
+    "Stunted growth",
+    "Breathing difficulties",
+    "Left-sided heart enlargement on X-ray"
+  ],
+  "severity": "high",
+  "treatment_overview": "Surgical ligation or catheter-based occlusion of the ductus is highly effective when performed early. Without treatment, most dogs develop congestive heart failure within the first year.",
+  "prevention_tips": [
+    "Do not breed affected dogs",
+    "Cardiac screening of breeding animals"
+  ],
+  "affected_breeds": [
+    "poodle",
+    "maltese",
+    "pomeranian",
+    "shetland-sheepdog",
+    "keeshond",
+    "cocker-spaniel"
+  ],
+  "typical_onset": "Birth-6 months",
+  "hereditary": true,
+  "estimated_treatment_cost": "£3,000-£6,000",
+  "breeds_detail": [
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Maltese",
+      "slug": "maltese",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Pomeranian",
+      "slug": "pomeranian",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Shetland Sheepdog",
+      "slug": "shetland-sheepdog",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Keeshond",
+      "slug": "keeshond",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Pyrenean Shepherd",
+      "slug": "pyrenean-shepherd",
+      "size": "small",
+      "group": "Herding"
+    }
+  ]
+}

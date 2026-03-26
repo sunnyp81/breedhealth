@@ -1,0 +1,180 @@
+{
+  "name": "Russell Terrier",
+  "slug": "russell-terrier",
+  "group": "Terrier",
+  "size": "small",
+  "weight_min_kg": 4,
+  "weight_max_kg": 7,
+  "height_min_cm": 20,
+  "height_max_cm": 30,
+  "lifespan_min": 12,
+  "lifespan_max": 14,
+  "temperament": [
+    "energetic",
+    "fearless",
+    "intelligent",
+    "vocal"
+  ],
+  "health_issues": [
+    "patellar-luxation",
+    "lens-luxation",
+    "deafness",
+    "legg-calve-perthes-disease"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 2,
+  "shedding_level": 2,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": false,
+  "apartment_friendly": false,
+  "popularity_rank": 103,
+  "origin": "England",
+  "coat_type": "smooth broken or rough",
+  "coat_colors": [
+    "white",
+    "white and tan",
+    "white and black",
+    "tricolor"
+  ],
+  "description": "The Russell Terrier, closely related to the Jack Russell Terrier, is a compact yet incredibly spirited working terrier originally bred by Reverend John Russell in 19th-century England for fox hunting. These small dogs pack enormous energy and personality into their tiny frames, requiring significant daily exercise and mental stimulation to prevent destructive behaviour. They are bold, tenacious hunters at heart and do best with experienced owners who understand terrier independence.",
+  "conditions_detail": [
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+      "symptoms": [
+        "Intermittent skipping on hind leg",
+        "Sudden leg lifting",
+        "Bunny-hopping",
+        "Hind limb lameness",
+        "Visible kneecap displacement"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+      "prevention_tips": [
+        "Breed from dogs with normal patellar scores",
+        "Maintain healthy weight",
+        "Avoid high-impact activities in affected puppies"
+      ],
+      "affected_breeds": [
+        "chihuahua",
+        "yorkshire-terrier",
+        "pomeranian",
+        "toy-poodle",
+        "bichon-frise",
+        "boston-terrier"
+      ],
+      "typical_onset": "4 months - 6 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    },
+    {
+      "name": "Lens Luxation",
+      "slug": "lens-luxation",
+      "category": "Eye",
+      "description": "Lens luxation is displacement of the lens from its normal position due to breakdown of the suspensory ligaments (zonules). Primary lens luxation is hereditary. A luxated lens can cause acute glaucoma and retinal detachment.",
+      "symptoms": [
+        "Sudden eye pain",
+        "Visible lens displacement",
+        "Watery eye",
+        "Corneal oedema",
+        "Vision loss"
+      ],
+      "severity": "high",
+      "treatment_overview": "Surgical removal of the luxated lens (intracapsular extraction) is the treatment of choice. Medical management with miotics helps when surgery is not immediately possible. Glaucoma treatment may also be required.",
+      "prevention_tips": [
+        "DNA test available (ADAMTS17 mutation) — do not breed affected dogs",
+        "Annual eye examinations"
+      ],
+      "affected_breeds": [
+        "jack-russell-terrier",
+        "miniature-bull-terrier",
+        "tibetan-terrier",
+        "border-collie",
+        "shar-pei"
+      ],
+      "typical_onset": "3-8 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    },
+    {
+      "name": "Legg-Calvé-Perthes Disease",
+      "slug": "legg-calve-perthes-disease",
+      "category": "Orthopedic",
+      "description": "Legg-Calvé-Perthes is an avascular necrosis of the femoral head in small and toy breeds. The blood supply to the femoral head is disrupted, causing the bone to die and collapse, resulting in severe hip pain and lameness.",
+      "symptoms": [
+        "Progressive hind leg lameness",
+        "Pain on hip extension",
+        "Muscle wasting of affected leg",
+        "Reluctance to bear weight",
+        "Irritability when hip touched"
+      ],
+      "severity": "high",
+      "treatment_overview": "Femoral head and neck excision (FHNE) is the most effective treatment. Physiotherapy post-operatively is critical for muscle strength and function.",
+      "prevention_tips": [
+        "Breed from tested stock",
+        "Maintain lean bodyweight",
+        "Genetic testing available for some breeds"
+      ],
+      "affected_breeds": [
+        "west-highland-white-terrier",
+        "yorkshire-terrier",
+        "chihuahua",
+        "miniature-pinscher",
+        "poodle"
+      ],
+      "typical_onset": "5-12 months",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "West Highland White Terrier",
+      "slug": "west-highland-white-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Soft Coated Wheaten Terrier",
+      "slug": "soft-coated-wheaten-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    },
+    {
+      "name": "Cairn Terrier",
+      "slug": "cairn-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Scottish Terrier",
+      "slug": "scottish-terrier",
+      "size": "small",
+      "group": "Terrier"
+    }
+  ],
+  "comparisons": []
+}

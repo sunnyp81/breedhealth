@@ -1,0 +1,177 @@
+{
+  "slug": "border-collie-vs-shetland-sheepdog",
+  "breed_a": {
+    "name": "Border Collie",
+    "slug": "border-collie",
+    "group": "Herding",
+    "size": "medium",
+    "weight_min_kg": 14,
+    "weight_max_kg": 20,
+    "height_min_cm": 46,
+    "height_max_cm": 56,
+    "lifespan_min": 12,
+    "lifespan_max": 15,
+    "temperament": [
+      "intelligent",
+      "energetic",
+      "athletic",
+      "alert",
+      "tenacious"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "collie-eye-anomaly",
+      "progressive-retinal-atrophy",
+      "epilepsy",
+      "multiple-drug-sensitivity"
+    ],
+    "exercise_level": 5,
+    "grooming_level": 3,
+    "shedding_level": 3,
+    "trainability": 5,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 25,
+    "origin": "Scotland",
+    "coat_type": "medium double",
+    "coat_colors": [
+      "black and white",
+      "blue merle",
+      "red and white",
+      "sable",
+      "tricolor"
+    ],
+    "description": "Consistently ranked as the most intelligent dog breed in the world, the Border Collie can learn a new command in fewer than five repetitions and has been documented understanding vocabularies of over a thousand words. Developed along the Anglo-Scottish border to herd sheep using an intense crouching stalk and a penetrating eye stare, Border Collies possess an almost obsessive work drive that must be channeled through multiple hours of mental and physical activity every single day. They are not recommended for inactive households or first-time owners unprepared for their demanding exercise and mental stimulation requirements."
+  },
+  "breed_b": {
+    "name": "Shetland Sheepdog",
+    "slug": "shetland-sheepdog",
+    "group": "Herding",
+    "size": "small",
+    "weight_min_kg": 6.4,
+    "weight_max_kg": 12,
+    "height_min_cm": 33,
+    "height_max_cm": 41,
+    "lifespan_min": 12,
+    "lifespan_max": 14,
+    "temperament": [
+      "playful",
+      "energetic",
+      "intelligent",
+      "loyal",
+      "reserved"
+    ],
+    "health_issues": [
+      "collie-eye-anomaly",
+      "hip-dysplasia",
+      "progressive-retinal-atrophy",
+      "dermatomyositis",
+      "multiple-drug-sensitivity"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 4,
+    "shedding_level": 4,
+    "trainability": 5,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 23,
+    "origin": "Scotland",
+    "coat_type": "long double",
+    "coat_colors": [
+      "sable",
+      "blue merle",
+      "black and white",
+      "black and tan",
+      "tricolor"
+    ],
+    "description": "The Shetland Sheepdog originated on the rugged Shetland Islands off northern Scotland, where limited food resources naturally favored smaller, leaner working dogs, and was later refined with Rough Collie breeding in the early 20th century. Often mistaken for a miniature Collie, the Sheltie is in fact a distinct breed and consistently one of the top-ranking dogs in obedience and agility competition. Their reserved nature around strangers and alert sensitivity to movement and sound make early socialization important for raising a confident, well-adjusted dog."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 12,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 15,
+      "breed_b_value": 14,
+      "winner": "border-collie"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 14,
+      "breed_b_value": 6.4,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 20,
+      "breed_b_value": 12,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 46,
+      "breed_b_value": 33,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 56,
+      "breed_b_value": 41,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 5,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "border-collie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

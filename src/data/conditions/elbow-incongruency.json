@@ -1,0 +1,54 @@
+{
+  "name": "Elbow Incongruency",
+  "slug": "elbow-incongruency",
+  "category": "Orthopedic",
+  "description": "Elbow incongruency is a mismatch in the growth rates of the radius and ulna that distorts normal elbow joint conformity. It predisposes to multiple forms of elbow dysplasia and causes early-onset osteoarthritis.",
+  "symptoms": [
+    "Foreleg lameness",
+    "Elbow swelling",
+    "Reduced range of elbow motion",
+    "Stiffness after rest",
+    "Pain on flexion"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Dynamic proximal ulnar osteotomy (DPUO) or ulnar ostectomy can correct incongruency if performed early. Management otherwise follows elbow dysplasia protocols.",
+  "prevention_tips": [
+    "BVA/KC elbow scoring before breeding",
+    "Control rapid growth in predisposed breeds"
+  ],
+  "affected_breeds": [
+    "bernese-mountain-dog",
+    "labrador-retriever",
+    "rottweiler",
+    "golden-retriever"
+  ],
+  "typical_onset": "4-12 months",
+  "hereditary": true,
+  "estimated_treatment_cost": "£2,000-£4,500",
+  "breeds_detail": [
+    {
+      "name": "Bernese Mountain Dog",
+      "slug": "bernese-mountain-dog",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    }
+  ]
+}

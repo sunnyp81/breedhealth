@@ -1,0 +1,170 @@
+{
+  "slug": "old-english-sheepdog-vs-bernese-mountain-dog",
+  "breed_a": {
+    "name": "Old English Sheepdog",
+    "slug": "old-english-sheepdog",
+    "group": "Herding",
+    "size": "large",
+    "weight_min_kg": 27,
+    "weight_max_kg": 45,
+    "height_min_cm": 56,
+    "height_max_cm": 61,
+    "lifespan_min": 10,
+    "lifespan_max": 12,
+    "temperament": [
+      "adaptable",
+      "gentle",
+      "playful",
+      "intelligent"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "cataracts",
+      "hypothyroidism",
+      "deafness",
+      "bloat"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 5,
+    "shedding_level": 4,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 107,
+    "origin": "England",
+    "coat_type": "long shaggy double",
+    "coat_colors": [
+      "grey and white",
+      "blue and white",
+      "grizzle and white"
+    ],
+    "description": "The Old English Sheepdog, with its profuse shaggy coat and distinctive shuffling gait, is an iconic British breed originally developed in the 19th century to drive cattle and sheep to market. These amiable, adaptable dogs are devoted to their families and show a playful, gentle side with children, making them excellent household companions despite their large size. Their magnificent double coat requires extensive daily brushing to prevent matting, making grooming a serious commitment for prospective owners."
+  },
+  "breed_b": {
+    "name": "Bernese Mountain Dog",
+    "slug": "bernese-mountain-dog",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 32,
+    "weight_max_kg": 52,
+    "height_min_cm": 58,
+    "height_max_cm": 70,
+    "lifespan_min": 7,
+    "lifespan_max": 10,
+    "temperament": [
+      "good-natured",
+      "calm",
+      "strong",
+      "intelligent",
+      "loyal"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "cancer",
+      "bloat",
+      "von-willebrands-disease"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 4,
+    "shedding_level": 4,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 29,
+    "origin": "Switzerland",
+    "coat_type": "long thick double",
+    "coat_colors": [
+      "tricolor black white and rust"
+    ],
+    "description": "One of four Swiss Sennenhund breeds developed in the Bernese Oberland for herding cattle, pulling carts, and guarding Alpine farms, the Bernese Mountain Dog is the most widely owned of the four outside Switzerland. Their striking tricolor coat, gentle giant temperament, and patience with children make them beloved family dogs, but cancer claims more than half of all Berners before age 10, making the breed's tragically short lifespan its most heartbreaking characteristic. Sourcing from a breeder who health-tests for cancer, hip, and elbow conditions in both parents is an absolute minimum requirement."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 10,
+      "breed_b_value": 7,
+      "winner": "old-english-sheepdog"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 10,
+      "winner": "old-english-sheepdog"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 27,
+      "breed_b_value": 32,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 45,
+      "breed_b_value": 52,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 56,
+      "breed_b_value": 58,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 61,
+      "breed_b_value": 70,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 5,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "bernese-mountain-dog"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Hereditary Nasal Parakeratosis (HNPK)",
+  "slug": "hereditary-nasal-parakeratosis",
+  "category": "Dermatological",
+  "description": "HNPK is a hereditary condition in Labrador Retrievers causing thickening, crusting, and fissuring of the nasal planum from a young age. The nose becomes grey, crusty, and painful with fissures that can become infected.",
+  "symptoms": [
+    "Thickened grey crusting of nose",
+    "Nose fissuring and cracking",
+    "Secondary bacterial infection of nose",
+    "Bleeding from nasal fissures",
+    "Discomfort when touching nose"
+  ],
+  "severity": "low",
+  "treatment_overview": "There is no cure. Regular moisturising with petroleum jelly or specific nasal balms manages the condition. Antibiotic treatment for secondary infections when needed. Lifelong management is required.",
+  "prevention_tips": [
+    "DNA test available (SUV39H2 mutation)",
+    "Test all breeding Labradors — avoid affected-to-affected matings"
+  ],
+  "affected_breeds": [
+    "labrador-retriever"
+  ],
+  "typical_onset": "6 months - 1 year",
+  "hereditary": true,
+  "estimated_treatment_cost": "£100-£400/year",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    }
+  ]
+}

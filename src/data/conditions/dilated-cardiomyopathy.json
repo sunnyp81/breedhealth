@@ -1,0 +1,83 @@
+{
+  "name": "Dilated Cardiomyopathy (DCM)",
+  "slug": "dilated-cardiomyopathy",
+  "category": "Cardiac",
+  "description": "DCM is a disease of the heart muscle causing the chambers to enlarge and the walls to thin, reducing the heart's pumping efficiency. It progresses to congestive heart failure if untreated and is a leading cause of cardiac death in large breeds.",
+  "symptoms": [
+    "Exercise intolerance",
+    "Coughing",
+    "Laboured breathing",
+    "Abdominal distension",
+    "Collapse",
+    "Sudden death"
+  ],
+  "severity": "high",
+  "treatment_overview": "Management with diuretics, ACE inhibitors, Pimobendan, and antiarrhythmics can prolong life significantly. No cure exists; treatment is palliative.",
+  "prevention_tips": [
+    "Annual cardiac screening for at-risk breeds",
+    "Breed from cardiology-cleared stock",
+    "Avoid grain-free diets in predisposed breeds (FDA advisory)",
+    "Taurine supplementation investigated in some breeds"
+  ],
+  "affected_breeds": [
+    "dobermann",
+    "great-dane",
+    "irish-wolfhound",
+    "boxer",
+    "cocker-spaniel",
+    "newfoundland"
+  ],
+  "typical_onset": "4-10 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£2,000-£6,000/year",
+  "breeds_detail": [
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Irish Wolfhound",
+      "slug": "irish-wolfhound",
+      "size": "giant",
+      "group": "Hound"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Newfoundland",
+      "slug": "newfoundland",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Doberman Pinscher",
+      "slug": "doberman-pinscher",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "English Cocker Spaniel",
+      "slug": "english-cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Perro de Presa Canario",
+      "slug": "perro-de-presa-canario",
+      "size": "large",
+      "group": "Working"
+    }
+  ]
+}

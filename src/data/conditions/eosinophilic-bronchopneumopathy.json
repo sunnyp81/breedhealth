@@ -1,0 +1,41 @@
+{
+  "name": "Eosinophilic Bronchopneumopathy",
+  "slug": "eosinophilic-bronchopneumopathy",
+  "category": "Respiratory",
+  "description": "Eosinophilic bronchopneumopathy (EBP) is an immune-mediated respiratory disease causing eosinophilic infiltration of the lungs and airways. It results in chronic coughing, exercise intolerance, and progressive respiratory compromise.",
+  "symptoms": [
+    "Chronic productive cough",
+    "Exercise intolerance",
+    "Nasal discharge",
+    "Wheezing",
+    "Weight loss",
+    "Worsening on exercise"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Corticosteroids are highly effective and induce rapid remission. Long-term tapering doses are required to prevent relapse. Inhaled steroids are an alternative for maintenance. Identify and avoid any allergen triggers.",
+  "prevention_tips": [
+    "Avoid environments with high allergen loads",
+    "Regular respiratory monitoring in predisposed breeds"
+  ],
+  "affected_breeds": [
+    "siberian-husky",
+    "alaskan-malamute"
+  ],
+  "typical_onset": "2-6 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£500-£1,800/year",
+  "breeds_detail": [
+    {
+      "name": "Siberian Husky",
+      "slug": "siberian-husky",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Alaskan Malamute",
+      "slug": "alaskan-malamute",
+      "size": "large",
+      "group": "Working"
+    }
+  ]
+}

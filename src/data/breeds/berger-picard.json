@@ -1,0 +1,154 @@
+{
+  "name": "Berger Picard",
+  "slug": "berger-picard",
+  "group": "Herding",
+  "size": "large",
+  "weight_min_kg": 23,
+  "weight_max_kg": 32,
+  "height_min_cm": 55,
+  "height_max_cm": 65,
+  "lifespan_min": 12,
+  "lifespan_max": 14,
+  "temperament": [
+    "energetic",
+    "assertive",
+    "intelligent",
+    "loyal"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "progressive-retinal-atrophy",
+    "eye-conditions"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 2,
+  "shedding_level": 2,
+  "trainability": 4,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 126,
+  "origin": "France",
+  "coat_type": "rough medium",
+  "coat_colors": [
+    "fawn",
+    "brindle",
+    "grey"
+  ],
+  "description": "The Berger Picard is one of France's oldest herding breeds, nearly extinct after the devastation of two World Wars in its native Picardy region, now experiencing a slow revival aided partly by the 2005 film 'Because of Winn-Dixie,' which featured the breed. With their shaggy, weatherproof coat, erect ears, and soulful dark eyes, Berger Picards have an endearingly scruffy appearance that masks a highly intelligent, assertive herding dog. They require significant exercise and engagement from experienced owners who can appreciate and channel their strong working instincts.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Progressive Retinal Atrophy (PRA)",
+      "slug": "progressive-retinal-atrophy",
+      "category": "Eye",
+      "description": "PRA is a group of hereditary diseases causing progressive degeneration of the photoreceptor cells in the retina. It leads to night blindness first, followed by complete blindness. There is no treatment, but DNA tests exist for many forms.",
+      "symptoms": [
+        "Night blindness (early sign)",
+        "Reluctance to enter dark rooms",
+        "Dilated pupils",
+        "Reduced daytime vision",
+        "Reflective eye shine (tapetal hyperreflectivity)"
+      ],
+      "severity": "high",
+      "treatment_overview": "There is no effective treatment or cure for PRA. Management focuses on adapting the dog's environment to maintain quality of life as vision deteriorates.",
+      "prevention_tips": [
+        "DNA test breeding stock before mating",
+        "Only breed clear or carrier-to-clear pairings",
+        "Annual ophthalmology screening (BVA/KC scheme)"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "cocker-spaniel",
+        "miniature-poodle",
+        "irish-setter",
+        "border-collie",
+        "tibetan-terrier"
+      ],
+      "typical_onset": "3-8 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£0 (management only)"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Australian Shepherd",
+      "slug": "australian-shepherd",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Border Collie",
+      "slug": "border-collie",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Belgian Malinois",
+      "slug": "belgian-malinois",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Rough Collie",
+      "slug": "rough-collie",
+      "size": "large",
+      "group": "Herding"
+    }
+  ],
+  "comparisons": []
+}

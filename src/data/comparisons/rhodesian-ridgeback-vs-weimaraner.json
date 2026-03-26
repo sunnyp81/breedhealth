@@ -1,0 +1,172 @@
+{
+  "slug": "rhodesian-ridgeback-vs-weimaraner",
+  "breed_a": {
+    "name": "Rhodesian Ridgeback",
+    "slug": "rhodesian-ridgeback",
+    "group": "Hound",
+    "size": "large",
+    "weight_min_kg": 29,
+    "weight_max_kg": 41,
+    "height_min_cm": 61,
+    "height_max_cm": 69,
+    "lifespan_min": 10,
+    "lifespan_max": 12,
+    "temperament": [
+      "loyal",
+      "dignified",
+      "strong-willed",
+      "mischievous",
+      "sensitive"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "dermoid-sinus",
+      "hypothyroidism",
+      "bloat"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 1,
+    "shedding_level": 2,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 38,
+    "origin": "Zimbabwe",
+    "coat_type": "short smooth",
+    "coat_colors": [
+      "light wheaten",
+      "red wheaten"
+    ],
+    "description": "Originally bred by the Khoikhoi people of southern Africa and refined by European settlers, the Rhodesian Ridgeback was used to track and hold lions at bay for hunters in the African bush, earning the name the African Lion Dog. The breed's defining feature is a distinctive ridge of hair growing in the opposite direction from the rest of the coat along the spine, inherited from the indigenous Khoikhoi hunting dogs. Ridgebacks are athletic, independent dogs with a reserved, almost cat-like selectivity in who they trust, requiring patient and consistent training from an early age."
+  },
+  "breed_b": {
+    "name": "Weimaraner",
+    "slug": "weimaraner",
+    "group": "Sporting",
+    "size": "large",
+    "weight_min_kg": 25,
+    "weight_max_kg": 40,
+    "height_min_cm": 56,
+    "height_max_cm": 69,
+    "lifespan_min": 10,
+    "lifespan_max": 13,
+    "temperament": [
+      "friendly",
+      "fearless",
+      "alert",
+      "obedient",
+      "energetic"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "bloat",
+      "hypothyroidism",
+      "spinal-dysraphism",
+      "entropion"
+    ],
+    "exercise_level": 5,
+    "grooming_level": 1,
+    "shedding_level": 2,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 36,
+    "origin": "Germany",
+    "coat_type": "short smooth",
+    "coat_colors": [
+      "silver gray",
+      "mouse gray",
+      "blue gray"
+    ],
+    "description": "The Weimaraner, nicknamed the Gray Ghost for its distinctive silvery coat and pale amber or blue-gray eyes, was developed at the Weimar court in early 19th-century Germany as an all-purpose dog for tracking large game including boar, bear, and deer. As big game became scarce they transitioned to bird hunting, and today they are energetic, intelligent sporting dogs that require substantial daily exercise or they become destructive indoors. They are intensely devoted to their families and suffer significant separation anxiety, making them best suited to households where someone is home much of the day."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 10,
+      "breed_b_value": 10,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 13,
+      "winner": "weimaraner"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 29,
+      "breed_b_value": 25,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 41,
+      "breed_b_value": 40,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 61,
+      "breed_b_value": 56,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 69,
+      "breed_b_value": 69,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 4,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 1,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 2,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "weimaraner"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

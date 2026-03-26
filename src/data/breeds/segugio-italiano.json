@@ -1,0 +1,118 @@
+{
+  "name": "Segugio Italiano",
+  "slug": "segugio-italiano",
+  "group": "Hound",
+  "size": "medium",
+  "weight_min_kg": 18,
+  "weight_max_kg": 28,
+  "height_min_cm": 48,
+  "height_max_cm": 59,
+  "lifespan_min": 10,
+  "lifespan_max": 14,
+  "temperament": [
+    "affectionate",
+    "even-tempered",
+    "lively",
+    "independent"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "ear-infections",
+    "eye-conditions"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 1,
+  "shedding_level": 2,
+  "trainability": 2,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 178,
+  "origin": "Italy",
+  "coat_type": "short",
+  "coat_colors": [
+    "fawn",
+    "black-and-tan"
+  ],
+  "description": "The Segugio Italiano is one of Italy's oldest and most numerous hunting breeds, descended from ancient Egyptian and Greek hounds depicted on classical art, and has been used to hunt hare across Italy since the Renaissance. This lean, athletic scenthound tracks game with its nose low to the ground and drives it toward hunters, occasionally tree-ing quarry in the manner of coonhounds. Despite its population numbering in the hundreds of thousands in Italy, the Segugio is barely known outside its homeland and remains one of the best-kept secrets of Italian dog culture.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Rhodesian Ridgeback",
+      "slug": "rhodesian-ridgeback",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Bloodhound",
+      "slug": "bloodhound",
+      "size": "large",
+      "group": "Hound"
+    }
+  ],
+  "comparisons": []
+}

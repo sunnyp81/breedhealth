@@ -1,0 +1,272 @@
+---
+import type { Breed } from '../lib/types';
+
+interface Props {
+  breedA: Breed;
+  breedB: Breed;
+}
+
+const { breedA, breedB } = Astro.props;
+
+// ── Helpers ────────────────────────────────────────────────────────────────
+
+/** Returns 'a' | 'b' | 'tie' for numeric winner logic. */
+type Winner = 'a' | 'b' | 'tie';
+
+function numericWinner(a: number, b: number, higherIsBetter: boolean): Winner {
+  if (a === b) return 'tie';
+  if (higherIsBetter) return a > b ? 'a' : 'b';
+  return a < b ? 'a' : 'b';
+}
+
+// Bold style for winning cell
+const WINNER_STYLE  = 'font-weight:700; color:var(--color-primary);';
+const NORMAL_STYLE  = 'font-weight:400; color:var(--color-text);';
+const TIE_STYLE     = 'font-weight:500; color:var(--color-text);';
+
+function cellStyle(side: 'a' | 'b', winner: Winner): string {
+  if (winner === 'tie') return TIE_STYLE;
+  return winner === side ? WINNER_STYLE : NORMAL_STYLE;
+}
+
+// Level label for 1–5 scale
+function levelLabel(v: number): string {
+  if (v <= 1) return 'Very Low';
+  if (v <= 2) return 'Low';
+  if (v <= 3) return 'Moderate';
+  if (v <= 4) return 'High';
+  return 'Very High';
+}
+
+// ── Bar component helper (rendered inline via template literals) ────────────
+// Returns an HTML string because we're inside a table cell expression
+function bar(value: number, color: string): string {
+  const pct = Math.round((value / 5) * 100);
+  return `
+    <div style="display:flex; align-items:center; gap:0.4rem;">
+      <div style="flex:1; height:7px; background:var(--color-bg-dark); border-radius:9999px; overflow:hidden; min-width:60px;">
+        <div style="height:100%; width:${pct}%; background:${color}; border-radius:9999px;"></div>
+      </div>
+      <span style="font-size:0.75rem; color:var(--color-text-muted); white-space:nowrap;">${levelLabel(value)} (${value}/5)</span>
+    </div>
+  `;
+}
+
+function boolDisplay(val: boolean): string {
+  return val
+    ? `<span style="color:#155724; font-weight:700; font-size:1rem;" aria-label="Yes">✓</span>`
+    : `<span style="color:#721c24; font-weight:700; font-size:1rem;" aria-label="No">✗</span>`;
+}
+
+// ── Numeric rows ───────────────────────────────────────────────────────────
+const weightWinner   = numericWinner(breedA.weight_max_kg,   breedB.weight_max_kg,   false); // lighter = better for apartment
+const heightWinner   = numericWinner(breedA.height_max_cm,   breedB.height_max_cm,   false);
+const lifespanWinner = numericWinner(
+  (breedA.lifespan_min + breedA.lifespan_max) / 2,
+  (breedB.lifespan_min + breedB.lifespan_max) / 2,
+  true  // longer lifespan = winner
+);
+const trainWinner    = numericWinner(breedA.trainability,    breedB.trainability,    true);  // higher trainability = winner
+const exerciseWinner = numericWinner(breedA.exercise_level,  breedB.exercise_level,  false); // lower exercise need = easier
+const groomWinner    = numericWinner(breedA.grooming_level,  breedB.grooming_level,  false); // lower grooming = easier
+const shedWinner     = numericWinner(breedA.shedding_level,  breedB.shedding_level,  false); // lower shedding = better
+
+// ── Size order for badge ──────────────────────────────────────────────────
+const sizeOrder: Record<string, number> = { small: 1, medium: 2, large: 3, giant: 4 };
+
+const sizeBadgeColor: Record<string, string> = {
+  small:  'background:#e8f5e8; color:#1e3f1e;',
+  medium: 'background:#fff8e8; color:#7a5a00;',
+  large:  'background:#fff3e0; color:#8a4500;',
+  giant:  'background:#fce4ec; color:#7b1a2e;',
+};
+---
+
+<div style="overflow-x:auto; -webkit-overflow-scrolling:touch;">
+  <table
+    style="
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      color: var(--color-text);
+      background: #fff;
+      border: 1px solid var(--color-border);
+      border-radius: 12px;
+      overflow: hidden;
+      min-width: 540px;
+    "
+  >
+    <!-- Header -->
+    <thead>
+      <tr style="background:var(--color-primary); color:#fff;">
+        <th style="padding:0.85rem 1rem; text-align:left; font-weight:600; font-size:0.78rem; text-transform:uppercase; letter-spacing:0.05em; width:32%;">
+          Trait
+        </th>
+        <th style="padding:0.85rem 1rem; text-align:left; font-weight:600; font-size:0.85rem; width:34%;">
+          <a href={`/breeds/${breedA.slug}/`} style="color:#fff; text-decoration:none;">
+            {breedA.name}
+          </a>
+        </th>
+        <th style="padding:0.85rem 1rem; text-align:left; font-weight:600; font-size:0.85rem; width:34%;">
+          <a href={`/breeds/${breedB.slug}/`} style="color:#fff; text-decoration:none;">
+            {breedB.name}
+          </a>
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <!-- ── Size ── -->
+      <tr style="border-top:1px solid var(--color-border);">
+        <td style="padding:0.7rem 1rem; font-weight:600; color:var(--color-text-muted); font-size:0.82rem; background:var(--color-bg);">
+          Size
+        </td>
+        <td style="padding:0.7rem 1rem;">
+          <span style={`display:inline-block; padding:0.15rem 0.55rem; border-radius:9999px; font-size:0.75rem; font-weight:600; ${sizeBadgeColor[breedA.size]}`}>
+            {breedA.size.charAt(0).toUpperCase() + breedA.size.slice(1)}
+          </span>
+        </td>
+        <td style="padding:0.7rem 1rem;">
+          <span style={`display:inline-block; padding:0.15rem 0.55rem; border-radius:9999px; font-size:0.75rem; font-weight:600; ${sizeBadgeColor[breedB.size]}`}>
+            {breedB.size.charAt(0).toUpperCase() + breedB.size.slice(1)}
+          </span>
+        </td>
+      </tr>
+
+      <!-- ── Weight ── -->
+      <tr style="border-top:1px solid var(--color-border); background:var(--color-bg);">
+        <td style="padding:0.7rem 1rem; font-weight:600; color:var(--color-text-muted); font-size:0.82rem;">
+          Weight
+        </td>
+        <td style={`padding:0.7rem 1rem; ${cellStyle('a', weightWinner)}`}>
+          {breedA.weight_min_kg}–{breedA.weight_max_kg} kg
+        </td>
+        <td style={`padding:0.7rem 1rem; ${cellStyle('b', weightWinner)}`}>
+          {breedB.weight_min_kg}–{breedB.weight_max_kg} kg
+        </td>
+      </tr>
+
+      <!-- ── Height ── -->
+      <tr style="border-top:1px solid var(--color-border);">
+        <td style="padding:0.7rem 1rem; font-weight:600; color:var(--color-text-muted); font-size:0.82rem; background:var(--color-bg);">
+          Height
+        </td>
+        <td style={`padding:0.7rem 1rem; ${cellStyle('a', heightWinner)}`}>
+          {breedA.height_min_cm}–{breedA.height_max_cm} cm
+        </td>
+        <td style={`padding:0.7rem 1rem; ${cellStyle('b', heightWinner)}`}>
+          {breedB.height_min_cm}–{breedB.height_max_cm} cm
+        </td>
+      </tr>
+
+      <!-- ── Lifespan ── -->
+      <tr style="border-top:1px solid var(--color-border); background:var(--color-bg);">
+        <td style="padding:0.7rem 1rem; font-weight:600; color:var(--color-text-muted); font-size:0.82rem;">
+          Lifespan
+        </td>
+        <td style={`padding:0.7rem 1rem; ${cellStyle('a', lifespanWinner)}`}>
+          {breedA.lifespan_min}–{breedA.lifespan_max} yrs
+        </td>
+        <td style={`padding:0.7rem 1rem; ${cellStyle('b', lifespanWinner)}`}>
+          {breedB.lifespan_min}–{breedB.lifespan_max} yrs
+        </td>
+      </tr>
+
+      <!-- ── Exercise (bar + label) ── -->
+      <tr style="border-top:1px solid var(--color-border);">
+        <td style="padding:0.7rem 1rem; font-weight:600; color:var(--color-text-muted); font-size:0.82rem; background:var(--color-bg);">
+          Exercise Need
+        </td>
+        <td style={`padding:0.7rem 1rem; ${cellStyle('a', exerciseWinner)}`}>
+          <Fragment set:html={bar(breedA.exercise_level, exerciseWinner === 'a' ? 'var(--color-primary)' : 'var(--color-accent)')} />
+        </td>
+        <td style={`padding:0.7rem 1rem; ${cellStyle('b', exerciseWinner)}`}>
+          <Fragment set:html={bar(breedB.exercise_level, exerciseWinner === 'b' ? 'var(--color-primary)' : 'var(--color-accent)')} />
+        </td>
+      </tr>
+
+      <!-- ── Grooming (bar + label) ── -->
+      <tr style="border-top:1px solid var(--color-border); background:var(--color-bg);">
+        <td style="padding:0.7rem 1rem; font-weight:600; color:var(--color-text-muted); font-size:0.82rem;">
+          Grooming Need
+        </td>
+        <td style={`padding:0.7rem 1rem; ${cellStyle('a', groomWinner)}`}>
+          <Fragment set:html={bar(breedA.grooming_level, groomWinner === 'a' ? 'var(--color-primary)' : 'var(--color-accent)')} />
+        </td>
+        <td style={`padding:0.7rem 1rem; ${cellStyle('b', groomWinner)}`}>
+          <Fragment set:html={bar(breedB.grooming_level, groomWinner === 'b' ? 'var(--color-primary)' : 'var(--color-accent)')} />
+        </td>
+      </tr>
+
+      <!-- ── Shedding (bar + label) ── -->
+      <tr style="border-top:1px solid var(--color-border);">
+        <td style="padding:0.7rem 1rem; font-weight:600; color:var(--color-text-muted); font-size:0.82rem; background:var(--color-bg);">
+          Shedding
+        </td>
+        <td style={`padding:0.7rem 1rem; ${cellStyle('a', shedWinner)}`}>
+          <Fragment set:html={bar(breedA.shedding_level, shedWinner === 'a' ? 'var(--color-primary)' : 'var(--color-accent)')} />
+        </td>
+        <td style={`padding:0.7rem 1rem; ${cellStyle('b', shedWinner)}`}>
+          <Fragment set:html={bar(breedB.shedding_level, shedWinner === 'b' ? 'var(--color-primary)' : 'var(--color-accent)')} />
+        </td>
+      </tr>
+
+      <!-- ── Trainability (bar + label) ── -->
+      <tr style="border-top:1px solid var(--color-border); background:var(--color-bg);">
+        <td style="padding:0.7rem 1rem; font-weight:600; color:var(--color-text-muted); font-size:0.82rem;">
+          Trainability
+        </td>
+        <td style={`padding:0.7rem 1rem; ${cellStyle('a', trainWinner)}`}>
+          <Fragment set:html={bar(breedA.trainability, trainWinner === 'a' ? 'var(--color-primary)' : 'var(--color-accent)')} />
+        </td>
+        <td style={`padding:0.7rem 1rem; ${cellStyle('b', trainWinner)}`}>
+          <Fragment set:html={bar(breedB.trainability, trainWinner === 'b' ? 'var(--color-primary)' : 'var(--color-accent)')} />
+        </td>
+      </tr>
+
+      <!-- ── Good with Children ── -->
+      <tr style="border-top:1px solid var(--color-border);">
+        <td style="padding:0.7rem 1rem; font-weight:600; color:var(--color-text-muted); font-size:0.82rem; background:var(--color-bg);">
+          Good with Children
+        </td>
+        <td style="padding:0.7rem 1rem;">
+          <Fragment set:html={boolDisplay(breedA.good_with_children)} />
+        </td>
+        <td style="padding:0.7rem 1rem;">
+          <Fragment set:html={boolDisplay(breedB.good_with_children)} />
+        </td>
+      </tr>
+
+      <!-- ── Good with Dogs ── -->
+      <tr style="border-top:1px solid var(--color-border); background:var(--color-bg);">
+        <td style="padding:0.7rem 1rem; font-weight:600; color:var(--color-text-muted); font-size:0.82rem;">
+          Good with Dogs
+        </td>
+        <td style="padding:0.7rem 1rem;">
+          <Fragment set:html={boolDisplay(breedA.good_with_dogs)} />
+        </td>
+        <td style="padding:0.7rem 1rem;">
+          <Fragment set:html={boolDisplay(breedB.good_with_dogs)} />
+        </td>
+      </tr>
+
+      <!-- ── Apartment Friendly ── -->
+      <tr style="border-top:1px solid var(--color-border);">
+        <td style="padding:0.7rem 1rem; font-weight:600; color:var(--color-text-muted); font-size:0.82rem; background:var(--color-bg);">
+          Apartment Friendly
+        </td>
+        <td style="padding:0.7rem 1rem;">
+          <Fragment set:html={boolDisplay(breedA.apartment_friendly)} />
+        </td>
+        <td style="padding:0.7rem 1rem;">
+          <Fragment set:html={boolDisplay(breedB.apartment_friendly)} />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Legend -->
+<p style="margin-top:0.6rem; font-size:0.75rem; color:var(--color-text-light);">
+  <strong style="color:var(--color-primary);">Bold green</strong> indicates the better result for that trait. Exercise, grooming and shedding: lower is easier to manage. Trainability and lifespan: higher is better.
+</p>

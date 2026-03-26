@@ -1,0 +1,185 @@
+{
+  "name": "Tibetan Spaniel",
+  "slug": "tibetan-spaniel",
+  "group": "Non-Sporting",
+  "size": "small",
+  "weight_min_kg": 4,
+  "weight_max_kg": 7,
+  "height_min_cm": 25,
+  "height_max_cm": 28,
+  "lifespan_min": 12,
+  "lifespan_max": 15,
+  "temperament": [
+    "alert",
+    "independent",
+    "affectionate",
+    "playful"
+  ],
+  "health_issues": [
+    "patellar-luxation",
+    "progressive-retinal-atrophy",
+    "cherry-eye",
+    "respiratory-issues"
+  ],
+  "exercise_level": 2,
+  "grooming_level": 2,
+  "shedding_level": 2,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 129,
+  "origin": "Tibet",
+  "coat_type": "silky",
+  "coat_colors": [
+    "red",
+    "fawn",
+    "gold",
+    "cream",
+    "white",
+    "black",
+    "sable"
+  ],
+  "description": "The Tibetan Spaniel is an ancient breed that served as a watchdog in Tibetan monasteries, often perched on walls to survey the surrounding landscape. Despite the name, they are not true spaniels and are more closely related to other Asian breeds. They are intelligent and independent, forming strong bonds with their families while remaining somewhat reserved with strangers.",
+  "conditions_detail": [
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+      "symptoms": [
+        "Intermittent skipping on hind leg",
+        "Sudden leg lifting",
+        "Bunny-hopping",
+        "Hind limb lameness",
+        "Visible kneecap displacement"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+      "prevention_tips": [
+        "Breed from dogs with normal patellar scores",
+        "Maintain healthy weight",
+        "Avoid high-impact activities in affected puppies"
+      ],
+      "affected_breeds": [
+        "chihuahua",
+        "yorkshire-terrier",
+        "pomeranian",
+        "toy-poodle",
+        "bichon-frise",
+        "boston-terrier"
+      ],
+      "typical_onset": "4 months - 6 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    },
+    {
+      "name": "Progressive Retinal Atrophy (PRA)",
+      "slug": "progressive-retinal-atrophy",
+      "category": "Eye",
+      "description": "PRA is a group of hereditary diseases causing progressive degeneration of the photoreceptor cells in the retina. It leads to night blindness first, followed by complete blindness. There is no treatment, but DNA tests exist for many forms.",
+      "symptoms": [
+        "Night blindness (early sign)",
+        "Reluctance to enter dark rooms",
+        "Dilated pupils",
+        "Reduced daytime vision",
+        "Reflective eye shine (tapetal hyperreflectivity)"
+      ],
+      "severity": "high",
+      "treatment_overview": "There is no effective treatment or cure for PRA. Management focuses on adapting the dog's environment to maintain quality of life as vision deteriorates.",
+      "prevention_tips": [
+        "DNA test breeding stock before mating",
+        "Only breed clear or carrier-to-clear pairings",
+        "Annual ophthalmology screening (BVA/KC scheme)"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "cocker-spaniel",
+        "miniature-poodle",
+        "irish-setter",
+        "border-collie",
+        "tibetan-terrier"
+      ],
+      "typical_onset": "3-8 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£0 (management only)"
+    },
+    {
+      "name": "Cherry Eye (Prolapsed Nictitating Membrane Gland)",
+      "slug": "cherry-eye",
+      "category": "Eye",
+      "description": "Cherry eye is the prolapse of the tear-producing gland of the third eyelid, appearing as a red or pink mass in the inner corner of the eye. It is more common in brachycephalic and young breeds, and can affect one or both eyes.",
+      "symptoms": [
+        "Red or pink mass in inner eye corner",
+        "Eye discharge",
+        "Excessive tearing",
+        "Eye rubbing",
+        "Conjunctivitis"
+      ],
+      "severity": "low",
+      "treatment_overview": "Surgical replacement (tucking or pocket technique) of the gland back into its normal position is preferred over removal to preserve tear production. Surgery success rate is high.",
+      "prevention_tips": [
+        "No proven prevention",
+        "Early surgical correction prevents secondary dry eye"
+      ],
+      "affected_breeds": [
+        "english-bulldog",
+        "cocker-spaniel",
+        "beagle",
+        "basset-hound",
+        "shih-tzu",
+        "lhasa-apso"
+      ],
+      "typical_onset": "Under 2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£600-£1,500"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Weight Management",
+      "slug": "weight-management"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "French Bulldog",
+      "slug": "french-bulldog",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bulldog",
+      "slug": "bulldog",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Boston Terrier",
+      "slug": "boston-terrier",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bichon Frise",
+      "slug": "bichon-frise",
+      "size": "small",
+      "group": "Non-Sporting"
+    }
+  ],
+  "comparisons": []
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Exocrine Pancreatic Insufficiency (EPI)",
+  "slug": "exocrine-pancreatic-insufficiency",
+  "category": "Gastrointestinal",
+  "description": "EPI results from destruction of the exocrine pancreatic cells, leading to failure to produce digestive enzymes. Food passes through undigested, causing malabsorption, weight loss, and coprophagia. It is treatable but lifelong.",
+  "symptoms": [
+    "Weight loss despite ravenous appetite",
+    "Voluminous pale fatty stools",
+    "Coprophagia (eating faeces)",
+    "Flatulence",
+    "Diarrhoea"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Lifelong powdered pancreatic enzyme supplementation with every meal is the primary treatment. Cobalamin (B12) injections are often needed initially. Low-fat diet and antibiotics for small intestinal bacterial overgrowth.",
+  "prevention_tips": [
+    "DNA test available for pancreatic acinar atrophy (PAA) in German Shepherds"
+  ],
+  "affected_breeds": [
+    "german-shepherd",
+    "rough-collie",
+    "eurasier",
+    "chow-chow"
+  ],
+  "typical_onset": "1-5 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£600-£1,800/year",
+  "breeds_detail": [
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Rough Collie",
+      "slug": "rough-collie",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Eurasier",
+      "slug": "eurasier",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Chow Chow",
+      "slug": "chow-chow",
+      "size": "medium",
+      "group": "Non-Sporting"
+    }
+  ]
+}

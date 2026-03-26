@@ -1,0 +1,115 @@
+{
+  "name": "Volpino Italiano",
+  "slug": "volpino-italiano",
+  "group": "Non-Sporting",
+  "size": "small",
+  "weight_min_kg": 4,
+  "weight_max_kg": 5,
+  "height_min_cm": 25,
+  "height_max_cm": 30,
+  "lifespan_min": 14,
+  "lifespan_max": 16,
+  "temperament": [
+    "lively",
+    "loyal",
+    "playful",
+    "alert"
+  ],
+  "health_issues": [
+    "patellar-luxation",
+    "eye-conditions",
+    "primary-lens-luxation"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 3,
+  "shedding_level": 3,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 196,
+  "origin": "Italy",
+  "coat_type": "long",
+  "coat_colors": [
+    "white",
+    "red",
+    "honey"
+  ],
+  "description": "The Volpino Italiano is an ancient Italian Spitz-type breed that appears in art dating to 1500 BC, and was a beloved companion of Italian nobility and a favorite of Michelangelo. Almost indistinguishable from the early Pomeranian in appearance, the Volpino nearly went extinct in the mid-20th century, with fewer than five individuals recorded in Italy in the 1960s, before a revival program using dogs found on Italian farms brought the breed back from the brink. This lively, spirited little dog was historically used as a watchdog on farms and in carriages, alerting larger dogs to danger with its loud bark.",
+  "conditions_detail": [
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+      "symptoms": [
+        "Intermittent skipping on hind leg",
+        "Sudden leg lifting",
+        "Bunny-hopping",
+        "Hind limb lameness",
+        "Visible kneecap displacement"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+      "prevention_tips": [
+        "Breed from dogs with normal patellar scores",
+        "Maintain healthy weight",
+        "Avoid high-impact activities in affected puppies"
+      ],
+      "affected_breeds": [
+        "chihuahua",
+        "yorkshire-terrier",
+        "pomeranian",
+        "toy-poodle",
+        "bichon-frise",
+        "boston-terrier"
+      ],
+      "typical_onset": "4 months - 6 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "French Bulldog",
+      "slug": "french-bulldog",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bulldog",
+      "slug": "bulldog",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Boston Terrier",
+      "slug": "boston-terrier",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bichon Frise",
+      "slug": "bichon-frise",
+      "size": "small",
+      "group": "Non-Sporting"
+    }
+  ],
+  "comparisons": []
+}

@@ -1,0 +1,176 @@
+{
+  "slug": "saint-bernard-vs-great-dane",
+  "breed_a": {
+    "name": "Saint Bernard",
+    "slug": "saint-bernard",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 54,
+    "weight_max_kg": 82,
+    "height_min_cm": 65,
+    "height_max_cm": 90,
+    "lifespan_min": 8,
+    "lifespan_max": 10,
+    "temperament": [
+      "playful",
+      "charming",
+      "gentle",
+      "patient",
+      "friendly"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "bloat",
+      "osteosarcoma",
+      "cardiomyopathy"
+    ],
+    "exercise_level": 2,
+    "grooming_level": 3,
+    "shedding_level": 4,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 51,
+    "origin": "Switzerland",
+    "coat_type": "long or short double",
+    "coat_colors": [
+      "red and white",
+      "brown and white",
+      "brindle and white"
+    ],
+    "description": "The Saint Bernard was developed by monks at the Great Saint Bernard Hospice in the Swiss Alps to rescue lost and injured travelers on the treacherous mountain passes between Switzerland and Italy, and is credited with saving over 2,000 lives over three centuries of service. The barrel of brandy around the neck is a charming artistic invention — the real rescue dogs simply used their extraordinary scent tracking and ability to locate avalanche victims buried under metres of snow. Their massive size and gentle, patient temperament made them famous as family dogs, though their lifespan is short and their drool output is legendary."
+  },
+  "breed_b": {
+    "name": "Great Dane",
+    "slug": "great-dane",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 50,
+    "weight_max_kg": 82,
+    "height_min_cm": 71,
+    "height_max_cm": 86,
+    "lifespan_min": 7,
+    "lifespan_max": 10,
+    "temperament": [
+      "friendly",
+      "patient",
+      "dependable",
+      "gentle",
+      "reserved"
+    ],
+    "health_issues": [
+      "bloat",
+      "hip-dysplasia",
+      "dilated-cardiomyopathy",
+      "osteosarcoma",
+      "wobbler-syndrome"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 1,
+    "shedding_level": 2,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 15,
+    "origin": "Germany",
+    "coat_type": "short smooth",
+    "coat_colors": [
+      "fawn",
+      "brindle",
+      "blue",
+      "black",
+      "harlequin",
+      "mantle"
+    ],
+    "description": "The Great Dane holds the record for the world's tallest domestic dog, with males routinely exceeding 80 cm at the shoulder, yet their gentle, friendly disposition has earned them the nickname the Gentle Giant of the dog world. Developed in Germany for boar hunting, modern Great Danes are calm, affectionate companions whose sheer size means early obedience training is not optional — an untrained 80 kg dog is unmanageable. Despite their imposing stature, they are sensitive dogs that respond poorly to harsh handling and form close bonds with their families."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 8,
+      "breed_b_value": 7,
+      "winner": "saint-bernard"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 10,
+      "breed_b_value": 10,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 54,
+      "breed_b_value": 50,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 82,
+      "breed_b_value": 82,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 65,
+      "breed_b_value": 71,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 90,
+      "breed_b_value": 86,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 2,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 3,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 4,
+      "breed_b_value": 2,
+      "winner": "great-dane"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

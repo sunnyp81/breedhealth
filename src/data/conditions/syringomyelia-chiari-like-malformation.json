@@ -1,0 +1,55 @@
+{
+  "name": "Syringomyelia and Chiari-Like Malformation",
+  "slug": "syringomyelia-chiari-like-malformation",
+  "category": "Neurological",
+  "description": "Chiari-like malformation (CM) is a mismatch between the skull and brain size causing compression of the hindbrain. This disrupts cerebrospinal fluid flow and leads to syringomyelia (SM) — fluid-filled cavities within the spinal cord. It causes phantom scratching and severe pain.",
+  "symptoms": [
+    "Phantom scratching at neck/shoulder",
+    "Sensitivity around head and neck",
+    "Scoliosis",
+    "Weakness and ataxia",
+    "Vocalising in pain"
+  ],
+  "severity": "high",
+  "treatment_overview": "Medical management with gabapentin, omeprazole, and NSAIDs controls pain and may slow progression. Surgical decompression (foramen magnum decompression) is the only way to address the underlying cause.",
+  "prevention_tips": [
+    "MRI-grade breeding stock (BVA/KC/IKC scheme)",
+    "Do not breed severely affected dogs"
+  ],
+  "affected_breeds": [
+    "cavalier-king-charles-spaniel",
+    "chihuahua",
+    "brussels-griffon",
+    "yorkshire-terrier",
+    "maltese"
+  ],
+  "typical_onset": "Under 4 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£1,500-£6,000",
+  "breeds_detail": [
+    {
+      "name": "Cavalier King Charles Spaniel",
+      "slug": "cavalier-king-charles-spaniel",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Brussels Griffon",
+      "slug": "brussels-griffon",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Yorkshire Terrier",
+      "slug": "yorkshire-terrier",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Maltese",
+      "slug": "maltese",
+      "size": "small",
+      "group": "Toy"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Congenital Deafness",
+  "slug": "congenital-deafness",
+  "category": "Ear",
+  "description": "Congenital deafness in dogs is most commonly associated with the piebald or merle colour genes, which affect melanocyte development in the cochlear stria vascularis. Degeneration of cochlear hair cells leads to permanent sensorineural deafness, which can be unilateral or bilateral.",
+  "symptoms": [
+    "No response to sounds",
+    "Difficulty waking when asleep",
+    "No startling to loud noises",
+    "Unilateral deafness may go unnoticed",
+    "Behavioural changes"
+  ],
+  "severity": "medium",
+  "treatment_overview": "There is no treatment for sensorineural deafness. Deaf dogs can live full and happy lives with positive training using hand signals and vibration cues. Hearing aids are available but rarely practical.",
+  "prevention_tips": [
+    "BAER (brainstem auditory evoked response) test all breeding stock in predisposed breeds",
+    "Do not breed bilaterally deaf dogs",
+    "Avoid double merle matings"
+  ],
+  "affected_breeds": [
+    "dalmatian",
+    "english-bulldog",
+    "australian-shepherd",
+    "border-collie",
+    "bull-terrier",
+    "great-dane"
+  ],
+  "typical_onset": "Birth",
+  "hereditary": true,
+  "estimated_treatment_cost": "£0 (management only)",
+  "breeds_detail": [
+    {
+      "name": "Australian Shepherd",
+      "slug": "australian-shepherd",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Border Collie",
+      "slug": "border-collie",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Bull Terrier",
+      "slug": "bull-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    }
+  ]
+}

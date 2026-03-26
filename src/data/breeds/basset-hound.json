@@ -1,0 +1,160 @@
+{
+  "name": "Basset Hound",
+  "slug": "basset-hound",
+  "group": "Hound",
+  "size": "medium",
+  "weight_min_kg": 18,
+  "weight_max_kg": 27,
+  "height_min_cm": 28,
+  "height_max_cm": 38,
+  "lifespan_min": 10,
+  "lifespan_max": 12,
+  "temperament": [
+    "tenacious",
+    "friendly",
+    "gentle",
+    "affectionate",
+    "devoted"
+  ],
+  "health_issues": [
+    "intervertebral-disc-disease",
+    "ear-infections",
+    "glaucoma",
+    "obesity",
+    "thrombopathia"
+  ],
+  "exercise_level": 2,
+  "grooming_level": 2,
+  "shedding_level": 3,
+  "trainability": 2,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 37,
+  "origin": "France",
+  "coat_type": "short smooth",
+  "coat_colors": [
+    "tricolor",
+    "lemon and white",
+    "red and white",
+    "mahogany and white"
+  ],
+  "description": "The Basset Hound was developed in France and Belgium to track hares and rabbits slowly and methodically through dense undergrowth, its low-slung body bringing its extraordinary nose within inches of the ground where scent pools and lingers longest. Despite an appearance of perpetual melancholy, Bassets are affectionate, gentle, and quietly humorous companions that get along with virtually everyone they meet. Their long, floppy ears dramatically restrict airflow to the ear canal and require weekly cleaning to prevent the chronic infections to which the breed is especially prone.",
+  "conditions_detail": [
+    {
+      "name": "Intervertebral Disc Disease (IVDD)",
+      "slug": "intervertebral-disc-disease",
+      "category": "Orthopedic",
+      "description": "IVDD occurs when the cushioning discs between vertebrae degenerate and herniate, pressing on the spinal cord. Chondrodystrophic breeds are predisposed due to premature disc mineralisation. Can cause pain, paralysis, or loss of bladder control.",
+      "symptoms": [
+        "Back or neck pain",
+        "Reluctance to move",
+        "Weakness or paralysis in limbs",
+        "Loss of bladder or bowel control",
+        "Yelping when touched"
+      ],
+      "severity": "high",
+      "treatment_overview": "Mild cases are managed with strict rest and anti-inflammatory medication. Severe cases with neurological deficits require emergency spinal surgery within 24-48 hours for best outcomes.",
+      "prevention_tips": [
+        "Use ramps instead of stairs for short-legged breeds",
+        "Maintain healthy weight",
+        "Avoid high-impact activities",
+        "Support the back when lifting"
+      ],
+      "affected_breeds": [
+        "dachshund",
+        "french-bulldog",
+        "beagle",
+        "basset-hound",
+        "cocker-spaniel",
+        "shih-tzu"
+      ],
+      "typical_onset": "3-7 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£3,000-£8,000"
+    },
+    {
+      "name": "Glaucoma",
+      "slug": "glaucoma",
+      "category": "Eye",
+      "description": "Glaucoma is elevated intraocular pressure that damages the optic nerve and retina, causing pain and vision loss. Primary glaucoma is hereditary; secondary glaucoma results from other eye conditions. It is a veterinary emergency in acute form.",
+      "symptoms": [
+        "Sudden eye pain",
+        "Enlarged or bulging eye",
+        "Cloudy cornea",
+        "Redness",
+        "Rapid vision loss",
+        "Lethargy"
+      ],
+      "severity": "high",
+      "treatment_overview": "Emergency medical treatment aims to reduce intraocular pressure using topical and systemic medications. Long-term management requires ongoing medication. Affected eyes that are blind and painful are enucleated.",
+      "prevention_tips": [
+        "Annual tonometry (pressure checks) in at-risk breeds",
+        "DNA test available for some breeds",
+        "Treat lens luxation and uveitis promptly to prevent secondary glaucoma"
+      ],
+      "affected_breeds": [
+        "basset-hound",
+        "cocker-spaniel",
+        "chow-chow",
+        "siberian-husky",
+        "welsh-springer-spaniel",
+        "great-dane"
+      ],
+      "typical_onset": "3-7 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£5,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Weight Management",
+      "slug": "weight-management"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Rhodesian Ridgeback",
+      "slug": "rhodesian-ridgeback",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Bloodhound",
+      "slug": "bloodhound",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Whippet",
+      "slug": "whippet",
+      "size": "medium",
+      "group": "Hound"
+    }
+  ],
+  "comparisons": [
+    "beagle-vs-basset-hound",
+    "dachshund-vs-basset-hound",
+    "bloodhound-vs-basset-hound"
+  ]
+}

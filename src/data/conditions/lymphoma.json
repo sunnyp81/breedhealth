@@ -1,0 +1,81 @@
+{
+  "name": "Lymphoma",
+  "slug": "lymphoma",
+  "category": "Cancer",
+  "description": "Canine lymphoma is one of the most common cancers in dogs, arising from lymphocytes in the lymph nodes, spleen, liver, or bone marrow. Multicentric (involving multiple lymph nodes) is the most common form. It is generally treatable but not curable.",
+  "symptoms": [
+    "Swollen lymph nodes",
+    "Weight loss",
+    "Lethargy",
+    "Reduced appetite",
+    "Increased thirst and urination",
+    "Vomiting"
+  ],
+  "severity": "high",
+  "treatment_overview": "CHOP-based chemotherapy protocols achieve remission in 60-90% of dogs, with median survival of 12-14 months. Prednisolone alone provides short-term palliation. Targeted therapies are emerging.",
+  "prevention_tips": [
+    "No proven prevention",
+    "Annual health checks allow earlier detection"
+  ],
+  "affected_breeds": [
+    "golden-retriever",
+    "boxer",
+    "basset-hound",
+    "saint-bernard",
+    "scottish-terrier",
+    "airedale-terrier"
+  ],
+  "typical_onset": "6-9 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£5,000-£12,000",
+  "breeds_detail": [
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Saint Bernard",
+      "slug": "saint-bernard",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Scottish Terrier",
+      "slug": "scottish-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Airedale Terrier",
+      "slug": "airedale-terrier",
+      "size": "large",
+      "group": "Terrier"
+    },
+    {
+      "name": "Vizsla",
+      "slug": "vizsla",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Bullmastiff",
+      "slug": "bullmastiff",
+      "size": "giant",
+      "group": "Working"
+    }
+  ]
+}

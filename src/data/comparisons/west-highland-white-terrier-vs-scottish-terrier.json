@@ -1,0 +1,171 @@
+{
+  "slug": "west-highland-white-terrier-vs-scottish-terrier",
+  "breed_a": {
+    "name": "West Highland White Terrier",
+    "slug": "west-highland-white-terrier",
+    "group": "Terrier",
+    "size": "small",
+    "weight_min_kg": 6.8,
+    "weight_max_kg": 9,
+    "height_min_cm": 25,
+    "height_max_cm": 28,
+    "lifespan_min": 13,
+    "lifespan_max": 15,
+    "temperament": [
+      "alert",
+      "cheerful",
+      "independent",
+      "friendly",
+      "stubborn"
+    ],
+    "health_issues": [
+      "skin-conditions",
+      "patellar-luxation",
+      "pulmonary-fibrosis",
+      "craniomandibular-osteopathy",
+      "jawbone-disease"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 4,
+    "shedding_level": 2,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 40,
+    "origin": "Scotland",
+    "coat_type": "wiry double",
+    "coat_colors": [
+      "white"
+    ],
+    "description": "The West Highland White Terrier was developed in Scotland in the 19th century, with its white coat reportedly bred deliberately by Colonel Malcolm of Poltalloch after he accidentally shot his brown terrier, mistaking it for a fox during a hunt. Compact, confident, and cheerful, the Westie is one of the most recognizable and popular small terriers globally, with a bold, independent terrier character that it wears with great self-assurance. Skin conditions and allergies are unusually prevalent in the breed, and Westie lung disease — idiopathic pulmonary fibrosis — is a serious breed-specific concern owners should discuss with their vet."
+  },
+  "breed_b": {
+    "name": "Scottish Terrier",
+    "slug": "scottish-terrier",
+    "group": "Terrier",
+    "size": "small",
+    "weight_min_kg": 8.5,
+    "weight_max_kg": 10,
+    "height_min_cm": 25,
+    "height_max_cm": 28,
+    "lifespan_min": 11,
+    "lifespan_max": 13,
+    "temperament": [
+      "feisty",
+      "independent",
+      "alert",
+      "spirited",
+      "stubborn"
+    ],
+    "health_issues": [
+      "scottie-cramp",
+      "von-willebrands-disease",
+      "craniomandibular-osteopathy",
+      "bladder-cancer",
+      "cushing-disease"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 4,
+    "shedding_level": 1,
+    "trainability": 2,
+    "good_with_children": false,
+    "good_with_dogs": false,
+    "apartment_friendly": true,
+    "popularity_rank": 62,
+    "origin": "Scotland",
+    "coat_type": "wiry double",
+    "coat_colors": [
+      "black",
+      "wheaten",
+      "brindle"
+    ],
+    "description": "The Scottish Terrier, or Scottie, is a compact, low-slung terrier of striking appearance with a distinctive long head, bushy eyebrows and beard, and a jet black wiry coat that has made it one of the most commercially recognizable dog breeds in the world — featured in advertising, games, and as presidential pets by Franklin D. Roosevelt and George W. Bush. Scotties are feisty, dignified, and intensely independent dogs that can be aloof with strangers and are known for their characteristic terrier stubbornness that makes training a battle of wills. Scottie cramp, a movement disorder triggered by exercise, and a notably elevated bladder cancer risk are important breed health considerations."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 13,
+      "breed_b_value": 11,
+      "winner": "west-highland-white-terrier"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 15,
+      "breed_b_value": 13,
+      "winner": "west-highland-white-terrier"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 6.8,
+      "breed_b_value": 8.5,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 9,
+      "breed_b_value": 10,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 25,
+      "breed_b_value": 25,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 28,
+      "breed_b_value": 28,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 2,
+      "breed_b_value": 1,
+      "winner": "scottish-terrier"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 2,
+      "winner": "west-highland-white-terrier"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": false,
+      "winner": "west-highland-white-terrier"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": false,
+      "winner": "west-highland-white-terrier"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

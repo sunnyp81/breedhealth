@@ -1,0 +1,153 @@
+{
+  "name": "English Springer Spaniel",
+  "slug": "english-springer-spaniel",
+  "group": "Sporting",
+  "size": "medium",
+  "weight_min_kg": 18,
+  "weight_max_kg": 23,
+  "height_min_cm": 46,
+  "height_max_cm": 51,
+  "lifespan_min": 12,
+  "lifespan_max": 14,
+  "temperament": [
+    "friendly",
+    "playful",
+    "obedient",
+    "eager",
+    "cheerful"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "progressive-retinal-atrophy",
+    "phosphofructokinase-deficiency",
+    "ear-infections",
+    "rage-syndrome"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 3,
+  "shedding_level": 3,
+  "trainability": 5,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 30,
+  "origin": "England",
+  "coat_type": "medium wavy",
+  "coat_colors": [
+    "liver and white",
+    "black and white",
+    "tricolor"
+  ],
+  "description": "The English Springer Spaniel is a classic upland bird dog developed in England to spring, or flush, game birds from dense cover, and remains one of the most capable and energetic sporting dogs in the field today. Compact, athletic, and possessed of almost boundless enthusiasm, Springers excel equally as field hunters and family companions, consistently ranking among the top performers in obedience and agility. Their silky feathered coat needs regular brushing to prevent matting, particularly around the ears, chest, and legs where feathering is densest.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Progressive Retinal Atrophy (PRA)",
+      "slug": "progressive-retinal-atrophy",
+      "category": "Eye",
+      "description": "PRA is a group of hereditary diseases causing progressive degeneration of the photoreceptor cells in the retina. It leads to night blindness first, followed by complete blindness. There is no treatment, but DNA tests exist for many forms.",
+      "symptoms": [
+        "Night blindness (early sign)",
+        "Reluctance to enter dark rooms",
+        "Dilated pupils",
+        "Reduced daytime vision",
+        "Reflective eye shine (tapetal hyperreflectivity)"
+      ],
+      "severity": "high",
+      "treatment_overview": "There is no effective treatment or cure for PRA. Management focuses on adapting the dog's environment to maintain quality of life as vision deteriorates.",
+      "prevention_tips": [
+        "DNA test breeding stock before mating",
+        "Only breed clear or carrier-to-clear pairings",
+        "Annual ophthalmology screening (BVA/KC scheme)"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "cocker-spaniel",
+        "miniature-poodle",
+        "irish-setter",
+        "border-collie",
+        "tibetan-terrier"
+      ],
+      "typical_onset": "3-8 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£0 (management only)"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "German Shorthaired Pointer",
+      "slug": "german-shorthaired-pointer",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Vizsla",
+      "slug": "vizsla",
+      "size": "medium",
+      "group": "Sporting"
+    }
+  ],
+  "comparisons": []
+}

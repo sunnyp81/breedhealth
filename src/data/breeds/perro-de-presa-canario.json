@@ -1,0 +1,213 @@
+{
+  "name": "Perro de Presa Canario",
+  "slug": "perro-de-presa-canario",
+  "group": "Working",
+  "size": "large",
+  "weight_min_kg": 38,
+  "weight_max_kg": 59,
+  "height_min_cm": 56,
+  "height_max_cm": 65,
+  "lifespan_min": 9,
+  "lifespan_max": 11,
+  "temperament": [
+    "calm",
+    "confident",
+    "dominant",
+    "suspicious"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "elbow-dysplasia",
+    "dilated-cardiomyopathy",
+    "epilepsy"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 1,
+  "shedding_level": 2,
+  "trainability": 2,
+  "good_with_children": false,
+  "good_with_dogs": false,
+  "apartment_friendly": false,
+  "popularity_rank": 166,
+  "origin": "Spain",
+  "coat_type": "short",
+  "coat_colors": [
+    "fawn",
+    "brindle"
+  ],
+  "description": "The Perro de Presa Canario, also known as the Canary Mastiff, is a powerful molosser-type breed from the Canary Islands originally bred for working livestock and as a war dog. This imposing breed requires experienced ownership and early, thorough socialization as it has strong guarding instincts and can be dominant with other dogs and suspicious of strangers. Despite its formidable appearance and working history, a properly raised and socialized Presa Canario can be a calm, devoted family companion with consistent, firm handling.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Elbow Dysplasia",
+      "slug": "elbow-dysplasia",
+      "category": "Orthopedic",
+      "description": "Elbow dysplasia is an umbrella term covering several developmental abnormalities of the elbow joint including fragmented coronoid process, osteochondritis dissecans, and ununited anconeal process. It causes foreleg lameness and arthritis.",
+      "symptoms": [
+        "Front leg lameness",
+        "Elbow swelling",
+        "Pain on elbow manipulation",
+        "Reluctance to exercise",
+        "Stiff gait after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Surgical intervention is often recommended to remove bone fragments or reshape joint surfaces. Medical management includes NSAIDs, joint supplements, and physiotherapy.",
+      "prevention_tips": [
+        "BVA/KC elbow score breeding stock",
+        "Control growth rate in large breeds",
+        "Avoid over-supplementation with calcium",
+        "Maintain healthy weight from puppyhood"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "golden-retriever",
+        "german-shepherd",
+        "rottweiler",
+        "bernese-mountain-dog"
+      ],
+      "typical_onset": "4-18 months",
+      "hereditary": true,
+      "estimated_treatment_cost": "£2,000-£5,000"
+    },
+    {
+      "name": "Dilated Cardiomyopathy (DCM)",
+      "slug": "dilated-cardiomyopathy",
+      "category": "Cardiac",
+      "description": "DCM is a disease of the heart muscle causing the chambers to enlarge and the walls to thin, reducing the heart's pumping efficiency. It progresses to congestive heart failure if untreated and is a leading cause of cardiac death in large breeds.",
+      "symptoms": [
+        "Exercise intolerance",
+        "Coughing",
+        "Laboured breathing",
+        "Abdominal distension",
+        "Collapse",
+        "Sudden death"
+      ],
+      "severity": "high",
+      "treatment_overview": "Management with diuretics, ACE inhibitors, Pimobendan, and antiarrhythmics can prolong life significantly. No cure exists; treatment is palliative.",
+      "prevention_tips": [
+        "Annual cardiac screening for at-risk breeds",
+        "Breed from cardiology-cleared stock",
+        "Avoid grain-free diets in predisposed breeds (FDA advisory)",
+        "Taurine supplementation investigated in some breeds"
+      ],
+      "affected_breeds": [
+        "dobermann",
+        "great-dane",
+        "irish-wolfhound",
+        "boxer",
+        "cocker-spaniel",
+        "newfoundland"
+      ],
+      "typical_onset": "4-10 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£2,000-£6,000/year"
+    },
+    {
+      "name": "Epilepsy",
+      "slug": "epilepsy",
+      "category": "Neurological",
+      "description": "Epilepsy is the most common neurological disorder in dogs, characterised by recurrent seizures. Idiopathic (genetic) epilepsy is the most frequent form in young to middle-aged dogs with no underlying structural brain lesion.",
+      "symptoms": [
+        "Generalised seizures (paddling, loss of consciousness)",
+        "Focal seizures (facial twitching, fly-biting)",
+        "Post-ictal confusion",
+        "Sudden falling",
+        "Cluster seizures"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Anticonvulsant drugs (phenobarbital, potassium bromide, levetiracetam) control seizures in the majority of cases. Treatment is lifelong. Cluster seizures and status epilepticus require emergency treatment.",
+      "prevention_tips": [
+        "DNA testing available for several breeds",
+        "Avoid breeding affected dogs with idiopathic epilepsy"
+      ],
+      "affected_breeds": [
+        "border-collie",
+        "labrador-retriever",
+        "golden-retriever",
+        "beagle",
+        "german-shepherd",
+        "belgian-shepherd"
+      ],
+      "typical_onset": "1-5 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£500-£2,000/year"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Siberian Husky",
+      "slug": "siberian-husky",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Doberman Pinscher",
+      "slug": "doberman-pinscher",
+      "size": "large",
+      "group": "Working"
+    }
+  ],
+  "comparisons": []
+}

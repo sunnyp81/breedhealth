@@ -1,0 +1,157 @@
+{
+  "name": "Shar Pei",
+  "slug": "shar-pei",
+  "group": "Non-Sporting",
+  "size": "medium",
+  "weight_min_kg": 18,
+  "weight_max_kg": 27,
+  "height_min_cm": 46,
+  "height_max_cm": 51,
+  "lifespan_min": 8,
+  "lifespan_max": 12,
+  "temperament": [
+    "devoted",
+    "independent",
+    "calm",
+    "stubborn",
+    "confident"
+  ],
+  "health_issues": [
+    "shar-pei-fever",
+    "hip-dysplasia",
+    "entropion",
+    "skin-fold-dermatitis",
+    "amyloidosis"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 2,
+  "shedding_level": 2,
+  "trainability": 2,
+  "good_with_children": false,
+  "good_with_dogs": false,
+  "apartment_friendly": true,
+  "popularity_rank": 57,
+  "origin": "China",
+  "coat_type": "short rough",
+  "coat_colors": [
+    "fawn",
+    "red",
+    "chocolate",
+    "black",
+    "cream",
+    "blue"
+  ],
+  "description": "The Shar Pei is one of the world's rarest and most distinctive breeds, with its deep wrinkles, hippopotamus-shaped muzzle, and tiny triangular ears creating an unmistakable silhouette that appeared in Chinese art as far back as 206 BC. Bred in China as a multipurpose farm dog for herding, hunting, and guarding, Shar Pei nearly became extinct during China's Cultural Revolution before a 1970s rescue effort in Hong Kong and the United States saved the breed. Shar Pei Familial Fever — a breed-specific inflammatory condition — and complications related to their extensive skin folds make the breed expensive to maintain health-wise.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Entropion",
+      "slug": "entropion",
+      "category": "Eye",
+      "description": "Entropion is an inward rolling of the eyelid margin, causing the eyelashes and skin to rub against the corneal surface. This produces chronic irritation, pain, corneal ulceration, and scarring that can impair vision.",
+      "symptoms": [
+        "Squinting or pawing at eye",
+        "Excessive tearing",
+        "Eye discharge",
+        "Corneal cloudiness",
+        "Redness around eye"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Temporary eyelid tacking can relieve discomfort in puppies pending maturity. Definitive surgical correction (Hotz-Celsus procedure) is highly effective in adults.",
+      "prevention_tips": [
+        "Avoid breeding dogs with severe conformational entropion",
+        "Do not breed surgically corrected dogs"
+      ],
+      "affected_breeds": [
+        "chow-chow",
+        "shar-pei",
+        "rottweiler",
+        "labrador-retriever",
+        "golden-retriever",
+        "bullmastiff"
+      ],
+      "typical_onset": "Puppyhood - 2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£800-£2,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Senior Formula",
+      "slug": "senior"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "French Bulldog",
+      "slug": "french-bulldog",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bulldog",
+      "slug": "bulldog",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Boston Terrier",
+      "slug": "boston-terrier",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bichon Frise",
+      "slug": "bichon-frise",
+      "size": "small",
+      "group": "Non-Sporting"
+    }
+  ],
+  "comparisons": [
+    "chow-chow-vs-shar-pei"
+  ]
+}

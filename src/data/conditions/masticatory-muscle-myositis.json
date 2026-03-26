@@ -1,0 +1,55 @@
+{
+  "name": "Masticatory Muscle Myositis (MMM)",
+  "slug": "masticatory-muscle-myositis",
+  "category": "Autoimmune",
+  "description": "MMM is an immune-mediated inflammatory disease targeting the masticatory muscles (temporalis and masseter), which have a unique muscle fibre type (2M) not found elsewhere in the body. It causes pain, trismus (jaw locking), and muscle atrophy.",
+  "symptoms": [
+    "Jaw pain and reluctance to eat",
+    "Inability to open mouth (trismus)",
+    "Swollen then wasted temporalis muscles",
+    "Exophthalmos (if acute swelling)",
+    "Weight loss"
+  ],
+  "severity": "high",
+  "treatment_overview": "High-dose immunosuppressive prednisolone is highly effective if started early. Long-term tapering doses are needed to prevent relapse. Early treatment before muscle fibrosis develops gives the best outcomes.",
+  "prevention_tips": [
+    "No proven prevention",
+    "Prompt investigation of jaw pain or swelling"
+  ],
+  "affected_breeds": [
+    "german-shepherd",
+    "dobermann",
+    "labrador-retriever",
+    "golden-retriever",
+    "weimaraner"
+  ],
+  "typical_onset": "3-8 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£500-£2,500",
+  "breeds_detail": [
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Weimaraner",
+      "slug": "weimaraner",
+      "size": "large",
+      "group": "Sporting"
+    }
+  ]
+}

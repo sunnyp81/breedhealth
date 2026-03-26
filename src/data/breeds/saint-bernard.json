@@ -1,0 +1,196 @@
+{
+  "name": "Saint Bernard",
+  "slug": "saint-bernard",
+  "group": "Working",
+  "size": "giant",
+  "weight_min_kg": 54,
+  "weight_max_kg": 82,
+  "height_min_cm": 65,
+  "height_max_cm": 90,
+  "lifespan_min": 8,
+  "lifespan_max": 10,
+  "temperament": [
+    "playful",
+    "charming",
+    "gentle",
+    "patient",
+    "friendly"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "elbow-dysplasia",
+    "bloat",
+    "osteosarcoma",
+    "cardiomyopathy"
+  ],
+  "exercise_level": 2,
+  "grooming_level": 3,
+  "shedding_level": 4,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 51,
+  "origin": "Switzerland",
+  "coat_type": "long or short double",
+  "coat_colors": [
+    "red and white",
+    "brown and white",
+    "brindle and white"
+  ],
+  "description": "The Saint Bernard was developed by monks at the Great Saint Bernard Hospice in the Swiss Alps to rescue lost and injured travelers on the treacherous mountain passes between Switzerland and Italy, and is credited with saving over 2,000 lives over three centuries of service. The barrel of brandy around the neck is a charming artistic invention — the real rescue dogs simply used their extraordinary scent tracking and ability to locate avalanche victims buried under metres of snow. Their massive size and gentle, patient temperament made them famous as family dogs, though their lifespan is short and their drool output is legendary.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Elbow Dysplasia",
+      "slug": "elbow-dysplasia",
+      "category": "Orthopedic",
+      "description": "Elbow dysplasia is an umbrella term covering several developmental abnormalities of the elbow joint including fragmented coronoid process, osteochondritis dissecans, and ununited anconeal process. It causes foreleg lameness and arthritis.",
+      "symptoms": [
+        "Front leg lameness",
+        "Elbow swelling",
+        "Pain on elbow manipulation",
+        "Reluctance to exercise",
+        "Stiff gait after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Surgical intervention is often recommended to remove bone fragments or reshape joint surfaces. Medical management includes NSAIDs, joint supplements, and physiotherapy.",
+      "prevention_tips": [
+        "BVA/KC elbow score breeding stock",
+        "Control growth rate in large breeds",
+        "Avoid over-supplementation with calcium",
+        "Maintain healthy weight from puppyhood"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "golden-retriever",
+        "german-shepherd",
+        "rottweiler",
+        "bernese-mountain-dog"
+      ],
+      "typical_onset": "4-18 months",
+      "hereditary": true,
+      "estimated_treatment_cost": "£2,000-£5,000"
+    },
+    {
+      "name": "Osteosarcoma",
+      "slug": "osteosarcoma",
+      "category": "Cancer",
+      "description": "Osteosarcoma is the most common primary bone tumour in dogs, occurring predominantly in the long bones of large and giant breeds. It is locally aggressive and metastasises early, primarily to the lungs. Prognosis remains guarded despite treatment.",
+      "symptoms": [
+        "Progressive limb lameness",
+        "Swelling over bone",
+        "Bone pain",
+        "Pathological fracture",
+        "Reduced exercise tolerance"
+      ],
+      "severity": "high",
+      "treatment_overview": "Limb amputation combined with chemotherapy (carboplatin or doxorubicin) gives median survival of 10-12 months. Limb-sparing surgery is possible in some cases. Palliative radiation and pain management are alternatives.",
+      "prevention_tips": [
+        "No proven prevention",
+        "Early investigation of unexplained lameness in large breeds over 5 years"
+      ],
+      "affected_breeds": [
+        "great-dane",
+        "saint-bernard",
+        "greyhound",
+        "irish-wolfhound",
+        "rottweiler",
+        "golden-retriever"
+      ],
+      "typical_onset": "7-10 years",
+      "hereditary": false,
+      "estimated_treatment_cost": "£6,000-£15,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Senior Formula",
+      "slug": "senior"
+    },
+    {
+      "name": "Weight Management",
+      "slug": "weight-management"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Doberman Pinscher",
+      "slug": "doberman-pinscher",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Bernese Mountain Dog",
+      "slug": "bernese-mountain-dog",
+      "size": "giant",
+      "group": "Working"
+    }
+  ],
+  "comparisons": [
+    "saint-bernard-vs-great-dane",
+    "newfoundland-vs-saint-bernard",
+    "saint-bernard-vs-newfoundland",
+    "leonberger-vs-saint-bernard"
+  ]
+}

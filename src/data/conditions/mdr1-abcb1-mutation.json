@@ -1,0 +1,63 @@
+{
+  "name": "Multidrug Resistance Mutation (MDR1/ABCB1)",
+  "slug": "mdr1-abcb1-mutation",
+  "category": "Neurological",
+  "description": "The MDR1 (ABCB1) mutation causes a defective P-glycoprotein pump in the blood-brain barrier, allowing normally safe drugs (ivermectin, loperamide, certain chemotherapy agents) to accumulate in the brain to toxic levels. Affected dogs can die from routine doses.",
+  "symptoms": [
+    "Neurological signs after drug exposure",
+    "Tremors, ataxia, and seizures",
+    "Blindness",
+    "Coma",
+    "Death in severe cases"
+  ],
+  "severity": "high",
+  "treatment_overview": "No treatment for the mutation itself. Management involves identifying mutation status via DNA test and avoiding all MDR1-sensitive drugs. If intoxication occurs, supportive care and lipid emulsion therapy may help.",
+  "prevention_tips": [
+    "DNA test all herding breeds before drug administration",
+    "Never use ivermectin at anti-parasitic doses in untested herding breeds",
+    "Alert veterinarian to mutation status"
+  ],
+  "affected_breeds": [
+    "rough-collie",
+    "shetland-sheepdog",
+    "australian-shepherd",
+    "border-collie",
+    "old-english-sheepdog",
+    "long-haired-whippet"
+  ],
+  "typical_onset": "Any age (drug-triggered)",
+  "hereditary": true,
+  "estimated_treatment_cost": "£500-£3,000 per event",
+  "breeds_detail": [
+    {
+      "name": "Rough Collie",
+      "slug": "rough-collie",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Shetland Sheepdog",
+      "slug": "shetland-sheepdog",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Australian Shepherd",
+      "slug": "australian-shepherd",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Border Collie",
+      "slug": "border-collie",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Old English Sheepdog",
+      "slug": "old-english-sheepdog",
+      "size": "large",
+      "group": "Herding"
+    }
+  ]
+}

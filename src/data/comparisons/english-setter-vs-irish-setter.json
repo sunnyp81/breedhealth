@@ -1,0 +1,174 @@
+{
+  "slug": "english-setter-vs-irish-setter",
+  "breed_a": {
+    "name": "English Setter",
+    "slug": "english-setter",
+    "group": "Sporting",
+    "size": "large",
+    "weight_min_kg": 20,
+    "weight_max_kg": 36,
+    "height_min_cm": 61,
+    "height_max_cm": 69,
+    "lifespan_min": 12,
+    "lifespan_max": 14,
+    "temperament": [
+      "gentle",
+      "friendly",
+      "active",
+      "mellow",
+      "willing"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "progressive-retinal-atrophy",
+      "hypothyroidism",
+      "deafness",
+      "elbow-dysplasia"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 3,
+    "shedding_level": 3,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 86,
+    "origin": "England",
+    "coat_type": "medium silky",
+    "coat_colors": [
+      "orange belton",
+      "blue belton",
+      "tricolor belton",
+      "lemon belton",
+      "liver belton"
+    ],
+    "description": "One of the oldest of all sporting breeds, the English Setter was developed in England over 400 years ago to locate game birds and freeze into a crouching set position to indicate their location, allowing hunters to throw a net over both dog and birds in the pre-firearm era. Their distinctive belton coat pattern — white intermingled with colored ticking in orange, blue, or liver — is unique to the breed and genuinely beautiful. English Setters are gentle, mellow dogs at home but transform into tireless athletes in the field, requiring significant daily exercise to remain content indoors."
+  },
+  "breed_b": {
+    "name": "Irish Setter",
+    "slug": "irish-setter",
+    "group": "Sporting",
+    "size": "large",
+    "weight_min_kg": 20,
+    "weight_max_kg": 32,
+    "height_min_cm": 58,
+    "height_max_cm": 67,
+    "lifespan_min": 12,
+    "lifespan_max": 15,
+    "temperament": [
+      "playful",
+      "energetic",
+      "affectionate",
+      "spirited",
+      "mischievous"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "progressive-retinal-atrophy",
+      "epilepsy",
+      "bloat",
+      "hypothyroidism"
+    ],
+    "exercise_level": 5,
+    "grooming_level": 3,
+    "shedding_level": 3,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 74,
+    "origin": "Ireland",
+    "coat_type": "medium silky",
+    "coat_colors": [
+      "mahogany",
+      "chestnut red"
+    ],
+    "description": "The Irish Setter's magnificent chestnut-red coat and graceful, high-stepping movement make it one of the most beautiful of all sporting breeds, developed in Ireland from a mix of older setter types for setting and retrieving game birds with a combination of endurance and panache. Their exuberant, almost reckless enthusiasm for life — including a prolonged puppyhood extending well into the third year — makes them an endearing but occasionally exhausting household companion. Irish Setters require substantial daily exercise and a secure yard, as their bird dog instincts and high energy can lead to wandering if under-stimulated."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 12,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 14,
+      "breed_b_value": 15,
+      "winner": "irish-setter"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 20,
+      "breed_b_value": 20,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 36,
+      "breed_b_value": 32,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 61,
+      "breed_b_value": 58,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 69,
+      "breed_b_value": 67,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 4,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

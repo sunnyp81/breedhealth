@@ -1,0 +1,154 @@
+---
+import type { Breed } from '../lib/types';
+
+interface Props {
+  breed: Breed;
+}
+
+const { breed } = Astro.props;
+
+const sizeLabel: Record<string, string> = {
+  small: 'Small',
+  medium: 'Medium',
+  large: 'Large',
+  giant: 'Giant',
+};
+
+const sizeBadgeStyle: Record<string, string> = {
+  small:  'background-color:#e8f5e8; color:#1e3f1e;',
+  medium: 'background-color:#fff8e8; color:#7a5a00;',
+  large:  'background-color:#fff3e0; color:#8a4500;',
+  giant:  'background-color:#fce4ec; color:#7b1a2e;',
+};
+
+interface TraitConfig {
+  key: 'exercise_level' | 'grooming_level' | 'shedding_level' | 'trainability';
+  label: string;
+  /** true = higher value is "good" (green), false = higher value is "costly" (amber) */
+  positiveIsGood: boolean;
+}
+
+const traits: TraitConfig[] = [
+  { key: 'exercise_level', label: 'Exercise Need', positiveIsGood: false },
+  { key: 'grooming_level', label: 'Grooming Need', positiveIsGood: false },
+  { key: 'shedding_level', label: 'Shedding',       positiveIsGood: false },
+  { key: 'trainability',   label: 'Trainability',   positiveIsGood: true  },
+];
+
+function barColor(value: number, positiveIsGood: boolean): string {
+  if (positiveIsGood) {
+    return value >= 4 ? 'var(--color-primary)' : value >= 3 ? 'var(--color-accent)' : '#cc4444';
+  } else {
+    return value <= 2 ? 'var(--color-primary)' : value <= 3 ? 'var(--color-accent)' : '#cc4444';
+  }
+}
+
+function levelLabel(value: number, positiveIsGood: boolean): string {
+  if (positiveIsGood) {
+    if (value <= 1) return 'Very Low';
+    if (value <= 2) return 'Low';
+    if (value <= 3) return 'Moderate';
+    if (value <= 4) return 'High';
+    return 'Very High';
+  } else {
+    if (value <= 1) return 'Very Low';
+    if (value <= 2) return 'Low';
+    if (value <= 3) return 'Moderate';
+    if (value <= 4) return 'High';
+    return 'Very High';
+  }
+}
+---
+
+<article
+  class="breed-stat-card"
+  style="background:#fff; border:1px solid var(--color-border); border-radius:12px; padding:1.5rem; box-shadow:0 1px 4px rgba(44,24,16,0.06);"
+>
+  <!-- Header -->
+  <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:0.75rem; margin-bottom:1rem; flex-wrap:wrap;">
+    <h2 style="margin:0; font-size:1.4rem; font-weight:700; color:var(--color-text); line-height:1.2;">
+      {breed.name}
+    </h2>
+    <span
+      style={`display:inline-block; padding:0.2rem 0.65rem; border-radius:9999px; font-size:0.75rem; font-weight:600; letter-spacing:0.03em; white-space:nowrap; ${sizeBadgeStyle[breed.size]}`}
+    >
+      {sizeLabel[breed.size]}
+    </span>
+  </div>
+
+  {breed.group && (
+    <p style="margin:0 0 1rem; font-size:0.85rem; color:var(--color-text-muted); font-style:italic;">
+      {breed.group}
+    </p>
+  )}
+
+  <!-- Core stats grid -->
+  <div
+    style="display:grid; grid-template-columns:repeat(auto-fit, minmax(140px, 1fr)); gap:0.75rem; margin-bottom:1.25rem;"
+  >
+    <div style="background:var(--color-bg); border-radius:8px; padding:0.6rem 0.75rem;">
+      <div style="font-size:0.7rem; font-weight:600; text-transform:uppercase; letter-spacing:0.06em; color:var(--color-text-muted); margin-bottom:0.2rem;">Weight</div>
+      <div style="font-size:0.95rem; font-weight:600; color:var(--color-text);">
+        {breed.weight_min_kg}–{breed.weight_max_kg} kg
+      </div>
+    </div>
+
+    <div style="background:var(--color-bg); border-radius:8px; padding:0.6rem 0.75rem;">
+      <div style="font-size:0.7rem; font-weight:600; text-transform:uppercase; letter-spacing:0.06em; color:var(--color-text-muted); margin-bottom:0.2rem;">Height</div>
+      <div style="font-size:0.95rem; font-weight:600; color:var(--color-text);">
+        {breed.height_min_cm}–{breed.height_max_cm} cm
+      </div>
+    </div>
+
+    <div style="background:var(--color-bg); border-radius:8px; padding:0.6rem 0.75rem;">
+      <div style="font-size:0.7rem; font-weight:600; text-transform:uppercase; letter-spacing:0.06em; color:var(--color-text-muted); margin-bottom:0.2rem;">Lifespan</div>
+      <div style="font-size:0.95rem; font-weight:600; color:var(--color-text);">
+        {breed.lifespan_min}–{breed.lifespan_max} yrs
+      </div>
+    </div>
+  </div>
+
+  <!-- Trait bars -->
+  <div style="display:flex; flex-direction:column; gap:0.6rem;">
+    {traits.map((t) => {
+      const value: number = breed[t.key] ?? 0;
+      const pct = Math.round((value / 5) * 100);
+      const color = barColor(value, t.positiveIsGood);
+      const label = levelLabel(value, t.positiveIsGood);
+      return (
+        <div>
+          <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:0.25rem;">
+            <span style="font-size:0.8rem; font-weight:600; color:var(--color-text);">{t.label}</span>
+            <span style="font-size:0.75rem; color:var(--color-text-muted);">{label} ({value}/5)</span>
+          </div>
+          <div
+            style="height:8px; background:var(--color-bg-dark); border-radius:9999px; overflow:hidden;"
+            role="progressbar"
+            aria-valuenow={value}
+            aria-valuemin={1}
+            aria-valuemax={5}
+            aria-label={t.label}
+          >
+            <div
+              style={`height:100%; width:${pct}%; background:${color}; border-radius:9999px; transition:width 0.3s ease;`}
+            />
+          </div>
+        </div>
+      );
+    })}
+  </div>
+
+  <!-- Boolean traits -->
+  <div style="display:flex; flex-wrap:wrap; gap:0.4rem; margin-top:1.1rem; padding-top:1rem; border-top:1px solid var(--color-border);">
+    {[
+      { label: 'Good with Children', value: breed.good_with_children },
+      { label: 'Good with Dogs',     value: breed.good_with_dogs },
+      { label: 'Apartment Friendly', value: breed.apartment_friendly },
+    ].map(({ label, value }) => (
+      <span style={`display:inline-flex; align-items:center; gap:0.3rem; padding:0.2rem 0.55rem; border-radius:9999px; font-size:0.72rem; font-weight:600; ${value ? 'background:#e8f5e8; color:#1e3f1e;' : 'background:#fce4e4; color:#7b1a1a;'}`}>
+        <span aria-hidden="true">{value ? '✓' : '✗'}</span>
+        {label}
+      </span>
+    ))}
+  </div>
+</article>

@@ -1,0 +1,50 @@
+{
+  "name": "Oral Melanoma",
+  "slug": "oral-melanoma",
+  "category": "Cancer",
+  "description": "Oral melanoma is the most common malignant oral tumour in dogs. Despite often appearing as a localised mass, it is highly aggressive and metastasises rapidly to lymph nodes and lungs. Early detection is critical for the best outcome.",
+  "symptoms": [
+    "Oral mass",
+    "Loose teeth",
+    "Facial swelling",
+    "Drooling",
+    "Difficulty eating",
+    "Bad breath"
+  ],
+  "severity": "high",
+  "treatment_overview": "Aggressive surgical resection of the primary tumour is the mainstay. A canine melanoma vaccine (Oncept) provides immune stimulation and may extend survival. Radiation therapy is used for non-resectable tumours.",
+  "prevention_tips": [
+    "Regular dental and oral examinations",
+    "Any new oral mass warrants prompt biopsy"
+  ],
+  "affected_breeds": [
+    "cocker-spaniel",
+    "golden-retriever",
+    "gordon-setter",
+    "chow-chow",
+    "miniature-poodle"
+  ],
+  "typical_onset": "9-11 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£4,000-£12,000",
+  "breeds_detail": [
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Chow Chow",
+      "slug": "chow-chow",
+      "size": "medium",
+      "group": "Non-Sporting"
+    }
+  ]
+}

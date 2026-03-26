@@ -1,0 +1,26 @@
+{
+  "name": "Prostate Disease (Benign Prostatic Hyperplasia)",
+  "slug": "benign-prostatic-hyperplasia",
+  "category": "Urinary",
+  "description": "Benign prostatic hyperplasia (BPH) is the most common prostatic disease in intact male dogs, caused by age-related hormonal changes. The enlarged prostate compresses the urethra and rectum, causing difficulty urinating and defecating.",
+  "symptoms": [
+    "Straining to defecate",
+    "Ribbon-like stools",
+    "Blood in urine or ejaculate",
+    "Difficulty urinating",
+    "Recurrent urinary tract infections"
+  ],
+  "severity": "low",
+  "treatment_overview": "Castration is the simplest and most effective treatment, causing prostate shrinkage within weeks. Medical treatment with osaterone acetate or finasteride is an alternative in dogs intended for breeding.",
+  "prevention_tips": [
+    "Castration is preventive",
+    "Regular prostatic assessment in intact males over 5 years"
+  ],
+  "affected_breeds": [
+    "all intact male breeds"
+  ],
+  "typical_onset": "6+ years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£200-£600",
+  "breeds_detail": []
+}

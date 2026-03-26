@@ -1,0 +1,384 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import AdSlot from '../../../components/AdSlot.astro';
+
+import { getAllBreeds, getBreed } from '../../../lib/data';
+import { generateExerciseCopy } from '../../../lib/copy';
+import { generateBreadcrumbSchema } from '../../../lib/schema';
+
+import type { GetStaticPaths } from 'astro';
+import type { Breed } from '../../../lib/types';
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const breeds = await getAllBreeds();
+  return breeds.map((summary) => ({
+    params: { breed: summary.slug },
+    props: { slug: summary.slug },
+  }));
+};
+
+interface Props {
+  slug: string;
+}
+
+const { slug } = Astro.props;
+
+const breed = await getBreed(slug) as Breed;
+
+const siteUrl = 'https://breedhealth.co.uk';
+const pageUrl = `${siteUrl}/breeds/${breed.slug}/exercise/`;
+
+const exerciseIntro = generateExerciseCopy(breed);
+
+const trainabilityNote = breed.trainability >= 4
+  ? 'Highly trainable — benefits from combined training and exercise sessions'
+  : breed.trainability <= 2
+    ? 'Independent nature — exercise should be low-pressure and consistent'
+    : 'Moderately trainable — responds well to structured exercise routines';
+
+const breadcrumbSchema = generateBreadcrumbSchema([
+  { name: 'Home',   url: `${siteUrl}/` },
+  { name: 'Breeds', url: `${siteUrl}/breeds/` },
+  { name: breed.name, url: `${siteUrl}/breeds/${breed.slug}/` },
+  { name: 'Exercise', url: pageUrl },
+]);
+
+const breadcrumbItems = [
+  { name: 'Home',   url: '/' },
+  { name: 'Breeds', url: '/breeds/' },
+  { name: breed.name, url: `/breeds/${breed.slug}/` },
+  { name: 'Exercise', url: `/breeds/${breed.slug}/exercise/` },
+];
+
+// Derive exercise stats from breed data
+const exerciseLevelLabels: Record<number, string> = {
+  1: 'Minimal',
+  2: 'Light',
+  3: 'Moderate',
+  4: 'High',
+  5: 'Very High',
+};
+
+const exerciseDurationMap: Record<number, string> = {
+  1: '20–30 minutes',
+  2: '30–45 minutes',
+  3: 'At least 1 hour',
+  4: 'Around 90 minutes',
+  5: 'At least 2 hours',
+};
+
+const activityTypeMap: Record<number, string[]> = {
+  1: ['Gentle walks', 'Short play sessions', 'Indoor games'],
+  2: ['Daily walks', 'Light play sessions', 'Garden exploration'],
+  3: ['Brisk walks', 'Play sessions', 'Occasional off-lead runs'],
+  4: ['Running', 'Fetch', 'Agility training', 'Off-lead trail walking'],
+  5: ['Running', 'Fetch', 'Agility', 'Canicross', 'Swimming', 'Off-lead trail walking'],
+};
+
+const level = Math.min(Math.max(Math.round(breed.exercise_level), 1), 5);
+const exerciseLabel = exerciseLevelLabels[level] ?? 'Moderate';
+const duration = exerciseDurationMap[level] ?? 'At least 1 hour';
+const activityTypes = activityTypeMap[level] ?? activityTypeMap[3];
+
+// Age-based exercise guide
+interface AgeGuide {
+  stage: string;
+  ageRange: string;
+  guideline: string;
+  caution: string;
+}
+
+const ageGuides: AgeGuide[] = [
+  {
+    stage: 'Puppy',
+    ageRange: '8 weeks – 12 months',
+    guideline: breed.size === 'large' || breed.size === 'giant'
+      ? `Limit to 5 minutes of structured exercise per month of age, twice daily (e.g. a 3-month-old ${breed.name} should have two 15-minute sessions). Avoid repetitive impact activities until growth plates close.`
+      : `Short, frequent play sessions are ideal. Aim for 5 minutes per month of age, up to twice daily. Free play in a safe garden is excellent for ${breed.name} puppies.`,
+    caution: breed.size === 'large' || breed.size === 'giant'
+      ? `Growth plates in large breeds close later — jumping, stairs, and long runs should be avoided until 12–18 months to prevent joint damage.`
+      : `Avoid high-impact activities such as jumping and long runs until at least 12 months. Puppy joints are still developing.`,
+  },
+  {
+    stage: 'Adult',
+    ageRange: breed.lifespan_max <= 10
+      ? '1–6 years'
+      : '1–7 years',
+    guideline: `Adult ${breed.name}s require ${duration} of exercise per day. ${activityTypes.slice(0, 3).join(', ')} are all suitable. Consistency is key — irregular exercise followed by long sessions increases injury risk.`,
+    caution: `Avoid exercise in high heat; ${breed.name}s with short muzzles or heavy coats are particularly susceptible to heatstroke. Always carry water.`,
+  },
+  {
+    stage: 'Senior',
+    ageRange: breed.lifespan_max <= 10
+      ? '7+ years'
+      : '8+ years',
+    guideline: `Senior ${breed.name}s still need daily exercise but at a reduced intensity. Shorter, more frequent walks are preferable to fewer long sessions. Swimming is an excellent low-impact option for older dogs.`,
+    caution: `Watch for signs of stiffness, reluctance to exercise, or difficulty rising — these may indicate arthritis or other age-related conditions. Consult your vet if you notice changes in mobility.`,
+  },
+];
+
+// Bar color helper
+function barColor(level: number): string {
+  if (level <= 2) return 'var(--color-primary)';
+  if (level === 3) return 'var(--color-accent)';
+  return '#cc4444';
+}
+---
+
+<BaseLayout
+  title={`${breed.name} Exercise Guide — Daily Needs & Activity Tips | BreedHealth`}
+  description={`How much exercise does a ${breed.name} need? Daily requirements, suitable activities, puppy vs adult vs senior guidance, and tips for ${breed.name} owners.`}
+  canonicalUrl={pageUrl}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  </Fragment>
+
+  <!-- Breadcrumbs -->
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Page heading -->
+  <h1 class="text-3xl sm:text-4xl font-bold text-primary mt-4 mb-4 leading-tight">
+    {breed.name} Exercise Guide
+  </h1>
+
+  <!-- Back to breed hub -->
+  <a
+    href={`/breeds/${breed.slug}/`}
+    class="inline-flex items-center gap-1.5 text-sm text-text-muted hover:text-primary no-underline hover:underline mb-6"
+  >
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M19 12H5M12 19l-7-7 7-7"/>
+    </svg>
+    Back to {breed.name} Overview
+  </a>
+
+  <!-- Exercise intro paragraph -->
+  <p class="text-text-muted leading-relaxed text-lg mb-8 max-w-3xl">
+    {exerciseIntro}
+  </p>
+
+  <!-- Exercise stats panel -->
+  <section aria-labelledby="exercise-stats-heading" class="mb-10">
+    <h2 id="exercise-stats-heading" class="text-2xl font-bold text-primary mb-5">
+      At a Glance
+    </h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+      <!-- Exercise level card -->
+      <div class="p-5 bg-white border border-border rounded-xl">
+        <div class="text-xs font-semibold uppercase tracking-wide text-text-light mb-3">Exercise Level</div>
+        <div class="flex items-center gap-3 mb-3">
+          <span class="text-2xl font-bold text-text">{exerciseLabel}</span>
+          <span class="text-sm text-text-muted">({level}/5)</span>
+        </div>
+        <!-- Level bar -->
+        <div
+          class="h-2.5 rounded-full bg-bg-dark overflow-hidden"
+          role="progressbar"
+          aria-valuenow={level}
+          aria-valuemin={1}
+          aria-valuemax={5}
+          aria-label="Exercise level"
+        >
+          <div
+            style={`width: ${(level / 5) * 100}%; height: 100%; background: ${barColor(level)}; border-radius: 9999px; transition: width 0.3s ease;`}
+          ></div>
+        </div>
+      </div>
+
+      <!-- Duration card -->
+      <div class="p-5 bg-white border border-border rounded-xl">
+        <div class="text-xs font-semibold uppercase tracking-wide text-text-light mb-3">Daily Duration</div>
+        <div class="text-2xl font-bold text-text mb-1">{duration}</div>
+        <div class="text-sm text-text-muted">recommended minimum per day</div>
+      </div>
+
+      <!-- Trainability card -->
+      <div class="p-5 bg-white border border-border rounded-xl">
+        <div class="text-xs font-semibold uppercase tracking-wide text-text-light mb-3">Trainability</div>
+        <div class="flex items-center gap-3 mb-3">
+          <span class="text-2xl font-bold text-text">{breed.trainability}/5</span>
+        </div>
+        <div class="text-sm text-text-muted">
+          {trainabilityNote}
+        </div>
+      </div>
+    </div>
+
+    <!-- Recommended activity types -->
+    <div class="p-5 bg-white border border-border rounded-xl">
+      <h3 class="text-sm font-semibold uppercase tracking-wide text-text-light mb-4">
+        Suitable Activities
+      </h3>
+      <ul class="flex flex-wrap gap-2" role="list">
+        {activityTypes.map((activity) => (
+          <li>
+            <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 bg-primary/10 text-primary border border-primary/20 rounded-full text-sm font-medium">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              {activity}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- In-content ad -->
+  <div class="my-6">
+    <AdSlot position="in-content" />
+  </div>
+
+  <!-- Age-based exercise guide -->
+  <section aria-labelledby="age-guide-heading" class="mb-10">
+    <h2 id="age-guide-heading" class="text-2xl font-bold text-primary mb-5">
+      Exercise by Life Stage
+    </h2>
+
+    <div class="space-y-4">
+      {ageGuides.map((guide, index) => {
+        const stageColors = [
+          { badge: '#e8f0f8', badgeText: '#1a3a5c', border: '#c5d8f0' },
+          { badge: '#e8f5e8', badgeText: '#1e3f1e', border: '#b8dbbf' },
+          { badge: '#f0f0f0', badgeText: '#444',    border: '#d0d0d0' },
+        ];
+        const c = stageColors[index] ?? stageColors[2];
+
+        return (
+          <div class="bg-white border border-border rounded-xl overflow-hidden">
+            <!-- Stage header -->
+            <div
+              class="flex items-center gap-3 px-5 py-3 border-b border-border"
+              style={`background-color: ${c.badge};`}
+            >
+              <span
+                class="inline-block px-3 py-1 rounded-full text-xs font-bold"
+                style={`background-color: ${c.badge}; color: ${c.badgeText}; border: 1px solid ${c.border};`}
+              >
+                {guide.stage}
+              </span>
+              <span class="text-sm font-medium text-text-muted">{guide.ageRange}</span>
+            </div>
+
+            <div class="p-5 space-y-3">
+              <!-- Guideline -->
+              <p class="text-sm text-text leading-relaxed">{guide.guideline}</p>
+
+              <!-- Caution note -->
+              <div class="flex items-start gap-2.5 p-3 bg-amber-50 border border-amber-200 rounded-lg">
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#b7791f"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="flex-shrink-0 mt-0.5"
+                  aria-hidden="true"
+                >
+                  <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+                  <line x1="12" y1="9" x2="12" y2="13"/>
+                  <line x1="12" y1="17" x2="12.01" y2="17"/>
+                </svg>
+                <p class="text-xs text-amber-800 leading-relaxed">{guide.caution}</p>
+              </div>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  </section>
+
+  <!-- Apartment/outdoor note -->
+  <section aria-labelledby="living-heading" class="mb-10">
+    <h2 id="living-heading" class="text-2xl font-bold text-primary mb-4">
+      Living Environment &amp; Exercise
+    </h2>
+    <div class="p-5 bg-white border border-border rounded-xl">
+      {breed.apartment_friendly ? (
+        <div class="flex items-start gap-3">
+          <span
+            class="flex-shrink-0 w-8 h-8 rounded-lg bg-green-50 border border-green-200 flex items-center justify-center"
+            aria-hidden="true"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#27ae60" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+          </span>
+          <div>
+            <p class="font-semibold text-text mb-1">Apartment Suitable</p>
+            <p class="text-sm text-text-muted leading-relaxed">
+              The {breed.name} can adapt to apartment living, provided their daily exercise requirement of {duration} is consistently met. Without access to a garden, owners must plan outdoor sessions around the {breed.name}'s energy levels. Nearby parks or green space are strongly recommended.
+            </p>
+          </div>
+        </div>
+      ) : (
+        <div class="flex items-start gap-3">
+          <span
+            class="flex-shrink-0 w-8 h-8 rounded-lg bg-amber-50 border border-amber-200 flex items-center justify-center"
+            aria-hidden="true"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b7791f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+              <line x1="12" y1="9" x2="12" y2="13"/>
+              <line x1="12" y1="17" x2="12.01" y2="17"/>
+            </svg>
+          </span>
+          <div>
+            <p class="font-semibold text-text mb-1">Garden / Outdoor Space Recommended</p>
+            <p class="text-sm text-text-muted leading-relaxed">
+              The {breed.name} is best suited to a home with access to a securely fenced garden. Their {exerciseLabel.toLowerCase()} energy requirements mean apartment living without regular outdoor access is generally not recommended. A garden enables off-lead play and safe exploration between formal exercise sessions.
+            </p>
+          </div>
+        </div>
+      )}
+
+      <!-- Good with other dogs note -->
+      {breed.good_with_dogs && (
+        <div class="mt-4 pt-4 border-t border-border flex items-start gap-3">
+          <span
+            class="flex-shrink-0 w-8 h-8 rounded-lg bg-blue-50 border border-blue-200 flex items-center justify-center"
+            aria-hidden="true"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2980b9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </span>
+          <p class="text-sm text-text-muted leading-relaxed">
+            <strong class="text-text">{breed.name}s are generally good with other dogs</strong> — off-lead exercise with other well-socialised dogs can be a valuable part of their daily activity. Dog parks and group walks work well for this breed.
+          </p>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- Navigation links -->
+  <div class="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
+    <a
+      href={`/breeds/${breed.slug}/diet/`}
+      class="inline-flex items-center gap-2 px-4 py-2.5 bg-bg-alt border border-border rounded-lg text-sm font-medium text-text hover:text-primary hover:border-primary transition-colors no-underline"
+    >
+      {breed.name} Diet Guide
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+    <a
+      href={`/breeds/${breed.slug}/health/`}
+      class="inline-flex items-center gap-2 px-4 py-2.5 bg-bg-alt border border-border rounded-lg text-sm font-medium text-text hover:text-primary hover:border-primary transition-colors no-underline"
+    >
+      {breed.name} Health Guide
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </div>
+</BaseLayout>

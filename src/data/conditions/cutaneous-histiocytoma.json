@@ -1,0 +1,60 @@
+{
+  "name": "Cutaneous Histiocytoma",
+  "slug": "cutaneous-histiocytoma",
+  "category": "Cancer",
+  "description": "Cutaneous histiocytoma is a benign skin tumour arising from Langerhans cells, most commonly in young dogs. It appears as a raised, often hairless, button-like lesion and typically regresses spontaneously within 3 months as cytotoxic T cells destroy the tumour.",
+  "symptoms": [
+    "Raised, pink, often ulcerated skin button",
+    "Single lesion typically on head or limbs",
+    "Rapid initial growth then spontaneous regression",
+    "Usually in dogs under 3 years"
+  ],
+  "severity": "low",
+  "treatment_overview": "Most histiocytomas resolve spontaneously within 8-12 weeks. Surgical excision is performed if the tumour does not regress, becomes ulcerated, or is causing discomfort.",
+  "prevention_tips": [
+    "No prevention needed",
+    "Confirm diagnosis with fine-needle aspirate to distinguish from mast cell tumour"
+  ],
+  "affected_breeds": [
+    "labrador-retriever",
+    "dachshund",
+    "cocker-spaniel",
+    "great-dane",
+    "boxer"
+  ],
+  "typical_onset": "Under 3 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£200-£600",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    }
+  ]
+}

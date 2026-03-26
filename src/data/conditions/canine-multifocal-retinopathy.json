@@ -1,0 +1,54 @@
+{
+  "name": "Canine Multifocal Retinopathy",
+  "slug": "canine-multifocal-retinopathy",
+  "category": "Eye",
+  "description": "Canine multifocal retinopathy (CMR) is a hereditary eye condition caused by mutations in the BEST1 gene. It produces grey-brown retinal lesions that often resolve spontaneously and rarely cause significant vision loss, distinguishing it from PRA.",
+  "symptoms": [
+    "Retinal lesions visible on ophthalmoscopy",
+    "Usually no vision loss",
+    "Lesions may resolve or persist",
+    "Occasionally mild vision changes"
+  ],
+  "severity": "low",
+  "treatment_overview": "No treatment is required as the condition rarely affects vision significantly. Monitoring by an ophthalmologist is recommended.",
+  "prevention_tips": [
+    "DNA test available (BEST1 mutation) for several breeds",
+    "Screen breeding stock before mating"
+  ],
+  "affected_breeds": [
+    "mastiff",
+    "bullmastiff",
+    "english-bulldog",
+    "great-pyrenees",
+    "cane-corso"
+  ],
+  "typical_onset": "Under 1 year",
+  "hereditary": true,
+  "estimated_treatment_cost": "£0-£200 (monitoring)",
+  "breeds_detail": [
+    {
+      "name": "Mastiff",
+      "slug": "mastiff",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Bullmastiff",
+      "slug": "bullmastiff",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Great Pyrenees",
+      "slug": "great-pyrenees",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Cane Corso",
+      "slug": "cane-corso",
+      "size": "giant",
+      "group": "Working"
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "name": "Bouvier des Flandres",
+  "slug": "bouvier-des-flandres",
+  "group": "Herding",
+  "size": "large",
+  "weight_min_kg": 27,
+  "weight_max_kg": 40,
+  "height_min_cm": 58,
+  "height_max_cm": 68,
+  "lifespan_min": 10,
+  "lifespan_max": 12,
+  "temperament": [
+    "rational",
+    "agile",
+    "loyal",
+    "protective",
+    "hard-working"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "elbow-dysplasia",
+    "progressive-retinal-atrophy",
+    "glaucoma",
+    "subaortic-stenosis"
+  ],
+  "exercise_level": 5,
+  "grooming_level": 4,
+  "shedding_level": 2,
+  "trainability": 5,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 71,
+  "origin": "Belgium",
+  "coat_type": "harsh double",
+  "coat_colors": [
+    "fawn",
+    "black",
+    "gray",
+    "brindle"
+  ],
+  "description": "The Bouvier des Flandres was developed in the Flanders region of Belgium as an all-purpose farm dog, used for cattle herding, cart pulling, and general farm work, and later proven in World War I as a messenger dog and ambulance dog under fire. A powerfully built, rugged working dog with a dense, rough double coat and a distinctive thick beard and mustache, the Bouvier requires an experienced, active owner who can provide consistent training and at least two hours of vigorous daily exercise. When properly trained they are exceptionally versatile, succeeding in police work, personal protection, herding trials, and obedience competitions.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Elbow Dysplasia",
+      "slug": "elbow-dysplasia",
+      "category": "Orthopedic",
+      "description": "Elbow dysplasia is an umbrella term covering several developmental abnormalities of the elbow joint including fragmented coronoid process, osteochondritis dissecans, and ununited anconeal process. It causes foreleg lameness and arthritis.",
+      "symptoms": [
+        "Front leg lameness",
+        "Elbow swelling",
+        "Pain on elbow manipulation",
+        "Reluctance to exercise",
+        "Stiff gait after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Surgical intervention is often recommended to remove bone fragments or reshape joint surfaces. Medical management includes NSAIDs, joint supplements, and physiotherapy.",
+      "prevention_tips": [
+        "BVA/KC elbow score breeding stock",
+        "Control growth rate in large breeds",
+        "Avoid over-supplementation with calcium",
+        "Maintain healthy weight from puppyhood"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "golden-retriever",
+        "german-shepherd",
+        "rottweiler",
+        "bernese-mountain-dog"
+      ],
+      "typical_onset": "4-18 months",
+      "hereditary": true,
+      "estimated_treatment_cost": "£2,000-£5,000"
+    },
+    {
+      "name": "Progressive Retinal Atrophy (PRA)",
+      "slug": "progressive-retinal-atrophy",
+      "category": "Eye",
+      "description": "PRA is a group of hereditary diseases causing progressive degeneration of the photoreceptor cells in the retina. It leads to night blindness first, followed by complete blindness. There is no treatment, but DNA tests exist for many forms.",
+      "symptoms": [
+        "Night blindness (early sign)",
+        "Reluctance to enter dark rooms",
+        "Dilated pupils",
+        "Reduced daytime vision",
+        "Reflective eye shine (tapetal hyperreflectivity)"
+      ],
+      "severity": "high",
+      "treatment_overview": "There is no effective treatment or cure for PRA. Management focuses on adapting the dog's environment to maintain quality of life as vision deteriorates.",
+      "prevention_tips": [
+        "DNA test breeding stock before mating",
+        "Only breed clear or carrier-to-clear pairings",
+        "Annual ophthalmology screening (BVA/KC scheme)"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "cocker-spaniel",
+        "miniature-poodle",
+        "irish-setter",
+        "border-collie",
+        "tibetan-terrier"
+      ],
+      "typical_onset": "3-8 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£0 (management only)"
+    },
+    {
+      "name": "Glaucoma",
+      "slug": "glaucoma",
+      "category": "Eye",
+      "description": "Glaucoma is elevated intraocular pressure that damages the optic nerve and retina, causing pain and vision loss. Primary glaucoma is hereditary; secondary glaucoma results from other eye conditions. It is a veterinary emergency in acute form.",
+      "symptoms": [
+        "Sudden eye pain",
+        "Enlarged or bulging eye",
+        "Cloudy cornea",
+        "Redness",
+        "Rapid vision loss",
+        "Lethargy"
+      ],
+      "severity": "high",
+      "treatment_overview": "Emergency medical treatment aims to reduce intraocular pressure using topical and systemic medications. Long-term management requires ongoing medication. Affected eyes that are blind and painful are enucleated.",
+      "prevention_tips": [
+        "Annual tonometry (pressure checks) in at-risk breeds",
+        "DNA test available for some breeds",
+        "Treat lens luxation and uveitis promptly to prevent secondary glaucoma"
+      ],
+      "affected_breeds": [
+        "basset-hound",
+        "cocker-spaniel",
+        "chow-chow",
+        "siberian-husky",
+        "welsh-springer-spaniel",
+        "great-dane"
+      ],
+      "typical_onset": "3-7 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£5,000"
+    },
+    {
+      "name": "Subaortic Stenosis (SAS)",
+      "slug": "subaortic-stenosis",
+      "category": "Cardiac",
+      "description": "SAS is a narrowing just below the aortic valve that obstructs blood flow out of the left ventricle. This forces the heart to work harder, causing left ventricular hypertrophy and risk of sudden death in severe cases.",
+      "symptoms": [
+        "Exercise intolerance",
+        "Syncope (fainting)",
+        "Heart murmur",
+        "Sudden death in severe cases",
+        "Weakness"
+      ],
+      "severity": "high",
+      "treatment_overview": "Mild cases may not require treatment but need monitoring. Severe cases are managed with beta-blockers (atenolol) to reduce cardiac workload. Balloon dilation has limited long-term success.",
+      "prevention_tips": [
+        "Cardiac clearance by cardiologist before breeding",
+        "Avoid breeding affected dogs",
+        "Annual echocardiographic assessment"
+      ],
+      "affected_breeds": [
+        "golden-retriever",
+        "newfoundland",
+        "boxer",
+        "german-shepherd",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "Birth-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,000-£4,000/year"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Australian Shepherd",
+      "slug": "australian-shepherd",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Border Collie",
+      "slug": "border-collie",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Belgian Malinois",
+      "slug": "belgian-malinois",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Rough Collie",
+      "slug": "rough-collie",
+      "size": "large",
+      "group": "Herding"
+    }
+  ],
+  "comparisons": [
+    "bouvier-des-flandres-vs-bernese-mountain-dog",
+    "briard-vs-bouvier-des-flandres"
+  ]
+}

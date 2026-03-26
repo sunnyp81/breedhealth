@@ -1,0 +1,94 @@
+{
+  "name": "Magyar Agar",
+  "slug": "magyar-agar",
+  "group": "Hound",
+  "size": "large",
+  "weight_min_kg": 22,
+  "weight_max_kg": 31,
+  "height_min_cm": 62,
+  "height_max_cm": 70,
+  "lifespan_min": 12,
+  "lifespan_max": 14,
+  "temperament": [
+    "affectionate",
+    "loyal",
+    "calm",
+    "hardy"
+  ],
+  "health_issues": [
+    "bloat",
+    "cardiac-disease",
+    "anesthesia-sensitivity"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 1,
+  "shedding_level": 2,
+  "trainability": 2,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 172,
+  "origin": "Hungary",
+  "coat_type": "short",
+  "coat_colors": [
+    "black",
+    "dark-gray",
+    "fawn",
+    "red",
+    "brindle",
+    "white"
+  ],
+  "description": "The Magyar Agár, or Hungarian Greyhound, is an ancient sighthound brought to the Carpathian Basin by Magyar tribes in the 9th century and later refined with the introduction of English Greyhound blood in the 19th century. More robust and cold-tolerant than the English Greyhound, the Magyar Agár was bred to course hare in the open Hungarian plains in harsh continental weather conditions. This rare breed remains largely unknown outside of Hungary and Eastern Europe, where it still participates in coursing competitions and serves as an elegant, loyal companion.",
+  "conditions_detail": [],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Rhodesian Ridgeback",
+      "slug": "rhodesian-ridgeback",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Bloodhound",
+      "slug": "bloodhound",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Whippet",
+      "slug": "whippet",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Borzoi",
+      "slug": "borzoi",
+      "size": "large",
+      "group": "Hound"
+    }
+  ],
+  "comparisons": []
+}

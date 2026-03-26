@@ -1,0 +1,154 @@
+{
+  "name": "Hokkaido",
+  "slug": "hokkaido",
+  "group": "Working",
+  "size": "medium",
+  "weight_min_kg": 20,
+  "weight_max_kg": 30,
+  "height_min_cm": 45,
+  "height_max_cm": 52,
+  "lifespan_min": 11,
+  "lifespan_max": 13,
+  "temperament": [
+    "bold",
+    "devoted",
+    "docile",
+    "alert"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "heart-disease",
+    "elbow-dysplasia",
+    "psychogenic-polydipsia"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 2,
+  "shedding_level": 4,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": false,
+  "apartment_friendly": false,
+  "popularity_rank": 199,
+  "origin": "Japan",
+  "coat_type": "double",
+  "coat_colors": [
+    "red",
+    "white",
+    "black",
+    "brindle",
+    "sesame",
+    "wolf-gray"
+  ],
+  "description": "The Hokkaido, also known as the Ainu Dog or Hokkaido Inu, is one of Japan's six native dog breeds and the oldest, brought to Hokkaido by the Ainu people from Honshu around 3,000 years ago. This powerful, bear-hunting dog was bred to track and bay Hokkaido brown bears, requiring extraordinary bravery and physical toughness to confront one of the world's most dangerous predators. The Hokkaido possesses a particularly strong directional sense that enables it to find its way home over vast distances of unfamiliar wilderness terrain.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Elbow Dysplasia",
+      "slug": "elbow-dysplasia",
+      "category": "Orthopedic",
+      "description": "Elbow dysplasia is an umbrella term covering several developmental abnormalities of the elbow joint including fragmented coronoid process, osteochondritis dissecans, and ununited anconeal process. It causes foreleg lameness and arthritis.",
+      "symptoms": [
+        "Front leg lameness",
+        "Elbow swelling",
+        "Pain on elbow manipulation",
+        "Reluctance to exercise",
+        "Stiff gait after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Surgical intervention is often recommended to remove bone fragments or reshape joint surfaces. Medical management includes NSAIDs, joint supplements, and physiotherapy.",
+      "prevention_tips": [
+        "BVA/KC elbow score breeding stock",
+        "Control growth rate in large breeds",
+        "Avoid over-supplementation with calcium",
+        "Maintain healthy weight from puppyhood"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "golden-retriever",
+        "german-shepherd",
+        "rottweiler",
+        "bernese-mountain-dog"
+      ],
+      "typical_onset": "4-18 months",
+      "hereditary": true,
+      "estimated_treatment_cost": "£2,000-£5,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Siberian Husky",
+      "slug": "siberian-husky",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Doberman Pinscher",
+      "slug": "doberman-pinscher",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Alaskan Malamute",
+      "slug": "alaskan-malamute",
+      "size": "large",
+      "group": "Working"
+    }
+  ],
+  "comparisons": []
+}

@@ -1,0 +1,174 @@
+{
+  "slug": "keeshond-vs-chow-chow",
+  "breed_a": {
+    "name": "Keeshond",
+    "slug": "keeshond",
+    "group": "Non-Sporting",
+    "size": "medium",
+    "weight_min_kg": 14,
+    "weight_max_kg": 20,
+    "height_min_cm": 43,
+    "height_max_cm": 46,
+    "lifespan_min": 12,
+    "lifespan_max": 15,
+    "temperament": [
+      "playful",
+      "agile",
+      "outgoing",
+      "friendly",
+      "alert"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "epilepsy",
+      "progressive-retinal-atrophy",
+      "heart-disease",
+      "hypothyroidism"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 3,
+    "shedding_level": 4,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 55,
+    "origin": "Netherlands",
+    "coat_type": "thick double",
+    "coat_colors": [
+      "wolf gray",
+      "cream",
+      "black"
+    ],
+    "description": "The Keeshond is the national dog of the Netherlands, historically kept as a companion and watchdog on the Dutch barges and riverboats that plied the canals and waterways of Holland, earning the nickname the Dutch Barge Dog. Their distinctive spectacle markings — dark lines running from the outer corner of each eye, creating the impression of eyeglasses — are a breed hallmark recognized in the standard. Keeshonds are sociable, people-oriented dogs that love being in the center of family activity and adapt surprisingly well to apartment life given their medium size and manageable exercise needs."
+  },
+  "breed_b": {
+    "name": "Chow Chow",
+    "slug": "chow-chow",
+    "group": "Non-Sporting",
+    "size": "medium",
+    "weight_min_kg": 20,
+    "weight_max_kg": 32,
+    "height_min_cm": 43,
+    "height_max_cm": 51,
+    "lifespan_min": 8,
+    "lifespan_max": 12,
+    "temperament": [
+      "aloof",
+      "loyal",
+      "independent",
+      "dignified"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "entropion",
+      "hypothyroidism",
+      "patellar-luxation"
+    ],
+    "exercise_level": 2,
+    "grooming_level": 4,
+    "shedding_level": 4,
+    "trainability": 2,
+    "good_with_children": false,
+    "good_with_dogs": false,
+    "apartment_friendly": true,
+    "popularity_rank": 101,
+    "origin": "China",
+    "coat_type": "rough double or smooth double",
+    "coat_colors": [
+      "red",
+      "black",
+      "blue",
+      "cinnamon",
+      "cream"
+    ],
+    "description": "The Chow Chow is one of the oldest dog breeds in the world, originating in ancient China where it served as a hunting, herding, and guard dog. Known for its distinctive lion-like mane and blue-black tongue, this breed is fiercely loyal to its family but reserved and aloof with strangers. Chow Chows require early socialisation and firm, consistent training due to their independent and sometimes stubborn nature."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 8,
+      "winner": "keeshond"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 15,
+      "breed_b_value": 12,
+      "winner": "keeshond"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 14,
+      "breed_b_value": 20,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 20,
+      "breed_b_value": 32,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 43,
+      "breed_b_value": 43,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 46,
+      "breed_b_value": 51,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 4,
+      "breed_b_value": 2,
+      "winner": "keeshond"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": false,
+      "winner": "keeshond"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": false,
+      "winner": "keeshond"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

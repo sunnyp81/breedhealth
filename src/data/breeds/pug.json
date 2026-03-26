@@ -1,0 +1,159 @@
+{
+  "name": "Pug",
+  "slug": "pug",
+  "group": "Toy",
+  "size": "small",
+  "weight_min_kg": 6,
+  "weight_max_kg": 8,
+  "height_min_cm": 25,
+  "height_max_cm": 30,
+  "lifespan_min": 13,
+  "lifespan_max": 15,
+  "temperament": [
+    "charming",
+    "mischievous",
+    "loving",
+    "even-tempered",
+    "stubborn"
+  ],
+  "health_issues": [
+    "brachycephalic-syndrome",
+    "hip-dysplasia",
+    "patellar-luxation",
+    "pug-dog-encephalitis",
+    "skin-fold-dermatitis"
+  ],
+  "exercise_level": 2,
+  "grooming_level": 2,
+  "shedding_level": 4,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 24,
+  "origin": "China",
+  "coat_type": "short smooth double",
+  "coat_colors": [
+    "fawn",
+    "black"
+  ],
+  "description": "The Pug is an ancient Chinese breed kept as a treasure of emperors and living in extraordinary luxury before Dutch traders introduced them to European courts in the 16th century, where they quickly became fashionable among royalty and aristocracy. Their expressive, deeply wrinkled faces and even, adaptable temperament make them wonderful urban companions, though their severely flat faces predispose them to breathing difficulties that every owner must carefully manage. Pugs are famously heavy shedders despite their short coats, requiring frequent brushing to manage the constant fine hair they deposit on furniture and clothing.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+      "symptoms": [
+        "Intermittent skipping on hind leg",
+        "Sudden leg lifting",
+        "Bunny-hopping",
+        "Hind limb lameness",
+        "Visible kneecap displacement"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+      "prevention_tips": [
+        "Breed from dogs with normal patellar scores",
+        "Maintain healthy weight",
+        "Avoid high-impact activities in affected puppies"
+      ],
+      "affected_breeds": [
+        "chihuahua",
+        "yorkshire-terrier",
+        "pomeranian",
+        "toy-poodle",
+        "bichon-frise",
+        "boston-terrier"
+      ],
+      "typical_onset": "4 months - 6 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Weight Management",
+      "slug": "weight-management"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Yorkshire Terrier",
+      "slug": "yorkshire-terrier",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Cavalier King Charles Spaniel",
+      "slug": "cavalier-king-charles-spaniel",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Shih Tzu",
+      "slug": "shih-tzu",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Havanese",
+      "slug": "havanese",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Maltese",
+      "slug": "maltese",
+      "size": "small",
+      "group": "Toy"
+    }
+  ],
+  "comparisons": [
+    "pug-vs-french-bulldog",
+    "pug-vs-boston-terrier",
+    "french-bulldog-vs-pug",
+    "pug-vs-chihuahua",
+    "pug-vs-shih-tzu",
+    "pug-vs-pomeranian"
+  ]
+}

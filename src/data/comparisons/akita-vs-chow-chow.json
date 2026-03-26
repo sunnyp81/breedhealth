@@ -1,0 +1,175 @@
+{
+  "slug": "akita-vs-chow-chow",
+  "breed_a": {
+    "name": "Akita",
+    "slug": "akita",
+    "group": "Working",
+    "size": "large",
+    "weight_min_kg": 32,
+    "weight_max_kg": 59,
+    "height_min_cm": 61,
+    "height_max_cm": 71,
+    "lifespan_min": 10,
+    "lifespan_max": 13,
+    "temperament": [
+      "courageous",
+      "dignified",
+      "profoundly-loyal",
+      "alert",
+      "responsive"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "progressive-retinal-atrophy",
+      "hypothyroidism",
+      "autoimmune-disorders",
+      "bloat"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 3,
+    "shedding_level": 5,
+    "trainability": 3,
+    "good_with_children": false,
+    "good_with_dogs": false,
+    "apartment_friendly": false,
+    "popularity_rank": 61,
+    "origin": "Japan",
+    "coat_type": "short thick double",
+    "coat_colors": [
+      "red fawn",
+      "sesame",
+      "brindle",
+      "white"
+    ],
+    "description": "The Akita is a large, powerful spitz-type breed that originated in the snowy mountains of northern Japan, where it was used by the imperial family for hunting bear, boar, and deer, and is considered a symbol of good health, happiness, and long life in Japanese culture. The famous story of Hachiko — an Akita who waited at a Tokyo train station every day for nine years for his deceased owner — is the most celebrated example of canine loyalty in Japanese history. Akitas are profoundly loyal to their families but deeply reserved with strangers and commonly aggressive toward other dogs, requiring extensive socialization and confident, experienced ownership."
+  },
+  "breed_b": {
+    "name": "Chow Chow",
+    "slug": "chow-chow",
+    "group": "Non-Sporting",
+    "size": "medium",
+    "weight_min_kg": 20,
+    "weight_max_kg": 32,
+    "height_min_cm": 43,
+    "height_max_cm": 51,
+    "lifespan_min": 8,
+    "lifespan_max": 12,
+    "temperament": [
+      "aloof",
+      "loyal",
+      "independent",
+      "dignified"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "entropion",
+      "hypothyroidism",
+      "patellar-luxation"
+    ],
+    "exercise_level": 2,
+    "grooming_level": 4,
+    "shedding_level": 4,
+    "trainability": 2,
+    "good_with_children": false,
+    "good_with_dogs": false,
+    "apartment_friendly": true,
+    "popularity_rank": 101,
+    "origin": "China",
+    "coat_type": "rough double or smooth double",
+    "coat_colors": [
+      "red",
+      "black",
+      "blue",
+      "cinnamon",
+      "cream"
+    ],
+    "description": "The Chow Chow is one of the oldest dog breeds in the world, originating in ancient China where it served as a hunting, herding, and guard dog. Known for its distinctive lion-like mane and blue-black tongue, this breed is fiercely loyal to its family but reserved and aloof with strangers. Chow Chows require early socialisation and firm, consistent training due to their independent and sometimes stubborn nature."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 10,
+      "breed_b_value": 8,
+      "winner": "akita"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 13,
+      "breed_b_value": 12,
+      "winner": "akita"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 32,
+      "breed_b_value": 20,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 59,
+      "breed_b_value": 32,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 61,
+      "breed_b_value": 43,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 71,
+      "breed_b_value": 51,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 4,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 5,
+      "breed_b_value": 4,
+      "winner": "chow-chow"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 2,
+      "winner": "akita"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": true,
+      "winner": "chow-chow"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

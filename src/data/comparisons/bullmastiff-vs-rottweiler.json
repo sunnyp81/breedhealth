@@ -1,0 +1,173 @@
+{
+  "slug": "bullmastiff-vs-rottweiler",
+  "breed_a": {
+    "name": "Bullmastiff",
+    "slug": "bullmastiff",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 41,
+    "weight_max_kg": 59,
+    "height_min_cm": 61,
+    "height_max_cm": 69,
+    "lifespan_min": 7,
+    "lifespan_max": 9,
+    "temperament": [
+      "reliable",
+      "loyal",
+      "devoted",
+      "alert",
+      "reserved"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "bloat",
+      "lymphoma",
+      "progressive-retinal-atrophy"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 1,
+    "shedding_level": 2,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": false,
+    "apartment_friendly": false,
+    "popularity_rank": 50,
+    "origin": "England",
+    "coat_type": "short dense",
+    "coat_colors": [
+      "fawn",
+      "red",
+      "brindle"
+    ],
+    "description": "The Bullmastiff was developed in 19th-century England by gamekeepers who needed a dog powerful enough to pin a poacher to the ground without mauling them, created by crossing the Mastiff with the Bulldog in roughly a 60/40 ratio. The result was a fearless, natural guardian with the speed to cover ground quickly and the power to hold an intruder without instruction — earning the breed the nickname the Gamekeeper's Night Dog. Despite their imposing presence, well-bred and properly socialized Bullmastiffs are deeply affectionate family dogs, though their size and natural territorial instinct require consistent training from puppyhood."
+  },
+  "breed_b": {
+    "name": "Rottweiler",
+    "slug": "rottweiler",
+    "group": "Working",
+    "size": "large",
+    "weight_min_kg": 35,
+    "weight_max_kg": 60,
+    "height_min_cm": 56,
+    "height_max_cm": 69,
+    "lifespan_min": 9,
+    "lifespan_max": 10,
+    "temperament": [
+      "loyal",
+      "loving",
+      "confident",
+      "calm",
+      "courageous"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "bloat",
+      "osteosarcoma",
+      "aortic-stenosis"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 2,
+    "shedding_level": 3,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": false,
+    "apartment_friendly": false,
+    "popularity_rank": 8,
+    "origin": "Germany",
+    "coat_type": "short double",
+    "coat_colors": [
+      "black and tan",
+      "black and mahogany",
+      "black and rust"
+    ],
+    "description": "Descended from Roman drover dogs used to herd livestock across Europe, the Rottweiler was refined in the German town of Rottweil as a cattle herder and cart-pulling butcher's dog. When properly bred, socialized, and trained, Rottweilers are calm, confident family protectors with a deep devotion that often surprises new owners unfamiliar with the breed's gentle side. They require experienced, consistent handlers and early socialization to channel their natural guarding instincts in a controlled, appropriate manner."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 7,
+      "breed_b_value": 9,
+      "winner": "rottweiler"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 9,
+      "breed_b_value": 10,
+      "winner": "rottweiler"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 41,
+      "breed_b_value": 35,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 59,
+      "breed_b_value": 60,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 61,
+      "breed_b_value": 56,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 69,
+      "breed_b_value": 69,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 1,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 2,
+      "breed_b_value": 3,
+      "winner": "bullmastiff"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "rottweiler"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

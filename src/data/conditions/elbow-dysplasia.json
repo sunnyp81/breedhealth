@@ -1,0 +1,249 @@
+{
+  "name": "Elbow Dysplasia",
+  "slug": "elbow-dysplasia",
+  "category": "Orthopedic",
+  "description": "Elbow dysplasia is an umbrella term covering several developmental abnormalities of the elbow joint including fragmented coronoid process, osteochondritis dissecans, and ununited anconeal process. It causes foreleg lameness and arthritis.",
+  "symptoms": [
+    "Front leg lameness",
+    "Elbow swelling",
+    "Pain on elbow manipulation",
+    "Reluctance to exercise",
+    "Stiff gait after rest"
+  ],
+  "severity": "high",
+  "treatment_overview": "Surgical intervention is often recommended to remove bone fragments or reshape joint surfaces. Medical management includes NSAIDs, joint supplements, and physiotherapy.",
+  "prevention_tips": [
+    "BVA/KC elbow score breeding stock",
+    "Control growth rate in large breeds",
+    "Avoid over-supplementation with calcium",
+    "Maintain healthy weight from puppyhood"
+  ],
+  "affected_breeds": [
+    "labrador-retriever",
+    "golden-retriever",
+    "german-shepherd",
+    "rottweiler",
+    "bernese-mountain-dog"
+  ],
+  "typical_onset": "4-18 months",
+  "hereditary": true,
+  "estimated_treatment_cost": "£2,000-£5,000",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Bernese Mountain Dog",
+      "slug": "bernese-mountain-dog",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Cane Corso",
+      "slug": "cane-corso",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Rhodesian Ridgeback",
+      "slug": "rhodesian-ridgeback",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Newfoundland",
+      "slug": "newfoundland",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Belgian Malinois",
+      "slug": "belgian-malinois",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Mastiff",
+      "slug": "mastiff",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Bullmastiff",
+      "slug": "bullmastiff",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Saint Bernard",
+      "slug": "saint-bernard",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Spitz (Finnish)",
+      "slug": "finnish-spitz",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bouvier des Flandres",
+      "slug": "bouvier-des-flandres",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "American Staffordshire Terrier",
+      "slug": "american-staffordshire-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    },
+    {
+      "name": "Tibetan Mastiff",
+      "slug": "tibetan-mastiff",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Anatolian Shepherd Dog",
+      "slug": "anatolian-shepherd-dog",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Leonberger",
+      "slug": "leonberger",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Greater Swiss Mountain Dog",
+      "slug": "greater-swiss-mountain-dog",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "English Setter",
+      "slug": "english-setter",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Belgian Tervuren",
+      "slug": "belgian-tervuren",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Spinone Italiano",
+      "slug": "spinone-italiano",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Estrela Mountain Dog",
+      "slug": "estrela-mountain-dog",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Chow Chow",
+      "slug": "chow-chow",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Black Russian Terrier",
+      "slug": "black-russian-terrier",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Belgian Laekenois",
+      "slug": "belgian-laekenois",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Curly-Coated Retriever",
+      "slug": "curly-coated-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Dutch Shepherd",
+      "slug": "dutch-shepherd",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Wirehaired Pointing Griffon",
+      "slug": "wirehaired-pointing-griffon",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Bergamasco Sheepdog",
+      "slug": "bergamasco-sheepdog",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Stabyhoun",
+      "slug": "stabyhoun",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Perro de Presa Canario",
+      "slug": "perro-de-presa-canario",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Bohemian Wire-haired Pointing Griffon",
+      "slug": "bohemian-wire-haired-pointing-griffon",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Jämthund",
+      "slug": "jamthund",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Hokkaido",
+      "slug": "hokkaido",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Shikoku",
+      "slug": "shikoku",
+      "size": "medium",
+      "group": "Working"
+    }
+  ]
+}

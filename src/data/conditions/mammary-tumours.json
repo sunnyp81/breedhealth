@@ -1,0 +1,26 @@
+{
+  "name": "Mammary Tumours",
+  "slug": "mammary-tumours",
+  "category": "Cancer",
+  "description": "Mammary tumours are among the most common tumours in intact female dogs, with approximately 50% being malignant. Early spaying significantly reduces risk. Malignant forms can metastasise to the lungs.",
+  "symptoms": [
+    "Palpable lump in mammary gland",
+    "Ulceration or discharge from lump",
+    "Rapid growth of mass",
+    "Weight loss in malignant cases",
+    "Respiratory signs if lung metastasis"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Surgical excision (lumpectomy, simple mastectomy, or regional chain mastectomy) is the primary treatment. Chemotherapy (doxorubicin) for high-grade malignant cases. Concurrent ovariohysterectomy may reduce recurrence.",
+  "prevention_tips": [
+    "Spaying before first or second season dramatically reduces lifetime risk",
+    "Regular mammary palpation in intact females from middle age"
+  ],
+  "affected_breeds": [
+    "all intact female breeds (spaniels, poodles, dachshunds at higher relative risk)"
+  ],
+  "typical_onset": "7-10 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,500-£5,000",
+  "breeds_detail": []
+}

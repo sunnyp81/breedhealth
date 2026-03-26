@@ -1,0 +1,122 @@
+{
+  "name": "Peruvian Inca Orchid",
+  "slug": "peruvian-inca-orchid",
+  "group": "Hound",
+  "size": "medium",
+  "weight_min_kg": 4,
+  "weight_max_kg": 25,
+  "height_min_cm": 25,
+  "height_max_cm": 65,
+  "lifespan_min": 11,
+  "lifespan_max": 14,
+  "temperament": [
+    "affectionate",
+    "alert",
+    "lively",
+    "agile"
+  ],
+  "health_issues": [
+    "dental-problems",
+    "skin-conditions",
+    "epilepsy",
+    "irritable-bowel-syndrome"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 3,
+  "shedding_level": 1,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 168,
+  "origin": "Peru",
+  "coat_type": "hairless",
+  "coat_colors": [
+    "pink",
+    "chocolate-brown",
+    "gray-black",
+    "mottled"
+  ],
+  "description": "The Peruvian Inca Orchid, also called the Peruvian Hairless Dog, is one of South America's oldest breeds and is depicted in Moche and Chimu ceramics dating back over 2,000 years. Peru's national heritage dog exists in three sizes and two varieties (hairless and coated), with the hairless type having warm, smooth skin that some people find comforting, historically leading to claims of therapeutic healing properties. This elegant, swift sighthound retains strong primitive hunting instincts and is an agile coursing dog capable of impressive speed despite its refined, almost fragile appearance.",
+  "conditions_detail": [
+    {
+      "name": "Epilepsy",
+      "slug": "epilepsy",
+      "category": "Neurological",
+      "description": "Epilepsy is the most common neurological disorder in dogs, characterised by recurrent seizures. Idiopathic (genetic) epilepsy is the most frequent form in young to middle-aged dogs with no underlying structural brain lesion.",
+      "symptoms": [
+        "Generalised seizures (paddling, loss of consciousness)",
+        "Focal seizures (facial twitching, fly-biting)",
+        "Post-ictal confusion",
+        "Sudden falling",
+        "Cluster seizures"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Anticonvulsant drugs (phenobarbital, potassium bromide, levetiracetam) control seizures in the majority of cases. Treatment is lifelong. Cluster seizures and status epilepticus require emergency treatment.",
+      "prevention_tips": [
+        "DNA testing available for several breeds",
+        "Avoid breeding affected dogs with idiopathic epilepsy"
+      ],
+      "affected_breeds": [
+        "border-collie",
+        "labrador-retriever",
+        "golden-retriever",
+        "beagle",
+        "german-shepherd",
+        "belgian-shepherd"
+      ],
+      "typical_onset": "1-5 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£500-£2,000/year"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Rhodesian Ridgeback",
+      "slug": "rhodesian-ridgeback",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Bloodhound",
+      "slug": "bloodhound",
+      "size": "large",
+      "group": "Hound"
+    }
+  ],
+  "comparisons": [
+    "peruvian-inca-orchid-vs-xoloitzcuintli"
+  ]
+}

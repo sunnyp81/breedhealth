@@ -1,0 +1,57 @@
+{
+  "name": "Interdigital Cysts (Pododermatitis)",
+  "slug": "interdigital-cysts",
+  "category": "Dermatological",
+  "description": "Interdigital cysts (furunculosis) are painful nodules or abscesses in the webbing between the toes. They result from hair follicle obstruction and rupture, forming draining tracts. Allergies, demodex, and anatomical factors are underlying causes.",
+  "symptoms": [
+    "Swollen painful nodules between toes",
+    "Licking and chewing paws",
+    "Draining lesions",
+    "Lameness",
+    "Recurrence despite treatment"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Treat underlying causes (allergies, demodex). Warm foot soaks, topical antiseptics, and antibiotics for secondary infection. Severe or recurrent cases may require surgical excision or laser ablation of cysts and fusion podoplasty.",
+  "prevention_tips": [
+    "Control underlying allergies",
+    "Keep paws clean and dry",
+    "Regular paw inspection",
+    "Isoxazoline antiparasitic if demodex involved"
+  ],
+  "affected_breeds": [
+    "english-bulldog",
+    "labrador-retriever",
+    "golden-retriever",
+    "boxer",
+    "shar-pei"
+  ],
+  "typical_onset": "1-3 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£300-£2,000",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Shar Pei",
+      "slug": "shar-pei",
+      "size": "medium",
+      "group": "Non-Sporting"
+    }
+  ]
+}

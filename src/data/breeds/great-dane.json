@@ -1,0 +1,228 @@
+{
+  "name": "Great Dane",
+  "slug": "great-dane",
+  "group": "Working",
+  "size": "giant",
+  "weight_min_kg": 50,
+  "weight_max_kg": 82,
+  "height_min_cm": 71,
+  "height_max_cm": 86,
+  "lifespan_min": 7,
+  "lifespan_max": 10,
+  "temperament": [
+    "friendly",
+    "patient",
+    "dependable",
+    "gentle",
+    "reserved"
+  ],
+  "health_issues": [
+    "bloat",
+    "hip-dysplasia",
+    "dilated-cardiomyopathy",
+    "osteosarcoma",
+    "wobbler-syndrome"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 1,
+  "shedding_level": 2,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 15,
+  "origin": "Germany",
+  "coat_type": "short smooth",
+  "coat_colors": [
+    "fawn",
+    "brindle",
+    "blue",
+    "black",
+    "harlequin",
+    "mantle"
+  ],
+  "description": "The Great Dane holds the record for the world's tallest domestic dog, with males routinely exceeding 80 cm at the shoulder, yet their gentle, friendly disposition has earned them the nickname the Gentle Giant of the dog world. Developed in Germany for boar hunting, modern Great Danes are calm, affectionate companions whose sheer size means early obedience training is not optional — an untrained 80 kg dog is unmanageable. Despite their imposing stature, they are sensitive dogs that respond poorly to harsh handling and form close bonds with their families.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Dilated Cardiomyopathy (DCM)",
+      "slug": "dilated-cardiomyopathy",
+      "category": "Cardiac",
+      "description": "DCM is a disease of the heart muscle causing the chambers to enlarge and the walls to thin, reducing the heart's pumping efficiency. It progresses to congestive heart failure if untreated and is a leading cause of cardiac death in large breeds.",
+      "symptoms": [
+        "Exercise intolerance",
+        "Coughing",
+        "Laboured breathing",
+        "Abdominal distension",
+        "Collapse",
+        "Sudden death"
+      ],
+      "severity": "high",
+      "treatment_overview": "Management with diuretics, ACE inhibitors, Pimobendan, and antiarrhythmics can prolong life significantly. No cure exists; treatment is palliative.",
+      "prevention_tips": [
+        "Annual cardiac screening for at-risk breeds",
+        "Breed from cardiology-cleared stock",
+        "Avoid grain-free diets in predisposed breeds (FDA advisory)",
+        "Taurine supplementation investigated in some breeds"
+      ],
+      "affected_breeds": [
+        "dobermann",
+        "great-dane",
+        "irish-wolfhound",
+        "boxer",
+        "cocker-spaniel",
+        "newfoundland"
+      ],
+      "typical_onset": "4-10 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£2,000-£6,000/year"
+    },
+    {
+      "name": "Osteosarcoma",
+      "slug": "osteosarcoma",
+      "category": "Cancer",
+      "description": "Osteosarcoma is the most common primary bone tumour in dogs, occurring predominantly in the long bones of large and giant breeds. It is locally aggressive and metastasises early, primarily to the lungs. Prognosis remains guarded despite treatment.",
+      "symptoms": [
+        "Progressive limb lameness",
+        "Swelling over bone",
+        "Bone pain",
+        "Pathological fracture",
+        "Reduced exercise tolerance"
+      ],
+      "severity": "high",
+      "treatment_overview": "Limb amputation combined with chemotherapy (carboplatin or doxorubicin) gives median survival of 10-12 months. Limb-sparing surgery is possible in some cases. Palliative radiation and pain management are alternatives.",
+      "prevention_tips": [
+        "No proven prevention",
+        "Early investigation of unexplained lameness in large breeds over 5 years"
+      ],
+      "affected_breeds": [
+        "great-dane",
+        "saint-bernard",
+        "greyhound",
+        "irish-wolfhound",
+        "rottweiler",
+        "golden-retriever"
+      ],
+      "typical_onset": "7-10 years",
+      "hereditary": false,
+      "estimated_treatment_cost": "£6,000-£15,000"
+    },
+    {
+      "name": "Wobbler Syndrome (Cervical Spondylomyelopathy)",
+      "slug": "wobbler-syndrome",
+      "category": "Neurological",
+      "description": "Wobbler syndrome is spinal cord compression in the neck caused by malformed or unstable vertebrae or herniated discs. It produces a characteristic wobbly gait in the hindlimbs and can progress to complete paralysis.",
+      "symptoms": [
+        "Wobbly hindlimb gait",
+        "Neck pain or stiffness",
+        "Short-strided forelimb gait",
+        "Weakness",
+        "Reluctance to raise head"
+      ],
+      "severity": "high",
+      "treatment_overview": "Medical management with strict rest, anti-inflammatories, and physiotherapy is used for mild cases. Surgical decompression and stabilisation is recommended for moderate to severe neurological deficits.",
+      "prevention_tips": [
+        "Careful breeding selection",
+        "Avoid rapid growth in predisposed breeds",
+        "Feed large-breed appropriate diet"
+      ],
+      "affected_breeds": [
+        "dobermann",
+        "great-dane",
+        "weimaraner",
+        "basset-hound",
+        "dalmatian"
+      ],
+      "typical_onset": "3-9 years (Dobermann), under 3 years (giant breeds)",
+      "hereditary": true,
+      "estimated_treatment_cost": "£3,000-£8,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Senior Formula",
+      "slug": "senior"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Doberman Pinscher",
+      "slug": "doberman-pinscher",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Bernese Mountain Dog",
+      "slug": "bernese-mountain-dog",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Cane Corso",
+      "slug": "cane-corso",
+      "size": "giant",
+      "group": "Working"
+    }
+  ],
+  "comparisons": [
+    "great-dane-vs-english-mastiff",
+    "saint-bernard-vs-great-dane",
+    "irish-wolfhound-vs-great-dane",
+    "great-dane-vs-irish-wolfhound",
+    "great-dane-vs-bernese-mountain-dog"
+  ]
+}

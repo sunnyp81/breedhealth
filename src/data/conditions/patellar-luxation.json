@@ -1,0 +1,333 @@
+{
+  "name": "Patellar Luxation",
+  "slug": "patellar-luxation",
+  "category": "Orthopedic",
+  "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+  "symptoms": [
+    "Intermittent skipping on hind leg",
+    "Sudden leg lifting",
+    "Bunny-hopping",
+    "Hind limb lameness",
+    "Visible kneecap displacement"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+  "prevention_tips": [
+    "Breed from dogs with normal patellar scores",
+    "Maintain healthy weight",
+    "Avoid high-impact activities in affected puppies"
+  ],
+  "affected_breeds": [
+    "chihuahua",
+    "yorkshire-terrier",
+    "pomeranian",
+    "toy-poodle",
+    "bichon-frise",
+    "boston-terrier"
+  ],
+  "typical_onset": "4 months - 6 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£1,500-£3,500",
+  "breeds_detail": [
+    {
+      "name": "Yorkshire Terrier",
+      "slug": "yorkshire-terrier",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Pomeranian",
+      "slug": "pomeranian",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Bichon Frise",
+      "slug": "bichon-frise",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Boston Terrier",
+      "slug": "boston-terrier",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bulldog",
+      "slug": "bulldog",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Shih Tzu",
+      "slug": "shih-tzu",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Havanese",
+      "slug": "havanese",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Pug",
+      "slug": "pug",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Maltese",
+      "slug": "maltese",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Shiba Inu",
+      "slug": "shiba-inu",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "West Highland White Terrier",
+      "slug": "west-highland-white-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Brittany",
+      "slug": "brittany",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Coton de Tulear",
+      "slug": "coton-de-tulear",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Spitz (Finnish)",
+      "slug": "finnish-spitz",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Boykin Spaniel",
+      "slug": "boykin-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Cairn Terrier",
+      "slug": "cairn-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Papillon",
+      "slug": "papillon",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Flat-Coated Retriever",
+      "slug": "flat-coated-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Miniature Pinscher",
+      "slug": "miniature-pinscher",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Bull Terrier",
+      "slug": "bull-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    },
+    {
+      "name": "Xoloitzcuintli",
+      "slug": "xoloitzcuintli",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "American Eskimo Dog",
+      "slug": "american-eskimo-dog",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Italian Greyhound",
+      "slug": "italian-greyhound",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Icelandic Sheepdog",
+      "slug": "icelandic-sheepdog",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Pharaoh Hound",
+      "slug": "pharaoh-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Pekingese",
+      "slug": "pekingese",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Chow Chow",
+      "slug": "chow-chow",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Rat Terrier",
+      "slug": "rat-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Russell Terrier",
+      "slug": "russell-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Chinese Crested",
+      "slug": "chinese-crested",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Miniature Bull Terrier",
+      "slug": "miniature-bull-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Great Pyrenees",
+      "slug": "great-pyrenees",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Alaskan Klee Kai",
+      "slug": "alaskan-klee-kai",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Brussels Griffon",
+      "slug": "brussels-griffon",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Cirneco dell'Etna",
+      "slug": "cirneco-delletna",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Swedish Vallhund",
+      "slug": "swedish-vallhund",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Tibetan Spaniel",
+      "slug": "tibetan-spaniel",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Manchester Terrier",
+      "slug": "manchester-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Bedlington Terrier",
+      "slug": "bedlington-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    },
+    {
+      "name": "Löwchen",
+      "slug": "lowchen",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Pumi",
+      "slug": "pumi",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Schipperke",
+      "slug": "schipperke",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Portuguese Podengo Pequeno",
+      "slug": "portuguese-podengo-pequeno",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Eurasier",
+      "slug": "eurasier",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Volpino Italiano",
+      "slug": "volpino-italiano",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "German Spitz",
+      "slug": "german-spitz",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Japanese Spitz",
+      "slug": "japanese-spitz",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Kai Ken",
+      "slug": "kai-ken",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Telomian",
+      "slug": "telomian",
+      "size": "small",
+      "group": "Foundation Stock Service"
+    }
+  ]
+}

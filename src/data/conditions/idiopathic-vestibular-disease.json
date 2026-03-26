@@ -1,0 +1,27 @@
+{
+  "name": "Idiopathic Vestibular Disease",
+  "slug": "idiopathic-vestibular-disease",
+  "category": "Neurological",
+  "description": "Idiopathic vestibular disease is a sudden, non-progressive inner ear disorder most common in older dogs. It mimics a stroke in appearance but is typically self-limiting. The cause is unknown and spontaneous recovery usually occurs within 2-4 weeks.",
+  "symptoms": [
+    "Sudden head tilt",
+    "Loss of balance",
+    "Rolling and falling",
+    "Nystagmus (flickering eye movement)",
+    "Nausea and vomiting",
+    "Reluctance to stand"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Supportive care with anti-nausea medication and assistance walking. Most dogs recover substantially within 72 hours and fully within 2-4 weeks. Some residual head tilt may persist.",
+  "prevention_tips": [
+    "No prevention",
+    "Prompt veterinary assessment to exclude stroke, tumour, or middle ear disease"
+  ],
+  "affected_breeds": [
+    "all breeds (geriatric dogs predominantly)"
+  ],
+  "typical_onset": "10+ years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£200-£800",
+  "breeds_detail": []
+}

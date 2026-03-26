@@ -1,0 +1,45 @@
+{
+  "name": "Grain-Free",
+  "slug": "grain-free",
+  "description": "Grain-free diets replace traditional grains with alternative carbohydrate sources like sweet potatoes, peas, and lentils. Popular for dogs with grain sensitivities.",
+  "suitable_for": [
+    "dogs with grain allergies",
+    "active breeds",
+    "dogs with digestive sensitivities"
+  ],
+  "benefits": [
+    "May reduce allergic reactions",
+    "Often higher in protein",
+    "Can improve coat quality"
+  ],
+  "risks": [
+    "Potential link to DCM in some breeds",
+    "May be unnecessary for most dogs",
+    "Often more expensive"
+  ],
+  "recommended_brands": [
+    "Taste of the Wild",
+    "Merrick",
+    "Blue Buffalo Wilderness",
+    "Canidae Pure"
+  ],
+  "feeding_guidelines": {
+    "small": {
+      "cups_per_day": "0.5-1",
+      "frequency": "2 meals"
+    },
+    "medium": {
+      "cups_per_day": "1-2",
+      "frequency": "2 meals"
+    },
+    "large": {
+      "cups_per_day": "2-3.5",
+      "frequency": "2 meals"
+    },
+    "giant": {
+      "cups_per_day": "3.5-5",
+      "frequency": "2-3 meals"
+    }
+  },
+  "suitable_breeds": []
+}

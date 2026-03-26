@@ -1,0 +1,255 @@
+{
+  "name": "Chow Chow",
+  "slug": "chow-chow",
+  "group": "Non-Sporting",
+  "size": "medium",
+  "weight_min_kg": 20,
+  "weight_max_kg": 32,
+  "height_min_cm": 43,
+  "height_max_cm": 51,
+  "lifespan_min": 8,
+  "lifespan_max": 12,
+  "temperament": [
+    "aloof",
+    "loyal",
+    "independent",
+    "dignified"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "elbow-dysplasia",
+    "entropion",
+    "hypothyroidism",
+    "patellar-luxation"
+  ],
+  "exercise_level": 2,
+  "grooming_level": 4,
+  "shedding_level": 4,
+  "trainability": 2,
+  "good_with_children": false,
+  "good_with_dogs": false,
+  "apartment_friendly": true,
+  "popularity_rank": 101,
+  "origin": "China",
+  "coat_type": "rough double or smooth double",
+  "coat_colors": [
+    "red",
+    "black",
+    "blue",
+    "cinnamon",
+    "cream"
+  ],
+  "description": "The Chow Chow is one of the oldest dog breeds in the world, originating in ancient China where it served as a hunting, herding, and guard dog. Known for its distinctive lion-like mane and blue-black tongue, this breed is fiercely loyal to its family but reserved and aloof with strangers. Chow Chows require early socialisation and firm, consistent training due to their independent and sometimes stubborn nature.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Elbow Dysplasia",
+      "slug": "elbow-dysplasia",
+      "category": "Orthopedic",
+      "description": "Elbow dysplasia is an umbrella term covering several developmental abnormalities of the elbow joint including fragmented coronoid process, osteochondritis dissecans, and ununited anconeal process. It causes foreleg lameness and arthritis.",
+      "symptoms": [
+        "Front leg lameness",
+        "Elbow swelling",
+        "Pain on elbow manipulation",
+        "Reluctance to exercise",
+        "Stiff gait after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Surgical intervention is often recommended to remove bone fragments or reshape joint surfaces. Medical management includes NSAIDs, joint supplements, and physiotherapy.",
+      "prevention_tips": [
+        "BVA/KC elbow score breeding stock",
+        "Control growth rate in large breeds",
+        "Avoid over-supplementation with calcium",
+        "Maintain healthy weight from puppyhood"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "golden-retriever",
+        "german-shepherd",
+        "rottweiler",
+        "bernese-mountain-dog"
+      ],
+      "typical_onset": "4-18 months",
+      "hereditary": true,
+      "estimated_treatment_cost": "£2,000-£5,000"
+    },
+    {
+      "name": "Entropion",
+      "slug": "entropion",
+      "category": "Eye",
+      "description": "Entropion is an inward rolling of the eyelid margin, causing the eyelashes and skin to rub against the corneal surface. This produces chronic irritation, pain, corneal ulceration, and scarring that can impair vision.",
+      "symptoms": [
+        "Squinting or pawing at eye",
+        "Excessive tearing",
+        "Eye discharge",
+        "Corneal cloudiness",
+        "Redness around eye"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Temporary eyelid tacking can relieve discomfort in puppies pending maturity. Definitive surgical correction (Hotz-Celsus procedure) is highly effective in adults.",
+      "prevention_tips": [
+        "Avoid breeding dogs with severe conformational entropion",
+        "Do not breed surgically corrected dogs"
+      ],
+      "affected_breeds": [
+        "chow-chow",
+        "shar-pei",
+        "rottweiler",
+        "labrador-retriever",
+        "golden-retriever",
+        "bullmastiff"
+      ],
+      "typical_onset": "Puppyhood - 2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£800-£2,000"
+    },
+    {
+      "name": "Hypothyroidism",
+      "slug": "hypothyroidism",
+      "category": "Endocrine",
+      "description": "Hypothyroidism is the most common endocrine disorder in dogs, caused by reduced thyroid hormone production — most often from immune-mediated thyroiditis or idiopathic follicular atrophy. It affects metabolism, skin, and coat quality.",
+      "symptoms": [
+        "Weight gain without diet change",
+        "Lethargy",
+        "Cold intolerance",
+        "Bilateral symmetrical hair loss",
+        "Thickened skin",
+        "Ear infections"
+      ],
+      "severity": "low",
+      "treatment_overview": "Daily oral thyroxine (levothyroxine) supplementation is highly effective and required for life. Dosing is adjusted based on thyroid level monitoring every 6-12 months.",
+      "prevention_tips": [
+        "No proven prevention",
+        "Regular blood screening in at-risk breeds from age 4"
+      ],
+      "affected_breeds": [
+        "golden-retriever",
+        "dobermann",
+        "irish-setter",
+        "miniature-schnauzer",
+        "cocker-spaniel",
+        "airedale-terrier"
+      ],
+      "typical_onset": "4-10 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£300-£800/year"
+    },
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+      "symptoms": [
+        "Intermittent skipping on hind leg",
+        "Sudden leg lifting",
+        "Bunny-hopping",
+        "Hind limb lameness",
+        "Visible kneecap displacement"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+      "prevention_tips": [
+        "Breed from dogs with normal patellar scores",
+        "Maintain healthy weight",
+        "Avoid high-impact activities in affected puppies"
+      ],
+      "affected_breeds": [
+        "chihuahua",
+        "yorkshire-terrier",
+        "pomeranian",
+        "toy-poodle",
+        "bichon-frise",
+        "boston-terrier"
+      ],
+      "typical_onset": "4 months - 6 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Senior Formula",
+      "slug": "senior"
+    },
+    {
+      "name": "Weight Management",
+      "slug": "weight-management"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "French Bulldog",
+      "slug": "french-bulldog",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bulldog",
+      "slug": "bulldog",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Boston Terrier",
+      "slug": "boston-terrier",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bichon Frise",
+      "slug": "bichon-frise",
+      "size": "small",
+      "group": "Non-Sporting"
+    }
+  ],
+  "comparisons": [
+    "akita-vs-chow-chow",
+    "chow-chow-vs-shar-pei",
+    "keeshond-vs-chow-chow",
+    "eurasier-vs-chow-chow"
+  ]
+}

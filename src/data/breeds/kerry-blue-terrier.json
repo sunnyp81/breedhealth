@@ -1,0 +1,177 @@
+{
+  "name": "Kerry Blue Terrier",
+  "slug": "kerry-blue-terrier",
+  "group": "Terrier",
+  "size": "medium",
+  "weight_min_kg": 15,
+  "weight_max_kg": 20,
+  "height_min_cm": 44,
+  "height_max_cm": 51,
+  "lifespan_min": 12,
+  "lifespan_max": 15,
+  "temperament": [
+    "alert",
+    "loyal",
+    "spirited",
+    "adaptable"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "cerebellar-abiotrophy",
+    "progressive-retinal-atrophy",
+    "keratoconjunctivitis-sicca",
+    "hair-follicle-tumours"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 4,
+  "shedding_level": 1,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": false,
+  "apartment_friendly": false,
+  "popularity_rank": 122,
+  "origin": "Ireland",
+  "coat_type": "soft wavy single",
+  "coat_colors": [
+    "blue grey",
+    "slate blue",
+    "blue"
+  ],
+  "description": "The Kerry Blue Terrier is Ireland's national breed, known for its striking blue-grey wavy coat that starts black at birth and gradually fades to characteristic slate-blue by maturity around 18 months. Originally bred as an all-purpose Irish working dog — hunting small game and birds, herding sheep and cattle, and guarding the homestead — the Kerry Blue is a highly versatile, spirited terrier with strong dog-on-dog aggression tendencies. Their non-shedding coat requires regular trimming and grooming but makes them a better option for allergy sufferers.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Progressive Retinal Atrophy (PRA)",
+      "slug": "progressive-retinal-atrophy",
+      "category": "Eye",
+      "description": "PRA is a group of hereditary diseases causing progressive degeneration of the photoreceptor cells in the retina. It leads to night blindness first, followed by complete blindness. There is no treatment, but DNA tests exist for many forms.",
+      "symptoms": [
+        "Night blindness (early sign)",
+        "Reluctance to enter dark rooms",
+        "Dilated pupils",
+        "Reduced daytime vision",
+        "Reflective eye shine (tapetal hyperreflectivity)"
+      ],
+      "severity": "high",
+      "treatment_overview": "There is no effective treatment or cure for PRA. Management focuses on adapting the dog's environment to maintain quality of life as vision deteriorates.",
+      "prevention_tips": [
+        "DNA test breeding stock before mating",
+        "Only breed clear or carrier-to-clear pairings",
+        "Annual ophthalmology screening (BVA/KC scheme)"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "cocker-spaniel",
+        "miniature-poodle",
+        "irish-setter",
+        "border-collie",
+        "tibetan-terrier"
+      ],
+      "typical_onset": "3-8 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£0 (management only)"
+    },
+    {
+      "name": "Keratoconjunctivitis Sicca (Dry Eye)",
+      "slug": "keratoconjunctivitis-sicca",
+      "category": "Eye",
+      "description": "KCS, commonly called dry eye, is inadequate tear production causing corneal dryness, inflammation, ulceration, and scarring. It is often immune-mediated in dogs and can lead to permanent vision impairment if poorly controlled.",
+      "symptoms": [
+        "Thick yellow-green eye discharge",
+        "Red inflamed eyes",
+        "Dull or cloudy cornea",
+        "Eye pawing",
+        "Sticky eyelids in morning"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Lifelong twice-daily cyclosporine or tacrolimus eye drops stimulate tear production in immune-mediated cases. Artificial tears and antibiotics manage secondary infections. Parotid duct transposition is a surgical salvage option.",
+      "prevention_tips": [
+        "Avoid sulphonamide antibiotics which can cause KCS",
+        "Early treatment prevents corneal scarring"
+      ],
+      "affected_breeds": [
+        "west-highland-white-terrier",
+        "cavalier-king-charles-spaniel",
+        "yorkshire-terrier",
+        "english-bulldog",
+        "shih-tzu"
+      ],
+      "typical_onset": "2-8 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£500-£1,500/year"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "West Highland White Terrier",
+      "slug": "west-highland-white-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Soft Coated Wheaten Terrier",
+      "slug": "soft-coated-wheaten-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    },
+    {
+      "name": "Cairn Terrier",
+      "slug": "cairn-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Scottish Terrier",
+      "slug": "scottish-terrier",
+      "size": "small",
+      "group": "Terrier"
+    }
+  ],
+  "comparisons": []
+}

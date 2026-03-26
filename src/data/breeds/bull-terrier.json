@@ -1,0 +1,127 @@
+{
+  "name": "Bull Terrier",
+  "slug": "bull-terrier",
+  "group": "Terrier",
+  "size": "medium",
+  "weight_min_kg": 20,
+  "weight_max_kg": 32,
+  "height_min_cm": 46,
+  "height_max_cm": 56,
+  "lifespan_min": 11,
+  "lifespan_max": 14,
+  "temperament": [
+    "sweet",
+    "playful",
+    "charming",
+    "mischievous",
+    "loyal"
+  ],
+  "health_issues": [
+    "deafness",
+    "heart-disease",
+    "kidney-disease",
+    "patellar-luxation",
+    "skin-allergies"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 1,
+  "shedding_level": 2,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": false,
+  "apartment_friendly": false,
+  "popularity_rank": 77,
+  "origin": "England",
+  "coat_type": "short smooth",
+  "coat_colors": [
+    "white",
+    "black",
+    "fawn",
+    "red",
+    "brindle",
+    "tricolor"
+  ],
+  "description": "The Bull Terrier was developed in 19th-century England from Bulldogs crossed with now-extinct White English Terriers, initially for dog fighting and later refined into a fashionable gentleman's companion. Their egg-shaped head — unique among all dog breeds — and triangular eyes give the Bull Terrier its unmistakable, almost cartoon-like appearance that has made it an advertising icon. Despite a clownish, affectionate personality with people, Bull Terriers can be aggressive toward other animals and require early socialization, consistent training, and owners who appreciate their characteristic stubbornness.",
+  "conditions_detail": [
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+      "symptoms": [
+        "Intermittent skipping on hind leg",
+        "Sudden leg lifting",
+        "Bunny-hopping",
+        "Hind limb lameness",
+        "Visible kneecap displacement"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+      "prevention_tips": [
+        "Breed from dogs with normal patellar scores",
+        "Maintain healthy weight",
+        "Avoid high-impact activities in affected puppies"
+      ],
+      "affected_breeds": [
+        "chihuahua",
+        "yorkshire-terrier",
+        "pomeranian",
+        "toy-poodle",
+        "bichon-frise",
+        "boston-terrier"
+      ],
+      "typical_onset": "4 months - 6 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "West Highland White Terrier",
+      "slug": "west-highland-white-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Soft Coated Wheaten Terrier",
+      "slug": "soft-coated-wheaten-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    },
+    {
+      "name": "Cairn Terrier",
+      "slug": "cairn-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Scottish Terrier",
+      "slug": "scottish-terrier",
+      "size": "small",
+      "group": "Terrier"
+    }
+  ],
+  "comparisons": [
+    "bull-terrier-vs-staffordshire-bull-terrier"
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "slug": "standard-schnauzer-vs-giant-schnauzer",
+  "breed_a": {
+    "name": "Standard Schnauzer",
+    "slug": "standard-schnauzer",
+    "group": "Working",
+    "size": "medium",
+    "weight_min_kg": 14,
+    "weight_max_kg": 20,
+    "height_min_cm": 44,
+    "height_max_cm": 50,
+    "lifespan_min": 13,
+    "lifespan_max": 16,
+    "temperament": [
+      "spirited",
+      "alert",
+      "playful",
+      "loyal",
+      "intelligent"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "follicular-dermatitis",
+      "schnauzer-comedo-syndrome",
+      "eye-conditions",
+      "epilepsy"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 4,
+    "shedding_level": 1,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 79,
+    "origin": "Germany",
+    "coat_type": "wiry double",
+    "coat_colors": [
+      "salt and pepper",
+      "black"
+    ],
+    "description": "The Standard Schnauzer is the original Schnauzer and the progenitor of both the Giant and Miniature varieties, developed in Germany as a versatile farm dog for ratting, guarding, and general utility work, with records placing wire-coated dogs of this type in Bavarian households as far back as the 15th century. Highly intelligent, spirited, and strongly built, Standard Schnauzers are bold, confident dogs that can be stubborn but respond excellently to firm, consistent, reward-based training. Their low-shedding wiry coat requires hand-stripping or clipping every six to eight weeks to maintain proper texture and appearance."
+  },
+  "breed_b": {
+    "name": "Giant Schnauzer",
+    "slug": "giant-schnauzer",
+    "group": "Working",
+    "size": "large",
+    "weight_min_kg": 25,
+    "weight_max_kg": 48,
+    "height_min_cm": 58,
+    "height_max_cm": 70,
+    "lifespan_min": 12,
+    "lifespan_max": 15,
+    "temperament": [
+      "loyal",
+      "powerful",
+      "reliable",
+      "good-natured",
+      "dominant"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "toe-cancer",
+      "hypothyroidism",
+      "autoimmune-disorders",
+      "epilepsy"
+    ],
+    "exercise_level": 5,
+    "grooming_level": 4,
+    "shedding_level": 1,
+    "trainability": 5,
+    "good_with_children": false,
+    "good_with_dogs": false,
+    "apartment_friendly": false,
+    "popularity_rank": 98,
+    "origin": "Germany",
+    "coat_type": "wiry double",
+    "coat_colors": [
+      "black",
+      "salt and pepper"
+    ],
+    "description": "The Giant Schnauzer was developed in Bavaria in the 17th century by crossing the Standard Schnauzer with larger working breeds including the Great Dane and Bouvier des Flandres to create a cattle drover capable of moving livestock to market, and was later adopted as a military and police dog for which it remains widely used in Europe today. The largest of the three Schnauzer sizes, Giant Schnauzers are powerfully built, highly intelligent, and intensely loyal dogs with a dominant nature that requires an experienced owner who understands how to establish clear, consistent leadership. Their low-shedding wiry coat requires professional hand-stripping or clipping every six to eight weeks."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 13,
+      "breed_b_value": 12,
+      "winner": "standard-schnauzer"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 16,
+      "breed_b_value": 15,
+      "winner": "standard-schnauzer"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 14,
+      "breed_b_value": 25,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 20,
+      "breed_b_value": 48,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 44,
+      "breed_b_value": 58,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 50,
+      "breed_b_value": 70,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 4,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 1,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 4,
+      "breed_b_value": 5,
+      "winner": "giant-schnauzer"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": false,
+      "winner": "standard-schnauzer"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": false,
+      "winner": "standard-schnauzer"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

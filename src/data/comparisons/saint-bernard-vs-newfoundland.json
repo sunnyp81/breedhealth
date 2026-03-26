@@ -1,0 +1,174 @@
+{
+  "slug": "saint-bernard-vs-newfoundland",
+  "breed_a": {
+    "name": "Saint Bernard",
+    "slug": "saint-bernard",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 54,
+    "weight_max_kg": 82,
+    "height_min_cm": 65,
+    "height_max_cm": 90,
+    "lifespan_min": 8,
+    "lifespan_max": 10,
+    "temperament": [
+      "playful",
+      "charming",
+      "gentle",
+      "patient",
+      "friendly"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "bloat",
+      "osteosarcoma",
+      "cardiomyopathy"
+    ],
+    "exercise_level": 2,
+    "grooming_level": 3,
+    "shedding_level": 4,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 51,
+    "origin": "Switzerland",
+    "coat_type": "long or short double",
+    "coat_colors": [
+      "red and white",
+      "brown and white",
+      "brindle and white"
+    ],
+    "description": "The Saint Bernard was developed by monks at the Great Saint Bernard Hospice in the Swiss Alps to rescue lost and injured travelers on the treacherous mountain passes between Switzerland and Italy, and is credited with saving over 2,000 lives over three centuries of service. The barrel of brandy around the neck is a charming artistic invention — the real rescue dogs simply used their extraordinary scent tracking and ability to locate avalanche victims buried under metres of snow. Their massive size and gentle, patient temperament made them famous as family dogs, though their lifespan is short and their drool output is legendary."
+  },
+  "breed_b": {
+    "name": "Newfoundland",
+    "slug": "newfoundland",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 45,
+    "weight_max_kg": 68,
+    "height_min_cm": 66,
+    "height_max_cm": 71,
+    "lifespan_min": 9,
+    "lifespan_max": 10,
+    "temperament": [
+      "sweet",
+      "patient",
+      "devoted",
+      "gentle",
+      "trainable"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "subvalvular-aortic-stenosis",
+      "bloat",
+      "cystinuria"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 4,
+    "shedding_level": 4,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 41,
+    "origin": "Canada",
+    "coat_type": "long thick double",
+    "coat_colors": [
+      "black",
+      "brown",
+      "gray",
+      "black and white"
+    ],
+    "description": "Developed by fishermen on the island of Newfoundland as a working water dog capable of hauling nets and rescuing drowning sailors in icy Atlantic waters, the Newfoundland has webbed feet and a water-resistant double coat perfectly adapted for cold-water swimming. Famously patient and gentle with children, J.M. Barrie immortalized the breed as Nana the nursemaid dog in Peter Pan, a portrayal that resonates with Newf owners who know the breed's natural watchfulness over children. Their enormous size makes early obedience training essential before they become too powerful to manage safely on a leash."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 8,
+      "breed_b_value": 9,
+      "winner": "newfoundland"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 10,
+      "breed_b_value": 10,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 54,
+      "breed_b_value": 45,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 82,
+      "breed_b_value": 68,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 65,
+      "breed_b_value": 66,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 90,
+      "breed_b_value": 71,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 2,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "newfoundland"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

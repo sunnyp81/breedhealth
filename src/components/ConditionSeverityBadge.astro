@@ -1,0 +1,79 @@
+---
+import type { ConditionSeverity } from '../lib/types';
+
+interface Props {
+  severity: ConditionSeverity | 'medium';
+}
+
+const { severity } = Astro.props;
+
+type BadgeConfig = {
+  label: string;
+  bg: string;
+  color: string;
+  border: string;
+};
+
+const config: Record<string, BadgeConfig> = {
+  low: {
+    label: 'Low Risk',
+    bg:    '#d4edda',
+    color: '#155724',
+    border:'#b8dbbf',
+  },
+  moderate: {
+    label: 'Moderate Risk',
+    bg:    '#fff3cd',
+    color: '#7a5a00',
+    border:'#f5d87a',
+  },
+  medium: {
+    label: 'Moderate Risk',
+    bg:    '#fff3cd',
+    color: '#7a5a00',
+    border:'#f5d87a',
+  },
+  high: {
+    label: 'High Risk',
+    bg:    '#f8d7da',
+    color: '#721c24',
+    border:'#f0b0b7',
+  },
+};
+
+// Fallback to moderate if an unexpected value arrives
+const badge = config[severity] ?? config.moderate;
+---
+
+<span
+  style={`
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1;
+    white-space: nowrap;
+    background-color: ${badge.bg};
+    color: ${badge.color};
+    border: 1px solid ${badge.border};
+  `}
+  role="status"
+  aria-label={`Severity: ${badge.label}`}
+>
+  <!-- Dot indicator -->
+  <span
+    aria-hidden="true"
+    style={`
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: ${badge.color};
+      opacity: 0.8;
+    `}
+  ></span>
+  {badge.label}
+</span>

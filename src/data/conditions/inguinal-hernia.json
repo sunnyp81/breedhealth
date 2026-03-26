@@ -1,0 +1,53 @@
+{
+  "name": "Inguinal Hernia",
+  "slug": "inguinal-hernia",
+  "category": "Gastrointestinal",
+  "description": "An inguinal hernia involves protrusion of abdominal contents through the inguinal ring in the groin. In intact females, the uterus can herniate and become strangulated, making this a surgical emergency. Males and neutered females are less frequently affected.",
+  "symptoms": [
+    "Soft swelling in the groin region",
+    "Usually reducible",
+    "Signs of intestinal obstruction if strangulated",
+    "Vaginal swelling in females with uterine herniation"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Surgical repair with herniorrhaphy is required for all persistent inguinal hernias. Concurrent ovariohysterectomy is performed in intact females.",
+  "prevention_tips": [
+    "Do not breed from dogs with hereditary inguinal hernia",
+    "Castration of males may reduce risk"
+  ],
+  "affected_breeds": [
+    "basset-hound",
+    "cavalier-king-charles-spaniel",
+    "dachshund",
+    "pekingese"
+  ],
+  "typical_onset": "Any age",
+  "hereditary": true,
+  "estimated_treatment_cost": "£800-£2,500",
+  "breeds_detail": [
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Cavalier King Charles Spaniel",
+      "slug": "cavalier-king-charles-spaniel",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Pekingese",
+      "slug": "pekingese",
+      "size": "small",
+      "group": "Toy"
+    }
+  ]
+}

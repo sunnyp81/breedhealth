@@ -1,0 +1,161 @@
+{
+  "name": "Pomeranian",
+  "slug": "pomeranian",
+  "group": "Toy",
+  "size": "small",
+  "weight_min_kg": 1.4,
+  "weight_max_kg": 3.2,
+  "height_min_cm": 18,
+  "height_max_cm": 30,
+  "lifespan_min": 12,
+  "lifespan_max": 16,
+  "temperament": [
+    "bold",
+    "inquisitive",
+    "playful",
+    "vivacious",
+    "sociable"
+  ],
+  "health_issues": [
+    "patellar-luxation",
+    "tracheal-collapse",
+    "alopecia-x",
+    "cataracts",
+    "dental-disease"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 4,
+  "shedding_level": 3,
+  "trainability": 3,
+  "good_with_children": false,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 43,
+  "origin": "Germany",
+  "coat_type": "thick double",
+  "coat_colors": [
+    "orange",
+    "red",
+    "cream",
+    "sable",
+    "black",
+    "blue",
+    "white",
+    "parti"
+  ],
+  "description": "The Pomeranian descends from large Spitz-type sled dogs from the Pomerania region of northern Poland and Germany, dramatically miniaturized over the 18th and 19th centuries with Queen Victoria's famous preference for smaller specimens helping drive the trend. Despite weighing barely over 3 kg, Poms possess a bold big-dog attitude and will confidently challenge dogs many times their size if not properly socialized from puppyhood. Their luxuriant double coat requires brushing two to three times per week and blows out heavily twice a year during shedding season, producing a surprising volume of fine hair.",
+  "conditions_detail": [
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+      "symptoms": [
+        "Intermittent skipping on hind leg",
+        "Sudden leg lifting",
+        "Bunny-hopping",
+        "Hind limb lameness",
+        "Visible kneecap displacement"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+      "prevention_tips": [
+        "Breed from dogs with normal patellar scores",
+        "Maintain healthy weight",
+        "Avoid high-impact activities in affected puppies"
+      ],
+      "affected_breeds": [
+        "chihuahua",
+        "yorkshire-terrier",
+        "pomeranian",
+        "toy-poodle",
+        "bichon-frise",
+        "boston-terrier"
+      ],
+      "typical_onset": "4 months - 6 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    },
+    {
+      "name": "Tracheal Collapse",
+      "slug": "tracheal-collapse",
+      "category": "Respiratory",
+      "description": "Tracheal collapse is a progressive weakening of the tracheal cartilage rings causing the trachea to flatten during breathing. It produces a characteristic honking cough and respiratory distress, particularly during excitement, eating, or heat.",
+      "symptoms": [
+        "Honking or goose-like cough",
+        "Exercise intolerance",
+        "Respiratory distress",
+        "Cyanosis in severe cases",
+        "Gagging"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Medical management includes cough suppressants, bronchodilators, and weight loss. Severe cases benefit from surgical placement of intraluminal stents or extraluminal ring prostheses.",
+      "prevention_tips": [
+        "Use a harness instead of collar",
+        "Maintain healthy weight",
+        "Avoid respiratory irritants like smoke"
+      ],
+      "affected_breeds": [
+        "yorkshire-terrier",
+        "pomeranian",
+        "chihuahua",
+        "toy-poodle",
+        "maltese",
+        "pug"
+      ],
+      "typical_onset": "4-14 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£500-£4,500"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Yorkshire Terrier",
+      "slug": "yorkshire-terrier",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Cavalier King Charles Spaniel",
+      "slug": "cavalier-king-charles-spaniel",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Shih Tzu",
+      "slug": "shih-tzu",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Havanese",
+      "slug": "havanese",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Pug",
+      "slug": "pug",
+      "size": "small",
+      "group": "Toy"
+    }
+  ],
+  "comparisons": [
+    "pomeranian-vs-chihuahua",
+    "papillon-vs-pomeranian",
+    "pomeranian-vs-shih-tzu",
+    "pomeranian-vs-maltese",
+    "pomeranian-vs-yorkshire-terrier",
+    "pug-vs-pomeranian"
+  ]
+}

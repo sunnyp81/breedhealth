@@ -1,0 +1,48 @@
+{
+  "name": "Prescription / Veterinary Diet",
+  "slug": "prescription",
+  "description": "Prescription diets are clinically formulated to manage specific medical conditions including kidney disease, bladder stones, liver disease, gastrointestinal disorders, diabetes, and food allergies. Available only through a veterinarian.",
+  "suitable_for": [
+    "dogs with chronic kidney disease",
+    "dogs with urinary tract issues or bladder stones",
+    "dogs with pancreatitis or liver disease",
+    "dogs with IBD or severe food allergies"
+  ],
+  "benefits": [
+    "Clinically proven to support management of specific conditions",
+    "Precisely formulated nutrient profiles for therapeutic use",
+    "Backed by veterinary research and trials",
+    "Can significantly improve quality and length of life"
+  ],
+  "risks": [
+    "Requires ongoing veterinary supervision",
+    "More expensive than standard commercial diets",
+    "Dogs may refuse the food due to taste restrictions",
+    "Not suitable for healthy dogs without a diagnosis"
+  ],
+  "recommended_brands": [
+    "Hill's Prescription Diet",
+    "Royal Canin Veterinary Diet",
+    "Purina Pro Plan Veterinary Diets",
+    "Rayne Clinical Nutrition"
+  ],
+  "feeding_guidelines": {
+    "small": {
+      "cups_per_day": "As directed by veterinarian",
+      "frequency": "As directed by veterinarian"
+    },
+    "medium": {
+      "cups_per_day": "As directed by veterinarian",
+      "frequency": "As directed by veterinarian"
+    },
+    "large": {
+      "cups_per_day": "As directed by veterinarian",
+      "frequency": "As directed by veterinarian"
+    },
+    "giant": {
+      "cups_per_day": "As directed by veterinarian",
+      "frequency": "As directed by veterinarian"
+    }
+  },
+  "suitable_breeds": []
+}

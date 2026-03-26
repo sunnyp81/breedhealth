@@ -1,0 +1,86 @@
+{
+  "name": "Cherry Eye (Prolapsed Nictitating Membrane Gland)",
+  "slug": "cherry-eye",
+  "category": "Eye",
+  "description": "Cherry eye is the prolapse of the tear-producing gland of the third eyelid, appearing as a red or pink mass in the inner corner of the eye. It is more common in brachycephalic and young breeds, and can affect one or both eyes.",
+  "symptoms": [
+    "Red or pink mass in inner eye corner",
+    "Eye discharge",
+    "Excessive tearing",
+    "Eye rubbing",
+    "Conjunctivitis"
+  ],
+  "severity": "low",
+  "treatment_overview": "Surgical replacement (tucking or pocket technique) of the gland back into its normal position is preferred over removal to preserve tear production. Surgery success rate is high.",
+  "prevention_tips": [
+    "No proven prevention",
+    "Early surgical correction prevents secondary dry eye"
+  ],
+  "affected_breeds": [
+    "english-bulldog",
+    "cocker-spaniel",
+    "beagle",
+    "basset-hound",
+    "shih-tzu",
+    "lhasa-apso"
+  ],
+  "typical_onset": "Under 2 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£600-£1,500",
+  "breeds_detail": [
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Shih Tzu",
+      "slug": "shih-tzu",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "French Bulldog",
+      "slug": "french-bulldog",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bulldog",
+      "slug": "bulldog",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Boston Terrier",
+      "slug": "boston-terrier",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Neapolitan Mastiff",
+      "slug": "neapolitan-mastiff",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Tibetan Spaniel",
+      "slug": "tibetan-spaniel",
+      "size": "small",
+      "group": "Non-Sporting"
+    }
+  ]
+}

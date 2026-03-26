@@ -1,0 +1,56 @@
+{
+  "name": "Acral Lick Dermatitis",
+  "slug": "acral-lick-dermatitis",
+  "category": "Dermatological",
+  "description": "Acral lick dermatitis (also called lick granuloma) is a chronic skin lesion caused by repetitive licking at a single site, usually the distal limb. It forms a firm, thickened, hairless, often ulcerated plaque. Underlying causes include anxiety, orthopaedic pain, or allergies.",
+  "symptoms": [
+    "Firm thickened plaque on wrist or ankle",
+    "Hairless ulcerated lesion",
+    "Persistent licking at a single site",
+    "Secondary bacterial infection",
+    "Difficult to heal"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Address underlying cause (pain, anxiety, allergy). Topical antiseptics, antibiotics for secondary infection, anti-anxiety drugs, and physical deterrents (bandaging, E-collar). Laser therapy and intralesional steroids can help chronic lesions.",
+  "prevention_tips": [
+    "Address anxiety and boredom with enrichment",
+    "Investigate and treat orthopaedic pain",
+    "Interrupt compulsive licking behaviours early"
+  ],
+  "affected_breeds": [
+    "labrador-retriever",
+    "dobermann",
+    "great-dane",
+    "german-shepherd",
+    "irish-setter"
+  ],
+  "typical_onset": "4-8 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£300-£1,500",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Irish Setter",
+      "slug": "irish-setter",
+      "size": "large",
+      "group": "Sporting"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "name": "Kishu Ken",
+  "slug": "kishu-ken",
+  "group": "Working",
+  "size": "medium",
+  "weight_min_kg": 13,
+  "weight_max_kg": 27,
+  "height_min_cm": 43,
+  "height_max_cm": 55,
+  "lifespan_min": 11,
+  "lifespan_max": 13,
+  "temperament": [
+    "docile",
+    "noble",
+    "alert",
+    "devoted"
+  ],
+  "health_issues": [
+    "hypothyroidism",
+    "hip-dysplasia",
+    "entropion"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 2,
+  "shedding_level": 3,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": false,
+  "apartment_friendly": false,
+  "popularity_rank": 201,
+  "origin": "Japan",
+  "coat_type": "double",
+  "coat_colors": [
+    "white",
+    "red",
+    "sesame"
+  ],
+  "description": "The Kishu Ken is a medium-sized Japanese hunting breed from the Kishu region of the Kii Peninsula, where it was used for hundreds of years to hunt wild boar and deer using stalking techniques unusual among most hunting dogs. Unlike most Japanese breeds that flush game by barking, the Kishu hunts in near-silence, stalking its prey and holding it at bay by blocking its escape routes. Today, the Kishu is predominantly solid white — the most preferred color in Japan — and has been designated a natural monument of Japan since 1934, though it remains extremely rare outside Japan.",
+  "conditions_detail": [
+    {
+      "name": "Hypothyroidism",
+      "slug": "hypothyroidism",
+      "category": "Endocrine",
+      "description": "Hypothyroidism is the most common endocrine disorder in dogs, caused by reduced thyroid hormone production — most often from immune-mediated thyroiditis or idiopathic follicular atrophy. It affects metabolism, skin, and coat quality.",
+      "symptoms": [
+        "Weight gain without diet change",
+        "Lethargy",
+        "Cold intolerance",
+        "Bilateral symmetrical hair loss",
+        "Thickened skin",
+        "Ear infections"
+      ],
+      "severity": "low",
+      "treatment_overview": "Daily oral thyroxine (levothyroxine) supplementation is highly effective and required for life. Dosing is adjusted based on thyroid level monitoring every 6-12 months.",
+      "prevention_tips": [
+        "No proven prevention",
+        "Regular blood screening in at-risk breeds from age 4"
+      ],
+      "affected_breeds": [
+        "golden-retriever",
+        "dobermann",
+        "irish-setter",
+        "miniature-schnauzer",
+        "cocker-spaniel",
+        "airedale-terrier"
+      ],
+      "typical_onset": "4-10 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£300-£800/year"
+    },
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Entropion",
+      "slug": "entropion",
+      "category": "Eye",
+      "description": "Entropion is an inward rolling of the eyelid margin, causing the eyelashes and skin to rub against the corneal surface. This produces chronic irritation, pain, corneal ulceration, and scarring that can impair vision.",
+      "symptoms": [
+        "Squinting or pawing at eye",
+        "Excessive tearing",
+        "Eye discharge",
+        "Corneal cloudiness",
+        "Redness around eye"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Temporary eyelid tacking can relieve discomfort in puppies pending maturity. Definitive surgical correction (Hotz-Celsus procedure) is highly effective in adults.",
+      "prevention_tips": [
+        "Avoid breeding dogs with severe conformational entropion",
+        "Do not breed surgically corrected dogs"
+      ],
+      "affected_breeds": [
+        "chow-chow",
+        "shar-pei",
+        "rottweiler",
+        "labrador-retriever",
+        "golden-retriever",
+        "bullmastiff"
+      ],
+      "typical_onset": "Puppyhood - 2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£800-£2,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Siberian Husky",
+      "slug": "siberian-husky",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Doberman Pinscher",
+      "slug": "doberman-pinscher",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Alaskan Malamute",
+      "slug": "alaskan-malamute",
+      "size": "large",
+      "group": "Working"
+    }
+  ],
+  "comparisons": []
+}

@@ -1,0 +1,230 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BreedSearch from '../components/BreedSearch.tsx';
+import EmailCapture from '../components/EmailCapture.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { getIndex, getTopBreeds } from '../lib/data';
+import { generateWebSiteSchema } from '../lib/schema';
+
+const index = await getIndex();
+const topBreeds = await getTopBreeds(12);
+const allBreeds = index.breeds;
+const conditionCount = index.conditions.length;
+const breedCount = index.breeds.length;
+const guideCount = index.guides.length;
+
+const SITE_URL = 'https://breedhealth.co.uk';
+const websiteSchema = generateWebSiteSchema(SITE_URL);
+
+const title = 'BreedHealth — Dog Breed Health, Diet & Care Guides';
+const description = `Research ${breedCount}+ dog breeds with expert health guides, condition profiles, diet advice, and breed comparisons. Find the right breed and keep your dog healthy for life.`;
+
+// Size badge colour map
+const sizeColours: Record<string, string> = {
+  small: 'bg-amber-100 text-amber-800',
+  medium: 'bg-blue-100 text-blue-800',
+  large: 'bg-green-100 text-green-800',
+  giant: 'bg-purple-100 text-purple-800',
+};
+---
+
+<BaseLayout title={title} description={description} canonicalUrl={`${SITE_URL}/`}>
+
+  <!-- WebSite + SearchAction schema -->
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+
+  <!-- ─── Ad: header leaderboard ─── -->
+  <div class="mb-6">
+    <AdSlot position="header" />
+  </div>
+
+  <!-- ─── Hero ─── -->
+  <section class="text-center py-12 sm:py-16 px-4">
+    <div class="inline-flex items-center gap-2 bg-primary/10 text-primary text-xs font-semibold px-3 py-1.5 rounded-full mb-6 uppercase tracking-wide">
+      <svg width="14" height="14" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+        <ellipse cx="9" cy="7" rx="4" ry="5"/>
+        <ellipse cx="23" cy="7" rx="4" ry="5"/>
+        <ellipse cx="4" cy="16" rx="3" ry="4"/>
+        <ellipse cx="28" cy="16" rx="3" ry="4"/>
+        <path d="M16 12c-5 0-9 3.5-9 8 0 3.5 4 7 9 7s9-3.5 9-7c0-4.5-4-8-9-8z"/>
+      </svg>
+      Dog Health Resource
+    </div>
+
+    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-primary leading-tight mb-5 tracking-tight">
+      BreedHealth
+    </h1>
+    <p class="text-lg sm:text-xl text-text-muted max-w-2xl mx-auto mb-8 leading-relaxed">
+      Comprehensive dog breed health, diet &amp; care guides — covering {breedCount}+ breeds,
+      {conditionCount} conditions, and expert nutrition advice.
+    </p>
+
+    <div class="flex flex-col sm:flex-row gap-3 justify-center mb-4">
+      <a
+        href="/breeds/"
+        class="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-primary hover:bg-primary-dark text-white font-semibold rounded-xl transition-colors text-sm no-underline shadow-sm"
+      >
+        Browse All Breeds
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+      <a
+        href="/conditions/"
+        class="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-white border-2 border-border hover:border-primary text-text hover:text-primary font-semibold rounded-xl transition-colors text-sm no-underline"
+      >
+        Health Conditions
+      </a>
+    </div>
+
+    <p class="text-xs text-text-light">
+      {breedCount} breeds &middot; {conditionCount} conditions &middot; {guideCount} guides
+    </p>
+  </section>
+
+  <!-- ─── Breed Search island ─── -->
+  <section class="mb-14" aria-labelledby="search-heading">
+    <h2 id="search-heading" class="text-xl sm:text-2xl font-bold text-primary mb-2">
+      Search & Filter Breeds
+    </h2>
+    <p class="text-text-muted text-sm mb-5">
+      Find the perfect breed by name, group, or size.
+    </p>
+    <BreedSearch breeds={allBreeds} client:load />
+  </section>
+
+  <!-- ─── Popular Breeds ─── -->
+  <section class="mb-14" aria-labelledby="popular-heading">
+    <div class="flex items-center justify-between mb-6">
+      <h2 id="popular-heading" class="text-xl sm:text-2xl font-bold text-primary">
+        Popular Breeds
+      </h2>
+      <a
+        href="/breeds/"
+        class="text-sm font-medium text-primary hover:text-primary-dark no-underline hover:underline transition-colors"
+      >
+        View all {breedCount} breeds &rarr;
+      </a>
+    </div>
+
+    <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3" role="list">
+      {topBreeds.map((breed) => (
+        <li>
+          <a
+            href={`/breeds/${breed.slug}/`}
+            class="block p-3 bg-white border border-border rounded-xl hover:border-primary hover:shadow-md transition-all no-underline group"
+            aria-label={`${breed.name} — ${breed.group}, ${breed.size}`}
+          >
+            <p class="font-semibold text-text text-sm leading-snug mb-2 group-hover:text-primary transition-colors">
+              {breed.name}
+            </p>
+            <div class="flex flex-col gap-1">
+              <span class="text-xs bg-primary/10 text-primary font-medium px-2 py-0.5 rounded-full w-fit">
+                {breed.group}
+              </span>
+              <span class={`text-xs font-medium px-2 py-0.5 rounded-full w-fit capitalize ${sizeColours[breed.size] ?? 'bg-gray-100 text-gray-700'}`}>
+                {breed.size}
+              </span>
+            </div>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <!-- ─── Health Conditions banner ─── -->
+  <section
+    class="mb-14 bg-gradient-to-r from-primary/5 to-accent/10 border border-border rounded-2xl p-6 sm:p-8"
+    aria-labelledby="conditions-heading"
+  >
+    <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+      <div>
+        <h2 id="conditions-heading" class="text-xl sm:text-2xl font-bold text-primary mb-2">
+          Dog Health Conditions
+        </h2>
+        <p class="text-text-muted text-sm leading-relaxed max-w-lg">
+          Research {conditionCount} conditions — from hip dysplasia and heart disease to skin
+          disorders and eye conditions. Understand symptoms, causes, and treatment options.
+        </p>
+      </div>
+      <a
+        href="/conditions/"
+        class="flex-shrink-0 inline-flex items-center gap-2 px-5 py-3 bg-primary hover:bg-primary-dark text-white font-semibold rounded-xl transition-colors text-sm no-underline shadow-sm"
+      >
+        Browse {conditionCount} Conditions
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ─── Feature tiles: Diet | Compare | Guides ─── -->
+  <section class="mb-14" aria-labelledby="explore-heading">
+    <h2 id="explore-heading" class="text-xl sm:text-2xl font-bold text-primary mb-6">
+      Explore More
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+
+      <!-- Diet -->
+      <a
+        href="/diet/"
+        class="group block bg-white border border-border rounded-2xl p-6 hover:border-primary hover:shadow-md transition-all no-underline"
+      >
+        <div class="w-10 h-10 bg-amber-100 rounded-xl flex items-center justify-center mb-4" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#92400e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2a10 10 0 100 20A10 10 0 0012 2z"/>
+            <path d="M12 6v6l4 2"/>
+          </svg>
+        </div>
+        <h3 class="font-bold text-text text-base mb-2 group-hover:text-primary transition-colors">
+          Diet &amp; Nutrition
+        </h3>
+        <p class="text-text-muted text-sm leading-relaxed">
+          {index.diets.length} diet types explained — raw, grain-free, puppy, senior and more. Plus our toxic foods guide.
+        </p>
+      </a>
+
+      <!-- Compare -->
+      <a
+        href="/compare/"
+        class="group block bg-white border border-border rounded-2xl p-6 hover:border-primary hover:shadow-md transition-all no-underline"
+      >
+        <div class="w-10 h-10 bg-green-100 rounded-xl flex items-center justify-center mb-4" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#166534" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/>
+          </svg>
+        </div>
+        <h3 class="font-bold text-text text-base mb-2 group-hover:text-primary transition-colors">
+          Compare Breeds
+        </h3>
+        <p class="text-text-muted text-sm leading-relaxed">
+          Side-by-side comparisons for {index.comparisons.length} breed pairs. Health, temperament, size, and care requirements.
+        </p>
+      </a>
+
+      <!-- Guides -->
+      <a
+        href="/guides/"
+        class="group block bg-white border border-border rounded-2xl p-6 hover:border-primary hover:shadow-md transition-all no-underline"
+      >
+        <div class="w-10 h-10 bg-blue-100 rounded-xl flex items-center justify-center mb-4" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1e40af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 19.5A2.5 2.5 0 016.5 17H20"/>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/>
+          </svg>
+        </div>
+        <h3 class="font-bold text-text text-base mb-2 group-hover:text-primary transition-colors">
+          Care Guides
+        </h3>
+        <p class="text-text-muted text-sm leading-relaxed">
+          {guideCount} expert guides on dog food, puppy care, senior health, vaccinations and more.
+        </p>
+      </a>
+    </div>
+  </section>
+
+  <!-- ─── Email capture ─── -->
+  <EmailCapture ctaText="Get expert breed health tips in your inbox" />
+
+</BaseLayout>

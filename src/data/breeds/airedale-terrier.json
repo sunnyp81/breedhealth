@@ -1,0 +1,189 @@
+{
+  "name": "Airedale Terrier",
+  "slug": "airedale-terrier",
+  "group": "Terrier",
+  "size": "large",
+  "weight_min_kg": 20,
+  "weight_max_kg": 29,
+  "height_min_cm": 56,
+  "height_max_cm": 61,
+  "lifespan_min": 11,
+  "lifespan_max": 14,
+  "temperament": [
+    "friendly",
+    "clever",
+    "courageous",
+    "alert",
+    "confident"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "hypothyroidism",
+    "progressive-retinal-atrophy",
+    "cardiac-disease",
+    "skin-conditions"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 4,
+  "shedding_level": 2,
+  "trainability": 4,
+  "good_with_children": true,
+  "good_with_dogs": false,
+  "apartment_friendly": false,
+  "popularity_rank": 89,
+  "origin": "England",
+  "coat_type": "wiry double",
+  "coat_colors": [
+    "tan and black",
+    "tan and grizzle"
+  ],
+  "description": "The Airedale Terrier is the largest of all terrier breeds, earning the title King of Terriers, developed in the Aire Valley of Yorkshire in the mid-19th century by crossing the Old English Broken-Haired Terrier with the Otterhound to create a dog capable of hunting both on land and in water. Airedales served with remarkable distinction in World War I as Red Cross messenger dogs, carrying messages across no-man's land and locating wounded soldiers, with many awarded medals for valor. They are intelligent, courageous, and playful dogs with the characteristic terrier independence and a fondness for digging that owners must manage with good humor.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Hypothyroidism",
+      "slug": "hypothyroidism",
+      "category": "Endocrine",
+      "description": "Hypothyroidism is the most common endocrine disorder in dogs, caused by reduced thyroid hormone production — most often from immune-mediated thyroiditis or idiopathic follicular atrophy. It affects metabolism, skin, and coat quality.",
+      "symptoms": [
+        "Weight gain without diet change",
+        "Lethargy",
+        "Cold intolerance",
+        "Bilateral symmetrical hair loss",
+        "Thickened skin",
+        "Ear infections"
+      ],
+      "severity": "low",
+      "treatment_overview": "Daily oral thyroxine (levothyroxine) supplementation is highly effective and required for life. Dosing is adjusted based on thyroid level monitoring every 6-12 months.",
+      "prevention_tips": [
+        "No proven prevention",
+        "Regular blood screening in at-risk breeds from age 4"
+      ],
+      "affected_breeds": [
+        "golden-retriever",
+        "dobermann",
+        "irish-setter",
+        "miniature-schnauzer",
+        "cocker-spaniel",
+        "airedale-terrier"
+      ],
+      "typical_onset": "4-10 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£300-£800/year"
+    },
+    {
+      "name": "Progressive Retinal Atrophy (PRA)",
+      "slug": "progressive-retinal-atrophy",
+      "category": "Eye",
+      "description": "PRA is a group of hereditary diseases causing progressive degeneration of the photoreceptor cells in the retina. It leads to night blindness first, followed by complete blindness. There is no treatment, but DNA tests exist for many forms.",
+      "symptoms": [
+        "Night blindness (early sign)",
+        "Reluctance to enter dark rooms",
+        "Dilated pupils",
+        "Reduced daytime vision",
+        "Reflective eye shine (tapetal hyperreflectivity)"
+      ],
+      "severity": "high",
+      "treatment_overview": "There is no effective treatment or cure for PRA. Management focuses on adapting the dog's environment to maintain quality of life as vision deteriorates.",
+      "prevention_tips": [
+        "DNA test breeding stock before mating",
+        "Only breed clear or carrier-to-clear pairings",
+        "Annual ophthalmology screening (BVA/KC scheme)"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "cocker-spaniel",
+        "miniature-poodle",
+        "irish-setter",
+        "border-collie",
+        "tibetan-terrier"
+      ],
+      "typical_onset": "3-8 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£0 (management only)"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Soft Coated Wheaten Terrier",
+      "slug": "soft-coated-wheaten-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    },
+    {
+      "name": "American Staffordshire Terrier",
+      "slug": "american-staffordshire-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    },
+    {
+      "name": "Bull Terrier",
+      "slug": "bull-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    },
+    {
+      "name": "Kerry Blue Terrier",
+      "slug": "kerry-blue-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    },
+    {
+      "name": "Bedlington Terrier",
+      "slug": "bedlington-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    }
+  ],
+  "comparisons": [
+    "airedale-terrier-vs-welsh-terrier"
+  ]
+}

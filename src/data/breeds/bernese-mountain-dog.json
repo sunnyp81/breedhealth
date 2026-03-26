@@ -1,0 +1,164 @@
+{
+  "name": "Bernese Mountain Dog",
+  "slug": "bernese-mountain-dog",
+  "group": "Working",
+  "size": "giant",
+  "weight_min_kg": 32,
+  "weight_max_kg": 52,
+  "height_min_cm": 58,
+  "height_max_cm": 70,
+  "lifespan_min": 7,
+  "lifespan_max": 10,
+  "temperament": [
+    "good-natured",
+    "calm",
+    "strong",
+    "intelligent",
+    "loyal"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "elbow-dysplasia",
+    "cancer",
+    "bloat",
+    "von-willebrands-disease"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 4,
+  "shedding_level": 4,
+  "trainability": 4,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 29,
+  "origin": "Switzerland",
+  "coat_type": "long thick double",
+  "coat_colors": [
+    "tricolor black white and rust"
+  ],
+  "description": "One of four Swiss Sennenhund breeds developed in the Bernese Oberland for herding cattle, pulling carts, and guarding Alpine farms, the Bernese Mountain Dog is the most widely owned of the four outside Switzerland. Their striking tricolor coat, gentle giant temperament, and patience with children make them beloved family dogs, but cancer claims more than half of all Berners before age 10, making the breed's tragically short lifespan its most heartbreaking characteristic. Sourcing from a breeder who health-tests for cancer, hip, and elbow conditions in both parents is an absolute minimum requirement.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Elbow Dysplasia",
+      "slug": "elbow-dysplasia",
+      "category": "Orthopedic",
+      "description": "Elbow dysplasia is an umbrella term covering several developmental abnormalities of the elbow joint including fragmented coronoid process, osteochondritis dissecans, and ununited anconeal process. It causes foreleg lameness and arthritis.",
+      "symptoms": [
+        "Front leg lameness",
+        "Elbow swelling",
+        "Pain on elbow manipulation",
+        "Reluctance to exercise",
+        "Stiff gait after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Surgical intervention is often recommended to remove bone fragments or reshape joint surfaces. Medical management includes NSAIDs, joint supplements, and physiotherapy.",
+      "prevention_tips": [
+        "BVA/KC elbow score breeding stock",
+        "Control growth rate in large breeds",
+        "Avoid over-supplementation with calcium",
+        "Maintain healthy weight from puppyhood"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "golden-retriever",
+        "german-shepherd",
+        "rottweiler",
+        "bernese-mountain-dog"
+      ],
+      "typical_onset": "4-18 months",
+      "hereditary": true,
+      "estimated_treatment_cost": "£2,000-£5,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Senior Formula",
+      "slug": "senior"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Doberman Pinscher",
+      "slug": "doberman-pinscher",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Cane Corso",
+      "slug": "cane-corso",
+      "size": "giant",
+      "group": "Working"
+    }
+  ],
+  "comparisons": [
+    "bernese-mountain-dog-vs-great-pyrenees",
+    "leonberger-vs-bernese-mountain-dog",
+    "bouvier-des-flandres-vs-bernese-mountain-dog",
+    "old-english-sheepdog-vs-bernese-mountain-dog",
+    "bernese-mountain-dog-vs-golden-retriever",
+    "bernese-mountain-dog-vs-labrador-retriever",
+    "newfoundland-vs-bernese-mountain-dog",
+    "great-dane-vs-bernese-mountain-dog"
+  ]
+}

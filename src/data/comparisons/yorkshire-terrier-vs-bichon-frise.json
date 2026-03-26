@@ -1,0 +1,171 @@
+{
+  "slug": "yorkshire-terrier-vs-bichon-frise",
+  "breed_a": {
+    "name": "Yorkshire Terrier",
+    "slug": "yorkshire-terrier",
+    "group": "Toy",
+    "size": "small",
+    "weight_min_kg": 1.8,
+    "weight_max_kg": 3.2,
+    "height_min_cm": 17,
+    "height_max_cm": 23,
+    "lifespan_min": 13,
+    "lifespan_max": 16,
+    "temperament": [
+      "bold",
+      "intelligent",
+      "independent",
+      "confident",
+      "spirited"
+    ],
+    "health_issues": [
+      "patellar-luxation",
+      "portosystemic-shunt",
+      "progressive-retinal-atrophy",
+      "hypoglycemia",
+      "tracheal-collapse"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 5,
+    "shedding_level": 1,
+    "trainability": 3,
+    "good_with_children": false,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 13,
+    "origin": "England",
+    "coat_type": "long silky",
+    "coat_colors": [
+      "tan and blue",
+      "black and gold",
+      "blue and gold"
+    ],
+    "description": "The Yorkshire Terrier was developed in 19th-century Yorkshire by mill workers who needed a small, fearless terrier to catch rats in textile factories, with ancestors including the now-extinct Waterside Terrier and the Paisley Terrier. Despite weighing typically under 3 kg, the Yorkie carries a confident, feisty terrier personality that makes it unaware of its diminutive size, and it will readily challenge dogs many times its weight. Their long, silky coat resembles human hair in texture and requires daily brushing and frequent professional grooming to prevent tangling and skin issues."
+  },
+  "breed_b": {
+    "name": "Bichon Frise",
+    "slug": "bichon-frise",
+    "group": "Non-Sporting",
+    "size": "small",
+    "weight_min_kg": 5,
+    "weight_max_kg": 10,
+    "height_min_cm": 23,
+    "height_max_cm": 30,
+    "lifespan_min": 14,
+    "lifespan_max": 15,
+    "temperament": [
+      "playful",
+      "gentle",
+      "feisty",
+      "affectionate",
+      "sensitive"
+    ],
+    "health_issues": [
+      "patellar-luxation",
+      "allergies",
+      "bladder-stones",
+      "cataracts",
+      "hip-dysplasia"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 5,
+    "shedding_level": 1,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 33,
+    "origin": "Belgium",
+    "coat_type": "curly double",
+    "coat_colors": [
+      "white"
+    ],
+    "description": "The Bichon Frise is a cheerful, gentle powder-puff companion with a dense curly white coat that produces very little shedding, making it popular in households where allergies are a concern. Descended from water spaniels, Bichons were favorites of French and Spanish nobility during the Renaissance and later became street performers after falling out of royal favor in the 19th century. Their sociable, gentle nature makes them excellent therapy dogs, but their coat requires professional grooming every four to six weeks to maintain its characteristic shape and prevent matting."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 13,
+      "breed_b_value": 14,
+      "winner": "bichon-frise"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 16,
+      "breed_b_value": 15,
+      "winner": "yorkshire-terrier"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 1.8,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 3.2,
+      "breed_b_value": 10,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 17,
+      "breed_b_value": 23,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 23,
+      "breed_b_value": 30,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 1,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "bichon-frise"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": false,
+      "breed_b_value": true,
+      "winner": "bichon-frise"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

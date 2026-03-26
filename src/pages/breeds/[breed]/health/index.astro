@@ -1,0 +1,237 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
+import ConditionSeverityBadge from '../../../../components/ConditionSeverityBadge.astro';
+import InsuranceCTA from '../../../../components/InsuranceCTA.astro';
+import AdSlot from '../../../../components/AdSlot.astro';
+
+import { getAllBreeds, getBreed } from '../../../../lib/data';
+import { generateHealthOverview } from '../../../../lib/copy';
+import { generateBreadcrumbSchema } from '../../../../lib/schema';
+
+import type { GetStaticPaths } from 'astro';
+import type { Breed } from '../../../../lib/types';
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const breeds = await getAllBreeds();
+  return breeds.map((summary) => ({
+    params: { breed: summary.slug },
+    props: { slug: summary.slug },
+  }));
+};
+
+interface Props {
+  slug: string;
+}
+
+const { slug } = Astro.props;
+
+const breed = await getBreed(slug) as Breed;
+
+const siteUrl = 'https://breedhealth.co.uk';
+const pageUrl = `${siteUrl}/breeds/${breed.slug}/health/`;
+
+const healthOverview = generateHealthOverview(breed);
+
+const breadcrumbSchema = generateBreadcrumbSchema([
+  { name: 'Home',   url: `${siteUrl}/` },
+  { name: 'Breeds', url: `${siteUrl}/breeds/` },
+  { name: breed.name, url: `${siteUrl}/breeds/${breed.slug}/` },
+  { name: 'Health', url: pageUrl },
+]);
+
+const breadcrumbItems = [
+  { name: 'Home',   url: '/' },
+  { name: 'Breeds', url: '/breeds/' },
+  { name: breed.name, url: `/breeds/${breed.slug}/` },
+  { name: 'Health', url: `/breeds/${breed.slug}/health/` },
+];
+
+// Severity sort order for display: high → moderate → low
+const severityOrder: Record<string, number> = { high: 0, moderate: 1, low: 2 };
+
+const sortedConditions = breed.conditions_detail
+  ? [...breed.conditions_detail].sort(
+      (a, b) =>
+        (severityOrder[a.severity] ?? 3) - (severityOrder[b.severity] ?? 3)
+    )
+  : [];
+---
+
+<BaseLayout
+  title={`${breed.name} Health Guide — Common Conditions & Risks | BreedHealth`}
+  description={`Complete health guide for ${breed.name}s: documented conditions, symptoms, onset age, and what to watch for. Vet-checked information for owners.`}
+  canonicalUrl={pageUrl}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  </Fragment>
+
+  <!-- Breadcrumbs -->
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Page heading -->
+  <h1 class="text-3xl sm:text-4xl font-bold text-primary mt-4 mb-4 leading-tight">
+    {breed.name} Health Guide
+  </h1>
+
+  <!-- Back to breed hub -->
+  <a
+    href={`/breeds/${breed.slug}/`}
+    class="inline-flex items-center gap-1.5 text-sm text-text-muted hover:text-primary no-underline hover:underline mb-6"
+  >
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M19 12H5M12 19l-7-7 7-7"/>
+    </svg>
+    Back to {breed.name} Overview
+  </a>
+
+  <!-- Health overview intro -->
+  <p class="text-text-muted leading-relaxed text-lg mb-8 max-w-3xl">
+    {healthOverview}
+  </p>
+
+  <!-- Quick stats strip -->
+  <div class="flex flex-wrap gap-4 mb-8 p-4 bg-bg-alt border border-border rounded-xl">
+    <div class="flex flex-col">
+      <span class="text-xs font-semibold uppercase tracking-wide text-text-light">Lifespan</span>
+      <span class="text-sm font-bold text-text">{breed.lifespan_min}–{breed.lifespan_max} years</span>
+    </div>
+    <div class="w-px bg-border hidden sm:block"></div>
+    <div class="flex flex-col">
+      <span class="text-xs font-semibold uppercase tracking-wide text-text-light">Documented Conditions</span>
+      <span class="text-sm font-bold text-text">{breed.health_issues.length}</span>
+    </div>
+    <div class="w-px bg-border hidden sm:block"></div>
+    <div class="flex flex-col">
+      <span class="text-xs font-semibold uppercase tracking-wide text-text-light">Size Category</span>
+      <span class="text-sm font-bold text-text capitalize">{breed.size}</span>
+    </div>
+    <div class="w-px bg-border hidden sm:block"></div>
+    <div class="flex flex-col">
+      <span class="text-xs font-semibold uppercase tracking-wide text-text-light">Group</span>
+      <span class="text-sm font-bold text-text">{breed.group}</span>
+    </div>
+  </div>
+
+  <!-- In-content ad -->
+  <div class="my-6">
+    <AdSlot position="in-content" />
+  </div>
+
+  <!-- Conditions list -->
+  <section aria-labelledby="conditions-heading" class="mb-10">
+    <h2 id="conditions-heading" class="text-2xl font-bold text-primary mb-5">
+      Conditions Affecting {breed.name}s
+    </h2>
+
+    {sortedConditions.length > 0 ? (
+      <ul class="space-y-4" role="list">
+        {sortedConditions.map((condition) => (
+          <li class="bg-white border border-border rounded-xl overflow-hidden">
+            <div class="p-5">
+              <!-- Condition name + badge -->
+              <div class="flex flex-wrap items-center gap-3 mb-2">
+                <a
+                  href={`/breeds/${breed.slug}/health/${condition.slug}/`}
+                  class="text-lg font-bold text-primary hover:underline no-underline leading-tight"
+                >
+                  {condition.name}
+                </a>
+                <ConditionSeverityBadge severity={condition.severity} />
+                {condition.hereditary && (
+                  <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold bg-purple-50 text-purple-700 border border-purple-200">
+                    Hereditary
+                  </span>
+                )}
+              </div>
+
+              <!-- Category + onset -->
+              <div class="flex flex-wrap gap-x-4 gap-y-1 mb-3 text-xs text-text-light">
+                {condition.category && (
+                  <span>Category: <strong class="text-text-muted">{condition.category}</strong></span>
+                )}
+                {condition.typical_onset && (
+                  <span>Typical onset: <strong class="text-text-muted">{condition.typical_onset}</strong></span>
+                )}
+                {condition.estimated_treatment_cost && (
+                  <span>Est. treatment cost: <strong class="text-text-muted">{condition.estimated_treatment_cost}</strong></span>
+                )}
+              </div>
+
+              <!-- Description -->
+              <p class="text-sm text-text-muted leading-relaxed mb-3">
+                {condition.description}
+              </p>
+
+              <!-- Symptoms preview -->
+              {condition.symptoms && condition.symptoms.length > 0 && (
+                <div class="mb-3">
+                  <span class="text-xs font-semibold uppercase tracking-wide text-text-light mr-2">Key symptoms:</span>
+                  <span class="text-xs text-text-muted">
+                    {condition.symptoms.slice(0, 4).join(' · ')}
+                    {condition.symptoms.length > 4 && ` · +${condition.symptoms.length - 4} more`}
+                  </span>
+                </div>
+              )}
+
+              <!-- Deep-dive link -->
+              <a
+                href={`/breeds/${breed.slug}/health/${condition.slug}/`}
+                class="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:underline no-underline"
+              >
+                Full details, symptoms &amp; treatment
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </a>
+            </div>
+          </li>
+        ))}
+      </ul>
+    ) : breed.health_issues.length > 0 ? (
+      <ul class="space-y-3" role="list">
+        {breed.health_issues.map((conditionSlug) => (
+          <li class="flex items-center gap-3 p-4 bg-white border border-border rounded-xl">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary flex-shrink-0" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="8" x2="12" y2="12"/>
+              <line x1="12" y1="16" x2="12.01" y2="16"/>
+            </svg>
+            <a
+              href={`/breeds/${breed.slug}/health/${conditionSlug}/`}
+              class="font-medium text-primary hover:underline no-underline capitalize"
+            >
+              {conditionSlug.replace(/-/g, ' ')}
+            </a>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="text-text-muted p-5 bg-bg-alt border border-border rounded-xl">
+        No significant hereditary or breed-specific conditions are currently documented for the {breed.name}.
+      </p>
+    )}
+  </section>
+
+  <!-- Insurance CTA -->
+  <div class="mb-10">
+    <InsuranceCTA breedName={breed.name} />
+  </div>
+
+  <!-- Conditions hub link -->
+  <div class="p-5 bg-bg-alt border border-border rounded-xl mb-8">
+    <p class="text-sm text-text-muted mb-2">
+      Looking for a specific condition across all breeds?
+    </p>
+    <a
+      href="/conditions/"
+      class="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:underline no-underline"
+    >
+      Browse All Health Conditions
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </div>
+</BaseLayout>

@@ -1,0 +1,74 @@
+{
+  "name": "Addison's Disease (Hypoadrenocorticism)",
+  "slug": "addisons-disease",
+  "category": "Endocrine",
+  "description": "Addison's disease is caused by destruction of the adrenal cortex, leading to deficiency of glucocorticoids and mineralocorticoids. It can present as acute life-threatening 'Addisonian crisis' or with vague chronic signs that mimic many other conditions.",
+  "symptoms": [
+    "Lethargy and weakness",
+    "Vomiting and diarrhoea",
+    "Shaking",
+    "Collapse (Addisonian crisis)",
+    "Weight loss",
+    "Increased thirst"
+  ],
+  "severity": "high",
+  "treatment_overview": "Acute crisis requires emergency IV fluids, dextrose, and corticosteroids. Maintenance involves lifelong monthly DOCP injections (mineralocorticoid) and daily prednisolone (glucocorticoid).",
+  "prevention_tips": [
+    "No proven prevention",
+    "Genetic research ongoing for some breeds"
+  ],
+  "affected_breeds": [
+    "standard-poodle",
+    "bearded-collie",
+    "portuguese-water-dog",
+    "great-dane",
+    "west-highland-white-terrier"
+  ],
+  "typical_onset": "4-7 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£800-£2,500/year",
+  "breeds_detail": [
+    {
+      "name": "Bearded Collie",
+      "slug": "bearded-collie",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Portuguese Water Dog",
+      "slug": "portuguese-water-dog",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "West Highland White Terrier",
+      "slug": "west-highland-white-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Great Pyrenees",
+      "slug": "great-pyrenees",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Nova Scotia Duck Tolling Retriever",
+      "slug": "nova-scotia-duck-tolling-retriever",
+      "size": "medium",
+      "group": "Sporting"
+    }
+  ]
+}

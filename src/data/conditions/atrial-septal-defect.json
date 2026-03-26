@@ -1,0 +1,29 @@
+{
+  "name": "Canine Atrial Septal Defect",
+  "slug": "atrial-septal-defect",
+  "category": "Cardiac",
+  "description": "An atrial septal defect (ASD) is a congenital hole in the wall separating the heart's upper chambers. Blood shunts between atria, overloading the right side of the heart. Small defects may be clinically silent; large ones cause heart failure.",
+  "symptoms": [
+    "Heart murmur",
+    "Exercise intolerance",
+    "Right-sided heart enlargement",
+    "Arrhythmias",
+    "Signs of heart failure in severe cases"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Small ASDs may require no treatment. Larger defects in dogs with clinical signs can be closed via minimally invasive catheter-based occlusion or open-heart surgery. Medical management of heart failure is used otherwise.",
+  "prevention_tips": [
+    "Cardiac screening of breeding stock",
+    "Avoid breeding affected dogs"
+  ],
+  "affected_breeds": [
+    "boxers",
+    "samoyeds",
+    "dobermann",
+    "english-bulldog"
+  ],
+  "typical_onset": "Birth",
+  "hereditary": true,
+  "estimated_treatment_cost": "£3,000-£8,000",
+  "breeds_detail": []
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Systemic Lupus Erythematosus (SLE)",
+  "slug": "systemic-lupus-erythematosus",
+  "category": "Autoimmune",
+  "description": "SLE is a complex immune-mediated disease characterised by autoantibody production against multiple tissues, causing a wide variety of signs including polyarthritis, skin lesions, haematological abnormalities, and kidney disease.",
+  "symptoms": [
+    "Shifting lameness (polyarthritis)",
+    "Skin ulceration and hair loss",
+    "Fever",
+    "Anaemia",
+    "Proteinuria",
+    "Lymphadenopathy"
+  ],
+  "severity": "high",
+  "treatment_overview": "Immunosuppressive therapy with prednisolone, often combined with azathioprine or other immunosuppressants, is the foundation of treatment. Management is lifelong and complex with a guarded prognosis.",
+  "prevention_tips": [
+    "No proven prevention",
+    "Avoid unnecessary drug exposure"
+  ],
+  "affected_breeds": [
+    "german-shepherd",
+    "shetland-sheepdog",
+    "beagle",
+    "poodle",
+    "irish-setter"
+  ],
+  "typical_onset": "2-8 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£2,000-£6,000/year",
+  "breeds_detail": [
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Shetland Sheepdog",
+      "slug": "shetland-sheepdog",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Irish Setter",
+      "slug": "irish-setter",
+      "size": "large",
+      "group": "Sporting"
+    }
+  ]
+}

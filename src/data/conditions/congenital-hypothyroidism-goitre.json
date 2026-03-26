@@ -1,0 +1,35 @@
+{
+  "name": "Congenital Hypothyroidism with Goitre",
+  "slug": "congenital-hypothyroidism-goitre",
+  "category": "Endocrine",
+  "description": "Congenital hypothyroidism with goitre is a hereditary disorder in which the thyroid gland fails to produce adequate thyroid hormone from birth due to a defect in thyroglobulin synthesis. Affected puppies are disproportionate dwarfs with severe growth retardation.",
+  "symptoms": [
+    "Disproportionate dwarfism",
+    "Large head relative to body",
+    "Short limbs",
+    "Goitre (enlarged thyroid)",
+    "Mental dullness",
+    "Lethargy"
+  ],
+  "severity": "high",
+  "treatment_overview": "Lifelong thyroxine supplementation from the earliest age possible partially corrects the metabolic deficiency. Skeletal abnormalities cannot be reversed.",
+  "prevention_tips": [
+    "DNA test available for Toy Fox Terriers and other affected breeds",
+    "Do not breed affected or carrier animals together"
+  ],
+  "affected_breeds": [
+    "toy-fox-terrier",
+    "spanish-water-dog"
+  ],
+  "typical_onset": "Birth",
+  "hereditary": true,
+  "estimated_treatment_cost": "£300-£800/year",
+  "breeds_detail": [
+    {
+      "name": "Spanish Water Dog",
+      "slug": "spanish-water-dog",
+      "size": "medium",
+      "group": "Herding"
+    }
+  ]
+}

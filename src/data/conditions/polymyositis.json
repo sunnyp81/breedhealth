@@ -1,0 +1,61 @@
+{
+  "name": "Polymyositis",
+  "slug": "polymyositis",
+  "category": "Autoimmune",
+  "description": "Polymyositis is an immune-mediated inflammatory disease affecting skeletal muscles throughout the body, causing generalised weakness, muscle atrophy, and pain. It can be idiopathic or occur secondary to neoplasia or other immune-mediated diseases.",
+  "symptoms": [
+    "Generalised muscle weakness",
+    "Exercise intolerance",
+    "Stiff gait",
+    "Muscle wasting",
+    "Megaoesophagus (if oesophageal muscles involved)",
+    "Dysphagia"
+  ],
+  "severity": "high",
+  "treatment_overview": "Immunosuppressive therapy with prednisolone is the mainstay. Azathioprine is added for steroid-sparing effect. Underlying neoplasia must be ruled out and treated. Prognosis is variable.",
+  "prevention_tips": [
+    "No proven prevention",
+    "Exclude underlying neoplasia with thorough work-up"
+  ],
+  "affected_breeds": [
+    "labrador-retriever",
+    "german-shepherd",
+    "golden-retriever",
+    "boxer"
+  ],
+  "typical_onset": "5-10 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£800-£2,500/year",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Nederlandse Kooikerhondje",
+      "slug": "nederlandse-kooikerhondje",
+      "size": "small",
+      "group": "Sporting"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "slug": "pharaoh-hound-vs-ibizan-hound",
+  "breed_a": {
+    "name": "Pharaoh Hound",
+    "slug": "pharaoh-hound",
+    "group": "Hound",
+    "size": "medium",
+    "weight_min_kg": 20,
+    "weight_max_kg": 25,
+    "height_min_cm": 53,
+    "height_max_cm": 63,
+    "lifespan_min": 11,
+    "lifespan_max": 14,
+    "temperament": [
+      "friendly",
+      "intelligent",
+      "active",
+      "trainable",
+      "alert"
+    ],
+    "health_issues": [
+      "sensitivity-to-anesthesia",
+      "patellar-luxation",
+      "progressive-retinal-atrophy",
+      "skin-sensitivity",
+      "hip-dysplasia"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 1,
+    "shedding_level": 2,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 96,
+    "origin": "Malta",
+    "coat_type": "short smooth single",
+    "coat_colors": [
+      "tan",
+      "rich tan",
+      "chestnut",
+      "red golden"
+    ],
+    "description": "The Pharaoh Hound is Malta's national dog and one of the oldest domesticated breeds, once believed to be descended from ancient Egyptian hunting dogs depicted in tomb paintings — though modern DNA analysis suggests the similarities are due to convergent evolution rather than direct descent. A unique and charming trait of the breed is that they blush: when excited or happy, the nose and inner ears flush a deep rose-pink, a visible emotional display found in no other dog breed. They are elegant, athletic sight hounds that hunt by sight, sound, and scent, used on Malta to hunt rabbit in the rocky terrain of Gozo."
+  },
+  "breed_b": {
+    "name": "Ibizan Hound",
+    "slug": "ibizan-hound",
+    "group": "Hound",
+    "size": "medium",
+    "weight_min_kg": 20,
+    "weight_max_kg": 29,
+    "height_min_cm": 56,
+    "height_max_cm": 74,
+    "lifespan_min": 11,
+    "lifespan_max": 14,
+    "temperament": [
+      "independent",
+      "loyal",
+      "playful",
+      "active"
+    ],
+    "health_issues": [
+      "seizures",
+      "skin-conditions",
+      "anesthesia-sensitivity",
+      "eye-conditions"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 1,
+    "shedding_level": 2,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 117,
+    "origin": "Spain (Ibiza)",
+    "coat_type": "smooth or wire",
+    "coat_colors": [
+      "red",
+      "white",
+      "red and white",
+      "lion"
+    ],
+    "description": "The Ibizan Hound is an elegant, deer-like sighthound from the Spanish island of Ibiza, used for thousands of years to hunt rabbit by sight, scent, and hearing — a rare combination in a sighthound. Their large, erect ears and agile, springy movement make them distinctive and athletic dogs capable of jumping considerable heights from a standstill. Ibizans are sensitive, affectionate with their families, and gentle with children, but their strong prey drive and jumping ability require secure, tall fencing."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 11,
+      "breed_b_value": 11,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 14,
+      "breed_b_value": 14,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 20,
+      "breed_b_value": 20,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 25,
+      "breed_b_value": 29,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 53,
+      "breed_b_value": 56,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 63,
+      "breed_b_value": 74,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 1,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 2,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 4,
+      "winner": "ibizan-hound"
+    }
+  ]
+}

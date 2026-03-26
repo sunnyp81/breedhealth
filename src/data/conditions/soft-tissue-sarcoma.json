@@ -1,0 +1,48 @@
+{
+  "name": "Soft Tissue Sarcoma",
+  "slug": "soft-tissue-sarcoma",
+  "category": "Cancer",
+  "description": "Soft tissue sarcomas are a heterogeneous group of malignant tumours arising from connective tissues. They typically form firm subcutaneous masses that invade locally but metastasise relatively late. Grade determines biological behaviour.",
+  "symptoms": [
+    "Firm subcutaneous mass",
+    "Rapid growth",
+    "Ulceration of overlying skin",
+    "Local tissue invasion",
+    "Occasional lameness if in limb"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Wide surgical excision with histologically confirmed margins is the gold standard. Radiation therapy reduces local recurrence rates for incompletely excised high-grade tumours. Chemotherapy is considered for high-grade metastatic cases.",
+  "prevention_tips": [
+    "No proven prevention",
+    "Early surgical biopsy and excision of growing subcutaneous masses"
+  ],
+  "affected_breeds": [
+    "labrador-retriever",
+    "golden-retriever",
+    "dobermann",
+    "german-shepherd"
+  ],
+  "typical_onset": "8-12 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£2,500-£8,000",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    }
+  ]
+}

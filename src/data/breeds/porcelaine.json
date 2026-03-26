@@ -1,0 +1,117 @@
+{
+  "name": "Porcelaine",
+  "slug": "porcelaine",
+  "group": "Hound",
+  "size": "medium",
+  "weight_min_kg": 25,
+  "weight_max_kg": 28,
+  "height_min_cm": 53,
+  "height_max_cm": 58,
+  "lifespan_min": 12,
+  "lifespan_max": 13,
+  "temperament": [
+    "passionate",
+    "active",
+    "friendly",
+    "noble"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "ear-infections",
+    "bloat"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 1,
+  "shedding_level": 2,
+  "trainability": 2,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 179,
+  "origin": "France",
+  "coat_type": "short",
+  "coat_colors": [
+    "white-with-orange-spots"
+  ],
+  "description": "The Porcelaine, or Chien de Franche-Comté, is the oldest French scenthound breed, with a history dating to 1845 and origins in the Franche-Comté region near the Swiss border. Named for its gleaming white coat that resembles fine porcelain, often decorated with distinctive orange spots, this elegant hunting hound was nearly wiped out during the French Revolution before being carefully rebuilt. The Porcelaine is an intense, passionate hunter with a clear, ringing voice and is used primarily to hunt hare in France and Switzerland, where it remains popular as both a hunting and show dog.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Rhodesian Ridgeback",
+      "slug": "rhodesian-ridgeback",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Bloodhound",
+      "slug": "bloodhound",
+      "size": "large",
+      "group": "Hound"
+    }
+  ],
+  "comparisons": []
+}

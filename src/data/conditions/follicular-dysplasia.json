@@ -1,0 +1,55 @@
+{
+  "name": "Canine Follicular Dysplasia",
+  "slug": "follicular-dysplasia",
+  "category": "Dermatological",
+  "description": "Follicular dysplasia is a hereditary disorder of abnormal hair follicle development causing non-inflammatory hair loss. It typically affects the flanks, neck, or tail base and is not associated with systemic illness.",
+  "symptoms": [
+    "Patchy hair loss",
+    "Dull or brittle coat",
+    "Hyperpigmentation of affected skin",
+    "Scaling",
+    "Affects specific body regions"
+  ],
+  "severity": "low",
+  "treatment_overview": "There is no cure. Melatonin supplementation may promote hair regrowth in some cases. Regular bathing and moisturising maintains skin health. Secondary infections are treated with antibiotics.",
+  "prevention_tips": [
+    "Do not breed affected dogs",
+    "Genetic counselling recommended"
+  ],
+  "affected_breeds": [
+    "portuguese-water-dog",
+    "siberian-husky",
+    "alaskan-malamute",
+    "chow-chow",
+    "irish-water-spaniel"
+  ],
+  "typical_onset": "6 months - 3 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£200-£600/year",
+  "breeds_detail": [
+    {
+      "name": "Portuguese Water Dog",
+      "slug": "portuguese-water-dog",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Siberian Husky",
+      "slug": "siberian-husky",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Alaskan Malamute",
+      "slug": "alaskan-malamute",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Chow Chow",
+      "slug": "chow-chow",
+      "size": "medium",
+      "group": "Non-Sporting"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Shoulder Osteochondrosis",
+  "slug": "shoulder-osteochondrosis",
+  "category": "Orthopedic",
+  "description": "Shoulder osteochondrosis (OC) involves abnormal cartilage maturation at the humeral head, forming a cartilage flap that causes pain and joint inflammation. It is the most common site for OCD in dogs and affects young large-breed dogs.",
+  "symptoms": [
+    "Foreleg lameness (often unilateral)",
+    "Pain on shoulder extension and flexion",
+    "Muscle wasting over shoulder",
+    "Decreased willingness to exercise"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Arthroscopic removal of the cartilage flap is the preferred treatment with excellent outcomes. Medical management with rest and NSAIDs may help mild cases but is rarely definitive.",
+  "prevention_tips": [
+    "Avoid excessive calcium supplementation in puppies",
+    "Feed large-breed specific growth diets",
+    "Controlled exercise in young large-breed dogs"
+  ],
+  "affected_breeds": [
+    "labrador-retriever",
+    "golden-retriever",
+    "great-dane",
+    "rottweiler",
+    "bernese-mountain-dog"
+  ],
+  "typical_onset": "4-8 months",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,500-£3,500",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Bernese Mountain Dog",
+      "slug": "bernese-mountain-dog",
+      "size": "giant",
+      "group": "Working"
+    }
+  ]
+}

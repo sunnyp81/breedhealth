@@ -1,0 +1,91 @@
+{
+  "name": "Ibizan Hound",
+  "slug": "ibizan-hound",
+  "group": "Hound",
+  "size": "medium",
+  "weight_min_kg": 20,
+  "weight_max_kg": 29,
+  "height_min_cm": 56,
+  "height_max_cm": 74,
+  "lifespan_min": 11,
+  "lifespan_max": 14,
+  "temperament": [
+    "independent",
+    "loyal",
+    "playful",
+    "active"
+  ],
+  "health_issues": [
+    "seizures",
+    "skin-conditions",
+    "anesthesia-sensitivity",
+    "eye-conditions"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 1,
+  "shedding_level": 2,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 117,
+  "origin": "Spain (Ibiza)",
+  "coat_type": "smooth or wire",
+  "coat_colors": [
+    "red",
+    "white",
+    "red and white",
+    "lion"
+  ],
+  "description": "The Ibizan Hound is an elegant, deer-like sighthound from the Spanish island of Ibiza, used for thousands of years to hunt rabbit by sight, scent, and hearing — a rare combination in a sighthound. Their large, erect ears and agile, springy movement make them distinctive and athletic dogs capable of jumping considerable heights from a standstill. Ibizans are sensitive, affectionate with their families, and gentle with children, but their strong prey drive and jumping ability require secure, tall fencing.",
+  "conditions_detail": [],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Rhodesian Ridgeback",
+      "slug": "rhodesian-ridgeback",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Bloodhound",
+      "slug": "bloodhound",
+      "size": "large",
+      "group": "Hound"
+    }
+  ],
+  "comparisons": [
+    "pharaoh-hound-vs-ibizan-hound"
+  ]
+}

@@ -1,0 +1,192 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { getIndex } from '../../lib/data';
+
+const index = await getIndex();
+const comparisons = index.comparisons;
+const comparisonCount = comparisons.length;
+
+const SITE_URL = 'https://breedhealth.co.uk';
+
+const breadcrumbItems = [
+  { name: 'Home', url: `${SITE_URL}/` },
+  { name: 'Compare Breeds', url: `${SITE_URL}/compare/` },
+];
+
+const title = `Dog Breed Comparisons — ${comparisonCount} Side-by-Side Breed Guides | BreedHealth`;
+const description = `Compare ${comparisonCount} dog breed pairs side-by-side. Health conditions, size, temperament, exercise needs, grooming and lifespan — all in one place.`;
+
+// Helper: turn a slug like "labrador-retriever-vs-golden-retriever" into "Labrador Retriever vs Golden Retriever"
+function slugToLabel(slug: string): string {
+  return slug
+    .replace(/-vs-/, ' vs ')
+    .split('-')
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(' ');
+}
+
+// Build display pairs with formatted names from slug
+// Also try to extract clean breed names from breed_a / breed_b slugs
+function breedSlugToName(breedSlug: string): string {
+  return breedSlug
+    .split('-')
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(' ');
+}
+
+// Group comparisons alphabetically by first letter of the label for easier browsing
+const grouped = comparisons.reduce<Record<string, typeof comparisons>>((acc, comp) => {
+  const label = slugToLabel(comp.slug);
+  const letter = label.charAt(0).toUpperCase();
+  if (!acc[letter]) acc[letter] = [];
+  acc[letter].push(comp);
+  return acc;
+}, {});
+
+const letters = Object.keys(grouped).sort();
+
+// Featured comparisons: first 6 by index order (most popular pairings)
+const featured = comparisons.slice(0, 6);
+---
+
+<BaseLayout title={title} description={description} canonicalUrl={`${SITE_URL}/compare/`}>
+
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Page header -->
+  <div class="mb-8">
+    <h1 class="text-3xl sm:text-4xl font-extrabold text-primary mb-3 tracking-tight">
+      Dog Breed Comparisons
+    </h1>
+    <p class="text-text-muted text-base max-w-2xl leading-relaxed">
+      Can't decide between two breeds? Compare {comparisonCount} breed pairs side-by-side —
+      covering health conditions, temperament, size, exercise needs, grooming and lifespan.
+    </p>
+    <p class="mt-2 text-sm text-text-light font-medium">
+      {comparisonCount} comparisons available
+    </p>
+  </div>
+
+  <!-- Featured comparisons -->
+  <section class="mb-10" aria-labelledby="featured-heading">
+    <h2 id="featured-heading" class="text-lg font-bold text-primary mb-4">
+      Popular Comparisons
+    </h2>
+    <ul
+      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
+      role="list"
+      aria-label="Popular breed comparisons"
+    >
+      {featured.map((comp) => {
+        const nameA = breedSlugToName(comp.breed_a);
+        const nameB = breedSlugToName(comp.breed_b);
+        return (
+          <li>
+            <a
+              href={`/compare/${comp.slug}/`}
+              class="group flex items-center gap-3 p-4 bg-white border-2 border-primary/20 rounded-2xl hover:border-primary hover:shadow-md transition-all no-underline"
+            >
+              <!-- VS layout -->
+              <div class="flex-1 min-w-0">
+                <p class="font-bold text-text text-sm group-hover:text-primary transition-colors truncate">
+                  {nameA}
+                </p>
+                <p class="text-xs text-text-muted font-semibold my-0.5">vs</p>
+                <p class="font-bold text-text text-sm group-hover:text-primary transition-colors truncate">
+                  {nameB}
+                </p>
+              </div>
+              <svg
+                width="16" height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="flex-shrink-0 text-text-light group-hover:text-primary transition-colors"
+                aria-hidden="true"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  </section>
+
+  <!-- Ad slot -->
+  <div class="mb-10">
+    <AdSlot position="in-content" />
+  </div>
+
+  <!-- A-Z index jump links -->
+  <nav class="mb-6" aria-label="Jump to letter">
+    <p class="text-xs text-text-muted font-semibold uppercase tracking-wide mb-3">Browse by first letter</p>
+    <div class="flex flex-wrap gap-1.5">
+      {letters.map((letter) => (
+        <a
+          href={`#letter-${letter}`}
+          class="w-8 h-8 flex items-center justify-center bg-white border border-border rounded-lg text-sm font-bold text-text-muted hover:border-primary hover:text-primary transition-colors no-underline"
+        >
+          {letter}
+        </a>
+      ))}
+    </div>
+  </nav>
+
+  <!-- Full comparisons A-Z grouped -->
+  <section aria-labelledby="all-comparisons-heading" class="mb-12">
+    <h2 id="all-comparisons-heading" class="text-lg font-bold text-primary mb-6">
+      All {comparisonCount} Comparisons
+    </h2>
+
+    {letters.map((letter) => (
+      <div id={`letter-${letter}`} class="mb-8 scroll-mt-20">
+        <h3 class="text-base font-bold text-text-muted border-b border-border pb-2 mb-4">
+          {letter}
+        </h3>
+        <ul
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3"
+          role="list"
+        >
+          {grouped[letter].map((comp) => {
+            const nameA = breedSlugToName(comp.breed_a);
+            const nameB = breedSlugToName(comp.breed_b);
+            return (
+              <li>
+                <a
+                  href={`/compare/${comp.slug}/`}
+                  class="group flex items-center justify-between gap-3 p-3.5 bg-white border border-border rounded-xl hover:border-primary hover:shadow-sm transition-all no-underline"
+                >
+                  <span class="text-sm font-medium text-text group-hover:text-primary transition-colors leading-snug">
+                    <span class="font-semibold">{nameA}</span>
+                    <span class="text-text-muted mx-1.5 font-normal">vs</span>
+                    <span class="font-semibold">{nameB}</span>
+                  </span>
+                  <svg
+                    width="14" height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="flex-shrink-0 text-text-light group-hover:text-primary transition-colors"
+                    aria-hidden="true"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                  </svg>
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    ))}
+  </section>
+
+</BaseLayout>

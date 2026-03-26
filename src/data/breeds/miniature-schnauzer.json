@@ -1,0 +1,156 @@
+{
+  "name": "Miniature Schnauzer",
+  "slug": "miniature-schnauzer",
+  "group": "Terrier",
+  "size": "small",
+  "weight_min_kg": 5.4,
+  "weight_max_kg": 9,
+  "height_min_cm": 30,
+  "height_max_cm": 36,
+  "lifespan_min": 12,
+  "lifespan_max": 15,
+  "temperament": [
+    "friendly",
+    "obedient",
+    "intelligent",
+    "alert",
+    "spirited"
+  ],
+  "health_issues": [
+    "pancreatitis",
+    "hyperlipidemia",
+    "bladder-stones",
+    "progressive-retinal-atrophy",
+    "myotonia-congenita"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 4,
+  "shedding_level": 1,
+  "trainability": 4,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 18,
+  "origin": "Germany",
+  "coat_type": "wiry double",
+  "coat_colors": [
+    "salt and pepper",
+    "black and silver",
+    "black",
+    "white"
+  ],
+  "description": "The Miniature Schnauzer was developed in Germany in the mid-19th century by crossing Standard Schnauzers with smaller breeds including the Affenpinscher and Miniature Pinscher to produce a compact farm ratter. They are highly adaptable, alert, and trainable, making them one of the most popular terrier-type breeds globally and well-suited to urban life. Their distinctive bearded muzzle and bushy eyebrows require regular hand-stripping or clipping to maintain correct coat texture and the breed's characteristic silhouette.",
+  "conditions_detail": [
+    {
+      "name": "Pancreatitis",
+      "slug": "pancreatitis",
+      "category": "Gastrointestinal",
+      "description": "Pancreatitis is inflammation of the pancreas caused by premature activation of digestive enzymes, leading to auto-digestion. It ranges from mild acute episodes to severe haemorrhagic pancreatitis with multi-organ failure. High-fat diets and obesity are key risk factors.",
+      "symptoms": [
+        "Vomiting",
+        "Abdominal pain",
+        "Diarrhoea",
+        "Lethargy",
+        "Fever",
+        "Hunched posture"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Supportive care with IV fluids, anti-nausea drugs, analgesia, and early enteral nutrition is the cornerstone of treatment. Severe cases require intensive care hospitalisation. Chronic pancreatitis is managed with low-fat diet.",
+      "prevention_tips": [
+        "Feed a consistently low-fat diet",
+        "Maintain healthy weight",
+        "Avoid table scraps and fatty treats",
+        "Keep rubbish secured"
+      ],
+      "affected_breeds": [
+        "miniature-schnauzer",
+        "cavalier-king-charles-spaniel",
+        "cocker-spaniel",
+        "boxers",
+        "yorkshire-terrier"
+      ],
+      "typical_onset": "5-12 years",
+      "hereditary": false,
+      "estimated_treatment_cost": "£1,000-£5,000"
+    },
+    {
+      "name": "Progressive Retinal Atrophy (PRA)",
+      "slug": "progressive-retinal-atrophy",
+      "category": "Eye",
+      "description": "PRA is a group of hereditary diseases causing progressive degeneration of the photoreceptor cells in the retina. It leads to night blindness first, followed by complete blindness. There is no treatment, but DNA tests exist for many forms.",
+      "symptoms": [
+        "Night blindness (early sign)",
+        "Reluctance to enter dark rooms",
+        "Dilated pupils",
+        "Reduced daytime vision",
+        "Reflective eye shine (tapetal hyperreflectivity)"
+      ],
+      "severity": "high",
+      "treatment_overview": "There is no effective treatment or cure for PRA. Management focuses on adapting the dog's environment to maintain quality of life as vision deteriorates.",
+      "prevention_tips": [
+        "DNA test breeding stock before mating",
+        "Only breed clear or carrier-to-clear pairings",
+        "Annual ophthalmology screening (BVA/KC scheme)"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "cocker-spaniel",
+        "miniature-poodle",
+        "irish-setter",
+        "border-collie",
+        "tibetan-terrier"
+      ],
+      "typical_onset": "3-8 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£0 (management only)"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "West Highland White Terrier",
+      "slug": "west-highland-white-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Soft Coated Wheaten Terrier",
+      "slug": "soft-coated-wheaten-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    },
+    {
+      "name": "Cairn Terrier",
+      "slug": "cairn-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Scottish Terrier",
+      "slug": "scottish-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "American Staffordshire Terrier",
+      "slug": "american-staffordshire-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    }
+  ],
+  "comparisons": [
+    "miniature-schnauzer-vs-standard-schnauzer",
+    "miniature-schnauzer-vs-shih-tzu",
+    "miniature-schnauzer-vs-yorkshire-terrier",
+    "miniature-schnauzer-vs-west-highland-white-terrier"
+  ]
+}

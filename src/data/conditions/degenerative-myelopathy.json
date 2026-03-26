@@ -1,0 +1,80 @@
+{
+  "name": "Degenerative Myelopathy (DM)",
+  "slug": "degenerative-myelopathy",
+  "category": "Neurological",
+  "description": "DM is a progressive, non-painful spinal cord disease caused by a mutation in the SOD1 gene. It begins with hind limb weakness and ataxia, progressing to complete paralysis and eventually fore limb involvement. It is analogous to ALS in humans.",
+  "symptoms": [
+    "Progressive hind limb weakness",
+    "Knuckling of hind paws",
+    "Dragging hind legs",
+    "Loss of bladder and bowel control",
+    "Loss of muscle mass"
+  ],
+  "severity": "high",
+  "treatment_overview": "There is no cure or disease-modifying treatment. Intensive physiotherapy and hydrotherapy can slow decline and maintain quality of life. Wheelchairs improve mobility in later stages.",
+  "prevention_tips": [
+    "DNA test available (OFA) — avoid breeding at-risk (AT/AT) pairings",
+    "Test all breeding stock"
+  ],
+  "affected_breeds": [
+    "german-shepherd",
+    "welsh-corgi",
+    "boxer",
+    "chesapeake-bay-retriever",
+    "bernese-mountain-dog",
+    "cavalier-king-charles-spaniel"
+  ],
+  "typical_onset": "8-14 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£500-£3,000/year",
+  "breeds_detail": [
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Chesapeake Bay Retriever",
+      "slug": "chesapeake-bay-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Bernese Mountain Dog",
+      "slug": "bernese-mountain-dog",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Cavalier King Charles Spaniel",
+      "slug": "cavalier-king-charles-spaniel",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Pembroke Welsh Corgi",
+      "slug": "pembroke-welsh-corgi",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Cardigan Welsh Corgi",
+      "slug": "cardigan-welsh-corgi",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Pumi",
+      "slug": "pumi",
+      "size": "medium",
+      "group": "Herding"
+    }
+  ]
+}

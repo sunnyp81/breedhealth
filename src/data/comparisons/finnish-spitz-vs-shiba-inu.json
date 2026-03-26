@@ -1,0 +1,174 @@
+{
+  "slug": "finnish-spitz-vs-shiba-inu",
+  "breed_a": {
+    "name": "Spitz (Finnish)",
+    "slug": "finnish-spitz",
+    "group": "Non-Sporting",
+    "size": "medium",
+    "weight_min_kg": 7,
+    "weight_max_kg": 13,
+    "height_min_cm": 39,
+    "height_max_cm": 51,
+    "lifespan_min": 13,
+    "lifespan_max": 15,
+    "temperament": [
+      "lively",
+      "alert",
+      "vocal",
+      "friendly",
+      "independent"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "patellar-luxation",
+      "epilepsy",
+      "elbow-dysplasia",
+      "progressive-retinal-atrophy"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 2,
+    "shedding_level": 4,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 53,
+    "origin": "Finland",
+    "coat_type": "short dense double",
+    "coat_colors": [
+      "golden red",
+      "honey",
+      "pale gold"
+    ],
+    "description": "The Finnish Spitz is Finland's national dog, developed over thousands of years by the Finno-Ugrian peoples of northern Europe as a bark-pointer hunting dog, trained to locate game birds in forest trees and alert the hunter with rapid, high-pitched barking. Their fox-like appearance, lively eyes, and curling tail over the back give them a distinctive and handsome silhouette, and their golden-red coat requires minimal maintenance for its upkeep. Finnish Spitz are notably independent and vocal, which can be challenging in urban environments where their natural barking drive must be carefully managed."
+  },
+  "breed_b": {
+    "name": "Shiba Inu",
+    "slug": "shiba-inu",
+    "group": "Non-Sporting",
+    "size": "small",
+    "weight_min_kg": 8,
+    "weight_max_kg": 11,
+    "height_min_cm": 33,
+    "height_max_cm": 43,
+    "lifespan_min": 13,
+    "lifespan_max": 16,
+    "temperament": [
+      "alert",
+      "active",
+      "attentive",
+      "bold",
+      "fiery"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "patellar-luxation",
+      "progressive-retinal-atrophy",
+      "allergies",
+      "hypothyroidism"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 2,
+    "shedding_level": 4,
+    "trainability": 2,
+    "good_with_children": false,
+    "good_with_dogs": false,
+    "apartment_friendly": true,
+    "popularity_rank": 39,
+    "origin": "Japan",
+    "coat_type": "short thick double",
+    "coat_colors": [
+      "red",
+      "sesame",
+      "black and tan",
+      "cream"
+    ],
+    "description": "The Shiba Inu is the smallest and most ancient of the six native Japanese breeds, originally used to flush birds and small game in Japan's mountainous terrain, and nearly became extinct after World War II before a concerted breeding program saved the population. Their bold fox-like appearance, cat-like cleanliness, and independent spirited personality have made them enormously popular globally, partly driven by the famous Doge internet meme. Shibas are notoriously strong-willed and challenging to train, with a powerful prey drive that makes reliable off-leash recall extremely difficult to achieve."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 13,
+      "breed_b_value": 13,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 15,
+      "breed_b_value": 16,
+      "winner": "shiba-inu"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 7,
+      "breed_b_value": 8,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 13,
+      "breed_b_value": 11,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 39,
+      "breed_b_value": 33,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 51,
+      "breed_b_value": 43,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 4,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 2,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 2,
+      "winner": "finnish-spitz"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": false,
+      "winner": "finnish-spitz"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": false,
+      "winner": "finnish-spitz"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": true,
+      "winner": "shiba-inu"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

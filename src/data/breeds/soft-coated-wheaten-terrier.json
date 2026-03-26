@@ -1,0 +1,150 @@
+{
+  "name": "Soft Coated Wheaten Terrier",
+  "slug": "soft-coated-wheaten-terrier",
+  "group": "Terrier",
+  "size": "medium",
+  "weight_min_kg": 13,
+  "weight_max_kg": 20,
+  "height_min_cm": 43,
+  "height_max_cm": 49,
+  "lifespan_min": 12,
+  "lifespan_max": 14,
+  "temperament": [
+    "playful",
+    "spirited",
+    "devoted",
+    "happy",
+    "animated"
+  ],
+  "health_issues": [
+    "protein-losing-nephropathy",
+    "protein-losing-enteropathy",
+    "renal-dysplasia",
+    "hip-dysplasia",
+    "allergies"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 4,
+  "shedding_level": 1,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 47,
+  "origin": "Ireland",
+  "coat_type": "wavy silky single",
+  "coat_colors": [
+    "wheaten"
+  ],
+  "description": "An Irish all-purpose farm dog developed over at least 200 years in County Kerry, the Soft Coated Wheaten Terrier was used by farmers who could not afford the purpose-bred hunting dogs of the English gentry, prized for herding, hunting vermin, and guarding homesteads with equal ability. Their silky low-shedding wheaten coat is distinctive among terriers and gives the breed a bear cub-like appearance, but requires daily brushing to prevent matting and regular professional grooming. Protein-losing nephropathy and enteropathy are serious breed-specific health concerns requiring health-tested breeding stock as a non-negotiable baseline.",
+  "conditions_detail": [
+    {
+      "name": "Renal Dysplasia",
+      "slug": "renal-dysplasia",
+      "category": "Urinary",
+      "description": "Renal dysplasia is a hereditary condition where the kidneys develop abnormally, with immature or disorganised tissue. Affected puppies develop progressive renal failure at a young age. The severity varies from subclinical to fatal early-onset kidney failure.",
+      "symptoms": [
+        "Failure to thrive",
+        "Increased thirst and urination",
+        "Vomiting",
+        "Poor coat",
+        "Stunted growth",
+        "Signs of uraemia in severe cases"
+      ],
+      "severity": "high",
+      "treatment_overview": "There is no cure. Medical management follows CKD protocols — dietary modification, phosphate binders, and supportive care. Many affected dogs are euthanised at a young age due to severe renal failure.",
+      "prevention_tips": [
+        "DNA test available for Shih Tzu and Lhasa Apso forms",
+        "Renal biopsy of breeding stock in predisposed breeds before mating"
+      ],
+      "affected_breeds": [
+        "shih-tzu",
+        "lhasa-apso",
+        "chow-chow",
+        "alaskan-malamute",
+        "standard-poodle"
+      ],
+      "typical_onset": "Under 2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,000-£3,000/year"
+    },
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "West Highland White Terrier",
+      "slug": "west-highland-white-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Cairn Terrier",
+      "slug": "cairn-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Scottish Terrier",
+      "slug": "scottish-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "American Staffordshire Terrier",
+      "slug": "american-staffordshire-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    }
+  ],
+  "comparisons": []
+}

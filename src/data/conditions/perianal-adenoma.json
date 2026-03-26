@@ -1,0 +1,25 @@
+{
+  "name": "Perianal Adenoma",
+  "slug": "perianal-adenoma",
+  "category": "Cancer",
+  "description": "Perianal adenomas are benign tumours of the hepatoid glands surrounding the anus. They are testosterone-dependent and almost exclusively affect intact male dogs. They are cured by castration in the majority of cases.",
+  "symptoms": [
+    "Lumps around the anus",
+    "Licking at perianal area",
+    "Occasional bleeding or ulceration",
+    "Scooting"
+  ],
+  "severity": "low",
+  "treatment_overview": "Castration causes regression of most adenomas within weeks. Any remaining or large tumours are surgically excised. Regular perianal monitoring in intact males.",
+  "prevention_tips": [
+    "Castration is preventive",
+    "Regular examination of perianal region in intact males"
+  ],
+  "affected_breeds": [
+    "all intact male breeds (cocker-spaniel, english-bulldog, samoyed at higher risk)"
+  ],
+  "typical_onset": "7-10 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£300-£1,000",
+  "breeds_detail": []
+}

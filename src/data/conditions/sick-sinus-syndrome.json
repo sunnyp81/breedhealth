@@ -1,0 +1,54 @@
+{
+  "name": "Sick Sinus Syndrome",
+  "slug": "sick-sinus-syndrome",
+  "category": "Cardiac",
+  "description": "Sick sinus syndrome is a dysfunction of the heart's natural pacemaker (sinoatrial node), causing an abnormally slow heart rate, pauses, or alternating bradycardia and tachycardia. It leads to syncope and exercise intolerance.",
+  "symptoms": [
+    "Fainting episodes",
+    "Weakness and lethargy",
+    "Exercise intolerance",
+    "Slow or irregular heartbeat",
+    "Collapse"
+  ],
+  "severity": "high",
+  "treatment_overview": "Medical management with antiarrhythmic drugs (atropine, theophylline) provides temporary relief. Permanent pacemaker implantation is the most effective treatment for persistent clinical signs.",
+  "prevention_tips": [
+    "Do not breed affected dogs",
+    "Annual cardiac Holter monitoring in at-risk breeds"
+  ],
+  "affected_breeds": [
+    "miniature-schnauzer",
+    "west-highland-white-terrier",
+    "cocker-spaniel",
+    "dachshund"
+  ],
+  "typical_onset": "6-12 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£3,000-£6,000",
+  "breeds_detail": [
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "West Highland White Terrier",
+      "slug": "west-highland-white-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    }
+  ]
+}

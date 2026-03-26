@@ -1,0 +1,192 @@
+{
+  "name": "Pekingese",
+  "slug": "pekingese",
+  "group": "Toy",
+  "size": "small",
+  "weight_min_kg": 3.2,
+  "weight_max_kg": 6,
+  "height_min_cm": 15,
+  "height_max_cm": 23,
+  "lifespan_min": 12,
+  "lifespan_max": 14,
+  "temperament": [
+    "opinionated",
+    "affectionate",
+    "loyal",
+    "good-natured",
+    "stubborn"
+  ],
+  "health_issues": [
+    "brachycephalic-syndrome",
+    "patellar-luxation",
+    "intervertebral-disc-disease",
+    "progressive-retinal-atrophy",
+    "skin-fold-infections"
+  ],
+  "exercise_level": 1,
+  "grooming_level": 5,
+  "shedding_level": 3,
+  "trainability": 2,
+  "good_with_children": false,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 100,
+  "origin": "China",
+  "coat_type": "long thick double",
+  "coat_colors": [
+    "gold",
+    "red",
+    "sable",
+    "black",
+    "white",
+    "cream",
+    "parti"
+  ],
+  "description": "The Pekingese is one of the oldest of all dog breeds, bred exclusively for over a thousand years in the imperial court of China as a sacred companion of the emperors, so revered that theft of one was punishable by death and they were carried in the sleeves of court ladies as living accessories. Their flowing lion mane of dense double coat, pushed-in flat face, and imperious, self-possessed personality remain unchanged from the dogs that once padded the forbidden corridors of the Forbidden City. Their severely flat faces place them among the most affected brachycephalic breeds, with significant breathing limitations that owners must take seriously when managing exercise and heat exposure.",
+  "conditions_detail": [
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+      "symptoms": [
+        "Intermittent skipping on hind leg",
+        "Sudden leg lifting",
+        "Bunny-hopping",
+        "Hind limb lameness",
+        "Visible kneecap displacement"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+      "prevention_tips": [
+        "Breed from dogs with normal patellar scores",
+        "Maintain healthy weight",
+        "Avoid high-impact activities in affected puppies"
+      ],
+      "affected_breeds": [
+        "chihuahua",
+        "yorkshire-terrier",
+        "pomeranian",
+        "toy-poodle",
+        "bichon-frise",
+        "boston-terrier"
+      ],
+      "typical_onset": "4 months - 6 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    },
+    {
+      "name": "Intervertebral Disc Disease (IVDD)",
+      "slug": "intervertebral-disc-disease",
+      "category": "Orthopedic",
+      "description": "IVDD occurs when the cushioning discs between vertebrae degenerate and herniate, pressing on the spinal cord. Chondrodystrophic breeds are predisposed due to premature disc mineralisation. Can cause pain, paralysis, or loss of bladder control.",
+      "symptoms": [
+        "Back or neck pain",
+        "Reluctance to move",
+        "Weakness or paralysis in limbs",
+        "Loss of bladder or bowel control",
+        "Yelping when touched"
+      ],
+      "severity": "high",
+      "treatment_overview": "Mild cases are managed with strict rest and anti-inflammatory medication. Severe cases with neurological deficits require emergency spinal surgery within 24-48 hours for best outcomes.",
+      "prevention_tips": [
+        "Use ramps instead of stairs for short-legged breeds",
+        "Maintain healthy weight",
+        "Avoid high-impact activities",
+        "Support the back when lifting"
+      ],
+      "affected_breeds": [
+        "dachshund",
+        "french-bulldog",
+        "beagle",
+        "basset-hound",
+        "cocker-spaniel",
+        "shih-tzu"
+      ],
+      "typical_onset": "3-7 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£3,000-£8,000"
+    },
+    {
+      "name": "Progressive Retinal Atrophy (PRA)",
+      "slug": "progressive-retinal-atrophy",
+      "category": "Eye",
+      "description": "PRA is a group of hereditary diseases causing progressive degeneration of the photoreceptor cells in the retina. It leads to night blindness first, followed by complete blindness. There is no treatment, but DNA tests exist for many forms.",
+      "symptoms": [
+        "Night blindness (early sign)",
+        "Reluctance to enter dark rooms",
+        "Dilated pupils",
+        "Reduced daytime vision",
+        "Reflective eye shine (tapetal hyperreflectivity)"
+      ],
+      "severity": "high",
+      "treatment_overview": "There is no effective treatment or cure for PRA. Management focuses on adapting the dog's environment to maintain quality of life as vision deteriorates.",
+      "prevention_tips": [
+        "DNA test breeding stock before mating",
+        "Only breed clear or carrier-to-clear pairings",
+        "Annual ophthalmology screening (BVA/KC scheme)"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "cocker-spaniel",
+        "miniature-poodle",
+        "irish-setter",
+        "border-collie",
+        "tibetan-terrier"
+      ],
+      "typical_onset": "3-8 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£0 (management only)"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Weight Management",
+      "slug": "weight-management"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Yorkshire Terrier",
+      "slug": "yorkshire-terrier",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Cavalier King Charles Spaniel",
+      "slug": "cavalier-king-charles-spaniel",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Shih Tzu",
+      "slug": "shih-tzu",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Havanese",
+      "slug": "havanese",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Pug",
+      "slug": "pug",
+      "size": "small",
+      "group": "Toy"
+    }
+  ],
+  "comparisons": [
+    "pekingese-vs-shih-tzu",
+    "japanese-chin-vs-pekingese"
+  ]
+}

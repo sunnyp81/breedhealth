@@ -1,0 +1,61 @@
+{
+  "name": "Tricuspid Valve Dysplasia",
+  "slug": "tricuspid-valve-dysplasia",
+  "category": "Cardiac",
+  "description": "Tricuspid valve dysplasia is a congenital malformation of the right-sided tricuspid valve, causing regurgitation and right-sided heart enlargement. It can range from clinically insignificant to severe heart failure.",
+  "symptoms": [
+    "Heart murmur",
+    "Abdominal distension (ascites)",
+    "Exercise intolerance",
+    "Jugular vein distension",
+    "Fainting"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Diuretics, ACE inhibitors, and Pimobendan manage signs of congestive failure. Balloon valvuloplasty is not effective for dysplasia. Prognosis depends on severity.",
+  "prevention_tips": [
+    "Cardiac clearance before breeding",
+    "Avoid breeding affected dogs"
+  ],
+  "affected_breeds": [
+    "labrador-retriever",
+    "great-dane",
+    "german-shepherd",
+    "weimaraner",
+    "old-english-sheepdog"
+  ],
+  "typical_onset": "Birth-2 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£1,000-£3,500/year",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Weimaraner",
+      "slug": "weimaraner",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Old English Sheepdog",
+      "slug": "old-english-sheepdog",
+      "size": "large",
+      "group": "Herding"
+    }
+  ]
+}

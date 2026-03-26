@@ -1,0 +1,56 @@
+{
+  "name": "Cleft Palate and Lip",
+  "slug": "cleft-palate-lip",
+  "category": "Gastrointestinal",
+  "description": "Cleft palate is a congenital failure of fusion of the hard and/or soft palate, and cleft lip is a corresponding defect of the upper lip. These defects cause milk to enter the nasal passages, leading to aspiration pneumonia in affected neonates.",
+  "symptoms": [
+    "Milk bubbling from nostrils when nursing",
+    "Inability to suckle effectively",
+    "Aspiration pneumonia",
+    "Failure to thrive",
+    "Visible palatal defect on examination"
+  ],
+  "severity": "high",
+  "treatment_overview": "Surgical repair of the palate is performed at 3-4 months. Prior to surgery, tube feeding is essential to prevent aspiration. Prognosis is good with successful surgical repair.",
+  "prevention_tips": [
+    "Do not breed affected dogs",
+    "Avoid nutritional deficiencies and certain drugs during pregnancy",
+    "Do not breed from lines with known cleft incidence"
+  ],
+  "affected_breeds": [
+    "english-bulldog",
+    "french-bulldog",
+    "boston-terrier",
+    "cocker-spaniel",
+    "poodle"
+  ],
+  "typical_onset": "Birth",
+  "hereditary": true,
+  "estimated_treatment_cost": "£1,500-£4,000",
+  "breeds_detail": [
+    {
+      "name": "French Bulldog",
+      "slug": "french-bulldog",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Boston Terrier",
+      "slug": "boston-terrier",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    }
+  ]
+}

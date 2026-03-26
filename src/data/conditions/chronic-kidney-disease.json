@@ -1,0 +1,64 @@
+{
+  "name": "Chronic Kidney Disease (CKD)",
+  "slug": "chronic-kidney-disease",
+  "category": "Urinary",
+  "description": "CKD is progressive, irreversible loss of renal function. While common in senior dogs, some breeds have hereditary forms with early onset. IRIS staging guides monitoring and treatment intensity based on creatinine, SDMA, and proteinuria.",
+  "symptoms": [
+    "Increased thirst and urination",
+    "Weight loss",
+    "Vomiting",
+    "Reduced appetite",
+    "Lethargy",
+    "Halitosis (uraemic breath)"
+  ],
+  "severity": "high",
+  "treatment_overview": "Dietary modification with phosphorus-restricted renal diets is central to management. ACE inhibitors for proteinuria, antihypertensives, anti-nausea drugs, and phosphate binders are added as disease progresses.",
+  "prevention_tips": [
+    "Regular blood and urine monitoring in senior dogs",
+    "Maintain good hydration",
+    "Annual blood pressure checks",
+    "Treat underlying causes promptly"
+  ],
+  "affected_breeds": [
+    "cocker-spaniel",
+    "bull-terrier",
+    "cairn-terrier",
+    "german-shepherd",
+    "samoyed"
+  ],
+  "typical_onset": "7+ years (breed hereditary forms earlier)",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,000-£4,000/year",
+  "breeds_detail": [
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Bull Terrier",
+      "slug": "bull-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    },
+    {
+      "name": "Cairn Terrier",
+      "slug": "cairn-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Samoyed",
+      "slug": "samoyed",
+      "size": "medium",
+      "group": "Working"
+    }
+  ]
+}

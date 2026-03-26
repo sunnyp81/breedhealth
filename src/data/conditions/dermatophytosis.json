@@ -1,0 +1,42 @@
+{
+  "name": "Ringworm (Dermatophytosis)",
+  "slug": "dermatophytosis",
+  "category": "Dermatological",
+  "description": "Ringworm is a fungal infection of the skin, hair, and nails caused by Microsporum or Trichophyton species. Despite the name it is not caused by a worm. It is highly contagious to other animals and humans (zoonosis), making management important.",
+  "symptoms": [
+    "Circular patches of hair loss",
+    "Scaling and crusting",
+    "Mild itching",
+    "Broken hairs",
+    "Nail dystrophy in some cases"
+  ],
+  "severity": "low",
+  "treatment_overview": "Topical antifungal treatment (miconazole-chlorhexidine shampoo twice weekly) combined with systemic antifungals (itraconazole) for widespread or persistent cases. Environmental decontamination is essential.",
+  "prevention_tips": [
+    "Isolate infected animals",
+    "Thorough environmental cleaning with dilute bleach",
+    "Avoid contact with stray or infected animals"
+  ],
+  "affected_breeds": [
+    "yorkshire-terrier",
+    "jack-russell-terrier",
+    "boston-terrier"
+  ],
+  "typical_onset": "Young animals and immunocompromised individuals",
+  "hereditary": false,
+  "estimated_treatment_cost": "£300-£800",
+  "breeds_detail": [
+    {
+      "name": "Yorkshire Terrier",
+      "slug": "yorkshire-terrier",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Boston Terrier",
+      "slug": "boston-terrier",
+      "size": "small",
+      "group": "Non-Sporting"
+    }
+  ]
+}

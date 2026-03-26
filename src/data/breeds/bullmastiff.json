@@ -1,0 +1,222 @@
+{
+  "name": "Bullmastiff",
+  "slug": "bullmastiff",
+  "group": "Working",
+  "size": "giant",
+  "weight_min_kg": 41,
+  "weight_max_kg": 59,
+  "height_min_cm": 61,
+  "height_max_cm": 69,
+  "lifespan_min": 7,
+  "lifespan_max": 9,
+  "temperament": [
+    "reliable",
+    "loyal",
+    "devoted",
+    "alert",
+    "reserved"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "elbow-dysplasia",
+    "bloat",
+    "lymphoma",
+    "progressive-retinal-atrophy"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 1,
+  "shedding_level": 2,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": false,
+  "apartment_friendly": false,
+  "popularity_rank": 50,
+  "origin": "England",
+  "coat_type": "short dense",
+  "coat_colors": [
+    "fawn",
+    "red",
+    "brindle"
+  ],
+  "description": "The Bullmastiff was developed in 19th-century England by gamekeepers who needed a dog powerful enough to pin a poacher to the ground without mauling them, created by crossing the Mastiff with the Bulldog in roughly a 60/40 ratio. The result was a fearless, natural guardian with the speed to cover ground quickly and the power to hold an intruder without instruction — earning the breed the nickname the Gamekeeper's Night Dog. Despite their imposing presence, well-bred and properly socialized Bullmastiffs are deeply affectionate family dogs, though their size and natural territorial instinct require consistent training from puppyhood.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Elbow Dysplasia",
+      "slug": "elbow-dysplasia",
+      "category": "Orthopedic",
+      "description": "Elbow dysplasia is an umbrella term covering several developmental abnormalities of the elbow joint including fragmented coronoid process, osteochondritis dissecans, and ununited anconeal process. It causes foreleg lameness and arthritis.",
+      "symptoms": [
+        "Front leg lameness",
+        "Elbow swelling",
+        "Pain on elbow manipulation",
+        "Reluctance to exercise",
+        "Stiff gait after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Surgical intervention is often recommended to remove bone fragments or reshape joint surfaces. Medical management includes NSAIDs, joint supplements, and physiotherapy.",
+      "prevention_tips": [
+        "BVA/KC elbow score breeding stock",
+        "Control growth rate in large breeds",
+        "Avoid over-supplementation with calcium",
+        "Maintain healthy weight from puppyhood"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "golden-retriever",
+        "german-shepherd",
+        "rottweiler",
+        "bernese-mountain-dog"
+      ],
+      "typical_onset": "4-18 months",
+      "hereditary": true,
+      "estimated_treatment_cost": "£2,000-£5,000"
+    },
+    {
+      "name": "Lymphoma",
+      "slug": "lymphoma",
+      "category": "Cancer",
+      "description": "Canine lymphoma is one of the most common cancers in dogs, arising from lymphocytes in the lymph nodes, spleen, liver, or bone marrow. Multicentric (involving multiple lymph nodes) is the most common form. It is generally treatable but not curable.",
+      "symptoms": [
+        "Swollen lymph nodes",
+        "Weight loss",
+        "Lethargy",
+        "Reduced appetite",
+        "Increased thirst and urination",
+        "Vomiting"
+      ],
+      "severity": "high",
+      "treatment_overview": "CHOP-based chemotherapy protocols achieve remission in 60-90% of dogs, with median survival of 12-14 months. Prednisolone alone provides short-term palliation. Targeted therapies are emerging.",
+      "prevention_tips": [
+        "No proven prevention",
+        "Annual health checks allow earlier detection"
+      ],
+      "affected_breeds": [
+        "golden-retriever",
+        "boxer",
+        "basset-hound",
+        "saint-bernard",
+        "scottish-terrier",
+        "airedale-terrier"
+      ],
+      "typical_onset": "6-9 years",
+      "hereditary": false,
+      "estimated_treatment_cost": "£5,000-£12,000"
+    },
+    {
+      "name": "Progressive Retinal Atrophy (PRA)",
+      "slug": "progressive-retinal-atrophy",
+      "category": "Eye",
+      "description": "PRA is a group of hereditary diseases causing progressive degeneration of the photoreceptor cells in the retina. It leads to night blindness first, followed by complete blindness. There is no treatment, but DNA tests exist for many forms.",
+      "symptoms": [
+        "Night blindness (early sign)",
+        "Reluctance to enter dark rooms",
+        "Dilated pupils",
+        "Reduced daytime vision",
+        "Reflective eye shine (tapetal hyperreflectivity)"
+      ],
+      "severity": "high",
+      "treatment_overview": "There is no effective treatment or cure for PRA. Management focuses on adapting the dog's environment to maintain quality of life as vision deteriorates.",
+      "prevention_tips": [
+        "DNA test breeding stock before mating",
+        "Only breed clear or carrier-to-clear pairings",
+        "Annual ophthalmology screening (BVA/KC scheme)"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "cocker-spaniel",
+        "miniature-poodle",
+        "irish-setter",
+        "border-collie",
+        "tibetan-terrier"
+      ],
+      "typical_onset": "3-8 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£0 (management only)"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Senior Formula",
+      "slug": "senior"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Doberman Pinscher",
+      "slug": "doberman-pinscher",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Bernese Mountain Dog",
+      "slug": "bernese-mountain-dog",
+      "size": "giant",
+      "group": "Working"
+    }
+  ],
+  "comparisons": [
+    "bullmastiff-vs-english-mastiff",
+    "bullmastiff-vs-rottweiler"
+  ]
+}

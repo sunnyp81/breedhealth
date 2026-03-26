@@ -1,0 +1,71 @@
+{
+  "name": "Gastric Dilatation-Volvulus (GDV / Bloat)",
+  "slug": "gastric-dilatation-volvulus",
+  "category": "Gastrointestinal",
+  "description": "GDV is a life-threatening emergency in which the stomach fills with gas and rotates on its axis, trapping gas, cutting off blood supply, and causing rapid circulatory shock. It can kill within hours without emergency surgery.",
+  "symptoms": [
+    "Distended abdomen",
+    "Unproductive retching",
+    "Restlessness and pain",
+    "Excessive salivation",
+    "Rapid breathing",
+    "Collapse"
+  ],
+  "severity": "high",
+  "treatment_overview": "Emergency stabilisation with IV fluids and gastric decompression, followed by immediate surgical detorsion and gastropexy. Prophylactic gastropexy is strongly recommended at the time of neutering for high-risk breeds.",
+  "prevention_tips": [
+    "Prophylactic gastropexy in at-risk breeds",
+    "Feed two smaller meals per day",
+    "Avoid vigorous exercise 1 hour before and after meals",
+    "Avoid raised food bowls (evidence is mixed)"
+  ],
+  "affected_breeds": [
+    "great-dane",
+    "standard-poodle",
+    "german-shepherd",
+    "gordon-setter",
+    "irish-setter",
+    "weimaraner"
+  ],
+  "typical_onset": "3-7 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£4,000-£8,000",
+  "breeds_detail": [
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Irish Setter",
+      "slug": "irish-setter",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Weimaraner",
+      "slug": "weimaraner",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Bluetick Coonhound",
+      "slug": "bluetick-coonhound",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Komondor",
+      "slug": "komondor",
+      "size": "giant",
+      "group": "Working"
+    }
+  ]
+}

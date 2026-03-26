@@ -1,0 +1,117 @@
+{
+  "name": "Alaskan Klee Kai",
+  "slug": "alaskan-klee-kai",
+  "group": "Non-Sporting",
+  "size": "small",
+  "weight_min_kg": 4,
+  "weight_max_kg": 10,
+  "height_min_cm": 33,
+  "height_max_cm": 43,
+  "lifespan_min": 13,
+  "lifespan_max": 16,
+  "temperament": [
+    "intelligent",
+    "energetic",
+    "curious",
+    "reserved"
+  ],
+  "health_issues": [
+    "patellar-luxation",
+    "heart-disease",
+    "autoimmune-thyroiditis",
+    "factor-vii-deficiency"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 3,
+  "shedding_level": 4,
+  "trainability": 3,
+  "good_with_children": false,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 109,
+  "origin": "United States",
+  "coat_type": "double medium",
+  "coat_colors": [
+    "black and white",
+    "grey and white",
+    "red and white",
+    "all white"
+  ],
+  "description": "The Alaskan Klee Kai is a relatively new breed developed in Alaska in the 1970s to create a companion-sized version of the Alaskan Husky, with the same striking Husky appearance in a much smaller package. They are intelligent, energetic, and deeply bonded to their family, but tend to be cautious and reserved around strangers, a trait that requires early socialisation. Alaskan Klee Kais are vocal dogs that communicate with howls and 'woo-woos' and shed heavily twice a year.",
+  "conditions_detail": [
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+      "symptoms": [
+        "Intermittent skipping on hind leg",
+        "Sudden leg lifting",
+        "Bunny-hopping",
+        "Hind limb lameness",
+        "Visible kneecap displacement"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+      "prevention_tips": [
+        "Breed from dogs with normal patellar scores",
+        "Maintain healthy weight",
+        "Avoid high-impact activities in affected puppies"
+      ],
+      "affected_breeds": [
+        "chihuahua",
+        "yorkshire-terrier",
+        "pomeranian",
+        "toy-poodle",
+        "bichon-frise",
+        "boston-terrier"
+      ],
+      "typical_onset": "4 months - 6 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "French Bulldog",
+      "slug": "french-bulldog",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bulldog",
+      "slug": "bulldog",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Boston Terrier",
+      "slug": "boston-terrier",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bichon Frise",
+      "slug": "bichon-frise",
+      "size": "small",
+      "group": "Non-Sporting"
+    }
+  ],
+  "comparisons": []
+}

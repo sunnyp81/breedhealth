@@ -1,0 +1,278 @@
+{
+  "name": "Epilepsy",
+  "slug": "epilepsy",
+  "category": "Neurological",
+  "description": "Epilepsy is the most common neurological disorder in dogs, characterised by recurrent seizures. Idiopathic (genetic) epilepsy is the most frequent form in young to middle-aged dogs with no underlying structural brain lesion.",
+  "symptoms": [
+    "Generalised seizures (paddling, loss of consciousness)",
+    "Focal seizures (facial twitching, fly-biting)",
+    "Post-ictal confusion",
+    "Sudden falling",
+    "Cluster seizures"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Anticonvulsant drugs (phenobarbital, potassium bromide, levetiracetam) control seizures in the majority of cases. Treatment is lifelong. Cluster seizures and status epilepticus require emergency treatment.",
+  "prevention_tips": [
+    "DNA testing available for several breeds",
+    "Avoid breeding affected dogs with idiopathic epilepsy"
+  ],
+  "affected_breeds": [
+    "border-collie",
+    "labrador-retriever",
+    "golden-retriever",
+    "beagle",
+    "german-shepherd",
+    "belgian-shepherd"
+  ],
+  "typical_onset": "1-5 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£500-£2,000/year",
+  "breeds_detail": [
+    {
+      "name": "Border Collie",
+      "slug": "border-collie",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Australian Shepherd",
+      "slug": "australian-shepherd",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Siberian Husky",
+      "slug": "siberian-husky",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Vizsla",
+      "slug": "vizsla",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Miniature American Shepherd",
+      "slug": "miniature-american-shepherd",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Belgian Malinois",
+      "slug": "belgian-malinois",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Rough Collie",
+      "slug": "rough-collie",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Brittany",
+      "slug": "brittany",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Spitz (Finnish)",
+      "slug": "finnish-spitz",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Keeshond",
+      "slug": "keeshond",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Flat-Coated Retriever",
+      "slug": "flat-coated-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Irish Setter",
+      "slug": "irish-setter",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Standard Schnauzer",
+      "slug": "standard-schnauzer",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Greater Swiss Mountain Dog",
+      "slug": "greater-swiss-mountain-dog",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Xoloitzcuintli",
+      "slug": "xoloitzcuintli",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Belgian Tervuren",
+      "slug": "belgian-tervuren",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Italian Greyhound",
+      "slug": "italian-greyhound",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Giant Schnauzer",
+      "slug": "giant-schnauzer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Harrier",
+      "slug": "harrier",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Belgian Laekenois",
+      "slug": "belgian-laekenois",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Canaan Dog",
+      "slug": "canaan-dog",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Nederlandse Kooikerhondje",
+      "slug": "nederlandse-kooikerhondje",
+      "size": "small",
+      "group": "Sporting"
+    },
+    {
+      "name": "English Foxhound",
+      "slug": "english-foxhound",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Mudi",
+      "slug": "mudi",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Norwegian Buhund",
+      "slug": "norwegian-buhund",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Stabyhoun",
+      "slug": "stabyhoun",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Grand Basset Griffon Vendéen",
+      "slug": "grand-basset-griffon-vendeen",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Petit Basset Griffon Vendéen",
+      "slug": "petit-basset-griffon-vendeen",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Pyrenean Shepherd",
+      "slug": "pyrenean-shepherd",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Perro de Presa Canario",
+      "slug": "perro-de-presa-canario",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Peruvian Inca Orchid",
+      "slug": "peruvian-inca-orchid",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Hamiltonstovare",
+      "slug": "hamiltonstovare",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Finnish Hound",
+      "slug": "finnish-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "West Siberian Laika",
+      "slug": "west-siberian-laika",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "German Spitz",
+      "slug": "german-spitz",
+      "size": "small",
+      "group": "Non-Sporting"
+    }
+  ]
+}

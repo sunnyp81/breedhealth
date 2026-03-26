@@ -1,0 +1,62 @@
+{
+  "name": "Hypertrophic Osteodystrophy (HOD)",
+  "slug": "hypertrophic-osteodystrophy",
+  "category": "Orthopedic",
+  "description": "HOD is a painful developmental bone disease affecting rapidly growing large and giant breed puppies. It causes inflammation in the metaphyseal regions of long bones, leading to severe pain, fever, and lameness.",
+  "symptoms": [
+    "Severe lameness",
+    "Swollen painful leg joints",
+    "High fever",
+    "Lethargy",
+    "Reluctance to stand or walk"
+  ],
+  "severity": "high",
+  "treatment_overview": "Treatment involves NSAIDs, supportive care, and nutritional management. Severe cases may require corticosteroids. Most puppies recover but some have permanent limb deformities.",
+  "prevention_tips": [
+    "Feed age-appropriate large-breed puppy food",
+    "Avoid over-supplementation with vitamins and minerals",
+    "Monitor growth rate"
+  ],
+  "affected_breeds": [
+    "great-dane",
+    "weimaraner",
+    "boxer",
+    "irish-setter",
+    "dobermann"
+  ],
+  "typical_onset": "2-8 months",
+  "hereditary": false,
+  "estimated_treatment_cost": "£500-£2,000",
+  "breeds_detail": [
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Weimaraner",
+      "slug": "weimaraner",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Irish Setter",
+      "slug": "irish-setter",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Kuvasz",
+      "slug": "kuvasz",
+      "size": "large",
+      "group": "Working"
+    }
+  ]
+}

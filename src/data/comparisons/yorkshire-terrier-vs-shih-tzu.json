@@ -1,0 +1,175 @@
+{
+  "slug": "yorkshire-terrier-vs-shih-tzu",
+  "breed_a": {
+    "name": "Yorkshire Terrier",
+    "slug": "yorkshire-terrier",
+    "group": "Toy",
+    "size": "small",
+    "weight_min_kg": 1.8,
+    "weight_max_kg": 3.2,
+    "height_min_cm": 17,
+    "height_max_cm": 23,
+    "lifespan_min": 13,
+    "lifespan_max": 16,
+    "temperament": [
+      "bold",
+      "intelligent",
+      "independent",
+      "confident",
+      "spirited"
+    ],
+    "health_issues": [
+      "patellar-luxation",
+      "portosystemic-shunt",
+      "progressive-retinal-atrophy",
+      "hypoglycemia",
+      "tracheal-collapse"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 5,
+    "shedding_level": 1,
+    "trainability": 3,
+    "good_with_children": false,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 13,
+    "origin": "England",
+    "coat_type": "long silky",
+    "coat_colors": [
+      "tan and blue",
+      "black and gold",
+      "blue and gold"
+    ],
+    "description": "The Yorkshire Terrier was developed in 19th-century Yorkshire by mill workers who needed a small, fearless terrier to catch rats in textile factories, with ancestors including the now-extinct Waterside Terrier and the Paisley Terrier. Despite weighing typically under 3 kg, the Yorkie carries a confident, feisty terrier personality that makes it unaware of its diminutive size, and it will readily challenge dogs many times its weight. Their long, silky coat resembles human hair in texture and requires daily brushing and frequent professional grooming to prevent tangling and skin issues."
+  },
+  "breed_b": {
+    "name": "Shih Tzu",
+    "slug": "shih-tzu",
+    "group": "Toy",
+    "size": "small",
+    "weight_min_kg": 4,
+    "weight_max_kg": 7.2,
+    "height_min_cm": 20,
+    "height_max_cm": 28,
+    "lifespan_min": 10,
+    "lifespan_max": 16,
+    "temperament": [
+      "affectionate",
+      "playful",
+      "outgoing",
+      "alert",
+      "loyal"
+    ],
+    "health_issues": [
+      "brachycephalic-syndrome",
+      "hip-dysplasia",
+      "patellar-luxation",
+      "progressive-retinal-atrophy",
+      "renal-dysplasia"
+    ],
+    "exercise_level": 2,
+    "grooming_level": 5,
+    "shedding_level": 1,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 20,
+    "origin": "China",
+    "coat_type": "long double",
+    "coat_colors": [
+      "gold and white",
+      "black and white",
+      "red and white",
+      "blue and white",
+      "liver and white"
+    ],
+    "description": "The Shih Tzu is an ancient breed kept exclusively for Chinese royalty for over a millennium, serving as treasured lap warmers in the imperial palaces of the Ming and Qing dynasties and so prized that China refused to export them until the early 20th century. Their name means lion dog in Mandarin, a reference to their resemblance to the Chinese guardian lion, and their flowing double coat parted along the spine is a hallmark of the breed standard. Shih Tzus are trusting, lively companions that adapt beautifully to apartment living and get along with virtually everyone they meet."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 13,
+      "breed_b_value": 10,
+      "winner": "yorkshire-terrier"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 16,
+      "breed_b_value": 16,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 1.8,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 3.2,
+      "breed_b_value": 7.2,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 17,
+      "breed_b_value": 20,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 23,
+      "breed_b_value": 28,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 1,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": false,
+      "breed_b_value": true,
+      "winner": "shih-tzu"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Hereditary Footpad Hyperkeratosis",
+  "slug": "hereditary-footpad-hyperkeratosis",
+  "category": "Dermatological",
+  "description": "Hereditary footpad hyperkeratosis causes excessive keratin production on the footpads from birth or early puppyhood, making the pads thickened, cracked, and painful. It significantly affects mobility and welfare if untreated.",
+  "symptoms": [
+    "Thickened crusty footpads from puppyhood",
+    "Foot pain and lameness",
+    "Cracks and fissures in pads",
+    "Secondary bacterial infection",
+    "Reluctance to walk on hard surfaces"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Regular soaking of footpads and removal of excess keratin, application of softening agents (petroleum jelly, propylene glycol), and boots to protect pads during walking. Antibiotics for infected fissures. Daily management is required.",
+  "prevention_tips": [
+    "DNA test available for Irish Terrier and Dogue de Bordeaux forms",
+    "Do not breed affected dogs"
+  ],
+  "affected_breeds": [
+    "irish-terrier",
+    "dogue-de-bordeaux",
+    "kromfohrlander",
+    "border-collie"
+  ],
+  "typical_onset": "Birth to 6 months",
+  "hereditary": true,
+  "estimated_treatment_cost": "£200-£600/year",
+  "breeds_detail": [
+    {
+      "name": "Border Collie",
+      "slug": "border-collie",
+      "size": "medium",
+      "group": "Herding"
+    }
+  ]
+}

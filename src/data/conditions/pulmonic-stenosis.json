@@ -1,0 +1,68 @@
+{
+  "name": "Pulmonic Stenosis",
+  "slug": "pulmonic-stenosis",
+  "category": "Cardiac",
+  "description": "Pulmonic stenosis is a congenital narrowing of the pulmonary valve or surrounding tissue that restricts blood flow from the right ventricle to the lungs. Mild cases are well tolerated; severe cases cause right-sided heart failure.",
+  "symptoms": [
+    "Heart murmur",
+    "Exercise intolerance",
+    "Abdominal distension",
+    "Fainting",
+    "Respiratory distress"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Mild to moderate cases are monitored. Severe cases are treated with balloon valvuloplasty, which is highly effective in reducing the pressure gradient and improving prognosis.",
+  "prevention_tips": [
+    "Cardiac clearance before breeding",
+    "Avoid breeding affected dogs"
+  ],
+  "affected_breeds": [
+    "english-bulldog",
+    "boxer",
+    "beagle",
+    "miniature-schnauzer",
+    "cocker-spaniel",
+    "samoyed"
+  ],
+  "typical_onset": "Birth-2 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£3,000-£6,000",
+  "breeds_detail": [
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Samoyed",
+      "slug": "samoyed",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Sussex Spaniel",
+      "slug": "sussex-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    }
+  ]
+}

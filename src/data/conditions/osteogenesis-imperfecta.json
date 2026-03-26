@@ -1,0 +1,47 @@
+{
+  "name": "Osteogenesis Imperfecta (Brittle Bone Disease)",
+  "slug": "osteogenesis-imperfecta",
+  "category": "Orthopedic",
+  "description": "Osteogenesis imperfecta is a rare hereditary collagen defect causing abnormally fragile bones that fracture with minimal trauma. Affected puppies sustain fractures with routine handling and manipulation.",
+  "symptoms": [
+    "Multiple fractures with minimal trauma",
+    "Bone pain",
+    "Loose teeth",
+    "Joint laxity",
+    "Blue-grey sclera in some forms"
+  ],
+  "severity": "high",
+  "treatment_overview": "Bisphosphonates (pamidronate) can strengthen bones but do not cure the condition. Fracture management with appropriate fixation. Severely affected puppies are often euthanised on welfare grounds.",
+  "prevention_tips": [
+    "DNA test available for Golden Retriever form",
+    "Do not breed affected dogs"
+  ],
+  "affected_breeds": [
+    "golden-retriever",
+    "beagle",
+    "poodle"
+  ],
+  "typical_onset": "Birth to 6 months",
+  "hereditary": true,
+  "estimated_treatment_cost": "£1,000-£4,000",
+  "breeds_detail": [
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    }
+  ]
+}

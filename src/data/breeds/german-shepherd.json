@@ -1,0 +1,230 @@
+{
+  "name": "German Shepherd",
+  "slug": "german-shepherd",
+  "group": "Herding",
+  "size": "large",
+  "weight_min_kg": 22,
+  "weight_max_kg": 40,
+  "height_min_cm": 55,
+  "height_max_cm": 65,
+  "lifespan_min": 9,
+  "lifespan_max": 13,
+  "temperament": [
+    "confident",
+    "courageous",
+    "smart",
+    "loyal",
+    "obedient"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "elbow-dysplasia",
+    "degenerative-myelopathy",
+    "bloat",
+    "exocrine-pancreatic-insufficiency"
+  ],
+  "exercise_level": 5,
+  "grooming_level": 3,
+  "shedding_level": 5,
+  "trainability": 5,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 4,
+  "origin": "Germany",
+  "coat_type": "medium double",
+  "coat_colors": [
+    "black and tan",
+    "sable",
+    "black",
+    "black and red",
+    "blue"
+  ],
+  "description": "The German Shepherd is widely regarded as the world's leading all-purpose working dog, excelling in police, military, search and rescue, and service roles thanks to an unmatched combination of intelligence, athleticism, and loyalty. Standardized by Captain Max von Stephanitz in Germany in the 1890s, the breed retains strong herding and protective instincts that require structured training and socialization from puppyhood. German Shepherds form intensely loyal bonds with their families and are naturally protective without being unpredictably aggressive.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Elbow Dysplasia",
+      "slug": "elbow-dysplasia",
+      "category": "Orthopedic",
+      "description": "Elbow dysplasia is an umbrella term covering several developmental abnormalities of the elbow joint including fragmented coronoid process, osteochondritis dissecans, and ununited anconeal process. It causes foreleg lameness and arthritis.",
+      "symptoms": [
+        "Front leg lameness",
+        "Elbow swelling",
+        "Pain on elbow manipulation",
+        "Reluctance to exercise",
+        "Stiff gait after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Surgical intervention is often recommended to remove bone fragments or reshape joint surfaces. Medical management includes NSAIDs, joint supplements, and physiotherapy.",
+      "prevention_tips": [
+        "BVA/KC elbow score breeding stock",
+        "Control growth rate in large breeds",
+        "Avoid over-supplementation with calcium",
+        "Maintain healthy weight from puppyhood"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "golden-retriever",
+        "german-shepherd",
+        "rottweiler",
+        "bernese-mountain-dog"
+      ],
+      "typical_onset": "4-18 months",
+      "hereditary": true,
+      "estimated_treatment_cost": "£2,000-£5,000"
+    },
+    {
+      "name": "Degenerative Myelopathy (DM)",
+      "slug": "degenerative-myelopathy",
+      "category": "Neurological",
+      "description": "DM is a progressive, non-painful spinal cord disease caused by a mutation in the SOD1 gene. It begins with hind limb weakness and ataxia, progressing to complete paralysis and eventually fore limb involvement. It is analogous to ALS in humans.",
+      "symptoms": [
+        "Progressive hind limb weakness",
+        "Knuckling of hind paws",
+        "Dragging hind legs",
+        "Loss of bladder and bowel control",
+        "Loss of muscle mass"
+      ],
+      "severity": "high",
+      "treatment_overview": "There is no cure or disease-modifying treatment. Intensive physiotherapy and hydrotherapy can slow decline and maintain quality of life. Wheelchairs improve mobility in later stages.",
+      "prevention_tips": [
+        "DNA test available (OFA) — avoid breeding at-risk (AT/AT) pairings",
+        "Test all breeding stock"
+      ],
+      "affected_breeds": [
+        "german-shepherd",
+        "welsh-corgi",
+        "boxer",
+        "chesapeake-bay-retriever",
+        "bernese-mountain-dog",
+        "cavalier-king-charles-spaniel"
+      ],
+      "typical_onset": "8-14 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£500-£3,000/year"
+    },
+    {
+      "name": "Exocrine Pancreatic Insufficiency (EPI)",
+      "slug": "exocrine-pancreatic-insufficiency",
+      "category": "Gastrointestinal",
+      "description": "EPI results from destruction of the exocrine pancreatic cells, leading to failure to produce digestive enzymes. Food passes through undigested, causing malabsorption, weight loss, and coprophagia. It is treatable but lifelong.",
+      "symptoms": [
+        "Weight loss despite ravenous appetite",
+        "Voluminous pale fatty stools",
+        "Coprophagia (eating faeces)",
+        "Flatulence",
+        "Diarrhoea"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Lifelong powdered pancreatic enzyme supplementation with every meal is the primary treatment. Cobalamin (B12) injections are often needed initially. Low-fat diet and antibiotics for small intestinal bacterial overgrowth.",
+      "prevention_tips": [
+        "DNA test available for pancreatic acinar atrophy (PAA) in German Shepherds"
+      ],
+      "affected_breeds": [
+        "german-shepherd",
+        "rough-collie",
+        "eurasier",
+        "chow-chow"
+      ],
+      "typical_onset": "1-5 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£600-£1,800/year"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Australian Shepherd",
+      "slug": "australian-shepherd",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Border Collie",
+      "slug": "border-collie",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Belgian Malinois",
+      "slug": "belgian-malinois",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Rough Collie",
+      "slug": "rough-collie",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Bouvier des Flandres",
+      "slug": "bouvier-des-flandres",
+      "size": "large",
+      "group": "Herding"
+    }
+  ],
+  "comparisons": [
+    "german-shepherd-vs-belgian-malinois",
+    "german-shepherd-vs-rottweiler",
+    "husky-vs-german-shepherd",
+    "golden-retriever-vs-german-shepherd",
+    "labrador-retriever-vs-german-shepherd",
+    "doberman-pinscher-vs-german-shepherd",
+    "german-shepherd-vs-dutch-shepherd",
+    "german-shepherd-vs-siberian-husky",
+    "poodle-vs-german-shepherd",
+    "rottweiler-vs-german-shepherd",
+    "border-collie-vs-german-shepherd",
+    "boxer-vs-german-shepherd",
+    "australian-shepherd-vs-german-shepherd"
+  ]
+}

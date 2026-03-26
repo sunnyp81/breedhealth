@@ -1,0 +1,51 @@
+{
+  "name": "Copper-Associated Hepatopathy",
+  "slug": "copper-associated-hepatopathy",
+  "category": "Gastrointestinal",
+  "description": "Copper-associated hepatopathy is liver disease caused by abnormal accumulation of copper within liver cells, leading to hepatitis, cirrhosis, and liver failure. The Bedlington Terrier has a single-gene autosomal recessive form; other breeds have polygenic susceptibility.",
+  "symptoms": [
+    "Vomiting",
+    "Weight loss",
+    "Jaundice",
+    "Ascites (fluid abdomen)",
+    "Increased thirst and urination",
+    "Acute haemolytic crisis in severe cases"
+  ],
+  "severity": "high",
+  "treatment_overview": "Copper-chelating drugs (D-penicillamine, trientine) remove excess copper. Zinc supplementation reduces copper absorption from the gut. Low-copper diets are essential. Liver function is monitored by regular blood tests and biopsy.",
+  "prevention_tips": [
+    "DNA test available for Bedlington Terriers (COMMD1 mutation)",
+    "Liver biopsy with copper quantification in at-risk breeds",
+    "Low-copper diet in predisposed breeds"
+  ],
+  "affected_breeds": [
+    "bedlington-terrier",
+    "labrador-retriever",
+    "dalmatian",
+    "dobermann",
+    "west-highland-white-terrier"
+  ],
+  "typical_onset": "2-6 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£800-£3,000/year",
+  "breeds_detail": [
+    {
+      "name": "Bedlington Terrier",
+      "slug": "bedlington-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    },
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "West Highland White Terrier",
+      "slug": "west-highland-white-terrier",
+      "size": "small",
+      "group": "Terrier"
+    }
+  ]
+}

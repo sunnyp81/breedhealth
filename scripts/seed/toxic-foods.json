@@ -1,0 +1,522 @@
+[
+  {
+    "name": "Chocolate",
+    "slug": "chocolate",
+    "toxicity_level": "high",
+    "toxic_compound": "Theobromine and caffeine",
+    "symptoms": ["Vomiting", "Diarrhea", "Rapid breathing", "Increased heart rate", "Muscle tremors", "Seizures", "Death in severe cases"],
+    "dangerous_amount": "20mg theobromine per kg body weight causes toxicity; dark chocolate and baking chocolate are most dangerous (130-450mg/oz); milk chocolate has less (44-58mg/oz)",
+    "first_aid": "Contact vet immediately. Do not induce vomiting unless directed by a vet. The vet may administer activated charcoal.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Grapes and Raisins",
+    "slug": "grapes-raisins",
+    "toxicity_level": "high",
+    "toxic_compound": "Unknown — tartaric acid suspected",
+    "symptoms": ["Vomiting", "Diarrhea", "Lethargy", "Loss of appetite", "Abdominal pain", "Decreased urination", "Acute kidney failure"],
+    "dangerous_amount": "Any amount can be toxic. No safe threshold has been established. Even a single grape has caused kidney failure in small dogs.",
+    "first_aid": "Contact vet or ASPCA Poison Control immediately. Do not wait for symptoms. Induced vomiting may be recommended if ingestion was recent.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Onions",
+    "slug": "onions",
+    "toxicity_level": "high",
+    "toxic_compound": "N-propyl disulfide and thiosulfates",
+    "symptoms": ["Lethargy", "Weakness", "Reduced appetite", "Pale gums", "Fainting", "Reddish urine", "Hemolytic anemia"],
+    "dangerous_amount": "All forms toxic: raw, cooked, powdered, dehydrated. Toxic at 0.5% of body weight for a single ingestion; cumulative toxicity also occurs.",
+    "first_aid": "Contact vet. Induced vomiting if recent ingestion. Supportive care and potentially blood transfusions for severe anemia.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Garlic",
+    "slug": "garlic",
+    "toxicity_level": "high",
+    "toxic_compound": "Thiosulfates and disulfides",
+    "symptoms": ["Lethargy", "Weakness", "Vomiting", "Pale gums", "Elevated heart rate", "Hemolytic anemia", "Collapse"],
+    "dangerous_amount": "More toxic than onions on a per-weight basis. Toxic dose approximately 15-30g per kg body weight. All forms (raw, cooked, powdered) are dangerous.",
+    "first_aid": "Contact vet immediately. Inducing vomiting may help if ingestion was recent. Blood tests to monitor for anemia.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Xylitol",
+    "slug": "xylitol",
+    "toxicity_level": "severe",
+    "toxic_compound": "Xylitol (sugar alcohol)",
+    "symptoms": ["Sudden vomiting", "Loss of coordination", "Lethargy", "Seizures", "Hypoglycemia within 30-60 minutes", "Liver failure within 12-24 hours"],
+    "dangerous_amount": "0.1g per kg causes hypoglycemia; 0.5g per kg may cause liver failure. Found in sugar-free gum, candy, peanut butter, baked goods, and some medications.",
+    "first_aid": "EMERGENCY — contact vet or animal poison control immediately. Do not induce vomiting. Requires urgent intravenous dextrose and liver monitoring.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Avocado",
+    "slug": "avocado",
+    "toxicity_level": "moderate",
+    "toxic_compound": "Persin",
+    "symptoms": ["Vomiting", "Diarrhea", "Difficulty breathing", "Fluid accumulation around heart", "Myocardial damage in severe cases"],
+    "dangerous_amount": "The leaves, bark, skin, and pit contain the highest persin concentration. The flesh is lower risk but still not safe in large quantities. Guatemalan variety is most toxic.",
+    "first_aid": "Contact vet. Monitor for respiratory distress or cardiac symptoms. Pit ingestion also poses a choking and intestinal blockage hazard.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Macadamia Nuts",
+    "slug": "macadamia-nuts",
+    "toxicity_level": "high",
+    "toxic_compound": "Unknown",
+    "symptoms": ["Weakness", "Hyperthermia", "Vomiting", "Tremors", "Inability to walk", "Lethargy"],
+    "dangerous_amount": "As few as 2.4g per kg body weight can cause symptoms. Symptoms typically appear within 12 hours of ingestion.",
+    "first_aid": "Contact vet. Supportive care including IV fluids and temperature management. Most dogs recover within 24-48 hours with treatment.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Alcohol",
+    "slug": "alcohol",
+    "toxicity_level": "high",
+    "toxic_compound": "Ethanol",
+    "symptoms": ["Vomiting", "Disorientation", "Breathing difficulties", "Dangerously low blood sugar", "Seizures", "Coma", "Death"],
+    "dangerous_amount": "Dogs are far more sensitive to ethanol than humans. Even small amounts of beer, wine, or spirits can cause serious harm. Sugar-free alcoholic drinks pose additional xylitol risk.",
+    "first_aid": "Contact vet immediately. Treatment includes IV fluids, temperature regulation, and monitoring blood glucose and respiratory function.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Caffeine",
+    "slug": "caffeine",
+    "toxicity_level": "high",
+    "toxic_compound": "Caffeine and methylxanthines",
+    "symptoms": ["Restlessness", "Rapid breathing", "Muscle tremors", "Increased heart rate", "Seizures", "Bleeding", "Death"],
+    "dangerous_amount": "Toxic dose approximately 140mg per kg. Sources include coffee, tea, energy drinks, diet pills, some medications, and cocoa. Even coffee grounds or tea bags are dangerous.",
+    "first_aid": "Contact vet immediately. Induced vomiting if recent ingestion. Supportive care with IV fluids and medications to control heart rate and seizures.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Raw Yeast Dough",
+    "slug": "raw-yeast-dough",
+    "toxicity_level": "high",
+    "toxic_compound": "Ethanol (produced by yeast fermentation) and carbon dioxide gas",
+    "symptoms": ["Bloating", "Abdominal distension", "Severe pain", "Disorientation", "Vomiting", "Seizures", "Cardiovascular collapse"],
+    "dangerous_amount": "Any amount is dangerous. Dough expands in the warm stomach, causing gas and ethanol production. Even small amounts can cause gastric dilatation volvulus (GDV).",
+    "first_aid": "EMERGENCY — contact vet immediately. May require surgery. IV fluids and ethanol treatment. Do not try to make the dog vomit.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Cooked Bones",
+    "slug": "cooked-bones",
+    "toxicity_level": "moderate",
+    "toxic_compound": "Physical hazard — no toxic compound",
+    "symptoms": ["Choking", "Mouth or throat lacerations", "Constipation", "Intestinal blockage", "Internal perforation", "Peritonitis"],
+    "dangerous_amount": "Any cooked bone is a hazard. Cooking makes bones brittle, causing them to splinter into sharp shards. Chicken, pork, and fish bones are especially dangerous.",
+    "first_aid": "Monitor closely for choking, pain, blood in stool, or vomiting. Contact vet immediately if any symptoms appear. May require endoscopy or surgery to remove fragments.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Salt and Salty Snacks",
+    "slug": "salt",
+    "toxicity_level": "moderate",
+    "toxic_compound": "Sodium",
+    "symptoms": ["Excessive thirst", "Frequent urination", "Vomiting", "Diarrhea", "Lethargy", "Muscle tremors", "Seizures", "Death"],
+    "dangerous_amount": "Toxic at approximately 4g of salt per kg body weight. Chips, pretzels, popcorn, and salted crackers can accumulate to harmful levels, especially in small dogs.",
+    "first_aid": "Provide plenty of fresh water and contact vet. IV fluids may be needed for sodium ion poisoning. Monitor sodium levels carefully.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Nutmeg",
+    "slug": "nutmeg",
+    "toxicity_level": "moderate",
+    "toxic_compound": "Myristicin",
+    "symptoms": ["Disorientation", "Increased heart rate", "High blood pressure", "Dry mouth", "Seizures", "Hallucinations"],
+    "dangerous_amount": "One to two teaspoons can cause toxicity. Commonly found in baked goods, eggnog, and spice blends. Small amounts may only cause mild upset.",
+    "first_aid": "Contact vet if more than a small amount was ingested. Supportive care for heart rate and neurological symptoms.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Cherries",
+    "slug": "cherries",
+    "toxicity_level": "moderate",
+    "toxic_compound": "Cyanide (in pits, leaves, and stems)",
+    "symptoms": ["Difficulty breathing", "Dilated pupils", "Bright red gums", "Shock", "Cyanide poisoning from large quantities"],
+    "dangerous_amount": "The flesh itself is not highly toxic, but the pit, stem, and leaves contain cyanide. A few pits can cause poisoning, particularly in small dogs.",
+    "first_aid": "Contact vet if pits were consumed. Monitor for signs of respiratory distress or shock. Cyanide poisoning requires immediate veterinary treatment.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Green Tomatoes and Tomato Plants",
+    "slug": "green-tomatoes",
+    "toxicity_level": "low",
+    "toxic_compound": "Solanine (tomatine) and atropine",
+    "symptoms": ["Gastrointestinal distress", "Vomiting", "Diarrhea", "Lethargy", "Weakness", "Confusion", "Cardiac effects in high doses"],
+    "dangerous_amount": "Ripe tomato flesh is generally safe in small amounts, but unripe tomatoes and all parts of the tomato plant are toxic. Stems and leaves are most concentrated.",
+    "first_aid": "Contact vet if the dog ate plant material or unripe tomatoes. Supportive care for GI symptoms.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Raw Potatoes",
+    "slug": "raw-potatoes",
+    "toxicity_level": "low",
+    "toxic_compound": "Solanine",
+    "symptoms": ["Vomiting", "Diarrhea", "Lethargy", "Weakness", "Confusion"],
+    "dangerous_amount": "Green, unripe, or raw potatoes and potato plant leaves contain solanine. Cooked plain potatoes are generally safe in small amounts.",
+    "first_aid": "Contact vet if large amounts of green or raw potato were eaten. Monitor for neurological and GI symptoms.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Mushrooms (Wild)",
+    "slug": "wild-mushrooms",
+    "toxicity_level": "severe",
+    "toxic_compound": "Varies by species — amatoxins, muscarine, ibotenic acid, and others",
+    "symptoms": ["Vomiting", "Diarrhea", "Abdominal pain", "Salivation", "Weakness", "Liver failure", "Kidney failure", "Seizures", "Coma"],
+    "dangerous_amount": "Some wild mushroom species are deadly in very small amounts. Amanita phalloides (death cap) is extremely toxic. Avoid all wild mushrooms.",
+    "first_aid": "EMERGENCY — contact vet or poison control immediately. If possible, take a photo or sample of the mushroom. Induced vomiting and activated charcoal may be used.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Rhubarb",
+    "slug": "rhubarb",
+    "toxicity_level": "moderate",
+    "toxic_compound": "Oxalic acid and soluble oxalates",
+    "symptoms": ["Drooling", "Vomiting", "Diarrhea", "Lethargy", "Weakness", "Tremors", "Bloody urine", "Changes in thirst and urination"],
+    "dangerous_amount": "The leaves contain the highest concentration and are most toxic. The stalk is lower risk but still not recommended. Can cause kidney failure in large amounts.",
+    "first_aid": "Contact vet. Rinse mouth with water. IV fluids may be needed to protect kidney function.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Walnuts",
+    "slug": "walnuts",
+    "toxicity_level": "moderate",
+    "toxic_compound": "Juglone (black walnuts) and mold toxins (mycotoxins)",
+    "symptoms": ["Vomiting", "Tremors", "Seizures", "Weakness", "Elevated temperature"],
+    "dangerous_amount": "Black walnuts and mouldy walnuts are especially dangerous. Regular English walnuts are less toxic but still not recommended due to high fat content and potential mold.",
+    "first_aid": "Contact vet. Monitor for tremors or seizures. Treatment may include induced vomiting, activated charcoal, and anticonvulsant medications.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Pecans",
+    "slug": "pecans",
+    "toxicity_level": "moderate",
+    "toxic_compound": "Juglone and mycotoxins",
+    "symptoms": ["Vomiting", "Diarrhea", "Gastrointestinal upset", "Tremors", "Seizures if mouldy"],
+    "dangerous_amount": "Not recommended in any amount. High fat content can cause pancreatitis. Mouldy pecans can produce tremor-causing mycotoxins.",
+    "first_aid": "Contact vet if significant amount consumed, especially if mouldy. Monitor for GI distress and neurological symptoms.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Almonds",
+    "slug": "almonds",
+    "toxicity_level": "low",
+    "toxic_compound": "No specific toxin — mechanical and gastrointestinal hazard",
+    "symptoms": ["Vomiting", "Diarrhea", "Gas", "Lethargy", "Potential pancreatitis from high fat", "Obstruction risk"],
+    "dangerous_amount": "Not acutely toxic like grapes, but the high fat and salt content in processed almonds causes GI upset. Whole almonds pose a choking hazard and can obstruct the intestine.",
+    "first_aid": "Monitor for GI symptoms. Contact vet if the dog ate many almonds or shows signs of pancreatitis (vomiting, abdominal pain, lethargy).",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Apple Seeds",
+    "slug": "apple-seeds",
+    "toxicity_level": "low",
+    "toxic_compound": "Amygdalin (converted to cyanide)",
+    "symptoms": ["Vomiting", "Diarrhea", "Difficulty breathing", "Dilated pupils", "Shock (large quantities)"],
+    "dangerous_amount": "A few seeds are unlikely to cause harm. Chronic consumption or large amounts can release enough cyanide to cause poisoning. Apple flesh is safe.",
+    "first_aid": "Contact vet if large number of seeds were consumed. The apple flesh is safe to feed in moderation.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Peach Pits",
+    "slug": "peach-pits",
+    "toxicity_level": "moderate",
+    "toxic_compound": "Amygdalin (cyanide precursor) and physical obstruction hazard",
+    "symptoms": ["Choking", "Intestinal obstruction", "Dilated pupils", "Difficulty breathing", "Shock from cyanide in large amounts"],
+    "dangerous_amount": "The flesh is generally safe in small amounts. The pit is dangerous both as a physical obstruction and as a source of cyanide. Wilted peach leaves are also toxic.",
+    "first_aid": "Contact vet if pit was swallowed. May require endoscopy or surgery. Monitor for cyanide symptoms if the pit was chewed.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Plum Pits",
+    "slug": "plum-pits",
+    "toxicity_level": "moderate",
+    "toxic_compound": "Amygdalin (cyanide precursor)",
+    "symptoms": ["Choking", "Vomiting", "Laboured breathing", "Dilated pupils", "Brick red mucous membranes", "Shock"],
+    "dangerous_amount": "The pit, stem, and leaves contain cyanide compounds. Flesh is generally safe in small amounts. Pits also pose intestinal obstruction risk.",
+    "first_aid": "Contact vet if pit was ingested. Monitor for cyanide poisoning symptoms. May require surgery for obstruction.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Lemons and Limes",
+    "slug": "lemons-limes",
+    "toxicity_level": "low",
+    "toxic_compound": "Psoralen compounds and essential oils (limonene, linalool)",
+    "symptoms": ["Vomiting", "Diarrhea", "Drooling", "Skin rash", "Photosensitivity", "Lethargy", "Weakness"],
+    "dangerous_amount": "The fruit flesh causes GI upset. The peel, seeds, and plant parts (leaves, stems) contain higher concentrations of toxic compounds.",
+    "first_aid": "Most dogs will vomit on their own. Contact vet if skin reactions or neurological symptoms develop.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Grapefruits",
+    "slug": "grapefruits",
+    "toxicity_level": "low",
+    "toxic_compound": "Psoralen compounds and essential oils",
+    "symptoms": ["Vomiting", "Diarrhea", "Skin irritation", "Photosensitivity"],
+    "dangerous_amount": "Skin and seeds are more toxic than the flesh. Large amounts of peel are the main concern.",
+    "first_aid": "Contact vet if more than a small amount was consumed. Generally self-limiting GI symptoms.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Currants",
+    "slug": "currants",
+    "toxicity_level": "high",
+    "toxic_compound": "Unknown — suspected similar mechanism to grapes",
+    "symptoms": ["Vomiting", "Diarrhea", "Lethargy", "Loss of appetite", "Acute kidney failure"],
+    "dangerous_amount": "All types of currants (black, red, white) are suspected to carry similar toxicity to grapes. No safe threshold known.",
+    "first_aid": "Treat as a grape/raisin emergency. Contact vet immediately. Induced vomiting if recent ingestion.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Chives",
+    "slug": "chives",
+    "toxicity_level": "moderate",
+    "toxic_compound": "Organosulfur compounds",
+    "symptoms": ["Lethargy", "Vomiting", "Diarrhea", "Pale gums", "Rapid heart rate", "Hemolytic anemia"],
+    "dangerous_amount": "Member of the Allium family alongside onion and garlic. All forms (fresh, dried, cooked) are toxic. Toxic at similar thresholds to onion (0.5% body weight).",
+    "first_aid": "Contact vet. Blood work to check for anemia. Supportive care.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Leeks",
+    "slug": "leeks",
+    "toxicity_level": "moderate",
+    "toxic_compound": "Organosulfur compounds (thiosulfates)",
+    "symptoms": ["Lethargy", "Vomiting", "Diarrhea", "Pale gums", "Elevated heart rate", "Hemolytic anemia"],
+    "dangerous_amount": "Part of the Allium family. Toxic in all forms. Less commonly consumed by dogs but dangerous at similar levels to onion.",
+    "first_aid": "Contact vet. Blood tests to monitor red blood cell damage. Supportive care or transfusion if severe anemia.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Shallots",
+    "slug": "shallots",
+    "toxicity_level": "high",
+    "toxic_compound": "Organosulfur compounds — more concentrated than onion",
+    "symptoms": ["Lethargy", "Weakness", "Vomiting", "Diarrhea", "Pale gums", "Hemolytic anemia"],
+    "dangerous_amount": "More potent than regular onions. All forms toxic. A smaller quantity can cause the same degree of toxicity as a larger amount of onion.",
+    "first_aid": "Contact vet immediately. Same treatment protocol as onion toxicity.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Tobacco and Nicotine Products",
+    "slug": "tobacco-nicotine",
+    "toxicity_level": "severe",
+    "toxic_compound": "Nicotine",
+    "symptoms": ["Vomiting", "Tremors", "Seizures", "Rapid heart rate", "Collapse", "Death"],
+    "dangerous_amount": "Toxic at 0.5-1mg nicotine per kg. Cigarettes contain 9-30mg of nicotine each. E-cigarette liquid (vape juice) is especially dangerous as it contains concentrated nicotine.",
+    "first_aid": "EMERGENCY — contact vet or poison control immediately. Induced vomiting if directed. Treatment for seizures and cardiac symptoms.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Marijuana / Cannabis",
+    "slug": "cannabis",
+    "toxicity_level": "moderate",
+    "toxic_compound": "THC (delta-9-tetrahydrocannabinol)",
+    "symptoms": ["Lethargy", "Loss of coordination", "Glassy eyes", "Drooling", "Vomiting", "Urinary incontinence", "Tremors", "Coma"],
+    "dangerous_amount": "Dogs are more sensitive to THC than humans. Edibles containing chocolate or xylitol pose a compounded risk. CBD alone is lower risk but still not proven safe.",
+    "first_aid": "Contact vet. Be honest about exposure — vets are not required to report this. Supportive care is the main treatment.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Hops",
+    "slug": "hops",
+    "toxicity_level": "high",
+    "toxic_compound": "Unknown compound — causes malignant hyperthermia",
+    "symptoms": ["Rapid panting", "High fever (up to 107°F)", "Restlessness", "Seizures", "Death"],
+    "dangerous_amount": "Used in home beer brewing. Even small amounts of spent or dried hops can be deadly. Certain breeds (Greyhounds, Labrador Retrievers) may be especially sensitive.",
+    "first_aid": "EMERGENCY — contact vet immediately. Requires aggressive cooling and supportive care. Rapid fatality possible.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Yeast Extract (Marmite / Vegemite)",
+    "slug": "yeast-extract",
+    "toxicity_level": "low",
+    "toxic_compound": "Very high sodium content",
+    "symptoms": ["Excessive thirst", "Vomiting", "Diarrhea", "Sodium ion toxicity in large amounts"],
+    "dangerous_amount": "Not acutely toxic in small amounts but the extremely high salt content makes it unsafe in any meaningful quantity, especially for small dogs.",
+    "first_aid": "Provide fresh water. Contact vet if large amounts consumed. Monitor for signs of sodium toxicity.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Nutmeg (large quantities)",
+    "slug": "nutmeg-large",
+    "toxicity_level": "moderate",
+    "toxic_compound": "Myristicin",
+    "symptoms": ["Hallucinations", "Disorientation", "Increased heart rate", "High blood pressure", "Abdominal pain", "Seizures"],
+    "dangerous_amount": "Trace amounts in baked goods unlikely to cause harm. 1-2 teaspoons of nutmeg is toxic for most dogs. Ground nutmeg in a shared dessert warrants monitoring.",
+    "first_aid": "Contact vet if more than a small pinch was ingested. Supportive care for cardiac and neurological symptoms.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Corn Cobs",
+    "slug": "corn-cobs",
+    "toxicity_level": "moderate",
+    "toxic_compound": "Physical obstruction hazard — no toxic compound",
+    "symptoms": ["Vomiting", "Lethargy", "Loss of appetite", "Abdominal pain", "Straining to defecate", "Intestinal blockage"],
+    "dangerous_amount": "Corn kernels are safe for dogs. The cob is the danger — its fibrous, dense texture resists digestion and can cause a life-threatening intestinal obstruction.",
+    "first_aid": "Contact vet immediately if a cob or large piece was swallowed. Often requires endoscopy or surgery to remove.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Fruit Stones and Pits (General)",
+    "slug": "fruit-pits",
+    "toxicity_level": "moderate",
+    "toxic_compound": "Amygdalin (cyanide precursor) and physical obstruction",
+    "symptoms": ["Choking", "Intestinal obstruction", "Vomiting", "Lethargy", "Signs of cyanide poisoning if chewed"],
+    "dangerous_amount": "Applies to apricot, cherry, mango, and plum pits. Physical blockage risk from any large pit. Cyanide risk if the pit is crushed or chewed.",
+    "first_aid": "Contact vet if a pit was swallowed. X-ray may be needed to assess blockage. Monitor for cyanide symptoms.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Milk and Dairy (in excess)",
+    "slug": "dairy",
+    "toxicity_level": "low",
+    "toxic_compound": "Lactose",
+    "symptoms": ["Diarrhea", "Loose stools", "Flatulence", "Vomiting", "Abdominal discomfort"],
+    "dangerous_amount": "Most adult dogs are lactose intolerant to varying degrees. Small amounts of plain yogurt or hard cheese may be tolerated, but milk and ice cream commonly cause GI upset.",
+    "first_aid": "Not a poison emergency. Provide water and bland diet. Contact vet if diarrhea is severe or prolonged.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Ice Cream",
+    "slug": "ice-cream",
+    "toxicity_level": "low",
+    "toxic_compound": "Lactose and sugar; xylitol in sugar-free varieties",
+    "symptoms": ["Vomiting", "Diarrhea", "Bloating", "Xylitol poisoning if sugar-free"],
+    "dangerous_amount": "Regular ice cream is a GI irritant due to dairy and sugar. Sugar-free varieties may contain xylitol, which is severely toxic.",
+    "first_aid": "Check the label for xylitol. If present, treat as xylitol emergency. Otherwise, monitor for GI symptoms and provide water.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Chewing Gum (Sugar-Free)",
+    "slug": "sugar-free-gum",
+    "toxicity_level": "severe",
+    "toxic_compound": "Xylitol",
+    "symptoms": ["Vomiting", "Lethargy", "Seizures", "Hypoglycemia", "Liver failure"],
+    "dangerous_amount": "Just a few sticks of xylitol-containing gum can be fatal for small dogs. Brands including Trident, Extra, and Orbit commonly contain xylitol.",
+    "first_aid": "EMERGENCY — contact vet immediately. Do not wait for symptoms. Requires IV dextrose and liver monitoring.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Peanut Butter (with Xylitol)",
+    "slug": "peanut-butter-xylitol",
+    "toxicity_level": "severe",
+    "toxic_compound": "Xylitol",
+    "symptoms": ["Vomiting", "Weakness", "Hypoglycemia", "Seizures", "Liver failure"],
+    "dangerous_amount": "Several popular and store-brand peanut butter products use xylitol as a sweetener. Always read the label. Regular unsalted peanut butter is generally safe.",
+    "first_aid": "EMERGENCY if xylitol is listed. Contact vet immediately. Check the label before giving any peanut butter product.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Mouldy Food",
+    "slug": "mouldy-food",
+    "toxicity_level": "high",
+    "toxic_compound": "Mycotoxins (tremorgenic mycotoxins from Penicillium and Aspergillus molds)",
+    "symptoms": ["Tremors", "Seizures", "Vomiting", "Drooling", "Elevated temperature", "Incoordination"],
+    "dangerous_amount": "Any mouldy food is dangerous. Blue cheese, mouldy bread, spoiled nuts, and compost scraps are common culprits. Effects can be rapid and severe.",
+    "first_aid": "Contact vet or poison control immediately. Induced vomiting may be appropriate if very recent. Anticonvulsants for seizures. IV fluids for support.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Raw Meat with Listeria / Salmonella",
+    "slug": "raw-meat-bacteria",
+    "toxicity_level": "moderate",
+    "toxic_compound": "Salmonella spp., Listeria monocytogenes",
+    "symptoms": ["Vomiting", "Diarrhea", "Fever", "Lethargy", "Loss of appetite", "Potentially serious systemic infection"],
+    "dangerous_amount": "Risk varies by source and handling. Puppies, elderly dogs, immunocompromised dogs, and households with young children or pregnant women are at highest risk.",
+    "first_aid": "Contact vet if dog shows signs of illness. Note that infected dogs can shed Salmonella to humans without appearing ill. Hand washing is critical.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Coffee Grounds",
+    "slug": "coffee-grounds",
+    "toxicity_level": "high",
+    "toxic_compound": "Caffeine",
+    "symptoms": ["Restlessness", "Rapid breathing", "Muscle tremors", "Elevated heart rate", "Seizures"],
+    "dangerous_amount": "Coffee grounds contain highly concentrated caffeine. Even a small amount of grounds can be dangerous to a small dog. Instant coffee is also highly concentrated.",
+    "first_aid": "Contact vet immediately. Induced vomiting if very recent. IV fluids and cardiac monitoring.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Tea (strong or large amounts)",
+    "slug": "tea",
+    "toxicity_level": "low",
+    "toxic_compound": "Caffeine and tannins",
+    "symptoms": ["Restlessness", "Vomiting", "Elevated heart rate", "Tremors"],
+    "dangerous_amount": "A small accidental lick of cooled tea is unlikely to cause harm, but larger amounts and especially tea bags (concentrated caffeine) are concerning.",
+    "first_aid": "Contact vet if a significant amount of tea or a tea bag was consumed. Monitor for caffeine toxicity symptoms.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Energy Drinks",
+    "slug": "energy-drinks",
+    "toxicity_level": "high",
+    "toxic_compound": "Caffeine, taurine, and other stimulants",
+    "symptoms": ["Rapid heart rate", "Muscle tremors", "Seizures", "Vomiting", "Collapse"],
+    "dangerous_amount": "Even a small amount is very dangerous due to high caffeine concentration. Some energy drinks also contain xylitol.",
+    "first_aid": "Contact vet immediately. Check label for xylitol. Treat as caffeine emergency.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Xylitol in Medications",
+    "slug": "xylitol-medications",
+    "toxicity_level": "severe",
+    "toxic_compound": "Xylitol",
+    "symptoms": ["Hypoglycemia", "Vomiting", "Lethargy", "Seizures", "Liver failure"],
+    "dangerous_amount": "Found in some chewable vitamins, liquid medications, nasal sprays, and throat lozenges. Always check inactive ingredients before giving any human product to a dog.",
+    "first_aid": "EMERGENCY — contact vet or ASPCA Poison Control. Requires immediate blood glucose monitoring and IV dextrose.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Baking Powder",
+    "slug": "baking-powder",
+    "toxicity_level": "moderate",
+    "toxic_compound": "Sodium bicarbonate and potassium bitartrate",
+    "symptoms": ["Vomiting", "Diarrhea", "Muscle tremors", "Congestive heart failure", "Electrolyte imbalance"],
+    "dangerous_amount": "Toxic at approximately 10-20g per kg. A small dog eating raw cookie dough or unbaked goods could ingest a dangerous amount.",
+    "first_aid": "Contact vet. Monitor electrolyte levels. IV fluids for serious cases.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Baking Soda (large amounts)",
+    "slug": "baking-soda",
+    "toxicity_level": "moderate",
+    "toxic_compound": "Sodium bicarbonate",
+    "symptoms": ["Vomiting", "Diarrhea", "Muscle tremors", "Spasms", "Congestive heart failure"],
+    "dangerous_amount": "Toxic dose approximately 10-20g per kg. Not dangerous in trace amounts in cooked food, but concerning if a dog eats raw dough or spilled quantities.",
+    "first_aid": "Contact vet if more than a trivial amount was consumed. Monitor for electrolyte imbalance.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Blue-Green Algae (water)",
+    "slug": "blue-green-algae",
+    "toxicity_level": "severe",
+    "toxic_compound": "Cyanotoxins (microcystins, anatoxins)",
+    "symptoms": ["Vomiting", "Diarrhea", "Weakness", "Seizures", "Liver failure", "Respiratory paralysis", "Death within hours"],
+    "dangerous_amount": "Any contact or ingestion is an emergency. Found in warm, stagnant ponds and lakes in summer. Even licking fur after swimming in affected water can be fatal.",
+    "first_aid": "EMERGENCY — contact vet immediately. Rinse dog with clean water if it swam in suspected bloom. There is no antidote; treatment is supportive.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Human Vitamins with Iron",
+    "slug": "iron-vitamins",
+    "toxicity_level": "moderate",
+    "toxic_compound": "Iron (ferrous sulphate)",
+    "symptoms": ["Vomiting", "Diarrhea", "Lethargy", "Abdominal pain", "Bloody stool", "Liver damage"],
+    "dangerous_amount": "Iron toxicity occurs at approximately 20mg per kg. Prenatal vitamins contain particularly high iron levels. Keep all human vitamins away from dogs.",
+    "first_aid": "Contact vet or poison control. Induced vomiting if recent. May require chelation therapy for serious cases.",
+    "source": "ASPCA"
+  },
+  {
+    "name": "Ibuprofen and NSAIDs",
+    "slug": "ibuprofen-nsaids",
+    "toxicity_level": "severe",
+    "toxic_compound": "Ibuprofen, naproxen, and related NSAIDs",
+    "symptoms": ["Vomiting", "Diarrhea", "Bloody stool", "Lethargy", "Kidney failure", "Stomach ulcers", "Seizures"],
+    "dangerous_amount": "Ibuprofen is toxic at as little as 25mg per kg. A single standard 200mg tablet can cause toxicity in a small dog. Never give human pain medication to dogs.",
+    "first_aid": "EMERGENCY — contact vet or poison control immediately. Induced vomiting, activated charcoal, IV fluids, and kidney monitoring required.",
+    "source": "ASPCA"
+  }
+]

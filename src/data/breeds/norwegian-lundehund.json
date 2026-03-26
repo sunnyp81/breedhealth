@@ -1,0 +1,84 @@
+{
+  "name": "Norwegian Lundehund",
+  "slug": "norwegian-lundehund",
+  "group": "Non-Sporting",
+  "size": "small",
+  "weight_min_kg": 6,
+  "weight_max_kg": 9,
+  "height_min_cm": 30,
+  "height_max_cm": 38,
+  "lifespan_min": 12,
+  "lifespan_max": 14,
+  "temperament": [
+    "energetic",
+    "alert",
+    "loyal",
+    "curious"
+  ],
+  "health_issues": [
+    "lundehund-syndrome",
+    "gastrointestinal-disease",
+    "protein-losing-enteropathy"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 2,
+  "shedding_level": 3,
+  "trainability": 2,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 163,
+  "origin": "Norway",
+  "coat_type": "double",
+  "coat_colors": [
+    "reddish-brown",
+    "fallow",
+    "black",
+    "white"
+  ],
+  "description": "The Norwegian Lundehund is one of the world's most unique dogs, possessing six toes on each foot, the ability to tip its head backwards to touch its spine, and ears that fold shut — all adaptations for climbing steep Norwegian cliffs to retrieve puffin birds from narrow crevices. This ancient Spitz-type breed nearly went extinct during World War II, with the entire population reduced to just a handful of dogs on one remote Norwegian island. The Lundehund's distinctive anatomy and prehistoric origins make it one of the most fascinating breeds in existence.",
+  "conditions_detail": [],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "French Bulldog",
+      "slug": "french-bulldog",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bulldog",
+      "slug": "bulldog",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Boston Terrier",
+      "slug": "boston-terrier",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bichon Frise",
+      "slug": "bichon-frise",
+      "size": "small",
+      "group": "Non-Sporting"
+    }
+  ],
+  "comparisons": []
+}

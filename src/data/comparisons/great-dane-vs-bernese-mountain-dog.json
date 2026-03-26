@@ -1,0 +1,174 @@
+{
+  "slug": "great-dane-vs-bernese-mountain-dog",
+  "breed_a": {
+    "name": "Great Dane",
+    "slug": "great-dane",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 50,
+    "weight_max_kg": 82,
+    "height_min_cm": 71,
+    "height_max_cm": 86,
+    "lifespan_min": 7,
+    "lifespan_max": 10,
+    "temperament": [
+      "friendly",
+      "patient",
+      "dependable",
+      "gentle",
+      "reserved"
+    ],
+    "health_issues": [
+      "bloat",
+      "hip-dysplasia",
+      "dilated-cardiomyopathy",
+      "osteosarcoma",
+      "wobbler-syndrome"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 1,
+    "shedding_level": 2,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 15,
+    "origin": "Germany",
+    "coat_type": "short smooth",
+    "coat_colors": [
+      "fawn",
+      "brindle",
+      "blue",
+      "black",
+      "harlequin",
+      "mantle"
+    ],
+    "description": "The Great Dane holds the record for the world's tallest domestic dog, with males routinely exceeding 80 cm at the shoulder, yet their gentle, friendly disposition has earned them the nickname the Gentle Giant of the dog world. Developed in Germany for boar hunting, modern Great Danes are calm, affectionate companions whose sheer size means early obedience training is not optional — an untrained 80 kg dog is unmanageable. Despite their imposing stature, they are sensitive dogs that respond poorly to harsh handling and form close bonds with their families."
+  },
+  "breed_b": {
+    "name": "Bernese Mountain Dog",
+    "slug": "bernese-mountain-dog",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 32,
+    "weight_max_kg": 52,
+    "height_min_cm": 58,
+    "height_max_cm": 70,
+    "lifespan_min": 7,
+    "lifespan_max": 10,
+    "temperament": [
+      "good-natured",
+      "calm",
+      "strong",
+      "intelligent",
+      "loyal"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "cancer",
+      "bloat",
+      "von-willebrands-disease"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 4,
+    "shedding_level": 4,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 29,
+    "origin": "Switzerland",
+    "coat_type": "long thick double",
+    "coat_colors": [
+      "tricolor black white and rust"
+    ],
+    "description": "One of four Swiss Sennenhund breeds developed in the Bernese Oberland for herding cattle, pulling carts, and guarding Alpine farms, the Bernese Mountain Dog is the most widely owned of the four outside Switzerland. Their striking tricolor coat, gentle giant temperament, and patience with children make them beloved family dogs, but cancer claims more than half of all Berners before age 10, making the breed's tragically short lifespan its most heartbreaking characteristic. Sourcing from a breeder who health-tests for cancer, hip, and elbow conditions in both parents is an absolute minimum requirement."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 7,
+      "breed_b_value": 7,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 10,
+      "breed_b_value": 10,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 50,
+      "breed_b_value": 32,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 82,
+      "breed_b_value": 52,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 71,
+      "breed_b_value": 58,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 86,
+      "breed_b_value": 70,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 1,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 2,
+      "breed_b_value": 4,
+      "winner": "great-dane"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "bernese-mountain-dog"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

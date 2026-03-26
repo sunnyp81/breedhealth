@@ -1,0 +1,177 @@
+{
+  "slug": "siberian-husky-vs-alaskan-malamute",
+  "breed_a": {
+    "name": "Siberian Husky",
+    "slug": "siberian-husky",
+    "group": "Working",
+    "size": "medium",
+    "weight_min_kg": 16,
+    "weight_max_kg": 27,
+    "height_min_cm": 51,
+    "height_max_cm": 60,
+    "lifespan_min": 12,
+    "lifespan_max": 14,
+    "temperament": [
+      "outgoing",
+      "mischievous",
+      "loyal",
+      "gentle",
+      "alert"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "progressive-retinal-atrophy",
+      "hypothyroidism",
+      "epilepsy",
+      "zinc-responsive-dermatosis"
+    ],
+    "exercise_level": 5,
+    "grooming_level": 3,
+    "shedding_level": 5,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 16,
+    "origin": "Russia",
+    "coat_type": "medium thick double",
+    "coat_colors": [
+      "black and white",
+      "gray and white",
+      "red and white",
+      "sable and white",
+      "agouti"
+    ],
+    "description": "Developed by the Chukchi people of northeastern Siberia to pull light sleds over enormous distances in extreme cold, the Siberian Husky remains one of the most efficient endurance athletes in the canine world. Their striking appearance — often with blue or heterochromatic eyes and a thick plush double coat — belies a friendly, mischievous personality that can prove challenging for inexperienced owners who underestimate their independence and escape artistry. Huskies have a strong prey drive and a vocal nature, including a distinctive howl that carries for considerable distances."
+  },
+  "breed_b": {
+    "name": "Alaskan Malamute",
+    "slug": "alaskan-malamute",
+    "group": "Working",
+    "size": "large",
+    "weight_min_kg": 34,
+    "weight_max_kg": 43,
+    "height_min_cm": 58,
+    "height_max_cm": 64,
+    "lifespan_min": 10,
+    "lifespan_max": 14,
+    "temperament": [
+      "friendly",
+      "playful",
+      "loyal",
+      "dignified",
+      "devoted"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "hypothyroidism",
+      "cataracts",
+      "progressive-retinal-atrophy",
+      "polyneuropathy"
+    ],
+    "exercise_level": 5,
+    "grooming_level": 3,
+    "shedding_level": 5,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": false,
+    "apartment_friendly": false,
+    "popularity_rank": 35,
+    "origin": "United States",
+    "coat_type": "thick double",
+    "coat_colors": [
+      "gray and white",
+      "sable and white",
+      "black and white",
+      "red and white",
+      "seal and white"
+    ],
+    "description": "One of the oldest Arctic sled dog breeds, the Alaskan Malamute was developed by the Mahlemut Inuit tribe of Alaska to haul heavy freight over vast distances in brutal polar conditions, and retains the powerful build and endurance of its working heritage. Unlike the Siberian Husky built for speed, the Malamute is a freight dog built for strength, capable of pulling loads far exceeding its own body weight. They are independent, self-reliant dogs with a strong prey drive and a tendency toward same-sex dog aggression that requires confident, experienced handling."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 10,
+      "winner": "siberian-husky"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 14,
+      "breed_b_value": 14,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 16,
+      "breed_b_value": 34,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 27,
+      "breed_b_value": 43,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 51,
+      "breed_b_value": 58,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 60,
+      "breed_b_value": 64,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": false,
+      "winner": "siberian-husky"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

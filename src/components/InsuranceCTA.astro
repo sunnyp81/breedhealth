@@ -1,0 +1,170 @@
+---
+interface Props {
+  breedName?: string;
+}
+
+const { breedName } = Astro.props;
+
+const heading = breedName
+  ? `Protect your ${breedName}`
+  : 'Protect your dog';
+
+// Breed-specific vet cost hint if available
+const costHint = breedName
+  ? `${breedName}s can face unexpected health costs — some treatments run into thousands of pounds.`
+  : 'Dogs can face unexpected health costs — some treatments run into thousands of pounds.';
+---
+
+<aside
+  style="
+    background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-dark) 100%);
+    border-radius: 14px;
+    padding: 1.75rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+    overflow: hidden;
+  "
+  aria-label="Pet insurance promotion"
+>
+  <!-- Decorative background circle -->
+  <div
+    aria-hidden="true"
+    style="
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.12);
+      pointer-events: none;
+    "
+  ></div>
+  <div
+    aria-hidden="true"
+    style="
+      position: absolute;
+      bottom: -30px;
+      left: -20px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.08);
+      pointer-events: none;
+    "
+  ></div>
+
+  <!-- Shield / protect icon -->
+  <div style="display:flex; align-items:center; gap:0.65rem;">
+    <div
+      style="
+        width: 42px;
+        height: 42px;
+        border-radius: 10px;
+        background: rgba(255,255,255,0.25);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      "
+      aria-hidden="true"
+    >
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+        <polyline points="9 12 11 14 15 10"/>
+      </svg>
+    </div>
+    <span
+      style="
+        font-size: 0.72rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: rgba(44,24,16,0.75);
+      "
+    >
+      Pet Insurance
+    </span>
+  </div>
+
+  <!-- Heading -->
+  <h2
+    style="
+      margin: 0;
+      font-size: 1.45rem;
+      font-weight: 800;
+      color: var(--color-text);
+      line-height: 1.2;
+      position: relative;
+    "
+  >
+    {heading}
+  </h2>
+
+  <!-- Body copy -->
+  <div style="display:flex; flex-direction:column; gap:0.5rem; position:relative;">
+    <p style="margin:0; font-size:0.925rem; color:var(--color-text); line-height:1.6;">
+      {costHint} A good pet insurance policy can cover vet bills, surgery, and ongoing treatment — giving you peace of mind from day one.
+    </p>
+    <ul
+      style="
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem 1.25rem;
+        font-size: 0.84rem;
+        color: var(--color-text);
+        font-weight: 500;
+      "
+    >
+      {[
+        'Vet fee cover up to £15,000+',
+        'Hereditary condition cover available',
+        'Get quotes in under 2 minutes',
+      ].map((point) => (
+        <li style="display:flex; align-items:center; gap:0.35rem;">
+          <span aria-hidden="true" style="color:var(--color-primary); font-weight:700;">✓</span>
+          {point}
+        </li>
+      ))}
+    </ul>
+  </div>
+
+  <!-- CTA button + subtext -->
+  <div style="display:flex; flex-direction:column; gap:0.5rem; position:relative;">
+    <a
+      href="#"
+      style="
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.4rem;
+        padding: 0.75rem 1.5rem;
+        background: var(--color-primary);
+        color: #fff;
+        font-size: 0.95rem;
+        font-weight: 700;
+        border-radius: 9px;
+        text-decoration: none;
+        align-self: flex-start;
+        box-shadow: 0 2px 8px rgba(45,95,45,0.35);
+        transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
+      "
+      onmouseover="this.style.background='var(--color-primary-dark)'; this.style.transform='translateY(-1px)'; this.style.boxShadow='0 4px 14px rgba(45,95,45,0.45)';"
+      onmouseout="this.style.background='var(--color-primary)'; this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(45,95,45,0.35)';"
+    >
+      <!-- Arrow icon -->
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+      Compare Pet Insurance
+    </a>
+    <p style="margin:0; font-size:0.72rem; color:rgba(44,24,16,0.65);">
+      Free to compare · No obligation · Takes under 2 minutes
+    </p>
+  </div>
+</aside>

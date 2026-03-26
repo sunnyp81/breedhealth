@@ -1,0 +1,287 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import AffiliateProductCard from '../../components/AffiliateProductCard.astro';
+import AdSlot from '../../components/AdSlot.astro';
+
+import { getAllDiets, getDiet } from '../../lib/data';
+import { generateBreadcrumbSchema } from '../../lib/schema';
+
+import type { GetStaticPaths } from 'astro';
+import type { DietType, DietFeedingGuidelines } from '../../lib/types';
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const diets = await getAllDiets();
+  return diets.map((summary) => ({
+    params: { type: summary.slug },
+    props: { slug: summary.slug },
+  }));
+};
+
+interface Props {
+  slug: string;
+}
+
+const { slug } = Astro.props;
+
+const diet = await getDiet(slug) as DietType;
+
+const siteUrl = 'https://breedhealth.co.uk';
+const pageUrl = `${siteUrl}/diet/${diet.slug}/`;
+
+const breadcrumbSchema = generateBreadcrumbSchema([
+  { name: 'Home',             url: `${siteUrl}/` },
+  { name: 'Diet & Nutrition', url: `${siteUrl}/diet/` },
+  { name: diet.name,          url: pageUrl },
+]);
+
+const breadcrumbItems = [
+  { name: 'Home',             url: '/' },
+  { name: 'Diet & Nutrition', url: '/diet/' },
+  { name: diet.name,          url: `/diet/${diet.slug}/` },
+];
+
+// Size labels for feeding table
+const sizeLabels: { key: keyof DietFeedingGuidelines; label: string; weightRange: string }[] = [
+  { key: 'small',  label: 'Small',  weightRange: 'up to 10 kg'  },
+  { key: 'medium', label: 'Medium', weightRange: '10–25 kg'     },
+  { key: 'large',  label: 'Large',  weightRange: '25–45 kg'     },
+  { key: 'giant',  label: 'Giant',  weightRange: '45 kg+'       },
+];
+
+// Affiliate product cards — derived from diet name
+const affiliateProducts: { category: 'food' | 'supplement' | 'grooming' | 'crate'; title: string; description: string }[] = [
+  {
+    category: 'food',
+    title: `${diet.name} Dog Food — Top Pick`,
+    description: `A leading ${diet.name.toLowerCase()} formula with high-quality protein as the first ingredient. Suitable for adult dogs across all sizes. ${diet.benefits.length > 0 ? diet.benefits[0] + '.' : ''}`,
+  },
+  {
+    category: 'food',
+    title: `${diet.name} Wet Food for Dogs`,
+    description: `A wet ${diet.name.toLowerCase()} option for dogs that prefer a softer texture or need extra hydration. ${diet.suitable_for.length > 0 ? 'Particularly suitable for ' + diet.suitable_for[0].toLowerCase() + '.' : ''}`,
+  },
+  {
+    category: 'supplement',
+    title: `Digestive Support Supplement`,
+    description: `Probiotics and digestive enzymes to complement a ${diet.name.toLowerCase()} diet. Helps maintain gut balance, especially during dietary transitions. ${diet.risks.length > 0 ? 'Helps offset: ' + diet.risks[0].toLowerCase() + '.' : ''}`,
+  },
+];
+
+const metaDescription = `Complete guide to the ${diet.name} diet for dogs — benefits, risks, feeding guidelines by size, recommended brands, and which breeds are most suitable.`;
+---
+
+<BaseLayout
+  title={`${diet.name} Dog Food Guide — Benefits, Risks & Brands | BreedHealth`}
+  description={metaDescription}
+  canonicalUrl={pageUrl}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  </Fragment>
+
+  <!-- Breadcrumbs -->
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Page heading -->
+  <h1 class="text-3xl sm:text-4xl font-bold text-primary mt-4 mb-4 leading-tight">
+    {diet.name} Diet for Dogs
+  </h1>
+
+  <!-- Diet description -->
+  <p class="text-text-muted leading-relaxed text-lg mb-8 max-w-3xl">
+    {diet.description}
+  </p>
+
+  <!-- In-content ad -->
+  <div class="my-6">
+    <AdSlot position="in-content" />
+  </div>
+
+  <!-- Benefits + Risks side by side -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
+
+    <!-- Benefits -->
+    {diet.benefits.length > 0 && (
+      <section aria-labelledby="benefits-heading" class="bg-white border border-border rounded-xl p-5">
+        <h2 id="benefits-heading" class="text-xl font-bold text-primary mb-4 flex items-center gap-2">
+          <span aria-hidden="true" style="color:#155724;">&#10003;</span>
+          Benefits
+        </h2>
+        <ul class="space-y-3" role="list">
+          {diet.benefits.map((benefit) => (
+            <li class="flex items-start gap-3">
+              <span
+                aria-hidden="true"
+                style="display:inline-flex; flex-shrink:0; margin-top:2px; width:20px; height:20px; border-radius:9999px; background:#d4edda; border:1px solid #b8dbbf; align-items:center; justify-content:center;"
+              >
+                <svg width="10" height="10" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <polyline points="2,8 6,12 14,4" stroke="#155724" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <span class="text-text-muted leading-relaxed text-sm">{benefit}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <!-- Risks / Considerations -->
+    {diet.risks.length > 0 && (
+      <section aria-labelledby="risks-heading" class="bg-white border border-border rounded-xl p-5">
+        <h2 id="risks-heading" class="text-xl font-bold text-amber-700 mb-4 flex items-center gap-2">
+          <span aria-hidden="true">&#9888;</span>
+          Risks &amp; Considerations
+        </h2>
+        <ul class="space-y-3" role="list">
+          {diet.risks.map((risk) => (
+            <li class="flex items-start gap-3">
+              <span
+                aria-hidden="true"
+                style="display:inline-flex; flex-shrink:0; margin-top:2px; width:20px; height:20px; border-radius:9999px; background:#fff3cd; border:1px solid #f5d87a; align-items:center; justify-content:center;"
+              >
+                <svg width="10" height="10" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <path d="M8 3 L14 13 L2 13 Z" fill="#7a5a00" opacity="0.7"/>
+                  <line x1="8" y1="7" x2="8" y2="10" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+                  <circle cx="8" cy="11.5" r="0.7" fill="#fff"/>
+                </svg>
+              </span>
+              <span class="text-text-muted leading-relaxed text-sm">{risk}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </div>
+
+  <!-- Suitable for -->
+  {diet.suitable_for.length > 0 && (
+    <section aria-labelledby="suitable-for-heading" class="mb-10">
+      <h2 id="suitable-for-heading" class="text-2xl font-bold text-primary mb-3">
+        Who Is This Diet Suitable For?
+      </h2>
+      <div class="flex flex-wrap gap-2">
+        {diet.suitable_for.map((item) => (
+          <span class="inline-flex items-center px-3 py-1.5 bg-bg-alt border border-border rounded-full text-sm text-text-muted font-medium capitalize">
+            {item}
+          </span>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- Feeding guidelines table -->
+  <section aria-labelledby="feeding-guidelines-heading" class="mb-10">
+    <h2 id="feeding-guidelines-heading" class="text-2xl font-bold text-primary mb-4">
+      Feeding Guidelines by Dog Size
+    </h2>
+    <p class="text-text-muted text-sm leading-relaxed mb-4 max-w-3xl">
+      These are general guidelines for the {diet.name} diet. Always adjust portions based on your dog's individual weight, activity level, and life stage. Consult your vet before making significant changes to your dog's diet.
+    </p>
+    <div class="overflow-x-auto -webkit-overflow-scrolling-touch">
+      <table
+        class="w-full border-collapse text-sm bg-white border border-border rounded-xl overflow-hidden"
+        style="min-width:480px;"
+      >
+        <thead>
+          <tr class="bg-primary text-white">
+            <th class="text-left px-4 py-3 font-semibold text-xs uppercase tracking-wide w-1/4">Size</th>
+            <th class="text-left px-4 py-3 font-semibold text-xs uppercase tracking-wide w-1/4">Weight Range</th>
+            <th class="text-left px-4 py-3 font-semibold text-xs uppercase tracking-wide w-1/4">Cups Per Day</th>
+            <th class="text-left px-4 py-3 font-semibold text-xs uppercase tracking-wide w-1/4">Feeding Frequency</th>
+          </tr>
+        </thead>
+        <tbody>
+          {sizeLabels.map(({ key, label, weightRange }, idx) => {
+            const guide = diet.feeding_guidelines[key];
+            return guide ? (
+              <tr class={idx % 2 === 0 ? 'bg-white' : 'bg-bg'} style="border-top:1px solid var(--color-border);">
+                <td class="px-4 py-3 font-semibold text-text">{label}</td>
+                <td class="px-4 py-3 text-text-muted">{weightRange}</td>
+                <td class="px-4 py-3 text-text">{guide.cups_per_day} cups</td>
+                <td class="px-4 py-3 text-text-muted">{guide.frequency}</td>
+              </tr>
+            ) : null;
+          })}
+        </tbody>
+      </table>
+    </div>
+    <p class="mt-2 text-xs text-text-light">
+      Cups are a rough guide based on standard 8 fl oz measuring cups. Always follow the manufacturer's label for calorie-dense or prescription formulas.
+    </p>
+  </section>
+
+  <!-- Recommended brands -->
+  {diet.recommended_brands.length > 0 && (
+    <section aria-labelledby="brands-heading" class="mb-10">
+      <h2 id="brands-heading" class="text-2xl font-bold text-primary mb-4">
+        Recommended Brands
+      </h2>
+      <p class="text-text-muted text-sm leading-relaxed mb-4 max-w-3xl">
+        The following brands are well-regarded within the {diet.name.toLowerCase()} category. Look for products where a named protein source appears as the first ingredient.
+      </p>
+      <ul class="flex flex-wrap gap-3" role="list">
+        {diet.recommended_brands.map((brand) => (
+          <li>
+            <span class="inline-flex items-center px-4 py-2 bg-white border border-border rounded-full text-sm font-medium text-text">
+              {brand}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <!-- Affiliate product cards -->
+  <section aria-labelledby="products-heading" class="mb-10">
+    <h2 id="products-heading" class="text-2xl font-bold text-primary mb-5">
+      Top Picks: {diet.name} Dog Food
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      {affiliateProducts.map((product) => (
+        <AffiliateProductCard
+          title={product.title}
+          description={product.description}
+          category={product.category}
+        />
+      ))}
+    </div>
+  </section>
+
+  <!-- Suitable breeds section -->
+  {diet.suitable_breeds.length > 0 && (
+    <section aria-labelledby="suitable-breeds-heading" class="mb-10">
+      <h2 id="suitable-breeds-heading" class="text-2xl font-bold text-primary mb-2">
+        Breeds That Benefit From a {diet.name} Diet
+      </h2>
+      <p class="text-text-muted leading-relaxed mb-5 max-w-3xl text-sm">
+        The {diet.name} diet is particularly well-suited to these breeds. Click any breed to view their full diet and nutrition guide.
+      </p>
+      <ul class="flex flex-wrap gap-3" role="list">
+        {diet.suitable_breeds.map((b: any) => (
+          <li>
+            <a
+              href={`/breeds/${typeof b === 'string' ? b : b.slug}/diet/`}
+              class="inline-flex items-center px-4 py-2 bg-white border border-border rounded-full text-sm font-medium text-text hover:text-primary hover:border-primary transition-colors no-underline capitalize"
+            >
+              {typeof b === 'string' ? b.replace(/-/g, ' ') : b.name}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <!-- Back to all diets -->
+  <div class="mt-8 pt-8 border-t border-border">
+    <a
+      href="/diet/"
+      class="inline-flex items-center gap-2 text-primary font-semibold hover:underline no-underline text-sm"
+    >
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      All Diet Types
+    </a>
+  </div>
+</BaseLayout>

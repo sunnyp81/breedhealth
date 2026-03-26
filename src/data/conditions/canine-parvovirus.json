@@ -1,0 +1,28 @@
+{
+  "name": "Canine Parvovirus",
+  "slug": "canine-parvovirus",
+  "category": "Gastrointestinal",
+  "description": "Canine parvovirus is a highly contagious viral disease causing severe haemorrhagic gastroenteritis and immunosuppression, particularly dangerous in unvaccinated puppies. The virus is resistant to most disinfectants and can persist in the environment for months.",
+  "symptoms": [
+    "Severe bloody diarrhoea",
+    "Profuse vomiting",
+    "Lethargy",
+    "Fever then hypothermia",
+    "Dehydration",
+    "Collapse"
+  ],
+  "severity": "high",
+  "treatment_overview": "Intensive supportive care with IV fluids, antibiotics to prevent secondary bacterial infection, anti-nausea drugs, and nutritional support. Hospitalisation for 3-5 days. Survival rate is 70-90% with intensive treatment.",
+  "prevention_tips": [
+    "Core vaccination — essential",
+    "Avoid unvaccinated dogs and contaminated environments before full vaccination",
+    "Disinfect with bleach solution"
+  ],
+  "affected_breeds": [
+    "all unvaccinated dogs (Rottweiler and Dobermann may have increased susceptibility)"
+  ],
+  "typical_onset": "6 weeks - 6 months primarily",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,500-£5,000",
+  "breeds_detail": []
+}

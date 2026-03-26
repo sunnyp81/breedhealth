@@ -1,0 +1,55 @@
+{
+  "name": "Cryptorchidism",
+  "slug": "cryptorchidism",
+  "category": "Urinary",
+  "description": "Cryptorchidism is failure of one or both testicles to descend into the scrotum by 6-8 weeks of age. Retained testicles are at significantly higher risk of torsion and Sertoli cell tumour development and must be surgically removed.",
+  "symptoms": [
+    "Absent or asymmetric scrotum",
+    "Retained testicle palpable in inguinal region or abdomen",
+    "Sudden abdominal pain if torsion",
+    "Feminisation syndrome if Sertoli cell tumour develops"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Surgical orchidectomy of the retained testicle (and the descended one) is essential. Retained testicles cannot be medically induced to descend and carry tumour risk.",
+  "prevention_tips": [
+    "Do not breed from cryptorchid males or their sires",
+    "Genetic component — avoid breeding close relatives of affected dogs"
+  ],
+  "affected_breeds": [
+    "miniature-poodle",
+    "pomeranian",
+    "yorkshire-terrier",
+    "dachshund",
+    "chihuahua",
+    "siberian-husky"
+  ],
+  "typical_onset": "Birth — detected at 6-8 week check",
+  "hereditary": true,
+  "estimated_treatment_cost": "£500-£1,500",
+  "breeds_detail": [
+    {
+      "name": "Pomeranian",
+      "slug": "pomeranian",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Yorkshire Terrier",
+      "slug": "yorkshire-terrier",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Siberian Husky",
+      "slug": "siberian-husky",
+      "size": "medium",
+      "group": "Working"
+    }
+  ]
+}

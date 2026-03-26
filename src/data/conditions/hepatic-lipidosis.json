@@ -1,0 +1,43 @@
+{
+  "name": "Hepatic Lipidosis (Fatty Liver)",
+  "slug": "hepatic-lipidosis",
+  "category": "Gastrointestinal",
+  "description": "Hepatic lipidosis is uncommon in dogs compared to cats, but occurs as a complication of severe obesity and rapid weight loss, diabetes, or other metabolic disorders. Fat accumulation in liver cells impairs hepatic function.",
+  "symptoms": [
+    "Vomiting",
+    "Jaundice",
+    "Lethargy",
+    "Reduced appetite",
+    "Elevated liver enzymes on blood test",
+    "Weight loss"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Nutritional support via feeding tube to prevent further fat mobilisation, treatment of the underlying cause, and liver-supportive medications (SAMe, milk thistle). Recovery is usually possible with aggressive treatment.",
+  "prevention_tips": [
+    "Maintain healthy weight",
+    "Avoid extreme fasting or rapid weight loss programmes",
+    "Treat diabetes and metabolic disease promptly"
+  ],
+  "affected_breeds": [
+    "miniature-schnauzer",
+    "dachshund",
+    "shetland-sheepdog (predisposed to liver disease)"
+  ],
+  "typical_onset": "5-10 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,000-£3,500",
+  "breeds_detail": [
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    }
+  ]
+}

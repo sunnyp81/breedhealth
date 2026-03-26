@@ -1,0 +1,54 @@
+{
+  "name": "Exercise-Induced Collapse (EIC)",
+  "slug": "exercise-induced-collapse",
+  "category": "Neurological",
+  "description": "EIC is a hereditary condition in Labrador Retrievers (and some related breeds) caused by a mutation in the dynamin-1 gene. Intense exercise causes episodes of collapse and incoordination, typically lasting 5-30 minutes, after which dogs fully recover.",
+  "symptoms": [
+    "Collapse after intense exercise",
+    "Hind limb weakness and incoordination during episode",
+    "Hyperthermia",
+    "Full recovery within 30 minutes",
+    "Dogs appear normal at rest"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Avoidance of intense exercise is the primary management strategy. Affected dogs should not be used in high-drive activities. Most dogs can have normal quality of life with exercise modifications. Rare cases of severe episodes can be fatal.",
+  "prevention_tips": [
+    "DNA test available — test all working Labradors before breeding",
+    "Do not breed affected (EIC/EIC) dogs",
+    "Exercise modification in carriers used for work"
+  ],
+  "affected_breeds": [
+    "labrador-retriever",
+    "chesapeake-bay-retriever",
+    "curly-coated-retriever"
+  ],
+  "typical_onset": "5 months - 3 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£100-£500 (management)",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Chesapeake Bay Retriever",
+      "slug": "chesapeake-bay-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Curly-Coated Retriever",
+      "slug": "curly-coated-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Boykin Spaniel",
+      "slug": "boykin-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    }
+  ]
+}

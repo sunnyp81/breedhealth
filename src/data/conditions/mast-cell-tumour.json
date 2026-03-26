@@ -1,0 +1,68 @@
+{
+  "name": "Mast Cell Tumour",
+  "slug": "mast-cell-tumour",
+  "category": "Cancer",
+  "description": "Mast cell tumours (MCTs) are the most common malignant skin tumours in dogs. They vary enormously in behaviour from benign to highly aggressive. They arise from mast cells and can release histamine causing systemic effects.",
+  "symptoms": [
+    "Skin lump (variable size/appearance)",
+    "Swelling or redness around lump",
+    "Vomiting if GI involvement",
+    "Ulceration",
+    "Sudden lump size change"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Surgical excision with wide margins is the cornerstone of treatment. Grade and stage guide whether adjuvant chemotherapy (vinblastine, prednisolone) or tyrosine kinase inhibitors (toceranib) are needed.",
+  "prevention_tips": [
+    "No proven prevention",
+    "Any new skin lump should be evaluated promptly by fine-needle aspirate"
+  ],
+  "affected_breeds": [
+    "boxer",
+    "labrador-retriever",
+    "golden-retriever",
+    "flat-coated-retriever",
+    "pug",
+    "weimaraner"
+  ],
+  "typical_onset": "8-9 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,500-£8,000",
+  "breeds_detail": [
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Flat-Coated Retriever",
+      "slug": "flat-coated-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Pug",
+      "slug": "pug",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Weimaraner",
+      "slug": "weimaraner",
+      "size": "large",
+      "group": "Sporting"
+    }
+  ]
+}

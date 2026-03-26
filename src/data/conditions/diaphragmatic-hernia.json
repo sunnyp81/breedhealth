@@ -1,0 +1,35 @@
+{
+  "name": "Diaphragmatic Hernia",
+  "slug": "diaphragmatic-hernia",
+  "category": "Respiratory",
+  "description": "A diaphragmatic hernia occurs when a tear in the diaphragm allows abdominal organs (liver, stomach, intestine) to herniate into the thoracic cavity, compressing the lungs and causing respiratory distress. May be congenital or traumatic.",
+  "symptoms": [
+    "Respiratory distress",
+    "Muffled heart sounds",
+    "Reduced lung sounds on one side",
+    "Reduced appetite",
+    "Exercise intolerance",
+    "Cyanosis in severe cases"
+  ],
+  "severity": "high",
+  "treatment_overview": "Surgical repair of the diaphragmatic defect and repositioning of herniated organs is necessary. Timing depends on clinical stability. Prognosis is good if surgery is performed before organs become strangulated.",
+  "prevention_tips": [
+    "Road traffic accident prevention (keep dogs on lead)",
+    "Surgical repair of congenital forms is curative"
+  ],
+  "affected_breeds": [
+    "weimaraner",
+    "wire-haired-fox-terrier (congenital peritoneopericardial)"
+  ],
+  "typical_onset": "Any age (trauma) or birth (congenital)",
+  "hereditary": false,
+  "estimated_treatment_cost": "£2,000-£5,000",
+  "breeds_detail": [
+    {
+      "name": "Weimaraner",
+      "slug": "weimaraner",
+      "size": "large",
+      "group": "Sporting"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "name": "Spinone Italiano",
+  "slug": "spinone-italiano",
+  "group": "Sporting",
+  "size": "large",
+  "weight_min_kg": 29,
+  "weight_max_kg": 39,
+  "height_min_cm": 58,
+  "height_max_cm": 70,
+  "lifespan_min": 12,
+  "lifespan_max": 14,
+  "temperament": [
+    "patient",
+    "docile",
+    "gentle",
+    "loyal",
+    "energetic"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "cerebellar-ataxia",
+    "bloat",
+    "ear-infections",
+    "elbow-dysplasia"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 2,
+  "shedding_level": 2,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 91,
+  "origin": "Italy",
+  "coat_type": "wiry dense",
+  "coat_colors": [
+    "white",
+    "white and orange",
+    "orange roan",
+    "white and brown",
+    "brown roan"
+  ],
+  "description": "The Spinone Italiano is one of the oldest pointing breeds in existence, with origins in the Piedmont region of Italy traceable to at least the 15th century, and is prized for a methodical, thorough hunting style that makes it exceptionally versatile across terrain and quarry types. Their distinctive bushy eyebrows, flowing beard, and kindly expression give the Spinone the look of a wise, gentle elder statesman, and their temperament matches that impression — they are among the most patient and good-natured of all sporting breeds. Cerebellar ataxia, a neurological disease, is a serious breed-specific concern for which DNA testing of breeding stock is strongly recommended.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Cerebellar Ataxia",
+      "slug": "cerebellar-ataxia",
+      "category": "Neurological",
+      "description": "Hereditary cerebellar ataxia encompasses several breed-specific conditions causing progressive degeneration of the cerebellum, leading to uncoordinated movement, tremors, and balance loss. Many forms are fatal.",
+      "symptoms": [
+        "Wide-based stance",
+        "Head tremor (intention tremor)",
+        "Falling",
+        "Uncoordinated gait",
+        "Hypermetria (exaggerated limb movement)"
+      ],
+      "severity": "high",
+      "treatment_overview": "There is no cure or disease-modifying treatment. Supportive care and physical therapy may help quality of life in slowly progressive forms. Many dogs are eventually euthanised.",
+      "prevention_tips": [
+        "DNA test available for breed-specific forms",
+        "Test all breeding stock in at-risk breeds"
+      ],
+      "affected_breeds": [
+        "gordon-setter",
+        "rough-collie",
+        "beagle",
+        "old-english-sheepdog",
+        "Finnish-spitz"
+      ],
+      "typical_onset": "Varies by breed — puppyhood to adulthood",
+      "hereditary": true,
+      "estimated_treatment_cost": "£500-£2,000 (supportive)"
+    },
+    {
+      "name": "Elbow Dysplasia",
+      "slug": "elbow-dysplasia",
+      "category": "Orthopedic",
+      "description": "Elbow dysplasia is an umbrella term covering several developmental abnormalities of the elbow joint including fragmented coronoid process, osteochondritis dissecans, and ununited anconeal process. It causes foreleg lameness and arthritis.",
+      "symptoms": [
+        "Front leg lameness",
+        "Elbow swelling",
+        "Pain on elbow manipulation",
+        "Reluctance to exercise",
+        "Stiff gait after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Surgical intervention is often recommended to remove bone fragments or reshape joint surfaces. Medical management includes NSAIDs, joint supplements, and physiotherapy.",
+      "prevention_tips": [
+        "BVA/KC elbow score breeding stock",
+        "Control growth rate in large breeds",
+        "Avoid over-supplementation with calcium",
+        "Maintain healthy weight from puppyhood"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "golden-retriever",
+        "german-shepherd",
+        "rottweiler",
+        "bernese-mountain-dog"
+      ],
+      "typical_onset": "4-18 months",
+      "hereditary": true,
+      "estimated_treatment_cost": "£2,000-£5,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "German Shorthaired Pointer",
+      "slug": "german-shorthaired-pointer",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Vizsla",
+      "slug": "vizsla",
+      "size": "medium",
+      "group": "Sporting"
+    }
+  ],
+  "comparisons": []
+}

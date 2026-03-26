@@ -1,0 +1,55 @@
+{
+  "name": "Zinc-Responsive Dermatosis",
+  "slug": "zinc-responsive-dermatosis",
+  "category": "Dermatological",
+  "description": "Zinc-responsive dermatosis manifests as skin crusting and hair loss, primarily around the muzzle, eyes, ears, and footpads. It occurs either due to reduced intestinal zinc absorption (Syndrome I in Nordic breeds) or feeding zinc-deficient diets (Syndrome II).",
+  "symptoms": [
+    "Crusting and scaling around face and footpads",
+    "Hair loss",
+    "Alopecia around eyes and muzzle",
+    "Secondary bacterial infection",
+    "Poor coat quality"
+  ],
+  "severity": "low",
+  "treatment_overview": "Daily zinc supplementation (zinc sulphate or zinc methionine) resolves Syndrome I rapidly. Syndrome II resolves by correcting the diet. Lifelong supplementation is needed for Syndrome I.",
+  "prevention_tips": [
+    "Feed balanced commercial diets",
+    "Do not supplement calcium excessively (impairs zinc absorption)",
+    "Nordic breeds may need lifelong zinc supplementation"
+  ],
+  "affected_breeds": [
+    "siberian-husky",
+    "alaskan-malamute",
+    "samoyed",
+    "bull-terrier"
+  ],
+  "typical_onset": "1-3 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£100-£400/year",
+  "breeds_detail": [
+    {
+      "name": "Siberian Husky",
+      "slug": "siberian-husky",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Alaskan Malamute",
+      "slug": "alaskan-malamute",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Samoyed",
+      "slug": "samoyed",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Bull Terrier",
+      "slug": "bull-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    }
+  ]
+}

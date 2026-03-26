@@ -1,0 +1,42 @@
+{
+  "name": "Narcolepsy and Cataplexy",
+  "slug": "narcolepsy-cataplexy",
+  "category": "Neurological",
+  "description": "Canine narcolepsy is a sleep disorder characterised by sudden bouts of sleep or cataplexy (sudden muscle paralysis triggered by excitement). It is caused by a deficiency in orexin (hypocretin) signalling and can be hereditary or sporadic.",
+  "symptoms": [
+    "Sudden collapse into sleep",
+    "Cataplexy triggered by eating or excitement",
+    "Rapid recovery to normal activity",
+    "Repeated episodes",
+    "Otherwise normal behaviour and health"
+  ],
+  "severity": "low",
+  "treatment_overview": "Imipramine or dextroamphetamine reduce cataplectic attacks. Many dogs with mild disease require no treatment. Triggers should be minimised. The condition does not shorten lifespan.",
+  "prevention_tips": [
+    "DNA test available for familial forms in Dobermanns and Labradors",
+    "Avoid breeding affected dogs"
+  ],
+  "affected_breeds": [
+    "labrador-retriever",
+    "dobermann",
+    "miniature-poodle",
+    "dachshund"
+  ],
+  "typical_onset": "Under 6 months (hereditary) or any age (sporadic)",
+  "hereditary": true,
+  "estimated_treatment_cost": "£200-£800/year",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "slug": "leonberger-vs-saint-bernard",
+  "breed_a": {
+    "name": "Leonberger",
+    "slug": "leonberger",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 41,
+    "weight_max_kg": 77,
+    "height_min_cm": 65,
+    "height_max_cm": 80,
+    "lifespan_min": 8,
+    "lifespan_max": 9,
+    "temperament": [
+      "friendly",
+      "obedient",
+      "fearless",
+      "gentle",
+      "patient"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "leonberger-polyneuropathy",
+      "bloat",
+      "osteosarcoma"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 4,
+    "shedding_level": 4,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 80,
+    "origin": "Germany",
+    "coat_type": "long double",
+    "coat_colors": [
+      "lion yellow",
+      "golden",
+      "red",
+      "red-brown"
+    ],
+    "description": "The Leonberger was created in the German city of Leonberg in the 1840s by mayor Heinrich Essig, who deliberately bred Saint Bernards, Newfoundlands, and Great Pyrenees together with the goal of producing a dog resembling the lion on the town's coat of arms. These magnificent, lion-maned dogs became popular with European royalty, owned by Napoleon II, Empress Elizabeth of Austria, and the Prince of Wales, before World War I and II almost wiped the breed out twice. Leonbergers are gentle, patient family dogs but their enormous size and relatively short lifespan of 8 to 9 years are important considerations for prospective owners."
+  },
+  "breed_b": {
+    "name": "Saint Bernard",
+    "slug": "saint-bernard",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 54,
+    "weight_max_kg": 82,
+    "height_min_cm": 65,
+    "height_max_cm": 90,
+    "lifespan_min": 8,
+    "lifespan_max": 10,
+    "temperament": [
+      "playful",
+      "charming",
+      "gentle",
+      "patient",
+      "friendly"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "bloat",
+      "osteosarcoma",
+      "cardiomyopathy"
+    ],
+    "exercise_level": 2,
+    "grooming_level": 3,
+    "shedding_level": 4,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 51,
+    "origin": "Switzerland",
+    "coat_type": "long or short double",
+    "coat_colors": [
+      "red and white",
+      "brown and white",
+      "brindle and white"
+    ],
+    "description": "The Saint Bernard was developed by monks at the Great Saint Bernard Hospice in the Swiss Alps to rescue lost and injured travelers on the treacherous mountain passes between Switzerland and Italy, and is credited with saving over 2,000 lives over three centuries of service. The barrel of brandy around the neck is a charming artistic invention — the real rescue dogs simply used their extraordinary scent tracking and ability to locate avalanche victims buried under metres of snow. Their massive size and gentle, patient temperament made them famous as family dogs, though their lifespan is short and their drool output is legendary."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 8,
+      "breed_b_value": 8,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 9,
+      "breed_b_value": 10,
+      "winner": "saint-bernard"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 41,
+      "breed_b_value": 54,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 77,
+      "breed_b_value": 82,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 65,
+      "breed_b_value": 65,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 80,
+      "breed_b_value": 90,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 4,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 4,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 4,
+      "breed_b_value": 3,
+      "winner": "leonberger"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

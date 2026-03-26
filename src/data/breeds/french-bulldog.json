@@ -1,0 +1,194 @@
+{
+  "name": "French Bulldog",
+  "slug": "french-bulldog",
+  "group": "Non-Sporting",
+  "size": "small",
+  "weight_min_kg": 8,
+  "weight_max_kg": 13,
+  "height_min_cm": 28,
+  "height_max_cm": 33,
+  "lifespan_min": 10,
+  "lifespan_max": 12,
+  "temperament": [
+    "adaptable",
+    "playful",
+    "affectionate",
+    "alert"
+  ],
+  "health_issues": [
+    "brachycephalic-syndrome",
+    "hip-dysplasia",
+    "intervertebral-disc-disease",
+    "skin-fold-dermatitis",
+    "cherry-eye"
+  ],
+  "exercise_level": 2,
+  "grooming_level": 1,
+  "shedding_level": 2,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 2,
+  "origin": "France",
+  "coat_type": "short smooth",
+  "coat_colors": [
+    "brindle",
+    "fawn",
+    "white",
+    "cream",
+    "pied"
+  ],
+  "description": "The French Bulldog is a compact, muscular breed with a smooth coat, snub nose, and distinctive bat ears that give it an unmistakably charming appearance. Originally miniaturized from English Bulldogs and adopted by Parisian lace workers in the 19th century, Frenchies thrive on human companionship and are well-suited to apartment living. Their flat faces predispose them to significant breathing difficulties, making veterinary screening and avoiding heat and strenuous exercise essential.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Intervertebral Disc Disease (IVDD)",
+      "slug": "intervertebral-disc-disease",
+      "category": "Orthopedic",
+      "description": "IVDD occurs when the cushioning discs between vertebrae degenerate and herniate, pressing on the spinal cord. Chondrodystrophic breeds are predisposed due to premature disc mineralisation. Can cause pain, paralysis, or loss of bladder control.",
+      "symptoms": [
+        "Back or neck pain",
+        "Reluctance to move",
+        "Weakness or paralysis in limbs",
+        "Loss of bladder or bowel control",
+        "Yelping when touched"
+      ],
+      "severity": "high",
+      "treatment_overview": "Mild cases are managed with strict rest and anti-inflammatory medication. Severe cases with neurological deficits require emergency spinal surgery within 24-48 hours for best outcomes.",
+      "prevention_tips": [
+        "Use ramps instead of stairs for short-legged breeds",
+        "Maintain healthy weight",
+        "Avoid high-impact activities",
+        "Support the back when lifting"
+      ],
+      "affected_breeds": [
+        "dachshund",
+        "french-bulldog",
+        "beagle",
+        "basset-hound",
+        "cocker-spaniel",
+        "shih-tzu"
+      ],
+      "typical_onset": "3-7 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£3,000-£8,000"
+    },
+    {
+      "name": "Cherry Eye (Prolapsed Nictitating Membrane Gland)",
+      "slug": "cherry-eye",
+      "category": "Eye",
+      "description": "Cherry eye is the prolapse of the tear-producing gland of the third eyelid, appearing as a red or pink mass in the inner corner of the eye. It is more common in brachycephalic and young breeds, and can affect one or both eyes.",
+      "symptoms": [
+        "Red or pink mass in inner eye corner",
+        "Eye discharge",
+        "Excessive tearing",
+        "Eye rubbing",
+        "Conjunctivitis"
+      ],
+      "severity": "low",
+      "treatment_overview": "Surgical replacement (tucking or pocket technique) of the gland back into its normal position is preferred over removal to preserve tear production. Surgery success rate is high.",
+      "prevention_tips": [
+        "No proven prevention",
+        "Early surgical correction prevents secondary dry eye"
+      ],
+      "affected_breeds": [
+        "english-bulldog",
+        "cocker-spaniel",
+        "beagle",
+        "basset-hound",
+        "shih-tzu",
+        "lhasa-apso"
+      ],
+      "typical_onset": "Under 2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£600-£1,500"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Weight Management",
+      "slug": "weight-management"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bulldog",
+      "slug": "bulldog",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Boston Terrier",
+      "slug": "boston-terrier",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bichon Frise",
+      "slug": "bichon-frise",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Shiba Inu",
+      "slug": "shiba-inu",
+      "size": "small",
+      "group": "Non-Sporting"
+    }
+  ],
+  "comparisons": [
+    "bulldog-vs-french-bulldog",
+    "french-bulldog-vs-boston-terrier",
+    "boston-terrier-vs-french-bulldog",
+    "pug-vs-french-bulldog",
+    "french-bulldog-vs-pug",
+    "french-bulldog-vs-chihuahua",
+    "french-bulldog-vs-shih-tzu",
+    "french-bulldog-vs-cavalier-king-charles-spaniel"
+  ]
+}

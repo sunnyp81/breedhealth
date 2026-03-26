@@ -1,0 +1,61 @@
+{
+  "name": "Corneal Dystrophy",
+  "slug": "corneal-dystrophy",
+  "category": "Eye",
+  "description": "Corneal dystrophy is a hereditary condition causing non-inflammatory lipid, mineral, or epithelial deposits in the cornea. It appears as white or grey opacities in the cornea, usually bilaterally. Most forms cause limited vision loss but some progress to ulceration.",
+  "symptoms": [
+    "White or grey corneal opacity",
+    "Usually bilateral and symmetrical",
+    "Occasional corneal ulceration in erosive form",
+    "Generally not painful unless ulcerated",
+    "Variable vision effect"
+  ],
+  "severity": "low",
+  "treatment_overview": "Most cases require no treatment beyond monitoring. Corneal erosive dystrophy benefits from topical lubricants and debridement procedures. Surgical keratectomy may be considered for vision-impairing deposits.",
+  "prevention_tips": [
+    "BVA/KC/ISDS eye scheme screening",
+    "Do not breed dogs with epithelial or stromal dystrophy causing visual impairment"
+  ],
+  "affected_breeds": [
+    "cavalier-king-charles-spaniel",
+    "beagle",
+    "shetland-sheepdog",
+    "siberian-husky",
+    "airedale-terrier"
+  ],
+  "typical_onset": "Under 2 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£0-£1,200",
+  "breeds_detail": [
+    {
+      "name": "Cavalier King Charles Spaniel",
+      "slug": "cavalier-king-charles-spaniel",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Shetland Sheepdog",
+      "slug": "shetland-sheepdog",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Siberian Husky",
+      "slug": "siberian-husky",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Airedale Terrier",
+      "slug": "airedale-terrier",
+      "size": "large",
+      "group": "Terrier"
+    }
+  ]
+}

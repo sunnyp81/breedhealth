@@ -1,0 +1,41 @@
+{
+  "name": "Aortic Thromboembolism",
+  "slug": "aortic-thromboembolism",
+  "category": "Cardiac",
+  "description": "Aortic thromboembolism (ATE) occurs when a blood clot lodges at the aortic trifurcation, obstructing blood flow to the hindlimbs. While more common in cats, it occurs in dogs with underlying cardiac or hypercoagulable disease, causing acute hindlimb paralysis.",
+  "symptoms": [
+    "Sudden hindlimb paralysis or paresis",
+    "Cold and pale hindlimbs",
+    "Pain",
+    "Absence of femoral pulses",
+    "Distress"
+  ],
+  "severity": "high",
+  "treatment_overview": "Emergency treatment with anticoagulants (heparin, clopidogrel), analgesia, and supportive care. Thrombolytics (tissue plasminogen activator) can be used but carry haemorrhage risk. Prognosis is guarded; reoccurrence is common.",
+  "prevention_tips": [
+    "Anticoagulation therapy in high-risk cardiac patients",
+    "Early treatment of underlying cardiac disease"
+  ],
+  "affected_breeds": [
+    "cavalier-king-charles-spaniel",
+    "dobermann (DCM-related)",
+    "cocker-spaniel"
+  ],
+  "typical_onset": "7-12 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£2,000-£6,000",
+  "breeds_detail": [
+    {
+      "name": "Cavalier King Charles Spaniel",
+      "slug": "cavalier-king-charles-spaniel",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    }
+  ]
+}

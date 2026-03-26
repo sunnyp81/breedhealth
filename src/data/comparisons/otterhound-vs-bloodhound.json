@@ -1,0 +1,172 @@
+{
+  "slug": "otterhound-vs-bloodhound",
+  "breed_a": {
+    "name": "Otterhound",
+    "slug": "otterhound",
+    "group": "Hound",
+    "size": "large",
+    "weight_min_kg": 30,
+    "weight_max_kg": 52,
+    "height_min_cm": 58,
+    "height_max_cm": 69,
+    "lifespan_min": 10,
+    "lifespan_max": 13,
+    "temperament": [
+      "amiable",
+      "boisterous",
+      "even-tempered",
+      "independent"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "bloat",
+      "haemophilia",
+      "ear-infections"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 3,
+    "shedding_level": 3,
+    "trainability": 2,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 123,
+    "origin": "England",
+    "coat_type": "rough oily double",
+    "coat_colors": [
+      "grizzle and tan",
+      "black and tan",
+      "tricolor",
+      "liver and tan"
+    ],
+    "description": "The Otterhound is one of Britain's rarest and most endangered native breeds, with fewer than 1,000 estimated worldwide, developed in medieval England to hunt river otters using its webbed feet, oily waterproof coat, and extraordinary sense of smell. These large, shaggy, boisterous dogs are amiable and good-natured but have the independent spirit of a pack hound and can be challenging to train. The Otterhound's rarity means finding a reputable breeder requires patience, but owners describe them as exceptionally entertaining, affectionate companions."
+  },
+  "breed_b": {
+    "name": "Bloodhound",
+    "slug": "bloodhound",
+    "group": "Hound",
+    "size": "large",
+    "weight_min_kg": 36,
+    "weight_max_kg": 50,
+    "height_min_cm": 58,
+    "height_max_cm": 69,
+    "lifespan_min": 10,
+    "lifespan_max": 12,
+    "temperament": [
+      "stubborn",
+      "affectionate",
+      "gentle",
+      "even-tempered",
+      "inquisitive"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "bloat",
+      "ear-infections",
+      "ectropion",
+      "entropion"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 2,
+    "shedding_level": 3,
+    "trainability": 2,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 44,
+    "origin": "Belgium",
+    "coat_type": "short smooth",
+    "coat_colors": [
+      "black and tan",
+      "liver and tan",
+      "red"
+    ],
+    "description": "The Bloodhound possesses the most highly developed olfactory system of any animal on Earth, with approximately 300 million scent receptors versus six million in humans, and their trail-following evidence is considered reliable enough to be admissible in U.S. courts. Originally bred by monks at the Saint-Hubert monastery in Belgium in the 7th century, Bloodhounds are large, wrinkled, loose-skinned hounds whose pendulous ears help sweep scent particles toward their extraordinary nose as they work. Despite their impressive tracking abilities, they are gentle, affectionate family dogs — though a completely secure yard is mandatory given their irresistible compulsion to follow any interesting scent trail."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 10,
+      "breed_b_value": 10,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 13,
+      "breed_b_value": 12,
+      "winner": "otterhound"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 30,
+      "breed_b_value": 36,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 52,
+      "breed_b_value": 50,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 58,
+      "breed_b_value": 58,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 69,
+      "breed_b_value": 69,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 3,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 2,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 4,
+      "breed_b_value": 5,
+      "winner": "otterhound"
+    }
+  ]
+}

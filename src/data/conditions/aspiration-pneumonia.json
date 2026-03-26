@@ -1,0 +1,56 @@
+{
+  "name": "Aspiration Pneumonia",
+  "slug": "aspiration-pneumonia",
+  "category": "Respiratory",
+  "description": "Aspiration pneumonia occurs when foreign material — food, vomit, or liquid — is inhaled into the lungs, causing bacterial infection and inflammation. It can be secondary to megaoesophagus, laryngeal paralysis, or anaesthetic complications.",
+  "symptoms": [
+    "Coughing",
+    "Fever",
+    "Rapid or laboured breathing",
+    "Nasal discharge",
+    "Lethargy",
+    "Reduced appetite"
+  ],
+  "severity": "high",
+  "treatment_overview": "Hospitalisation with oxygen therapy, intravenous antibiotics, nebulisation, and coupage (chest physiotherapy) are standard treatments. Underlying causes must be addressed.",
+  "prevention_tips": [
+    "Feed dogs with megaoesophagus in upright position (Bailey chair)",
+    "Address laryngeal paralysis surgically",
+    "Elevate food bowls if advised"
+  ],
+  "affected_breeds": [
+    "german-shepherd",
+    "great-dane",
+    "irish-setter",
+    "labrador-retriever"
+  ],
+  "typical_onset": "Any age",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,500-£5,000",
+  "breeds_detail": [
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Irish Setter",
+      "slug": "irish-setter",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "slug": "doberman-pinscher-vs-cane-corso",
+  "breed_a": {
+    "name": "Doberman Pinscher",
+    "slug": "doberman-pinscher",
+    "group": "Working",
+    "size": "large",
+    "weight_min_kg": 27,
+    "weight_max_kg": 45,
+    "height_min_cm": 61,
+    "height_max_cm": 72,
+    "lifespan_min": 10,
+    "lifespan_max": 13,
+    "temperament": [
+      "fearless",
+      "loyal",
+      "alert",
+      "obedient",
+      "intelligent"
+    ],
+    "health_issues": [
+      "dilated-cardiomyopathy",
+      "von-willebrands-disease",
+      "hip-dysplasia",
+      "wobbler-syndrome",
+      "hypothyroidism"
+    ],
+    "exercise_level": 5,
+    "grooming_level": 1,
+    "shedding_level": 2,
+    "trainability": 5,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 19,
+    "origin": "Germany",
+    "coat_type": "short smooth",
+    "coat_colors": [
+      "black and rust",
+      "red and rust",
+      "blue and rust",
+      "fawn and rust"
+    ],
+    "description": "Created in the 1890s by German tax collector Karl Friedrich Louis Dobermann, who wanted a loyal and intimidating protection dog for his rounds collecting taxes in rough neighborhoods, the Doberman Pinscher was purpose-built for intelligence and courage. Modern Dobermans have been selectively bred toward a more stable, family-friendly temperament while fully retaining their natural alertness and trainability, consistently ranking among the most responsive and biddable of all breeds. Dilated cardiomyopathy is a serious breed-wide concern requiring regular echocardiographic screening."
+  },
+  "breed_b": {
+    "name": "Cane Corso",
+    "slug": "cane-corso",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 40,
+    "weight_max_kg": 50,
+    "height_min_cm": 60,
+    "height_max_cm": 70,
+    "lifespan_min": 9,
+    "lifespan_max": 12,
+    "temperament": [
+      "stable",
+      "reserved",
+      "quiet",
+      "loyal",
+      "protective"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "bloat",
+      "entropion",
+      "ectropion"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 1,
+    "shedding_level": 2,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": false,
+    "apartment_friendly": false,
+    "popularity_rank": 32,
+    "origin": "Italy",
+    "coat_type": "short coarse double",
+    "coat_colors": [
+      "black",
+      "grey",
+      "fawn",
+      "red",
+      "brindle"
+    ],
+    "description": "An ancient Italian mastiff descended from the canis pugnax war dogs of Rome, the Cane Corso takes its name from the Latin for bodyguard dog and has guarded estates and livestock in Italy for centuries. Nearly extinct by the 1970s, the breed was rescued by Italian enthusiasts and has grown dramatically in global popularity as a personal protection and family guard dog. Corsos are intelligent and deeply loyal but require experienced, confident handlers and extensive early socialization — they are definitively not suitable for first-time owners."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 10,
+      "breed_b_value": 9,
+      "winner": "doberman-pinscher"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 13,
+      "breed_b_value": 12,
+      "winner": "doberman-pinscher"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 27,
+      "breed_b_value": 40,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 45,
+      "breed_b_value": 50,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 61,
+      "breed_b_value": 60,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 72,
+      "breed_b_value": 70,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 5,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 1,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 2,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 5,
+      "breed_b_value": 4,
+      "winner": "doberman-pinscher"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": false,
+      "winner": "doberman-pinscher"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

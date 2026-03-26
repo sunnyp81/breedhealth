@@ -1,0 +1,80 @@
+{
+  "name": "Osteosarcoma",
+  "slug": "osteosarcoma",
+  "category": "Cancer",
+  "description": "Osteosarcoma is the most common primary bone tumour in dogs, occurring predominantly in the long bones of large and giant breeds. It is locally aggressive and metastasises early, primarily to the lungs. Prognosis remains guarded despite treatment.",
+  "symptoms": [
+    "Progressive limb lameness",
+    "Swelling over bone",
+    "Bone pain",
+    "Pathological fracture",
+    "Reduced exercise tolerance"
+  ],
+  "severity": "high",
+  "treatment_overview": "Limb amputation combined with chemotherapy (carboplatin or doxorubicin) gives median survival of 10-12 months. Limb-sparing surgery is possible in some cases. Palliative radiation and pain management are alternatives.",
+  "prevention_tips": [
+    "No proven prevention",
+    "Early investigation of unexplained lameness in large breeds over 5 years"
+  ],
+  "affected_breeds": [
+    "great-dane",
+    "saint-bernard",
+    "greyhound",
+    "irish-wolfhound",
+    "rottweiler",
+    "golden-retriever"
+  ],
+  "typical_onset": "7-10 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£6,000-£15,000",
+  "breeds_detail": [
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Saint Bernard",
+      "slug": "saint-bernard",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Irish Wolfhound",
+      "slug": "irish-wolfhound",
+      "size": "giant",
+      "group": "Hound"
+    },
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Mastiff",
+      "slug": "mastiff",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Leonberger",
+      "slug": "leonberger",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Great Pyrenees",
+      "slug": "great-pyrenees",
+      "size": "giant",
+      "group": "Working"
+    }
+  ]
+}

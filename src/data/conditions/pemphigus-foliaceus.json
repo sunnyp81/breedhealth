@@ -1,0 +1,55 @@
+{
+  "name": "Pemphigus Foliaceus",
+  "slug": "pemphigus-foliaceus",
+  "category": "Autoimmune",
+  "description": "Pemphigus foliaceus is the most common autoimmune skin disease in dogs, characterised by immune-mediated destruction of intercellular connections in the superficial epidermis, resulting in pustule and crust formation particularly on the face and paws.",
+  "symptoms": [
+    "Pustules and crusts on muzzle, ears, and footpads",
+    "Footpad scaling and crusting",
+    "Generalised spread in severe cases",
+    "Secondary infection",
+    "Pain"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Immunosuppression with prednisolone alone or combined with azathioprine is the primary approach. Tetracycline and niacinamide combination is used for mild cases. Lifelong treatment is usually required.",
+  "prevention_tips": [
+    "No proven prevention",
+    "Avoid sun exposure as UV can trigger flares"
+  ],
+  "affected_breeds": [
+    "akita",
+    "chow-chow",
+    "dobermann",
+    "bearded-collie",
+    "labrador-retriever"
+  ],
+  "typical_onset": "4-8 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£600-£2,500/year",
+  "breeds_detail": [
+    {
+      "name": "Akita",
+      "slug": "akita",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Chow Chow",
+      "slug": "chow-chow",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bearded Collie",
+      "slug": "bearded-collie",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    }
+  ]
+}

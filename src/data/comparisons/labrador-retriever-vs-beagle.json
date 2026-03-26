@@ -1,0 +1,172 @@
+{
+  "slug": "labrador-retriever-vs-beagle",
+  "breed_a": {
+    "name": "Labrador Retriever",
+    "slug": "labrador-retriever",
+    "group": "Sporting",
+    "size": "large",
+    "weight_min_kg": 25,
+    "weight_max_kg": 36,
+    "height_min_cm": 54,
+    "height_max_cm": 62,
+    "lifespan_min": 10,
+    "lifespan_max": 12,
+    "temperament": [
+      "friendly",
+      "outgoing",
+      "active",
+      "gentle"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "obesity",
+      "exercise-induced-collapse",
+      "progressive-retinal-atrophy"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 2,
+    "shedding_level": 4,
+    "trainability": 5,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 1,
+    "origin": "Canada",
+    "coat_type": "short double",
+    "coat_colors": [
+      "yellow",
+      "black",
+      "chocolate"
+    ],
+    "description": "The Labrador Retriever has been the most popular dog breed in the United States for decades, beloved for its even temperament and versatility as a family companion, service dog, and sporting partner. Originally bred in Newfoundland to retrieve waterfowl for fishermen, Labs retain an enthusiastic love of water and an eager-to-please work ethic. Their intelligence and trainability make them the most widely used breed for guide, therapy, and detection work worldwide."
+  },
+  "breed_b": {
+    "name": "Beagle",
+    "slug": "beagle",
+    "group": "Hound",
+    "size": "small",
+    "weight_min_kg": 9,
+    "weight_max_kg": 11,
+    "height_min_cm": 33,
+    "height_max_cm": 38,
+    "lifespan_min": 10,
+    "lifespan_max": 15,
+    "temperament": [
+      "merry",
+      "friendly",
+      "curious",
+      "determined"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "epilepsy",
+      "hypothyroidism",
+      "intervertebral-disc-disease",
+      "cherry-eye"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 1,
+    "shedding_level": 3,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 7,
+    "origin": "England",
+    "coat_type": "short dense",
+    "coat_colors": [
+      "tricolor",
+      "red and white",
+      "lemon and white",
+      "chocolate tricolor"
+    ],
+    "description": "Beagles are scent hounds developed primarily for hunting hare in England, possessing one of the finest noses of any dog breed and an unwavering determination to follow a trail wherever it leads. Their compact size, cheerful disposition, and low-maintenance coat have made them perennial family favorites, though their scenthound instincts mean a securely fenced yard and leash discipline are non-negotiable. Beagles are sociable pack animals that thrive with canine companions and dislike being left alone for extended periods."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 10,
+      "breed_b_value": 10,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 15,
+      "winner": "beagle"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 25,
+      "breed_b_value": 9,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 36,
+      "breed_b_value": 11,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 54,
+      "breed_b_value": 33,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 62,
+      "breed_b_value": 38,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 2,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 4,
+      "breed_b_value": 3,
+      "winner": "beagle"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 5,
+      "breed_b_value": 3,
+      "winner": "labrador-retriever"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

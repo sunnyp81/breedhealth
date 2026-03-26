@@ -1,0 +1,131 @@
+{
+  "name": "Whippet",
+  "slug": "whippet",
+  "group": "Hound",
+  "size": "medium",
+  "weight_min_kg": 11,
+  "weight_max_kg": 19,
+  "height_min_cm": 46,
+  "height_max_cm": 56,
+  "lifespan_min": 12,
+  "lifespan_max": 15,
+  "temperament": [
+    "gentle",
+    "amiable",
+    "calm",
+    "friendly",
+    "lively"
+  ],
+  "health_issues": [
+    "cardiac-problems",
+    "eye-conditions",
+    "deafness",
+    "sensitivity-to-drugs",
+    "hypothyroidism"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 1,
+  "shedding_level": 2,
+  "trainability": 4,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 63,
+  "origin": "England",
+  "coat_type": "short smooth",
+  "coat_colors": [
+    "fawn",
+    "red",
+    "white",
+    "black",
+    "blue",
+    "brindle",
+    "parti"
+  ],
+  "description": "The Whippet was developed in 19th-century northern England, where working-class miners bred a medium-sized sight hound for rabbit coursing and informal straight racing, earning the breed the nickname the poor man's racehorse. Reaching speeds of up to 56 km/h, the Whippet is the fastest domesticated animal of its weight, yet at home it is a calm, affectionate, and surprisingly low-maintenance companion that adapts well to apartment living provided it receives daily off-leash sprinting opportunities. Their thin skin and minimal body fat mean they feel the cold acutely and appreciate a warm coat in winter.",
+  "conditions_detail": [
+    {
+      "name": "Hypothyroidism",
+      "slug": "hypothyroidism",
+      "category": "Endocrine",
+      "description": "Hypothyroidism is the most common endocrine disorder in dogs, caused by reduced thyroid hormone production — most often from immune-mediated thyroiditis or idiopathic follicular atrophy. It affects metabolism, skin, and coat quality.",
+      "symptoms": [
+        "Weight gain without diet change",
+        "Lethargy",
+        "Cold intolerance",
+        "Bilateral symmetrical hair loss",
+        "Thickened skin",
+        "Ear infections"
+      ],
+      "severity": "low",
+      "treatment_overview": "Daily oral thyroxine (levothyroxine) supplementation is highly effective and required for life. Dosing is adjusted based on thyroid level monitoring every 6-12 months.",
+      "prevention_tips": [
+        "No proven prevention",
+        "Regular blood screening in at-risk breeds from age 4"
+      ],
+      "affected_breeds": [
+        "golden-retriever",
+        "dobermann",
+        "irish-setter",
+        "miniature-schnauzer",
+        "cocker-spaniel",
+        "airedale-terrier"
+      ],
+      "typical_onset": "4-10 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£300-£800/year"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Rhodesian Ridgeback",
+      "slug": "rhodesian-ridgeback",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Bloodhound",
+      "slug": "bloodhound",
+      "size": "large",
+      "group": "Hound"
+    }
+  ],
+  "comparisons": [
+    "whippet-vs-greyhound",
+    "italian-greyhound-vs-whippet",
+    "whippet-vs-border-collie",
+    "whippet-vs-labrador-retriever"
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "name": "Weight Management",
+  "slug": "weight-management",
+  "description": "Weight management diets are calorie-restricted formulas designed to help overweight dogs lose weight or maintain a healthy weight. They typically have higher fiber content to promote satiety and lower fat levels.",
+  "suitable_for": [
+    "overweight dogs (BCS 6-9)",
+    "dogs with hypothyroidism",
+    "neutered dogs prone to weight gain",
+    "low-activity or senior dogs"
+  ],
+  "benefits": [
+    "Reduced calorie density to support weight loss",
+    "Higher fiber keeps dogs feeling full",
+    "Reduces strain on joints from excess weight",
+    "Lowers risk of diabetes and heart disease"
+  ],
+  "risks": [
+    "May lack sufficient nutrients if fed incorrectly",
+    "Not suitable for puppies or pregnant dogs",
+    "Some dogs may lose muscle mass if protein is too low"
+  ],
+  "recommended_brands": [
+    "Hill's Science Diet Perfect Weight",
+    "Royal Canin Satiety Support",
+    "Purina Pro Plan Weight Management",
+    "Blue Buffalo Healthy Weight"
+  ],
+  "feeding_guidelines": {
+    "small": {
+      "cups_per_day": "0.5-0.75",
+      "frequency": "2-3 meals"
+    },
+    "medium": {
+      "cups_per_day": "0.75-1.5",
+      "frequency": "2-3 meals"
+    },
+    "large": {
+      "cups_per_day": "1.5-2.5",
+      "frequency": "2 meals"
+    },
+    "giant": {
+      "cups_per_day": "2.5-4",
+      "frequency": "2 meals"
+    }
+  },
+  "suitable_breeds": [
+    {
+      "name": "French Bulldog",
+      "slug": "french-bulldog",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bulldog",
+      "slug": "bulldog",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Shih Tzu",
+      "slug": "shih-tzu",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Pug",
+      "slug": "pug",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Maltese",
+      "slug": "maltese",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Mastiff",
+      "slug": "mastiff",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Saint Bernard",
+      "slug": "saint-bernard",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Neapolitan Mastiff",
+      "slug": "neapolitan-mastiff",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Pekingese",
+      "slug": "pekingese",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Chow Chow",
+      "slug": "chow-chow",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Chinese Crested",
+      "slug": "chinese-crested",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Great Pyrenees",
+      "slug": "great-pyrenees",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Brussels Griffon",
+      "slug": "brussels-griffon",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Cesky Terrier",
+      "slug": "cesky-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Glen of Imaal Terrier",
+      "slug": "glen-of-imaal-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Tibetan Spaniel",
+      "slug": "tibetan-spaniel",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Clumber Spaniel",
+      "slug": "clumber-spaniel",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Löwchen",
+      "slug": "lowchen",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Sussex Spaniel",
+      "slug": "sussex-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Skye Terrier",
+      "slug": "skye-terrier",
+      "size": "small",
+      "group": "Terrier"
+    }
+  ]
+}

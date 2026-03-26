@@ -1,0 +1,56 @@
+{
+  "name": "Cystinuria",
+  "slug": "cystinuria",
+  "category": "Urinary",
+  "description": "Cystinuria is an inherited defect in renal tubular transport of cystine and related amino acids, leading to cystine crystal and stone formation in the urinary tract. It predominantly affects males, who are more prone to urethral obstruction.",
+  "symptoms": [
+    "Straining to urinate",
+    "Blood in urine",
+    "Urethral obstruction",
+    "Recurrent urinary tract infections",
+    "Inability to urinate (emergency)"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Dissolution with D-penicillamine, tiopronin, or dietary management (low-protein, alkalinising diets) can dissolve some cystine stones. Surgical cystotomy for stones that cannot be dissolved. Lifelong prevention diet is needed.",
+  "prevention_tips": [
+    "DNA test available for Newfoundland and Labrador forms",
+    "Do not breed affected dogs",
+    "High water intake and alkalinising diet"
+  ],
+  "affected_breeds": [
+    "newfoundland",
+    "labrador-retriever",
+    "english-bulldog",
+    "dachshund",
+    "basset-hound"
+  ],
+  "typical_onset": "1-8 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£1,000-£3,500",
+  "breeds_detail": [
+    {
+      "name": "Newfoundland",
+      "slug": "newfoundland",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Panosteitis",
+  "slug": "panosteitis",
+  "category": "Orthopedic",
+  "description": "Panosteitis is a self-limiting painful inflammatory condition of the long bone shafts in young, rapidly growing large-breed dogs. It causes intermittent shifting lameness that moves from leg to leg as different bones are affected.",
+  "symptoms": [
+    "Shifting lameness (moves between legs)",
+    "Pain on long bone palpation",
+    "Lethargy and fever during episodes",
+    "Self-limiting episodes lasting 2-8 weeks"
+  ],
+  "severity": "low",
+  "treatment_overview": "NSAIDs and restricted exercise during painful episodes provide relief. The condition resolves spontaneously, typically by 18-20 months of age. No specific treatment is curative.",
+  "prevention_tips": [
+    "Feed appropriate large-breed growth diet",
+    "Avoid over-supplementation",
+    "Restrict high-impact exercise during growth"
+  ],
+  "affected_breeds": [
+    "german-shepherd",
+    "great-dane",
+    "labrador-retriever",
+    "golden-retriever",
+    "basset-hound"
+  ],
+  "typical_onset": "6-18 months",
+  "hereditary": false,
+  "estimated_treatment_cost": "£200-£600",
+  "breeds_detail": [
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    }
+  ]
+}

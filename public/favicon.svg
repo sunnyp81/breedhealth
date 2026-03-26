@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <!-- Cream background -->
+  <rect width="32" height="32" rx="6" fill="#FDF6E3"/>
+
+  <!-- Green paw print -->
+  <!-- Top left toe -->
+  <ellipse cx="9" cy="7" rx="4" ry="5" fill="#2D5F2D"/>
+  <!-- Top right toe -->
+  <ellipse cx="23" cy="7" rx="4" ry="5" fill="#2D5F2D"/>
+  <!-- Far left toe -->
+  <ellipse cx="4" cy="16" rx="3" ry="4" fill="#2D5F2D"/>
+  <!-- Far right toe -->
+  <ellipse cx="28" cy="16" rx="3" ry="4" fill="#2D5F2D"/>
+  <!-- Main pad -->
+  <path d="M16 12 C11 12 7 15.5 7 20 C7 23.5 11 27 16 27 C21 27 25 23.5 25 20 C25 15.5 21 12 16 12 Z" fill="#2D5F2D"/>
+</svg>

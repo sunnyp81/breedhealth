@@ -1,0 +1,112 @@
+{
+  "name": "Ryukyu Inu",
+  "slug": "ryukyu-inu",
+  "group": "Foundation Stock Service",
+  "size": "medium",
+  "weight_min_kg": 15,
+  "weight_max_kg": 20,
+  "height_min_cm": 45,
+  "height_max_cm": 53,
+  "lifespan_min": 12,
+  "lifespan_max": 14,
+  "temperament": [
+    "loyal",
+    "alert",
+    "independent",
+    "agile"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "eye-conditions"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 2,
+  "shedding_level": 3,
+  "trainability": 2,
+  "good_with_children": true,
+  "good_with_dogs": false,
+  "apartment_friendly": false,
+  "popularity_rank": 203,
+  "origin": "Japan",
+  "coat_type": "short",
+  "coat_colors": [
+    "brindle",
+    "white",
+    "black"
+  ],
+  "description": "The Ryukyu Inu is an ancient hunting breed from the Okinawa archipelago that has existed on the Ryukyu Islands for thousands of years and has unique anatomical adaptations for climbing trees to hunt wild boar. The breed's remarkable tree-climbing ability — enabled by its non-slip paw pads and strong, curved claws — is unique among Japanese dog breeds and reflects the island ecology where boar would take refuge in trees. Critically endangered with perhaps 400 individuals remaining, the Ryukyu Inu is one of Japan's most rare and precious native breeds, and conservation efforts are underway to prevent its extinction.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Pungsan Dog",
+      "slug": "pungsan-dog",
+      "size": "medium",
+      "group": "Foundation Stock Service"
+    },
+    {
+      "name": "Indian Pariah Dog",
+      "slug": "indian-pariah-dog",
+      "size": "medium",
+      "group": "Foundation Stock Service"
+    },
+    {
+      "name": "Telomian",
+      "slug": "telomian",
+      "size": "small",
+      "group": "Foundation Stock Service"
+    },
+    {
+      "name": "New Guinea Singing Dog",
+      "slug": "new-guinea-singing-dog",
+      "size": "small",
+      "group": "Foundation Stock Service"
+    }
+  ],
+  "comparisons": []
+}

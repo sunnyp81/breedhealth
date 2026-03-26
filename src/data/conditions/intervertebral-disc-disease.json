@@ -1,0 +1,94 @@
+{
+  "name": "Intervertebral Disc Disease (IVDD)",
+  "slug": "intervertebral-disc-disease",
+  "category": "Orthopedic",
+  "description": "IVDD occurs when the cushioning discs between vertebrae degenerate and herniate, pressing on the spinal cord. Chondrodystrophic breeds are predisposed due to premature disc mineralisation. Can cause pain, paralysis, or loss of bladder control.",
+  "symptoms": [
+    "Back or neck pain",
+    "Reluctance to move",
+    "Weakness or paralysis in limbs",
+    "Loss of bladder or bowel control",
+    "Yelping when touched"
+  ],
+  "severity": "high",
+  "treatment_overview": "Mild cases are managed with strict rest and anti-inflammatory medication. Severe cases with neurological deficits require emergency spinal surgery within 24-48 hours for best outcomes.",
+  "prevention_tips": [
+    "Use ramps instead of stairs for short-legged breeds",
+    "Maintain healthy weight",
+    "Avoid high-impact activities",
+    "Support the back when lifting"
+  ],
+  "affected_breeds": [
+    "dachshund",
+    "french-bulldog",
+    "beagle",
+    "basset-hound",
+    "cocker-spaniel",
+    "shih-tzu"
+  ],
+  "typical_onset": "3-7 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£3,000-£8,000",
+  "breeds_detail": [
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "French Bulldog",
+      "slug": "french-bulldog",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Shih Tzu",
+      "slug": "shih-tzu",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Cardigan Welsh Corgi",
+      "slug": "cardigan-welsh-corgi",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Pekingese",
+      "slug": "pekingese",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Clumber Spaniel",
+      "slug": "clumber-spaniel",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Sussex Spaniel",
+      "slug": "sussex-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Separation Anxiety",
+  "slug": "separation-anxiety",
+  "category": "Neurological",
+  "description": "Separation anxiety is a well-recognised behavioural condition characterised by excessive distress when a dog is left alone or separated from its owner. It has a significant impact on welfare and can lead to self-injury and destructive behaviour.",
+  "symptoms": [
+    "Destructive behaviour when alone",
+    "Vocalisation (barking, howling, whining)",
+    "Inappropriate elimination indoors",
+    "Panting and pacing before owner leaves",
+    "Self-directed behaviour (excessive licking)"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Behavioural modification (systematic desensitisation and counterconditioning) by a qualified behaviourist is the cornerstone. Pharmacological support with fluoxetine or clomipramine, alongside pheromone diffusers, assists behaviour modification.",
+  "prevention_tips": [
+    "Gradual training of independence from puppyhood",
+    "Avoid long periods of isolation in young dogs",
+    "Establish predictable routines"
+  ],
+  "affected_breeds": [
+    "labrador-retriever",
+    "border-collie",
+    "german-shepherd",
+    "vizsla",
+    "cavalier-king-charles-spaniel"
+  ],
+  "typical_onset": "Any age",
+  "hereditary": false,
+  "estimated_treatment_cost": "£500-£2,000",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Border Collie",
+      "slug": "border-collie",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Vizsla",
+      "slug": "vizsla",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Cavalier King Charles Spaniel",
+      "slug": "cavalier-king-charles-spaniel",
+      "size": "small",
+      "group": "Toy"
+    }
+  ]
+}

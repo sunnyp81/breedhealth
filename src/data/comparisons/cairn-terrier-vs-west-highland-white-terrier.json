@@ -1,0 +1,174 @@
+{
+  "slug": "cairn-terrier-vs-west-highland-white-terrier",
+  "breed_a": {
+    "name": "Cairn Terrier",
+    "slug": "cairn-terrier",
+    "group": "Terrier",
+    "size": "small",
+    "weight_min_kg": 6,
+    "weight_max_kg": 7,
+    "height_min_cm": 25,
+    "height_max_cm": 33,
+    "lifespan_min": 13,
+    "lifespan_max": 15,
+    "temperament": [
+      "alert",
+      "fearless",
+      "hardy",
+      "independent",
+      "cheerful"
+    ],
+    "health_issues": [
+      "patellar-luxation",
+      "portosystemic-shunt",
+      "progressive-retinal-atrophy",
+      "globoid-cell-leukodystrophy",
+      "hip-dysplasia"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 3,
+    "shedding_level": 2,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 59,
+    "origin": "Scotland",
+    "coat_type": "wiry double",
+    "coat_colors": [
+      "cream",
+      "wheaten",
+      "red",
+      "sand",
+      "grey",
+      "brindle"
+    ],
+    "description": "The Cairn Terrier is one of Scotland's oldest working terriers, developed in the Scottish Highlands and Hebridean islands to hunt foxes, otters, and vermin in the rocky cairn piles of the Scottish landscape — giving the breed its name. Toto, Dorothy's faithful companion in The Wizard of Oz, was a Cairn Terrier, helping introduce the breed to global audiences in 1939. Despite their small size, Cairns are tough, hardy dogs with an assertive, independent terrier character and a natural urge to dig that owners must manage with humor and patience."
+  },
+  "breed_b": {
+    "name": "West Highland White Terrier",
+    "slug": "west-highland-white-terrier",
+    "group": "Terrier",
+    "size": "small",
+    "weight_min_kg": 6.8,
+    "weight_max_kg": 9,
+    "height_min_cm": 25,
+    "height_max_cm": 28,
+    "lifespan_min": 13,
+    "lifespan_max": 15,
+    "temperament": [
+      "alert",
+      "cheerful",
+      "independent",
+      "friendly",
+      "stubborn"
+    ],
+    "health_issues": [
+      "skin-conditions",
+      "patellar-luxation",
+      "pulmonary-fibrosis",
+      "craniomandibular-osteopathy",
+      "jawbone-disease"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 4,
+    "shedding_level": 2,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 40,
+    "origin": "Scotland",
+    "coat_type": "wiry double",
+    "coat_colors": [
+      "white"
+    ],
+    "description": "The West Highland White Terrier was developed in Scotland in the 19th century, with its white coat reportedly bred deliberately by Colonel Malcolm of Poltalloch after he accidentally shot his brown terrier, mistaking it for a fox during a hunt. Compact, confident, and cheerful, the Westie is one of the most recognizable and popular small terriers globally, with a bold, independent terrier character that it wears with great self-assurance. Skin conditions and allergies are unusually prevalent in the breed, and Westie lung disease — idiopathic pulmonary fibrosis — is a serious breed-specific concern owners should discuss with their vet."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 13,
+      "breed_b_value": 13,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 15,
+      "breed_b_value": 15,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 6,
+      "breed_b_value": 6.8,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 7,
+      "breed_b_value": 9,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 25,
+      "breed_b_value": 25,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 33,
+      "breed_b_value": 28,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 2,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

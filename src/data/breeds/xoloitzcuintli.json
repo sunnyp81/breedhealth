@@ -1,0 +1,153 @@
+{
+  "name": "Xoloitzcuintli",
+  "slug": "xoloitzcuintli",
+  "group": "Non-Sporting",
+  "size": "small",
+  "weight_min_kg": 4,
+  "weight_max_kg": 14,
+  "height_min_cm": 25,
+  "height_max_cm": 57,
+  "lifespan_min": 13,
+  "lifespan_max": 18,
+  "temperament": [
+    "alert",
+    "cheerful",
+    "calm",
+    "attentive",
+    "loyal"
+  ],
+  "health_issues": [
+    "dental-disease",
+    "skin-conditions",
+    "acne",
+    "patellar-luxation",
+    "epilepsy"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 2,
+  "shedding_level": 1,
+  "trainability": 3,
+  "good_with_children": false,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 84,
+  "origin": "Mexico",
+  "coat_type": "hairless or short smooth",
+  "coat_colors": [
+    "black",
+    "gray",
+    "liver",
+    "bronze",
+    "brindle"
+  ],
+  "description": "The Xoloitzcuintli — correctly pronounced show-low-eets-queent-lee — is Mexico's national dog and one of the world's oldest and rarest breeds, named after the Aztec god of lightning Xolotl and present in Mesoamerica for over 3,000 years, used as a ceremonial and healing dog by the Aztec, Maya, and Colima cultures. Available in three sizes — toy, miniature, and standard — and two varieties, hairless and coated, the hairless variety was thought by indigenous peoples to have healing properties and was used as a living hot-water bottle to soothe arthritis and other ailments. Their lack of coat means sunscreen is required for outdoor exposure and they need a coat in cold weather, but they produce no shedding and are among the cleanest of all dogs.",
+  "conditions_detail": [
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+      "symptoms": [
+        "Intermittent skipping on hind leg",
+        "Sudden leg lifting",
+        "Bunny-hopping",
+        "Hind limb lameness",
+        "Visible kneecap displacement"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+      "prevention_tips": [
+        "Breed from dogs with normal patellar scores",
+        "Maintain healthy weight",
+        "Avoid high-impact activities in affected puppies"
+      ],
+      "affected_breeds": [
+        "chihuahua",
+        "yorkshire-terrier",
+        "pomeranian",
+        "toy-poodle",
+        "bichon-frise",
+        "boston-terrier"
+      ],
+      "typical_onset": "4 months - 6 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    },
+    {
+      "name": "Epilepsy",
+      "slug": "epilepsy",
+      "category": "Neurological",
+      "description": "Epilepsy is the most common neurological disorder in dogs, characterised by recurrent seizures. Idiopathic (genetic) epilepsy is the most frequent form in young to middle-aged dogs with no underlying structural brain lesion.",
+      "symptoms": [
+        "Generalised seizures (paddling, loss of consciousness)",
+        "Focal seizures (facial twitching, fly-biting)",
+        "Post-ictal confusion",
+        "Sudden falling",
+        "Cluster seizures"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Anticonvulsant drugs (phenobarbital, potassium bromide, levetiracetam) control seizures in the majority of cases. Treatment is lifelong. Cluster seizures and status epilepticus require emergency treatment.",
+      "prevention_tips": [
+        "DNA testing available for several breeds",
+        "Avoid breeding affected dogs with idiopathic epilepsy"
+      ],
+      "affected_breeds": [
+        "border-collie",
+        "labrador-retriever",
+        "golden-retriever",
+        "beagle",
+        "german-shepherd",
+        "belgian-shepherd"
+      ],
+      "typical_onset": "1-5 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£500-£2,000/year"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "French Bulldog",
+      "slug": "french-bulldog",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bulldog",
+      "slug": "bulldog",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Boston Terrier",
+      "slug": "boston-terrier",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bichon Frise",
+      "slug": "bichon-frise",
+      "size": "small",
+      "group": "Non-Sporting"
+    }
+  ],
+  "comparisons": [
+    "xoloitzcuintli-vs-basenji",
+    "peruvian-inca-orchid-vs-xoloitzcuintli"
+  ]
+}

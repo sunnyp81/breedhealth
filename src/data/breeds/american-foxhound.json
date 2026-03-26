@@ -1,0 +1,124 @@
+{
+  "name": "American Foxhound",
+  "slug": "american-foxhound",
+  "group": "Hound",
+  "size": "large",
+  "weight_min_kg": 29,
+  "weight_max_kg": 34,
+  "height_min_cm": 53,
+  "height_max_cm": 64,
+  "lifespan_min": 11,
+  "lifespan_max": 13,
+  "temperament": [
+    "kind",
+    "loyal",
+    "independent",
+    "sweet-tempered"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "ear-infections",
+    "obesity",
+    "thrombocytopathy"
+  ],
+  "exercise_level": 5,
+  "grooming_level": 1,
+  "shedding_level": 2,
+  "trainability": 2,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 141,
+  "origin": "United States",
+  "coat_type": "smooth",
+  "coat_colors": [
+    "tricolor",
+    "red",
+    "white"
+  ],
+  "description": "The American Foxhound is one of America's oldest breeds, with roots tracing back to the 17th century and connections to George Washington's kennel. Bred for speed and endurance in fox hunting, they are lean, athletic dogs with an outstanding nose and a melodious howl. While sweet and gentle at home, they need enormous amounts of exercise and can be challenging to keep as pets without proper outlets for their energy.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Rhodesian Ridgeback",
+      "slug": "rhodesian-ridgeback",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Bloodhound",
+      "slug": "bloodhound",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Whippet",
+      "slug": "whippet",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Borzoi",
+      "slug": "borzoi",
+      "size": "large",
+      "group": "Hound"
+    }
+  ],
+  "comparisons": []
+}

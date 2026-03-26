@@ -1,0 +1,172 @@
+{
+  "slug": "leonberger-vs-bernese-mountain-dog",
+  "breed_a": {
+    "name": "Leonberger",
+    "slug": "leonberger",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 41,
+    "weight_max_kg": 77,
+    "height_min_cm": 65,
+    "height_max_cm": 80,
+    "lifespan_min": 8,
+    "lifespan_max": 9,
+    "temperament": [
+      "friendly",
+      "obedient",
+      "fearless",
+      "gentle",
+      "patient"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "leonberger-polyneuropathy",
+      "bloat",
+      "osteosarcoma"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 4,
+    "shedding_level": 4,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 80,
+    "origin": "Germany",
+    "coat_type": "long double",
+    "coat_colors": [
+      "lion yellow",
+      "golden",
+      "red",
+      "red-brown"
+    ],
+    "description": "The Leonberger was created in the German city of Leonberg in the 1840s by mayor Heinrich Essig, who deliberately bred Saint Bernards, Newfoundlands, and Great Pyrenees together with the goal of producing a dog resembling the lion on the town's coat of arms. These magnificent, lion-maned dogs became popular with European royalty, owned by Napoleon II, Empress Elizabeth of Austria, and the Prince of Wales, before World War I and II almost wiped the breed out twice. Leonbergers are gentle, patient family dogs but their enormous size and relatively short lifespan of 8 to 9 years are important considerations for prospective owners."
+  },
+  "breed_b": {
+    "name": "Bernese Mountain Dog",
+    "slug": "bernese-mountain-dog",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 32,
+    "weight_max_kg": 52,
+    "height_min_cm": 58,
+    "height_max_cm": 70,
+    "lifespan_min": 7,
+    "lifespan_max": 10,
+    "temperament": [
+      "good-natured",
+      "calm",
+      "strong",
+      "intelligent",
+      "loyal"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "cancer",
+      "bloat",
+      "von-willebrands-disease"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 4,
+    "shedding_level": 4,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 29,
+    "origin": "Switzerland",
+    "coat_type": "long thick double",
+    "coat_colors": [
+      "tricolor black white and rust"
+    ],
+    "description": "One of four Swiss Sennenhund breeds developed in the Bernese Oberland for herding cattle, pulling carts, and guarding Alpine farms, the Bernese Mountain Dog is the most widely owned of the four outside Switzerland. Their striking tricolor coat, gentle giant temperament, and patience with children make them beloved family dogs, but cancer claims more than half of all Berners before age 10, making the breed's tragically short lifespan its most heartbreaking characteristic. Sourcing from a breeder who health-tests for cancer, hip, and elbow conditions in both parents is an absolute minimum requirement."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 8,
+      "breed_b_value": 7,
+      "winner": "leonberger"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 9,
+      "breed_b_value": 10,
+      "winner": "bernese-mountain-dog"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 41,
+      "breed_b_value": 32,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 77,
+      "breed_b_value": 52,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 65,
+      "breed_b_value": 58,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 80,
+      "breed_b_value": 70,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 4,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

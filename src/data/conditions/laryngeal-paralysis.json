@@ -1,0 +1,62 @@
+{
+  "name": "Laryngeal Paralysis",
+  "slug": "laryngeal-paralysis",
+  "category": "Respiratory",
+  "description": "Laryngeal paralysis occurs when the nerves controlling the cartilage flaps at the larynx fail, preventing the airway from opening fully during inspiration. This causes progressive breathing difficulty and is often part of a wider polyneuropathy in older large-breed dogs.",
+  "symptoms": [
+    "Noisy inspiratory stridor",
+    "Voice change",
+    "Exercise intolerance",
+    "Gagging after eating",
+    "Heat intolerance",
+    "Respiratory crisis in hot weather"
+  ],
+  "severity": "high",
+  "treatment_overview": "Surgical arytenoid lateralisation ('tie-back' procedure) significantly improves breathing. Aspiration pneumonia is the main post-operative risk. Avoid heat and excitement in all cases.",
+  "prevention_tips": [
+    "No proven prevention for acquired form",
+    "Avoid unnecessary stress and heat"
+  ],
+  "affected_breeds": [
+    "labrador-retriever",
+    "golden-retriever",
+    "irish-setter",
+    "siberian-husky",
+    "great-dane"
+  ],
+  "typical_onset": "9-13 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£2,000-£4,500",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Irish Setter",
+      "slug": "irish-setter",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Siberian Husky",
+      "slug": "siberian-husky",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    }
+  ]
+}

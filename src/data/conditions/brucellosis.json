@@ -1,0 +1,28 @@
+{
+  "name": "Brucellosis",
+  "slug": "brucellosis",
+  "category": "Autoimmune",
+  "description": "Canine brucellosis is a bacterial reproductive disease caused by Brucella canis. It causes reproductive failure in breeding dogs, including abortion, stillbirths, and infertility, as well as orchitis in males. It is a zoonotic disease transmissible to humans.",
+  "symptoms": [
+    "Abortion in late pregnancy",
+    "Stillbirths",
+    "Weak puppies",
+    "Infertility",
+    "Swollen testicles",
+    "Back pain from discospondylitis"
+  ],
+  "severity": "high",
+  "treatment_overview": "Treatment with prolonged antibiotic courses (doxycycline combined with aminoglycosides) reduces bacterial load but rarely achieves complete cure. Neutering reduces transmission risk. Infected dogs should not be bred.",
+  "prevention_tips": [
+    "Test all breeding dogs before mating with RSAT or AGID test",
+    "New dogs entering a kennel should be tested and quarantined",
+    "Maintain closed or tested breeding programmes"
+  ],
+  "affected_breeds": [
+    "all breeds"
+  ],
+  "typical_onset": "Breeding age",
+  "hereditary": false,
+  "estimated_treatment_cost": "£500-£2,000",
+  "breeds_detail": []
+}

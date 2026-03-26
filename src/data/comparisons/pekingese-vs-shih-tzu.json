@@ -1,0 +1,179 @@
+{
+  "slug": "pekingese-vs-shih-tzu",
+  "breed_a": {
+    "name": "Pekingese",
+    "slug": "pekingese",
+    "group": "Toy",
+    "size": "small",
+    "weight_min_kg": 3.2,
+    "weight_max_kg": 6,
+    "height_min_cm": 15,
+    "height_max_cm": 23,
+    "lifespan_min": 12,
+    "lifespan_max": 14,
+    "temperament": [
+      "opinionated",
+      "affectionate",
+      "loyal",
+      "good-natured",
+      "stubborn"
+    ],
+    "health_issues": [
+      "brachycephalic-syndrome",
+      "patellar-luxation",
+      "intervertebral-disc-disease",
+      "progressive-retinal-atrophy",
+      "skin-fold-infections"
+    ],
+    "exercise_level": 1,
+    "grooming_level": 5,
+    "shedding_level": 3,
+    "trainability": 2,
+    "good_with_children": false,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 100,
+    "origin": "China",
+    "coat_type": "long thick double",
+    "coat_colors": [
+      "gold",
+      "red",
+      "sable",
+      "black",
+      "white",
+      "cream",
+      "parti"
+    ],
+    "description": "The Pekingese is one of the oldest of all dog breeds, bred exclusively for over a thousand years in the imperial court of China as a sacred companion of the emperors, so revered that theft of one was punishable by death and they were carried in the sleeves of court ladies as living accessories. Their flowing lion mane of dense double coat, pushed-in flat face, and imperious, self-possessed personality remain unchanged from the dogs that once padded the forbidden corridors of the Forbidden City. Their severely flat faces place them among the most affected brachycephalic breeds, with significant breathing limitations that owners must take seriously when managing exercise and heat exposure."
+  },
+  "breed_b": {
+    "name": "Shih Tzu",
+    "slug": "shih-tzu",
+    "group": "Toy",
+    "size": "small",
+    "weight_min_kg": 4,
+    "weight_max_kg": 7.2,
+    "height_min_cm": 20,
+    "height_max_cm": 28,
+    "lifespan_min": 10,
+    "lifespan_max": 16,
+    "temperament": [
+      "affectionate",
+      "playful",
+      "outgoing",
+      "alert",
+      "loyal"
+    ],
+    "health_issues": [
+      "brachycephalic-syndrome",
+      "hip-dysplasia",
+      "patellar-luxation",
+      "progressive-retinal-atrophy",
+      "renal-dysplasia"
+    ],
+    "exercise_level": 2,
+    "grooming_level": 5,
+    "shedding_level": 1,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 20,
+    "origin": "China",
+    "coat_type": "long double",
+    "coat_colors": [
+      "gold and white",
+      "black and white",
+      "red and white",
+      "blue and white",
+      "liver and white"
+    ],
+    "description": "The Shih Tzu is an ancient breed kept exclusively for Chinese royalty for over a millennium, serving as treasured lap warmers in the imperial palaces of the Ming and Qing dynasties and so prized that China refused to export them until the early 20th century. Their name means lion dog in Mandarin, a reference to their resemblance to the Chinese guardian lion, and their flowing double coat parted along the spine is a hallmark of the breed standard. Shih Tzus are trusting, lively companions that adapt beautifully to apartment living and get along with virtually everyone they meet."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 10,
+      "winner": "pekingese"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 14,
+      "breed_b_value": 16,
+      "winner": "shih-tzu"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 3.2,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 6,
+      "breed_b_value": 7.2,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 15,
+      "breed_b_value": 20,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 23,
+      "breed_b_value": 28,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 1,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 3,
+      "breed_b_value": 1,
+      "winner": "shih-tzu"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 2,
+      "breed_b_value": 3,
+      "winner": "shih-tzu"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": false,
+      "breed_b_value": true,
+      "winner": "shih-tzu"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

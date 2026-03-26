@@ -1,0 +1,55 @@
+{
+  "name": "Immune-Mediated Thrombocytopenia (ITP)",
+  "slug": "immune-mediated-thrombocytopenia",
+  "category": "Autoimmune",
+  "description": "ITP is a condition where the immune system destroys the dog's own platelets, leading to dangerously low platelet counts and spontaneous bleeding. It can occur as a primary condition or secondary to other diseases, drugs, or infections.",
+  "symptoms": [
+    "Petechiae (pinpoint haemorrhages on skin)",
+    "Bruising",
+    "Nosebleeds",
+    "Blood in urine or faeces",
+    "Prolonged bleeding from minor wounds",
+    "Lethargy"
+  ],
+  "severity": "high",
+  "treatment_overview": "Immunosuppressive therapy with high-dose prednisolone is the mainstay. Vincristine and cyclosporine are added in refractory cases. Transfusions of platelet-rich plasma support severely thrombocytopenic dogs. Treatment is often lifelong.",
+  "prevention_tips": [
+    "No proven prevention",
+    "Avoid triggering drugs where possible"
+  ],
+  "affected_breeds": [
+    "cocker-spaniel",
+    "old-english-sheepdog",
+    "poodle",
+    "bichon-frise"
+  ],
+  "typical_onset": "2-8 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£2,000-£5,000",
+  "breeds_detail": [
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Old English Sheepdog",
+      "slug": "old-english-sheepdog",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bichon Frise",
+      "slug": "bichon-frise",
+      "size": "small",
+      "group": "Non-Sporting"
+    }
+  ]
+}

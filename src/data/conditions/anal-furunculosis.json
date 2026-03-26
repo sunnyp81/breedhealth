@@ -1,0 +1,49 @@
+{
+  "name": "Anal Furunculosis (Perianal Fistulas)",
+  "slug": "anal-furunculosis",
+  "category": "Dermatological",
+  "description": "Anal furunculosis is a progressive ulcerative condition causing painful fistulous tracts and tissue destruction in the perianal region. It is immune-mediated in nature and strongly associated with German Shepherds. It causes severe pain and quality-of-life impairment.",
+  "symptoms": [
+    "Painful defecation",
+    "Scooting and licking perianal area",
+    "Foul odour",
+    "Visible ulcers or tracts around anus",
+    "Constipation",
+    "Blood in faeces"
+  ],
+  "severity": "high",
+  "treatment_overview": "Cyclosporine is the treatment of choice, inducing remission in most cases. Tacrolimus topical gel is used in mild cases. Surgery may be required to remove persistent tracts. Lifelong management is often needed.",
+  "prevention_tips": [
+    "No proven prevention",
+    "Regular tail and perianal hygiene may reduce severity",
+    "Low-fibre diet reduces trauma during defecation"
+  ],
+  "affected_breeds": [
+    "german-shepherd",
+    "irish-setter",
+    "labrador-retriever"
+  ],
+  "typical_onset": "5-8 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,500-£5,000/year",
+  "breeds_detail": [
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Irish Setter",
+      "slug": "irish-setter",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ConditionSeverityBadge from '../../components/ConditionSeverityBadge.astro';
+import InsuranceCTA from '../../components/InsuranceCTA.astro';
+import AdSlot from '../../components/AdSlot.astro';
+
+import { getAllConditions, getCondition } from '../../lib/data';
+import { generateConditionHubIntro } from '../../lib/copy';
+import {
+  generateMedicalConditionSchema,
+  generateBreadcrumbSchema,
+} from '../../lib/schema';
+
+import type { GetStaticPaths } from 'astro';
+import type { Condition } from '../../lib/types';
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const conditions = await getAllConditions();
+  return conditions.map((summary) => ({
+    params: { condition: summary.slug },
+    props: { slug: summary.slug },
+  }));
+};
+
+interface Props {
+  slug: string;
+}
+
+const { slug } = Astro.props;
+
+const condition = await getCondition(slug) as Condition;
+
+const siteUrl = 'https://breedhealth.co.uk';
+const pageUrl = `${siteUrl}/conditions/${condition.slug}/`;
+
+const introText = generateConditionHubIntro(condition);
+
+const medicalSchema    = generateMedicalConditionSchema(condition, pageUrl);
+const breadcrumbSchema = generateBreadcrumbSchema([
+  { name: 'Home',              url: `${siteUrl}/` },
+  { name: 'Health Conditions', url: `${siteUrl}/conditions/` },
+  { name: condition.name,      url: pageUrl },
+]);
+
+const breadcrumbItems = [
+  { name: 'Home',              url: '/' },
+  { name: 'Health Conditions', url: '/conditions/' },
+  { name: condition.name,      url: `/conditions/${condition.slug}/` },
+];
+
+const metaDescription = `${condition.name} in dogs — learn about symptoms, treatment options, prevention tips, and which breeds are most affected. Estimated costs: ${condition.estimated_treatment_cost || 'varies'}.`;
+---
+
+<BaseLayout
+  title={`${condition.name} in Dogs — Symptoms, Treatment & Prevention | BreedHealth`}
+  description={metaDescription}
+  canonicalUrl={pageUrl}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(medicalSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  </Fragment>
+
+  <!-- Breadcrumbs -->
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Page heading + severity badge -->
+  <div class="flex flex-wrap items-start gap-3 mt-4 mb-3">
+    <h1 class="text-3xl sm:text-4xl font-bold text-primary leading-tight">
+      {condition.name} in Dogs
+    </h1>
+  </div>
+  <div class="mb-6">
+    <ConditionSeverityBadge severity={condition.severity} />
+    <span class="ml-3 text-sm text-text-muted capitalize">{condition.category}</span>
+    {condition.hereditary && (
+      <span class="ml-3 inline-flex items-center gap-1 text-sm font-medium text-amber-700 bg-amber-50 border border-amber-200 px-2.5 py-0.5 rounded-full">
+        Hereditary
+      </span>
+    )}
+  </div>
+
+  <!-- Intro paragraph -->
+  <p class="text-text-muted leading-relaxed text-lg mb-8 max-w-3xl">
+    {introText}
+  </p>
+
+  <!-- In-content ad -->
+  <div class="my-6">
+    <AdSlot position="in-content" />
+  </div>
+
+  <!-- Symptoms section -->
+  {condition.symptoms.length > 0 && (
+    <section aria-labelledby="symptoms-heading" class="mb-10">
+      <h2 id="symptoms-heading" class="text-2xl font-bold text-primary mb-4">
+        Signs &amp; Symptoms
+      </h2>
+      <p class="text-text-muted leading-relaxed mb-4 max-w-3xl">
+        The following symptoms are commonly associated with {condition.name} in dogs. If your dog displays several of these signs, consult your vet promptly — early diagnosis typically leads to better outcomes.
+      </p>
+      <ul class="space-y-2" role="list">
+        {condition.symptoms.map((symptom) => (
+          <li class="flex items-start gap-3 p-3 bg-white border border-border rounded-lg">
+            <span
+              aria-hidden="true"
+              class="flex-shrink-0 mt-0.5 w-5 h-5 rounded-full bg-red-50 border border-red-200 flex items-center justify-center"
+              style="display:inline-flex;"
+            >
+              <svg width="10" height="10" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <circle cx="8" cy="8" r="4" fill="#c0392b"/>
+              </svg>
+            </span>
+            <span class="text-text leading-relaxed">{symptom}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <!-- Treatment overview section -->
+  <section aria-labelledby="treatment-heading" class="mb-10">
+    <h2 id="treatment-heading" class="text-2xl font-bold text-primary mb-4">
+      Treatment Overview
+    </h2>
+    <div class="bg-white border border-border rounded-xl p-5 max-w-3xl">
+      <p class="text-text-muted leading-relaxed">{condition.treatment_overview}</p>
+      {condition.typical_onset && (
+        <p class="mt-3 text-sm text-text-muted">
+          <strong class="text-text">Typical onset:</strong> {condition.typical_onset}
+        </p>
+      )}
+    </div>
+  </section>
+
+  <!-- Prevention tips section -->
+  {condition.prevention_tips.length > 0 && (
+    <section aria-labelledby="prevention-heading" class="mb-10">
+      <h2 id="prevention-heading" class="text-2xl font-bold text-primary mb-4">
+        Prevention &amp; Screening
+      </h2>
+      <p class="text-text-muted leading-relaxed mb-4 max-w-3xl">
+        While not all cases of {condition.name} can be prevented, the following steps reduce risk or enable earlier intervention:
+      </p>
+      <ul class="space-y-2" role="list">
+        {condition.prevention_tips.map((tip) => (
+          <li class="flex items-start gap-3 p-3 bg-white border border-border rounded-lg">
+            <span
+              aria-hidden="true"
+              style="display:inline-flex; flex-shrink:0; margin-top:2px; width:20px; height:20px; border-radius:9999px; background:#d4edda; border:1px solid #b8dbbf; align-items:center; justify-content:center;"
+            >
+              <svg width="10" height="10" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <polyline points="2,8 6,12 14,4" stroke="#155724" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <span class="text-text leading-relaxed">{tip}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <!-- Cost estimate callout -->
+  {condition.estimated_treatment_cost && (
+    <div
+      class="mb-10 p-5 rounded-xl border-l-4 bg-amber-50 border-amber-400 max-w-3xl"
+      role="note"
+      aria-label="Treatment cost estimate"
+    >
+      <div class="flex items-start gap-3">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#92400e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="flex-shrink-0 mt-0.5">
+          <circle cx="12" cy="12" r="10"/>
+          <line x1="12" y1="8" x2="12" y2="12"/>
+          <line x1="12" y1="16" x2="12.01" y2="16"/>
+        </svg>
+        <div>
+          <p class="font-semibold text-amber-900 mb-1">Estimated Treatment Cost</p>
+          <p class="text-amber-800 text-sm leading-relaxed">
+            Treatment for {condition.name} is estimated at <strong>{condition.estimated_treatment_cost}</strong>, depending on severity, the specific intervention required, and your location. Costs may be higher for surgical procedures or ongoing management. Comprehensive pet insurance covering {condition.hereditary ? 'hereditary conditions' : 'this condition'} is strongly recommended.
+          </p>
+        </div>
+      </div>
+    </div>
+  )}
+
+  <!-- Breeds affected section -->
+  {condition.breeds_detail && condition.breeds_detail.length > 0 && (
+    <section aria-labelledby="breeds-affected-heading" class="mb-10">
+      <h2 id="breeds-affected-heading" class="text-2xl font-bold text-primary mb-2">
+        Breeds Affected by {condition.name}
+      </h2>
+      <p class="text-text-muted leading-relaxed mb-5 max-w-3xl">
+        The following {condition.breeds_detail.length} breed{condition.breeds_detail.length !== 1 ? 's' : ''} are documented as being susceptible to {condition.name}. Click any breed to view breed-specific information about this condition, including prevalence and recommended screening.
+      </p>
+      <ul class="flex flex-wrap gap-3" role="list">
+        {condition.breeds_detail.map((breed) => (
+          <li>
+            <a
+              href={`/breeds/${breed.slug}/health/${condition.slug}/`}
+              class="inline-flex items-center gap-2 px-4 py-2 bg-white border border-border rounded-full text-sm font-medium text-text hover:text-primary hover:border-primary transition-colors no-underline"
+            >
+              {breed.name}
+              <span class="text-xs text-text-light capitalize">({breed.size})</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <!-- Insurance CTA -->
+  <div class="mb-10">
+    <InsuranceCTA />
+  </div>
+
+  <!-- Related conditions link -->
+  <div class="mb-10 p-5 bg-bg-alt border border-border rounded-xl max-w-3xl">
+    <p class="text-sm text-text-muted leading-relaxed">
+      <strong class="text-text">Looking for more information?</strong> Browse all{' '}
+      <a href="/conditions/" class="text-primary hover:underline font-medium">
+        dog health conditions
+      </a>{' '}
+      or explore the{' '}
+      <a href="/guides/" class="text-primary hover:underline font-medium">
+        health guides
+      </a>{' '}
+      for in-depth breed care advice.
+    </p>
+  </div>
+</BaseLayout>

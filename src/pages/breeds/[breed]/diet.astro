@@ -1,0 +1,245 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import DietRecommendationTable from '../../../components/DietRecommendationTable.astro';
+import AffiliateProductCard from '../../../components/AffiliateProductCard.astro';
+import AdSlot from '../../../components/AdSlot.astro';
+
+import { getAllBreeds, getBreed, getDietsForBreed } from '../../../lib/data';
+import { generateDietCopy } from '../../../lib/copy';
+import { generateBreadcrumbSchema } from '../../../lib/schema';
+
+import type { GetStaticPaths } from 'astro';
+import type { Breed, DietType } from '../../../lib/types';
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const breeds = await getAllBreeds();
+  return breeds.map((summary) => ({
+    params: { breed: summary.slug },
+    props: { slug: summary.slug },
+  }));
+};
+
+interface Props {
+  slug: string;
+}
+
+const { slug } = Astro.props;
+
+const breed = await getBreed(slug) as Breed;
+
+// Load diets: prefer breed.diet_recommendations, fall back to getDietsForBreed
+const diets: DietType[] =
+  breed.diet_recommendations && breed.diet_recommendations.length > 0
+    ? breed.diet_recommendations
+    : await getDietsForBreed(slug);
+
+const siteUrl = 'https://breedhealth.co.uk';
+const pageUrl = `${siteUrl}/breeds/${breed.slug}/diet/`;
+
+const dietIntro = generateDietCopy(breed);
+
+const breadcrumbSchema = generateBreadcrumbSchema([
+  { name: 'Home',   url: `${siteUrl}/` },
+  { name: 'Breeds', url: `${siteUrl}/breeds/` },
+  { name: breed.name, url: `${siteUrl}/breeds/${breed.slug}/` },
+  { name: 'Diet & Feeding', url: pageUrl },
+]);
+
+const breadcrumbItems = [
+  { name: 'Home',   url: '/' },
+  { name: 'Breeds', url: '/breeds/' },
+  { name: breed.name, url: `/breeds/${breed.slug}/` },
+  { name: 'Diet & Feeding', url: `/breeds/${breed.slug}/diet/` },
+];
+
+// Toxic foods commonly dangerous to dogs — displayed as a fixed warning section
+const toxicFoods = [
+  { name: 'Grapes & Raisins',   risk: 'Can cause acute kidney failure',            severity: 'fatal' },
+  { name: 'Xylitol (sweetener)', risk: 'Causes hypoglycaemia and liver failure',    severity: 'fatal' },
+  { name: 'Chocolate',          risk: 'Theobromine poisoning; can be fatal',         severity: 'fatal' },
+  { name: 'Onions & Garlic',    risk: 'Damages red blood cells, causes anaemia',    severity: 'high' },
+  { name: 'Macadamia Nuts',     risk: 'Weakness, vomiting, tremors, hyperthermia',  severity: 'high' },
+  { name: 'Cooked Bones',       risk: 'Splintering; risk of internal puncture',     severity: 'high' },
+  { name: 'Alcohol',            risk: 'Respiratory depression; can be fatal',        severity: 'fatal' },
+  { name: 'Avocado',            risk: 'Persin toxicity; vomiting, diarrhoea',       severity: 'moderate' },
+];
+
+const severityStyle: Record<string, { bg: string; color: string; border: string; label: string }> = {
+  fatal:    { bg: '#f8d7da', color: '#721c24', border: '#f0b0b7', label: 'Fatal' },
+  high:     { bg: '#fff3cd', color: '#7a5a00', border: '#f5d87a', label: 'Dangerous' },
+  moderate: { bg: '#fff8e8', color: '#7a5a00', border: '#f5d87a', label: 'Harmful' },
+};
+
+// Three food affiliate products
+const foodProducts = [
+  {
+    title: `Best Complete Dry Food for ${breed.name}s`,
+    description: `A complete, nutritionally balanced dry food formulated for ${breed.size} ${breed.group.toLowerCase()} breeds. Protein-first recipe with no artificial additives. Suitable for adult ${breed.name}s.`,
+  },
+  {
+    title: `Grain-Free Option for ${breed.name}s`,
+    description: `A grain-free formula ideal for ${breed.name}s with sensitivities. High in animal protein with sweet potato as the primary carbohydrate source. Includes omega-3 for coat health.`,
+  },
+  {
+    title: `${breed.name} Puppy Food`,
+    description: `Formulated specifically for ${breed.name} puppies, with the correct calcium-to-phosphorus ratio for ${breed.size}-breed bone development. Supports healthy growth from 8 weeks.`,
+  },
+];
+---
+
+<BaseLayout
+  title={`${breed.name} Diet & Feeding Guide — What to Feed & How Much | BreedHealth`}
+  description={`Complete ${breed.name} feeding guide: daily calories, portion sizes, best diet types, foods to avoid, and vet-recommended nutrition advice.`}
+  canonicalUrl={pageUrl}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  </Fragment>
+
+  <!-- Breadcrumbs -->
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Page heading -->
+  <h1 class="text-3xl sm:text-4xl font-bold text-primary mt-4 mb-4 leading-tight">
+    {breed.name} Diet &amp; Feeding Guide
+  </h1>
+
+  <!-- Back to breed hub -->
+  <a
+    href={`/breeds/${breed.slug}/`}
+    class="inline-flex items-center gap-1.5 text-sm text-text-muted hover:text-primary no-underline hover:underline mb-6"
+  >
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M19 12H5M12 19l-7-7 7-7"/>
+    </svg>
+    Back to {breed.name} Overview
+  </a>
+
+  <!-- Diet intro paragraph -->
+  <p class="text-text-muted leading-relaxed text-lg mb-8 max-w-3xl">
+    {dietIntro}
+  </p>
+
+  <!-- Quick reference callout -->
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
+    <div class="p-4 bg-white border border-border rounded-xl text-center">
+      <div class="text-xs font-semibold uppercase tracking-wide text-text-light mb-1">Size</div>
+      <div class="text-sm font-bold text-text capitalize">{breed.size}</div>
+    </div>
+    <div class="p-4 bg-white border border-border rounded-xl text-center">
+      <div class="text-xs font-semibold uppercase tracking-wide text-text-light mb-1">Adult Weight</div>
+      <div class="text-sm font-bold text-text">{breed.weight_min_kg}–{breed.weight_max_kg} kg</div>
+    </div>
+    <div class="p-4 bg-white border border-border rounded-xl text-center">
+      <div class="text-xs font-semibold uppercase tracking-wide text-text-light mb-1">Meals Per Day</div>
+      <div class="text-sm font-bold text-text">{breed.size === 'giant' ? '3' : '2'}</div>
+    </div>
+    <div class="p-4 bg-white border border-border rounded-xl text-center">
+      <div class="text-xs font-semibold uppercase tracking-wide text-text-light mb-1">Exercise Level</div>
+      <div class="text-sm font-bold text-text">{breed.exercise_level}/5</div>
+    </div>
+  </div>
+
+  <!-- Diet recommendation table -->
+  <section aria-labelledby="diet-table-heading" class="mb-10">
+    <h2 id="diet-table-heading" class="text-2xl font-bold text-primary mb-4">
+      Diet Recommendations for {breed.name}s
+    </h2>
+    <DietRecommendationTable breed={breed} diets={diets} />
+  </section>
+
+  <!-- In-content ad -->
+  <div class="my-6">
+    <AdSlot position="in-content" />
+  </div>
+
+  <!-- Toxic foods warning -->
+  <section aria-labelledby="toxic-foods-heading" class="mb-10">
+    <h2 id="toxic-foods-heading" class="text-2xl font-bold text-primary mb-2">
+      Foods to Never Feed Your {breed.name}
+    </h2>
+    <p class="text-text-muted text-sm mb-5 max-w-2xl">
+      The following foods are toxic to dogs. Some are fatal even in small quantities. Keep them completely out of reach of your {breed.name}.
+    </p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3" role="list">
+      {toxicFoods.map((food) => {
+        const style = severityStyle[food.severity] ?? severityStyle.high;
+        return (
+          <div
+            role="listitem"
+            class="flex items-start gap-3 p-4 bg-white border rounded-xl"
+            style={`border-color: ${style.border};`}
+          >
+            <div
+              class="flex-shrink-0 w-8 h-8 rounded-lg flex items-center justify-center"
+              style={`background-color: ${style.bg};`}
+              aria-hidden="true"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke={style.color} stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+                <line x1="12" y1="9" x2="12" y2="13"/>
+                <line x1="12" y1="17" x2="12.01" y2="17"/>
+              </svg>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 mb-0.5">
+                <span class="font-semibold text-sm text-text">{food.name}</span>
+                <span
+                  class="inline-block px-1.5 py-0.5 rounded text-xs font-bold"
+                  style={`background-color: ${style.bg}; color: ${style.color};`}
+                >
+                  {style.label}
+                </span>
+              </div>
+              <p class="text-xs text-text-muted leading-snug">{food.risk}</p>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+
+    <p class="mt-4 text-xs text-text-light">
+      If you suspect your {breed.name} has ingested a toxic substance, contact your vet or the Animal Poison Line immediately: <strong>01202 509 000</strong>.
+    </p>
+  </section>
+
+  <!-- Food product cards -->
+  <section aria-labelledby="food-products-heading" class="mb-10">
+    <h2 id="food-products-heading" class="text-2xl font-bold text-primary mb-5">
+      Recommended Foods for {breed.name}s
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      {foodProducts.map((product) => (
+        <AffiliateProductCard
+          title={product.title}
+          description={product.description}
+          category="food"
+        />
+      ))}
+    </div>
+  </section>
+
+  <!-- Navigation links -->
+  <div class="flex flex-col sm:flex-row gap-3 pt-4 border-t border-border">
+    <a
+      href={`/breeds/${breed.slug}/health/`}
+      class="inline-flex items-center gap-2 px-4 py-2.5 bg-bg-alt border border-border rounded-lg text-sm font-medium text-text hover:text-primary hover:border-primary transition-colors no-underline"
+    >
+      {breed.name} Health Guide
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+    <a
+      href={`/breeds/${breed.slug}/exercise/`}
+      class="inline-flex items-center gap-2 px-4 py-2.5 bg-bg-alt border border-border rounded-lg text-sm font-medium text-text hover:text-primary hover:border-primary transition-colors no-underline"
+    >
+      {breed.name} Exercise Guide
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </div>
+</BaseLayout>

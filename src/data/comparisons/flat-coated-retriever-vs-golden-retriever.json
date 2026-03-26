@@ -1,0 +1,172 @@
+{
+  "slug": "flat-coated-retriever-vs-golden-retriever",
+  "breed_a": {
+    "name": "Flat-Coated Retriever",
+    "slug": "flat-coated-retriever",
+    "group": "Sporting",
+    "size": "large",
+    "weight_min_kg": 25,
+    "weight_max_kg": 36,
+    "height_min_cm": 56,
+    "height_max_cm": 61,
+    "lifespan_min": 8,
+    "lifespan_max": 10,
+    "temperament": [
+      "optimistic",
+      "cheerful",
+      "good-humored",
+      "active",
+      "confident"
+    ],
+    "health_issues": [
+      "cancer",
+      "hip-dysplasia",
+      "progressive-retinal-atrophy",
+      "patellar-luxation",
+      "epilepsy"
+    ],
+    "exercise_level": 5,
+    "grooming_level": 2,
+    "shedding_level": 3,
+    "trainability": 5,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 66,
+    "origin": "England",
+    "coat_type": "medium flat single",
+    "coat_colors": [
+      "black",
+      "liver"
+    ],
+    "description": "The Flat-Coated Retriever was developed in mid-19th century England as a versatile land and water retrieving dog, and for several decades was the most popular retriever in Britain before the Labrador and Golden overtook it in numbers. Often called the Peter Pan of retrievers, Flat Coats maintain an endearing puppy-like enthusiasm well into old age, and their constant good humor and optimism make them joyful family companions. Tragically, histiocytic sarcoma and other cancers occur at dramatically elevated rates in the breed, with median lifespan of only 8 to 10 years — the shortest of any retriever."
+  },
+  "breed_b": {
+    "name": "Golden Retriever",
+    "slug": "golden-retriever",
+    "group": "Sporting",
+    "size": "large",
+    "weight_min_kg": 25,
+    "weight_max_kg": 34,
+    "height_min_cm": 51,
+    "height_max_cm": 61,
+    "lifespan_min": 10,
+    "lifespan_max": 12,
+    "temperament": [
+      "intelligent",
+      "friendly",
+      "reliable",
+      "trustworthy",
+      "kind"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "cancer",
+      "elbow-dysplasia",
+      "progressive-retinal-atrophy",
+      "hypothyroidism"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 3,
+    "shedding_level": 4,
+    "trainability": 5,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 3,
+    "origin": "Scotland",
+    "coat_type": "medium dense double",
+    "coat_colors": [
+      "golden",
+      "light golden",
+      "dark golden"
+    ],
+    "description": "Developed in the Scottish Highlands in the late 1800s by Lord Tweedmouth to create the ideal gundog for retrieving waterfowl across rugged terrain, the Golden Retriever's warm temperament is as enduring as its beautiful coat. Goldens are among the most widely used therapy and assistance dogs in the world, combining patience and gentleness with above-average intelligence. Cancer affects the breed at an unusually high rate, making regular veterinary screening a priority for all Golden owners."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 8,
+      "breed_b_value": 10,
+      "winner": "golden-retriever"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 10,
+      "breed_b_value": 12,
+      "winner": "golden-retriever"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 25,
+      "breed_b_value": 25,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 36,
+      "breed_b_value": 34,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 56,
+      "breed_b_value": 51,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 61,
+      "breed_b_value": 61,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 5,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 2,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "flat-coated-retriever"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

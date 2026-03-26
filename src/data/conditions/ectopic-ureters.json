@@ -1,0 +1,59 @@
+{
+  "name": "Ectopic Ureters",
+  "slug": "ectopic-ureters",
+  "category": "Urinary",
+  "description": "Ectopic ureters is a congenital defect where one or both ureters bypass the bladder and open directly into the urethra, vagina, or uterus. It is the most common cause of congenital urinary incontinence in young female dogs.",
+  "symptoms": [
+    "Continuous urine dribbling from birth",
+    "Urinary tract infections",
+    "Perivulvar urine scalding",
+    "Normal urination alongside dribbling"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Laser ablation via cystoscopy is minimally invasive and the preferred treatment. Surgical reimplantation is the alternative. Post-treatment incontinence may require alpha-agonist medication.",
+  "prevention_tips": [
+    "Do not breed from affected dogs"
+  ],
+  "affected_breeds": [
+    "labrador-retriever",
+    "golden-retriever",
+    "siberian-husky",
+    "west-highland-white-terrier",
+    "entlebucher-mountain-dog"
+  ],
+  "typical_onset": "Birth",
+  "hereditary": true,
+  "estimated_treatment_cost": "£2,000-£4,500",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Siberian Husky",
+      "slug": "siberian-husky",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "West Highland White Terrier",
+      "slug": "west-highland-white-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Entlebucher Mountain Dog",
+      "slug": "entlebucher-mountain-dog",
+      "size": "medium",
+      "group": "Herding"
+    }
+  ]
+}

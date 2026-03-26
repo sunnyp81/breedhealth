@@ -1,0 +1,157 @@
+{
+  "name": "Sloughi",
+  "slug": "sloughi",
+  "group": "Hound",
+  "size": "large",
+  "weight_min_kg": 20,
+  "weight_max_kg": 27,
+  "height_min_cm": 61,
+  "height_max_cm": 72,
+  "lifespan_min": 12,
+  "lifespan_max": 16,
+  "temperament": [
+    "sensitive",
+    "aloof",
+    "loyal",
+    "gentle"
+  ],
+  "health_issues": [
+    "progressive-retinal-atrophy",
+    "hemangiosarcoma",
+    "sensitivity-to-anesthesia"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 1,
+  "shedding_level": 1,
+  "trainability": 2,
+  "good_with_children": false,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 149,
+  "origin": "Morocco",
+  "coat_type": "smooth",
+  "coat_colors": [
+    "sandy",
+    "fawn",
+    "brindle",
+    "black-overlay"
+  ],
+  "description": "The Sloughi is a North African sighthound revered for centuries by the Berber and Arab peoples of Morocco, Algeria, Tunisia, and Libya. They are elegant, lean dogs with a smooth coat and a noble, somewhat melancholy expression that reflects their sensitive and deeply loyal nature. Though aloof with strangers, they form profound bonds with their owners and are affectionate within their family unit.",
+  "conditions_detail": [
+    {
+      "name": "Progressive Retinal Atrophy (PRA)",
+      "slug": "progressive-retinal-atrophy",
+      "category": "Eye",
+      "description": "PRA is a group of hereditary diseases causing progressive degeneration of the photoreceptor cells in the retina. It leads to night blindness first, followed by complete blindness. There is no treatment, but DNA tests exist for many forms.",
+      "symptoms": [
+        "Night blindness (early sign)",
+        "Reluctance to enter dark rooms",
+        "Dilated pupils",
+        "Reduced daytime vision",
+        "Reflective eye shine (tapetal hyperreflectivity)"
+      ],
+      "severity": "high",
+      "treatment_overview": "There is no effective treatment or cure for PRA. Management focuses on adapting the dog's environment to maintain quality of life as vision deteriorates.",
+      "prevention_tips": [
+        "DNA test breeding stock before mating",
+        "Only breed clear or carrier-to-clear pairings",
+        "Annual ophthalmology screening (BVA/KC scheme)"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "cocker-spaniel",
+        "miniature-poodle",
+        "irish-setter",
+        "border-collie",
+        "tibetan-terrier"
+      ],
+      "typical_onset": "3-8 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£0 (management only)"
+    },
+    {
+      "name": "Hemangiosarcoma",
+      "slug": "hemangiosarcoma",
+      "category": "Cancer",
+      "description": "Hemangiosarcoma is an aggressive malignant tumour of blood vessel cells. It most commonly affects the spleen, heart, and liver. Splenic rupture causing life-threatening internal haemorrhage is often the first sign. Prognosis is poor even with treatment.",
+      "symptoms": [
+        "Sudden collapse",
+        "Pale gums",
+        "Abdominal distension",
+        "Weakness",
+        "Rapid breathing",
+        "Sudden death"
+      ],
+      "severity": "high",
+      "treatment_overview": "Emergency splenectomy followed by chemotherapy (doxorubicin-based) is standard. Median survival with surgery alone is 1-2 months; with chemotherapy, 4-6 months. Immunotherapy is being investigated.",
+      "prevention_tips": [
+        "No proven prevention",
+        "Routine abdominal ultrasound in high-risk breeds from age 5"
+      ],
+      "affected_breeds": [
+        "german-shepherd",
+        "golden-retriever",
+        "labrador-retriever",
+        "dobermann",
+        "boxer"
+      ],
+      "typical_onset": "8-13 years",
+      "hereditary": false,
+      "estimated_treatment_cost": "£4,000-£10,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Rhodesian Ridgeback",
+      "slug": "rhodesian-ridgeback",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Bloodhound",
+      "slug": "bloodhound",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Whippet",
+      "slug": "whippet",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Borzoi",
+      "slug": "borzoi",
+      "size": "large",
+      "group": "Hound"
+    }
+  ],
+  "comparisons": [
+    "azawakh-vs-sloughi",
+    "sloughi-vs-saluki"
+  ]
+}

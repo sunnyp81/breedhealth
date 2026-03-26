@@ -1,0 +1,27 @@
+{
+  "name": "Pyometra",
+  "slug": "pyometra",
+  "category": "Urinary",
+  "description": "Pyometra is a life-threatening bacterial infection of the uterus in intact female dogs, most commonly occurring 4-8 weeks after a season. Open pyometra (draining discharge) is less immediately dangerous than closed pyometra (no drainage).",
+  "symptoms": [
+    "Vaginal discharge (open type)",
+    "Lethargy and depression",
+    "Increased thirst and urination",
+    "Vomiting",
+    "Abdominal distension",
+    "Collapse in septic shock"
+  ],
+  "severity": "high",
+  "treatment_overview": "Emergency ovariohysterectomy (spay) is the treatment of choice and is curative. Medical management with prostaglandins and antibiotics carries higher mortality and recurrence risk and is reserved for valuable breeding bitches.",
+  "prevention_tips": [
+    "Spaying is preventive",
+    "Do not use progesterone-based drugs or allow multiple oestrous cycles without breeding in predisposed bitches"
+  ],
+  "affected_breeds": [
+    "all intact female breeds (golden-retriever, bernese-mountain-dog, and Rottweiler at higher relative risk)"
+  ],
+  "typical_onset": "5-10 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,500-£4,000",
+  "breeds_detail": []
+}

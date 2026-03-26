@@ -1,0 +1,174 @@
+{
+  "slug": "eurasier-vs-chow-chow",
+  "breed_a": {
+    "name": "Eurasier",
+    "slug": "eurasier",
+    "group": "Non-Sporting",
+    "size": "medium",
+    "weight_min_kg": 18,
+    "weight_max_kg": 32,
+    "height_min_cm": 48,
+    "height_max_cm": 60,
+    "lifespan_min": 12,
+    "lifespan_max": 16,
+    "temperament": [
+      "calm",
+      "reserved",
+      "loyal",
+      "watchful"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "thyroid-disease",
+      "patellar-luxation",
+      "progressive-retinal-atrophy"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 3,
+    "shedding_level": 4,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 195,
+    "origin": "Germany",
+    "coat_type": "double",
+    "coat_colors": [
+      "red",
+      "fawn",
+      "wolf-gray",
+      "black",
+      "black-and-tan"
+    ],
+    "description": "The Eurasier is a relatively modern German Spitz-type breed created in the 1960s by Julius Wipfel, who crossed the Wolf Spitz, Chow Chow, and Samoyed to produce a balanced, calm companion dog with the beauty of a Northern Spitz and the composed temperament of a family dog. This breed is known for its deep bond with its entire family group and distress when separated from family members for long periods, making it unsuitable as a kennel dog. The Eurasier's remarkable stability, calmness, and moderate exercise needs make it an ideal companion for families seeking a beautiful, low-key dog."
+  },
+  "breed_b": {
+    "name": "Chow Chow",
+    "slug": "chow-chow",
+    "group": "Non-Sporting",
+    "size": "medium",
+    "weight_min_kg": 20,
+    "weight_max_kg": 32,
+    "height_min_cm": 43,
+    "height_max_cm": 51,
+    "lifespan_min": 8,
+    "lifespan_max": 12,
+    "temperament": [
+      "aloof",
+      "loyal",
+      "independent",
+      "dignified"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "entropion",
+      "hypothyroidism",
+      "patellar-luxation"
+    ],
+    "exercise_level": 2,
+    "grooming_level": 4,
+    "shedding_level": 4,
+    "trainability": 2,
+    "good_with_children": false,
+    "good_with_dogs": false,
+    "apartment_friendly": true,
+    "popularity_rank": 101,
+    "origin": "China",
+    "coat_type": "rough double or smooth double",
+    "coat_colors": [
+      "red",
+      "black",
+      "blue",
+      "cinnamon",
+      "cream"
+    ],
+    "description": "The Chow Chow is one of the oldest dog breeds in the world, originating in ancient China where it served as a hunting, herding, and guard dog. Known for its distinctive lion-like mane and blue-black tongue, this breed is fiercely loyal to its family but reserved and aloof with strangers. Chow Chows require early socialisation and firm, consistent training due to their independent and sometimes stubborn nature."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 8,
+      "winner": "eurasier"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 16,
+      "breed_b_value": 12,
+      "winner": "eurasier"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 18,
+      "breed_b_value": 20,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 32,
+      "breed_b_value": 32,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 48,
+      "breed_b_value": 43,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 60,
+      "breed_b_value": 51,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 2,
+      "winner": "eurasier"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": false,
+      "winner": "eurasier"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": false,
+      "winner": "eurasier"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 4,
+      "breed_b_value": 5,
+      "winner": "eurasier"
+    }
+  ]
+}

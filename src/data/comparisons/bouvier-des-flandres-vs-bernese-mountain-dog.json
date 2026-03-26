@@ -1,0 +1,172 @@
+{
+  "slug": "bouvier-des-flandres-vs-bernese-mountain-dog",
+  "breed_a": {
+    "name": "Bouvier des Flandres",
+    "slug": "bouvier-des-flandres",
+    "group": "Herding",
+    "size": "large",
+    "weight_min_kg": 27,
+    "weight_max_kg": 40,
+    "height_min_cm": 58,
+    "height_max_cm": 68,
+    "lifespan_min": 10,
+    "lifespan_max": 12,
+    "temperament": [
+      "rational",
+      "agile",
+      "loyal",
+      "protective",
+      "hard-working"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "progressive-retinal-atrophy",
+      "glaucoma",
+      "subaortic-stenosis"
+    ],
+    "exercise_level": 5,
+    "grooming_level": 4,
+    "shedding_level": 2,
+    "trainability": 5,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 71,
+    "origin": "Belgium",
+    "coat_type": "harsh double",
+    "coat_colors": [
+      "fawn",
+      "black",
+      "gray",
+      "brindle"
+    ],
+    "description": "The Bouvier des Flandres was developed in the Flanders region of Belgium as an all-purpose farm dog, used for cattle herding, cart pulling, and general farm work, and later proven in World War I as a messenger dog and ambulance dog under fire. A powerfully built, rugged working dog with a dense, rough double coat and a distinctive thick beard and mustache, the Bouvier requires an experienced, active owner who can provide consistent training and at least two hours of vigorous daily exercise. When properly trained they are exceptionally versatile, succeeding in police work, personal protection, herding trials, and obedience competitions."
+  },
+  "breed_b": {
+    "name": "Bernese Mountain Dog",
+    "slug": "bernese-mountain-dog",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 32,
+    "weight_max_kg": 52,
+    "height_min_cm": 58,
+    "height_max_cm": 70,
+    "lifespan_min": 7,
+    "lifespan_max": 10,
+    "temperament": [
+      "good-natured",
+      "calm",
+      "strong",
+      "intelligent",
+      "loyal"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "cancer",
+      "bloat",
+      "von-willebrands-disease"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 4,
+    "shedding_level": 4,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 29,
+    "origin": "Switzerland",
+    "coat_type": "long thick double",
+    "coat_colors": [
+      "tricolor black white and rust"
+    ],
+    "description": "One of four Swiss Sennenhund breeds developed in the Bernese Oberland for herding cattle, pulling carts, and guarding Alpine farms, the Bernese Mountain Dog is the most widely owned of the four outside Switzerland. Their striking tricolor coat, gentle giant temperament, and patience with children make them beloved family dogs, but cancer claims more than half of all Berners before age 10, making the breed's tragically short lifespan its most heartbreaking characteristic. Sourcing from a breeder who health-tests for cancer, hip, and elbow conditions in both parents is an absolute minimum requirement."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 10,
+      "breed_b_value": 7,
+      "winner": "bouvier-des-flandres"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 10,
+      "winner": "bouvier-des-flandres"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 27,
+      "breed_b_value": 32,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 40,
+      "breed_b_value": 52,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 58,
+      "breed_b_value": 58,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 68,
+      "breed_b_value": 70,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 5,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 2,
+      "breed_b_value": 4,
+      "winner": "bouvier-des-flandres"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 5,
+      "breed_b_value": 4,
+      "winner": "bouvier-des-flandres"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

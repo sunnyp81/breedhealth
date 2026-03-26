@@ -1,0 +1,55 @@
+{
+  "name": "Colour Dilution Alopecia",
+  "slug": "colour-dilution-alopecia",
+  "category": "Dermatological",
+  "description": "Colour dilution alopecia is a hereditary skin condition associated with the dilute coat colour gene (dd). Abnormal melanin distribution in hair shafts leads to progressive hair loss and recurrent folliculitis in blue or fawn-coloured dogs.",
+  "symptoms": [
+    "Progressive hair loss on trunk",
+    "Dry scaly skin",
+    "Recurrent skin infections",
+    "Affects only dilute-coloured coat areas",
+    "Dull brittle hair"
+  ],
+  "severity": "low",
+  "treatment_overview": "There is no cure. Regular medicated shampoos, moisturisers, and antibiotics for secondary infections manage the condition. Retinoids have been used with variable success.",
+  "prevention_tips": [
+    "Avoid breeding blue/fawn dogs that develop alopecia",
+    "Genetic counselling before dilute-to-dilute matings"
+  ],
+  "affected_breeds": [
+    "dobermann",
+    "yorkshire-terrier",
+    "italian-greyhound",
+    "great-dane",
+    "dachshund"
+  ],
+  "typical_onset": "6 months - 2 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£200-£800/year",
+  "breeds_detail": [
+    {
+      "name": "Yorkshire Terrier",
+      "slug": "yorkshire-terrier",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Italian Greyhound",
+      "slug": "italian-greyhound",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    }
+  ]
+}

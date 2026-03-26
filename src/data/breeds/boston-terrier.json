@@ -1,0 +1,152 @@
+{
+  "name": "Boston Terrier",
+  "slug": "boston-terrier",
+  "group": "Non-Sporting",
+  "size": "small",
+  "weight_min_kg": 4.5,
+  "weight_max_kg": 11,
+  "height_min_cm": 38,
+  "height_max_cm": 43,
+  "lifespan_min": 11,
+  "lifespan_max": 13,
+  "temperament": [
+    "friendly",
+    "lively",
+    "intelligent",
+    "gentle",
+    "adaptable"
+  ],
+  "health_issues": [
+    "brachycephalic-syndrome",
+    "patellar-luxation",
+    "cherry-eye",
+    "deafness",
+    "cataracts"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 1,
+  "shedding_level": 2,
+  "trainability": 4,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 21,
+  "origin": "United States",
+  "coat_type": "short smooth",
+  "coat_colors": [
+    "black and white",
+    "brindle and white",
+    "seal and white"
+  ],
+  "description": "The Boston Terrier is one of the few breeds developed entirely in the United States, originating in Boston in the 1870s through crosses between Bulldogs and White English Terriers. Often called the American Gentleman for its tuxedo-like markings and polite, well-mannered personality, the Boston is a lively, intelligent companion equally suited to city apartments and suburban homes. Their large, prominent round eyes are both a defining breed feature and a vulnerability — corneal ulcers and injuries are common and require prompt veterinary attention.",
+  "conditions_detail": [
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+      "symptoms": [
+        "Intermittent skipping on hind leg",
+        "Sudden leg lifting",
+        "Bunny-hopping",
+        "Hind limb lameness",
+        "Visible kneecap displacement"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+      "prevention_tips": [
+        "Breed from dogs with normal patellar scores",
+        "Maintain healthy weight",
+        "Avoid high-impact activities in affected puppies"
+      ],
+      "affected_breeds": [
+        "chihuahua",
+        "yorkshire-terrier",
+        "pomeranian",
+        "toy-poodle",
+        "bichon-frise",
+        "boston-terrier"
+      ],
+      "typical_onset": "4 months - 6 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    },
+    {
+      "name": "Cherry Eye (Prolapsed Nictitating Membrane Gland)",
+      "slug": "cherry-eye",
+      "category": "Eye",
+      "description": "Cherry eye is the prolapse of the tear-producing gland of the third eyelid, appearing as a red or pink mass in the inner corner of the eye. It is more common in brachycephalic and young breeds, and can affect one or both eyes.",
+      "symptoms": [
+        "Red or pink mass in inner eye corner",
+        "Eye discharge",
+        "Excessive tearing",
+        "Eye rubbing",
+        "Conjunctivitis"
+      ],
+      "severity": "low",
+      "treatment_overview": "Surgical replacement (tucking or pocket technique) of the gland back into its normal position is preferred over removal to preserve tear production. Surgery success rate is high.",
+      "prevention_tips": [
+        "No proven prevention",
+        "Early surgical correction prevents secondary dry eye"
+      ],
+      "affected_breeds": [
+        "english-bulldog",
+        "cocker-spaniel",
+        "beagle",
+        "basset-hound",
+        "shih-tzu",
+        "lhasa-apso"
+      ],
+      "typical_onset": "Under 2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£600-£1,500"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "French Bulldog",
+      "slug": "french-bulldog",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bulldog",
+      "slug": "bulldog",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bichon Frise",
+      "slug": "bichon-frise",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Shiba Inu",
+      "slug": "shiba-inu",
+      "size": "small",
+      "group": "Non-Sporting"
+    }
+  ],
+  "comparisons": [
+    "french-bulldog-vs-boston-terrier",
+    "boston-terrier-vs-french-bulldog",
+    "pug-vs-boston-terrier"
+  ]
+}

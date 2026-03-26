@@ -1,0 +1,172 @@
+{
+  "slug": "labrador-retriever-vs-boxer",
+  "breed_a": {
+    "name": "Labrador Retriever",
+    "slug": "labrador-retriever",
+    "group": "Sporting",
+    "size": "large",
+    "weight_min_kg": 25,
+    "weight_max_kg": 36,
+    "height_min_cm": 54,
+    "height_max_cm": 62,
+    "lifespan_min": 10,
+    "lifespan_max": 12,
+    "temperament": [
+      "friendly",
+      "outgoing",
+      "active",
+      "gentle"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "obesity",
+      "exercise-induced-collapse",
+      "progressive-retinal-atrophy"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 2,
+    "shedding_level": 4,
+    "trainability": 5,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 1,
+    "origin": "Canada",
+    "coat_type": "short double",
+    "coat_colors": [
+      "yellow",
+      "black",
+      "chocolate"
+    ],
+    "description": "The Labrador Retriever has been the most popular dog breed in the United States for decades, beloved for its even temperament and versatility as a family companion, service dog, and sporting partner. Originally bred in Newfoundland to retrieve waterfowl for fishermen, Labs retain an enthusiastic love of water and an eager-to-please work ethic. Their intelligence and trainability make them the most widely used breed for guide, therapy, and detection work worldwide."
+  },
+  "breed_b": {
+    "name": "Boxer",
+    "slug": "boxer",
+    "group": "Working",
+    "size": "large",
+    "weight_min_kg": 25,
+    "weight_max_kg": 32,
+    "height_min_cm": 53,
+    "height_max_cm": 63,
+    "lifespan_min": 10,
+    "lifespan_max": 12,
+    "temperament": [
+      "fun-loving",
+      "bright",
+      "active",
+      "loyal",
+      "playful"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "aortic-stenosis",
+      "boxer-cardiomyopathy",
+      "bloat",
+      "cancer"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 1,
+    "shedding_level": 3,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 14,
+    "origin": "Germany",
+    "coat_type": "short smooth",
+    "coat_colors": [
+      "fawn",
+      "brindle",
+      "white"
+    ],
+    "description": "The Boxer descended from mastiff-type hunting and cattle dogs in Germany and was refined in Munich in the late 19th century into the athletic, square-jawed breed seen today. Known for their exuberant, clownish personality and deep loyalty to their families, Boxers are sometimes called the Peter Pan of dog breeds because of the extended puppyhood they seem to enjoy well into adulthood. They are particularly patient and gentle with children and are naturally protective, making them outstanding family guardians."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 10,
+      "breed_b_value": 10,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 12,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 25,
+      "breed_b_value": 25,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 36,
+      "breed_b_value": 32,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 54,
+      "breed_b_value": 53,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 62,
+      "breed_b_value": 63,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 2,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 4,
+      "breed_b_value": 3,
+      "winner": "boxer"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 5,
+      "breed_b_value": 4,
+      "winner": "labrador-retriever"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

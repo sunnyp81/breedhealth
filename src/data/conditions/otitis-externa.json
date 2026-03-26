@@ -1,0 +1,107 @@
+{
+  "name": "Otitis Externa (Ear Infections)",
+  "slug": "otitis-externa",
+  "category": "Ear",
+  "description": "Otitis externa is inflammation of the external ear canal, usually caused by bacterial or yeast (Malassezia) overgrowth secondary to underlying factors such as allergies, foreign bodies, or conformational abnormalities. It is the most common reason for veterinary visits.",
+  "symptoms": [
+    "Head shaking",
+    "Scratching at ear",
+    "Ear odour",
+    "Discharge (brown, black, or yellow)",
+    "Pain on ear handling",
+    "Head tilt in severe cases"
+  ],
+  "severity": "low",
+  "treatment_overview": "Treatment involves thorough ear cleaning and topical ear drops containing antimicrobial and anti-inflammatory agents. Chronic or recurrent cases require investigation of underlying causes such as allergies.",
+  "prevention_tips": [
+    "Regular ear inspection and gentle cleaning",
+    "Dry ears thoroughly after swimming or bathing",
+    "Treat allergies to prevent recurrent infections",
+    "Regular grooming of ear hair in predisposed breeds"
+  ],
+  "affected_breeds": [
+    "cocker-spaniel",
+    "basset-hound",
+    "labrador-retriever",
+    "golden-retriever",
+    "poodle",
+    "shar-pei"
+  ],
+  "typical_onset": "Any age",
+  "hereditary": false,
+  "estimated_treatment_cost": "£150-£500/episode",
+  "breeds_detail": [
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Shar Pei",
+      "slug": "shar-pei",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Wirehaired Pointing Griffon",
+      "slug": "wirehaired-pointing-griffon",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Field Spaniel",
+      "slug": "field-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Sussex Spaniel",
+      "slug": "sussex-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Small Munsterlander",
+      "slug": "small-munsterlander",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Pudelpointer",
+      "slug": "pudelpointer",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Bohemian Wire-haired Pointing Griffon",
+      "slug": "bohemian-wire-haired-pointing-griffon",
+      "size": "medium",
+      "group": "Sporting"
+    }
+  ]
+}

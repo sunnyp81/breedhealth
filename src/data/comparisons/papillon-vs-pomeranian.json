@@ -1,0 +1,179 @@
+{
+  "slug": "papillon-vs-pomeranian",
+  "breed_a": {
+    "name": "Papillon",
+    "slug": "papillon",
+    "group": "Toy",
+    "size": "small",
+    "weight_min_kg": 2.3,
+    "weight_max_kg": 4.5,
+    "height_min_cm": 20,
+    "height_max_cm": 28,
+    "lifespan_min": 14,
+    "lifespan_max": 16,
+    "temperament": [
+      "happy",
+      "alert",
+      "friendly",
+      "energetic",
+      "intelligent"
+    ],
+    "health_issues": [
+      "patellar-luxation",
+      "progressive-retinal-atrophy",
+      "dental-disease",
+      "hypoglycemia",
+      "seizures"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 3,
+    "shedding_level": 2,
+    "trainability": 5,
+    "good_with_children": false,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 60,
+    "origin": "France",
+    "coat_type": "long silky single",
+    "coat_colors": [
+      "white and black",
+      "white and red",
+      "white and sable",
+      "tricolor"
+    ],
+    "description": "Named for its large, butterfly-shaped ears — papillon means butterfly in French — the Papillon is one of the oldest of the toy spaniels, appearing in European royal portraits as early as the 16th century when ladies of the court kept them as status symbols and lap companions. Despite their dainty appearance, Papillons are highly athletic, fearless, and exceptionally intelligent, consistently ranking among the top obedience competitors in the toy group and successfully competing against much larger breeds. They are one of the few toy breeds that thrives in agility competitions, combining tiny stature with surprising athleticism and intensity."
+  },
+  "breed_b": {
+    "name": "Pomeranian",
+    "slug": "pomeranian",
+    "group": "Toy",
+    "size": "small",
+    "weight_min_kg": 1.4,
+    "weight_max_kg": 3.2,
+    "height_min_cm": 18,
+    "height_max_cm": 30,
+    "lifespan_min": 12,
+    "lifespan_max": 16,
+    "temperament": [
+      "bold",
+      "inquisitive",
+      "playful",
+      "vivacious",
+      "sociable"
+    ],
+    "health_issues": [
+      "patellar-luxation",
+      "tracheal-collapse",
+      "alopecia-x",
+      "cataracts",
+      "dental-disease"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 4,
+    "shedding_level": 3,
+    "trainability": 3,
+    "good_with_children": false,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 43,
+    "origin": "Germany",
+    "coat_type": "thick double",
+    "coat_colors": [
+      "orange",
+      "red",
+      "cream",
+      "sable",
+      "black",
+      "blue",
+      "white",
+      "parti"
+    ],
+    "description": "The Pomeranian descends from large Spitz-type sled dogs from the Pomerania region of northern Poland and Germany, dramatically miniaturized over the 18th and 19th centuries with Queen Victoria's famous preference for smaller specimens helping drive the trend. Despite weighing barely over 3 kg, Poms possess a bold big-dog attitude and will confidently challenge dogs many times their size if not properly socialized from puppyhood. Their luxuriant double coat requires brushing two to three times per week and blows out heavily twice a year during shedding season, producing a surprising volume of fine hair."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 14,
+      "breed_b_value": 12,
+      "winner": "papillon"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 16,
+      "breed_b_value": 16,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 2.3,
+      "breed_b_value": 1.4,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 4.5,
+      "breed_b_value": 3.2,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 20,
+      "breed_b_value": 18,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 28,
+      "breed_b_value": 30,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 2,
+      "breed_b_value": 3,
+      "winner": "papillon"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 5,
+      "breed_b_value": 3,
+      "winner": "papillon"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

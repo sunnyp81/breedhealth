@@ -1,0 +1,49 @@
+{
+  "name": "Medial Shoulder Instability",
+  "slug": "medial-shoulder-instability",
+  "category": "Orthopedic",
+  "description": "Medial shoulder instability (MSI) is the most common cause of forelimb lameness in active and sporting dogs. It results from overuse or acute injury to the medial glenohumeral ligament and subscapularis tendon, causing pain and instability.",
+  "symptoms": [
+    "Chronic foreleg lameness worse after exercise",
+    "Pain on shoulder abduction",
+    "Positive abduction angle test",
+    "Muscle wasting",
+    "Reluctance to perform agility or retrieve"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Conservative management with strict rest, rehabilitation, and platelet-rich plasma (PRP) injections helps many cases. Arthroscopic thermal capsulorrhaphy or medial imbrication surgery is used for refractory cases.",
+  "prevention_tips": [
+    "Condition and warm up sporting dogs appropriately",
+    "Avoid repetitive high-impact activities in young dogs",
+    "Address shoulder pain early before chronic instability develops"
+  ],
+  "affected_breeds": [
+    "labrador-retriever",
+    "golden-retriever",
+    "border-collie",
+    "border-terrier"
+  ],
+  "typical_onset": "2-8 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,500-£4,000",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Border Collie",
+      "slug": "border-collie",
+      "size": "medium",
+      "group": "Herding"
+    }
+  ]
+}

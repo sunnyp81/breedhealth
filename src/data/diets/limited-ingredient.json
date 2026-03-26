@@ -1,0 +1,48 @@
+{
+  "name": "Limited Ingredient",
+  "slug": "limited-ingredient",
+  "description": "Limited ingredient diets (LID) are formulated with a minimal number of protein and carbohydrate sources, making it easier to identify and eliminate food allergens. Typically feature a single novel protein and one carbohydrate source.",
+  "suitable_for": [
+    "dogs with food allergies or intolerances",
+    "dogs with chronic itching or hot spots",
+    "dogs with recurring gastrointestinal issues",
+    "dogs undergoing elimination diet trials"
+  ],
+  "benefits": [
+    "Simplifies allergy identification",
+    "Reduces chance of triggering food sensitivities",
+    "Often uses novel proteins dogs haven't been exposed to",
+    "Good for dogs with multiple ingredient sensitivities"
+  ],
+  "risks": [
+    "May not be nutritionally complete if poorly formulated",
+    "Novel proteins can become sensitising over time",
+    "More expensive than standard diets",
+    "May not resolve non-food allergies"
+  ],
+  "recommended_brands": [
+    "Natural Balance L.I.D.",
+    "Zignature",
+    "Canidae Pure",
+    "Merrick Limited Ingredient"
+  ],
+  "feeding_guidelines": {
+    "small": {
+      "cups_per_day": "0.5-1",
+      "frequency": "2 meals"
+    },
+    "medium": {
+      "cups_per_day": "1-2",
+      "frequency": "2 meals"
+    },
+    "large": {
+      "cups_per_day": "2-3",
+      "frequency": "2 meals"
+    },
+    "giant": {
+      "cups_per_day": "3-4.5",
+      "frequency": "2-3 meals"
+    }
+  },
+  "suitable_breeds": []
+}

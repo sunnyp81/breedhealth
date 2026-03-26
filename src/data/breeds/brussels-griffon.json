@@ -1,0 +1,157 @@
+{
+  "name": "Brussels Griffon",
+  "slug": "brussels-griffon",
+  "group": "Toy",
+  "size": "small",
+  "weight_min_kg": 3,
+  "weight_max_kg": 5,
+  "height_min_cm": 18,
+  "height_max_cm": 28,
+  "lifespan_min": 12,
+  "lifespan_max": 15,
+  "temperament": [
+    "curious",
+    "alert",
+    "self-important",
+    "affectionate"
+  ],
+  "health_issues": [
+    "brachycephalic-obstructive-airway-syndrome",
+    "eye-conditions",
+    "patellar-luxation",
+    "dental-disease",
+    "syringomyelia"
+  ],
+  "exercise_level": 2,
+  "grooming_level": 3,
+  "shedding_level": 1,
+  "trainability": 3,
+  "good_with_children": false,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 112,
+  "origin": "Belgium",
+  "coat_type": "rough or smooth",
+  "coat_colors": [
+    "red",
+    "beige",
+    "black and tan",
+    "black"
+  ],
+  "description": "The Brussels Griffon is a charismatic Belgian toy breed with an almost human, frowning expression that became popular with Belgian coachmen as a ratter before being refined into a companion dog favoured by the Belgian royal family. These small but self-possessed dogs are highly intelligent, sensitive, and form intense bonds with a single person, often becoming the quintessential 'velcro dog.' Their brachycephalic (flat-faced) structure requires careful attention to breathing and exercise in hot weather.",
+  "conditions_detail": [
+    {
+      "name": "Brachycephalic Obstructive Airway Syndrome (BOAS)",
+      "slug": "brachycephalic-obstructive-airway-syndrome",
+      "category": "Respiratory",
+      "description": "BOAS is a complex of anatomical abnormalities in flat-faced breeds including stenotic nares, elongated soft palate, hypoplastic trachea, and everted laryngeal saccules. These combine to severely restrict airflow and cause chronic respiratory distress.",
+      "symptoms": [
+        "Noisy laboured breathing",
+        "Exercise intolerance",
+        "Gagging and regurgitation",
+        "Cyanosis in severe cases",
+        "Sleep apnoea",
+        "Overheating"
+      ],
+      "severity": "high",
+      "treatment_overview": "Surgical correction of stenotic nares, elongated soft palate, and everted saccules significantly improves quality of life. Weight control and avoiding heat/exercise are essential management measures.",
+      "prevention_tips": [
+        "Select breeding stock with wider nostrils and better airway scores",
+        "Use BOAS functional grading schemes before breeding",
+        "Avoid breeding from severely affected dogs"
+      ],
+      "affected_breeds": [
+        "french-bulldog",
+        "english-bulldog",
+        "pug",
+        "boston-terrier",
+        "shih-tzu",
+        "pekingese"
+      ],
+      "typical_onset": "Birth onward",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£4,000"
+    },
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+      "symptoms": [
+        "Intermittent skipping on hind leg",
+        "Sudden leg lifting",
+        "Bunny-hopping",
+        "Hind limb lameness",
+        "Visible kneecap displacement"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+      "prevention_tips": [
+        "Breed from dogs with normal patellar scores",
+        "Maintain healthy weight",
+        "Avoid high-impact activities in affected puppies"
+      ],
+      "affected_breeds": [
+        "chihuahua",
+        "yorkshire-terrier",
+        "pomeranian",
+        "toy-poodle",
+        "bichon-frise",
+        "boston-terrier"
+      ],
+      "typical_onset": "4 months - 6 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Weight Management",
+      "slug": "weight-management"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Yorkshire Terrier",
+      "slug": "yorkshire-terrier",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Cavalier King Charles Spaniel",
+      "slug": "cavalier-king-charles-spaniel",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Shih Tzu",
+      "slug": "shih-tzu",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Havanese",
+      "slug": "havanese",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Pug",
+      "slug": "pug",
+      "size": "small",
+      "group": "Toy"
+    }
+  ],
+  "comparisons": [
+    "affenpinscher-vs-brussels-griffon",
+    "brussels-griffon-vs-chihuahua"
+  ]
+}

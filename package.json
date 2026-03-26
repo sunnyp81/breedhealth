@@ -1,0 +1,24 @@
+{
+  "name": "breedhealth",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "pipeline": "node scripts/build-data.mjs && node scripts/generate-og-images.mjs",
+    "deploy": "npm run build && npx wrangler pages deploy dist --project-name breedhealth"
+  },
+  "dependencies": {
+    "@astrojs/preact": "latest",
+    "@astrojs/sitemap": "^3.7.1",
+    "@tailwindcss/vite": "^4.2.1",
+    "astro": "^6.0.4",
+    "preact": "latest",
+    "tailwindcss": "^4.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "wrangler": "^4.72.0"
+  }
+}

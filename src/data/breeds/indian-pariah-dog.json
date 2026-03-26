@@ -1,0 +1,110 @@
+{
+  "name": "Indian Pariah Dog",
+  "slug": "indian-pariah-dog",
+  "group": "Foundation Stock Service",
+  "size": "medium",
+  "weight_min_kg": 15,
+  "weight_max_kg": 30,
+  "height_min_cm": 46,
+  "height_max_cm": 63,
+  "lifespan_min": 10,
+  "lifespan_max": 13,
+  "temperament": [
+    "alert",
+    "social",
+    "intelligent",
+    "adaptable"
+  ],
+  "health_issues": [
+    "skin-conditions",
+    "hip-dysplasia",
+    "ear-infections"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 1,
+  "shedding_level": 2,
+  "trainability": 4,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 207,
+  "origin": "India",
+  "coat_type": "short",
+  "coat_colors": [
+    "pied",
+    "solid-fawn",
+    "brown",
+    "black"
+  ],
+  "description": "The Indian Pariah Dog, also known as the INDog or Desi Dog, is one of the oldest and most primitive dog breeds in the world, unchanged since ancient times and closely related to the earliest domesticated dogs of South Asia some 15,000 years ago. These dogs have survived and thrived for millennia through natural selection rather than human selective breeding, producing an exceptionally disease-resistant, adaptable, and intelligent animal that is believed to represent the original morphology of the domestic dog. The Indian Pariah Dog has been selectively bred in India under the name 'Mudhol Hound' in certain regions, and is now gaining recognition as an excellent adoption candidate due to its health and trainability.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Ryukyu Inu",
+      "slug": "ryukyu-inu",
+      "size": "medium",
+      "group": "Foundation Stock Service"
+    },
+    {
+      "name": "Pungsan Dog",
+      "slug": "pungsan-dog",
+      "size": "medium",
+      "group": "Foundation Stock Service"
+    },
+    {
+      "name": "Telomian",
+      "slug": "telomian",
+      "size": "small",
+      "group": "Foundation Stock Service"
+    },
+    {
+      "name": "New Guinea Singing Dog",
+      "slug": "new-guinea-singing-dog",
+      "size": "small",
+      "group": "Foundation Stock Service"
+    }
+  ],
+  "comparisons": []
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Persistent Pupillary Membranes (PPM)",
+  "slug": "persistent-pupillary-membranes",
+  "category": "Eye",
+  "description": "PPMs are remnants of foetal blood vessels crossing the pupil that fail to fully regress after birth. Depending on what they attach to, they can cause iris-to-iris strands (benign), iris-to-lens adhesions (cataracts), or iris-to-cornea adhesions (corneal opacities).",
+  "symptoms": [
+    "Visible strands across pupil",
+    "Corneal opacity if corneal attachment",
+    "Lens opacity if lens attachment",
+    "Reduced vision in severe cases",
+    "Usually incidental finding"
+  ],
+  "severity": "low",
+  "treatment_overview": "Iris-to-iris strands require no treatment. Iris-to-cornea or iris-to-lens forms may require monitoring or surgical management if causing significant visual impairment.",
+  "prevention_tips": [
+    "BVA/KC/ISDS eye scheme examination",
+    "Do not breed dogs with significant iris-to-cornea or iris-to-lens PPMs"
+  ],
+  "affected_breeds": [
+    "basenji",
+    "chow-chow",
+    "welsh-corgi",
+    "shetland-sheepdog",
+    "mastiff"
+  ],
+  "typical_onset": "Birth",
+  "hereditary": true,
+  "estimated_treatment_cost": "£0-£1,500",
+  "breeds_detail": [
+    {
+      "name": "Basenji",
+      "slug": "basenji",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Chow Chow",
+      "slug": "chow-chow",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Shetland Sheepdog",
+      "slug": "shetland-sheepdog",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Mastiff",
+      "slug": "mastiff",
+      "size": "giant",
+      "group": "Working"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Puppy Formula",
+  "slug": "puppy",
+  "description": "Puppy diets provide the higher calorie density, protein, calcium, and DHA that growing dogs need for bone development, brain growth, and immune system support. Formulated for dogs under 12 months (or up to 24 months for large breeds).",
+  "suitable_for": [
+    "puppies under 12 months",
+    "large breed puppies under 24 months",
+    "pregnant or lactating dogs"
+  ],
+  "benefits": [
+    "Higher DHA for brain and eye development",
+    "Optimal calcium-to-phosphorus ratio for bone growth",
+    "Calorie-dense to support rapid growth",
+    "Immune-supporting nutrients"
+  ],
+  "risks": [
+    "Overfeeding can cause rapid growth in large breeds leading to joint problems",
+    "Not suitable for adult dogs (excess calcium)",
+    "Large breed puppies need specific large-breed puppy food"
+  ],
+  "recommended_brands": [
+    "Royal Canin Puppy",
+    "Hill's Science Diet Puppy",
+    "Purina Pro Plan Puppy",
+    "Eukanuba Puppy"
+  ],
+  "feeding_guidelines": {
+    "small": {
+      "cups_per_day": "0.5-1.5",
+      "frequency": "3-4 meals"
+    },
+    "medium": {
+      "cups_per_day": "1-3",
+      "frequency": "3 meals"
+    },
+    "large": {
+      "cups_per_day": "3-5",
+      "frequency": "3 meals"
+    },
+    "giant": {
+      "cups_per_day": "4-8",
+      "frequency": "3 meals"
+    }
+  },
+  "suitable_breeds": []
+}

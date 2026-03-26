@@ -1,0 +1,170 @@
+{
+  "slug": "manchester-terrier-vs-miniature-pinscher",
+  "breed_a": {
+    "name": "Manchester Terrier",
+    "slug": "manchester-terrier",
+    "group": "Terrier",
+    "size": "small",
+    "weight_min_kg": 5,
+    "weight_max_kg": 10,
+    "height_min_cm": 38,
+    "height_max_cm": 41,
+    "lifespan_min": 14,
+    "lifespan_max": 16,
+    "temperament": [
+      "keen",
+      "alert",
+      "spirited",
+      "devoted"
+    ],
+    "health_issues": [
+      "von-willebrands-disease",
+      "glaucoma",
+      "hypothyroidism",
+      "patellar-luxation"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 1,
+    "shedding_level": 2,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": false,
+    "apartment_friendly": true,
+    "popularity_rank": 133,
+    "origin": "United Kingdom",
+    "coat_type": "smooth",
+    "coat_colors": [
+      "black-and-tan"
+    ],
+    "description": "The Manchester Terrier is a sleek, athletic breed developed in England for rat-catching and rabbit coursing. They are one of the oldest identified terrier breeds and combine the speed of a sighthound with the tenacity of a terrier. Alert and devoted to their families, they can be reserved with strangers and have strong prey drives that require management around small animals."
+  },
+  "breed_b": {
+    "name": "Miniature Pinscher",
+    "slug": "miniature-pinscher",
+    "group": "Toy",
+    "size": "small",
+    "weight_min_kg": 3.6,
+    "weight_max_kg": 5,
+    "height_min_cm": 25,
+    "height_max_cm": 32,
+    "lifespan_min": 12,
+    "lifespan_max": 16,
+    "temperament": [
+      "proud",
+      "fearless",
+      "energetic",
+      "outgoing",
+      "alert"
+    ],
+    "health_issues": [
+      "patellar-luxation",
+      "progressive-retinal-atrophy",
+      "leg-calve-perthes",
+      "hypothyroidism",
+      "heart-disease"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 1,
+    "shedding_level": 2,
+    "trainability": 3,
+    "good_with_children": false,
+    "good_with_dogs": false,
+    "apartment_friendly": true,
+    "popularity_rank": 68,
+    "origin": "Germany",
+    "coat_type": "short smooth",
+    "coat_colors": [
+      "red",
+      "black and tan",
+      "chocolate and tan",
+      "stag red"
+    ],
+    "description": "The Miniature Pinscher — or Min Pin — is not a miniature Doberman but a distinct German breed predating the Doberman by many decades, developed from crossing small German pinschers, Italian Greyhounds, and Dachshunds. Known as the King of Toys for their imperious, self-assured bearing, Min Pins carry themselves with an exaggerated high-stepping hackney gait that is a recognized breed characteristic. Despite being among the smallest breeds, they are bold, curious, and energetic dogs with a fearless nature that makes secure fencing and supervised interactions with larger dogs essential."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 14,
+      "breed_b_value": 12,
+      "winner": "manchester-terrier"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 16,
+      "breed_b_value": 16,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 5,
+      "breed_b_value": 3.6,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 10,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 38,
+      "breed_b_value": 25,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 41,
+      "breed_b_value": 32,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 1,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 2,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": false,
+      "winner": "manchester-terrier"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 4,
+      "breed_b_value": 5,
+      "winner": "manchester-terrier"
+    }
+  ]
+}

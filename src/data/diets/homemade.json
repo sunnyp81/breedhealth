@@ -1,0 +1,46 @@
+{
+  "name": "Homemade",
+  "slug": "homemade",
+  "description": "Homemade diets are prepared from scratch by owners using whole food ingredients. While they offer full control over ingredients, they require careful formulation to ensure nutritional completeness and balance.",
+  "suitable_for": [
+    "dogs with multiple food allergies",
+    "owners with time and nutritional knowledge",
+    "dogs whose conditions require highly customised nutrition",
+    "dogs with poor response to commercial foods"
+  ],
+  "benefits": [
+    "Full control over ingredient quality and sourcing",
+    "Avoids artificial additives and preservatives",
+    "Can be tailored exactly to a dog's health needs",
+    "Fresh, minimally processed ingredients"
+  ],
+  "risks": [
+    "Nutritional imbalance is common without expert guidance",
+    "Time-consuming to prepare properly",
+    "Risk of bacterial contamination if handling is poor",
+    "Requires consultation with a veterinary nutritionist"
+  ],
+  "recommended_brands": [
+    "N/A — consult a board-certified veterinary nutritionist",
+    "Use BalanceIT or PetDiets.com for recipe formulation"
+  ],
+  "feeding_guidelines": {
+    "small": {
+      "cups_per_day": "Calculated by vet nutritionist based on recipe",
+      "frequency": "2 meals"
+    },
+    "medium": {
+      "cups_per_day": "Calculated by vet nutritionist based on recipe",
+      "frequency": "2 meals"
+    },
+    "large": {
+      "cups_per_day": "Calculated by vet nutritionist based on recipe",
+      "frequency": "2 meals"
+    },
+    "giant": {
+      "cups_per_day": "Calculated by vet nutritionist based on recipe",
+      "frequency": "2-3 meals"
+    }
+  },
+  "suitable_breeds": []
+}

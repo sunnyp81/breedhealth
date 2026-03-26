@@ -1,0 +1,376 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import BreedComparisonTable from '../../components/BreedComparisonTable.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+import FAQ from '../../components/FAQ.astro';
+import AdSlot from '../../components/AdSlot.astro';
+
+import { getIndex, getComparison } from '../../lib/data';
+import { generateComparisonSummary } from '../../lib/copy';
+import { generateFAQSchema, generateBreadcrumbSchema } from '../../lib/schema';
+
+import type { GetStaticPaths } from 'astro';
+import type { ComparisonData, Breed } from '../../lib/types';
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const index = await getIndex();
+  const paths = [];
+  for (const comp of index.comparisons) {
+    const data = await getComparison(comp.slug);
+    if (!data) continue; // skip if either breed doesn't exist
+    paths.push({
+      params: { pair: comp.slug },
+      props: { slug: comp.slug },
+    });
+  }
+  return paths;
+};
+
+interface Props {
+  slug: string;
+}
+
+const { slug } = Astro.props;
+
+const comparison = await getComparison(slug);
+if (!comparison) return Astro.redirect('/compare/');
+const { breed_a, breed_b } = comparison;
+
+const siteUrl = 'https://breedhealth.co.uk';
+const pageUrl = `${siteUrl}/compare/${slug}/`;
+
+const summaryText = generateComparisonSummary(breed_a, breed_b);
+
+// ── Computed recommendation logic ────────────────────────────────────────────
+
+function bestForFamilies(a: Breed, b: Breed): string {
+  if (a.good_with_children && !b.good_with_children) return a.name;
+  if (b.good_with_children && !a.good_with_children) return b.name;
+  if (a.good_with_children && b.good_with_children) return `both ${a.name} and ${b.name}`;
+  return `neither breed is strongly recommended for households with very young children without careful supervision`;
+}
+
+function bestForApartment(a: Breed, b: Breed): string {
+  if (a.apartment_friendly && !b.apartment_friendly) return a.name;
+  if (b.apartment_friendly && !a.apartment_friendly) return b.name;
+  if (a.apartment_friendly && b.apartment_friendly) return `both breeds`;
+  return `neither breed — both thrive with access to outdoor space`;
+}
+
+function bestForActiveOwners(a: Breed, b: Breed): string {
+  const winner = a.exercise_level >= b.exercise_level ? a : b;
+  return `${winner.name} (exercise level ${winner.exercise_level}/5)`;
+}
+
+function bestForFirstTimeOwners(a: Breed, b: Breed): string {
+  // Higher trainability + lower exercise = easier for first-timers
+  const scoreA = a.trainability - (a.exercise_level * 0.5);
+  const scoreB = b.trainability - (b.exercise_level * 0.5);
+  if (Math.abs(scoreA - scoreB) < 0.5) return `both breeds are reasonably manageable for committed first-time owners`;
+  return scoreA > scoreB ? a.name : b.name;
+}
+
+function longerLivedBreed(a: Breed, b: Breed): string {
+  const avgA = (a.lifespan_min + a.lifespan_max) / 2;
+  const avgB = (b.lifespan_min + b.lifespan_max) / 2;
+  if (Math.abs(avgA - avgB) < 1) return `both breeds have a similar average lifespan`;
+  return avgA > avgB
+    ? `${a.name} (${a.lifespan_min}–${a.lifespan_max} yrs vs ${b.lifespan_min}–${b.lifespan_max} yrs)`
+    : `${b.name} (${b.lifespan_min}–${b.lifespan_max} yrs vs ${a.lifespan_min}–${a.lifespan_max} yrs)`;
+}
+
+const recommendations = [
+  { label: 'Best for families with children', value: bestForFamilies(breed_a, breed_b) },
+  { label: 'Best for apartment living', value: bestForApartment(breed_a, breed_b) },
+  { label: 'Best for active owners', value: bestForActiveOwners(breed_a, breed_b) },
+  { label: 'Best for first-time owners', value: bestForFirstTimeOwners(breed_a, breed_b) },
+  { label: 'Longer average lifespan', value: longerLivedBreed(breed_a, breed_b) },
+];
+
+// ── Health comparison ─────────────────────────────────────────────────────────
+
+const sharedConditions = breed_a.health_issues.filter((c) =>
+  breed_b.health_issues.includes(c)
+);
+const onlyA = breed_a.health_issues.filter((c) => !breed_b.health_issues.includes(c));
+const onlyB = breed_b.health_issues.filter((c) => !breed_a.health_issues.includes(c));
+
+// ── Comparison-specific FAQs (computed) ──────────────────────────────────────
+
+const faqs: { question: string; answer: string }[] = [
+  {
+    question: `Which is bigger — a ${breed_a.name} or a ${breed_b.name}?`,
+    answer: (() => {
+      const aWeight = (breed_a.weight_min_kg + breed_a.weight_max_kg) / 2;
+      const bWeight = (breed_b.weight_min_kg + breed_b.weight_max_kg) / 2;
+      if (Math.abs(aWeight - bWeight) < 2) {
+        return `The ${breed_a.name} and ${breed_b.name} are very similar in size. The ${breed_a.name} weighs ${breed_a.weight_min_kg}–${breed_a.weight_max_kg} kg and the ${breed_b.name} weighs ${breed_b.weight_min_kg}–${breed_b.weight_max_kg} kg.`;
+      }
+      const bigger = aWeight > bWeight ? breed_a : breed_b;
+      const smaller = aWeight > bWeight ? breed_b : breed_a;
+      return `The ${bigger.name} is the larger breed, typically weighing ${bigger.weight_min_kg}–${bigger.weight_max_kg} kg compared to the ${smaller.name}'s ${smaller.weight_min_kg}–${smaller.weight_max_kg} kg.`;
+    })(),
+  },
+  {
+    question: `Which breed lives longer — ${breed_a.name} or ${breed_b.name}?`,
+    answer: (() => {
+      const avgA = (breed_a.lifespan_min + breed_a.lifespan_max) / 2;
+      const avgB = (breed_b.lifespan_min + breed_b.lifespan_max) / 2;
+      if (Math.abs(avgA - avgB) < 1) {
+        return `Both breeds have a comparable average lifespan. The ${breed_a.name} typically lives ${breed_a.lifespan_min}–${breed_a.lifespan_max} years and the ${breed_b.name} ${breed_b.lifespan_min}–${breed_b.lifespan_max} years.`;
+      }
+      const longer = avgA > avgB ? breed_a : breed_b;
+      const shorter = avgA > avgB ? breed_b : breed_a;
+      return `The ${longer.name} generally has a longer lifespan (${longer.lifespan_min}–${longer.lifespan_max} years) compared to the ${shorter.name} (${shorter.lifespan_min}–${shorter.lifespan_max} years). Smaller breeds typically outlive larger ones, and individual genetics, diet, and preventive care all play significant roles.`;
+    })(),
+  },
+  {
+    question: `Are ${breed_a.name}s or ${breed_b.name}s easier to train?`,
+    answer: (() => {
+      if (breed_a.trainability === breed_b.trainability) {
+        return `Both the ${breed_a.name} and ${breed_b.name} have comparable trainability (${breed_a.trainability}/5). Consistent positive reinforcement methods work well for both breeds.`;
+      }
+      const easier = breed_a.trainability > breed_b.trainability ? breed_a : breed_b;
+      const harder = breed_a.trainability > breed_b.trainability ? breed_b : breed_a;
+      return `The ${easier.name} (trainability ${easier.trainability}/5) is generally easier to train than the ${harder.name} (${harder.trainability}/5). ${easier.name}s tend to respond quickly to reward-based training, while ${harder.name}s may require more patience and consistency.`;
+    })(),
+  },
+  {
+    question: `Which needs more grooming — ${breed_a.name} or ${breed_b.name}?`,
+    answer: (() => {
+      if (breed_a.grooming_level === breed_b.grooming_level) {
+        return `Both breeds have similar grooming requirements (${breed_a.grooming_level}/5). Regular brushing and routine coat maintenance apply equally to both.`;
+      }
+      const more = breed_a.grooming_level > breed_b.grooming_level ? breed_a : breed_b;
+      const less = breed_a.grooming_level > breed_b.grooming_level ? breed_b : breed_a;
+      return `The ${more.name} requires considerably more grooming (${more.grooming_level}/5) than the ${less.name} (${less.grooming_level}/5). The ${more.name}'s ${more.coat_type} coat needs more frequent brushing and professional grooming to stay in good condition.`;
+    })(),
+  },
+  {
+    question: `Which breed is better for families — ${breed_a.name} or ${breed_b.name}?`,
+    answer: (() => {
+      if (breed_a.good_with_children && breed_b.good_with_children) {
+        return `Both the ${breed_a.name} and ${breed_b.name} are generally considered good family dogs and are typically patient and gentle with children. As always, early socialisation and teaching children how to interact respectfully with dogs are essential regardless of breed.`;
+      }
+      if (!breed_a.good_with_children && !breed_b.good_with_children) {
+        return `Neither breed is typically recommended as the best choice for households with very young children without careful management and thorough early socialisation. Close supervision is advised with either breed.`;
+      }
+      const better = breed_a.good_with_children ? breed_a : breed_b;
+      const other = breed_a.good_with_children ? breed_b : breed_a;
+      return `The ${better.name} is generally the more family-friendly choice. The ${other.name} can still be a good family companion but may require more careful socialisation around children.`;
+    })(),
+  },
+  {
+    question: `Do ${breed_a.name}s and ${breed_b.name}s have the same health problems?`,
+    answer: (() => {
+      if (sharedConditions.length === 0) {
+        return `Based on available data, the ${breed_a.name} (${breed_a.health_issues.length} documented conditions) and the ${breed_b.name} (${breed_b.health_issues.length} documented conditions) have largely distinct health profiles. Pet insurance covering breed-specific hereditary conditions is recommended for both.`;
+      }
+      const sharedText = sharedConditions.slice(0, 3).map((s) => s.replace(/-/g, ' ')).join(', ');
+      return `Some health conditions are shared between both breeds, including ${sharedText}. The ${breed_a.name} has ${breed_a.health_issues.length} documented conditions overall and the ${breed_b.name} has ${breed_b.health_issues.length}. Pet insurance is strongly recommended for both.`;
+    })(),
+  },
+];
+
+const faqSchema        = generateFAQSchema(faqs);
+const breadcrumbSchema = generateBreadcrumbSchema([
+  { name: 'Home',           url: `${siteUrl}/` },
+  { name: 'Compare Breeds', url: `${siteUrl}/compare/` },
+  { name: `${breed_a.name} vs ${breed_b.name}`, url: pageUrl },
+]);
+
+const breadcrumbItems = [
+  { name: 'Home',           url: '/' },
+  { name: 'Compare Breeds', url: '/compare/' },
+  { name: `${breed_a.name} vs ${breed_b.name}`, url: `/compare/${slug}/` },
+];
+
+const metaDescription = `${breed_a.name} vs ${breed_b.name} — detailed side-by-side comparison of size, exercise, grooming, trainability, health conditions, and family suitability. Find out which breed is right for you.`;
+---
+
+<BaseLayout
+  title={`${breed_a.name} vs ${breed_b.name} — Which Breed Is Better? | BreedHealth`}
+  description={metaDescription}
+  canonicalUrl={pageUrl}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  </Fragment>
+
+  <!-- Breadcrumbs -->
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Page heading -->
+  <h1 class="text-3xl sm:text-4xl font-bold text-primary mt-4 mb-4 leading-tight">
+    {breed_a.name} vs {breed_b.name} — Complete Comparison
+  </h1>
+
+  <!-- Summary paragraph -->
+  <p class="text-text-muted leading-relaxed text-lg mb-8 max-w-3xl">
+    {summaryText}
+  </p>
+
+  <!-- Comparison table -->
+  <section aria-labelledby="comparison-table-heading" class="mb-10">
+    <h2 id="comparison-table-heading" class="text-2xl font-bold text-primary mb-4">
+      Side-by-Side Comparison
+    </h2>
+    <BreedComparisonTable breedA={breed_a} breedB={breed_b} />
+  </section>
+
+  <!-- In-content ad -->
+  <div class="my-6">
+    <AdSlot position="in-content" />
+  </div>
+
+  <!-- Health comparison section -->
+  <section aria-labelledby="health-comparison-heading" class="mb-10">
+    <h2 id="health-comparison-heading" class="text-2xl font-bold text-primary mb-4">
+      Health Comparison
+    </h2>
+    <p class="text-text-muted leading-relaxed mb-6 max-w-3xl text-sm">
+      Understanding each breed's health profile helps owners budget for insurance, schedule appropriate screening, and make informed decisions before purchasing.
+    </p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <!-- Breed A health -->
+      <div class="bg-white border border-border rounded-xl p-5">
+        <h3 class="font-bold text-primary mb-3 text-lg">
+          <a href={`/breeds/${breed_a.slug}/health/`} class="hover:underline no-underline">{breed_a.name}</a>
+          <span class="ml-2 text-sm font-normal text-text-light">({breed_a.health_issues.length} conditions)</span>
+        </h3>
+        {breed_a.health_issues.length > 0 ? (
+          <ul class="space-y-1.5" role="list">
+            {breed_a.health_issues.slice(0, 8).map((condSlug) => (
+              <li class="text-sm">
+                <a
+                  href={`/conditions/${condSlug}/`}
+                  class="text-text-muted hover:text-primary no-underline hover:underline capitalize"
+                >
+                  {condSlug.replace(/-/g, ' ')}
+                </a>
+              </li>
+            ))}
+            {breed_a.health_issues.length > 8 && (
+              <li class="text-sm text-text-light">
+                +{breed_a.health_issues.length - 8} more —{' '}
+                <a href={`/breeds/${breed_a.slug}/health/`} class="text-primary hover:underline no-underline">
+                  view full health guide
+                </a>
+              </li>
+            )}
+          </ul>
+        ) : (
+          <p class="text-sm text-text-muted">No major hereditary conditions currently documented.</p>
+        )}
+      </div>
+
+      <!-- Breed B health -->
+      <div class="bg-white border border-border rounded-xl p-5">
+        <h3 class="font-bold text-primary mb-3 text-lg">
+          <a href={`/breeds/${breed_b.slug}/health/`} class="hover:underline no-underline">{breed_b.name}</a>
+          <span class="ml-2 text-sm font-normal text-text-light">({breed_b.health_issues.length} conditions)</span>
+        </h3>
+        {breed_b.health_issues.length > 0 ? (
+          <ul class="space-y-1.5" role="list">
+            {breed_b.health_issues.slice(0, 8).map((condSlug) => (
+              <li class="text-sm">
+                <a
+                  href={`/conditions/${condSlug}/`}
+                  class="text-text-muted hover:text-primary no-underline hover:underline capitalize"
+                >
+                  {condSlug.replace(/-/g, ' ')}
+                </a>
+              </li>
+            ))}
+            {breed_b.health_issues.length > 8 && (
+              <li class="text-sm text-text-light">
+                +{breed_b.health_issues.length - 8} more —{' '}
+                <a href={`/breeds/${breed_b.slug}/health/`} class="text-primary hover:underline no-underline">
+                  view full health guide
+                </a>
+              </li>
+            )}
+          </ul>
+        ) : (
+          <p class="text-sm text-text-muted">No major hereditary conditions currently documented.</p>
+        )}
+      </div>
+    </div>
+
+    <!-- Shared conditions callout -->
+    {sharedConditions.length > 0 && (
+      <div class="mt-4 p-4 bg-bg-alt border border-border rounded-xl max-w-3xl">
+        <p class="text-sm text-text-muted">
+          <strong class="text-text">Conditions shared by both breeds:</strong>{' '}
+          {sharedConditions.slice(0, 6).map((c, i) => (
+            <Fragment key={c}>
+              <a href={`/conditions/${c}/`} class="text-primary hover:underline no-underline capitalize">
+                {c.replace(/-/g, ' ')}
+              </a>
+              {i < Math.min(sharedConditions.length, 6) - 1 ? ', ' : ''}
+            </Fragment>
+          ))}
+          {sharedConditions.length > 6 && ` and ${sharedConditions.length - 6} more`}.
+        </p>
+      </div>
+    )}
+  </section>
+
+  <!-- Which breed is right for you? -->
+  <section aria-labelledby="recommendations-heading" class="mb-10">
+    <h2 id="recommendations-heading" class="text-2xl font-bold text-primary mb-4">
+      Which Breed Is Right for You?
+    </h2>
+    <p class="text-text-muted leading-relaxed mb-6 max-w-3xl text-sm">
+      Based on data across health, exercise, trainability, and temperament, here is how the two breeds compare across common owner priorities:
+    </p>
+
+    <div class="space-y-3 max-w-2xl">
+      {recommendations.map(({ label, value }) => (
+        <div class="flex flex-col sm:flex-row sm:items-start gap-2 p-4 bg-white border border-border rounded-xl">
+          <span class="flex-shrink-0 text-sm font-semibold text-text-muted w-full sm:w-56">{label}</span>
+          <span class="text-sm text-text capitalize">{value}</span>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Links to breed hubs -->
+  <section aria-labelledby="breed-hubs-heading" class="mb-10">
+    <h2 id="breed-hubs-heading" class="text-2xl font-bold text-primary mb-4">
+      Explore Each Breed in Depth
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      {[breed_a, breed_b].map((breed) => (
+        <a
+          href={`/breeds/${breed.slug}/`}
+          class="block p-5 bg-white border border-border rounded-xl hover:border-primary hover:shadow-sm transition-all no-underline group"
+        >
+          <h3 class="font-bold text-primary text-lg mb-1 group-hover:underline">{breed.name}</h3>
+          <p class="text-sm text-text-muted mb-3 leading-relaxed">{breed.description.slice(0, 120)}{breed.description.length > 120 ? '…' : ''}</p>
+          <div class="flex flex-wrap gap-2 text-xs text-text-light">
+            <span class="capitalize">{breed.size}</span>
+            <span>·</span>
+            <span>{breed.group}</span>
+            <span>·</span>
+            <span>{breed.lifespan_min}–{breed.lifespan_max} yrs</span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- FAQ section -->
+  <section aria-labelledby="faq-heading" class="mb-10">
+    <h2 id="faq-heading" class="text-2xl font-bold text-primary mb-2">
+      Frequently Asked Questions
+    </h2>
+    <FAQ items={faqs} />
+  </section>
+
+  <!-- Email capture -->
+  <EmailCapture ctaText={`Get ${breed_a.name} vs ${breed_b.name} tips and breed health guides`} />
+</BaseLayout>

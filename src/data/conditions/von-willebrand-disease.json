@@ -1,0 +1,55 @@
+{
+  "name": "Von Willebrand Disease",
+  "slug": "von-willebrand-disease",
+  "category": "Autoimmune",
+  "description": "Von Willebrand disease (vWD) is the most common inherited bleeding disorder in dogs, caused by a deficiency of von Willebrand factor, a clotting protein. Affected dogs bleed excessively from minor wounds, after surgery, or spontaneously from mucous membranes.",
+  "symptoms": [
+    "Prolonged bleeding from cuts or surgery",
+    "Nosebleeds",
+    "Bleeding from gums",
+    "Blood in urine or faeces",
+    "Excessive bruising"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Desmopressin (DDAVP) can temporarily boost vWF levels before surgery. Fresh frozen plasma or cryoprecipitate transfusions are used during bleeding episodes. Avoid drugs that impair platelet function.",
+  "prevention_tips": [
+    "DNA test available for Type I, II, and III vWD — test before breeding",
+    "Do not breed affected dogs together"
+  ],
+  "affected_breeds": [
+    "dobermann",
+    "scottish-terrier",
+    "shetland-sheepdog",
+    "pembroke-welsh-corgi",
+    "german-shepherd"
+  ],
+  "typical_onset": "Any age (diagnosed after bleeding event)",
+  "hereditary": true,
+  "estimated_treatment_cost": "£500-£3,000 per episode",
+  "breeds_detail": [
+    {
+      "name": "Scottish Terrier",
+      "slug": "scottish-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Shetland Sheepdog",
+      "slug": "shetland-sheepdog",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Pembroke Welsh Corgi",
+      "slug": "pembroke-welsh-corgi",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    }
+  ]
+}

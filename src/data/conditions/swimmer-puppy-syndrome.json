@@ -1,0 +1,49 @@
+{
+  "name": "Swimmer Puppy Syndrome",
+  "slug": "swimmer-puppy-syndrome",
+  "category": "Orthopedic",
+  "description": "Swimmer puppy syndrome is a developmental condition where neonatal puppies fail to rise up on their legs and instead lie flat with limbs splayed laterally. They paddle when attempting to move. Early intervention is critical for the best outcomes.",
+  "symptoms": [
+    "Flat chest",
+    "Limbs splayed to the sides",
+    "Inability to stand by 3-4 weeks of age",
+    "Paddling movement on belly",
+    "Pectus excavatum in some cases"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Early physiotherapy is highly effective. Splinting and taping the legs into normal position, multiple daily exercise sessions, and physiotherapy surfaces. Most puppies respond well if intervention begins before 3-4 weeks.",
+  "prevention_tips": [
+    "Provide appropriate flooring with traction for puppies",
+    "Avoid excessively slippery surfaces in whelping areas",
+    "Monitor litter development closely"
+  ],
+  "affected_breeds": [
+    "english-bulldog",
+    "french-bulldog",
+    "basset-hound",
+    "dachshund"
+  ],
+  "typical_onset": "2-4 weeks (neonatal)",
+  "hereditary": false,
+  "estimated_treatment_cost": "£200-£600",
+  "breeds_detail": [
+    {
+      "name": "French Bulldog",
+      "slug": "french-bulldog",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "name": "Hypothyroidism",
+  "slug": "hypothyroidism",
+  "category": "Endocrine",
+  "description": "Hypothyroidism is the most common endocrine disorder in dogs, caused by reduced thyroid hormone production — most often from immune-mediated thyroiditis or idiopathic follicular atrophy. It affects metabolism, skin, and coat quality.",
+  "symptoms": [
+    "Weight gain without diet change",
+    "Lethargy",
+    "Cold intolerance",
+    "Bilateral symmetrical hair loss",
+    "Thickened skin",
+    "Ear infections"
+  ],
+  "severity": "low",
+  "treatment_overview": "Daily oral thyroxine (levothyroxine) supplementation is highly effective and required for life. Dosing is adjusted based on thyroid level monitoring every 6-12 months.",
+  "prevention_tips": [
+    "No proven prevention",
+    "Regular blood screening in at-risk breeds from age 4"
+  ],
+  "affected_breeds": [
+    "golden-retriever",
+    "dobermann",
+    "irish-setter",
+    "miniature-schnauzer",
+    "cocker-spaniel",
+    "airedale-terrier"
+  ],
+  "typical_onset": "4-10 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£300-£800/year",
+  "breeds_detail": [
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Irish Setter",
+      "slug": "irish-setter",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Airedale Terrier",
+      "slug": "airedale-terrier",
+      "size": "large",
+      "group": "Terrier"
+    },
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Siberian Husky",
+      "slug": "siberian-husky",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Doberman Pinscher",
+      "slug": "doberman-pinscher",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Vizsla",
+      "slug": "vizsla",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Alaskan Malamute",
+      "slug": "alaskan-malamute",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Weimaraner",
+      "slug": "weimaraner",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Rhodesian Ridgeback",
+      "slug": "rhodesian-ridgeback",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Shiba Inu",
+      "slug": "shiba-inu",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Brittany",
+      "slug": "brittany",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Keeshond",
+      "slug": "keeshond",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Chesapeake Bay Retriever",
+      "slug": "chesapeake-bay-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Akita",
+      "slug": "akita",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Whippet",
+      "slug": "whippet",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Samoyed",
+      "slug": "samoyed",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Miniature Pinscher",
+      "slug": "miniature-pinscher",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Plott Hound",
+      "slug": "plott-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Basenji",
+      "slug": "basenji",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Saluki",
+      "slug": "saluki",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Norwegian Elkhound",
+      "slug": "norwegian-elkhound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Tibetan Mastiff",
+      "slug": "tibetan-mastiff",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Anatolian Shepherd Dog",
+      "slug": "anatolian-shepherd-dog",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "English Setter",
+      "slug": "english-setter",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Bearded Collie",
+      "slug": "bearded-collie",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Black and Tan Coonhound",
+      "slug": "black-and-tan-coonhound",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Treeing Walker Coonhound",
+      "slug": "treeing-walker-coonhound",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Estrela Mountain Dog",
+      "slug": "estrela-mountain-dog",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Giant Schnauzer",
+      "slug": "giant-schnauzer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Chow Chow",
+      "slug": "chow-chow",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Old English Sheepdog",
+      "slug": "old-english-sheepdog",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Cirneco dell'Etna",
+      "slug": "cirneco-delletna",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Canaan Dog",
+      "slug": "canaan-dog",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Polish Lowland Sheepdog",
+      "slug": "polish-lowland-sheepdog",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Manchester Terrier",
+      "slug": "manchester-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Spanish Water Dog",
+      "slug": "spanish-water-dog",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Clumber Spaniel",
+      "slug": "clumber-spaniel",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Field Spaniel",
+      "slug": "field-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Azawakh",
+      "slug": "azawakh",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Schipperke",
+      "slug": "schipperke",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Petit Basset Griffon Vendéen",
+      "slug": "petit-basset-griffon-vendeen",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Afghan Hound",
+      "slug": "afghan-hound",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Black Norwegian Elkhound",
+      "slug": "black-norwegian-elkhound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Karelian Bear Dog",
+      "slug": "karelian-bear-dog",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "East Siberian Laika",
+      "slug": "east-siberian-laika",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Russo-European Laika",
+      "slug": "russo-european-laika",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Yakutian Laika",
+      "slug": "yakutian-laika",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Hovawart",
+      "slug": "hovawart",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Kishu Ken",
+      "slug": "kishu-ken",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Jindo",
+      "slug": "jindo",
+      "size": "medium",
+      "group": "Non-Sporting"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Raw Food (BARF)",
+  "slug": "raw-food",
+  "description": "Raw food diets, often called BARF (Biologically Appropriate Raw Food), consist of uncooked meat, bones, organs, and vegetables. Proponents argue it mimics a dog's ancestral diet.",
+  "suitable_for": [
+    "healthy adult dogs",
+    "working breeds",
+    "owners committed to food safety practices"
+  ],
+  "benefits": [
+    "Improved coat and skin condition",
+    "Smaller and firmer stools",
+    "Higher moisture content",
+    "Potential dental benefits from raw bones"
+  ],
+  "risks": [
+    "Risk of bacterial contamination (Salmonella, Listeria)",
+    "Nutritional imbalance if not properly formulated",
+    "Potential for bone splintering",
+    "Higher cost and preparation time"
+  ],
+  "recommended_brands": [
+    "Darwin's Natural Pet Products",
+    "Primal Pet Foods",
+    "Nature's Variety Instinct Raw",
+    "Steve's Real Food"
+  ],
+  "feeding_guidelines": {
+    "small": {
+      "cups_per_day": "2-4% of body weight in oz",
+      "frequency": "2 meals"
+    },
+    "medium": {
+      "cups_per_day": "2-3% of body weight in oz",
+      "frequency": "2 meals"
+    },
+    "large": {
+      "cups_per_day": "2-3% of body weight in oz",
+      "frequency": "2 meals"
+    },
+    "giant": {
+      "cups_per_day": "1.5-2% of body weight in oz",
+      "frequency": "2-3 meals"
+    }
+  },
+  "suitable_breeds": []
+}

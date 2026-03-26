@@ -1,0 +1,27 @@
+{
+  "name": "Blastomycosis",
+  "slug": "blastomycosis",
+  "category": "Respiratory",
+  "description": "Blastomycosis is a fungal infection caused by Blastomyces dermatitidis, prevalent in North America near waterways. Dogs are 10 times more susceptible than humans and often present with severe pneumonia, skin lesions, and eye involvement.",
+  "symptoms": [
+    "Severe respiratory distress",
+    "Fever",
+    "Weight loss",
+    "Skin nodules and draining tracts",
+    "Ocular inflammation and blindness",
+    "Lymphadenopathy"
+  ],
+  "severity": "high",
+  "treatment_overview": "Itraconazole is the drug of choice for non-life-threatening cases. Amphotericin B is used for severe pulmonary disease. Treatment lasts 2-3 months minimum. Prognosis is guarded for severe cases; ocular involvement often means enucleation.",
+  "prevention_tips": [
+    "Avoid endemic areas near waterways if possible",
+    "Do not allow dogs to dig in contaminated soil"
+  ],
+  "affected_breeds": [
+    "all breeds (sporting and hunting breeds at higher exposure risk)"
+  ],
+  "typical_onset": "Any age",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,500-£5,000",
+  "breeds_detail": []
+}

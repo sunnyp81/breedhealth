@@ -1,0 +1,57 @@
+{
+  "name": "Tracheal Collapse",
+  "slug": "tracheal-collapse",
+  "category": "Respiratory",
+  "description": "Tracheal collapse is a progressive weakening of the tracheal cartilage rings causing the trachea to flatten during breathing. It produces a characteristic honking cough and respiratory distress, particularly during excitement, eating, or heat.",
+  "symptoms": [
+    "Honking or goose-like cough",
+    "Exercise intolerance",
+    "Respiratory distress",
+    "Cyanosis in severe cases",
+    "Gagging"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Medical management includes cough suppressants, bronchodilators, and weight loss. Severe cases benefit from surgical placement of intraluminal stents or extraluminal ring prostheses.",
+  "prevention_tips": [
+    "Use a harness instead of collar",
+    "Maintain healthy weight",
+    "Avoid respiratory irritants like smoke"
+  ],
+  "affected_breeds": [
+    "yorkshire-terrier",
+    "pomeranian",
+    "chihuahua",
+    "toy-poodle",
+    "maltese",
+    "pug"
+  ],
+  "typical_onset": "4-14 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£500-£4,500",
+  "breeds_detail": [
+    {
+      "name": "Yorkshire Terrier",
+      "slug": "yorkshire-terrier",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Pomeranian",
+      "slug": "pomeranian",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Maltese",
+      "slug": "maltese",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Pug",
+      "slug": "pug",
+      "size": "small",
+      "group": "Toy"
+    }
+  ]
+}

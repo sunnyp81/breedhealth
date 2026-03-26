@@ -1,0 +1,178 @@
+{
+  "slug": "pomeranian-vs-yorkshire-terrier",
+  "breed_a": {
+    "name": "Pomeranian",
+    "slug": "pomeranian",
+    "group": "Toy",
+    "size": "small",
+    "weight_min_kg": 1.4,
+    "weight_max_kg": 3.2,
+    "height_min_cm": 18,
+    "height_max_cm": 30,
+    "lifespan_min": 12,
+    "lifespan_max": 16,
+    "temperament": [
+      "bold",
+      "inquisitive",
+      "playful",
+      "vivacious",
+      "sociable"
+    ],
+    "health_issues": [
+      "patellar-luxation",
+      "tracheal-collapse",
+      "alopecia-x",
+      "cataracts",
+      "dental-disease"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 4,
+    "shedding_level": 3,
+    "trainability": 3,
+    "good_with_children": false,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 43,
+    "origin": "Germany",
+    "coat_type": "thick double",
+    "coat_colors": [
+      "orange",
+      "red",
+      "cream",
+      "sable",
+      "black",
+      "blue",
+      "white",
+      "parti"
+    ],
+    "description": "The Pomeranian descends from large Spitz-type sled dogs from the Pomerania region of northern Poland and Germany, dramatically miniaturized over the 18th and 19th centuries with Queen Victoria's famous preference for smaller specimens helping drive the trend. Despite weighing barely over 3 kg, Poms possess a bold big-dog attitude and will confidently challenge dogs many times their size if not properly socialized from puppyhood. Their luxuriant double coat requires brushing two to three times per week and blows out heavily twice a year during shedding season, producing a surprising volume of fine hair."
+  },
+  "breed_b": {
+    "name": "Yorkshire Terrier",
+    "slug": "yorkshire-terrier",
+    "group": "Toy",
+    "size": "small",
+    "weight_min_kg": 1.8,
+    "weight_max_kg": 3.2,
+    "height_min_cm": 17,
+    "height_max_cm": 23,
+    "lifespan_min": 13,
+    "lifespan_max": 16,
+    "temperament": [
+      "bold",
+      "intelligent",
+      "independent",
+      "confident",
+      "spirited"
+    ],
+    "health_issues": [
+      "patellar-luxation",
+      "portosystemic-shunt",
+      "progressive-retinal-atrophy",
+      "hypoglycemia",
+      "tracheal-collapse"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 5,
+    "shedding_level": 1,
+    "trainability": 3,
+    "good_with_children": false,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 13,
+    "origin": "England",
+    "coat_type": "long silky",
+    "coat_colors": [
+      "tan and blue",
+      "black and gold",
+      "blue and gold"
+    ],
+    "description": "The Yorkshire Terrier was developed in 19th-century Yorkshire by mill workers who needed a small, fearless terrier to catch rats in textile factories, with ancestors including the now-extinct Waterside Terrier and the Paisley Terrier. Despite weighing typically under 3 kg, the Yorkie carries a confident, feisty terrier personality that makes it unaware of its diminutive size, and it will readily challenge dogs many times its weight. Their long, silky coat resembles human hair in texture and requires daily brushing and frequent professional grooming to prevent tangling and skin issues."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 13,
+      "winner": "yorkshire-terrier"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 16,
+      "breed_b_value": 16,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 1.4,
+      "breed_b_value": 1.8,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 3.2,
+      "breed_b_value": 3.2,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 18,
+      "breed_b_value": 17,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 30,
+      "breed_b_value": 23,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 4,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 3,
+      "breed_b_value": 1,
+      "winner": "yorkshire-terrier"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

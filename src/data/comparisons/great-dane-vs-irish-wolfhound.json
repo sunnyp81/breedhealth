@@ -1,0 +1,179 @@
+{
+  "slug": "great-dane-vs-irish-wolfhound",
+  "breed_a": {
+    "name": "Great Dane",
+    "slug": "great-dane",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 50,
+    "weight_max_kg": 82,
+    "height_min_cm": 71,
+    "height_max_cm": 86,
+    "lifespan_min": 7,
+    "lifespan_max": 10,
+    "temperament": [
+      "friendly",
+      "patient",
+      "dependable",
+      "gentle",
+      "reserved"
+    ],
+    "health_issues": [
+      "bloat",
+      "hip-dysplasia",
+      "dilated-cardiomyopathy",
+      "osteosarcoma",
+      "wobbler-syndrome"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 1,
+    "shedding_level": 2,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 15,
+    "origin": "Germany",
+    "coat_type": "short smooth",
+    "coat_colors": [
+      "fawn",
+      "brindle",
+      "blue",
+      "black",
+      "harlequin",
+      "mantle"
+    ],
+    "description": "The Great Dane holds the record for the world's tallest domestic dog, with males routinely exceeding 80 cm at the shoulder, yet their gentle, friendly disposition has earned them the nickname the Gentle Giant of the dog world. Developed in Germany for boar hunting, modern Great Danes are calm, affectionate companions whose sheer size means early obedience training is not optional — an untrained 80 kg dog is unmanageable. Despite their imposing stature, they are sensitive dogs that respond poorly to harsh handling and form close bonds with their families."
+  },
+  "breed_b": {
+    "name": "Irish Wolfhound",
+    "slug": "irish-wolfhound",
+    "group": "Hound",
+    "size": "giant",
+    "weight_min_kg": 54,
+    "weight_max_kg": 72,
+    "height_min_cm": 76,
+    "height_max_cm": 86,
+    "lifespan_min": 6,
+    "lifespan_max": 8,
+    "temperament": [
+      "gentle",
+      "patient",
+      "thoughtful",
+      "loyal",
+      "reserved"
+    ],
+    "health_issues": [
+      "dilated-cardiomyopathy",
+      "osteosarcoma",
+      "bloat",
+      "hip-dysplasia",
+      "portosystemic-shunt"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 2,
+    "shedding_level": 3,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 82,
+    "origin": "Ireland",
+    "coat_type": "rough wiry",
+    "coat_colors": [
+      "gray",
+      "brindle",
+      "red",
+      "black",
+      "white",
+      "fawn"
+    ],
+    "description": "The Irish Wolfhound is the tallest dog breed in the world and is steeped in Irish mythology and history, where it was used to hunt wolves, elk, and wild boar, and was given as royal gifts between kings across Europe and the Middle East. Their sheer size meant that wolf hunting was not simply a matter of courage but a job that required dogs powerful enough to pull a wolf from horseback. Despite a commanding presence and ancient warrior heritage, Irish Wolfhounds are gentle, calm, and wonderfully soft-natured companions, though their lifespan of only 6 to 8 years is among the shortest of any breed."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 7,
+      "breed_b_value": 6,
+      "winner": "great-dane"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 10,
+      "breed_b_value": 8,
+      "winner": "great-dane"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 50,
+      "breed_b_value": 54,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 82,
+      "breed_b_value": 72,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 71,
+      "breed_b_value": 76,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 86,
+      "breed_b_value": 86,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 1,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 2,
+      "breed_b_value": 3,
+      "winner": "great-dane"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

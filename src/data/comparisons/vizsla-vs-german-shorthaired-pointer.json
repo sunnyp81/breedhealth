@@ -1,0 +1,173 @@
+{
+  "slug": "vizsla-vs-german-shorthaired-pointer",
+  "breed_a": {
+    "name": "Vizsla",
+    "slug": "vizsla",
+    "group": "Sporting",
+    "size": "medium",
+    "weight_min_kg": 20,
+    "weight_max_kg": 29,
+    "height_min_cm": 53,
+    "height_max_cm": 64,
+    "lifespan_min": 12,
+    "lifespan_max": 14,
+    "temperament": [
+      "affectionate",
+      "energetic",
+      "loyal",
+      "gentle",
+      "quiet"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "epilepsy",
+      "progressive-retinal-atrophy",
+      "lymphoma",
+      "hypothyroidism"
+    ],
+    "exercise_level": 5,
+    "grooming_level": 1,
+    "shedding_level": 2,
+    "trainability": 5,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 28,
+    "origin": "Hungary",
+    "coat_type": "short smooth",
+    "coat_colors": [
+      "golden rust",
+      "red golden"
+    ],
+    "description": "Hungary's national dog, the Vizsla has been pointing and retrieving alongside Hungarian hunters for over a thousand years, with depictions found in 14th-century stone etchings at royal hunting lodges. Sometimes called the Velcro Vizsla for their intense need for constant human closeness, they form profound bonds and suffer genuine separation anxiety when left alone for long periods. Their rust-colored wash-and-wear coat requires almost no grooming, but their very high energy level demands a committed, athletically active owner."
+  },
+  "breed_b": {
+    "name": "German Shorthaired Pointer",
+    "slug": "german-shorthaired-pointer",
+    "group": "Sporting",
+    "size": "large",
+    "weight_min_kg": 20,
+    "weight_max_kg": 32,
+    "height_min_cm": 53,
+    "height_max_cm": 64,
+    "lifespan_min": 10,
+    "lifespan_max": 12,
+    "temperament": [
+      "friendly",
+      "smart",
+      "willing-to-please",
+      "boisterous",
+      "enthusiastic"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "bloat",
+      "lymphedema",
+      "entropion",
+      "von-willebrands-disease"
+    ],
+    "exercise_level": 5,
+    "grooming_level": 1,
+    "shedding_level": 3,
+    "trainability": 5,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 9,
+    "origin": "Germany",
+    "coat_type": "short dense",
+    "coat_colors": [
+      "liver",
+      "liver and white",
+      "black",
+      "black and white"
+    ],
+    "description": "The German Shorthaired Pointer is a versatile hunting dog capable of pointing, tracking, and retrieving across virtually any terrain and in water, making it one of the most capable all-round sporting dogs ever developed. Their sleek liver-spotted coat and streamlined build are optimized for speed and endurance, and they require vigorous daily exercise — ideally an hour or more — to remain settled indoors. GSPs form strong bonds with active families and are known for an exuberant, affectionate personality that makes them wonderful companions when their exercise needs are met."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 10,
+      "winner": "vizsla"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 14,
+      "breed_b_value": 12,
+      "winner": "vizsla"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 20,
+      "breed_b_value": 20,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 29,
+      "breed_b_value": 32,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 53,
+      "breed_b_value": 53,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 64,
+      "breed_b_value": 64,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 1,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 2,
+      "breed_b_value": 3,
+      "winner": "vizsla"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

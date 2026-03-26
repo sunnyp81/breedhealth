@@ -1,0 +1,176 @@
+{
+  "slug": "miniature-schnauzer-vs-shih-tzu",
+  "breed_a": {
+    "name": "Miniature Schnauzer",
+    "slug": "miniature-schnauzer",
+    "group": "Terrier",
+    "size": "small",
+    "weight_min_kg": 5.4,
+    "weight_max_kg": 9,
+    "height_min_cm": 30,
+    "height_max_cm": 36,
+    "lifespan_min": 12,
+    "lifespan_max": 15,
+    "temperament": [
+      "friendly",
+      "obedient",
+      "intelligent",
+      "alert",
+      "spirited"
+    ],
+    "health_issues": [
+      "pancreatitis",
+      "hyperlipidemia",
+      "bladder-stones",
+      "progressive-retinal-atrophy",
+      "myotonia-congenita"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 4,
+    "shedding_level": 1,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 18,
+    "origin": "Germany",
+    "coat_type": "wiry double",
+    "coat_colors": [
+      "salt and pepper",
+      "black and silver",
+      "black",
+      "white"
+    ],
+    "description": "The Miniature Schnauzer was developed in Germany in the mid-19th century by crossing Standard Schnauzers with smaller breeds including the Affenpinscher and Miniature Pinscher to produce a compact farm ratter. They are highly adaptable, alert, and trainable, making them one of the most popular terrier-type breeds globally and well-suited to urban life. Their distinctive bearded muzzle and bushy eyebrows require regular hand-stripping or clipping to maintain correct coat texture and the breed's characteristic silhouette."
+  },
+  "breed_b": {
+    "name": "Shih Tzu",
+    "slug": "shih-tzu",
+    "group": "Toy",
+    "size": "small",
+    "weight_min_kg": 4,
+    "weight_max_kg": 7.2,
+    "height_min_cm": 20,
+    "height_max_cm": 28,
+    "lifespan_min": 10,
+    "lifespan_max": 16,
+    "temperament": [
+      "affectionate",
+      "playful",
+      "outgoing",
+      "alert",
+      "loyal"
+    ],
+    "health_issues": [
+      "brachycephalic-syndrome",
+      "hip-dysplasia",
+      "patellar-luxation",
+      "progressive-retinal-atrophy",
+      "renal-dysplasia"
+    ],
+    "exercise_level": 2,
+    "grooming_level": 5,
+    "shedding_level": 1,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 20,
+    "origin": "China",
+    "coat_type": "long double",
+    "coat_colors": [
+      "gold and white",
+      "black and white",
+      "red and white",
+      "blue and white",
+      "liver and white"
+    ],
+    "description": "The Shih Tzu is an ancient breed kept exclusively for Chinese royalty for over a millennium, serving as treasured lap warmers in the imperial palaces of the Ming and Qing dynasties and so prized that China refused to export them until the early 20th century. Their name means lion dog in Mandarin, a reference to their resemblance to the Chinese guardian lion, and their flowing double coat parted along the spine is a hallmark of the breed standard. Shih Tzus are trusting, lively companions that adapt beautifully to apartment living and get along with virtually everyone they meet."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 10,
+      "winner": "miniature-schnauzer"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 15,
+      "breed_b_value": 16,
+      "winner": "shih-tzu"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 5.4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 9,
+      "breed_b_value": 7.2,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 30,
+      "breed_b_value": 20,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 36,
+      "breed_b_value": 28,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 4,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 1,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 4,
+      "breed_b_value": 3,
+      "winner": "miniature-schnauzer"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

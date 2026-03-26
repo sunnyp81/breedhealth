@@ -1,0 +1,217 @@
+{
+  "name": "Cairn Terrier",
+  "slug": "cairn-terrier",
+  "group": "Terrier",
+  "size": "small",
+  "weight_min_kg": 6,
+  "weight_max_kg": 7,
+  "height_min_cm": 25,
+  "height_max_cm": 33,
+  "lifespan_min": 13,
+  "lifespan_max": 15,
+  "temperament": [
+    "alert",
+    "fearless",
+    "hardy",
+    "independent",
+    "cheerful"
+  ],
+  "health_issues": [
+    "patellar-luxation",
+    "portosystemic-shunt",
+    "progressive-retinal-atrophy",
+    "globoid-cell-leukodystrophy",
+    "hip-dysplasia"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 3,
+  "shedding_level": 2,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 59,
+  "origin": "Scotland",
+  "coat_type": "wiry double",
+  "coat_colors": [
+    "cream",
+    "wheaten",
+    "red",
+    "sand",
+    "grey",
+    "brindle"
+  ],
+  "description": "The Cairn Terrier is one of Scotland's oldest working terriers, developed in the Scottish Highlands and Hebridean islands to hunt foxes, otters, and vermin in the rocky cairn piles of the Scottish landscape — giving the breed its name. Toto, Dorothy's faithful companion in The Wizard of Oz, was a Cairn Terrier, helping introduce the breed to global audiences in 1939. Despite their small size, Cairns are tough, hardy dogs with an assertive, independent terrier character and a natural urge to dig that owners must manage with humor and patience.",
+  "conditions_detail": [
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+      "symptoms": [
+        "Intermittent skipping on hind leg",
+        "Sudden leg lifting",
+        "Bunny-hopping",
+        "Hind limb lameness",
+        "Visible kneecap displacement"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+      "prevention_tips": [
+        "Breed from dogs with normal patellar scores",
+        "Maintain healthy weight",
+        "Avoid high-impact activities in affected puppies"
+      ],
+      "affected_breeds": [
+        "chihuahua",
+        "yorkshire-terrier",
+        "pomeranian",
+        "toy-poodle",
+        "bichon-frise",
+        "boston-terrier"
+      ],
+      "typical_onset": "4 months - 6 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    },
+    {
+      "name": "Portosystemic Shunt",
+      "slug": "portosystemic-shunt",
+      "category": "Gastrointestinal",
+      "description": "A portosystemic shunt (PSS) is an abnormal blood vessel that allows blood from the gastrointestinal tract to bypass the liver, preventing detoxification. Toxins accumulate in the bloodstream causing hepatic encephalopathy. Congenital shunts are hereditary.",
+      "symptoms": [
+        "Stunted growth",
+        "Neurological signs after eating (circling, head pressing)",
+        "Seizures",
+        "Excessive salivation",
+        "Increased thirst and urination",
+        "Urinary crystals"
+      ],
+      "severity": "high",
+      "treatment_overview": "Surgical closure or attenuation of the shunt using an ameroid constrictor or cellophane band is the definitive treatment. Medical management with lactulose, antibiotics, and protein-modified diet is used pre-operatively and in non-surgical cases.",
+      "prevention_tips": [
+        "Do not breed from affected dogs or close relatives",
+        "Genetic testing under investigation"
+      ],
+      "affected_breeds": [
+        "yorkshire-terrier",
+        "maltese",
+        "cairn-terrier",
+        "pug",
+        "miniature-schnauzer",
+        "irish-wolfhound"
+      ],
+      "typical_onset": "Under 2 years (congenital)",
+      "hereditary": true,
+      "estimated_treatment_cost": "£3,000-£7,000"
+    },
+    {
+      "name": "Progressive Retinal Atrophy (PRA)",
+      "slug": "progressive-retinal-atrophy",
+      "category": "Eye",
+      "description": "PRA is a group of hereditary diseases causing progressive degeneration of the photoreceptor cells in the retina. It leads to night blindness first, followed by complete blindness. There is no treatment, but DNA tests exist for many forms.",
+      "symptoms": [
+        "Night blindness (early sign)",
+        "Reluctance to enter dark rooms",
+        "Dilated pupils",
+        "Reduced daytime vision",
+        "Reflective eye shine (tapetal hyperreflectivity)"
+      ],
+      "severity": "high",
+      "treatment_overview": "There is no effective treatment or cure for PRA. Management focuses on adapting the dog's environment to maintain quality of life as vision deteriorates.",
+      "prevention_tips": [
+        "DNA test breeding stock before mating",
+        "Only breed clear or carrier-to-clear pairings",
+        "Annual ophthalmology screening (BVA/KC scheme)"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "cocker-spaniel",
+        "miniature-poodle",
+        "irish-setter",
+        "border-collie",
+        "tibetan-terrier"
+      ],
+      "typical_onset": "3-8 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£0 (management only)"
+    },
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "West Highland White Terrier",
+      "slug": "west-highland-white-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Soft Coated Wheaten Terrier",
+      "slug": "soft-coated-wheaten-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    },
+    {
+      "name": "Scottish Terrier",
+      "slug": "scottish-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "American Staffordshire Terrier",
+      "slug": "american-staffordshire-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    }
+  ],
+  "comparisons": [
+    "scottish-terrier-vs-cairn-terrier",
+    "cairn-terrier-vs-west-highland-white-terrier"
+  ]
+}

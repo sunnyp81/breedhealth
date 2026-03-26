@@ -1,0 +1,177 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { getAllDiets, getAllToxicFoods } from '../../lib/data';
+
+const diets = await getAllDiets();
+const toxicFoods = await getAllToxicFoods();
+
+const SITE_URL = 'https://breedhealth.co.uk';
+
+const breadcrumbItems = [
+  { name: 'Home', url: `${SITE_URL}/` },
+  { name: 'Diet & Nutrition', url: `${SITE_URL}/diet/` },
+];
+
+const title = 'Dog Diet & Nutrition Guide — Raw, Grain-Free, Puppy, Senior & More | BreedHealth';
+const description = `Complete dog diet and nutrition guides. Compare raw food, grain-free, puppy, senior and specialist diets. Plus a full toxic foods reference — ${toxicFoods.length} foods that are dangerous to dogs.`;
+
+// Short descriptions per diet slug to supplement the listing
+const dietDescriptions: Record<string, string> = {
+  'grain-free':        'No wheat, corn or soy — ideal for dogs with grain sensitivities or allergies.',
+  'raw-food':          'Biologically appropriate raw food (BARF) — fresh meat, bones, organs and veg.',
+  'senior':            'Reduced calories and joint-supporting nutrients for dogs aged 7+.',
+  'puppy':             'Higher protein and DHA-rich formulas to support healthy puppy development.',
+  'weight-management': 'Calorie-controlled diets with L-carnitine to help overweight dogs reach a healthy weight.',
+  'high-protein':      'Meat-first recipes with 30%+ protein for active, working and sporting breeds.',
+  'hypoallergenic':    'Novel protein or hydrolysed formulas for dogs with food allergies.',
+  'sensitive-stomach': 'Easily digestible recipes with limited ingredients for dogs with GI issues.',
+  'vegetarian':        'Plant-based diets formulated to meet AAFCO nutritional profiles.',
+  'limited-ingredient':'Single protein and carbohydrate source to simplify elimination diets.',
+  'large-breed':       'Balanced calcium:phosphorus ratios and glucosamine for large breed joint health.',
+  'small-breed':       'Calorie-dense, small-kibble formulas suited to toy and miniature breeds.',
+};
+
+// Toxicity level severity ordering and badge styles
+const toxicityStyles: Record<string, { bg: string; text: string; label: string }> = {
+  fatal:    { bg: 'bg-red-900',    text: 'text-white',      label: 'Fatal'    },
+  severe:   { bg: 'bg-red-600',    text: 'text-white',      label: 'Severe'   },
+  high:     { bg: 'bg-red-100',    text: 'text-red-800',    label: 'High'     },
+  moderate: { bg: 'bg-orange-100', text: 'text-orange-800', label: 'Moderate' },
+  mild:     { bg: 'bg-yellow-100', text: 'text-yellow-800', label: 'Mild'     },
+};
+
+// Sort toxic foods: fatal first, then severity order
+const toxicOrder = ['fatal', 'severe', 'high', 'moderate', 'mild'];
+const sortedToxicFoods = [...toxicFoods].sort(
+  (a, b) => toxicOrder.indexOf(a.toxicity_level) - toxicOrder.indexOf(b.toxicity_level)
+);
+
+// Diet visual icons (inline SVG paths)
+const dietIcons: Record<string, string> = {
+  default: 'M18 8h1a4 4 0 010 8h-1M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8zM6 1v3M10 1v3M14 1v3',
+};
+---
+
+<BaseLayout title={title} description={description} canonicalUrl={`${SITE_URL}/diet/`}>
+
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Page header -->
+  <div class="mb-8">
+    <h1 class="text-3xl sm:text-4xl font-extrabold text-primary mb-3 tracking-tight">
+      Dog Diet &amp; Nutrition Guide
+    </h1>
+    <p class="text-text-muted text-base max-w-2xl leading-relaxed">
+      Everything you need to know about feeding your dog — from raw and grain-free diets to
+      puppy and senior formulas. Plus a complete reference guide to foods toxic to dogs.
+    </p>
+    <p class="mt-2 text-sm text-text-light font-medium">
+      {diets.length} diet types &middot; {toxicFoods.length} toxic foods listed
+    </p>
+  </div>
+
+  <!-- Ad slot -->
+  <div class="mb-10">
+    <AdSlot position="in-content" />
+  </div>
+
+  <!-- Diet type grid -->
+  <section class="mb-14" aria-labelledby="diet-types-heading">
+    <h2 id="diet-types-heading" class="text-xl sm:text-2xl font-bold text-primary mb-6">
+      Dog Diet Types
+    </h2>
+
+    <ul
+      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
+      role="list"
+      aria-label="Dog diet types"
+    >
+      {diets.map((diet) => (
+        <li>
+          <a
+            href={`/diet/${diet.slug}/`}
+            class="group flex flex-col h-full bg-white border border-border rounded-2xl p-5 hover:border-primary hover:shadow-md transition-all no-underline"
+          >
+            <!-- Icon circle -->
+            <div class="w-10 h-10 bg-amber-100 rounded-xl flex items-center justify-center mb-4 flex-shrink-0" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#92400e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d={dietIcons.default} />
+              </svg>
+            </div>
+
+            <h3 class="font-bold text-text text-base mb-2 group-hover:text-primary transition-colors">
+              {diet.name}
+            </h3>
+            <p class="text-text-muted text-sm leading-relaxed flex-1">
+              {dietDescriptions[diet.slug] ?? 'A specialised feeding approach for dogs with specific nutritional needs.'}
+            </p>
+            <span class="mt-4 text-xs font-semibold text-primary group-hover:underline">
+              Read guide &rarr;
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <!-- Toxic foods warning section -->
+  <section
+    class="mb-12 bg-red-50 border border-red-200 rounded-2xl p-6 sm:p-8"
+    aria-labelledby="toxic-foods-heading"
+  >
+    <!-- Warning header -->
+    <div class="flex items-start gap-4 mb-6">
+      <div class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-xl flex items-center justify-center" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/>
+          <line x1="12" y1="9" x2="12" y2="13"/>
+          <line x1="12" y1="17" x2="12.01" y2="17"/>
+        </svg>
+      </div>
+      <div>
+        <h2 id="toxic-foods-heading" class="text-xl sm:text-2xl font-bold text-red-800 mb-1">
+          Foods Toxic to Dogs
+        </h2>
+        <p class="text-red-700 text-sm leading-relaxed max-w-xl">
+          {toxicFoods.length} human foods are dangerous to dogs — some are fatal even in small amounts.
+          If your dog ingests any of the following, contact your vet or the Animal Poison Line immediately.
+        </p>
+        <p class="mt-2 text-xs text-red-600 font-semibold">
+          Emergency: Animal Poison Line — 01202 509000 (UK) &middot; ASPCA — 888-426-4435 (US)
+        </p>
+      </div>
+    </div>
+
+    <!-- Toxic foods list -->
+    <ul
+      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3"
+      role="list"
+      aria-label="Toxic foods for dogs"
+    >
+      {sortedToxicFoods.map((food) => {
+        const style = toxicityStyles[food.toxicity_level] ?? toxicityStyles.moderate;
+        return (
+          <li>
+            <a
+              href={`/diet/toxic/${food.slug}/`}
+              class="flex items-center justify-between gap-3 p-3 bg-white border border-red-200 rounded-xl hover:border-red-400 hover:shadow-sm transition-all no-underline group"
+            >
+              <span class="font-medium text-text text-sm group-hover:text-red-700 transition-colors">
+                {food.name}
+              </span>
+              <span
+                class={`flex-shrink-0 text-xs font-bold px-2.5 py-1 rounded-full ${style.bg} ${style.text}`}
+                aria-label={`Toxicity: ${style.label}`}
+              >
+                {style.label}
+              </span>
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  </section>
+
+</BaseLayout>

@@ -1,0 +1,172 @@
+{
+  "slug": "cavalier-king-charles-spaniel-vs-maltese",
+  "breed_a": {
+    "name": "Cavalier King Charles Spaniel",
+    "slug": "cavalier-king-charles-spaniel",
+    "group": "Toy",
+    "size": "small",
+    "weight_min_kg": 5.5,
+    "weight_max_kg": 8,
+    "height_min_cm": 30,
+    "height_max_cm": 33,
+    "lifespan_min": 9,
+    "lifespan_max": 14,
+    "temperament": [
+      "gentle",
+      "affectionate",
+      "graceful",
+      "sociable",
+      "patient"
+    ],
+    "health_issues": [
+      "mitral-valve-disease",
+      "syringomyelia",
+      "hip-dysplasia",
+      "progressive-retinal-atrophy",
+      "episodic-falling-syndrome"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 3,
+    "shedding_level": 3,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 17,
+    "origin": "England",
+    "coat_type": "medium silky",
+    "coat_colors": [
+      "blenheim",
+      "tricolor",
+      "black and tan",
+      "ruby"
+    ],
+    "description": "Named after King Charles II, who was rarely seen without several of these spaniels at his heels, the Cavalier King Charles Spaniel was reconstructed in the 1920s from old royal portraits to restore the longer-nosed look of the original dogs. They combine the gentle temperament of a lap dog with the athletic ability of a sporting spaniel, equally comfortable on a sofa or trotting through the park. Mitral valve disease affects the majority of Cavaliers by age 10, making cardiac health screening of breeding parents an absolute minimum requirement."
+  },
+  "breed_b": {
+    "name": "Maltese",
+    "slug": "maltese",
+    "group": "Toy",
+    "size": "small",
+    "weight_min_kg": 1.4,
+    "weight_max_kg": 3.2,
+    "height_min_cm": 20,
+    "height_max_cm": 25,
+    "lifespan_min": 12,
+    "lifespan_max": 15,
+    "temperament": [
+      "gentle",
+      "playful",
+      "trusting",
+      "responsive",
+      "fearless"
+    ],
+    "health_issues": [
+      "patellar-luxation",
+      "portosystemic-shunt",
+      "progressive-retinal-atrophy",
+      "hypoglycemia",
+      "tracheal-collapse"
+    ],
+    "exercise_level": 2,
+    "grooming_level": 5,
+    "shedding_level": 1,
+    "trainability": 4,
+    "good_with_children": false,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 26,
+    "origin": "Malta",
+    "coat_type": "long silky single",
+    "coat_colors": [
+      "white"
+    ],
+    "description": "One of the oldest toy breeds, the Maltese has been a prized companion of Mediterranean nobility since ancient times, depicted in Greek pottery and mentioned in writing by Aristotle. Their single-layered pure white coat produces minimal shedding and has a silky texture resembling human hair, making the breed relatively suitable for allergy sufferers but demanding daily brushing and regular bathing to stay pristine. Despite their delicate appearance Maltese are bold, spirited, and athletic little dogs that genuinely enjoy learning tricks and competing in agility trials."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 9,
+      "breed_b_value": 12,
+      "winner": "maltese"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 14,
+      "breed_b_value": 15,
+      "winner": "maltese"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 5.5,
+      "breed_b_value": 1.4,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 8,
+      "breed_b_value": 3.2,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 30,
+      "breed_b_value": 20,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 33,
+      "breed_b_value": 25,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 3,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 3,
+      "breed_b_value": 1,
+      "winner": "maltese"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": false,
+      "winner": "cavalier-king-charles-spaniel"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

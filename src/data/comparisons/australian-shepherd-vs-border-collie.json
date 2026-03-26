@@ -1,0 +1,177 @@
+{
+  "slug": "australian-shepherd-vs-border-collie",
+  "breed_a": {
+    "name": "Australian Shepherd",
+    "slug": "australian-shepherd",
+    "group": "Herding",
+    "size": "medium",
+    "weight_min_kg": 16,
+    "weight_max_kg": 32,
+    "height_min_cm": 46,
+    "height_max_cm": 58,
+    "lifespan_min": 13,
+    "lifespan_max": 15,
+    "temperament": [
+      "intelligent",
+      "active",
+      "loyal",
+      "protective",
+      "playful"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "epilepsy",
+      "progressive-retinal-atrophy",
+      "multiple-drug-sensitivity",
+      "collie-eye-anomaly"
+    ],
+    "exercise_level": 5,
+    "grooming_level": 3,
+    "shedding_level": 4,
+    "trainability": 5,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 12,
+    "origin": "United States",
+    "coat_type": "medium wavy double",
+    "coat_colors": [
+      "blue merle",
+      "red merle",
+      "black",
+      "red",
+      "tricolor"
+    ],
+    "description": "Despite the name, the Australian Shepherd was developed in the American West as a herding dog, likely with Basque shepherd ancestry, and was popularized at rodeos where their breathtaking herding displays attracted huge crowds. Aussies are high-energy, intensely focused working dogs that need a job — whether herding, agility, or advanced obedience — to remain mentally satisfied and behaviorally stable at home. Their striking merle coats and frequent heterochromia, where each eye is a different color, make them among the most visually distinctive of all herding breeds."
+  },
+  "breed_b": {
+    "name": "Border Collie",
+    "slug": "border-collie",
+    "group": "Herding",
+    "size": "medium",
+    "weight_min_kg": 14,
+    "weight_max_kg": 20,
+    "height_min_cm": 46,
+    "height_max_cm": 56,
+    "lifespan_min": 12,
+    "lifespan_max": 15,
+    "temperament": [
+      "intelligent",
+      "energetic",
+      "athletic",
+      "alert",
+      "tenacious"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "collie-eye-anomaly",
+      "progressive-retinal-atrophy",
+      "epilepsy",
+      "multiple-drug-sensitivity"
+    ],
+    "exercise_level": 5,
+    "grooming_level": 3,
+    "shedding_level": 3,
+    "trainability": 5,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 25,
+    "origin": "Scotland",
+    "coat_type": "medium double",
+    "coat_colors": [
+      "black and white",
+      "blue merle",
+      "red and white",
+      "sable",
+      "tricolor"
+    ],
+    "description": "Consistently ranked as the most intelligent dog breed in the world, the Border Collie can learn a new command in fewer than five repetitions and has been documented understanding vocabularies of over a thousand words. Developed along the Anglo-Scottish border to herd sheep using an intense crouching stalk and a penetrating eye stare, Border Collies possess an almost obsessive work drive that must be channeled through multiple hours of mental and physical activity every single day. They are not recommended for inactive households or first-time owners unprepared for their demanding exercise and mental stimulation requirements."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 13,
+      "breed_b_value": 12,
+      "winner": "australian-shepherd"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 15,
+      "breed_b_value": 15,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 16,
+      "breed_b_value": 14,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 32,
+      "breed_b_value": 20,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 46,
+      "breed_b_value": 46,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 58,
+      "breed_b_value": 56,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 4,
+      "breed_b_value": 3,
+      "winner": "border-collie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

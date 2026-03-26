@@ -1,0 +1,55 @@
+{
+  "name": "Canine Bladder Cancer (Transitional Cell Carcinoma)",
+  "slug": "transitional-cell-carcinoma-bladder",
+  "category": "Cancer",
+  "description": "Transitional cell carcinoma (TCC) is the most common bladder tumour in dogs, arising from the transitional epithelium lining the bladder. It causes urinary obstruction and haematuria and may metastasise to lymph nodes and lungs.",
+  "symptoms": [
+    "Blood in urine",
+    "Straining to urinate",
+    "Frequent small amounts of urine",
+    "Recurrent urinary tract infections",
+    "Hind limb weakness if nerve invasion"
+  ],
+  "severity": "high",
+  "treatment_overview": "NSAIDs (piroxicam) have demonstrated anti-tumour activity and are combined with chemotherapy (mitoxantrone or vinblastine). Surgical resection is limited by tumour location at the trigone. Median survival is 6-12 months.",
+  "prevention_tips": [
+    "Avoid exposure to lawn pesticides and herbicides",
+    "Regular urinalysis in at-risk breeds over age 6"
+  ],
+  "affected_breeds": [
+    "scottish-terrier",
+    "west-highland-white-terrier",
+    "beagle",
+    "shetland-sheepdog",
+    "wire-fox-terrier"
+  ],
+  "typical_onset": "9-11 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£2,000-£6,000",
+  "breeds_detail": [
+    {
+      "name": "Scottish Terrier",
+      "slug": "scottish-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "West Highland White Terrier",
+      "slug": "west-highland-white-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Shetland Sheepdog",
+      "slug": "shetland-sheepdog",
+      "size": "small",
+      "group": "Herding"
+    }
+  ]
+}

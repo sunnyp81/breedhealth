@@ -1,0 +1,153 @@
+{
+  "name": "Papillon",
+  "slug": "papillon",
+  "group": "Toy",
+  "size": "small",
+  "weight_min_kg": 2.3,
+  "weight_max_kg": 4.5,
+  "height_min_cm": 20,
+  "height_max_cm": 28,
+  "lifespan_min": 14,
+  "lifespan_max": 16,
+  "temperament": [
+    "happy",
+    "alert",
+    "friendly",
+    "energetic",
+    "intelligent"
+  ],
+  "health_issues": [
+    "patellar-luxation",
+    "progressive-retinal-atrophy",
+    "dental-disease",
+    "hypoglycemia",
+    "seizures"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 3,
+  "shedding_level": 2,
+  "trainability": 5,
+  "good_with_children": false,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 60,
+  "origin": "France",
+  "coat_type": "long silky single",
+  "coat_colors": [
+    "white and black",
+    "white and red",
+    "white and sable",
+    "tricolor"
+  ],
+  "description": "Named for its large, butterfly-shaped ears — papillon means butterfly in French — the Papillon is one of the oldest of the toy spaniels, appearing in European royal portraits as early as the 16th century when ladies of the court kept them as status symbols and lap companions. Despite their dainty appearance, Papillons are highly athletic, fearless, and exceptionally intelligent, consistently ranking among the top obedience competitors in the toy group and successfully competing against much larger breeds. They are one of the few toy breeds that thrives in agility competitions, combining tiny stature with surprising athleticism and intensity.",
+  "conditions_detail": [
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+      "symptoms": [
+        "Intermittent skipping on hind leg",
+        "Sudden leg lifting",
+        "Bunny-hopping",
+        "Hind limb lameness",
+        "Visible kneecap displacement"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+      "prevention_tips": [
+        "Breed from dogs with normal patellar scores",
+        "Maintain healthy weight",
+        "Avoid high-impact activities in affected puppies"
+      ],
+      "affected_breeds": [
+        "chihuahua",
+        "yorkshire-terrier",
+        "pomeranian",
+        "toy-poodle",
+        "bichon-frise",
+        "boston-terrier"
+      ],
+      "typical_onset": "4 months - 6 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    },
+    {
+      "name": "Progressive Retinal Atrophy (PRA)",
+      "slug": "progressive-retinal-atrophy",
+      "category": "Eye",
+      "description": "PRA is a group of hereditary diseases causing progressive degeneration of the photoreceptor cells in the retina. It leads to night blindness first, followed by complete blindness. There is no treatment, but DNA tests exist for many forms.",
+      "symptoms": [
+        "Night blindness (early sign)",
+        "Reluctance to enter dark rooms",
+        "Dilated pupils",
+        "Reduced daytime vision",
+        "Reflective eye shine (tapetal hyperreflectivity)"
+      ],
+      "severity": "high",
+      "treatment_overview": "There is no effective treatment or cure for PRA. Management focuses on adapting the dog's environment to maintain quality of life as vision deteriorates.",
+      "prevention_tips": [
+        "DNA test breeding stock before mating",
+        "Only breed clear or carrier-to-clear pairings",
+        "Annual ophthalmology screening (BVA/KC scheme)"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "cocker-spaniel",
+        "miniature-poodle",
+        "irish-setter",
+        "border-collie",
+        "tibetan-terrier"
+      ],
+      "typical_onset": "3-8 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£0 (management only)"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Yorkshire Terrier",
+      "slug": "yorkshire-terrier",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Cavalier King Charles Spaniel",
+      "slug": "cavalier-king-charles-spaniel",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Shih Tzu",
+      "slug": "shih-tzu",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Havanese",
+      "slug": "havanese",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Pug",
+      "slug": "pug",
+      "size": "small",
+      "group": "Toy"
+    }
+  ],
+  "comparisons": [
+    "papillon-vs-chihuahua",
+    "papillon-vs-pomeranian"
+  ]
+}

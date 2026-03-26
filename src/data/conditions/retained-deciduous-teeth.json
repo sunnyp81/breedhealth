@@ -1,0 +1,56 @@
+{
+  "name": "Retained Deciduous Teeth",
+  "slug": "retained-deciduous-teeth",
+  "category": "Dental",
+  "description": "Retained deciduous (baby) teeth occur when the permanent tooth erupts but the baby tooth fails to fall out naturally, leading to two teeth occupying the same space. This causes abnormal bite, food and debris accumulation, and early periodontal disease.",
+  "symptoms": [
+    "Two teeth in same socket",
+    "Malocclusion",
+    "Food packing between retained and permanent tooth",
+    "Gum inflammation",
+    "Early periodontal disease"
+  ],
+  "severity": "low",
+  "treatment_overview": "Surgical extraction of retained deciduous teeth under general anaesthesia is required as soon as the permanent tooth has erupted alongside it, to allow the permanent tooth to move into correct position.",
+  "prevention_tips": [
+    "Regular puppy dental checks at 6-8 months",
+    "Do not allow retained teeth to stay — prompt extraction prevents malocclusion"
+  ],
+  "affected_breeds": [
+    "chihuahua",
+    "yorkshire-terrier",
+    "maltese",
+    "pomeranian",
+    "shih-tzu",
+    "toy-poodle"
+  ],
+  "typical_onset": "4-7 months",
+  "hereditary": false,
+  "estimated_treatment_cost": "£200-£600",
+  "breeds_detail": [
+    {
+      "name": "Yorkshire Terrier",
+      "slug": "yorkshire-terrier",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Maltese",
+      "slug": "maltese",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Pomeranian",
+      "slug": "pomeranian",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Shih Tzu",
+      "slug": "shih-tzu",
+      "size": "small",
+      "group": "Toy"
+    }
+  ]
+}

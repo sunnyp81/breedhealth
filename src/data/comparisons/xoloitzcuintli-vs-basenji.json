@@ -1,0 +1,176 @@
+{
+  "slug": "xoloitzcuintli-vs-basenji",
+  "breed_a": {
+    "name": "Xoloitzcuintli",
+    "slug": "xoloitzcuintli",
+    "group": "Non-Sporting",
+    "size": "small",
+    "weight_min_kg": 4,
+    "weight_max_kg": 14,
+    "height_min_cm": 25,
+    "height_max_cm": 57,
+    "lifespan_min": 13,
+    "lifespan_max": 18,
+    "temperament": [
+      "alert",
+      "cheerful",
+      "calm",
+      "attentive",
+      "loyal"
+    ],
+    "health_issues": [
+      "dental-disease",
+      "skin-conditions",
+      "acne",
+      "patellar-luxation",
+      "epilepsy"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 2,
+    "shedding_level": 1,
+    "trainability": 3,
+    "good_with_children": false,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 84,
+    "origin": "Mexico",
+    "coat_type": "hairless or short smooth",
+    "coat_colors": [
+      "black",
+      "gray",
+      "liver",
+      "bronze",
+      "brindle"
+    ],
+    "description": "The Xoloitzcuintli — correctly pronounced show-low-eets-queent-lee — is Mexico's national dog and one of the world's oldest and rarest breeds, named after the Aztec god of lightning Xolotl and present in Mesoamerica for over 3,000 years, used as a ceremonial and healing dog by the Aztec, Maya, and Colima cultures. Available in three sizes — toy, miniature, and standard — and two varieties, hairless and coated, the hairless variety was thought by indigenous peoples to have healing properties and was used as a living hot-water bottle to soothe arthritis and other ailments. Their lack of coat means sunscreen is required for outdoor exposure and they need a coat in cold weather, but they produce no shedding and are among the cleanest of all dogs."
+  },
+  "breed_b": {
+    "name": "Basenji",
+    "slug": "basenji",
+    "group": "Hound",
+    "size": "small",
+    "weight_min_kg": 9,
+    "weight_max_kg": 11,
+    "height_min_cm": 40,
+    "height_max_cm": 43,
+    "lifespan_min": 13,
+    "lifespan_max": 14,
+    "temperament": [
+      "independent",
+      "alert",
+      "energetic",
+      "curious",
+      "affectionate"
+    ],
+    "health_issues": [
+      "fanconi-syndrome",
+      "progressive-retinal-atrophy",
+      "hypothyroidism",
+      "hip-dysplasia",
+      "malabsorption-syndrome"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 1,
+    "shedding_level": 1,
+    "trainability": 2,
+    "good_with_children": false,
+    "good_with_dogs": false,
+    "apartment_friendly": false,
+    "popularity_rank": 70,
+    "origin": "Democratic Republic of Congo",
+    "coat_type": "short smooth single",
+    "coat_colors": [
+      "red and white",
+      "black and white",
+      "tricolor",
+      "brindle and white"
+    ],
+    "description": "The Basenji is an ancient hunting dog from central Africa, where the Azande and Mangbetu peoples of the Congo basin have used them for millennia to flush game into nets and hunt independently in the forest undergrowth. Famous as the barkless dog, Basenjis produce a unique yodeling vocalization called a baroo rather than a conventional bark, due to the unusually shaped larynx. Their cat-like cleanliness — they groom themselves meticulously — combined with a strong prey drive, independent intelligence, and tendency to selective hearing makes them simultaneously fascinating and challenging companions."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 13,
+      "breed_b_value": 13,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 18,
+      "breed_b_value": 14,
+      "winner": "xoloitzcuintli"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 4,
+      "breed_b_value": 9,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 14,
+      "breed_b_value": 11,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 25,
+      "breed_b_value": 40,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 57,
+      "breed_b_value": 43,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 2,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 1,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 2,
+      "winner": "xoloitzcuintli"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": false,
+      "winner": "xoloitzcuintli"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": false,
+      "winner": "xoloitzcuintli"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

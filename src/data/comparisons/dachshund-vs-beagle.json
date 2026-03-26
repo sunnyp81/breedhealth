@@ -1,0 +1,175 @@
+{
+  "slug": "dachshund-vs-beagle",
+  "breed_a": {
+    "name": "Dachshund",
+    "slug": "dachshund",
+    "group": "Hound",
+    "size": "small",
+    "weight_min_kg": 4,
+    "weight_max_kg": 9,
+    "height_min_cm": 13,
+    "height_max_cm": 23,
+    "lifespan_min": 12,
+    "lifespan_max": 16,
+    "temperament": [
+      "stubborn",
+      "playful",
+      "devoted",
+      "lively",
+      "clever"
+    ],
+    "health_issues": [
+      "intervertebral-disc-disease",
+      "patellar-luxation",
+      "progressive-retinal-atrophy",
+      "cushings-disease",
+      "epilepsy"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 2,
+    "shedding_level": 2,
+    "trainability": 2,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 10,
+    "origin": "Germany",
+    "coat_type": "smooth or wire or long",
+    "coat_colors": [
+      "red",
+      "black and tan",
+      "chocolate and tan",
+      "dapple",
+      "brindle"
+    ],
+    "description": "Bred in Germany to hunt badgers underground, the Dachshund's characteristic elongated body and short legs are perfectly engineered for squeezing into burrows and confronting quarry face to face. Available in standard and miniature sizes, and in smooth, wirehaired, and longhaired coat varieties, the Dachshund is one of the most diverse and recognizable breeds in the world. Their long spines make them particularly prone to intervertebral disc disease, requiring owners to prevent jumping from heights and manage body weight meticulously."
+  },
+  "breed_b": {
+    "name": "Beagle",
+    "slug": "beagle",
+    "group": "Hound",
+    "size": "small",
+    "weight_min_kg": 9,
+    "weight_max_kg": 11,
+    "height_min_cm": 33,
+    "height_max_cm": 38,
+    "lifespan_min": 10,
+    "lifespan_max": 15,
+    "temperament": [
+      "merry",
+      "friendly",
+      "curious",
+      "determined"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "epilepsy",
+      "hypothyroidism",
+      "intervertebral-disc-disease",
+      "cherry-eye"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 1,
+    "shedding_level": 3,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 7,
+    "origin": "England",
+    "coat_type": "short dense",
+    "coat_colors": [
+      "tricolor",
+      "red and white",
+      "lemon and white",
+      "chocolate tricolor"
+    ],
+    "description": "Beagles are scent hounds developed primarily for hunting hare in England, possessing one of the finest noses of any dog breed and an unwavering determination to follow a trail wherever it leads. Their compact size, cheerful disposition, and low-maintenance coat have made them perennial family favorites, though their scenthound instincts mean a securely fenced yard and leash discipline are non-negotiable. Beagles are sociable pack animals that thrive with canine companions and dislike being left alone for extended periods."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 10,
+      "winner": "dachshund"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 16,
+      "breed_b_value": 15,
+      "winner": "dachshund"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 4,
+      "breed_b_value": 9,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 9,
+      "breed_b_value": 11,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 13,
+      "breed_b_value": 33,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 23,
+      "breed_b_value": 38,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 2,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 2,
+      "breed_b_value": 3,
+      "winner": "dachshund"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 2,
+      "breed_b_value": 3,
+      "winner": "beagle"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": false,
+      "winner": "dachshund"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Acute Kidney Injury (AKI)",
+  "slug": "acute-kidney-injury",
+  "category": "Urinary",
+  "description": "Acute kidney injury is sudden onset loss of renal function due to toxins (grapes, raisins, NSAIDs, lily ingestion, ethylene glycol), infections (leptospirosis), or ischaemia. Unlike CKD, recovery is possible if treated rapidly.",
+  "symptoms": [
+    "Sudden vomiting",
+    "Reduced or absent urination",
+    "Lethargy",
+    "Loss of appetite",
+    "Uraemic breath",
+    "Swollen painful kidneys on palpation"
+  ],
+  "severity": "high",
+  "treatment_overview": "Emergency IV fluid diuresis, correction of electrolyte abnormalities, anti-nausea drugs, and renal diet. Dialysis may be needed in refractory cases. Identify and eliminate the underlying cause.",
+  "prevention_tips": [
+    "Keep grapes, raisins, and toxic plants away from dogs",
+    "Dose NSAIDs carefully and avoid in dehydrated dogs",
+    "Vaccinate against leptospirosis"
+  ],
+  "affected_breeds": [
+    "all breeds"
+  ],
+  "typical_onset": "Any age",
+  "hereditary": false,
+  "estimated_treatment_cost": "£2,000-£8,000",
+  "breeds_detail": []
+}

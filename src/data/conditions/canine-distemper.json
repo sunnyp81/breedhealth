@@ -1,0 +1,28 @@
+{
+  "name": "Canine Distemper",
+  "slug": "canine-distemper",
+  "category": "Neurological",
+  "description": "Canine distemper is a severe, highly contagious viral disease affecting the respiratory, gastrointestinal, and neurological systems. It is caused by a paramyxovirus related to measles and is preventable by vaccination.",
+  "symptoms": [
+    "Nasal and eye discharge",
+    "Fever",
+    "Coughing",
+    "Vomiting and diarrhoea",
+    "Hardening of paw pads and nose",
+    "Seizures and neurological signs"
+  ],
+  "severity": "high",
+  "treatment_overview": "There is no specific antiviral treatment. Supportive care with antibiotics for secondary infections, fluid therapy, anti-seizure medication, and nutritional support are used. Mortality is high in unvaccinated dogs.",
+  "prevention_tips": [
+    "Vaccinate according to national guidelines (core vaccine)",
+    "Ensure puppies complete primary vaccination course",
+    "Maintain regular boosters"
+  ],
+  "affected_breeds": [
+    "all unvaccinated dogs"
+  ],
+  "typical_onset": "Any age if unvaccinated",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,000-£5,000",
+  "breeds_detail": []
+}

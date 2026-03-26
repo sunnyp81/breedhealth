@@ -1,0 +1,55 @@
+{
+  "name": "Histiocytic Sarcoma",
+  "slug": "histiocytic-sarcoma",
+  "category": "Cancer",
+  "description": "Histiocytic sarcoma is a highly aggressive malignant tumour arising from dendritic cells or macrophages. Disseminated histiocytic sarcoma (formerly malignant histiocytosis) involves multiple organs simultaneously. Prognosis is uniformly poor.",
+  "symptoms": [
+    "Rapid weight loss",
+    "Anaemia",
+    "Lethargy",
+    "Enlarged lymph nodes and spleen",
+    "Respiratory signs",
+    "Neurological signs"
+  ],
+  "severity": "high",
+  "treatment_overview": "Lomustine (CCNU) chemotherapy is the most effective palliation and can achieve temporary remission. Median survival even with treatment is 4-6 months. Local forms treated by surgery have better outcomes.",
+  "prevention_tips": [
+    "No proven prevention",
+    "Genetic predisposition research ongoing"
+  ],
+  "affected_breeds": [
+    "bernese-mountain-dog",
+    "flat-coated-retriever",
+    "rottweiler",
+    "golden-retriever"
+  ],
+  "typical_onset": "6-10 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£2,000-£6,000",
+  "breeds_detail": [
+    {
+      "name": "Bernese Mountain Dog",
+      "slug": "bernese-mountain-dog",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Flat-Coated Retriever",
+      "slug": "flat-coated-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    }
+  ]
+}

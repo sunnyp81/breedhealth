@@ -1,0 +1,75 @@
+{
+  "name": "Subaortic Stenosis (SAS)",
+  "slug": "subaortic-stenosis",
+  "category": "Cardiac",
+  "description": "SAS is a narrowing just below the aortic valve that obstructs blood flow out of the left ventricle. This forces the heart to work harder, causing left ventricular hypertrophy and risk of sudden death in severe cases.",
+  "symptoms": [
+    "Exercise intolerance",
+    "Syncope (fainting)",
+    "Heart murmur",
+    "Sudden death in severe cases",
+    "Weakness"
+  ],
+  "severity": "high",
+  "treatment_overview": "Mild cases may not require treatment but need monitoring. Severe cases are managed with beta-blockers (atenolol) to reduce cardiac workload. Balloon dilation has limited long-term success.",
+  "prevention_tips": [
+    "Cardiac clearance by cardiologist before breeding",
+    "Avoid breeding affected dogs",
+    "Annual echocardiographic assessment"
+  ],
+  "affected_breeds": [
+    "golden-retriever",
+    "newfoundland",
+    "boxer",
+    "german-shepherd",
+    "rottweiler",
+    "great-dane"
+  ],
+  "typical_onset": "Birth-2 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£1,000-£4,000/year",
+  "breeds_detail": [
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Newfoundland",
+      "slug": "newfoundland",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Bouvier des Flandres",
+      "slug": "bouvier-des-flandres",
+      "size": "large",
+      "group": "Herding"
+    }
+  ]
+}

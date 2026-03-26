@@ -1,0 +1,180 @@
+{
+  "name": "Kuvasz",
+  "slug": "kuvasz",
+  "group": "Working",
+  "size": "large",
+  "weight_min_kg": 32,
+  "weight_max_kg": 52,
+  "height_min_cm": 66,
+  "height_max_cm": 76,
+  "lifespan_min": 10,
+  "lifespan_max": 12,
+  "temperament": [
+    "loyal",
+    "patient",
+    "protective",
+    "independent"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "osteochondritis-dissecans",
+    "hypertrophic-osteodystrophy",
+    "bloat"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 3,
+  "shedding_level": 3,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": false,
+  "apartment_friendly": false,
+  "popularity_rank": 142,
+  "origin": "Hungary",
+  "coat_type": "double",
+  "coat_colors": [
+    "white"
+  ],
+  "description": "The Kuvasz is an ancient Hungarian flock guardian breed with a striking white double coat that allowed shepherds to distinguish it from wolves at night. They are powerful, intelligent, and fiercely protective dogs that were historically favored by Hungarian royalty. Independent and strong-willed, they require experienced owners who can provide firm, consistent leadership and early socialization from puppyhood.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Osteochondritis Dissecans (OCD)",
+      "slug": "osteochondritis-dissecans",
+      "category": "Orthopedic",
+      "description": "OCD is a developmental condition where cartilage in a joint fails to convert to bone properly, forming a flap that causes pain, joint effusion, and lameness. Commonly affects shoulder, elbow, stifle, and hock joints.",
+      "symptoms": [
+        "Foreleg or hindleg lameness",
+        "Joint swelling",
+        "Pain on joint flexion",
+        "Reduced exercise tolerance",
+        "Worsening lameness after rest"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Surgical removal or fixation of the cartilage flap is usually required. Medical management with rest and NSAIDs may help mild cases but rarely resolves the lesion.",
+      "prevention_tips": [
+        "Avoid over-supplementation with calcium in growing puppies",
+        "Control rapid growth rate",
+        "Moderate exercise in young large-breed dogs"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "golden-retriever",
+        "great-dane",
+        "bernese-mountain-dog",
+        "rottweiler"
+      ],
+      "typical_onset": "4-18 months",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,800-£4,000"
+    },
+    {
+      "name": "Hypertrophic Osteodystrophy (HOD)",
+      "slug": "hypertrophic-osteodystrophy",
+      "category": "Orthopedic",
+      "description": "HOD is a painful developmental bone disease affecting rapidly growing large and giant breed puppies. It causes inflammation in the metaphyseal regions of long bones, leading to severe pain, fever, and lameness.",
+      "symptoms": [
+        "Severe lameness",
+        "Swollen painful leg joints",
+        "High fever",
+        "Lethargy",
+        "Reluctance to stand or walk"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment involves NSAIDs, supportive care, and nutritional management. Severe cases may require corticosteroids. Most puppies recover but some have permanent limb deformities.",
+      "prevention_tips": [
+        "Feed age-appropriate large-breed puppy food",
+        "Avoid over-supplementation with vitamins and minerals",
+        "Monitor growth rate"
+      ],
+      "affected_breeds": [
+        "great-dane",
+        "weimaraner",
+        "boxer",
+        "irish-setter",
+        "dobermann"
+      ],
+      "typical_onset": "2-8 months",
+      "hereditary": false,
+      "estimated_treatment_cost": "£500-£2,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Siberian Husky",
+      "slug": "siberian-husky",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Doberman Pinscher",
+      "slug": "doberman-pinscher",
+      "size": "large",
+      "group": "Working"
+    }
+  ],
+  "comparisons": [
+    "great-pyrenees-vs-kuvasz"
+  ]
+}

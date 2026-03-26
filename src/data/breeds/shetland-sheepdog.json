@@ -1,0 +1,214 @@
+{
+  "name": "Shetland Sheepdog",
+  "slug": "shetland-sheepdog",
+  "group": "Herding",
+  "size": "small",
+  "weight_min_kg": 6.4,
+  "weight_max_kg": 12,
+  "height_min_cm": 33,
+  "height_max_cm": 41,
+  "lifespan_min": 12,
+  "lifespan_max": 14,
+  "temperament": [
+    "playful",
+    "energetic",
+    "intelligent",
+    "loyal",
+    "reserved"
+  ],
+  "health_issues": [
+    "collie-eye-anomaly",
+    "hip-dysplasia",
+    "progressive-retinal-atrophy",
+    "dermatomyositis",
+    "multiple-drug-sensitivity"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 4,
+  "shedding_level": 4,
+  "trainability": 5,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 23,
+  "origin": "Scotland",
+  "coat_type": "long double",
+  "coat_colors": [
+    "sable",
+    "blue merle",
+    "black and white",
+    "black and tan",
+    "tricolor"
+  ],
+  "description": "The Shetland Sheepdog originated on the rugged Shetland Islands off northern Scotland, where limited food resources naturally favored smaller, leaner working dogs, and was later refined with Rough Collie breeding in the early 20th century. Often mistaken for a miniature Collie, the Sheltie is in fact a distinct breed and consistently one of the top-ranking dogs in obedience and agility competition. Their reserved nature around strangers and alert sensitivity to movement and sound make early socialization important for raising a confident, well-adjusted dog.",
+  "conditions_detail": [
+    {
+      "name": "Collie Eye Anomaly (CEA)",
+      "slug": "collie-eye-anomaly",
+      "category": "Eye",
+      "description": "CEA is a hereditary congenital eye defect affecting collie breeds. It ranges from minor choroidal hypoplasia (mild, no vision loss) to colobomas, retinal detachment, and intraocular haemorrhage causing blindness. Severity does not worsen after birth.",
+      "symptoms": [
+        "Choroidal hypoplasia (pale areas in retina)",
+        "Colobomas (holes in retinal structures)",
+        "Retinal detachment",
+        "Intraocular haemorrhage",
+        "Blindness in severe cases"
+      ],
+      "severity": "medium",
+      "treatment_overview": "There is no treatment for CEA. Laser or cryotherapy can be used to stabilise early retinal detachments in go-normal or mildly affected dogs. Most affected dogs adapt well to their level of vision.",
+      "prevention_tips": [
+        "DNA test available (NHEJ1 mutation)",
+        "Test all breeding stock — breed only clear dogs or clear-to-carrier pairings"
+      ],
+      "affected_breeds": [
+        "rough-collie",
+        "smooth-collie",
+        "border-collie",
+        "shetland-sheepdog",
+        "australian-shepherd"
+      ],
+      "typical_onset": "Birth",
+      "hereditary": true,
+      "estimated_treatment_cost": "£200-£1,500"
+    },
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Progressive Retinal Atrophy (PRA)",
+      "slug": "progressive-retinal-atrophy",
+      "category": "Eye",
+      "description": "PRA is a group of hereditary diseases causing progressive degeneration of the photoreceptor cells in the retina. It leads to night blindness first, followed by complete blindness. There is no treatment, but DNA tests exist for many forms.",
+      "symptoms": [
+        "Night blindness (early sign)",
+        "Reluctance to enter dark rooms",
+        "Dilated pupils",
+        "Reduced daytime vision",
+        "Reflective eye shine (tapetal hyperreflectivity)"
+      ],
+      "severity": "high",
+      "treatment_overview": "There is no effective treatment or cure for PRA. Management focuses on adapting the dog's environment to maintain quality of life as vision deteriorates.",
+      "prevention_tips": [
+        "DNA test breeding stock before mating",
+        "Only breed clear or carrier-to-clear pairings",
+        "Annual ophthalmology screening (BVA/KC scheme)"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "cocker-spaniel",
+        "miniature-poodle",
+        "irish-setter",
+        "border-collie",
+        "tibetan-terrier"
+      ],
+      "typical_onset": "3-8 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£0 (management only)"
+    },
+    {
+      "name": "Dermatomyositis",
+      "slug": "dermatomyositis",
+      "category": "Dermatological",
+      "description": "Dermatomyositis is an inherited inflammatory condition affecting the skin and muscles. It begins with skin lesions on pressure points and the face in young dogs and can progress to generalised skin disease and muscle atrophy causing difficulty eating and walking.",
+      "symptoms": [
+        "Skin lesions on face, ears, and legs",
+        "Muscle wasting, especially of masseters",
+        "Difficulty eating in severe cases",
+        "Scarring and pigmentation changes",
+        "Megaoesophagus in some cases"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Mild cases may be managed with omega-3 fatty acids, vitamin E, and sun avoidance. Severe cases require pentoxifylline, tetracycline-niacinamide, or immunosuppressants. The condition is lifelong.",
+      "prevention_tips": [
+        "Do not breed affected dogs",
+        "Genetic testing available for Collies"
+      ],
+      "affected_breeds": [
+        "rough-collie",
+        "smooth-collie",
+        "shetland-sheepdog"
+      ],
+      "typical_onset": "Under 6 months",
+      "hereditary": true,
+      "estimated_treatment_cost": "£400-£2,000/year"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Pembroke Welsh Corgi",
+      "slug": "pembroke-welsh-corgi",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Australian Shepherd",
+      "slug": "australian-shepherd",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Border Collie",
+      "slug": "border-collie",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Miniature American Shepherd",
+      "slug": "miniature-american-shepherd",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Bearded Collie",
+      "slug": "bearded-collie",
+      "size": "medium",
+      "group": "Herding"
+    }
+  ],
+  "comparisons": [
+    "border-collie-vs-shetland-sheepdog",
+    "shetland-sheepdog-vs-rough-collie"
+  ]
+}

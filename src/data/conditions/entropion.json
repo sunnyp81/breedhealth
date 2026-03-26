@@ -1,0 +1,134 @@
+{
+  "name": "Entropion",
+  "slug": "entropion",
+  "category": "Eye",
+  "description": "Entropion is an inward rolling of the eyelid margin, causing the eyelashes and skin to rub against the corneal surface. This produces chronic irritation, pain, corneal ulceration, and scarring that can impair vision.",
+  "symptoms": [
+    "Squinting or pawing at eye",
+    "Excessive tearing",
+    "Eye discharge",
+    "Corneal cloudiness",
+    "Redness around eye"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Temporary eyelid tacking can relieve discomfort in puppies pending maturity. Definitive surgical correction (Hotz-Celsus procedure) is highly effective in adults.",
+  "prevention_tips": [
+    "Avoid breeding dogs with severe conformational entropion",
+    "Do not breed surgically corrected dogs"
+  ],
+  "affected_breeds": [
+    "chow-chow",
+    "shar-pei",
+    "rottweiler",
+    "labrador-retriever",
+    "golden-retriever",
+    "bullmastiff"
+  ],
+  "typical_onset": "Puppyhood - 2 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£800-£2,000",
+  "breeds_detail": [
+    {
+      "name": "Chow Chow",
+      "slug": "chow-chow",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Shar Pei",
+      "slug": "shar-pei",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Bullmastiff",
+      "slug": "bullmastiff",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "German Shorthaired Pointer",
+      "slug": "german-shorthaired-pointer",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Cane Corso",
+      "slug": "cane-corso",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "German Wirehaired Pointer",
+      "slug": "german-wirehaired-pointer",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Weimaraner",
+      "slug": "weimaraner",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Bloodhound",
+      "slug": "bloodhound",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Chinese Shar Pei (Standard)",
+      "slug": "chinese-shar-pei",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Anatolian Shepherd Dog",
+      "slug": "anatolian-shepherd-dog",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Clumber Spaniel",
+      "slug": "clumber-spaniel",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Komondor",
+      "slug": "komondor",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Bracco Italiano",
+      "slug": "bracco-italiano",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Kishu Ken",
+      "slug": "kishu-ken",
+      "size": "medium",
+      "group": "Working"
+    }
+  ]
+}

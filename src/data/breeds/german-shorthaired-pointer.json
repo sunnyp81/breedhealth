@@ -1,0 +1,161 @@
+{
+  "name": "German Shorthaired Pointer",
+  "slug": "german-shorthaired-pointer",
+  "group": "Sporting",
+  "size": "large",
+  "weight_min_kg": 20,
+  "weight_max_kg": 32,
+  "height_min_cm": 53,
+  "height_max_cm": 64,
+  "lifespan_min": 10,
+  "lifespan_max": 12,
+  "temperament": [
+    "friendly",
+    "smart",
+    "willing-to-please",
+    "boisterous",
+    "enthusiastic"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "bloat",
+    "lymphedema",
+    "entropion",
+    "von-willebrands-disease"
+  ],
+  "exercise_level": 5,
+  "grooming_level": 1,
+  "shedding_level": 3,
+  "trainability": 5,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 9,
+  "origin": "Germany",
+  "coat_type": "short dense",
+  "coat_colors": [
+    "liver",
+    "liver and white",
+    "black",
+    "black and white"
+  ],
+  "description": "The German Shorthaired Pointer is a versatile hunting dog capable of pointing, tracking, and retrieving across virtually any terrain and in water, making it one of the most capable all-round sporting dogs ever developed. Their sleek liver-spotted coat and streamlined build are optimized for speed and endurance, and they require vigorous daily exercise — ideally an hour or more — to remain settled indoors. GSPs form strong bonds with active families and are known for an exuberant, affectionate personality that makes them wonderful companions when their exercise needs are met.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Entropion",
+      "slug": "entropion",
+      "category": "Eye",
+      "description": "Entropion is an inward rolling of the eyelid margin, causing the eyelashes and skin to rub against the corneal surface. This produces chronic irritation, pain, corneal ulceration, and scarring that can impair vision.",
+      "symptoms": [
+        "Squinting or pawing at eye",
+        "Excessive tearing",
+        "Eye discharge",
+        "Corneal cloudiness",
+        "Redness around eye"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Temporary eyelid tacking can relieve discomfort in puppies pending maturity. Definitive surgical correction (Hotz-Celsus procedure) is highly effective in adults.",
+      "prevention_tips": [
+        "Avoid breeding dogs with severe conformational entropion",
+        "Do not breed surgically corrected dogs"
+      ],
+      "affected_breeds": [
+        "chow-chow",
+        "shar-pei",
+        "rottweiler",
+        "labrador-retriever",
+        "golden-retriever",
+        "bullmastiff"
+      ],
+      "typical_onset": "Puppyhood - 2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£800-£2,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Vizsla",
+      "slug": "vizsla",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "English Springer Spaniel",
+      "slug": "english-springer-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    }
+  ],
+  "comparisons": [
+    "vizsla-vs-german-shorthaired-pointer",
+    "german-shorthaired-pointer-vs-weimaraner",
+    "pointer-vs-german-shorthaired-pointer"
+  ]
+}

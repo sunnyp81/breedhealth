@@ -1,0 +1,115 @@
+{
+  "name": "Scottish Terrier",
+  "slug": "scottish-terrier",
+  "group": "Terrier",
+  "size": "small",
+  "weight_min_kg": 8.5,
+  "weight_max_kg": 10,
+  "height_min_cm": 25,
+  "height_max_cm": 28,
+  "lifespan_min": 11,
+  "lifespan_max": 13,
+  "temperament": [
+    "feisty",
+    "independent",
+    "alert",
+    "spirited",
+    "stubborn"
+  ],
+  "health_issues": [
+    "scottie-cramp",
+    "von-willebrands-disease",
+    "craniomandibular-osteopathy",
+    "bladder-cancer",
+    "cushing-disease"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 4,
+  "shedding_level": 1,
+  "trainability": 2,
+  "good_with_children": false,
+  "good_with_dogs": false,
+  "apartment_friendly": true,
+  "popularity_rank": 62,
+  "origin": "Scotland",
+  "coat_type": "wiry double",
+  "coat_colors": [
+    "black",
+    "wheaten",
+    "brindle"
+  ],
+  "description": "The Scottish Terrier, or Scottie, is a compact, low-slung terrier of striking appearance with a distinctive long head, bushy eyebrows and beard, and a jet black wiry coat that has made it one of the most commercially recognizable dog breeds in the world — featured in advertising, games, and as presidential pets by Franklin D. Roosevelt and George W. Bush. Scotties are feisty, dignified, and intensely independent dogs that can be aloof with strangers and are known for their characteristic terrier stubbornness that makes training a battle of wills. Scottie cramp, a movement disorder triggered by exercise, and a notably elevated bladder cancer risk are important breed health considerations.",
+  "conditions_detail": [
+    {
+      "name": "Scottie Cramp",
+      "slug": "scottie-cramp",
+      "category": "Neurological",
+      "description": "Scottie cramp is a hereditary episodic movement disorder in Scottish Terriers caused by a serotonin metabolism defect. Episodes of muscle over-contraction occur during excitement or exercise, causing abnormal gait and posture but no pain or loss of consciousness.",
+      "symptoms": [
+        "Episodic arching of spine",
+        "Overflexion of hindlimbs",
+        "Somersaulting",
+        "Triggered by exercise or excitement",
+        "Returns to normal between episodes"
+      ],
+      "severity": "low",
+      "treatment_overview": "Diazepam or acepromazine may reduce episode frequency and severity. Avoiding triggers is the primary management. The condition is not progressive and does not shorten lifespan.",
+      "prevention_tips": [
+        "DNA test available — avoid breeding affected dogs",
+        "Reduce exercise intensity and excitement if needed"
+      ],
+      "affected_breeds": [
+        "scottish-terrier"
+      ],
+      "typical_onset": "6 months - 3 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£100-£400/year"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "West Highland White Terrier",
+      "slug": "west-highland-white-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Soft Coated Wheaten Terrier",
+      "slug": "soft-coated-wheaten-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    },
+    {
+      "name": "Cairn Terrier",
+      "slug": "cairn-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "American Staffordshire Terrier",
+      "slug": "american-staffordshire-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    }
+  ],
+  "comparisons": [
+    "scottish-terrier-vs-cairn-terrier",
+    "west-highland-white-terrier-vs-scottish-terrier"
+  ]
+}

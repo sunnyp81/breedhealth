@@ -1,0 +1,177 @@
+{
+  "slug": "cavalier-king-charles-spaniel-vs-cocker-spaniel",
+  "breed_a": {
+    "name": "Cavalier King Charles Spaniel",
+    "slug": "cavalier-king-charles-spaniel",
+    "group": "Toy",
+    "size": "small",
+    "weight_min_kg": 5.5,
+    "weight_max_kg": 8,
+    "height_min_cm": 30,
+    "height_max_cm": 33,
+    "lifespan_min": 9,
+    "lifespan_max": 14,
+    "temperament": [
+      "gentle",
+      "affectionate",
+      "graceful",
+      "sociable",
+      "patient"
+    ],
+    "health_issues": [
+      "mitral-valve-disease",
+      "syringomyelia",
+      "hip-dysplasia",
+      "progressive-retinal-atrophy",
+      "episodic-falling-syndrome"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 3,
+    "shedding_level": 3,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 17,
+    "origin": "England",
+    "coat_type": "medium silky",
+    "coat_colors": [
+      "blenheim",
+      "tricolor",
+      "black and tan",
+      "ruby"
+    ],
+    "description": "Named after King Charles II, who was rarely seen without several of these spaniels at his heels, the Cavalier King Charles Spaniel was reconstructed in the 1920s from old royal portraits to restore the longer-nosed look of the original dogs. They combine the gentle temperament of a lap dog with the athletic ability of a sporting spaniel, equally comfortable on a sofa or trotting through the park. Mitral valve disease affects the majority of Cavaliers by age 10, making cardiac health screening of breeding parents an absolute minimum requirement."
+  },
+  "breed_b": {
+    "name": "Cocker Spaniel",
+    "slug": "cocker-spaniel",
+    "group": "Sporting",
+    "size": "medium",
+    "weight_min_kg": 11,
+    "weight_max_kg": 14,
+    "height_min_cm": 36,
+    "height_max_cm": 43,
+    "lifespan_min": 10,
+    "lifespan_max": 14,
+    "temperament": [
+      "gentle",
+      "smart",
+      "happy",
+      "trusting",
+      "even-tempered"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "progressive-retinal-atrophy",
+      "cherry-eye",
+      "ear-infections",
+      "autoimmune-hemolytic-anemia"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 4,
+    "shedding_level": 3,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 27,
+    "origin": "England",
+    "coat_type": "medium silky",
+    "coat_colors": [
+      "black",
+      "buff",
+      "silver",
+      "golden",
+      "chocolate",
+      "parti"
+    ],
+    "description": "The American Cocker Spaniel is the smallest of the AKC Sporting Group, developed as a specialist bird dog for hunting woodcock and small upland birds, and was the most popular breed in America for a record 23 consecutive years. Their long silky coats, soulful dark eyes, and constantly wagging tails give them enormous appeal as family companions, equally at home in the field or on the sofa. Long floppy ears trap moisture and debris, requiring weekly cleaning to prevent the chronic ear infections to which the breed is especially predisposed."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 9,
+      "breed_b_value": 10,
+      "winner": "cocker-spaniel"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 14,
+      "breed_b_value": 14,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 5.5,
+      "breed_b_value": 11,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 8,
+      "breed_b_value": 14,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 30,
+      "breed_b_value": 36,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 33,
+      "breed_b_value": 43,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 3,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

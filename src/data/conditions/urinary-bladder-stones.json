@@ -1,0 +1,58 @@
+{
+  "name": "Urinary Bladder Stones (Urolithiasis)",
+  "slug": "urinary-bladder-stones",
+  "category": "Urinary",
+  "description": "Urinary bladder stones (uroliths) are mineral concretions that form in the bladder. The most common types in dogs are struvite (often infection-related) and calcium oxalate (often metabolic). They cause irritation, obstruction, and recurrent urinary tract infections.",
+  "symptoms": [
+    "Straining to urinate",
+    "Blood in urine",
+    "Frequent urination",
+    "Urinary accidents",
+    "Urethral obstruction (emergency in males)"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Struvite stones may dissolve with prescription dissolution diets and antibiotics. Calcium oxalate stones require surgical cystotomy or cystoscopy. Prevention of recurrence depends on stone type.",
+  "prevention_tips": [
+    "Feed stone-specific prescription diets",
+    "Encourage water intake",
+    "Regular urinalysis monitoring",
+    "Control urinary tract infections promptly"
+  ],
+  "affected_breeds": [
+    "miniature-schnauzer",
+    "bichon-frise",
+    "shih-tzu",
+    "dalmatian",
+    "english-bulldog",
+    "pug"
+  ],
+  "typical_onset": "3-8 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,500-£3,500",
+  "breeds_detail": [
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Bichon Frise",
+      "slug": "bichon-frise",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Shih Tzu",
+      "slug": "shih-tzu",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Pug",
+      "slug": "pug",
+      "size": "small",
+      "group": "Toy"
+    }
+  ]
+}

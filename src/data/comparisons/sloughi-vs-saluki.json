@@ -1,0 +1,175 @@
+{
+  "slug": "sloughi-vs-saluki",
+  "breed_a": {
+    "name": "Sloughi",
+    "slug": "sloughi",
+    "group": "Hound",
+    "size": "large",
+    "weight_min_kg": 20,
+    "weight_max_kg": 27,
+    "height_min_cm": 61,
+    "height_max_cm": 72,
+    "lifespan_min": 12,
+    "lifespan_max": 16,
+    "temperament": [
+      "sensitive",
+      "aloof",
+      "loyal",
+      "gentle"
+    ],
+    "health_issues": [
+      "progressive-retinal-atrophy",
+      "hemangiosarcoma",
+      "sensitivity-to-anesthesia"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 1,
+    "shedding_level": 1,
+    "trainability": 2,
+    "good_with_children": false,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 149,
+    "origin": "Morocco",
+    "coat_type": "smooth",
+    "coat_colors": [
+      "sandy",
+      "fawn",
+      "brindle",
+      "black-overlay"
+    ],
+    "description": "The Sloughi is a North African sighthound revered for centuries by the Berber and Arab peoples of Morocco, Algeria, Tunisia, and Libya. They are elegant, lean dogs with a smooth coat and a noble, somewhat melancholy expression that reflects their sensitive and deeply loyal nature. Though aloof with strangers, they form profound bonds with their owners and are affectionate within their family unit."
+  },
+  "breed_b": {
+    "name": "Saluki",
+    "slug": "saluki",
+    "group": "Hound",
+    "size": "medium",
+    "weight_min_kg": 16,
+    "weight_max_kg": 29,
+    "height_min_cm": 58,
+    "height_max_cm": 71,
+    "lifespan_min": 12,
+    "lifespan_max": 14,
+    "temperament": [
+      "gentle",
+      "reserved",
+      "sensitive",
+      "aloof",
+      "loyal"
+    ],
+    "health_issues": [
+      "cardiac-problems",
+      "progressive-retinal-atrophy",
+      "hip-dysplasia",
+      "hypothyroidism",
+      "anesthesia-sensitivity"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 2,
+    "shedding_level": 2,
+    "trainability": 2,
+    "good_with_children": false,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 72,
+    "origin": "Middle East",
+    "coat_type": "smooth or feathered short",
+    "coat_colors": [
+      "white",
+      "cream",
+      "fawn",
+      "golden",
+      "red",
+      "grizzle and tan",
+      "black and tan"
+    ],
+    "description": "The Saluki is one of the oldest and most ancient of all breeds, with depictions in Egyptian tombs dating back 4,000 years and references in ancient Islamic texts that gave the breed near-holy status as a gift from Allah. Used across the Middle East and Central Asia by nomadic peoples and royalty alike to coursing gazelle and hare at speeds of up to 68 km/h, the Saluki's slender, aerodynamic build and long double-suspension gallop are optimized for pursuit over vast open terrain. They are gentle, affectionate, and deeply loyal to their families but carry the independent, reserved character typical of all coursing sight hounds."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 12,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 16,
+      "breed_b_value": 14,
+      "winner": "sloughi"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 20,
+      "breed_b_value": 16,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 27,
+      "breed_b_value": 29,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 61,
+      "breed_b_value": 58,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 72,
+      "breed_b_value": 71,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 1,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 1,
+      "breed_b_value": 2,
+      "winner": "sloughi"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 2,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 3,
+      "breed_b_value": 5,
+      "winner": "sloughi"
+    }
+  ]
+}

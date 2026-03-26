@@ -1,0 +1,174 @@
+{
+  "slug": "belgian-tervuren-vs-belgian-malinois",
+  "breed_a": {
+    "name": "Belgian Tervuren",
+    "slug": "belgian-tervuren",
+    "group": "Herding",
+    "size": "large",
+    "weight_min_kg": 20,
+    "weight_max_kg": 30,
+    "height_min_cm": 56,
+    "height_max_cm": 66,
+    "lifespan_min": 12,
+    "lifespan_max": 14,
+    "temperament": [
+      "alert",
+      "intelligent",
+      "energetic",
+      "loyal",
+      "versatile"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "epilepsy",
+      "progressive-retinal-atrophy",
+      "cataracts"
+    ],
+    "exercise_level": 5,
+    "grooming_level": 3,
+    "shedding_level": 4,
+    "trainability": 5,
+    "good_with_children": false,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 87,
+    "origin": "Belgium",
+    "coat_type": "long double",
+    "coat_colors": [
+      "fawn and black",
+      "mahogany and black"
+    ],
+    "description": "The Belgian Tervuren is the most glamorous of the four Belgian shepherd varieties, distinguished from the Malinois by its long, flowing fawn-and-black double coat and from the Groenendael by its fawn rather than solid black coloring. Equally intense and driven as the Malinois but in a more refined package, the Tervuren excels in herding, protection sports, obedience, agility, and service work. Their high energy level, sensitivity, and need for a job means they require experienced, dedicated handlers who can commit to multiple hours of structured daily activity and consistent, firm but fair training."
+  },
+  "breed_b": {
+    "name": "Belgian Malinois",
+    "slug": "belgian-malinois",
+    "group": "Herding",
+    "size": "large",
+    "weight_min_kg": 18,
+    "weight_max_kg": 34,
+    "height_min_cm": 56,
+    "height_max_cm": 66,
+    "lifespan_min": 14,
+    "lifespan_max": 16,
+    "temperament": [
+      "confident",
+      "alert",
+      "hardworking",
+      "loyal",
+      "energetic"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "progressive-retinal-atrophy",
+      "cataracts",
+      "epilepsy"
+    ],
+    "exercise_level": 5,
+    "grooming_level": 2,
+    "shedding_level": 3,
+    "trainability": 5,
+    "good_with_children": false,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 42,
+    "origin": "Belgium",
+    "coat_type": "short straight double",
+    "coat_colors": [
+      "fawn",
+      "fawn sable",
+      "mahogany",
+      "red",
+      "red sable"
+    ],
+    "description": "The Belgian Malinois has become the preferred working dog of military and law enforcement agencies worldwide — including the U.S. Navy SEALs — due to its extraordinary drive, athleticism, and trainability in a lighter and more agile frame than the German Shepherd. One of four Belgian herding breeds, the Malinois is an intense, high-octane dog that requires multiple hours of structured work and stimulation per day, making it categorically unsuitable as a pet for typical families or inexperienced owners. Without proper channeling of their exceptional drive and bite-work capability, they can become difficult or dangerous through boredom and frustration."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 14,
+      "winner": "belgian-malinois"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 14,
+      "breed_b_value": 16,
+      "winner": "belgian-malinois"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 20,
+      "breed_b_value": 18,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 30,
+      "breed_b_value": 34,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 56,
+      "breed_b_value": 56,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 66,
+      "breed_b_value": 66,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 3,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 4,
+      "breed_b_value": 3,
+      "winner": "belgian-malinois"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Nodular Sebaceous Hyperplasia",
+  "slug": "nodular-sebaceous-hyperplasia",
+  "category": "Dermatological",
+  "description": "Nodular sebaceous hyperplasia consists of multiple benign overgrowths of sebaceous glands producing raised, often cauliflower-like, yellowish skin nodules. They are cosmetically unappealing but clinically benign.",
+  "symptoms": [
+    "Multiple yellowish raised skin nodules",
+    "Nodules on face, eyelids, and trunk",
+    "Occasionally ulcerate and bleed",
+    "No systemic illness"
+  ],
+  "severity": "low",
+  "treatment_overview": "No treatment is required for uncomplicated nodules. Individual lesions causing irritation or cosmetic concern can be surgically excised or cauterised. Fine-needle aspirate confirms diagnosis.",
+  "prevention_tips": [
+    "No prevention",
+    "Distinguish from mast cell tumour with fine-needle aspirate"
+  ],
+  "affected_breeds": [
+    "cocker-spaniel",
+    "miniature-schnauzer",
+    "poodle",
+    "beagle",
+    "basset-hound"
+  ],
+  "typical_onset": "8+ years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£0-£400",
+  "breeds_detail": [
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    }
+  ]
+}

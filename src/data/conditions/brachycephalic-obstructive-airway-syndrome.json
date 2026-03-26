@@ -1,0 +1,70 @@
+{
+  "name": "Brachycephalic Obstructive Airway Syndrome (BOAS)",
+  "slug": "brachycephalic-obstructive-airway-syndrome",
+  "category": "Respiratory",
+  "description": "BOAS is a complex of anatomical abnormalities in flat-faced breeds including stenotic nares, elongated soft palate, hypoplastic trachea, and everted laryngeal saccules. These combine to severely restrict airflow and cause chronic respiratory distress.",
+  "symptoms": [
+    "Noisy laboured breathing",
+    "Exercise intolerance",
+    "Gagging and regurgitation",
+    "Cyanosis in severe cases",
+    "Sleep apnoea",
+    "Overheating"
+  ],
+  "severity": "high",
+  "treatment_overview": "Surgical correction of stenotic nares, elongated soft palate, and everted saccules significantly improves quality of life. Weight control and avoiding heat/exercise are essential management measures.",
+  "prevention_tips": [
+    "Select breeding stock with wider nostrils and better airway scores",
+    "Use BOAS functional grading schemes before breeding",
+    "Avoid breeding from severely affected dogs"
+  ],
+  "affected_breeds": [
+    "french-bulldog",
+    "english-bulldog",
+    "pug",
+    "boston-terrier",
+    "shih-tzu",
+    "pekingese"
+  ],
+  "typical_onset": "Birth onward",
+  "hereditary": true,
+  "estimated_treatment_cost": "£1,500-£4,000",
+  "breeds_detail": [
+    {
+      "name": "French Bulldog",
+      "slug": "french-bulldog",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Pug",
+      "slug": "pug",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Boston Terrier",
+      "slug": "boston-terrier",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Shih Tzu",
+      "slug": "shih-tzu",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Pekingese",
+      "slug": "pekingese",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Brussels Griffon",
+      "slug": "brussels-griffon",
+      "size": "small",
+      "group": "Toy"
+    }
+  ]
+}

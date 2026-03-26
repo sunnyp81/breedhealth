@@ -1,0 +1,57 @@
+{
+  "name": "Cranial Cruciate Ligament Rupture",
+  "slug": "cranial-cruciate-ligament-rupture",
+  "category": "Orthopedic",
+  "description": "The cranial cruciate ligament (CCL) stabilises the knee joint. Rupture — often partial then complete — is one of the most common orthopaedic injuries in dogs, leading to instability, pain, and rapid joint degeneration.",
+  "symptoms": [
+    "Sudden hind limb lameness",
+    "Toe-touching or non-weight bearing",
+    "Swollen knee joint",
+    "Sitting with leg out to side",
+    "Muscle wasting over time"
+  ],
+  "severity": "high",
+  "treatment_overview": "Surgical stabilisation (TPLO, TTA, or lateral suture) is the gold standard. Conservative management is only suitable for small dogs under 15 kg with partial tears.",
+  "prevention_tips": [
+    "Maintain healthy weight",
+    "Regular low-impact exercise to build muscle",
+    "Avoid sudden explosive activities in unfit dogs",
+    "Genetic screening where available"
+  ],
+  "affected_breeds": [
+    "labrador-retriever",
+    "rottweiler",
+    "golden-retriever",
+    "newfoundland",
+    "staffordshire-bull-terrier"
+  ],
+  "typical_onset": "4-7 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£2,500-£5,500",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Newfoundland",
+      "slug": "newfoundland",
+      "size": "giant",
+      "group": "Working"
+    }
+  ]
+}

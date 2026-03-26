@@ -1,0 +1,169 @@
+{
+  "slug": "great-pyrenees-vs-kuvasz",
+  "breed_a": {
+    "name": "Great Pyrenees",
+    "slug": "great-pyrenees",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 40,
+    "weight_max_kg": 54,
+    "height_min_cm": 65,
+    "height_max_cm": 82,
+    "lifespan_min": 10,
+    "lifespan_max": 12,
+    "temperament": [
+      "patient",
+      "calm",
+      "gentle",
+      "independent"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "bloat",
+      "osteosarcoma",
+      "patellar-luxation",
+      "addisons-disease"
+    ],
+    "exercise_level": 2,
+    "grooming_level": 3,
+    "shedding_level": 5,
+    "trainability": 2,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 108,
+    "origin": "France/Spain",
+    "coat_type": "long thick double",
+    "coat_colors": [
+      "white",
+      "white with grey markings",
+      "white with tan markings",
+      "white with reddish brown markings"
+    ],
+    "description": "The Great Pyrenees is a majestic white livestock guardian dog developed in the Pyrenean mountains of France and Spain to protect flocks from wolves and bears without human supervision. Their deeply independent, nocturnal guardian instincts mean they are not always suited to suburban life — they are known to roam, bark at night, and make their own decisions about threats. However, with the right environment and experienced owners, they are gentle, devoted family dogs and effective protection animals."
+  },
+  "breed_b": {
+    "name": "Kuvasz",
+    "slug": "kuvasz",
+    "group": "Working",
+    "size": "large",
+    "weight_min_kg": 32,
+    "weight_max_kg": 52,
+    "height_min_cm": 66,
+    "height_max_cm": 76,
+    "lifespan_min": 10,
+    "lifespan_max": 12,
+    "temperament": [
+      "loyal",
+      "patient",
+      "protective",
+      "independent"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "osteochondritis-dissecans",
+      "hypertrophic-osteodystrophy",
+      "bloat"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 3,
+    "shedding_level": 3,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": false,
+    "apartment_friendly": false,
+    "popularity_rank": 142,
+    "origin": "Hungary",
+    "coat_type": "double",
+    "coat_colors": [
+      "white"
+    ],
+    "description": "The Kuvasz is an ancient Hungarian flock guardian breed with a striking white double coat that allowed shepherds to distinguish it from wolves at night. They are powerful, intelligent, and fiercely protective dogs that were historically favored by Hungarian royalty. Independent and strong-willed, they require experienced owners who can provide firm, consistent leadership and early socialization from puppyhood."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 10,
+      "breed_b_value": 10,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 12,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 40,
+      "breed_b_value": 32,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 54,
+      "breed_b_value": 52,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 65,
+      "breed_b_value": 66,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 82,
+      "breed_b_value": 76,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 2,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 5,
+      "breed_b_value": 3,
+      "winner": "kuvasz"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 2,
+      "breed_b_value": 3,
+      "winner": "kuvasz"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": false,
+      "winner": "great-pyrenees"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 4,
+      "winner": "kuvasz"
+    }
+  ]
+}

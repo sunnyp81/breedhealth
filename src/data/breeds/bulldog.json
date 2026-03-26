@@ -1,0 +1,191 @@
+{
+  "name": "Bulldog",
+  "slug": "bulldog",
+  "group": "Non-Sporting",
+  "size": "medium",
+  "weight_min_kg": 18,
+  "weight_max_kg": 23,
+  "height_min_cm": 31,
+  "height_max_cm": 40,
+  "lifespan_min": 8,
+  "lifespan_max": 10,
+  "temperament": [
+    "docile",
+    "willful",
+    "friendly",
+    "gregarious"
+  ],
+  "health_issues": [
+    "brachycephalic-syndrome",
+    "hip-dysplasia",
+    "cherry-eye",
+    "skin-fold-dermatitis",
+    "patellar-luxation"
+  ],
+  "exercise_level": 2,
+  "grooming_level": 2,
+  "shedding_level": 3,
+  "trainability": 2,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 6,
+  "origin": "England",
+  "coat_type": "short smooth",
+  "coat_colors": [
+    "red brindle",
+    "white",
+    "fawn",
+    "fallow",
+    "piebald"
+  ],
+  "description": "The Bulldog's stocky, low-slung build and deeply wrinkled face represent a dramatic evolution from the fierce bull-baiting dogs of medieval England to the gentle, affectionate companion recognized today. Their calm, dependable nature and love of human company make them excellent family pets, though owners must diligently clean facial folds daily to prevent skin infections. Bulldogs are acutely sensitive to heat and should never be exercised vigorously in warm or humid weather.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Cherry Eye (Prolapsed Nictitating Membrane Gland)",
+      "slug": "cherry-eye",
+      "category": "Eye",
+      "description": "Cherry eye is the prolapse of the tear-producing gland of the third eyelid, appearing as a red or pink mass in the inner corner of the eye. It is more common in brachycephalic and young breeds, and can affect one or both eyes.",
+      "symptoms": [
+        "Red or pink mass in inner eye corner",
+        "Eye discharge",
+        "Excessive tearing",
+        "Eye rubbing",
+        "Conjunctivitis"
+      ],
+      "severity": "low",
+      "treatment_overview": "Surgical replacement (tucking or pocket technique) of the gland back into its normal position is preferred over removal to preserve tear production. Surgery success rate is high.",
+      "prevention_tips": [
+        "No proven prevention",
+        "Early surgical correction prevents secondary dry eye"
+      ],
+      "affected_breeds": [
+        "english-bulldog",
+        "cocker-spaniel",
+        "beagle",
+        "basset-hound",
+        "shih-tzu",
+        "lhasa-apso"
+      ],
+      "typical_onset": "Under 2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£600-£1,500"
+    },
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+      "symptoms": [
+        "Intermittent skipping on hind leg",
+        "Sudden leg lifting",
+        "Bunny-hopping",
+        "Hind limb lameness",
+        "Visible kneecap displacement"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+      "prevention_tips": [
+        "Breed from dogs with normal patellar scores",
+        "Maintain healthy weight",
+        "Avoid high-impact activities in affected puppies"
+      ],
+      "affected_breeds": [
+        "chihuahua",
+        "yorkshire-terrier",
+        "pomeranian",
+        "toy-poodle",
+        "bichon-frise",
+        "boston-terrier"
+      ],
+      "typical_onset": "4 months - 6 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Senior Formula",
+      "slug": "senior"
+    },
+    {
+      "name": "Weight Management",
+      "slug": "weight-management"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "French Bulldog",
+      "slug": "french-bulldog",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Boston Terrier",
+      "slug": "boston-terrier",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bichon Frise",
+      "slug": "bichon-frise",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Shiba Inu",
+      "slug": "shiba-inu",
+      "size": "small",
+      "group": "Non-Sporting"
+    }
+  ],
+  "comparisons": [
+    "bulldog-vs-french-bulldog",
+    "boxer-vs-bulldog"
+  ]
+}

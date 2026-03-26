@@ -1,0 +1,53 @@
+{
+  "name": "Umbilical Hernia",
+  "slug": "umbilical-hernia",
+  "category": "Gastrointestinal",
+  "description": "An umbilical hernia is a defect in the abdominal wall at the umbilicus (belly button) through which abdominal fat or, less commonly, intestine protrudes. Small hernias often resolve spontaneously; large ones require surgical repair.",
+  "symptoms": [
+    "Visible soft swelling at belly button",
+    "Usually reducible (can be pushed back in)",
+    "May become hard or painful if intestine is trapped (emergency)",
+    "Generally no other signs in simple cases"
+  ],
+  "severity": "low",
+  "treatment_overview": "Small hernias (under 1 cm) often resolve by 6 months. Larger or persistent hernias are repaired surgically, often at the time of neutering. Emergency surgery is needed if strangulation occurs.",
+  "prevention_tips": [
+    "Do not breed from dogs with known hereditary umbilical hernia tendency",
+    "Careful cord management at whelping"
+  ],
+  "affected_breeds": [
+    "airedale-terrier",
+    "basenji",
+    "pekingese",
+    "cavalier-king-charles-spaniel"
+  ],
+  "typical_onset": "Birth",
+  "hereditary": true,
+  "estimated_treatment_cost": "£300-£800",
+  "breeds_detail": [
+    {
+      "name": "Airedale Terrier",
+      "slug": "airedale-terrier",
+      "size": "large",
+      "group": "Terrier"
+    },
+    {
+      "name": "Basenji",
+      "slug": "basenji",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Pekingese",
+      "slug": "pekingese",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Cavalier King Charles Spaniel",
+      "slug": "cavalier-king-charles-spaniel",
+      "size": "small",
+      "group": "Toy"
+    }
+  ]
+}

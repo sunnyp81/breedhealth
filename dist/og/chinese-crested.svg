@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#FDF6E3"/>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="1200" height="80" fill="#2D5F2D"/>
+
+  <!-- Logo text in top bar -->
+  <text x="40" y="52"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="26"
+    font-weight="700"
+    fill="#FFFFFF"
+    letter-spacing="1">BreedHealth</text>
+
+  <!-- Tagline in top bar -->
+  <text x="40" y="72"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="13"
+    fill="rgba(255,255,255,0.75)"
+    letter-spacing="0.5">Complete health guides for every breed</text>
+
+  <!-- Amber accent line -->
+  <rect x="0" y="80" width="1200" height="4" fill="#D4A843"/>
+
+  <!-- Decorative side stripe -->
+  <rect x="0" y="84" width="6" height="546" fill="#3D7A3D" opacity="0.35"/>
+  <rect x="1194" y="84" width="6" height="546" fill="#3D7A3D" opacity="0.35"/>
+
+  <!-- Breed name -->
+  <text x="600" y="310"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="52"
+        font-weight="700"
+        fill="#2C1810"
+        text-anchor="middle"
+        dominant-baseline="middle">Chinese Crested</text>
+
+  <!-- Amber divider under name -->
+  <rect x="440" y="335" width="320" height="3" fill="#D4A843" rx="1.5"/>
+
+  <!-- Lifespan stat -->
+  <text x="600" y="365"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="22"
+    fill="#7A6A5A"
+    text-anchor="middle"
+    dominant-baseline="middle">Lifespan: 13–15 years</text>
+
+  <!-- Size badge pill -->
+  <rect x="556.5" y="390" width="87" height="38" rx="19" fill="#2D5F2D"/>
+  <text x="600" y="409"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="16"
+    font-weight="600"
+    fill="#FFFFFF"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    letter-spacing="1">SMALL</text>
+
+  <!-- Group label -->
+  <text x="600" y="470"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="18"
+    fill="#6B3A2A"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-style="italic">Toy Group</text>
+
+  <!-- Paw print (decorative, bottom-right) -->
+  <g transform="translate(1130, 575) scale(1.6)" opacity="0.18" fill="#2D5F2D">
+    <path d="M 0,-22
+  C -8,-22 -14,-16 -14,-8
+  C -14,2 -6,10 0,14
+  C 6,10 14,2 14,-8
+  C 14,-16 8,-22 0,-22 Z
+
+  M -20,-30
+  C -25,-30 -28,-25 -28,-20
+  C -28,-15 -25,-11 -20,-11
+  C -15,-11 -12,-15 -12,-20
+  C -12,-25 -15,-30 -20,-30 Z
+
+  M 20,-30
+  C 15,-30 12,-25 12,-20
+  C 12,-15 15,-11 20,-11
+  C 25,-11 28,-15 28,-20
+  C 28,-25 25,-30 20,-30 Z
+
+  M -10,-38
+  C -15,-38 -18,-34 -18,-29
+  C -18,-24 -15,-21 -10,-21
+  C -5,-21 -2,-24 -2,-29
+  C -2,-34 -5,-38 -10,-38 Z
+
+  M 10,-38
+  C 5,-38 2,-34 2,-29
+  C 2,-24 5,-21 10,-21
+  C 15,-21 18,-24 18,-29
+  C 18,-34 15,-38 10,-38 Z"/>
+  </g>
+  <g transform="translate(1090, 555) scale(1.0)" opacity="0.10" fill="#2D5F2D">
+    <path d="M 0,-22
+  C -8,-22 -14,-16 -14,-8
+  C -14,2 -6,10 0,14
+  C 6,10 14,2 14,-8
+  C 14,-16 8,-22 0,-22 Z
+
+  M -20,-30
+  C -25,-30 -28,-25 -28,-20
+  C -28,-15 -25,-11 -20,-11
+  C -15,-11 -12,-15 -12,-20
+  C -12,-25 -15,-30 -20,-30 Z
+
+  M 20,-30
+  C 15,-30 12,-25 12,-20
+  C 12,-15 15,-11 20,-11
+  C 25,-11 28,-15 28,-20
+  C 28,-25 25,-30 20,-30 Z
+
+  M -10,-38
+  C -15,-38 -18,-34 -18,-29
+  C -18,-24 -15,-21 -10,-21
+  C -5,-21 -2,-24 -2,-29
+  C -2,-34 -5,-38 -10,-38 Z
+
+  M 10,-38
+  C 5,-38 2,-34 2,-29
+  C 2,-24 5,-21 10,-21
+  C 15,-21 18,-24 18,-29
+  C 18,-34 15,-38 10,-38 Z"/>
+  </g>
+
+  <!-- Bottom amber bar -->
+  <rect x="0" y="614" width="1200" height="16" fill="#D4A843" opacity="0.6"/>
+
+  <!-- URL watermark -->
+  <text x="1160" y="607"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="13"
+    fill="#7A6A5A"
+    text-anchor="end"
+    opacity="0.7">breedhealth.co.uk</text>
+</svg>

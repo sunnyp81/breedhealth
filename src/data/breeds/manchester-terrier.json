@@ -1,0 +1,179 @@
+{
+  "name": "Manchester Terrier",
+  "slug": "manchester-terrier",
+  "group": "Terrier",
+  "size": "small",
+  "weight_min_kg": 5,
+  "weight_max_kg": 10,
+  "height_min_cm": 38,
+  "height_max_cm": 41,
+  "lifespan_min": 14,
+  "lifespan_max": 16,
+  "temperament": [
+    "keen",
+    "alert",
+    "spirited",
+    "devoted"
+  ],
+  "health_issues": [
+    "von-willebrands-disease",
+    "glaucoma",
+    "hypothyroidism",
+    "patellar-luxation"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 1,
+  "shedding_level": 2,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": false,
+  "apartment_friendly": true,
+  "popularity_rank": 133,
+  "origin": "United Kingdom",
+  "coat_type": "smooth",
+  "coat_colors": [
+    "black-and-tan"
+  ],
+  "description": "The Manchester Terrier is a sleek, athletic breed developed in England for rat-catching and rabbit coursing. They are one of the oldest identified terrier breeds and combine the speed of a sighthound with the tenacity of a terrier. Alert and devoted to their families, they can be reserved with strangers and have strong prey drives that require management around small animals.",
+  "conditions_detail": [
+    {
+      "name": "Glaucoma",
+      "slug": "glaucoma",
+      "category": "Eye",
+      "description": "Glaucoma is elevated intraocular pressure that damages the optic nerve and retina, causing pain and vision loss. Primary glaucoma is hereditary; secondary glaucoma results from other eye conditions. It is a veterinary emergency in acute form.",
+      "symptoms": [
+        "Sudden eye pain",
+        "Enlarged or bulging eye",
+        "Cloudy cornea",
+        "Redness",
+        "Rapid vision loss",
+        "Lethargy"
+      ],
+      "severity": "high",
+      "treatment_overview": "Emergency medical treatment aims to reduce intraocular pressure using topical and systemic medications. Long-term management requires ongoing medication. Affected eyes that are blind and painful are enucleated.",
+      "prevention_tips": [
+        "Annual tonometry (pressure checks) in at-risk breeds",
+        "DNA test available for some breeds",
+        "Treat lens luxation and uveitis promptly to prevent secondary glaucoma"
+      ],
+      "affected_breeds": [
+        "basset-hound",
+        "cocker-spaniel",
+        "chow-chow",
+        "siberian-husky",
+        "welsh-springer-spaniel",
+        "great-dane"
+      ],
+      "typical_onset": "3-7 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£5,000"
+    },
+    {
+      "name": "Hypothyroidism",
+      "slug": "hypothyroidism",
+      "category": "Endocrine",
+      "description": "Hypothyroidism is the most common endocrine disorder in dogs, caused by reduced thyroid hormone production — most often from immune-mediated thyroiditis or idiopathic follicular atrophy. It affects metabolism, skin, and coat quality.",
+      "symptoms": [
+        "Weight gain without diet change",
+        "Lethargy",
+        "Cold intolerance",
+        "Bilateral symmetrical hair loss",
+        "Thickened skin",
+        "Ear infections"
+      ],
+      "severity": "low",
+      "treatment_overview": "Daily oral thyroxine (levothyroxine) supplementation is highly effective and required for life. Dosing is adjusted based on thyroid level monitoring every 6-12 months.",
+      "prevention_tips": [
+        "No proven prevention",
+        "Regular blood screening in at-risk breeds from age 4"
+      ],
+      "affected_breeds": [
+        "golden-retriever",
+        "dobermann",
+        "irish-setter",
+        "miniature-schnauzer",
+        "cocker-spaniel",
+        "airedale-terrier"
+      ],
+      "typical_onset": "4-10 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£300-£800/year"
+    },
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+      "symptoms": [
+        "Intermittent skipping on hind leg",
+        "Sudden leg lifting",
+        "Bunny-hopping",
+        "Hind limb lameness",
+        "Visible kneecap displacement"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+      "prevention_tips": [
+        "Breed from dogs with normal patellar scores",
+        "Maintain healthy weight",
+        "Avoid high-impact activities in affected puppies"
+      ],
+      "affected_breeds": [
+        "chihuahua",
+        "yorkshire-terrier",
+        "pomeranian",
+        "toy-poodle",
+        "bichon-frise",
+        "boston-terrier"
+      ],
+      "typical_onset": "4 months - 6 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "West Highland White Terrier",
+      "slug": "west-highland-white-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Soft Coated Wheaten Terrier",
+      "slug": "soft-coated-wheaten-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    },
+    {
+      "name": "Cairn Terrier",
+      "slug": "cairn-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Scottish Terrier",
+      "slug": "scottish-terrier",
+      "size": "small",
+      "group": "Terrier"
+    }
+  ],
+  "comparisons": [
+    "manchester-terrier-vs-miniature-pinscher"
+  ]
+}

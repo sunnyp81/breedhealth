@@ -1,0 +1,61 @@
+{
+  "name": "Fibrocartilaginous Embolism (FCE)",
+  "slug": "fibrocartilaginous-embolism",
+  "category": "Neurological",
+  "description": "FCE occurs when fibrocartilaginous material from an intervertebral disc enters the blood supply to the spinal cord, causing an infarct. It causes sudden, non-progressive paralysis or weakness typically during or after vigorous exercise.",
+  "symptoms": [
+    "Sudden onset paralysis or weakness",
+    "Non-painful spinal cord dysfunction",
+    "Asymmetric signs",
+    "Rapid deterioration then stabilisation",
+    "Bladder dysfunction"
+  ],
+  "severity": "high",
+  "treatment_overview": "No specific treatment reverses the infarct. Supportive care with physiotherapy and hydrotherapy is the mainstay. Prognosis depends on severity; many dogs recover significantly with intensive rehabilitation.",
+  "prevention_tips": [
+    "No proven prevention",
+    "Avoid sudden explosive exercise in unfit dogs"
+  ],
+  "affected_breeds": [
+    "labrador-retriever",
+    "miniature-schnauzer",
+    "shetland-sheepdog",
+    "irish-wolfhound",
+    "bernese-mountain-dog"
+  ],
+  "typical_onset": "3-7 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,500-£4,000",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Shetland Sheepdog",
+      "slug": "shetland-sheepdog",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Irish Wolfhound",
+      "slug": "irish-wolfhound",
+      "size": "giant",
+      "group": "Hound"
+    },
+    {
+      "name": "Bernese Mountain Dog",
+      "slug": "bernese-mountain-dog",
+      "size": "giant",
+      "group": "Working"
+    }
+  ]
+}

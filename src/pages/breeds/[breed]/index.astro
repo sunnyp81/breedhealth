@@ -1,0 +1,269 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import BreedStatCard from '../../../components/BreedStatCard.astro';
+import ConditionSeverityBadge from '../../../components/ConditionSeverityBadge.astro';
+import AffiliateProductCard from '../../../components/AffiliateProductCard.astro';
+import EmailCapture from '../../../components/EmailCapture.astro';
+import FAQ from '../../../components/FAQ.astro';
+import AdSlot from '../../../components/AdSlot.astro';
+
+import { getAllBreeds, getBreed } from '../../../lib/data';
+import {
+  generateBreedIntro,
+  generateDietCopy,
+  generateExerciseCopy,
+  generateBreedFAQs,
+} from '../../../lib/copy';
+import {
+  generateAnimalSchema,
+  generateFAQSchema,
+  generateBreadcrumbSchema,
+} from '../../../lib/schema';
+
+import type { GetStaticPaths } from 'astro';
+import type { Breed } from '../../../lib/types';
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const breeds = await getAllBreeds();
+  return breeds.map((summary) => ({
+    params: { breed: summary.slug },
+    props: { slug: summary.slug },
+  }));
+};
+
+interface Props {
+  slug: string;
+}
+
+const { slug } = Astro.props;
+
+const breed = await getBreed(slug) as Breed;
+
+const siteUrl = 'https://breedhealth.co.uk';
+const pageUrl = `${siteUrl}/breeds/${breed.slug}/`;
+
+const introText   = generateBreedIntro(breed);
+const dietSummary = generateDietCopy(breed);
+const exerciseSummary = generateExerciseCopy(breed);
+const faqs        = generateBreedFAQs(breed);
+
+const animalSchema     = generateAnimalSchema(breed, pageUrl);
+const faqSchema        = generateFAQSchema(faqs);
+const breadcrumbSchema = generateBreadcrumbSchema([
+  { name: 'Home',   url: `${siteUrl}/` },
+  { name: 'Breeds', url: `${siteUrl}/breeds/` },
+  { name: breed.name, url: pageUrl },
+]);
+
+const breadcrumbItems = [
+  { name: 'Home',   url: '/' },
+  { name: 'Breeds', url: '/breeds/' },
+  { name: breed.name, url: `/breeds/${breed.slug}/` },
+];
+
+// Affiliate product cards — titles derived from breed name
+const affiliateProducts = [
+  {
+    category: 'food' as const,
+    title: `Best Dry Food for ${breed.name}s`,
+    description: `A premium dry food formulated for ${breed.size} ${breed.group.toLowerCase()} breeds. High protein content supports muscle maintenance, and the kibble size is appropriate for the ${breed.name}'s jaw.`,
+  },
+  {
+    category: 'supplement' as const,
+    title: `Joint Support Supplement for ${breed.name}s`,
+    description: `${breed.size === 'large' || breed.size === 'giant' ? `Large breeds like the ${breed.name} are prone to joint conditions` : `${breed.name}s can benefit from preventive joint care`}. This supplement contains glucosamine and chondroitin to support cartilage health.`,
+  },
+  {
+    category: 'grooming' as const,
+    title: `Grooming Kit for ${breed.name}s`,
+    description: `Everything you need to maintain a ${breed.name}'s ${breed.coat_type} coat. Includes a deshedding brush, slicker, and nail clippers sized for a ${breed.size} dog.`,
+  },
+  {
+    category: 'crate' as const,
+    title: `${breed.name} Dog Crate`,
+    description: `A sturdy crate sized for a ${breed.size} dog (${breed.weight_min_kg}–${breed.weight_max_kg} kg). Suitable for training, travel, and providing a safe den space for your ${breed.name}.`,
+  },
+];
+---
+
+<BaseLayout
+  title={`${breed.name} Dog Breed — Health, Diet & Care | BreedHealth`}
+  description={`Complete ${breed.name} guide: health conditions, diet, exercise needs, and care advice. Expert information for ${breed.name} owners and prospective buyers.`}
+  canonicalUrl={pageUrl}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(animalSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  </Fragment>
+
+  <!-- Header ad slot -->
+  <div class="mb-6">
+    <AdSlot position="header" />
+  </div>
+
+  <!-- Breadcrumbs -->
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Page heading -->
+  <h1 class="text-3xl sm:text-4xl font-bold text-primary mt-4 mb-4 leading-tight">
+    {breed.name} — Health, Diet &amp; Care Guide
+  </h1>
+
+  <!-- Intro paragraph -->
+  <p class="breed-intro text-text-muted leading-relaxed text-lg mb-8 max-w-3xl">
+    {introText}
+  </p>
+
+  <!-- Breed stat card -->
+  <div class="mb-10">
+    <BreedStatCard breed={breed} />
+  </div>
+
+  <!-- In-content ad -->
+  <div class="my-6">
+    <AdSlot position="in-content" />
+  </div>
+
+  <!-- Health Risks section -->
+  <section aria-labelledby="health-risks-heading" class="mb-10">
+    <h2 id="health-risks-heading" class="text-2xl font-bold text-primary mb-4">
+      Health Risks
+    </h2>
+
+    {breed.conditions_detail && breed.conditions_detail.length > 0 ? (
+      <ul class="space-y-3 mb-6" role="list">
+        {breed.conditions_detail.map((condition) => (
+          <li class="flex flex-col sm:flex-row sm:items-start gap-2 p-4 bg-white border border-border rounded-xl">
+            <div class="flex-1">
+              <div class="flex flex-wrap items-center gap-3 mb-1">
+                <a
+                  href={`/breeds/${breed.slug}/health/${condition.slug}/`}
+                  class="font-semibold text-primary hover:underline no-underline"
+                >
+                  {condition.name}
+                </a>
+                <ConditionSeverityBadge severity={condition.severity} />
+              </div>
+              <p class="text-sm text-text-muted leading-relaxed">{condition.description}</p>
+              {condition.typical_onset && (
+                <p class="text-xs text-text-light mt-1">
+                  Typical onset: {condition.typical_onset}
+                </p>
+              )}
+            </div>
+          </li>
+        ))}
+      </ul>
+    ) : breed.health_issues.length > 0 ? (
+      <ul class="space-y-2 mb-6" role="list">
+        {breed.health_issues.map((conditionSlug) => (
+          <li class="flex items-center gap-2 p-3 bg-white border border-border rounded-lg">
+            <a
+              href={`/breeds/${breed.slug}/health/${conditionSlug}/`}
+              class="font-medium text-primary hover:underline no-underline capitalize"
+            >
+              {conditionSlug.replace(/-/g, ' ')}
+            </a>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="text-text-muted">No significant hereditary conditions currently documented for this breed.</p>
+    )}
+
+    <a
+      href={`/breeds/${breed.slug}/health/`}
+      class="inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-white font-semibold rounded-lg text-sm hover:bg-primary-dark transition-colors no-underline"
+    >
+      View Full Health Guide
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </section>
+
+  <!-- Diet & Nutrition summary -->
+  <section aria-labelledby="diet-heading" class="mb-10">
+    <h2 id="diet-heading" class="text-2xl font-bold text-primary mb-4">
+      Diet &amp; Nutrition
+    </h2>
+    <p class="text-text-muted leading-relaxed mb-4 max-w-3xl">{dietSummary}</p>
+    <a
+      href={`/breeds/${breed.slug}/diet/`}
+      class="inline-flex items-center gap-2 text-primary font-semibold hover:underline no-underline text-sm"
+    >
+      Full {breed.name} Feeding Guide
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </section>
+
+  <!-- Exercise summary -->
+  <section aria-labelledby="exercise-heading" class="mb-10">
+    <h2 id="exercise-heading" class="text-2xl font-bold text-primary mb-4">
+      Exercise Requirements
+    </h2>
+    <p class="text-text-muted leading-relaxed mb-4 max-w-3xl">{exerciseSummary}</p>
+    <a
+      href={`/breeds/${breed.slug}/exercise/`}
+      class="inline-flex items-center gap-2 text-primary font-semibold hover:underline no-underline text-sm"
+    >
+      Full {breed.name} Exercise Guide
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </section>
+
+  <!-- Affiliate products -->
+  <section aria-labelledby="products-heading" class="mb-10">
+    <h2 id="products-heading" class="text-2xl font-bold text-primary mb-5">
+      Recommended Products for {breed.name}s
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      {affiliateProducts.map((product) => (
+        <AffiliateProductCard
+          title={product.title}
+          description={product.description}
+          category={product.category}
+        />
+      ))}
+    </div>
+  </section>
+
+  <!-- Related breeds -->
+  {breed.related_breeds && breed.related_breeds.length > 0 && (
+    <section aria-labelledby="related-breeds-heading" class="mb-10">
+      <h2 id="related-breeds-heading" class="text-2xl font-bold text-primary mb-4">
+        Related Breeds
+      </h2>
+      <ul class="flex flex-wrap gap-3" role="list">
+        {breed.related_breeds.map((related) => (
+          <li>
+            <a
+              href={`/breeds/${related.slug}/`}
+              class="inline-flex items-center gap-1.5 px-4 py-2 bg-white border border-border rounded-full text-sm font-medium text-text hover:text-primary hover:border-primary transition-colors no-underline"
+            >
+              {related.name}
+              <span class="text-xs text-text-light capitalize">({related.size})</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <!-- FAQ accordion -->
+  <section aria-labelledby="faq-heading" class="mb-10">
+    <h2 id="faq-heading" class="text-2xl font-bold text-primary mb-2">
+      Frequently Asked Questions
+    </h2>
+    <FAQ items={faqs} />
+  </section>
+
+  <!-- Email capture -->
+  <EmailCapture ctaText={`Get ${breed.name} health tips delivered to your inbox`} />
+</BaseLayout>

@@ -1,0 +1,64 @@
+{
+  "name": "Degenerative Joint Disease (Osteoarthritis)",
+  "slug": "osteoarthritis",
+  "category": "Orthopedic",
+  "description": "Osteoarthritis is progressive deterioration of joint cartilage causing pain, stiffness, and reduced mobility. It is the end result of many orthopaedic conditions and is extremely common in senior dogs. It significantly impacts quality of life if poorly managed.",
+  "symptoms": [
+    "Stiffness particularly after rest",
+    "Reduced activity and exercise tolerance",
+    "Joint swelling",
+    "Muscle wasting",
+    "Difficulty rising or climbing stairs",
+    "Licking at joints"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Multimodal management including NSAIDs, joint supplements (fish oil, green-lipped mussel), physiotherapy, hydrotherapy, weight management, and environmental adaptations (ramps, orthopaedic beds). Intra-articular therapies and monoclonal antibodies (bedinvetmab) are emerging options.",
+  "prevention_tips": [
+    "Maintain healthy weight throughout life",
+    "Regular low-impact exercise",
+    "Treat predisposing orthopaedic conditions early",
+    "Joint supplements from middle age in large breeds"
+  ],
+  "affected_breeds": [
+    "labrador-retriever",
+    "golden-retriever",
+    "german-shepherd",
+    "rottweiler",
+    "bernese-mountain-dog"
+  ],
+  "typical_onset": "7+ years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£500-£2,500/year",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Bernese Mountain Dog",
+      "slug": "bernese-mountain-dog",
+      "size": "giant",
+      "group": "Working"
+    }
+  ]
+}

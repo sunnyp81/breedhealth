@@ -1,0 +1,63 @@
+{
+  "name": "Cushing's Disease (Hyperadrenocorticism)",
+  "slug": "cushings-disease",
+  "category": "Endocrine",
+  "description": "Cushing's disease results from excess cortisol, most commonly from a pituitary adenoma (PDH) or, less often, an adrenal tumour (AT). The chronic cortisol excess causes characteristic physical and metabolic changes.",
+  "symptoms": [
+    "Pot-bellied appearance",
+    "Increased thirst and urination",
+    "Increased appetite",
+    "Bilateral hair loss",
+    "Thin skin with bruising",
+    "Lethargy"
+  ],
+  "severity": "medium",
+  "treatment_overview": "PDH is treated medically with trilostane or mitotane, requiring regular monitoring. Adrenal tumours may be surgically removed. Treatment is lifelong and significantly improves quality of life.",
+  "prevention_tips": [
+    "No proven prevention",
+    "Avoid prolonged unnecessary steroid medication"
+  ],
+  "affected_breeds": [
+    "miniature-poodle",
+    "dachshund",
+    "yorkshire-terrier",
+    "beagle",
+    "boxer",
+    "boston-terrier"
+  ],
+  "typical_onset": "7-12 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,000-£3,000/year",
+  "breeds_detail": [
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Yorkshire Terrier",
+      "slug": "yorkshire-terrier",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Boston Terrier",
+      "slug": "boston-terrier",
+      "size": "small",
+      "group": "Non-Sporting"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Fanconi Syndrome",
+  "slug": "fanconi-syndrome",
+  "category": "Urinary",
+  "description": "Fanconi syndrome is a hereditary proximal renal tubular dysfunction causing abnormal loss of glucose, amino acids, electrolytes, and water into the urine. It leads to a characteristic symptom complex and can cause severe metabolic disturbance.",
+  "symptoms": [
+    "Excessive thirst and urination",
+    "Glucose in urine despite normal blood glucose",
+    "Weight loss",
+    "Muscle weakness",
+    "Metabolic acidosis"
+  ],
+  "severity": "high",
+  "treatment_overview": "Oral supplementation of the lost electrolytes (sodium bicarbonate, potassium, phosphate) and vitamins. Regular monitoring of blood and urine biochemistry. There is no cure but affected dogs can live for many years with good management.",
+  "prevention_tips": [
+    "DNA test available for Basenji form",
+    "Test all breeding Basenjis before mating"
+  ],
+  "affected_breeds": [
+    "basenji",
+    "labrador-retriever",
+    "border-terrier",
+    "norwegian-elkhound"
+  ],
+  "typical_onset": "3-7 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£500-£2,000/year",
+  "breeds_detail": [
+    {
+      "name": "Basenji",
+      "slug": "basenji",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Norwegian Elkhound",
+      "slug": "norwegian-elkhound",
+      "size": "medium",
+      "group": "Hound"
+    }
+  ]
+}

@@ -1,0 +1,4460 @@
+{
+  "breeds": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "group": "Sporting",
+      "size": "large",
+      "popularity_rank": 1
+    },
+    {
+      "name": "French Bulldog",
+      "slug": "french-bulldog",
+      "group": "Non-Sporting",
+      "size": "small",
+      "popularity_rank": 2
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "group": "Sporting",
+      "size": "large",
+      "popularity_rank": 3
+    },
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "group": "Herding",
+      "size": "large",
+      "popularity_rank": 4
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "group": "Non-Sporting",
+      "size": "medium",
+      "popularity_rank": 5
+    },
+    {
+      "name": "Bulldog",
+      "slug": "bulldog",
+      "group": "Non-Sporting",
+      "size": "medium",
+      "popularity_rank": 6
+    },
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "group": "Hound",
+      "size": "small",
+      "popularity_rank": 7
+    },
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "group": "Working",
+      "size": "large",
+      "popularity_rank": 8
+    },
+    {
+      "name": "German Shorthaired Pointer",
+      "slug": "german-shorthaired-pointer",
+      "group": "Sporting",
+      "size": "large",
+      "popularity_rank": 9
+    },
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "group": "Hound",
+      "size": "small",
+      "popularity_rank": 10
+    },
+    {
+      "name": "Pembroke Welsh Corgi",
+      "slug": "pembroke-welsh-corgi",
+      "group": "Herding",
+      "size": "small",
+      "popularity_rank": 11
+    },
+    {
+      "name": "Australian Shepherd",
+      "slug": "australian-shepherd",
+      "group": "Herding",
+      "size": "medium",
+      "popularity_rank": 12
+    },
+    {
+      "name": "Yorkshire Terrier",
+      "slug": "yorkshire-terrier",
+      "group": "Toy",
+      "size": "small",
+      "popularity_rank": 13
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "group": "Working",
+      "size": "large",
+      "popularity_rank": 14
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "group": "Working",
+      "size": "giant",
+      "popularity_rank": 15
+    },
+    {
+      "name": "Siberian Husky",
+      "slug": "siberian-husky",
+      "group": "Working",
+      "size": "medium",
+      "popularity_rank": 16
+    },
+    {
+      "name": "Cavalier King Charles Spaniel",
+      "slug": "cavalier-king-charles-spaniel",
+      "group": "Toy",
+      "size": "small",
+      "popularity_rank": 17
+    },
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "group": "Terrier",
+      "size": "small",
+      "popularity_rank": 18
+    },
+    {
+      "name": "Doberman Pinscher",
+      "slug": "doberman-pinscher",
+      "group": "Working",
+      "size": "large",
+      "popularity_rank": 19
+    },
+    {
+      "name": "Shih Tzu",
+      "slug": "shih-tzu",
+      "group": "Toy",
+      "size": "small",
+      "popularity_rank": 20
+    },
+    {
+      "name": "Boston Terrier",
+      "slug": "boston-terrier",
+      "group": "Non-Sporting",
+      "size": "small",
+      "popularity_rank": 21
+    },
+    {
+      "name": "Havanese",
+      "slug": "havanese",
+      "group": "Toy",
+      "size": "small",
+      "popularity_rank": 22
+    },
+    {
+      "name": "Shetland Sheepdog",
+      "slug": "shetland-sheepdog",
+      "group": "Herding",
+      "size": "small",
+      "popularity_rank": 23
+    },
+    {
+      "name": "Pug",
+      "slug": "pug",
+      "group": "Toy",
+      "size": "small",
+      "popularity_rank": 24
+    },
+    {
+      "name": "Border Collie",
+      "slug": "border-collie",
+      "group": "Herding",
+      "size": "medium",
+      "popularity_rank": 25
+    },
+    {
+      "name": "Maltese",
+      "slug": "maltese",
+      "group": "Toy",
+      "size": "small",
+      "popularity_rank": 26
+    },
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "group": "Sporting",
+      "size": "medium",
+      "popularity_rank": 27
+    },
+    {
+      "name": "Vizsla",
+      "slug": "vizsla",
+      "group": "Sporting",
+      "size": "medium",
+      "popularity_rank": 28
+    },
+    {
+      "name": "Bernese Mountain Dog",
+      "slug": "bernese-mountain-dog",
+      "group": "Working",
+      "size": "giant",
+      "popularity_rank": 29
+    },
+    {
+      "name": "English Springer Spaniel",
+      "slug": "english-springer-spaniel",
+      "group": "Sporting",
+      "size": "medium",
+      "popularity_rank": 30
+    },
+    {
+      "name": "Miniature American Shepherd",
+      "slug": "miniature-american-shepherd",
+      "group": "Herding",
+      "size": "small",
+      "popularity_rank": 31
+    },
+    {
+      "name": "Cane Corso",
+      "slug": "cane-corso",
+      "group": "Working",
+      "size": "giant",
+      "popularity_rank": 32
+    },
+    {
+      "name": "Bichon Frise",
+      "slug": "bichon-frise",
+      "group": "Non-Sporting",
+      "size": "small",
+      "popularity_rank": 33
+    },
+    {
+      "name": "German Wirehaired Pointer",
+      "slug": "german-wirehaired-pointer",
+      "group": "Sporting",
+      "size": "large",
+      "popularity_rank": 34
+    },
+    {
+      "name": "Alaskan Malamute",
+      "slug": "alaskan-malamute",
+      "group": "Working",
+      "size": "large",
+      "popularity_rank": 35
+    },
+    {
+      "name": "Weimaraner",
+      "slug": "weimaraner",
+      "group": "Sporting",
+      "size": "large",
+      "popularity_rank": 36
+    },
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "group": "Hound",
+      "size": "medium",
+      "popularity_rank": 37
+    },
+    {
+      "name": "Rhodesian Ridgeback",
+      "slug": "rhodesian-ridgeback",
+      "group": "Hound",
+      "size": "large",
+      "popularity_rank": 38
+    },
+    {
+      "name": "Shiba Inu",
+      "slug": "shiba-inu",
+      "group": "Non-Sporting",
+      "size": "small",
+      "popularity_rank": 39
+    },
+    {
+      "name": "West Highland White Terrier",
+      "slug": "west-highland-white-terrier",
+      "group": "Terrier",
+      "size": "small",
+      "popularity_rank": 40
+    },
+    {
+      "name": "Newfoundland",
+      "slug": "newfoundland",
+      "group": "Working",
+      "size": "giant",
+      "popularity_rank": 41
+    },
+    {
+      "name": "Belgian Malinois",
+      "slug": "belgian-malinois",
+      "group": "Herding",
+      "size": "large",
+      "popularity_rank": 42
+    },
+    {
+      "name": "Pomeranian",
+      "slug": "pomeranian",
+      "group": "Toy",
+      "size": "small",
+      "popularity_rank": 43
+    },
+    {
+      "name": "Bloodhound",
+      "slug": "bloodhound",
+      "group": "Hound",
+      "size": "large",
+      "popularity_rank": 44
+    },
+    {
+      "name": "Rough Collie",
+      "slug": "rough-collie",
+      "group": "Herding",
+      "size": "large",
+      "popularity_rank": 45
+    },
+    {
+      "name": "Mastiff",
+      "slug": "mastiff",
+      "group": "Working",
+      "size": "giant",
+      "popularity_rank": 46
+    },
+    {
+      "name": "Soft Coated Wheaten Terrier",
+      "slug": "soft-coated-wheaten-terrier",
+      "group": "Terrier",
+      "size": "medium",
+      "popularity_rank": 47
+    },
+    {
+      "name": "Brittany",
+      "slug": "brittany",
+      "group": "Sporting",
+      "size": "medium",
+      "popularity_rank": 48
+    },
+    {
+      "name": "English Cocker Spaniel",
+      "slug": "english-cocker-spaniel",
+      "group": "Sporting",
+      "size": "medium",
+      "popularity_rank": 49
+    },
+    {
+      "name": "Bullmastiff",
+      "slug": "bullmastiff",
+      "group": "Working",
+      "size": "giant",
+      "popularity_rank": 50
+    },
+    {
+      "name": "Saint Bernard",
+      "slug": "saint-bernard",
+      "group": "Working",
+      "size": "giant",
+      "popularity_rank": 51
+    },
+    {
+      "name": "Coton de Tulear",
+      "slug": "coton-de-tulear",
+      "group": "Non-Sporting",
+      "size": "small",
+      "popularity_rank": 52
+    },
+    {
+      "name": "Spitz (Finnish)",
+      "slug": "finnish-spitz",
+      "group": "Non-Sporting",
+      "size": "medium",
+      "popularity_rank": 53
+    },
+    {
+      "name": "Boykin Spaniel",
+      "slug": "boykin-spaniel",
+      "group": "Sporting",
+      "size": "medium",
+      "popularity_rank": 54
+    },
+    {
+      "name": "Keeshond",
+      "slug": "keeshond",
+      "group": "Non-Sporting",
+      "size": "medium",
+      "popularity_rank": 55
+    },
+    {
+      "name": "Chesapeake Bay Retriever",
+      "slug": "chesapeake-bay-retriever",
+      "group": "Sporting",
+      "size": "large",
+      "popularity_rank": 56
+    },
+    {
+      "name": "Shar Pei",
+      "slug": "shar-pei",
+      "group": "Non-Sporting",
+      "size": "medium",
+      "popularity_rank": 57
+    },
+    {
+      "name": "Portuguese Water Dog",
+      "slug": "portuguese-water-dog",
+      "group": "Working",
+      "size": "medium",
+      "popularity_rank": 58
+    },
+    {
+      "name": "Cairn Terrier",
+      "slug": "cairn-terrier",
+      "group": "Terrier",
+      "size": "small",
+      "popularity_rank": 59
+    },
+    {
+      "name": "Papillon",
+      "slug": "papillon",
+      "group": "Toy",
+      "size": "small",
+      "popularity_rank": 60
+    },
+    {
+      "name": "Akita",
+      "slug": "akita",
+      "group": "Working",
+      "size": "large",
+      "popularity_rank": 61
+    },
+    {
+      "name": "Scottish Terrier",
+      "slug": "scottish-terrier",
+      "group": "Terrier",
+      "size": "small",
+      "popularity_rank": 62
+    },
+    {
+      "name": "Whippet",
+      "slug": "whippet",
+      "group": "Hound",
+      "size": "medium",
+      "popularity_rank": 63
+    },
+    {
+      "name": "Samoyed",
+      "slug": "samoyed",
+      "group": "Working",
+      "size": "medium",
+      "popularity_rank": 64
+    },
+    {
+      "name": "Chinese Shar Pei (Standard)",
+      "slug": "chinese-shar-pei",
+      "group": "Non-Sporting",
+      "size": "medium",
+      "popularity_rank": 65
+    },
+    {
+      "name": "Flat-Coated Retriever",
+      "slug": "flat-coated-retriever",
+      "group": "Sporting",
+      "size": "large",
+      "popularity_rank": 66
+    },
+    {
+      "name": "Borzoi",
+      "slug": "borzoi",
+      "group": "Hound",
+      "size": "large",
+      "popularity_rank": 67
+    },
+    {
+      "name": "Miniature Pinscher",
+      "slug": "miniature-pinscher",
+      "group": "Toy",
+      "size": "small",
+      "popularity_rank": 68
+    },
+    {
+      "name": "Plott Hound",
+      "slug": "plott-hound",
+      "group": "Hound",
+      "size": "medium",
+      "popularity_rank": 69
+    },
+    {
+      "name": "Basenji",
+      "slug": "basenji",
+      "group": "Hound",
+      "size": "small",
+      "popularity_rank": 70
+    },
+    {
+      "name": "Bouvier des Flandres",
+      "slug": "bouvier-des-flandres",
+      "group": "Herding",
+      "size": "large",
+      "popularity_rank": 71
+    },
+    {
+      "name": "Saluki",
+      "slug": "saluki",
+      "group": "Hound",
+      "size": "medium",
+      "popularity_rank": 72
+    },
+    {
+      "name": "American Staffordshire Terrier",
+      "slug": "american-staffordshire-terrier",
+      "group": "Terrier",
+      "size": "medium",
+      "popularity_rank": 73
+    },
+    {
+      "name": "Irish Setter",
+      "slug": "irish-setter",
+      "group": "Sporting",
+      "size": "large",
+      "popularity_rank": 74
+    },
+    {
+      "name": "Norwegian Elkhound",
+      "slug": "norwegian-elkhound",
+      "group": "Hound",
+      "size": "medium",
+      "popularity_rank": 75
+    },
+    {
+      "name": "Tibetan Mastiff",
+      "slug": "tibetan-mastiff",
+      "group": "Working",
+      "size": "giant",
+      "popularity_rank": 76
+    },
+    {
+      "name": "Bull Terrier",
+      "slug": "bull-terrier",
+      "group": "Terrier",
+      "size": "medium",
+      "popularity_rank": 77
+    },
+    {
+      "name": "Anatolian Shepherd Dog",
+      "slug": "anatolian-shepherd-dog",
+      "group": "Working",
+      "size": "giant",
+      "popularity_rank": 78
+    },
+    {
+      "name": "Standard Schnauzer",
+      "slug": "standard-schnauzer",
+      "group": "Working",
+      "size": "medium",
+      "popularity_rank": 79
+    },
+    {
+      "name": "Leonberger",
+      "slug": "leonberger",
+      "group": "Working",
+      "size": "giant",
+      "popularity_rank": 80
+    },
+    {
+      "name": "Neapolitan Mastiff",
+      "slug": "neapolitan-mastiff",
+      "group": "Working",
+      "size": "giant",
+      "popularity_rank": 81
+    },
+    {
+      "name": "Irish Wolfhound",
+      "slug": "irish-wolfhound",
+      "group": "Hound",
+      "size": "giant",
+      "popularity_rank": 82
+    },
+    {
+      "name": "Greater Swiss Mountain Dog",
+      "slug": "greater-swiss-mountain-dog",
+      "group": "Working",
+      "size": "giant",
+      "popularity_rank": 83
+    },
+    {
+      "name": "Xoloitzcuintli",
+      "slug": "xoloitzcuintli",
+      "group": "Non-Sporting",
+      "size": "small",
+      "popularity_rank": 84
+    },
+    {
+      "name": "American Eskimo Dog",
+      "slug": "american-eskimo-dog",
+      "group": "Non-Sporting",
+      "size": "small",
+      "popularity_rank": 85
+    },
+    {
+      "name": "English Setter",
+      "slug": "english-setter",
+      "group": "Sporting",
+      "size": "large",
+      "popularity_rank": 86
+    },
+    {
+      "name": "Belgian Tervuren",
+      "slug": "belgian-tervuren",
+      "group": "Herding",
+      "size": "large",
+      "popularity_rank": 87
+    },
+    {
+      "name": "Bearded Collie",
+      "slug": "bearded-collie",
+      "group": "Herding",
+      "size": "medium",
+      "popularity_rank": 88
+    },
+    {
+      "name": "Airedale Terrier",
+      "slug": "airedale-terrier",
+      "group": "Terrier",
+      "size": "large",
+      "popularity_rank": 89
+    },
+    {
+      "name": "Black and Tan Coonhound",
+      "slug": "black-and-tan-coonhound",
+      "group": "Hound",
+      "size": "large",
+      "popularity_rank": 90
+    },
+    {
+      "name": "Spinone Italiano",
+      "slug": "spinone-italiano",
+      "group": "Sporting",
+      "size": "large",
+      "popularity_rank": 91
+    },
+    {
+      "name": "Cardigan Welsh Corgi",
+      "slug": "cardigan-welsh-corgi",
+      "group": "Herding",
+      "size": "small",
+      "popularity_rank": 92
+    },
+    {
+      "name": "Italian Greyhound",
+      "slug": "italian-greyhound",
+      "group": "Toy",
+      "size": "small",
+      "popularity_rank": 93
+    },
+    {
+      "name": "Icelandic Sheepdog",
+      "slug": "icelandic-sheepdog",
+      "group": "Herding",
+      "size": "medium",
+      "popularity_rank": 94
+    },
+    {
+      "name": "Treeing Walker Coonhound",
+      "slug": "treeing-walker-coonhound",
+      "group": "Hound",
+      "size": "large",
+      "popularity_rank": 95
+    },
+    {
+      "name": "Pharaoh Hound",
+      "slug": "pharaoh-hound",
+      "group": "Hound",
+      "size": "medium",
+      "popularity_rank": 96
+    },
+    {
+      "name": "Estrela Mountain Dog",
+      "slug": "estrela-mountain-dog",
+      "group": "Working",
+      "size": "giant",
+      "popularity_rank": 97
+    },
+    {
+      "name": "Giant Schnauzer",
+      "slug": "giant-schnauzer",
+      "group": "Working",
+      "size": "large",
+      "popularity_rank": 98
+    },
+    {
+      "name": "Entlebucher Mountain Dog",
+      "slug": "entlebucher-mountain-dog",
+      "group": "Herding",
+      "size": "medium",
+      "popularity_rank": 99
+    },
+    {
+      "name": "Pekingese",
+      "slug": "pekingese",
+      "group": "Toy",
+      "size": "small",
+      "popularity_rank": 100
+    },
+    {
+      "name": "Chow Chow",
+      "slug": "chow-chow",
+      "group": "Non-Sporting",
+      "size": "medium",
+      "popularity_rank": 101
+    },
+    {
+      "name": "Rat Terrier",
+      "slug": "rat-terrier",
+      "group": "Terrier",
+      "size": "small",
+      "popularity_rank": 102
+    },
+    {
+      "name": "Russell Terrier",
+      "slug": "russell-terrier",
+      "group": "Terrier",
+      "size": "small",
+      "popularity_rank": 103
+    },
+    {
+      "name": "Chinese Crested",
+      "slug": "chinese-crested",
+      "group": "Toy",
+      "size": "small",
+      "popularity_rank": 104
+    },
+    {
+      "name": "Miniature Bull Terrier",
+      "slug": "miniature-bull-terrier",
+      "group": "Terrier",
+      "size": "small",
+      "popularity_rank": 105
+    },
+    {
+      "name": "Lagotto Romagnolo",
+      "slug": "lagotto-romagnolo",
+      "group": "Sporting",
+      "size": "medium",
+      "popularity_rank": 106
+    },
+    {
+      "name": "Old English Sheepdog",
+      "slug": "old-english-sheepdog",
+      "group": "Herding",
+      "size": "large",
+      "popularity_rank": 107
+    },
+    {
+      "name": "Great Pyrenees",
+      "slug": "great-pyrenees",
+      "group": "Working",
+      "size": "giant",
+      "popularity_rank": 108
+    },
+    {
+      "name": "Alaskan Klee Kai",
+      "slug": "alaskan-klee-kai",
+      "group": "Non-Sporting",
+      "size": "small",
+      "popularity_rank": 109
+    },
+    {
+      "name": "Tibetan Terrier",
+      "slug": "tibetan-terrier",
+      "group": "Non-Sporting",
+      "size": "medium",
+      "popularity_rank": 110
+    },
+    {
+      "name": "Redbone Coonhound",
+      "slug": "redbone-coonhound",
+      "group": "Hound",
+      "size": "medium",
+      "popularity_rank": 111
+    },
+    {
+      "name": "Brussels Griffon",
+      "slug": "brussels-griffon",
+      "group": "Toy",
+      "size": "small",
+      "popularity_rank": 112
+    },
+    {
+      "name": "Cirneco dell'Etna",
+      "slug": "cirneco-delletna",
+      "group": "Hound",
+      "size": "medium",
+      "popularity_rank": 113
+    },
+    {
+      "name": "Black Russian Terrier",
+      "slug": "black-russian-terrier",
+      "group": "Working",
+      "size": "giant",
+      "popularity_rank": 114
+    },
+    {
+      "name": "Harrier",
+      "slug": "harrier",
+      "group": "Hound",
+      "size": "medium",
+      "popularity_rank": 115
+    },
+    {
+      "name": "Belgian Laekenois",
+      "slug": "belgian-laekenois",
+      "group": "Herding",
+      "size": "medium",
+      "popularity_rank": 116
+    },
+    {
+      "name": "Ibizan Hound",
+      "slug": "ibizan-hound",
+      "group": "Hound",
+      "size": "medium",
+      "popularity_rank": 117
+    },
+    {
+      "name": "American Water Spaniel",
+      "slug": "american-water-spaniel",
+      "group": "Sporting",
+      "size": "medium",
+      "popularity_rank": 118
+    },
+    {
+      "name": "Cesky Terrier",
+      "slug": "cesky-terrier",
+      "group": "Terrier",
+      "size": "small",
+      "popularity_rank": 119
+    },
+    {
+      "name": "Curly-Coated Retriever",
+      "slug": "curly-coated-retriever",
+      "group": "Sporting",
+      "size": "large",
+      "popularity_rank": 120
+    },
+    {
+      "name": "Glen of Imaal Terrier",
+      "slug": "glen-of-imaal-terrier",
+      "group": "Terrier",
+      "size": "small",
+      "popularity_rank": 121
+    },
+    {
+      "name": "Kerry Blue Terrier",
+      "slug": "kerry-blue-terrier",
+      "group": "Terrier",
+      "size": "medium",
+      "popularity_rank": 122
+    },
+    {
+      "name": "Otterhound",
+      "slug": "otterhound",
+      "group": "Hound",
+      "size": "large",
+      "popularity_rank": 123
+    },
+    {
+      "name": "Swedish Vallhund",
+      "slug": "swedish-vallhund",
+      "group": "Herding",
+      "size": "small",
+      "popularity_rank": 124
+    },
+    {
+      "name": "Canaan Dog",
+      "slug": "canaan-dog",
+      "group": "Herding",
+      "size": "medium",
+      "popularity_rank": 125
+    },
+    {
+      "name": "Berger Picard",
+      "slug": "berger-picard",
+      "group": "Herding",
+      "size": "large",
+      "popularity_rank": 126
+    },
+    {
+      "name": "Treeing Tennessee Brindle",
+      "slug": "treeing-tennessee-brindle",
+      "group": "Hound",
+      "size": "medium",
+      "popularity_rank": 127
+    },
+    {
+      "name": "Dutch Shepherd",
+      "slug": "dutch-shepherd",
+      "group": "Herding",
+      "size": "medium",
+      "popularity_rank": 128
+    },
+    {
+      "name": "Tibetan Spaniel",
+      "slug": "tibetan-spaniel",
+      "group": "Non-Sporting",
+      "size": "small",
+      "popularity_rank": 129
+    },
+    {
+      "name": "Polish Lowland Sheepdog",
+      "slug": "polish-lowland-sheepdog",
+      "group": "Herding",
+      "size": "medium",
+      "popularity_rank": 130
+    },
+    {
+      "name": "Wirehaired Pointing Griffon",
+      "slug": "wirehaired-pointing-griffon",
+      "group": "Sporting",
+      "size": "medium",
+      "popularity_rank": 131
+    },
+    {
+      "name": "Nova Scotia Duck Tolling Retriever",
+      "slug": "nova-scotia-duck-tolling-retriever",
+      "group": "Sporting",
+      "size": "medium",
+      "popularity_rank": 132
+    },
+    {
+      "name": "Manchester Terrier",
+      "slug": "manchester-terrier",
+      "group": "Terrier",
+      "size": "small",
+      "popularity_rank": 133
+    },
+    {
+      "name": "Spanish Water Dog",
+      "slug": "spanish-water-dog",
+      "group": "Herding",
+      "size": "medium",
+      "popularity_rank": 134
+    },
+    {
+      "name": "Clumber Spaniel",
+      "slug": "clumber-spaniel",
+      "group": "Sporting",
+      "size": "large",
+      "popularity_rank": 135
+    },
+    {
+      "name": "Bedlington Terrier",
+      "slug": "bedlington-terrier",
+      "group": "Terrier",
+      "size": "medium",
+      "popularity_rank": 136
+    },
+    {
+      "name": "Field Spaniel",
+      "slug": "field-spaniel",
+      "group": "Sporting",
+      "size": "medium",
+      "popularity_rank": 137
+    },
+    {
+      "name": "Irish Red and White Setter",
+      "slug": "irish-red-and-white-setter",
+      "group": "Sporting",
+      "size": "large",
+      "popularity_rank": 138
+    },
+    {
+      "name": "Löwchen",
+      "slug": "lowchen",
+      "group": "Non-Sporting",
+      "size": "small",
+      "popularity_rank": 139
+    },
+    {
+      "name": "Nederlandse Kooikerhondje",
+      "slug": "nederlandse-kooikerhondje",
+      "group": "Sporting",
+      "size": "small",
+      "popularity_rank": 140
+    },
+    {
+      "name": "American Foxhound",
+      "slug": "american-foxhound",
+      "group": "Hound",
+      "size": "large",
+      "popularity_rank": 141
+    },
+    {
+      "name": "Kuvasz",
+      "slug": "kuvasz",
+      "group": "Working",
+      "size": "large",
+      "popularity_rank": 142
+    },
+    {
+      "name": "Bluetick Coonhound",
+      "slug": "bluetick-coonhound",
+      "group": "Hound",
+      "size": "large",
+      "popularity_rank": 143
+    },
+    {
+      "name": "American English Coonhound",
+      "slug": "american-english-coonhound",
+      "group": "Hound",
+      "size": "large",
+      "popularity_rank": 144
+    },
+    {
+      "name": "English Foxhound",
+      "slug": "english-foxhound",
+      "group": "Hound",
+      "size": "large",
+      "popularity_rank": 145
+    },
+    {
+      "name": "Sussex Spaniel",
+      "slug": "sussex-spaniel",
+      "group": "Sporting",
+      "size": "medium",
+      "popularity_rank": 146
+    },
+    {
+      "name": "Finnish Lapphund",
+      "slug": "finnish-lapphund",
+      "group": "Herding",
+      "size": "medium",
+      "popularity_rank": 147
+    },
+    {
+      "name": "Azawakh",
+      "slug": "azawakh",
+      "group": "Hound",
+      "size": "large",
+      "popularity_rank": 148
+    },
+    {
+      "name": "Sloughi",
+      "slug": "sloughi",
+      "group": "Hound",
+      "size": "large",
+      "popularity_rank": 149
+    },
+    {
+      "name": "Bergamasco Sheepdog",
+      "slug": "bergamasco-sheepdog",
+      "group": "Herding",
+      "size": "large",
+      "popularity_rank": 150
+    },
+    {
+      "name": "Komondor",
+      "slug": "komondor",
+      "group": "Working",
+      "size": "giant",
+      "popularity_rank": 151
+    },
+    {
+      "name": "Puli",
+      "slug": "puli",
+      "group": "Herding",
+      "size": "medium",
+      "popularity_rank": 152
+    },
+    {
+      "name": "Pumi",
+      "slug": "pumi",
+      "group": "Herding",
+      "size": "medium",
+      "popularity_rank": 153
+    },
+    {
+      "name": "Mudi",
+      "slug": "mudi",
+      "group": "Herding",
+      "size": "medium",
+      "popularity_rank": 154
+    },
+    {
+      "name": "Schipperke",
+      "slug": "schipperke",
+      "group": "Non-Sporting",
+      "size": "small",
+      "popularity_rank": 155
+    },
+    {
+      "name": "Norwegian Buhund",
+      "slug": "norwegian-buhund",
+      "group": "Herding",
+      "size": "medium",
+      "popularity_rank": 156
+    },
+    {
+      "name": "Bracco Italiano",
+      "slug": "bracco-italiano",
+      "group": "Sporting",
+      "size": "large",
+      "popularity_rank": 157
+    },
+    {
+      "name": "Stabyhoun",
+      "slug": "stabyhoun",
+      "group": "Sporting",
+      "size": "medium",
+      "popularity_rank": 158
+    },
+    {
+      "name": "Drentsche Patrijshond",
+      "slug": "drentsche-patrijshond",
+      "group": "Sporting",
+      "size": "medium",
+      "popularity_rank": 159
+    },
+    {
+      "name": "Grand Basset Griffon Vendéen",
+      "slug": "grand-basset-griffon-vendeen",
+      "group": "Hound",
+      "size": "medium",
+      "popularity_rank": 160
+    },
+    {
+      "name": "Petit Basset Griffon Vendéen",
+      "slug": "petit-basset-griffon-vendeen",
+      "group": "Hound",
+      "size": "small",
+      "popularity_rank": 161
+    },
+    {
+      "name": "Skye Terrier",
+      "slug": "skye-terrier",
+      "group": "Terrier",
+      "size": "small",
+      "popularity_rank": 162
+    },
+    {
+      "name": "Norwegian Lundehund",
+      "slug": "norwegian-lundehund",
+      "group": "Non-Sporting",
+      "size": "small",
+      "popularity_rank": 163
+    },
+    {
+      "name": "Pyrenean Shepherd",
+      "slug": "pyrenean-shepherd",
+      "group": "Herding",
+      "size": "small",
+      "popularity_rank": 164
+    },
+    {
+      "name": "Thai Ridgeback",
+      "slug": "thai-ridgeback",
+      "group": "Hound",
+      "size": "medium",
+      "popularity_rank": 165
+    },
+    {
+      "name": "Perro de Presa Canario",
+      "slug": "perro-de-presa-canario",
+      "group": "Working",
+      "size": "large",
+      "popularity_rank": 166
+    },
+    {
+      "name": "Portuguese Podengo Pequeno",
+      "slug": "portuguese-podengo-pequeno",
+      "group": "Hound",
+      "size": "small",
+      "popularity_rank": 167
+    },
+    {
+      "name": "Peruvian Inca Orchid",
+      "slug": "peruvian-inca-orchid",
+      "group": "Hound",
+      "size": "medium",
+      "popularity_rank": 168
+    },
+    {
+      "name": "Afghan Hound",
+      "slug": "afghan-hound",
+      "group": "Hound",
+      "size": "large",
+      "popularity_rank": 169
+    },
+    {
+      "name": "Scottish Deerhound",
+      "slug": "scottish-deerhound",
+      "group": "Hound",
+      "size": "giant",
+      "popularity_rank": 170
+    },
+    {
+      "name": "Spanish Greyhound",
+      "slug": "spanish-greyhound",
+      "group": "Hound",
+      "size": "large",
+      "popularity_rank": 171
+    },
+    {
+      "name": "Magyar Agar",
+      "slug": "magyar-agar",
+      "group": "Hound",
+      "size": "large",
+      "popularity_rank": 172
+    },
+    {
+      "name": "Wetterhoun",
+      "slug": "wetterhoun",
+      "group": "Sporting",
+      "size": "medium",
+      "popularity_rank": 173
+    },
+    {
+      "name": "Small Munsterlander",
+      "slug": "small-munsterlander",
+      "group": "Sporting",
+      "size": "medium",
+      "popularity_rank": 174
+    },
+    {
+      "name": "German Longhaired Pointer",
+      "slug": "german-longhaired-pointer",
+      "group": "Sporting",
+      "size": "large",
+      "popularity_rank": 175
+    },
+    {
+      "name": "Pudelpointer",
+      "slug": "pudelpointer",
+      "group": "Sporting",
+      "size": "large",
+      "popularity_rank": 176
+    },
+    {
+      "name": "Bohemian Wire-haired Pointing Griffon",
+      "slug": "bohemian-wire-haired-pointing-griffon",
+      "group": "Sporting",
+      "size": "medium",
+      "popularity_rank": 177
+    },
+    {
+      "name": "Segugio Italiano",
+      "slug": "segugio-italiano",
+      "group": "Hound",
+      "size": "medium",
+      "popularity_rank": 178
+    },
+    {
+      "name": "Porcelaine",
+      "slug": "porcelaine",
+      "group": "Hound",
+      "size": "medium",
+      "popularity_rank": 179
+    },
+    {
+      "name": "Griffon Nivernais",
+      "slug": "griffon-nivernais",
+      "group": "Hound",
+      "size": "large",
+      "popularity_rank": 180
+    },
+    {
+      "name": "Hamiltonstovare",
+      "slug": "hamiltonstovare",
+      "group": "Hound",
+      "size": "large",
+      "popularity_rank": 181
+    },
+    {
+      "name": "Drever",
+      "slug": "drever",
+      "group": "Hound",
+      "size": "small",
+      "popularity_rank": 182
+    },
+    {
+      "name": "Finnish Hound",
+      "slug": "finnish-hound",
+      "group": "Hound",
+      "size": "medium",
+      "popularity_rank": 183
+    },
+    {
+      "name": "Black Norwegian Elkhound",
+      "slug": "black-norwegian-elkhound",
+      "group": "Hound",
+      "size": "medium",
+      "popularity_rank": 184
+    },
+    {
+      "name": "Karelian Bear Dog",
+      "slug": "karelian-bear-dog",
+      "group": "Working",
+      "size": "medium",
+      "popularity_rank": 185
+    },
+    {
+      "name": "Lapponian Herder",
+      "slug": "lapponian-herder",
+      "group": "Herding",
+      "size": "medium",
+      "popularity_rank": 186
+    },
+    {
+      "name": "Swedish Lapphund",
+      "slug": "swedish-lapphund",
+      "group": "Herding",
+      "size": "medium",
+      "popularity_rank": 187
+    },
+    {
+      "name": "Jämthund",
+      "slug": "jamthund",
+      "group": "Hound",
+      "size": "large",
+      "popularity_rank": 188
+    },
+    {
+      "name": "East Siberian Laika",
+      "slug": "east-siberian-laika",
+      "group": "Working",
+      "size": "large",
+      "popularity_rank": 189
+    },
+    {
+      "name": "West Siberian Laika",
+      "slug": "west-siberian-laika",
+      "group": "Working",
+      "size": "large",
+      "popularity_rank": 190
+    },
+    {
+      "name": "Russo-European Laika",
+      "slug": "russo-european-laika",
+      "group": "Working",
+      "size": "medium",
+      "popularity_rank": 191
+    },
+    {
+      "name": "Yakutian Laika",
+      "slug": "yakutian-laika",
+      "group": "Working",
+      "size": "medium",
+      "popularity_rank": 192
+    },
+    {
+      "name": "Appenzeller Sennenhund",
+      "slug": "appenzeller-sennenhund",
+      "group": "Working",
+      "size": "medium",
+      "popularity_rank": 193
+    },
+    {
+      "name": "Hovawart",
+      "slug": "hovawart",
+      "group": "Working",
+      "size": "large",
+      "popularity_rank": 194
+    },
+    {
+      "name": "Eurasier",
+      "slug": "eurasier",
+      "group": "Non-Sporting",
+      "size": "medium",
+      "popularity_rank": 195
+    },
+    {
+      "name": "Volpino Italiano",
+      "slug": "volpino-italiano",
+      "group": "Non-Sporting",
+      "size": "small",
+      "popularity_rank": 196
+    },
+    {
+      "name": "German Spitz",
+      "slug": "german-spitz",
+      "group": "Non-Sporting",
+      "size": "small",
+      "popularity_rank": 197
+    },
+    {
+      "name": "Japanese Spitz",
+      "slug": "japanese-spitz",
+      "group": "Non-Sporting",
+      "size": "small",
+      "popularity_rank": 198
+    },
+    {
+      "name": "Hokkaido",
+      "slug": "hokkaido",
+      "group": "Working",
+      "size": "medium",
+      "popularity_rank": 199
+    },
+    {
+      "name": "Kai Ken",
+      "slug": "kai-ken",
+      "group": "Hound",
+      "size": "medium",
+      "popularity_rank": 200
+    },
+    {
+      "name": "Kishu Ken",
+      "slug": "kishu-ken",
+      "group": "Working",
+      "size": "medium",
+      "popularity_rank": 201
+    },
+    {
+      "name": "Shikoku",
+      "slug": "shikoku",
+      "group": "Working",
+      "size": "medium",
+      "popularity_rank": 202
+    },
+    {
+      "name": "Ryukyu Inu",
+      "slug": "ryukyu-inu",
+      "group": "Foundation Stock Service",
+      "size": "medium",
+      "popularity_rank": 203
+    },
+    {
+      "name": "Jindo",
+      "slug": "jindo",
+      "group": "Non-Sporting",
+      "size": "medium",
+      "popularity_rank": 204
+    },
+    {
+      "name": "Pungsan Dog",
+      "slug": "pungsan-dog",
+      "group": "Foundation Stock Service",
+      "size": "medium",
+      "popularity_rank": 205
+    },
+    {
+      "name": "Taiwan Dog",
+      "slug": "taiwan-dog",
+      "group": "Hound",
+      "size": "medium",
+      "popularity_rank": 206
+    },
+    {
+      "name": "Indian Pariah Dog",
+      "slug": "indian-pariah-dog",
+      "group": "Foundation Stock Service",
+      "size": "medium",
+      "popularity_rank": 207
+    },
+    {
+      "name": "Telomian",
+      "slug": "telomian",
+      "group": "Foundation Stock Service",
+      "size": "small",
+      "popularity_rank": 208
+    },
+    {
+      "name": "Carolina Dog",
+      "slug": "carolina-dog",
+      "group": "Hound",
+      "size": "medium",
+      "popularity_rank": 209
+    },
+    {
+      "name": "New Guinea Singing Dog",
+      "slug": "new-guinea-singing-dog",
+      "group": "Foundation Stock Service",
+      "size": "small",
+      "popularity_rank": 210
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "severity": "high"
+    },
+    {
+      "name": "Elbow Dysplasia",
+      "slug": "elbow-dysplasia",
+      "category": "Orthopedic",
+      "severity": "high"
+    },
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "severity": "medium"
+    },
+    {
+      "name": "Intervertebral Disc Disease (IVDD)",
+      "slug": "intervertebral-disc-disease",
+      "category": "Orthopedic",
+      "severity": "high"
+    },
+    {
+      "name": "Cranial Cruciate Ligament Rupture",
+      "slug": "cranial-cruciate-ligament-rupture",
+      "category": "Orthopedic",
+      "severity": "high"
+    },
+    {
+      "name": "Osteochondritis Dissecans (OCD)",
+      "slug": "osteochondritis-dissecans",
+      "category": "Orthopedic",
+      "severity": "medium"
+    },
+    {
+      "name": "Legg-Calvé-Perthes Disease",
+      "slug": "legg-calve-perthes-disease",
+      "category": "Orthopedic",
+      "severity": "high"
+    },
+    {
+      "name": "Hypertrophic Osteodystrophy (HOD)",
+      "slug": "hypertrophic-osteodystrophy",
+      "category": "Orthopedic",
+      "severity": "high"
+    },
+    {
+      "name": "Dilated Cardiomyopathy (DCM)",
+      "slug": "dilated-cardiomyopathy",
+      "category": "Cardiac",
+      "severity": "high"
+    },
+    {
+      "name": "Mitral Valve Disease (MVD)",
+      "slug": "mitral-valve-disease",
+      "category": "Cardiac",
+      "severity": "high"
+    },
+    {
+      "name": "Subaortic Stenosis (SAS)",
+      "slug": "subaortic-stenosis",
+      "category": "Cardiac",
+      "severity": "high"
+    },
+    {
+      "name": "Pulmonic Stenosis",
+      "slug": "pulmonic-stenosis",
+      "category": "Cardiac",
+      "severity": "medium"
+    },
+    {
+      "name": "Patent Ductus Arteriosus (PDA)",
+      "slug": "patent-ductus-arteriosus",
+      "category": "Cardiac",
+      "severity": "high"
+    },
+    {
+      "name": "Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)",
+      "slug": "arrhythmogenic-right-ventricular-cardiomyopathy",
+      "category": "Cardiac",
+      "severity": "high"
+    },
+    {
+      "name": "Progressive Retinal Atrophy (PRA)",
+      "slug": "progressive-retinal-atrophy",
+      "category": "Eye",
+      "severity": "high"
+    },
+    {
+      "name": "Hereditary Cataracts",
+      "slug": "hereditary-cataracts",
+      "category": "Eye",
+      "severity": "medium"
+    },
+    {
+      "name": "Cherry Eye (Prolapsed Nictitating Membrane Gland)",
+      "slug": "cherry-eye",
+      "category": "Eye",
+      "severity": "low"
+    },
+    {
+      "name": "Entropion",
+      "slug": "entropion",
+      "category": "Eye",
+      "severity": "medium"
+    },
+    {
+      "name": "Ectropion",
+      "slug": "ectropion",
+      "category": "Eye",
+      "severity": "low"
+    },
+    {
+      "name": "Glaucoma",
+      "slug": "glaucoma",
+      "category": "Eye",
+      "severity": "high"
+    },
+    {
+      "name": "Keratoconjunctivitis Sicca (Dry Eye)",
+      "slug": "keratoconjunctivitis-sicca",
+      "category": "Eye",
+      "severity": "medium"
+    },
+    {
+      "name": "Lens Luxation",
+      "slug": "lens-luxation",
+      "category": "Eye",
+      "severity": "high"
+    },
+    {
+      "name": "Brachycephalic Obstructive Airway Syndrome (BOAS)",
+      "slug": "brachycephalic-obstructive-airway-syndrome",
+      "category": "Respiratory",
+      "severity": "high"
+    },
+    {
+      "name": "Tracheal Collapse",
+      "slug": "tracheal-collapse",
+      "category": "Respiratory",
+      "severity": "medium"
+    },
+    {
+      "name": "Laryngeal Paralysis",
+      "slug": "laryngeal-paralysis",
+      "category": "Respiratory",
+      "severity": "high"
+    },
+    {
+      "name": "Aspiration Pneumonia",
+      "slug": "aspiration-pneumonia",
+      "category": "Respiratory",
+      "severity": "high"
+    },
+    {
+      "name": "Lymphoma",
+      "slug": "lymphoma",
+      "category": "Cancer",
+      "severity": "high"
+    },
+    {
+      "name": "Hemangiosarcoma",
+      "slug": "hemangiosarcoma",
+      "category": "Cancer",
+      "severity": "high"
+    },
+    {
+      "name": "Mast Cell Tumour",
+      "slug": "mast-cell-tumour",
+      "category": "Cancer",
+      "severity": "medium"
+    },
+    {
+      "name": "Osteosarcoma",
+      "slug": "osteosarcoma",
+      "category": "Cancer",
+      "severity": "high"
+    },
+    {
+      "name": "Oral Melanoma",
+      "slug": "oral-melanoma",
+      "category": "Cancer",
+      "severity": "high"
+    },
+    {
+      "name": "Hypothyroidism",
+      "slug": "hypothyroidism",
+      "category": "Endocrine",
+      "severity": "low"
+    },
+    {
+      "name": "Cushing's Disease (Hyperadrenocorticism)",
+      "slug": "cushings-disease",
+      "category": "Endocrine",
+      "severity": "medium"
+    },
+    {
+      "name": "Addison's Disease (Hypoadrenocorticism)",
+      "slug": "addisons-disease",
+      "category": "Endocrine",
+      "severity": "high"
+    },
+    {
+      "name": "Diabetes Mellitus",
+      "slug": "diabetes-mellitus",
+      "category": "Endocrine",
+      "severity": "high"
+    },
+    {
+      "name": "Epilepsy",
+      "slug": "epilepsy",
+      "category": "Neurological",
+      "severity": "medium"
+    },
+    {
+      "name": "Degenerative Myelopathy (DM)",
+      "slug": "degenerative-myelopathy",
+      "category": "Neurological",
+      "severity": "high"
+    },
+    {
+      "name": "Syringomyelia and Chiari-Like Malformation",
+      "slug": "syringomyelia-chiari-like-malformation",
+      "category": "Neurological",
+      "severity": "high"
+    },
+    {
+      "name": "Wobbler Syndrome (Cervical Spondylomyelopathy)",
+      "slug": "wobbler-syndrome",
+      "category": "Neurological",
+      "severity": "high"
+    },
+    {
+      "name": "Fibrocartilaginous Embolism (FCE)",
+      "slug": "fibrocartilaginous-embolism",
+      "category": "Neurological",
+      "severity": "high"
+    },
+    {
+      "name": "Atopic Dermatitis (Skin Allergies)",
+      "slug": "atopic-dermatitis",
+      "category": "Dermatological",
+      "severity": "medium"
+    },
+    {
+      "name": "Demodex (Demodicosis)",
+      "slug": "demodicosis",
+      "category": "Dermatological",
+      "severity": "medium"
+    },
+    {
+      "name": "Hot Spots (Acute Moist Dermatitis)",
+      "slug": "hot-spots",
+      "category": "Dermatological",
+      "severity": "low"
+    },
+    {
+      "name": "Sebaceous Adenitis",
+      "slug": "sebaceous-adenitis",
+      "category": "Dermatological",
+      "severity": "medium"
+    },
+    {
+      "name": "Colour Dilution Alopecia",
+      "slug": "colour-dilution-alopecia",
+      "category": "Dermatological",
+      "severity": "low"
+    },
+    {
+      "name": "Gastric Dilatation-Volvulus (GDV / Bloat)",
+      "slug": "gastric-dilatation-volvulus",
+      "category": "Gastrointestinal",
+      "severity": "high"
+    },
+    {
+      "name": "Inflammatory Bowel Disease (IBD)",
+      "slug": "inflammatory-bowel-disease",
+      "category": "Gastrointestinal",
+      "severity": "medium"
+    },
+    {
+      "name": "Pancreatitis",
+      "slug": "pancreatitis",
+      "category": "Gastrointestinal",
+      "severity": "medium"
+    },
+    {
+      "name": "Megaoesophagus",
+      "slug": "megaoesophagus",
+      "category": "Gastrointestinal",
+      "severity": "high"
+    },
+    {
+      "name": "Exocrine Pancreatic Insufficiency (EPI)",
+      "slug": "exocrine-pancreatic-insufficiency",
+      "category": "Gastrointestinal",
+      "severity": "medium"
+    },
+    {
+      "name": "Immune-Mediated Haemolytic Anaemia (IMHA)",
+      "slug": "immune-mediated-haemolytic-anaemia",
+      "category": "Autoimmune",
+      "severity": "high"
+    },
+    {
+      "name": "Systemic Lupus Erythematosus (SLE)",
+      "slug": "systemic-lupus-erythematosus",
+      "category": "Autoimmune",
+      "severity": "high"
+    },
+    {
+      "name": "Pemphigus Foliaceus",
+      "slug": "pemphigus-foliaceus",
+      "category": "Autoimmune",
+      "severity": "medium"
+    },
+    {
+      "name": "Urinary Bladder Stones (Urolithiasis)",
+      "slug": "urinary-bladder-stones",
+      "category": "Urinary",
+      "severity": "medium"
+    },
+    {
+      "name": "Chronic Kidney Disease (CKD)",
+      "slug": "chronic-kidney-disease",
+      "category": "Urinary",
+      "severity": "high"
+    },
+    {
+      "name": "Ectopic Ureters",
+      "slug": "ectopic-ureters",
+      "category": "Urinary",
+      "severity": "medium"
+    },
+    {
+      "name": "Periodontal Disease",
+      "slug": "periodontal-disease",
+      "category": "Dental",
+      "severity": "medium"
+    },
+    {
+      "name": "Retained Deciduous Teeth",
+      "slug": "retained-deciduous-teeth",
+      "category": "Dental",
+      "severity": "low"
+    },
+    {
+      "name": "Otitis Externa (Ear Infections)",
+      "slug": "otitis-externa",
+      "category": "Ear",
+      "severity": "low"
+    },
+    {
+      "name": "Congenital Deafness",
+      "slug": "congenital-deafness",
+      "category": "Ear",
+      "severity": "medium"
+    },
+    {
+      "name": "Von Willebrand Disease",
+      "slug": "von-willebrand-disease",
+      "category": "Autoimmune",
+      "severity": "medium"
+    },
+    {
+      "name": "Canine Hip Scoring (BVA/KC)",
+      "slug": "hip-scoring-bva-kc",
+      "category": "Orthopedic",
+      "severity": "low"
+    },
+    {
+      "name": "Copper-Associated Hepatopathy",
+      "slug": "copper-associated-hepatopathy",
+      "category": "Gastrointestinal",
+      "severity": "high"
+    },
+    {
+      "name": "Portosystemic Shunt",
+      "slug": "portosystemic-shunt",
+      "category": "Gastrointestinal",
+      "severity": "high"
+    },
+    {
+      "name": "Anal Furunculosis (Perianal Fistulas)",
+      "slug": "anal-furunculosis",
+      "category": "Dermatological",
+      "severity": "high"
+    },
+    {
+      "name": "Canine Follicular Dysplasia",
+      "slug": "follicular-dysplasia",
+      "category": "Dermatological",
+      "severity": "low"
+    },
+    {
+      "name": "Spongiform Leukodystrophy",
+      "slug": "spongiform-leukodystrophy",
+      "category": "Neurological",
+      "severity": "high"
+    },
+    {
+      "name": "Scottie Cramp",
+      "slug": "scottie-cramp",
+      "category": "Neurological",
+      "severity": "low"
+    },
+    {
+      "name": "Cerebellar Ataxia",
+      "slug": "cerebellar-ataxia",
+      "category": "Neurological",
+      "severity": "high"
+    },
+    {
+      "name": "Congenital Hypothyroidism with Goitre",
+      "slug": "congenital-hypothyroidism-goitre",
+      "category": "Endocrine",
+      "severity": "high"
+    },
+    {
+      "name": "Insulinoma",
+      "slug": "insulinoma",
+      "category": "Endocrine",
+      "severity": "high"
+    },
+    {
+      "name": "Canine Bladder Cancer (Transitional Cell Carcinoma)",
+      "slug": "transitional-cell-carcinoma-bladder",
+      "category": "Cancer",
+      "severity": "high"
+    },
+    {
+      "name": "Brucellosis",
+      "slug": "brucellosis",
+      "category": "Autoimmune",
+      "severity": "high"
+    },
+    {
+      "name": "Zinc-Responsive Dermatosis",
+      "slug": "zinc-responsive-dermatosis",
+      "category": "Dermatological",
+      "severity": "low"
+    },
+    {
+      "name": "Canine Multifocal Retinopathy",
+      "slug": "canine-multifocal-retinopathy",
+      "category": "Eye",
+      "severity": "low"
+    },
+    {
+      "name": "Persistent Pupillary Membranes (PPM)",
+      "slug": "persistent-pupillary-membranes",
+      "category": "Eye",
+      "severity": "low"
+    },
+    {
+      "name": "Collie Eye Anomaly (CEA)",
+      "slug": "collie-eye-anomaly",
+      "category": "Eye",
+      "severity": "medium"
+    },
+    {
+      "name": "Multidrug Resistance Mutation (MDR1/ABCB1)",
+      "slug": "mdr1-abcb1-mutation",
+      "category": "Neurological",
+      "severity": "high"
+    },
+    {
+      "name": "Canine Atrial Septal Defect",
+      "slug": "atrial-septal-defect",
+      "category": "Cardiac",
+      "severity": "medium"
+    },
+    {
+      "name": "Sick Sinus Syndrome",
+      "slug": "sick-sinus-syndrome",
+      "category": "Cardiac",
+      "severity": "high"
+    },
+    {
+      "name": "Tricuspid Valve Dysplasia",
+      "slug": "tricuspid-valve-dysplasia",
+      "category": "Cardiac",
+      "severity": "medium"
+    },
+    {
+      "name": "Immune-Mediated Thrombocytopenia (ITP)",
+      "slug": "immune-mediated-thrombocytopenia",
+      "category": "Autoimmune",
+      "severity": "high"
+    },
+    {
+      "name": "Discospondylitis",
+      "slug": "discospondylitis",
+      "category": "Orthopedic",
+      "severity": "high"
+    },
+    {
+      "name": "Dermatomyositis",
+      "slug": "dermatomyositis",
+      "category": "Dermatological",
+      "severity": "medium"
+    },
+    {
+      "name": "Blastomycosis",
+      "slug": "blastomycosis",
+      "category": "Respiratory",
+      "severity": "high"
+    },
+    {
+      "name": "Hyperlipidaemia",
+      "slug": "hyperlipidaemia",
+      "category": "Endocrine",
+      "severity": "medium"
+    },
+    {
+      "name": "Interdigital Cysts (Pododermatitis)",
+      "slug": "interdigital-cysts",
+      "category": "Dermatological",
+      "severity": "medium"
+    },
+    {
+      "name": "Corneal Dystrophy",
+      "slug": "corneal-dystrophy",
+      "category": "Eye",
+      "severity": "low"
+    },
+    {
+      "name": "Canine Distemper",
+      "slug": "canine-distemper",
+      "category": "Neurological",
+      "severity": "high"
+    },
+    {
+      "name": "Canine Parvovirus",
+      "slug": "canine-parvovirus",
+      "category": "Gastrointestinal",
+      "severity": "high"
+    },
+    {
+      "name": "Leptospirosis",
+      "slug": "leptospirosis",
+      "category": "Urinary",
+      "severity": "high"
+    },
+    {
+      "name": "Kennel Cough (Infectious Tracheobronchitis)",
+      "slug": "kennel-cough",
+      "category": "Respiratory",
+      "severity": "low"
+    },
+    {
+      "name": "Malignant Hyperthermia",
+      "slug": "malignant-hyperthermia",
+      "category": "Neurological",
+      "severity": "high"
+    },
+    {
+      "name": "Panosteitis",
+      "slug": "panosteitis",
+      "category": "Orthopedic",
+      "severity": "low"
+    },
+    {
+      "name": "Shoulder Osteochondrosis",
+      "slug": "shoulder-osteochondrosis",
+      "category": "Orthopedic",
+      "severity": "medium"
+    },
+    {
+      "name": "Trichobezoar (Hair Balls) and GI Foreign Bodies",
+      "slug": "gastrointestinal-foreign-body",
+      "category": "Gastrointestinal",
+      "severity": "high"
+    },
+    {
+      "name": "Elbow Incongruency",
+      "slug": "elbow-incongruency",
+      "category": "Orthopedic",
+      "severity": "medium"
+    },
+    {
+      "name": "Degenerative Joint Disease (Osteoarthritis)",
+      "slug": "osteoarthritis",
+      "category": "Orthopedic",
+      "severity": "medium"
+    },
+    {
+      "name": "Idiopathic Vestibular Disease",
+      "slug": "idiopathic-vestibular-disease",
+      "category": "Neurological",
+      "severity": "medium"
+    },
+    {
+      "name": "Tick-Borne Encephalitis",
+      "slug": "tick-borne-encephalitis",
+      "category": "Neurological",
+      "severity": "high"
+    },
+    {
+      "name": "Acute Kidney Injury (AKI)",
+      "slug": "acute-kidney-injury",
+      "category": "Urinary",
+      "severity": "high"
+    },
+    {
+      "name": "Prostate Disease (Benign Prostatic Hyperplasia)",
+      "slug": "benign-prostatic-hyperplasia",
+      "category": "Urinary",
+      "severity": "low"
+    },
+    {
+      "name": "Nasal Tumours",
+      "slug": "nasal-tumours",
+      "category": "Cancer",
+      "severity": "high"
+    },
+    {
+      "name": "Splenic Tumours (Non-Hemangiosarcoma)",
+      "slug": "splenic-tumours",
+      "category": "Cancer",
+      "severity": "high"
+    },
+    {
+      "name": "Thyroid Tumours",
+      "slug": "thyroid-tumours",
+      "category": "Cancer",
+      "severity": "high"
+    },
+    {
+      "name": "Mammary Tumours",
+      "slug": "mammary-tumours",
+      "category": "Cancer",
+      "severity": "medium"
+    },
+    {
+      "name": "Cutaneous Histiocytoma",
+      "slug": "cutaneous-histiocytoma",
+      "category": "Cancer",
+      "severity": "low"
+    },
+    {
+      "name": "Perianal Adenoma",
+      "slug": "perianal-adenoma",
+      "category": "Cancer",
+      "severity": "low"
+    },
+    {
+      "name": "Malassezia Dermatitis",
+      "slug": "malassezia-dermatitis",
+      "category": "Dermatological",
+      "severity": "medium"
+    },
+    {
+      "name": "Ringworm (Dermatophytosis)",
+      "slug": "dermatophytosis",
+      "category": "Dermatological",
+      "severity": "low"
+    },
+    {
+      "name": "Swimmer Puppy Syndrome",
+      "slug": "swimmer-puppy-syndrome",
+      "category": "Orthopedic",
+      "severity": "medium"
+    },
+    {
+      "name": "Umbilical Hernia",
+      "slug": "umbilical-hernia",
+      "category": "Gastrointestinal",
+      "severity": "low"
+    },
+    {
+      "name": "Diaphragmatic Hernia",
+      "slug": "diaphragmatic-hernia",
+      "category": "Respiratory",
+      "severity": "high"
+    },
+    {
+      "name": "Inguinal Hernia",
+      "slug": "inguinal-hernia",
+      "category": "Gastrointestinal",
+      "severity": "medium"
+    },
+    {
+      "name": "Multifocal Acquired Retinopathy",
+      "slug": "multifocal-acquired-retinopathy",
+      "category": "Eye",
+      "severity": "high"
+    },
+    {
+      "name": "Medial Shoulder Instability",
+      "slug": "medial-shoulder-instability",
+      "category": "Orthopedic",
+      "severity": "medium"
+    },
+    {
+      "name": "Flea Allergy Dermatitis (FAD)",
+      "slug": "flea-allergy-dermatitis",
+      "category": "Dermatological",
+      "severity": "medium"
+    },
+    {
+      "name": "Separation Anxiety",
+      "slug": "separation-anxiety",
+      "category": "Neurological",
+      "severity": "medium"
+    },
+    {
+      "name": "Masticatory Muscle Myositis (MMM)",
+      "slug": "masticatory-muscle-myositis",
+      "category": "Autoimmune",
+      "severity": "high"
+    },
+    {
+      "name": "Cleft Palate and Lip",
+      "slug": "cleft-palate-lip",
+      "category": "Gastrointestinal",
+      "severity": "high"
+    },
+    {
+      "name": "Cryptorchidism",
+      "slug": "cryptorchidism",
+      "category": "Urinary",
+      "severity": "medium"
+    },
+    {
+      "name": "Pyometra",
+      "slug": "pyometra",
+      "category": "Urinary",
+      "severity": "high"
+    },
+    {
+      "name": "Hepatic Lipidosis (Fatty Liver)",
+      "slug": "hepatic-lipidosis",
+      "category": "Gastrointestinal",
+      "severity": "medium"
+    },
+    {
+      "name": "Aortic Thromboembolism",
+      "slug": "aortic-thromboembolism",
+      "category": "Cardiac",
+      "severity": "high"
+    },
+    {
+      "name": "Spinal Muscular Atrophy",
+      "slug": "spinal-muscular-atrophy",
+      "category": "Neurological",
+      "severity": "high"
+    },
+    {
+      "name": "Narcolepsy and Cataplexy",
+      "slug": "narcolepsy-cataplexy",
+      "category": "Neurological",
+      "severity": "low"
+    },
+    {
+      "name": "Histiocytic Sarcoma",
+      "slug": "histiocytic-sarcoma",
+      "category": "Cancer",
+      "severity": "high"
+    },
+    {
+      "name": "Soft Tissue Sarcoma",
+      "slug": "soft-tissue-sarcoma",
+      "category": "Cancer",
+      "severity": "medium"
+    },
+    {
+      "name": "Renal Dysplasia",
+      "slug": "renal-dysplasia",
+      "category": "Urinary",
+      "severity": "high"
+    },
+    {
+      "name": "Polycystic Kidney Disease (PKD)",
+      "slug": "polycystic-kidney-disease",
+      "category": "Urinary",
+      "severity": "high"
+    },
+    {
+      "name": "Fanconi Syndrome",
+      "slug": "fanconi-syndrome",
+      "category": "Urinary",
+      "severity": "high"
+    },
+    {
+      "name": "Wobbler Syndrome in Dobermanns (Type II IVDD)",
+      "slug": "wobbler-dobermann",
+      "category": "Neurological",
+      "severity": "high"
+    },
+    {
+      "name": "Polymyositis",
+      "slug": "polymyositis",
+      "category": "Autoimmune",
+      "severity": "high"
+    },
+    {
+      "name": "Breed-Specific Juvenile Renal Disease (Soft-Coated Wheaten Terrier)",
+      "slug": "juvenile-renal-disease-scwt",
+      "category": "Urinary",
+      "severity": "high"
+    },
+    {
+      "name": "Osteogenesis Imperfecta (Brittle Bone Disease)",
+      "slug": "osteogenesis-imperfecta",
+      "category": "Orthopedic",
+      "severity": "high"
+    },
+    {
+      "name": "Exercise-Induced Collapse (EIC)",
+      "slug": "exercise-induced-collapse",
+      "category": "Neurological",
+      "severity": "medium"
+    },
+    {
+      "name": "Hereditary Nasal Parakeratosis (HNPK)",
+      "slug": "hereditary-nasal-parakeratosis",
+      "category": "Dermatological",
+      "severity": "low"
+    },
+    {
+      "name": "Acral Lick Dermatitis",
+      "slug": "acral-lick-dermatitis",
+      "category": "Dermatological",
+      "severity": "medium"
+    },
+    {
+      "name": "Eosinophilic Bronchopneumopathy",
+      "slug": "eosinophilic-bronchopneumopathy",
+      "category": "Respiratory",
+      "severity": "medium"
+    },
+    {
+      "name": "Nodular Sebaceous Hyperplasia",
+      "slug": "nodular-sebaceous-hyperplasia",
+      "category": "Dermatological",
+      "severity": "low"
+    },
+    {
+      "name": "Immune-Mediated Polyarthritis (IMPA)",
+      "slug": "immune-mediated-polyarthritis",
+      "category": "Autoimmune",
+      "severity": "medium"
+    },
+    {
+      "name": "Hypersomatotropism (Acromegaly)",
+      "slug": "acromegaly",
+      "category": "Endocrine",
+      "severity": "medium"
+    },
+    {
+      "name": "Gastroesophageal Reflux",
+      "slug": "gastroesophageal-reflux",
+      "category": "Gastrointestinal",
+      "severity": "medium"
+    },
+    {
+      "name": "Histoplasma Infection",
+      "slug": "histoplasmosis",
+      "category": "Gastrointestinal",
+      "severity": "high"
+    },
+    {
+      "name": "Cystinuria",
+      "slug": "cystinuria",
+      "category": "Urinary",
+      "severity": "medium"
+    },
+    {
+      "name": "Hereditary Footpad Hyperkeratosis",
+      "slug": "hereditary-footpad-hyperkeratosis",
+      "category": "Dermatological",
+      "severity": "medium"
+    },
+    {
+      "name": "Tooth Resorption",
+      "slug": "tooth-resorption",
+      "category": "Dental",
+      "severity": "medium"
+    },
+    {
+      "name": "Malocclusion",
+      "slug": "malocclusion",
+      "category": "Dental",
+      "severity": "medium"
+    },
+    {
+      "name": "Otitis Media and Interna",
+      "slug": "otitis-media-interna",
+      "category": "Ear",
+      "severity": "high"
+    },
+    {
+      "name": "Primary Secretory Otitis Media (PSOM)",
+      "slug": "primary-secretory-otitis-media",
+      "category": "Ear",
+      "severity": "medium"
+    }
+  ],
+  "diets": [
+    {
+      "name": "Grain-Free",
+      "slug": "grain-free"
+    },
+    {
+      "name": "Raw Food (BARF)",
+      "slug": "raw-food"
+    },
+    {
+      "name": "Senior Formula",
+      "slug": "senior"
+    },
+    {
+      "name": "Puppy Formula",
+      "slug": "puppy"
+    },
+    {
+      "name": "Weight Management",
+      "slug": "weight-management"
+    },
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Limited Ingredient",
+      "slug": "limited-ingredient"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Homemade",
+      "slug": "homemade"
+    },
+    {
+      "name": "Prescription / Veterinary Diet",
+      "slug": "prescription"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "comparisons": [
+    {
+      "slug": "labrador-retriever-vs-golden-retriever",
+      "breed_a": "labrador-retriever",
+      "breed_b": "golden-retriever"
+    },
+    {
+      "slug": "german-shepherd-vs-belgian-malinois",
+      "breed_a": "german-shepherd",
+      "breed_b": "belgian-malinois"
+    },
+    {
+      "slug": "german-shepherd-vs-rottweiler",
+      "breed_a": "german-shepherd",
+      "breed_b": "rottweiler"
+    },
+    {
+      "slug": "bulldog-vs-french-bulldog",
+      "breed_a": "bulldog",
+      "breed_b": "french-bulldog"
+    },
+    {
+      "slug": "poodle-vs-bichon-frise",
+      "breed_a": "poodle",
+      "breed_b": "bichon-frise"
+    },
+    {
+      "slug": "beagle-vs-basset-hound",
+      "breed_a": "beagle",
+      "breed_b": "basset-hound"
+    },
+    {
+      "slug": "shih-tzu-vs-lhasa-apso",
+      "breed_a": "shih-tzu",
+      "breed_b": "lhasa-apso"
+    },
+    {
+      "slug": "great-dane-vs-english-mastiff",
+      "breed_a": "great-dane",
+      "breed_b": "english-mastiff"
+    },
+    {
+      "slug": "siberian-husky-vs-alaskan-malamute",
+      "breed_a": "siberian-husky",
+      "breed_b": "alaskan-malamute"
+    },
+    {
+      "slug": "doberman-pinscher-vs-rottweiler",
+      "breed_a": "doberman-pinscher",
+      "breed_b": "rottweiler"
+    },
+    {
+      "slug": "boxer-vs-rottweiler",
+      "breed_a": "boxer",
+      "breed_b": "rottweiler"
+    },
+    {
+      "slug": "border-collie-vs-australian-shepherd",
+      "breed_a": "border-collie",
+      "breed_b": "australian-shepherd"
+    },
+    {
+      "slug": "golden-retriever-vs-labrador-retriever",
+      "breed_a": "golden-retriever",
+      "breed_b": "labrador-retriever"
+    },
+    {
+      "slug": "chihuahua-vs-yorkshire-terrier",
+      "breed_a": "chihuahua",
+      "breed_b": "yorkshire-terrier"
+    },
+    {
+      "slug": "dachshund-vs-basset-hound",
+      "breed_a": "dachshund",
+      "breed_b": "basset-hound"
+    },
+    {
+      "slug": "pomeranian-vs-chihuahua",
+      "breed_a": "pomeranian",
+      "breed_b": "chihuahua"
+    },
+    {
+      "slug": "cocker-spaniel-vs-springer-spaniel",
+      "breed_a": "cocker-spaniel",
+      "breed_b": "springer-spaniel"
+    },
+    {
+      "slug": "maltese-vs-bichon-frise",
+      "breed_a": "maltese",
+      "breed_b": "bichon-frise"
+    },
+    {
+      "slug": "shih-tzu-vs-maltese",
+      "breed_a": "shih-tzu",
+      "breed_b": "maltese"
+    },
+    {
+      "slug": "poodle-vs-labradoodle",
+      "breed_a": "poodle",
+      "breed_b": "labradoodle"
+    },
+    {
+      "slug": "labradoodle-vs-goldendoodle",
+      "breed_a": "labradoodle",
+      "breed_b": "goldendoodle"
+    },
+    {
+      "slug": "bernese-mountain-dog-vs-great-pyrenees",
+      "breed_a": "bernese-mountain-dog",
+      "breed_b": "great-pyrenees"
+    },
+    {
+      "slug": "saint-bernard-vs-great-dane",
+      "breed_a": "saint-bernard",
+      "breed_b": "great-dane"
+    },
+    {
+      "slug": "pit-bull-terrier-vs-american-staffordshire-terrier",
+      "breed_a": "pit-bull-terrier",
+      "breed_b": "american-staffordshire-terrier"
+    },
+    {
+      "slug": "american-bulldog-vs-english-bulldog",
+      "breed_a": "american-bulldog",
+      "breed_b": "english-bulldog"
+    },
+    {
+      "slug": "husky-vs-german-shepherd",
+      "breed_a": "husky",
+      "breed_b": "german-shepherd"
+    },
+    {
+      "slug": "labrador-retriever-vs-golden-retriever-family-dog",
+      "breed_a": "labrador-retriever",
+      "breed_b": "golden-retriever"
+    },
+    {
+      "slug": "french-bulldog-vs-boston-terrier",
+      "breed_a": "french-bulldog",
+      "breed_b": "boston-terrier"
+    },
+    {
+      "slug": "boston-terrier-vs-french-bulldog",
+      "breed_a": "boston-terrier",
+      "breed_b": "french-bulldog"
+    },
+    {
+      "slug": "cavalier-king-charles-spaniel-vs-cocker-spaniel",
+      "breed_a": "cavalier-king-charles-spaniel",
+      "breed_b": "cocker-spaniel"
+    },
+    {
+      "slug": "shiba-inu-vs-akita",
+      "breed_a": "shiba-inu",
+      "breed_b": "akita"
+    },
+    {
+      "slug": "shiba-inu-vs-korean-jindo",
+      "breed_a": "shiba-inu",
+      "breed_b": "korean-jindo"
+    },
+    {
+      "slug": "akita-vs-chow-chow",
+      "breed_a": "akita",
+      "breed_b": "chow-chow"
+    },
+    {
+      "slug": "chow-chow-vs-shar-pei",
+      "breed_a": "chow-chow",
+      "breed_b": "shar-pei"
+    },
+    {
+      "slug": "weimaraner-vs-vizsla",
+      "breed_a": "weimaraner",
+      "breed_b": "vizsla"
+    },
+    {
+      "slug": "vizsla-vs-german-shorthaired-pointer",
+      "breed_a": "vizsla",
+      "breed_b": "german-shorthaired-pointer"
+    },
+    {
+      "slug": "german-shorthaired-pointer-vs-weimaraner",
+      "breed_a": "german-shorthaired-pointer",
+      "breed_b": "weimaraner"
+    },
+    {
+      "slug": "miniature-schnauzer-vs-standard-schnauzer",
+      "breed_a": "miniature-schnauzer",
+      "breed_b": "standard-schnauzer"
+    },
+    {
+      "slug": "standard-schnauzer-vs-giant-schnauzer",
+      "breed_a": "standard-schnauzer",
+      "breed_b": "giant-schnauzer"
+    },
+    {
+      "slug": "pug-vs-french-bulldog",
+      "breed_a": "pug",
+      "breed_b": "french-bulldog"
+    },
+    {
+      "slug": "pug-vs-boston-terrier",
+      "breed_a": "pug",
+      "breed_b": "boston-terrier"
+    },
+    {
+      "slug": "corgi-vs-australian-shepherd",
+      "breed_a": "corgi",
+      "breed_b": "australian-shepherd"
+    },
+    {
+      "slug": "pembroke-welsh-corgi-vs-cardigan-welsh-corgi",
+      "breed_a": "pembroke-welsh-corgi",
+      "breed_b": "cardigan-welsh-corgi"
+    },
+    {
+      "slug": "border-collie-vs-shetland-sheepdog",
+      "breed_a": "border-collie",
+      "breed_b": "shetland-sheepdog"
+    },
+    {
+      "slug": "shetland-sheepdog-vs-rough-collie",
+      "breed_a": "shetland-sheepdog",
+      "breed_b": "rough-collie"
+    },
+    {
+      "slug": "rough-collie-vs-border-collie",
+      "breed_a": "rough-collie",
+      "breed_b": "border-collie"
+    },
+    {
+      "slug": "whippet-vs-greyhound",
+      "breed_a": "whippet",
+      "breed_b": "greyhound"
+    },
+    {
+      "slug": "greyhound-vs-italian-greyhound",
+      "breed_a": "greyhound",
+      "breed_b": "italian-greyhound"
+    },
+    {
+      "slug": "italian-greyhound-vs-whippet",
+      "breed_a": "italian-greyhound",
+      "breed_b": "whippet"
+    },
+    {
+      "slug": "irish-wolfhound-vs-great-dane",
+      "breed_a": "irish-wolfhound",
+      "breed_b": "great-dane"
+    },
+    {
+      "slug": "scottish-deerhound-vs-irish-wolfhound",
+      "breed_a": "scottish-deerhound",
+      "breed_b": "irish-wolfhound"
+    },
+    {
+      "slug": "newfoundland-vs-saint-bernard",
+      "breed_a": "newfoundland",
+      "breed_b": "saint-bernard"
+    },
+    {
+      "slug": "leonberger-vs-bernese-mountain-dog",
+      "breed_a": "leonberger",
+      "breed_b": "bernese-mountain-dog"
+    },
+    {
+      "slug": "tibetan-mastiff-vs-english-mastiff",
+      "breed_a": "tibetan-mastiff",
+      "breed_b": "english-mastiff"
+    },
+    {
+      "slug": "neapolitan-mastiff-vs-english-mastiff",
+      "breed_a": "neapolitan-mastiff",
+      "breed_b": "english-mastiff"
+    },
+    {
+      "slug": "cane-corso-vs-rottweiler",
+      "breed_a": "cane-corso",
+      "breed_b": "rottweiler"
+    },
+    {
+      "slug": "cane-corso-vs-neapolitan-mastiff",
+      "breed_a": "cane-corso",
+      "breed_b": "neapolitan-mastiff"
+    },
+    {
+      "slug": "dogo-argentino-vs-cane-corso",
+      "breed_a": "dogo-argentino",
+      "breed_b": "cane-corso"
+    },
+    {
+      "slug": "boerboel-vs-cane-corso",
+      "breed_a": "boerboel",
+      "breed_b": "cane-corso"
+    },
+    {
+      "slug": "anatolian-shepherd-vs-great-pyrenees",
+      "breed_a": "anatolian-shepherd",
+      "breed_b": "great-pyrenees"
+    },
+    {
+      "slug": "great-pyrenees-vs-kuvasz",
+      "breed_a": "great-pyrenees",
+      "breed_b": "kuvasz"
+    },
+    {
+      "slug": "golden-retriever-vs-german-shepherd",
+      "breed_a": "golden-retriever",
+      "breed_b": "german-shepherd"
+    },
+    {
+      "slug": "labrador-retriever-vs-german-shepherd",
+      "breed_a": "labrador-retriever",
+      "breed_b": "german-shepherd"
+    },
+    {
+      "slug": "labrador-retriever-vs-border-collie",
+      "breed_a": "labrador-retriever",
+      "breed_b": "border-collie"
+    },
+    {
+      "slug": "golden-retriever-vs-border-collie",
+      "breed_a": "golden-retriever",
+      "breed_b": "border-collie"
+    },
+    {
+      "slug": "flat-coated-retriever-vs-golden-retriever",
+      "breed_a": "flat-coated-retriever",
+      "breed_b": "golden-retriever"
+    },
+    {
+      "slug": "nova-scotia-duck-tolling-retriever-vs-golden-retriever",
+      "breed_a": "nova-scotia-duck-tolling-retriever",
+      "breed_b": "golden-retriever"
+    },
+    {
+      "slug": "chesapeake-bay-retriever-vs-labrador-retriever",
+      "breed_a": "chesapeake-bay-retriever",
+      "breed_b": "labrador-retriever"
+    },
+    {
+      "slug": "cocker-spaniel-vs-cavalier-king-charles-spaniel",
+      "breed_a": "cocker-spaniel",
+      "breed_b": "cavalier-king-charles-spaniel"
+    },
+    {
+      "slug": "english-setter-vs-irish-setter",
+      "breed_a": "english-setter",
+      "breed_b": "irish-setter"
+    },
+    {
+      "slug": "irish-setter-vs-gordon-setter",
+      "breed_a": "irish-setter",
+      "breed_b": "gordon-setter"
+    },
+    {
+      "slug": "pointer-vs-german-shorthaired-pointer",
+      "breed_a": "pointer",
+      "breed_b": "german-shorthaired-pointer"
+    },
+    {
+      "slug": "brittany-vs-cocker-spaniel",
+      "breed_a": "brittany",
+      "breed_b": "cocker-spaniel"
+    },
+    {
+      "slug": "bloodhound-vs-basset-hound",
+      "breed_a": "bloodhound",
+      "breed_b": "basset-hound"
+    },
+    {
+      "slug": "coonhound-vs-beagle",
+      "breed_a": "coonhound",
+      "breed_b": "beagle"
+    },
+    {
+      "slug": "otterhound-vs-bloodhound",
+      "breed_a": "otterhound",
+      "breed_b": "bloodhound"
+    },
+    {
+      "slug": "rhodesian-ridgeback-vs-weimaraner",
+      "breed_a": "rhodesian-ridgeback",
+      "breed_b": "weimaraner"
+    },
+    {
+      "slug": "pharaoh-hound-vs-ibizan-hound",
+      "breed_a": "pharaoh-hound",
+      "breed_b": "ibizan-hound"
+    },
+    {
+      "slug": "saluki-vs-greyhound",
+      "breed_a": "saluki",
+      "breed_b": "greyhound"
+    },
+    {
+      "slug": "afghan-hound-vs-saluki",
+      "breed_a": "afghan-hound",
+      "breed_b": "saluki"
+    },
+    {
+      "slug": "basenji-vs-shiba-inu",
+      "breed_a": "basenji",
+      "breed_b": "shiba-inu"
+    },
+    {
+      "slug": "beagle-vs-jack-russell-terrier",
+      "breed_a": "beagle",
+      "breed_b": "jack-russell-terrier"
+    },
+    {
+      "slug": "jack-russell-terrier-vs-rat-terrier",
+      "breed_a": "jack-russell-terrier",
+      "breed_b": "rat-terrier"
+    },
+    {
+      "slug": "airedale-terrier-vs-welsh-terrier",
+      "breed_a": "airedale-terrier",
+      "breed_b": "welsh-terrier"
+    },
+    {
+      "slug": "bull-terrier-vs-staffordshire-bull-terrier",
+      "breed_a": "bull-terrier",
+      "breed_b": "staffordshire-bull-terrier"
+    },
+    {
+      "slug": "staffordshire-bull-terrier-vs-american-staffordshire-terrier",
+      "breed_a": "staffordshire-bull-terrier",
+      "breed_b": "american-staffordshire-terrier"
+    },
+    {
+      "slug": "scottish-terrier-vs-cairn-terrier",
+      "breed_a": "scottish-terrier",
+      "breed_b": "cairn-terrier"
+    },
+    {
+      "slug": "cairn-terrier-vs-west-highland-white-terrier",
+      "breed_a": "cairn-terrier",
+      "breed_b": "west-highland-white-terrier"
+    },
+    {
+      "slug": "west-highland-white-terrier-vs-scottish-terrier",
+      "breed_a": "west-highland-white-terrier",
+      "breed_b": "scottish-terrier"
+    },
+    {
+      "slug": "norfolk-terrier-vs-norwich-terrier",
+      "breed_a": "norfolk-terrier",
+      "breed_b": "norwich-terrier"
+    },
+    {
+      "slug": "manchester-terrier-vs-miniature-pinscher",
+      "breed_a": "manchester-terrier",
+      "breed_b": "miniature-pinscher"
+    },
+    {
+      "slug": "miniature-pinscher-vs-doberman-pinscher",
+      "breed_a": "miniature-pinscher",
+      "breed_b": "doberman-pinscher"
+    },
+    {
+      "slug": "toy-fox-terrier-vs-chihuahua",
+      "breed_a": "toy-fox-terrier",
+      "breed_b": "chihuahua"
+    },
+    {
+      "slug": "papillon-vs-chihuahua",
+      "breed_a": "papillon",
+      "breed_b": "chihuahua"
+    },
+    {
+      "slug": "papillon-vs-pomeranian",
+      "breed_a": "papillon",
+      "breed_b": "pomeranian"
+    },
+    {
+      "slug": "maltese-vs-yorkshire-terrier",
+      "breed_a": "maltese",
+      "breed_b": "yorkshire-terrier"
+    },
+    {
+      "slug": "havanese-vs-bichon-frise",
+      "breed_a": "havanese",
+      "breed_b": "bichon-frise"
+    },
+    {
+      "slug": "havanese-vs-maltese",
+      "breed_a": "havanese",
+      "breed_b": "maltese"
+    },
+    {
+      "slug": "pekingese-vs-shih-tzu",
+      "breed_a": "pekingese",
+      "breed_b": "shih-tzu"
+    },
+    {
+      "slug": "japanese-chin-vs-pekingese",
+      "breed_a": "japanese-chin",
+      "breed_b": "pekingese"
+    },
+    {
+      "slug": "affenpinscher-vs-brussels-griffon",
+      "breed_a": "affenpinscher",
+      "breed_b": "brussels-griffon"
+    },
+    {
+      "slug": "brussels-griffon-vs-chihuahua",
+      "breed_a": "brussels-griffon",
+      "breed_b": "chihuahua"
+    },
+    {
+      "slug": "poodle-vs-portuguese-water-dog",
+      "breed_a": "poodle",
+      "breed_b": "portuguese-water-dog"
+    },
+    {
+      "slug": "portuguese-water-dog-vs-spanish-water-dog",
+      "breed_a": "portuguese-water-dog",
+      "breed_b": "spanish-water-dog"
+    },
+    {
+      "slug": "standard-poodle-vs-miniature-poodle",
+      "breed_a": "standard-poodle",
+      "breed_b": "miniature-poodle"
+    },
+    {
+      "slug": "miniature-poodle-vs-toy-poodle",
+      "breed_a": "miniature-poodle",
+      "breed_b": "toy-poodle"
+    },
+    {
+      "slug": "boxer-vs-bulldog",
+      "breed_a": "boxer",
+      "breed_b": "bulldog"
+    },
+    {
+      "slug": "bullmastiff-vs-english-mastiff",
+      "breed_a": "bullmastiff",
+      "breed_b": "english-mastiff"
+    },
+    {
+      "slug": "bullmastiff-vs-rottweiler",
+      "breed_a": "bullmastiff",
+      "breed_b": "rottweiler"
+    },
+    {
+      "slug": "doberman-pinscher-vs-german-shepherd",
+      "breed_a": "doberman-pinscher",
+      "breed_b": "german-shepherd"
+    },
+    {
+      "slug": "giant-schnauzer-vs-rottweiler",
+      "breed_a": "giant-schnauzer",
+      "breed_b": "rottweiler"
+    },
+    {
+      "slug": "great-dane-vs-irish-wolfhound",
+      "breed_a": "great-dane",
+      "breed_b": "irish-wolfhound"
+    },
+    {
+      "slug": "samoyed-vs-american-eskimo-dog",
+      "breed_a": "samoyed",
+      "breed_b": "american-eskimo-dog"
+    },
+    {
+      "slug": "samoyed-vs-great-pyrenees",
+      "breed_a": "samoyed",
+      "breed_b": "great-pyrenees"
+    },
+    {
+      "slug": "siberian-husky-vs-samoyed",
+      "breed_a": "siberian-husky",
+      "breed_b": "samoyed"
+    },
+    {
+      "slug": "keeshond-vs-chow-chow",
+      "breed_a": "keeshond",
+      "breed_b": "chow-chow"
+    },
+    {
+      "slug": "norwegian-elkhound-vs-siberian-husky",
+      "breed_a": "norwegian-elkhound",
+      "breed_b": "siberian-husky"
+    },
+    {
+      "slug": "finnish-spitz-vs-shiba-inu",
+      "breed_a": "finnish-spitz",
+      "breed_b": "shiba-inu"
+    },
+    {
+      "slug": "eurasier-vs-chow-chow",
+      "breed_a": "eurasier",
+      "breed_b": "chow-chow"
+    },
+    {
+      "slug": "australian-cattle-dog-vs-border-collie",
+      "breed_a": "australian-cattle-dog",
+      "breed_b": "border-collie"
+    },
+    {
+      "slug": "australian-cattle-dog-vs-australian-shepherd",
+      "breed_a": "australian-cattle-dog",
+      "breed_b": "australian-shepherd"
+    },
+    {
+      "slug": "australian-shepherd-vs-border-collie",
+      "breed_a": "australian-shepherd",
+      "breed_b": "border-collie"
+    },
+    {
+      "slug": "belgian-tervuren-vs-belgian-malinois",
+      "breed_a": "belgian-tervuren",
+      "breed_b": "belgian-malinois"
+    },
+    {
+      "slug": "belgian-sheepdog-vs-belgian-tervuren",
+      "breed_a": "belgian-sheepdog",
+      "breed_b": "belgian-tervuren"
+    },
+    {
+      "slug": "dutch-shepherd-vs-belgian-malinois",
+      "breed_a": "dutch-shepherd",
+      "breed_b": "belgian-malinois"
+    },
+    {
+      "slug": "german-shepherd-vs-dutch-shepherd",
+      "breed_a": "german-shepherd",
+      "breed_b": "dutch-shepherd"
+    },
+    {
+      "slug": "bouvier-des-flandres-vs-bernese-mountain-dog",
+      "breed_a": "bouvier-des-flandres",
+      "breed_b": "bernese-mountain-dog"
+    },
+    {
+      "slug": "briard-vs-bouvier-des-flandres",
+      "breed_a": "briard",
+      "breed_b": "bouvier-des-flandres"
+    },
+    {
+      "slug": "old-english-sheepdog-vs-bernese-mountain-dog",
+      "breed_a": "old-english-sheepdog",
+      "breed_b": "bernese-mountain-dog"
+    },
+    {
+      "slug": "puli-vs-pumi",
+      "breed_a": "puli",
+      "breed_b": "pumi"
+    },
+    {
+      "slug": "komondor-vs-puli",
+      "breed_a": "komondor",
+      "breed_b": "puli"
+    },
+    {
+      "slug": "xoloitzcuintli-vs-basenji",
+      "breed_a": "xoloitzcuintli",
+      "breed_b": "basenji"
+    },
+    {
+      "slug": "cirneco-dell-etna-vs-pharaoh-hound",
+      "breed_a": "cirneco-dell-etna",
+      "breed_b": "pharaoh-hound"
+    },
+    {
+      "slug": "peruvian-inca-orchid-vs-xoloitzcuintli",
+      "breed_a": "peruvian-inca-orchid",
+      "breed_b": "xoloitzcuintli"
+    },
+    {
+      "slug": "azawakh-vs-sloughi",
+      "breed_a": "azawakh",
+      "breed_b": "sloughi"
+    },
+    {
+      "slug": "sloughi-vs-saluki",
+      "breed_a": "sloughi",
+      "breed_b": "saluki"
+    },
+    {
+      "slug": "borzoi-vs-afghan-hound",
+      "breed_a": "borzoi",
+      "breed_b": "afghan-hound"
+    },
+    {
+      "slug": "irish-wolfhound-vs-borzoi",
+      "breed_a": "irish-wolfhound",
+      "breed_b": "borzoi"
+    },
+    {
+      "slug": "dachshund-vs-corgi",
+      "breed_a": "dachshund",
+      "breed_b": "corgi"
+    },
+    {
+      "slug": "dachshund-vs-beagle",
+      "breed_a": "dachshund",
+      "breed_b": "beagle"
+    },
+    {
+      "slug": "cocker-spaniel-vs-beagle",
+      "breed_a": "cocker-spaniel",
+      "breed_b": "beagle"
+    },
+    {
+      "slug": "labrador-retriever-vs-beagle",
+      "breed_a": "labrador-retriever",
+      "breed_b": "beagle"
+    },
+    {
+      "slug": "golden-retriever-vs-irish-setter",
+      "breed_a": "golden-retriever",
+      "breed_b": "irish-setter"
+    },
+    {
+      "slug": "german-shepherd-vs-siberian-husky",
+      "breed_a": "german-shepherd",
+      "breed_b": "siberian-husky"
+    },
+    {
+      "slug": "golden-retriever-vs-poodle",
+      "breed_a": "golden-retriever",
+      "breed_b": "poodle"
+    },
+    {
+      "slug": "labrador-retriever-vs-poodle",
+      "breed_a": "labrador-retriever",
+      "breed_b": "poodle"
+    },
+    {
+      "slug": "poodle-vs-german-shepherd",
+      "breed_a": "poodle",
+      "breed_b": "german-shepherd"
+    },
+    {
+      "slug": "french-bulldog-vs-pug",
+      "breed_a": "french-bulldog",
+      "breed_b": "pug"
+    },
+    {
+      "slug": "golden-retriever-vs-beagle",
+      "breed_a": "golden-retriever",
+      "breed_b": "beagle"
+    },
+    {
+      "slug": "labrador-retriever-vs-boxer",
+      "breed_a": "labrador-retriever",
+      "breed_b": "boxer"
+    },
+    {
+      "slug": "golden-retriever-vs-boxer",
+      "breed_a": "golden-retriever",
+      "breed_b": "boxer"
+    },
+    {
+      "slug": "shih-tzu-vs-poodle",
+      "breed_a": "shih-tzu",
+      "breed_b": "poodle"
+    },
+    {
+      "slug": "yorkshire-terrier-vs-shih-tzu",
+      "breed_a": "yorkshire-terrier",
+      "breed_b": "shih-tzu"
+    },
+    {
+      "slug": "yorkshire-terrier-vs-bichon-frise",
+      "breed_a": "yorkshire-terrier",
+      "breed_b": "bichon-frise"
+    },
+    {
+      "slug": "pomeranian-vs-shih-tzu",
+      "breed_a": "pomeranian",
+      "breed_b": "shih-tzu"
+    },
+    {
+      "slug": "pomeranian-vs-maltese",
+      "breed_a": "pomeranian",
+      "breed_b": "maltese"
+    },
+    {
+      "slug": "pomeranian-vs-yorkshire-terrier",
+      "breed_a": "pomeranian",
+      "breed_b": "yorkshire-terrier"
+    },
+    {
+      "slug": "cavalier-king-charles-spaniel-vs-bichon-frise",
+      "breed_a": "cavalier-king-charles-spaniel",
+      "breed_b": "bichon-frise"
+    },
+    {
+      "slug": "cavalier-king-charles-spaniel-vs-shih-tzu",
+      "breed_a": "cavalier-king-charles-spaniel",
+      "breed_b": "shih-tzu"
+    },
+    {
+      "slug": "cavalier-king-charles-spaniel-vs-maltese",
+      "breed_a": "cavalier-king-charles-spaniel",
+      "breed_b": "maltese"
+    },
+    {
+      "slug": "corgi-vs-shih-tzu",
+      "breed_a": "corgi",
+      "breed_b": "shih-tzu"
+    },
+    {
+      "slug": "corgi-vs-beagle",
+      "breed_a": "corgi",
+      "breed_b": "beagle"
+    },
+    {
+      "slug": "corgi-vs-dachshund",
+      "breed_a": "corgi",
+      "breed_b": "dachshund"
+    },
+    {
+      "slug": "husky-vs-border-collie",
+      "breed_a": "husky",
+      "breed_b": "border-collie"
+    },
+    {
+      "slug": "husky-vs-golden-retriever",
+      "breed_a": "husky",
+      "breed_b": "golden-retriever"
+    },
+    {
+      "slug": "husky-vs-labrador-retriever",
+      "breed_a": "husky",
+      "breed_b": "labrador-retriever"
+    },
+    {
+      "slug": "rottweiler-vs-german-shepherd",
+      "breed_a": "rottweiler",
+      "breed_b": "german-shepherd"
+    },
+    {
+      "slug": "rottweiler-vs-labrador-retriever",
+      "breed_a": "rottweiler",
+      "breed_b": "labrador-retriever"
+    },
+    {
+      "slug": "doberman-pinscher-vs-cane-corso",
+      "breed_a": "doberman-pinscher",
+      "breed_b": "cane-corso"
+    },
+    {
+      "slug": "doberman-pinscher-vs-belgian-malinois",
+      "breed_a": "doberman-pinscher",
+      "breed_b": "belgian-malinois"
+    },
+    {
+      "slug": "border-collie-vs-german-shepherd",
+      "breed_a": "border-collie",
+      "breed_b": "german-shepherd"
+    },
+    {
+      "slug": "border-collie-vs-labrador-retriever",
+      "breed_a": "border-collie",
+      "breed_b": "labrador-retriever"
+    },
+    {
+      "slug": "miniature-schnauzer-vs-shih-tzu",
+      "breed_a": "miniature-schnauzer",
+      "breed_b": "shih-tzu"
+    },
+    {
+      "slug": "miniature-schnauzer-vs-yorkshire-terrier",
+      "breed_a": "miniature-schnauzer",
+      "breed_b": "yorkshire-terrier"
+    },
+    {
+      "slug": "miniature-schnauzer-vs-west-highland-white-terrier",
+      "breed_a": "miniature-schnauzer",
+      "breed_b": "west-highland-white-terrier"
+    },
+    {
+      "slug": "boxer-vs-german-shepherd",
+      "breed_a": "boxer",
+      "breed_b": "german-shepherd"
+    },
+    {
+      "slug": "boxer-vs-golden-retriever",
+      "breed_a": "boxer",
+      "breed_b": "golden-retriever"
+    },
+    {
+      "slug": "bernese-mountain-dog-vs-golden-retriever",
+      "breed_a": "bernese-mountain-dog",
+      "breed_b": "golden-retriever"
+    },
+    {
+      "slug": "bernese-mountain-dog-vs-labrador-retriever",
+      "breed_a": "bernese-mountain-dog",
+      "breed_b": "labrador-retriever"
+    },
+    {
+      "slug": "saint-bernard-vs-newfoundland",
+      "breed_a": "saint-bernard",
+      "breed_b": "newfoundland"
+    },
+    {
+      "slug": "newfoundland-vs-bernese-mountain-dog",
+      "breed_a": "newfoundland",
+      "breed_b": "bernese-mountain-dog"
+    },
+    {
+      "slug": "great-dane-vs-bernese-mountain-dog",
+      "breed_a": "great-dane",
+      "breed_b": "bernese-mountain-dog"
+    },
+    {
+      "slug": "pug-vs-chihuahua",
+      "breed_a": "pug",
+      "breed_b": "chihuahua"
+    },
+    {
+      "slug": "pug-vs-shih-tzu",
+      "breed_a": "pug",
+      "breed_b": "shih-tzu"
+    },
+    {
+      "slug": "pug-vs-pomeranian",
+      "breed_a": "pug",
+      "breed_b": "pomeranian"
+    },
+    {
+      "slug": "french-bulldog-vs-chihuahua",
+      "breed_a": "french-bulldog",
+      "breed_b": "chihuahua"
+    },
+    {
+      "slug": "french-bulldog-vs-shih-tzu",
+      "breed_a": "french-bulldog",
+      "breed_b": "shih-tzu"
+    },
+    {
+      "slug": "french-bulldog-vs-cavalier-king-charles-spaniel",
+      "breed_a": "french-bulldog",
+      "breed_b": "cavalier-king-charles-spaniel"
+    },
+    {
+      "slug": "dalmatian-vs-pointer",
+      "breed_a": "dalmatian",
+      "breed_b": "pointer"
+    },
+    {
+      "slug": "dalmatian-vs-beagle",
+      "breed_a": "dalmatian",
+      "breed_b": "beagle"
+    },
+    {
+      "slug": "whippet-vs-border-collie",
+      "breed_a": "whippet",
+      "breed_b": "border-collie"
+    },
+    {
+      "slug": "whippet-vs-labrador-retriever",
+      "breed_a": "whippet",
+      "breed_b": "labrador-retriever"
+    },
+    {
+      "slug": "australian-shepherd-vs-german-shepherd",
+      "breed_a": "australian-shepherd",
+      "breed_b": "german-shepherd"
+    },
+    {
+      "slug": "australian-shepherd-vs-golden-retriever",
+      "breed_a": "australian-shepherd",
+      "breed_b": "golden-retriever"
+    },
+    {
+      "slug": "australian-shepherd-vs-labrador-retriever",
+      "breed_a": "australian-shepherd",
+      "breed_b": "labrador-retriever"
+    },
+    {
+      "slug": "irish-wolfhound-vs-newfoundland",
+      "breed_a": "irish-wolfhound",
+      "breed_b": "newfoundland"
+    },
+    {
+      "slug": "leonberger-vs-saint-bernard",
+      "breed_a": "leonberger",
+      "breed_b": "saint-bernard"
+    },
+    {
+      "slug": "leonberger-vs-newfoundland",
+      "breed_a": "leonberger",
+      "breed_b": "newfoundland"
+    },
+    {
+      "slug": "portuguese-water-dog-vs-labrador-retriever",
+      "breed_a": "portuguese-water-dog",
+      "breed_b": "labrador-retriever"
+    },
+    {
+      "slug": "portuguese-water-dog-vs-golden-retriever",
+      "breed_a": "portuguese-water-dog",
+      "breed_b": "golden-retriever"
+    }
+  ],
+  "guides": [
+    {
+      "title": "Best Dog Food for Large Breeds",
+      "slug": "best-dog-food-large-breeds",
+      "description": "Complete guide to choosing the right food for large and giant breed dogs, covering nutrition needs, portion sizes, and top recommended brands."
+    },
+    {
+      "title": "Best Dog Food for Small Breeds",
+      "slug": "best-dog-food-small-breeds",
+      "description": "A comprehensive guide to feeding small and toy breed dogs, including calorie density requirements, kibble size considerations, and our top picks for miniature dogs."
+    },
+    {
+      "title": "Best Dog Food for Puppies",
+      "slug": "best-dog-food-puppies",
+      "description": "Everything you need to know about feeding a puppy from weaning through 12 months, including breed-size-specific formulas, feeding schedules, and what to look for on the label."
+    },
+    {
+      "title": "Best Dog Food for Senior Dogs",
+      "slug": "best-dog-food-senior-dogs",
+      "description": "A guide to feeding older dogs aged 7 and above, covering reduced calorie needs, joint-supporting nutrients, digestibility, and the best senior formulas on the market."
+    },
+    {
+      "title": "Your Puppy's First Year: Complete Month-by-Month Guide",
+      "slug": "puppy-first-year-guide",
+      "description": "A detailed month-by-month roadmap covering everything from bringing your puppy home at 8 weeks through their first birthday, including feeding, training, socialization, and vet milestones."
+    },
+    {
+      "title": "Senior Dog Care: A Complete Guide for Dogs 7+",
+      "slug": "senior-dog-care-guide",
+      "description": "How to support your ageing dog's health and happiness, covering veterinary check-ups, diet changes, exercise modifications, pain management, and quality of life decisions."
+    },
+    {
+      "title": "Dog Exercise Guide: How Much Exercise Does Your Dog Need?",
+      "slug": "dog-exercise-guide-how-much-exercise",
+      "description": "Breed-by-breed and age-by-age breakdown of daily exercise requirements for dogs, including high-energy working breeds, low-energy companion dogs, and everything in between."
+    },
+    {
+      "title": "Common Dog Health Problems: Symptoms, Causes and Treatment",
+      "slug": "common-dog-health-problems",
+      "description": "An owner's reference guide to the most frequently diagnosed canine health conditions, covering symptoms to watch for, causes, diagnosis, and treatment options."
+    },
+    {
+      "title": "Dog Grooming Guide: How to Groom Your Dog at Home",
+      "slug": "dog-grooming-guide-at-home",
+      "description": "Step-by-step instructions for grooming your dog at home, covering brushing, bathing, nail trimming, ear cleaning, and coat type-specific techniques."
+    },
+    {
+      "title": "How to Train a Dog: Beginner to Intermediate Guide",
+      "slug": "how-to-train-a-dog-beginners-guide",
+      "description": "A practical guide to dog training for new and intermediate owners, covering positive reinforcement techniques, essential commands, crate training, recall, and problem behaviours."
+    },
+    {
+      "title": "How to Choose the Right Dog Breed for Your Lifestyle",
+      "slug": "how-to-choose-right-dog-breed",
+      "description": "A practical framework for matching a dog breed to your living situation, activity level, family composition, and budget, with breed category breakdowns and a step-by-step decision guide."
+    },
+    {
+      "title": "Dog Vaccination Schedule: Puppy and Adult Vaccines Explained",
+      "slug": "dog-vaccination-schedule",
+      "description": "A complete guide to core and non-core dog vaccines, covering what each protects against, when to give them, booster intervals, and what to expect after vaccination."
+    },
+    {
+      "title": "Dog Dental Care Guide: How to Keep Your Dog's Teeth Healthy",
+      "slug": "dog-dental-care-guide",
+      "description": "Everything you need to know about dog dental health, from daily brushing techniques to signs of periodontal disease, dental diets, and professional cleaning under anaesthesia."
+    },
+    {
+      "title": "Dog Weight Management: How to Help an Overweight Dog Lose Weight",
+      "slug": "dog-weight-management-guide",
+      "description": "A vet-aligned guide to identifying obesity in dogs, calculating healthy body condition score, creating a safe calorie deficit, and choosing the best weight management dog food."
+    },
+    {
+      "title": "Dog Allergies: Symptoms, Causes, and Treatment Options",
+      "slug": "dog-allergies-guide",
+      "description": "A comprehensive guide to canine allergies — environmental, food-based, and contact — covering how to identify triggers, elimination diets, antihistamines, immunotherapy, and management strategies."
+    },
+    {
+      "title": "Joint Health in Dogs: Preventing and Managing Arthritis",
+      "slug": "dog-joint-health-arthritis-guide",
+      "description": "How to support your dog's joint health from puppyhood through old age, covering breed risk factors, early prevention, supplements, weight management, physiotherapy, and pain relief options."
+    },
+    {
+      "title": "Dog Anxiety: Causes, Signs, and How to Help",
+      "slug": "dog-anxiety-guide",
+      "description": "A practical guide to understanding and managing anxiety in dogs, covering separation anxiety, noise phobia, generalised anxiety, and treatment options from behavioural techniques to medication."
+    },
+    {
+      "title": "Travelling with Dogs: Car Trips, Holidays, and Flying",
+      "slug": "travelling-with-dogs-guide",
+      "description": "Everything dog owners need to know about travelling safely with their pet, from car safety restraints and motion sickness to pet passports, airline policies, and holiday accommodation."
+    },
+    {
+      "title": "Puppy Socialisation Guide: How to Raise a Confident Dog",
+      "slug": "puppy-socialisation-guide",
+      "description": "Why the socialisation window (3-14 weeks) is so critical, what experiences to expose your puppy to, and how to build a confident, well-adjusted adult dog through positive early experiences."
+    },
+    {
+      "title": "Dog Nutrition Basics: What Should Dogs Actually Eat?",
+      "slug": "dog-nutrition-basics-guide",
+      "description": "A science-based introduction to canine nutrition covering macronutrients, micronutrients, AAFCO and FEDIAF standards, raw feeding, grain-free diets, and how to read a dog food label."
+    },
+    {
+      "title": "Dog Skin and Coat Health: Causes of Dull Coat and Dry Skin",
+      "slug": "dog-skin-coat-health-guide",
+      "description": "How to achieve a glossy, healthy coat and address common skin issues in dogs, covering nutrition, omega fatty acids, bathing frequency, parasite control, and underlying health conditions."
+    },
+    {
+      "title": "Spaying and Neutering Dogs: What Owners Need to Know",
+      "slug": "spaying-neutering-dogs-guide",
+      "description": "A balanced guide to the benefits and risks of spaying and neutering dogs, covering optimal age by breed size, behavioural effects, health implications, and the recovery process."
+    },
+    {
+      "title": "Dog Parasite Prevention: Fleas, Ticks, and Worms",
+      "slug": "dog-parasite-prevention-guide",
+      "description": "A complete guide to protecting your dog from internal and external parasites, covering the parasite life cycles, how infestations spread, the best preventive products, and treatment protocols."
+    },
+    {
+      "title": "How to Introduce a New Dog to Your Home and Other Pets",
+      "slug": "introducing-new-dog-to-home",
+      "description": "Step-by-step guidance on bringing a new dog home and introducing them safely to resident dogs, cats, and children, covering the first hours, first week, and ongoing management."
+    },
+    {
+      "title": "Dog Insurance Guide: How to Choose the Right Policy",
+      "slug": "dog-insurance-guide",
+      "description": "A practical guide to choosing dog insurance in the UK, covering policy types, exclusions, lifetime vs annual cover, breed-specific health conditions, and how to make a claim."
+    },
+    {
+      "title": "Understanding Dog Body Language and Communication",
+      "slug": "dog-body-language-guide",
+      "description": "A visual and descriptive guide to reading dog body language, covering stress signals, play signals, fear and aggression cues, tail positions, ear positions, and vocalisations."
+    },
+    {
+      "title": "First Aid for Dogs: What Every Owner Should Know",
+      "slug": "dog-first-aid-guide",
+      "description": "Essential first aid knowledge for dog owners, covering how to handle emergencies including cuts and wounds, suspected poisoning, heat stroke, choking, fractures, and CPR."
+    },
+    {
+      "title": "Feeding Your Dog a Raw Diet: Benefits, Risks, and Getting Started",
+      "slug": "raw-dog-food-diet-guide",
+      "description": "A balanced look at raw feeding (BARF) for dogs, including the claimed benefits, food safety risks, how to create a nutritionally complete raw diet, and what the research actually says."
+    },
+    {
+      "title": "How to Stop a Dog Barking: Causes and Training Solutions",
+      "slug": "how-to-stop-dog-barking",
+      "description": "A practical guide to managing excessive barking in dogs, covering the main causes, proven training techniques, management strategies, and when to involve a professional behaviourist."
+    },
+    {
+      "title": "Hip Dysplasia in Dogs: Symptoms, Treatment, and Prevention",
+      "slug": "hip-dysplasia-in-dogs-guide",
+      "description": "A thorough owner's guide to canine hip dysplasia, covering which breeds are most at risk, how the condition develops, diagnosis through PennHIP and BVA scoring, and all treatment options."
+    }
+  ],
+  "toxic_foods": [
+    {
+      "name": "Chocolate",
+      "slug": "chocolate",
+      "toxicity_level": "high",
+      "toxic_compound": "Theobromine and caffeine",
+      "symptoms": [
+        "Vomiting",
+        "Diarrhea",
+        "Rapid breathing",
+        "Increased heart rate",
+        "Muscle tremors",
+        "Seizures",
+        "Death in severe cases"
+      ],
+      "dangerous_amount": "20mg theobromine per kg body weight causes toxicity; dark chocolate and baking chocolate are most dangerous (130-450mg/oz); milk chocolate has less (44-58mg/oz)",
+      "first_aid": "Contact vet immediately. Do not induce vomiting unless directed by a vet. The vet may administer activated charcoal.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Grapes and Raisins",
+      "slug": "grapes-raisins",
+      "toxicity_level": "high",
+      "toxic_compound": "Unknown — tartaric acid suspected",
+      "symptoms": [
+        "Vomiting",
+        "Diarrhea",
+        "Lethargy",
+        "Loss of appetite",
+        "Abdominal pain",
+        "Decreased urination",
+        "Acute kidney failure"
+      ],
+      "dangerous_amount": "Any amount can be toxic. No safe threshold has been established. Even a single grape has caused kidney failure in small dogs.",
+      "first_aid": "Contact vet or ASPCA Poison Control immediately. Do not wait for symptoms. Induced vomiting may be recommended if ingestion was recent.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Onions",
+      "slug": "onions",
+      "toxicity_level": "high",
+      "toxic_compound": "N-propyl disulfide and thiosulfates",
+      "symptoms": [
+        "Lethargy",
+        "Weakness",
+        "Reduced appetite",
+        "Pale gums",
+        "Fainting",
+        "Reddish urine",
+        "Hemolytic anemia"
+      ],
+      "dangerous_amount": "All forms toxic: raw, cooked, powdered, dehydrated. Toxic at 0.5% of body weight for a single ingestion; cumulative toxicity also occurs.",
+      "first_aid": "Contact vet. Induced vomiting if recent ingestion. Supportive care and potentially blood transfusions for severe anemia.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Garlic",
+      "slug": "garlic",
+      "toxicity_level": "high",
+      "toxic_compound": "Thiosulfates and disulfides",
+      "symptoms": [
+        "Lethargy",
+        "Weakness",
+        "Vomiting",
+        "Pale gums",
+        "Elevated heart rate",
+        "Hemolytic anemia",
+        "Collapse"
+      ],
+      "dangerous_amount": "More toxic than onions on a per-weight basis. Toxic dose approximately 15-30g per kg body weight. All forms (raw, cooked, powdered) are dangerous.",
+      "first_aid": "Contact vet immediately. Inducing vomiting may help if ingestion was recent. Blood tests to monitor for anemia.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Xylitol",
+      "slug": "xylitol",
+      "toxicity_level": "severe",
+      "toxic_compound": "Xylitol (sugar alcohol)",
+      "symptoms": [
+        "Sudden vomiting",
+        "Loss of coordination",
+        "Lethargy",
+        "Seizures",
+        "Hypoglycemia within 30-60 minutes",
+        "Liver failure within 12-24 hours"
+      ],
+      "dangerous_amount": "0.1g per kg causes hypoglycemia; 0.5g per kg may cause liver failure. Found in sugar-free gum, candy, peanut butter, baked goods, and some medications.",
+      "first_aid": "EMERGENCY — contact vet or animal poison control immediately. Do not induce vomiting. Requires urgent intravenous dextrose and liver monitoring.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Avocado",
+      "slug": "avocado",
+      "toxicity_level": "moderate",
+      "toxic_compound": "Persin",
+      "symptoms": [
+        "Vomiting",
+        "Diarrhea",
+        "Difficulty breathing",
+        "Fluid accumulation around heart",
+        "Myocardial damage in severe cases"
+      ],
+      "dangerous_amount": "The leaves, bark, skin, and pit contain the highest persin concentration. The flesh is lower risk but still not safe in large quantities. Guatemalan variety is most toxic.",
+      "first_aid": "Contact vet. Monitor for respiratory distress or cardiac symptoms. Pit ingestion also poses a choking and intestinal blockage hazard.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Macadamia Nuts",
+      "slug": "macadamia-nuts",
+      "toxicity_level": "high",
+      "toxic_compound": "Unknown",
+      "symptoms": [
+        "Weakness",
+        "Hyperthermia",
+        "Vomiting",
+        "Tremors",
+        "Inability to walk",
+        "Lethargy"
+      ],
+      "dangerous_amount": "As few as 2.4g per kg body weight can cause symptoms. Symptoms typically appear within 12 hours of ingestion.",
+      "first_aid": "Contact vet. Supportive care including IV fluids and temperature management. Most dogs recover within 24-48 hours with treatment.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Alcohol",
+      "slug": "alcohol",
+      "toxicity_level": "high",
+      "toxic_compound": "Ethanol",
+      "symptoms": [
+        "Vomiting",
+        "Disorientation",
+        "Breathing difficulties",
+        "Dangerously low blood sugar",
+        "Seizures",
+        "Coma",
+        "Death"
+      ],
+      "dangerous_amount": "Dogs are far more sensitive to ethanol than humans. Even small amounts of beer, wine, or spirits can cause serious harm. Sugar-free alcoholic drinks pose additional xylitol risk.",
+      "first_aid": "Contact vet immediately. Treatment includes IV fluids, temperature regulation, and monitoring blood glucose and respiratory function.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Caffeine",
+      "slug": "caffeine",
+      "toxicity_level": "high",
+      "toxic_compound": "Caffeine and methylxanthines",
+      "symptoms": [
+        "Restlessness",
+        "Rapid breathing",
+        "Muscle tremors",
+        "Increased heart rate",
+        "Seizures",
+        "Bleeding",
+        "Death"
+      ],
+      "dangerous_amount": "Toxic dose approximately 140mg per kg. Sources include coffee, tea, energy drinks, diet pills, some medications, and cocoa. Even coffee grounds or tea bags are dangerous.",
+      "first_aid": "Contact vet immediately. Induced vomiting if recent ingestion. Supportive care with IV fluids and medications to control heart rate and seizures.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Raw Yeast Dough",
+      "slug": "raw-yeast-dough",
+      "toxicity_level": "high",
+      "toxic_compound": "Ethanol (produced by yeast fermentation) and carbon dioxide gas",
+      "symptoms": [
+        "Bloating",
+        "Abdominal distension",
+        "Severe pain",
+        "Disorientation",
+        "Vomiting",
+        "Seizures",
+        "Cardiovascular collapse"
+      ],
+      "dangerous_amount": "Any amount is dangerous. Dough expands in the warm stomach, causing gas and ethanol production. Even small amounts can cause gastric dilatation volvulus (GDV).",
+      "first_aid": "EMERGENCY — contact vet immediately. May require surgery. IV fluids and ethanol treatment. Do not try to make the dog vomit.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Cooked Bones",
+      "slug": "cooked-bones",
+      "toxicity_level": "moderate",
+      "toxic_compound": "Physical hazard — no toxic compound",
+      "symptoms": [
+        "Choking",
+        "Mouth or throat lacerations",
+        "Constipation",
+        "Intestinal blockage",
+        "Internal perforation",
+        "Peritonitis"
+      ],
+      "dangerous_amount": "Any cooked bone is a hazard. Cooking makes bones brittle, causing them to splinter into sharp shards. Chicken, pork, and fish bones are especially dangerous.",
+      "first_aid": "Monitor closely for choking, pain, blood in stool, or vomiting. Contact vet immediately if any symptoms appear. May require endoscopy or surgery to remove fragments.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Salt and Salty Snacks",
+      "slug": "salt",
+      "toxicity_level": "moderate",
+      "toxic_compound": "Sodium",
+      "symptoms": [
+        "Excessive thirst",
+        "Frequent urination",
+        "Vomiting",
+        "Diarrhea",
+        "Lethargy",
+        "Muscle tremors",
+        "Seizures",
+        "Death"
+      ],
+      "dangerous_amount": "Toxic at approximately 4g of salt per kg body weight. Chips, pretzels, popcorn, and salted crackers can accumulate to harmful levels, especially in small dogs.",
+      "first_aid": "Provide plenty of fresh water and contact vet. IV fluids may be needed for sodium ion poisoning. Monitor sodium levels carefully.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Nutmeg",
+      "slug": "nutmeg",
+      "toxicity_level": "moderate",
+      "toxic_compound": "Myristicin",
+      "symptoms": [
+        "Disorientation",
+        "Increased heart rate",
+        "High blood pressure",
+        "Dry mouth",
+        "Seizures",
+        "Hallucinations"
+      ],
+      "dangerous_amount": "One to two teaspoons can cause toxicity. Commonly found in baked goods, eggnog, and spice blends. Small amounts may only cause mild upset.",
+      "first_aid": "Contact vet if more than a small amount was ingested. Supportive care for heart rate and neurological symptoms.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Cherries",
+      "slug": "cherries",
+      "toxicity_level": "moderate",
+      "toxic_compound": "Cyanide (in pits, leaves, and stems)",
+      "symptoms": [
+        "Difficulty breathing",
+        "Dilated pupils",
+        "Bright red gums",
+        "Shock",
+        "Cyanide poisoning from large quantities"
+      ],
+      "dangerous_amount": "The flesh itself is not highly toxic, but the pit, stem, and leaves contain cyanide. A few pits can cause poisoning, particularly in small dogs.",
+      "first_aid": "Contact vet if pits were consumed. Monitor for signs of respiratory distress or shock. Cyanide poisoning requires immediate veterinary treatment.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Green Tomatoes and Tomato Plants",
+      "slug": "green-tomatoes",
+      "toxicity_level": "low",
+      "toxic_compound": "Solanine (tomatine) and atropine",
+      "symptoms": [
+        "Gastrointestinal distress",
+        "Vomiting",
+        "Diarrhea",
+        "Lethargy",
+        "Weakness",
+        "Confusion",
+        "Cardiac effects in high doses"
+      ],
+      "dangerous_amount": "Ripe tomato flesh is generally safe in small amounts, but unripe tomatoes and all parts of the tomato plant are toxic. Stems and leaves are most concentrated.",
+      "first_aid": "Contact vet if the dog ate plant material or unripe tomatoes. Supportive care for GI symptoms.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Raw Potatoes",
+      "slug": "raw-potatoes",
+      "toxicity_level": "low",
+      "toxic_compound": "Solanine",
+      "symptoms": [
+        "Vomiting",
+        "Diarrhea",
+        "Lethargy",
+        "Weakness",
+        "Confusion"
+      ],
+      "dangerous_amount": "Green, unripe, or raw potatoes and potato plant leaves contain solanine. Cooked plain potatoes are generally safe in small amounts.",
+      "first_aid": "Contact vet if large amounts of green or raw potato were eaten. Monitor for neurological and GI symptoms.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Mushrooms (Wild)",
+      "slug": "wild-mushrooms",
+      "toxicity_level": "severe",
+      "toxic_compound": "Varies by species — amatoxins, muscarine, ibotenic acid, and others",
+      "symptoms": [
+        "Vomiting",
+        "Diarrhea",
+        "Abdominal pain",
+        "Salivation",
+        "Weakness",
+        "Liver failure",
+        "Kidney failure",
+        "Seizures",
+        "Coma"
+      ],
+      "dangerous_amount": "Some wild mushroom species are deadly in very small amounts. Amanita phalloides (death cap) is extremely toxic. Avoid all wild mushrooms.",
+      "first_aid": "EMERGENCY — contact vet or poison control immediately. If possible, take a photo or sample of the mushroom. Induced vomiting and activated charcoal may be used.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Rhubarb",
+      "slug": "rhubarb",
+      "toxicity_level": "moderate",
+      "toxic_compound": "Oxalic acid and soluble oxalates",
+      "symptoms": [
+        "Drooling",
+        "Vomiting",
+        "Diarrhea",
+        "Lethargy",
+        "Weakness",
+        "Tremors",
+        "Bloody urine",
+        "Changes in thirst and urination"
+      ],
+      "dangerous_amount": "The leaves contain the highest concentration and are most toxic. The stalk is lower risk but still not recommended. Can cause kidney failure in large amounts.",
+      "first_aid": "Contact vet. Rinse mouth with water. IV fluids may be needed to protect kidney function.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Walnuts",
+      "slug": "walnuts",
+      "toxicity_level": "moderate",
+      "toxic_compound": "Juglone (black walnuts) and mold toxins (mycotoxins)",
+      "symptoms": [
+        "Vomiting",
+        "Tremors",
+        "Seizures",
+        "Weakness",
+        "Elevated temperature"
+      ],
+      "dangerous_amount": "Black walnuts and mouldy walnuts are especially dangerous. Regular English walnuts are less toxic but still not recommended due to high fat content and potential mold.",
+      "first_aid": "Contact vet. Monitor for tremors or seizures. Treatment may include induced vomiting, activated charcoal, and anticonvulsant medications.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Pecans",
+      "slug": "pecans",
+      "toxicity_level": "moderate",
+      "toxic_compound": "Juglone and mycotoxins",
+      "symptoms": [
+        "Vomiting",
+        "Diarrhea",
+        "Gastrointestinal upset",
+        "Tremors",
+        "Seizures if mouldy"
+      ],
+      "dangerous_amount": "Not recommended in any amount. High fat content can cause pancreatitis. Mouldy pecans can produce tremor-causing mycotoxins.",
+      "first_aid": "Contact vet if significant amount consumed, especially if mouldy. Monitor for GI distress and neurological symptoms.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Almonds",
+      "slug": "almonds",
+      "toxicity_level": "low",
+      "toxic_compound": "No specific toxin — mechanical and gastrointestinal hazard",
+      "symptoms": [
+        "Vomiting",
+        "Diarrhea",
+        "Gas",
+        "Lethargy",
+        "Potential pancreatitis from high fat",
+        "Obstruction risk"
+      ],
+      "dangerous_amount": "Not acutely toxic like grapes, but the high fat and salt content in processed almonds causes GI upset. Whole almonds pose a choking hazard and can obstruct the intestine.",
+      "first_aid": "Monitor for GI symptoms. Contact vet if the dog ate many almonds or shows signs of pancreatitis (vomiting, abdominal pain, lethargy).",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Apple Seeds",
+      "slug": "apple-seeds",
+      "toxicity_level": "low",
+      "toxic_compound": "Amygdalin (converted to cyanide)",
+      "symptoms": [
+        "Vomiting",
+        "Diarrhea",
+        "Difficulty breathing",
+        "Dilated pupils",
+        "Shock (large quantities)"
+      ],
+      "dangerous_amount": "A few seeds are unlikely to cause harm. Chronic consumption or large amounts can release enough cyanide to cause poisoning. Apple flesh is safe.",
+      "first_aid": "Contact vet if large number of seeds were consumed. The apple flesh is safe to feed in moderation.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Peach Pits",
+      "slug": "peach-pits",
+      "toxicity_level": "moderate",
+      "toxic_compound": "Amygdalin (cyanide precursor) and physical obstruction hazard",
+      "symptoms": [
+        "Choking",
+        "Intestinal obstruction",
+        "Dilated pupils",
+        "Difficulty breathing",
+        "Shock from cyanide in large amounts"
+      ],
+      "dangerous_amount": "The flesh is generally safe in small amounts. The pit is dangerous both as a physical obstruction and as a source of cyanide. Wilted peach leaves are also toxic.",
+      "first_aid": "Contact vet if pit was swallowed. May require endoscopy or surgery. Monitor for cyanide symptoms if the pit was chewed.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Plum Pits",
+      "slug": "plum-pits",
+      "toxicity_level": "moderate",
+      "toxic_compound": "Amygdalin (cyanide precursor)",
+      "symptoms": [
+        "Choking",
+        "Vomiting",
+        "Laboured breathing",
+        "Dilated pupils",
+        "Brick red mucous membranes",
+        "Shock"
+      ],
+      "dangerous_amount": "The pit, stem, and leaves contain cyanide compounds. Flesh is generally safe in small amounts. Pits also pose intestinal obstruction risk.",
+      "first_aid": "Contact vet if pit was ingested. Monitor for cyanide poisoning symptoms. May require surgery for obstruction.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Lemons and Limes",
+      "slug": "lemons-limes",
+      "toxicity_level": "low",
+      "toxic_compound": "Psoralen compounds and essential oils (limonene, linalool)",
+      "symptoms": [
+        "Vomiting",
+        "Diarrhea",
+        "Drooling",
+        "Skin rash",
+        "Photosensitivity",
+        "Lethargy",
+        "Weakness"
+      ],
+      "dangerous_amount": "The fruit flesh causes GI upset. The peel, seeds, and plant parts (leaves, stems) contain higher concentrations of toxic compounds.",
+      "first_aid": "Most dogs will vomit on their own. Contact vet if skin reactions or neurological symptoms develop.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Grapefruits",
+      "slug": "grapefruits",
+      "toxicity_level": "low",
+      "toxic_compound": "Psoralen compounds and essential oils",
+      "symptoms": [
+        "Vomiting",
+        "Diarrhea",
+        "Skin irritation",
+        "Photosensitivity"
+      ],
+      "dangerous_amount": "Skin and seeds are more toxic than the flesh. Large amounts of peel are the main concern.",
+      "first_aid": "Contact vet if more than a small amount was consumed. Generally self-limiting GI symptoms.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Currants",
+      "slug": "currants",
+      "toxicity_level": "high",
+      "toxic_compound": "Unknown — suspected similar mechanism to grapes",
+      "symptoms": [
+        "Vomiting",
+        "Diarrhea",
+        "Lethargy",
+        "Loss of appetite",
+        "Acute kidney failure"
+      ],
+      "dangerous_amount": "All types of currants (black, red, white) are suspected to carry similar toxicity to grapes. No safe threshold known.",
+      "first_aid": "Treat as a grape/raisin emergency. Contact vet immediately. Induced vomiting if recent ingestion.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Chives",
+      "slug": "chives",
+      "toxicity_level": "moderate",
+      "toxic_compound": "Organosulfur compounds",
+      "symptoms": [
+        "Lethargy",
+        "Vomiting",
+        "Diarrhea",
+        "Pale gums",
+        "Rapid heart rate",
+        "Hemolytic anemia"
+      ],
+      "dangerous_amount": "Member of the Allium family alongside onion and garlic. All forms (fresh, dried, cooked) are toxic. Toxic at similar thresholds to onion (0.5% body weight).",
+      "first_aid": "Contact vet. Blood work to check for anemia. Supportive care.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Leeks",
+      "slug": "leeks",
+      "toxicity_level": "moderate",
+      "toxic_compound": "Organosulfur compounds (thiosulfates)",
+      "symptoms": [
+        "Lethargy",
+        "Vomiting",
+        "Diarrhea",
+        "Pale gums",
+        "Elevated heart rate",
+        "Hemolytic anemia"
+      ],
+      "dangerous_amount": "Part of the Allium family. Toxic in all forms. Less commonly consumed by dogs but dangerous at similar levels to onion.",
+      "first_aid": "Contact vet. Blood tests to monitor red blood cell damage. Supportive care or transfusion if severe anemia.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Shallots",
+      "slug": "shallots",
+      "toxicity_level": "high",
+      "toxic_compound": "Organosulfur compounds — more concentrated than onion",
+      "symptoms": [
+        "Lethargy",
+        "Weakness",
+        "Vomiting",
+        "Diarrhea",
+        "Pale gums",
+        "Hemolytic anemia"
+      ],
+      "dangerous_amount": "More potent than regular onions. All forms toxic. A smaller quantity can cause the same degree of toxicity as a larger amount of onion.",
+      "first_aid": "Contact vet immediately. Same treatment protocol as onion toxicity.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Tobacco and Nicotine Products",
+      "slug": "tobacco-nicotine",
+      "toxicity_level": "severe",
+      "toxic_compound": "Nicotine",
+      "symptoms": [
+        "Vomiting",
+        "Tremors",
+        "Seizures",
+        "Rapid heart rate",
+        "Collapse",
+        "Death"
+      ],
+      "dangerous_amount": "Toxic at 0.5-1mg nicotine per kg. Cigarettes contain 9-30mg of nicotine each. E-cigarette liquid (vape juice) is especially dangerous as it contains concentrated nicotine.",
+      "first_aid": "EMERGENCY — contact vet or poison control immediately. Induced vomiting if directed. Treatment for seizures and cardiac symptoms.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Marijuana / Cannabis",
+      "slug": "cannabis",
+      "toxicity_level": "moderate",
+      "toxic_compound": "THC (delta-9-tetrahydrocannabinol)",
+      "symptoms": [
+        "Lethargy",
+        "Loss of coordination",
+        "Glassy eyes",
+        "Drooling",
+        "Vomiting",
+        "Urinary incontinence",
+        "Tremors",
+        "Coma"
+      ],
+      "dangerous_amount": "Dogs are more sensitive to THC than humans. Edibles containing chocolate or xylitol pose a compounded risk. CBD alone is lower risk but still not proven safe.",
+      "first_aid": "Contact vet. Be honest about exposure — vets are not required to report this. Supportive care is the main treatment.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Hops",
+      "slug": "hops",
+      "toxicity_level": "high",
+      "toxic_compound": "Unknown compound — causes malignant hyperthermia",
+      "symptoms": [
+        "Rapid panting",
+        "High fever (up to 107°F)",
+        "Restlessness",
+        "Seizures",
+        "Death"
+      ],
+      "dangerous_amount": "Used in home beer brewing. Even small amounts of spent or dried hops can be deadly. Certain breeds (Greyhounds, Labrador Retrievers) may be especially sensitive.",
+      "first_aid": "EMERGENCY — contact vet immediately. Requires aggressive cooling and supportive care. Rapid fatality possible.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Yeast Extract (Marmite / Vegemite)",
+      "slug": "yeast-extract",
+      "toxicity_level": "low",
+      "toxic_compound": "Very high sodium content",
+      "symptoms": [
+        "Excessive thirst",
+        "Vomiting",
+        "Diarrhea",
+        "Sodium ion toxicity in large amounts"
+      ],
+      "dangerous_amount": "Not acutely toxic in small amounts but the extremely high salt content makes it unsafe in any meaningful quantity, especially for small dogs.",
+      "first_aid": "Provide fresh water. Contact vet if large amounts consumed. Monitor for signs of sodium toxicity.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Nutmeg (large quantities)",
+      "slug": "nutmeg-large",
+      "toxicity_level": "moderate",
+      "toxic_compound": "Myristicin",
+      "symptoms": [
+        "Hallucinations",
+        "Disorientation",
+        "Increased heart rate",
+        "High blood pressure",
+        "Abdominal pain",
+        "Seizures"
+      ],
+      "dangerous_amount": "Trace amounts in baked goods unlikely to cause harm. 1-2 teaspoons of nutmeg is toxic for most dogs. Ground nutmeg in a shared dessert warrants monitoring.",
+      "first_aid": "Contact vet if more than a small pinch was ingested. Supportive care for cardiac and neurological symptoms.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Corn Cobs",
+      "slug": "corn-cobs",
+      "toxicity_level": "moderate",
+      "toxic_compound": "Physical obstruction hazard — no toxic compound",
+      "symptoms": [
+        "Vomiting",
+        "Lethargy",
+        "Loss of appetite",
+        "Abdominal pain",
+        "Straining to defecate",
+        "Intestinal blockage"
+      ],
+      "dangerous_amount": "Corn kernels are safe for dogs. The cob is the danger — its fibrous, dense texture resists digestion and can cause a life-threatening intestinal obstruction.",
+      "first_aid": "Contact vet immediately if a cob or large piece was swallowed. Often requires endoscopy or surgery to remove.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Fruit Stones and Pits (General)",
+      "slug": "fruit-pits",
+      "toxicity_level": "moderate",
+      "toxic_compound": "Amygdalin (cyanide precursor) and physical obstruction",
+      "symptoms": [
+        "Choking",
+        "Intestinal obstruction",
+        "Vomiting",
+        "Lethargy",
+        "Signs of cyanide poisoning if chewed"
+      ],
+      "dangerous_amount": "Applies to apricot, cherry, mango, and plum pits. Physical blockage risk from any large pit. Cyanide risk if the pit is crushed or chewed.",
+      "first_aid": "Contact vet if a pit was swallowed. X-ray may be needed to assess blockage. Monitor for cyanide symptoms.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Milk and Dairy (in excess)",
+      "slug": "dairy",
+      "toxicity_level": "low",
+      "toxic_compound": "Lactose",
+      "symptoms": [
+        "Diarrhea",
+        "Loose stools",
+        "Flatulence",
+        "Vomiting",
+        "Abdominal discomfort"
+      ],
+      "dangerous_amount": "Most adult dogs are lactose intolerant to varying degrees. Small amounts of plain yogurt or hard cheese may be tolerated, but milk and ice cream commonly cause GI upset.",
+      "first_aid": "Not a poison emergency. Provide water and bland diet. Contact vet if diarrhea is severe or prolonged.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Ice Cream",
+      "slug": "ice-cream",
+      "toxicity_level": "low",
+      "toxic_compound": "Lactose and sugar; xylitol in sugar-free varieties",
+      "symptoms": [
+        "Vomiting",
+        "Diarrhea",
+        "Bloating",
+        "Xylitol poisoning if sugar-free"
+      ],
+      "dangerous_amount": "Regular ice cream is a GI irritant due to dairy and sugar. Sugar-free varieties may contain xylitol, which is severely toxic.",
+      "first_aid": "Check the label for xylitol. If present, treat as xylitol emergency. Otherwise, monitor for GI symptoms and provide water.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Chewing Gum (Sugar-Free)",
+      "slug": "sugar-free-gum",
+      "toxicity_level": "severe",
+      "toxic_compound": "Xylitol",
+      "symptoms": [
+        "Vomiting",
+        "Lethargy",
+        "Seizures",
+        "Hypoglycemia",
+        "Liver failure"
+      ],
+      "dangerous_amount": "Just a few sticks of xylitol-containing gum can be fatal for small dogs. Brands including Trident, Extra, and Orbit commonly contain xylitol.",
+      "first_aid": "EMERGENCY — contact vet immediately. Do not wait for symptoms. Requires IV dextrose and liver monitoring.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Peanut Butter (with Xylitol)",
+      "slug": "peanut-butter-xylitol",
+      "toxicity_level": "severe",
+      "toxic_compound": "Xylitol",
+      "symptoms": [
+        "Vomiting",
+        "Weakness",
+        "Hypoglycemia",
+        "Seizures",
+        "Liver failure"
+      ],
+      "dangerous_amount": "Several popular and store-brand peanut butter products use xylitol as a sweetener. Always read the label. Regular unsalted peanut butter is generally safe.",
+      "first_aid": "EMERGENCY if xylitol is listed. Contact vet immediately. Check the label before giving any peanut butter product.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Mouldy Food",
+      "slug": "mouldy-food",
+      "toxicity_level": "high",
+      "toxic_compound": "Mycotoxins (tremorgenic mycotoxins from Penicillium and Aspergillus molds)",
+      "symptoms": [
+        "Tremors",
+        "Seizures",
+        "Vomiting",
+        "Drooling",
+        "Elevated temperature",
+        "Incoordination"
+      ],
+      "dangerous_amount": "Any mouldy food is dangerous. Blue cheese, mouldy bread, spoiled nuts, and compost scraps are common culprits. Effects can be rapid and severe.",
+      "first_aid": "Contact vet or poison control immediately. Induced vomiting may be appropriate if very recent. Anticonvulsants for seizures. IV fluids for support.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Raw Meat with Listeria / Salmonella",
+      "slug": "raw-meat-bacteria",
+      "toxicity_level": "moderate",
+      "toxic_compound": "Salmonella spp., Listeria monocytogenes",
+      "symptoms": [
+        "Vomiting",
+        "Diarrhea",
+        "Fever",
+        "Lethargy",
+        "Loss of appetite",
+        "Potentially serious systemic infection"
+      ],
+      "dangerous_amount": "Risk varies by source and handling. Puppies, elderly dogs, immunocompromised dogs, and households with young children or pregnant women are at highest risk.",
+      "first_aid": "Contact vet if dog shows signs of illness. Note that infected dogs can shed Salmonella to humans without appearing ill. Hand washing is critical.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Coffee Grounds",
+      "slug": "coffee-grounds",
+      "toxicity_level": "high",
+      "toxic_compound": "Caffeine",
+      "symptoms": [
+        "Restlessness",
+        "Rapid breathing",
+        "Muscle tremors",
+        "Elevated heart rate",
+        "Seizures"
+      ],
+      "dangerous_amount": "Coffee grounds contain highly concentrated caffeine. Even a small amount of grounds can be dangerous to a small dog. Instant coffee is also highly concentrated.",
+      "first_aid": "Contact vet immediately. Induced vomiting if very recent. IV fluids and cardiac monitoring.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Tea (strong or large amounts)",
+      "slug": "tea",
+      "toxicity_level": "low",
+      "toxic_compound": "Caffeine and tannins",
+      "symptoms": [
+        "Restlessness",
+        "Vomiting",
+        "Elevated heart rate",
+        "Tremors"
+      ],
+      "dangerous_amount": "A small accidental lick of cooled tea is unlikely to cause harm, but larger amounts and especially tea bags (concentrated caffeine) are concerning.",
+      "first_aid": "Contact vet if a significant amount of tea or a tea bag was consumed. Monitor for caffeine toxicity symptoms.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Energy Drinks",
+      "slug": "energy-drinks",
+      "toxicity_level": "high",
+      "toxic_compound": "Caffeine, taurine, and other stimulants",
+      "symptoms": [
+        "Rapid heart rate",
+        "Muscle tremors",
+        "Seizures",
+        "Vomiting",
+        "Collapse"
+      ],
+      "dangerous_amount": "Even a small amount is very dangerous due to high caffeine concentration. Some energy drinks also contain xylitol.",
+      "first_aid": "Contact vet immediately. Check label for xylitol. Treat as caffeine emergency.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Xylitol in Medications",
+      "slug": "xylitol-medications",
+      "toxicity_level": "severe",
+      "toxic_compound": "Xylitol",
+      "symptoms": [
+        "Hypoglycemia",
+        "Vomiting",
+        "Lethargy",
+        "Seizures",
+        "Liver failure"
+      ],
+      "dangerous_amount": "Found in some chewable vitamins, liquid medications, nasal sprays, and throat lozenges. Always check inactive ingredients before giving any human product to a dog.",
+      "first_aid": "EMERGENCY — contact vet or ASPCA Poison Control. Requires immediate blood glucose monitoring and IV dextrose.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Baking Powder",
+      "slug": "baking-powder",
+      "toxicity_level": "moderate",
+      "toxic_compound": "Sodium bicarbonate and potassium bitartrate",
+      "symptoms": [
+        "Vomiting",
+        "Diarrhea",
+        "Muscle tremors",
+        "Congestive heart failure",
+        "Electrolyte imbalance"
+      ],
+      "dangerous_amount": "Toxic at approximately 10-20g per kg. A small dog eating raw cookie dough or unbaked goods could ingest a dangerous amount.",
+      "first_aid": "Contact vet. Monitor electrolyte levels. IV fluids for serious cases.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Baking Soda (large amounts)",
+      "slug": "baking-soda",
+      "toxicity_level": "moderate",
+      "toxic_compound": "Sodium bicarbonate",
+      "symptoms": [
+        "Vomiting",
+        "Diarrhea",
+        "Muscle tremors",
+        "Spasms",
+        "Congestive heart failure"
+      ],
+      "dangerous_amount": "Toxic dose approximately 10-20g per kg. Not dangerous in trace amounts in cooked food, but concerning if a dog eats raw dough or spilled quantities.",
+      "first_aid": "Contact vet if more than a trivial amount was consumed. Monitor for electrolyte imbalance.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Blue-Green Algae (water)",
+      "slug": "blue-green-algae",
+      "toxicity_level": "severe",
+      "toxic_compound": "Cyanotoxins (microcystins, anatoxins)",
+      "symptoms": [
+        "Vomiting",
+        "Diarrhea",
+        "Weakness",
+        "Seizures",
+        "Liver failure",
+        "Respiratory paralysis",
+        "Death within hours"
+      ],
+      "dangerous_amount": "Any contact or ingestion is an emergency. Found in warm, stagnant ponds and lakes in summer. Even licking fur after swimming in affected water can be fatal.",
+      "first_aid": "EMERGENCY — contact vet immediately. Rinse dog with clean water if it swam in suspected bloom. There is no antidote; treatment is supportive.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Human Vitamins with Iron",
+      "slug": "iron-vitamins",
+      "toxicity_level": "moderate",
+      "toxic_compound": "Iron (ferrous sulphate)",
+      "symptoms": [
+        "Vomiting",
+        "Diarrhea",
+        "Lethargy",
+        "Abdominal pain",
+        "Bloody stool",
+        "Liver damage"
+      ],
+      "dangerous_amount": "Iron toxicity occurs at approximately 20mg per kg. Prenatal vitamins contain particularly high iron levels. Keep all human vitamins away from dogs.",
+      "first_aid": "Contact vet or poison control. Induced vomiting if recent. May require chelation therapy for serious cases.",
+      "source": "ASPCA"
+    },
+    {
+      "name": "Ibuprofen and NSAIDs",
+      "slug": "ibuprofen-nsaids",
+      "toxicity_level": "severe",
+      "toxic_compound": "Ibuprofen, naproxen, and related NSAIDs",
+      "symptoms": [
+        "Vomiting",
+        "Diarrhea",
+        "Bloody stool",
+        "Lethargy",
+        "Kidney failure",
+        "Stomach ulcers",
+        "Seizures"
+      ],
+      "dangerous_amount": "Ibuprofen is toxic at as little as 25mg per kg. A single standard 200mg tablet can cause toxicity in a small dog. Never give human pain medication to dogs.",
+      "first_aid": "EMERGENCY — contact vet or poison control immediately. Induced vomiting, activated charcoal, IV fluids, and kidney monitoring required.",
+      "source": "ASPCA"
+    }
+  ]
+}

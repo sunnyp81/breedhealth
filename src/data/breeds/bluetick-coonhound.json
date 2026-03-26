@@ -1,0 +1,156 @@
+{
+  "name": "Bluetick Coonhound",
+  "slug": "bluetick-coonhound",
+  "group": "Hound",
+  "size": "large",
+  "weight_min_kg": 20,
+  "weight_max_kg": 36,
+  "height_min_cm": 53,
+  "height_max_cm": 68,
+  "lifespan_min": 11,
+  "lifespan_max": 12,
+  "temperament": [
+    "clever",
+    "devoted",
+    "active",
+    "friendly"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "ear-infections",
+    "polyradiculoneuritis",
+    "gastric-dilatation-volvulus"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 1,
+  "shedding_level": 2,
+  "trainability": 2,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 143,
+  "origin": "United States",
+  "coat_type": "smooth",
+  "coat_colors": [
+    "blue-ticked",
+    "blue-ticked-and-tan"
+  ],
+  "description": "The Bluetick Coonhound is a striking American breed named for its distinctive dark blue mottled coat pattern. Bred to cold-trail and tree raccoons and other game, they possess outstanding scenting ability and relentless determination on the hunt. Devoted and affectionate with their families, they are tenacious working dogs that require experienced handling and ample daily exercise to keep them from becoming destructive.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Gastric Dilatation-Volvulus (GDV / Bloat)",
+      "slug": "gastric-dilatation-volvulus",
+      "category": "Gastrointestinal",
+      "description": "GDV is a life-threatening emergency in which the stomach fills with gas and rotates on its axis, trapping gas, cutting off blood supply, and causing rapid circulatory shock. It can kill within hours without emergency surgery.",
+      "symptoms": [
+        "Distended abdomen",
+        "Unproductive retching",
+        "Restlessness and pain",
+        "Excessive salivation",
+        "Rapid breathing",
+        "Collapse"
+      ],
+      "severity": "high",
+      "treatment_overview": "Emergency stabilisation with IV fluids and gastric decompression, followed by immediate surgical detorsion and gastropexy. Prophylactic gastropexy is strongly recommended at the time of neutering for high-risk breeds.",
+      "prevention_tips": [
+        "Prophylactic gastropexy in at-risk breeds",
+        "Feed two smaller meals per day",
+        "Avoid vigorous exercise 1 hour before and after meals",
+        "Avoid raised food bowls (evidence is mixed)"
+      ],
+      "affected_breeds": [
+        "great-dane",
+        "standard-poodle",
+        "german-shepherd",
+        "gordon-setter",
+        "irish-setter",
+        "weimaraner"
+      ],
+      "typical_onset": "3-7 years",
+      "hereditary": false,
+      "estimated_treatment_cost": "£4,000-£8,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Rhodesian Ridgeback",
+      "slug": "rhodesian-ridgeback",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Bloodhound",
+      "slug": "bloodhound",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Whippet",
+      "slug": "whippet",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Borzoi",
+      "slug": "borzoi",
+      "size": "large",
+      "group": "Hound"
+    }
+  ],
+  "comparisons": []
+}

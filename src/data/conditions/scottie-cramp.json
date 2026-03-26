@@ -1,0 +1,39 @@
+{
+  "name": "Scottie Cramp",
+  "slug": "scottie-cramp",
+  "category": "Neurological",
+  "description": "Scottie cramp is a hereditary episodic movement disorder in Scottish Terriers caused by a serotonin metabolism defect. Episodes of muscle over-contraction occur during excitement or exercise, causing abnormal gait and posture but no pain or loss of consciousness.",
+  "symptoms": [
+    "Episodic arching of spine",
+    "Overflexion of hindlimbs",
+    "Somersaulting",
+    "Triggered by exercise or excitement",
+    "Returns to normal between episodes"
+  ],
+  "severity": "low",
+  "treatment_overview": "Diazepam or acepromazine may reduce episode frequency and severity. Avoiding triggers is the primary management. The condition is not progressive and does not shorten lifespan.",
+  "prevention_tips": [
+    "DNA test available — avoid breeding affected dogs",
+    "Reduce exercise intensity and excitement if needed"
+  ],
+  "affected_breeds": [
+    "scottish-terrier"
+  ],
+  "typical_onset": "6 months - 3 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£100-£400/year",
+  "breeds_detail": [
+    {
+      "name": "Scottish Terrier",
+      "slug": "scottish-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Cesky Terrier",
+      "slug": "cesky-terrier",
+      "size": "small",
+      "group": "Terrier"
+    }
+  ]
+}

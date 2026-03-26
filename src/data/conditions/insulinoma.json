@@ -1,0 +1,55 @@
+{
+  "name": "Insulinoma",
+  "slug": "insulinoma",
+  "category": "Endocrine",
+  "description": "Insulinoma is a tumour of the insulin-producing beta cells of the pancreas that secretes excess insulin, causing persistent hypoglycaemia. Episodes of weakness, collapse, and seizures result from the brain being starved of glucose.",
+  "symptoms": [
+    "Weakness and wobbliness",
+    "Collapse",
+    "Seizures",
+    "Glazed expression",
+    "Rapid improvement after eating sugar"
+  ],
+  "severity": "high",
+  "treatment_overview": "Surgical removal of visible tumours is the treatment of choice. Medical management with frequent small meals, prednisolone, and diazoxide helps stabilise blood glucose. Prognosis is guarded due to malignancy risk.",
+  "prevention_tips": [
+    "No proven prevention",
+    "Prompt investigation of unexplained hypoglycaemia"
+  ],
+  "affected_breeds": [
+    "irish-setter",
+    "labrador-retriever",
+    "german-shepherd",
+    "boxer",
+    "standard-poodle"
+  ],
+  "typical_onset": "8-12 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£3,000-£7,000",
+  "breeds_detail": [
+    {
+      "name": "Irish Setter",
+      "slug": "irish-setter",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    }
+  ]
+}

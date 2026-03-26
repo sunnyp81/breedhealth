@@ -1,0 +1,61 @@
+{
+  "name": "Sebaceous Adenitis",
+  "slug": "sebaceous-adenitis",
+  "category": "Dermatological",
+  "description": "Sebaceous adenitis is an inflammatory skin disease in which the sebaceous glands are selectively destroyed by immune-mediated inflammation. This results in follicular scaling, matting, and hair loss with a characteristic musty odour.",
+  "symptoms": [
+    "Silver-white scales on hair shafts",
+    "Progressive hair loss",
+    "Musty odour",
+    "Brittle hair",
+    "Secondary bacterial infections"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Intensive topical oil treatments (baby oil soaks), special shampoos, essential fatty acid supplements, and immunomodulatory drugs (cyclosporine) manage the condition. It cannot be cured but can be well-controlled.",
+  "prevention_tips": [
+    "DNA testing under development for some breeds",
+    "Skin biopsy before breeding to exclude subclinical disease"
+  ],
+  "affected_breeds": [
+    "standard-poodle",
+    "akita",
+    "samoyed",
+    "vizsla",
+    "havanese"
+  ],
+  "typical_onset": "1-5 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£500-£2,000/year",
+  "breeds_detail": [
+    {
+      "name": "Akita",
+      "slug": "akita",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Samoyed",
+      "slug": "samoyed",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Vizsla",
+      "slug": "vizsla",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Havanese",
+      "slug": "havanese",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    }
+  ]
+}

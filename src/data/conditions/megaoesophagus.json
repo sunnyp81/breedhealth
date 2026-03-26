@@ -1,0 +1,55 @@
+{
+  "name": "Megaoesophagus",
+  "slug": "megaoesophagus",
+  "category": "Gastrointestinal",
+  "description": "Megaoesophagus is dilation of the oesophagus with loss of normal peristaltic motility, causing food and liquid to pool rather than move to the stomach. Regurgitation and aspiration pneumonia are the primary consequences.",
+  "symptoms": [
+    "Regurgitation (passive, no abdominal effort)",
+    "Weight loss",
+    "Coughing (secondary pneumonia)",
+    "Nasal discharge",
+    "Stunted growth in puppies"
+  ],
+  "severity": "high",
+  "treatment_overview": "Feeding in an upright position using a Bailey chair after every meal to allow gravity to assist food transit is essential. Small frequent meals of specific food consistency. Secondary pneumonia requires antibiotic treatment.",
+  "prevention_tips": [
+    "Genetic testing available for congenital form in some breeds",
+    "Do not breed affected dogs"
+  ],
+  "affected_breeds": [
+    "german-shepherd",
+    "great-dane",
+    "irish-setter",
+    "newfoundland",
+    "wire-fox-terrier"
+  ],
+  "typical_onset": "Congenital (puppyhood) or acquired (adult)",
+  "hereditary": true,
+  "estimated_treatment_cost": "£300-£2,000/year",
+  "breeds_detail": [
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Irish Setter",
+      "slug": "irish-setter",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Newfoundland",
+      "slug": "newfoundland",
+      "size": "giant",
+      "group": "Working"
+    }
+  ]
+}

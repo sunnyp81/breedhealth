@@ -1,0 +1,76 @@
+{
+  "name": "Glaucoma",
+  "slug": "glaucoma",
+  "category": "Eye",
+  "description": "Glaucoma is elevated intraocular pressure that damages the optic nerve and retina, causing pain and vision loss. Primary glaucoma is hereditary; secondary glaucoma results from other eye conditions. It is a veterinary emergency in acute form.",
+  "symptoms": [
+    "Sudden eye pain",
+    "Enlarged or bulging eye",
+    "Cloudy cornea",
+    "Redness",
+    "Rapid vision loss",
+    "Lethargy"
+  ],
+  "severity": "high",
+  "treatment_overview": "Emergency medical treatment aims to reduce intraocular pressure using topical and systemic medications. Long-term management requires ongoing medication. Affected eyes that are blind and painful are enucleated.",
+  "prevention_tips": [
+    "Annual tonometry (pressure checks) in at-risk breeds",
+    "DNA test available for some breeds",
+    "Treat lens luxation and uveitis promptly to prevent secondary glaucoma"
+  ],
+  "affected_breeds": [
+    "basset-hound",
+    "cocker-spaniel",
+    "chow-chow",
+    "siberian-husky",
+    "welsh-springer-spaniel",
+    "great-dane"
+  ],
+  "typical_onset": "3-7 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£1,500-£5,000",
+  "breeds_detail": [
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Chow Chow",
+      "slug": "chow-chow",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Siberian Husky",
+      "slug": "siberian-husky",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Bouvier des Flandres",
+      "slug": "bouvier-des-flandres",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Manchester Terrier",
+      "slug": "manchester-terrier",
+      "size": "small",
+      "group": "Terrier"
+    }
+  ]
+}

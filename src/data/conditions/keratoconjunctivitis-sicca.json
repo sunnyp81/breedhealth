@@ -1,0 +1,61 @@
+{
+  "name": "Keratoconjunctivitis Sicca (Dry Eye)",
+  "slug": "keratoconjunctivitis-sicca",
+  "category": "Eye",
+  "description": "KCS, commonly called dry eye, is inadequate tear production causing corneal dryness, inflammation, ulceration, and scarring. It is often immune-mediated in dogs and can lead to permanent vision impairment if poorly controlled.",
+  "symptoms": [
+    "Thick yellow-green eye discharge",
+    "Red inflamed eyes",
+    "Dull or cloudy cornea",
+    "Eye pawing",
+    "Sticky eyelids in morning"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Lifelong twice-daily cyclosporine or tacrolimus eye drops stimulate tear production in immune-mediated cases. Artificial tears and antibiotics manage secondary infections. Parotid duct transposition is a surgical salvage option.",
+  "prevention_tips": [
+    "Avoid sulphonamide antibiotics which can cause KCS",
+    "Early treatment prevents corneal scarring"
+  ],
+  "affected_breeds": [
+    "west-highland-white-terrier",
+    "cavalier-king-charles-spaniel",
+    "yorkshire-terrier",
+    "english-bulldog",
+    "shih-tzu"
+  ],
+  "typical_onset": "2-8 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£500-£1,500/year",
+  "breeds_detail": [
+    {
+      "name": "West Highland White Terrier",
+      "slug": "west-highland-white-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Cavalier King Charles Spaniel",
+      "slug": "cavalier-king-charles-spaniel",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Yorkshire Terrier",
+      "slug": "yorkshire-terrier",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Shih Tzu",
+      "slug": "shih-tzu",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Kerry Blue Terrier",
+      "slug": "kerry-blue-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    }
+  ]
+}

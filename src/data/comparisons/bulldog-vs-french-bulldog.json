@@ -1,0 +1,175 @@
+{
+  "slug": "bulldog-vs-french-bulldog",
+  "breed_a": {
+    "name": "Bulldog",
+    "slug": "bulldog",
+    "group": "Non-Sporting",
+    "size": "medium",
+    "weight_min_kg": 18,
+    "weight_max_kg": 23,
+    "height_min_cm": 31,
+    "height_max_cm": 40,
+    "lifespan_min": 8,
+    "lifespan_max": 10,
+    "temperament": [
+      "docile",
+      "willful",
+      "friendly",
+      "gregarious"
+    ],
+    "health_issues": [
+      "brachycephalic-syndrome",
+      "hip-dysplasia",
+      "cherry-eye",
+      "skin-fold-dermatitis",
+      "patellar-luxation"
+    ],
+    "exercise_level": 2,
+    "grooming_level": 2,
+    "shedding_level": 3,
+    "trainability": 2,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 6,
+    "origin": "England",
+    "coat_type": "short smooth",
+    "coat_colors": [
+      "red brindle",
+      "white",
+      "fawn",
+      "fallow",
+      "piebald"
+    ],
+    "description": "The Bulldog's stocky, low-slung build and deeply wrinkled face represent a dramatic evolution from the fierce bull-baiting dogs of medieval England to the gentle, affectionate companion recognized today. Their calm, dependable nature and love of human company make them excellent family pets, though owners must diligently clean facial folds daily to prevent skin infections. Bulldogs are acutely sensitive to heat and should never be exercised vigorously in warm or humid weather."
+  },
+  "breed_b": {
+    "name": "French Bulldog",
+    "slug": "french-bulldog",
+    "group": "Non-Sporting",
+    "size": "small",
+    "weight_min_kg": 8,
+    "weight_max_kg": 13,
+    "height_min_cm": 28,
+    "height_max_cm": 33,
+    "lifespan_min": 10,
+    "lifespan_max": 12,
+    "temperament": [
+      "adaptable",
+      "playful",
+      "affectionate",
+      "alert"
+    ],
+    "health_issues": [
+      "brachycephalic-syndrome",
+      "hip-dysplasia",
+      "intervertebral-disc-disease",
+      "skin-fold-dermatitis",
+      "cherry-eye"
+    ],
+    "exercise_level": 2,
+    "grooming_level": 1,
+    "shedding_level": 2,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 2,
+    "origin": "France",
+    "coat_type": "short smooth",
+    "coat_colors": [
+      "brindle",
+      "fawn",
+      "white",
+      "cream",
+      "pied"
+    ],
+    "description": "The French Bulldog is a compact, muscular breed with a smooth coat, snub nose, and distinctive bat ears that give it an unmistakably charming appearance. Originally miniaturized from English Bulldogs and adopted by Parisian lace workers in the 19th century, Frenchies thrive on human companionship and are well-suited to apartment living. Their flat faces predispose them to significant breathing difficulties, making veterinary screening and avoiding heat and strenuous exercise essential."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 8,
+      "breed_b_value": 10,
+      "winner": "french-bulldog"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 10,
+      "breed_b_value": 12,
+      "winner": "french-bulldog"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 18,
+      "breed_b_value": 8,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 23,
+      "breed_b_value": 13,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 31,
+      "breed_b_value": 28,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 40,
+      "breed_b_value": 33,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 2,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 2,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 3,
+      "breed_b_value": 2,
+      "winner": "french-bulldog"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 2,
+      "breed_b_value": 3,
+      "winner": "french-bulldog"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

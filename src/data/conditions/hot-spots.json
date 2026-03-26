@@ -1,0 +1,62 @@
+{
+  "name": "Hot Spots (Acute Moist Dermatitis)",
+  "slug": "hot-spots",
+  "category": "Dermatological",
+  "description": "Hot spots are rapidly developing areas of acute moist skin inflammation caused by self-trauma from scratching, licking, or chewing. They are secondary to an underlying trigger such as allergies, insect bites, or poor coat condition.",
+  "symptoms": [
+    "Moist weeping skin lesion",
+    "Redness and hair loss",
+    "Pain on touch",
+    "Excessive licking at site",
+    "Foul odour"
+  ],
+  "severity": "low",
+  "treatment_overview": "Clip and clean the area, apply topical antiseptic, and treat with topical or systemic antibiotics and steroids. An E-collar prevents further self-trauma. Identify and treat the underlying trigger.",
+  "prevention_tips": [
+    "Regular grooming and drying",
+    "Flea and allergy control",
+    "Keep coat clean and dry in humid weather"
+  ],
+  "affected_breeds": [
+    "golden-retriever",
+    "labrador-retriever",
+    "german-shepherd",
+    "saint-bernard",
+    "rottweiler"
+  ],
+  "typical_onset": "Any age",
+  "hereditary": false,
+  "estimated_treatment_cost": "£150-£500",
+  "breeds_detail": [
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Saint Bernard",
+      "slug": "saint-bernard",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    }
+  ]
+}

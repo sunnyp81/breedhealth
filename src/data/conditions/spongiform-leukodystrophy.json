@@ -1,0 +1,35 @@
+{
+  "name": "Spongiform Leukodystrophy",
+  "slug": "spongiform-leukodystrophy",
+  "category": "Neurological",
+  "description": "Spongiform leukodystrophy is a fatal hereditary neurological disease causing progressive degeneration of the white matter of the brain and spinal cord. It results in progressive neurological deterioration and is fatal in affected puppies.",
+  "symptoms": [
+    "Progressive ataxia",
+    "Weakness",
+    "Tremors",
+    "Behavioural changes",
+    "Seizures",
+    "Rapid deterioration"
+  ],
+  "severity": "high",
+  "treatment_overview": "There is no treatment. Affected puppies are humanely euthanised as the condition is invariably fatal and untreatable.",
+  "prevention_tips": [
+    "DNA test available for affected breeds",
+    "Test all breeding stock and avoid carrier-to-carrier matings"
+  ],
+  "affected_breeds": [
+    "labrador-retriever",
+    "dalmatian"
+  ],
+  "typical_onset": "Under 1 year",
+  "hereditary": true,
+  "estimated_treatment_cost": "£0 (terminal)",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    }
+  ]
+}

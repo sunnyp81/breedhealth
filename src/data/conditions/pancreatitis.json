@@ -1,0 +1,58 @@
+{
+  "name": "Pancreatitis",
+  "slug": "pancreatitis",
+  "category": "Gastrointestinal",
+  "description": "Pancreatitis is inflammation of the pancreas caused by premature activation of digestive enzymes, leading to auto-digestion. It ranges from mild acute episodes to severe haemorrhagic pancreatitis with multi-organ failure. High-fat diets and obesity are key risk factors.",
+  "symptoms": [
+    "Vomiting",
+    "Abdominal pain",
+    "Diarrhoea",
+    "Lethargy",
+    "Fever",
+    "Hunched posture"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Supportive care with IV fluids, anti-nausea drugs, analgesia, and early enteral nutrition is the cornerstone of treatment. Severe cases require intensive care hospitalisation. Chronic pancreatitis is managed with low-fat diet.",
+  "prevention_tips": [
+    "Feed a consistently low-fat diet",
+    "Maintain healthy weight",
+    "Avoid table scraps and fatty treats",
+    "Keep rubbish secured"
+  ],
+  "affected_breeds": [
+    "miniature-schnauzer",
+    "cavalier-king-charles-spaniel",
+    "cocker-spaniel",
+    "boxers",
+    "yorkshire-terrier"
+  ],
+  "typical_onset": "5-12 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,000-£5,000",
+  "breeds_detail": [
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Cavalier King Charles Spaniel",
+      "slug": "cavalier-king-charles-spaniel",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Yorkshire Terrier",
+      "slug": "yorkshire-terrier",
+      "size": "small",
+      "group": "Toy"
+    }
+  ]
+}

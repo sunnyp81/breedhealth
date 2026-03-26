@@ -1,0 +1,54 @@
+{
+  "name": "Splenic Tumours (Non-Hemangiosarcoma)",
+  "slug": "splenic-tumours",
+  "category": "Cancer",
+  "description": "The spleen is a common site for tumours in dogs. Nodular hyperplasia (benign) and haematomas account for approximately two-thirds of splenic masses; haemangiosarcoma makes up most malignant cases. All require histopathological diagnosis after splenectomy.",
+  "symptoms": [
+    "Asymptomatic in early disease",
+    "Abdominal mass",
+    "Sudden collapse from splenic rupture",
+    "Pale gums",
+    "Abdominal distension"
+  ],
+  "severity": "high",
+  "treatment_overview": "Splenectomy is the treatment for all sizeable splenic masses. Histopathology determines whether adjuvant chemotherapy is needed. Benign lesions are cured by splenectomy alone.",
+  "prevention_tips": [
+    "No proven prevention",
+    "Routine abdominal ultrasound in senior large-breed dogs"
+  ],
+  "affected_breeds": [
+    "german-shepherd",
+    "golden-retriever",
+    "labrador-retriever",
+    "boxer"
+  ],
+  "typical_onset": "8-13 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£2,000-£8,000",
+  "breeds_detail": [
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    }
+  ]
+}

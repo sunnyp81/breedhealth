@@ -1,0 +1,174 @@
+{
+  "slug": "boston-terrier-vs-french-bulldog",
+  "breed_a": {
+    "name": "Boston Terrier",
+    "slug": "boston-terrier",
+    "group": "Non-Sporting",
+    "size": "small",
+    "weight_min_kg": 4.5,
+    "weight_max_kg": 11,
+    "height_min_cm": 38,
+    "height_max_cm": 43,
+    "lifespan_min": 11,
+    "lifespan_max": 13,
+    "temperament": [
+      "friendly",
+      "lively",
+      "intelligent",
+      "gentle",
+      "adaptable"
+    ],
+    "health_issues": [
+      "brachycephalic-syndrome",
+      "patellar-luxation",
+      "cherry-eye",
+      "deafness",
+      "cataracts"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 1,
+    "shedding_level": 2,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 21,
+    "origin": "United States",
+    "coat_type": "short smooth",
+    "coat_colors": [
+      "black and white",
+      "brindle and white",
+      "seal and white"
+    ],
+    "description": "The Boston Terrier is one of the few breeds developed entirely in the United States, originating in Boston in the 1870s through crosses between Bulldogs and White English Terriers. Often called the American Gentleman for its tuxedo-like markings and polite, well-mannered personality, the Boston is a lively, intelligent companion equally suited to city apartments and suburban homes. Their large, prominent round eyes are both a defining breed feature and a vulnerability — corneal ulcers and injuries are common and require prompt veterinary attention."
+  },
+  "breed_b": {
+    "name": "French Bulldog",
+    "slug": "french-bulldog",
+    "group": "Non-Sporting",
+    "size": "small",
+    "weight_min_kg": 8,
+    "weight_max_kg": 13,
+    "height_min_cm": 28,
+    "height_max_cm": 33,
+    "lifespan_min": 10,
+    "lifespan_max": 12,
+    "temperament": [
+      "adaptable",
+      "playful",
+      "affectionate",
+      "alert"
+    ],
+    "health_issues": [
+      "brachycephalic-syndrome",
+      "hip-dysplasia",
+      "intervertebral-disc-disease",
+      "skin-fold-dermatitis",
+      "cherry-eye"
+    ],
+    "exercise_level": 2,
+    "grooming_level": 1,
+    "shedding_level": 2,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 2,
+    "origin": "France",
+    "coat_type": "short smooth",
+    "coat_colors": [
+      "brindle",
+      "fawn",
+      "white",
+      "cream",
+      "pied"
+    ],
+    "description": "The French Bulldog is a compact, muscular breed with a smooth coat, snub nose, and distinctive bat ears that give it an unmistakably charming appearance. Originally miniaturized from English Bulldogs and adopted by Parisian lace workers in the 19th century, Frenchies thrive on human companionship and are well-suited to apartment living. Their flat faces predispose them to significant breathing difficulties, making veterinary screening and avoiding heat and strenuous exercise essential."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 11,
+      "breed_b_value": 10,
+      "winner": "boston-terrier"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 13,
+      "breed_b_value": 12,
+      "winner": "boston-terrier"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 4.5,
+      "breed_b_value": 8,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 11,
+      "breed_b_value": 13,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 38,
+      "breed_b_value": 28,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 43,
+      "breed_b_value": 33,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 1,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 2,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 4,
+      "breed_b_value": 3,
+      "winner": "boston-terrier"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

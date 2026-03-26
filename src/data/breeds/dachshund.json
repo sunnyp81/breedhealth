@@ -1,0 +1,249 @@
+{
+  "name": "Dachshund",
+  "slug": "dachshund",
+  "group": "Hound",
+  "size": "small",
+  "weight_min_kg": 4,
+  "weight_max_kg": 9,
+  "height_min_cm": 13,
+  "height_max_cm": 23,
+  "lifespan_min": 12,
+  "lifespan_max": 16,
+  "temperament": [
+    "stubborn",
+    "playful",
+    "devoted",
+    "lively",
+    "clever"
+  ],
+  "health_issues": [
+    "intervertebral-disc-disease",
+    "patellar-luxation",
+    "progressive-retinal-atrophy",
+    "cushings-disease",
+    "epilepsy"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 2,
+  "shedding_level": 2,
+  "trainability": 2,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 10,
+  "origin": "Germany",
+  "coat_type": "smooth or wire or long",
+  "coat_colors": [
+    "red",
+    "black and tan",
+    "chocolate and tan",
+    "dapple",
+    "brindle"
+  ],
+  "description": "Bred in Germany to hunt badgers underground, the Dachshund's characteristic elongated body and short legs are perfectly engineered for squeezing into burrows and confronting quarry face to face. Available in standard and miniature sizes, and in smooth, wirehaired, and longhaired coat varieties, the Dachshund is one of the most diverse and recognizable breeds in the world. Their long spines make them particularly prone to intervertebral disc disease, requiring owners to prevent jumping from heights and manage body weight meticulously.",
+  "conditions_detail": [
+    {
+      "name": "Intervertebral Disc Disease (IVDD)",
+      "slug": "intervertebral-disc-disease",
+      "category": "Orthopedic",
+      "description": "IVDD occurs when the cushioning discs between vertebrae degenerate and herniate, pressing on the spinal cord. Chondrodystrophic breeds are predisposed due to premature disc mineralisation. Can cause pain, paralysis, or loss of bladder control.",
+      "symptoms": [
+        "Back or neck pain",
+        "Reluctance to move",
+        "Weakness or paralysis in limbs",
+        "Loss of bladder or bowel control",
+        "Yelping when touched"
+      ],
+      "severity": "high",
+      "treatment_overview": "Mild cases are managed with strict rest and anti-inflammatory medication. Severe cases with neurological deficits require emergency spinal surgery within 24-48 hours for best outcomes.",
+      "prevention_tips": [
+        "Use ramps instead of stairs for short-legged breeds",
+        "Maintain healthy weight",
+        "Avoid high-impact activities",
+        "Support the back when lifting"
+      ],
+      "affected_breeds": [
+        "dachshund",
+        "french-bulldog",
+        "beagle",
+        "basset-hound",
+        "cocker-spaniel",
+        "shih-tzu"
+      ],
+      "typical_onset": "3-7 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£3,000-£8,000"
+    },
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+      "symptoms": [
+        "Intermittent skipping on hind leg",
+        "Sudden leg lifting",
+        "Bunny-hopping",
+        "Hind limb lameness",
+        "Visible kneecap displacement"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+      "prevention_tips": [
+        "Breed from dogs with normal patellar scores",
+        "Maintain healthy weight",
+        "Avoid high-impact activities in affected puppies"
+      ],
+      "affected_breeds": [
+        "chihuahua",
+        "yorkshire-terrier",
+        "pomeranian",
+        "toy-poodle",
+        "bichon-frise",
+        "boston-terrier"
+      ],
+      "typical_onset": "4 months - 6 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    },
+    {
+      "name": "Progressive Retinal Atrophy (PRA)",
+      "slug": "progressive-retinal-atrophy",
+      "category": "Eye",
+      "description": "PRA is a group of hereditary diseases causing progressive degeneration of the photoreceptor cells in the retina. It leads to night blindness first, followed by complete blindness. There is no treatment, but DNA tests exist for many forms.",
+      "symptoms": [
+        "Night blindness (early sign)",
+        "Reluctance to enter dark rooms",
+        "Dilated pupils",
+        "Reduced daytime vision",
+        "Reflective eye shine (tapetal hyperreflectivity)"
+      ],
+      "severity": "high",
+      "treatment_overview": "There is no effective treatment or cure for PRA. Management focuses on adapting the dog's environment to maintain quality of life as vision deteriorates.",
+      "prevention_tips": [
+        "DNA test breeding stock before mating",
+        "Only breed clear or carrier-to-clear pairings",
+        "Annual ophthalmology screening (BVA/KC scheme)"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "cocker-spaniel",
+        "miniature-poodle",
+        "irish-setter",
+        "border-collie",
+        "tibetan-terrier"
+      ],
+      "typical_onset": "3-8 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£0 (management only)"
+    },
+    {
+      "name": "Cushing's Disease (Hyperadrenocorticism)",
+      "slug": "cushings-disease",
+      "category": "Endocrine",
+      "description": "Cushing's disease results from excess cortisol, most commonly from a pituitary adenoma (PDH) or, less often, an adrenal tumour (AT). The chronic cortisol excess causes characteristic physical and metabolic changes.",
+      "symptoms": [
+        "Pot-bellied appearance",
+        "Increased thirst and urination",
+        "Increased appetite",
+        "Bilateral hair loss",
+        "Thin skin with bruising",
+        "Lethargy"
+      ],
+      "severity": "medium",
+      "treatment_overview": "PDH is treated medically with trilostane or mitotane, requiring regular monitoring. Adrenal tumours may be surgically removed. Treatment is lifelong and significantly improves quality of life.",
+      "prevention_tips": [
+        "No proven prevention",
+        "Avoid prolonged unnecessary steroid medication"
+      ],
+      "affected_breeds": [
+        "miniature-poodle",
+        "dachshund",
+        "yorkshire-terrier",
+        "beagle",
+        "boxer",
+        "boston-terrier"
+      ],
+      "typical_onset": "7-12 years",
+      "hereditary": false,
+      "estimated_treatment_cost": "£1,000-£3,000/year"
+    },
+    {
+      "name": "Epilepsy",
+      "slug": "epilepsy",
+      "category": "Neurological",
+      "description": "Epilepsy is the most common neurological disorder in dogs, characterised by recurrent seizures. Idiopathic (genetic) epilepsy is the most frequent form in young to middle-aged dogs with no underlying structural brain lesion.",
+      "symptoms": [
+        "Generalised seizures (paddling, loss of consciousness)",
+        "Focal seizures (facial twitching, fly-biting)",
+        "Post-ictal confusion",
+        "Sudden falling",
+        "Cluster seizures"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Anticonvulsant drugs (phenobarbital, potassium bromide, levetiracetam) control seizures in the majority of cases. Treatment is lifelong. Cluster seizures and status epilepticus require emergency treatment.",
+      "prevention_tips": [
+        "DNA testing available for several breeds",
+        "Avoid breeding affected dogs with idiopathic epilepsy"
+      ],
+      "affected_breeds": [
+        "border-collie",
+        "labrador-retriever",
+        "golden-retriever",
+        "beagle",
+        "german-shepherd",
+        "belgian-shepherd"
+      ],
+      "typical_onset": "1-5 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£500-£2,000/year"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Whippet",
+      "slug": "whippet",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Plott Hound",
+      "slug": "plott-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Basenji",
+      "slug": "basenji",
+      "size": "small",
+      "group": "Hound"
+    }
+  ],
+  "comparisons": [
+    "dachshund-vs-basset-hound",
+    "dachshund-vs-corgi",
+    "dachshund-vs-beagle",
+    "corgi-vs-dachshund"
+  ]
+}

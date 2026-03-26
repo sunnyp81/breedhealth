@@ -1,0 +1,90 @@
+{
+  "name": "Skye Terrier",
+  "slug": "skye-terrier",
+  "group": "Terrier",
+  "size": "small",
+  "weight_min_kg": 8,
+  "weight_max_kg": 11,
+  "height_min_cm": 23,
+  "height_max_cm": 25,
+  "lifespan_min": 12,
+  "lifespan_max": 14,
+  "temperament": [
+    "loyal",
+    "feisty",
+    "reserved",
+    "courageous"
+  ],
+  "health_issues": [
+    "premature-closure-of-distal-radius",
+    "autoimmune-disease",
+    "degenerative-disc-disease"
+  ],
+  "exercise_level": 2,
+  "grooming_level": 4,
+  "shedding_level": 2,
+  "trainability": 2,
+  "good_with_children": false,
+  "good_with_dogs": false,
+  "apartment_friendly": true,
+  "popularity_rank": 162,
+  "origin": "Scotland",
+  "coat_type": "long",
+  "coat_colors": [
+    "black",
+    "blue",
+    "dark-gray",
+    "light-gray",
+    "cream",
+    "fawn"
+  ],
+  "description": "The Skye Terrier is one of Scotland's oldest terrier breeds, originating from the Isle of Skye where it was used to hunt fox and otter. Made famous by the loyal dog Greyfriars Bobby, this breed is renowned for its unwavering devotion to a single person. Its long, flowing coat that parts down the middle gives it a distinctive silhouette unlike any other terrier.",
+  "conditions_detail": [],
+  "diet_recommendations": [
+    {
+      "name": "Weight Management",
+      "slug": "weight-management"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "West Highland White Terrier",
+      "slug": "west-highland-white-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Soft Coated Wheaten Terrier",
+      "slug": "soft-coated-wheaten-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    },
+    {
+      "name": "Cairn Terrier",
+      "slug": "cairn-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Scottish Terrier",
+      "slug": "scottish-terrier",
+      "size": "small",
+      "group": "Terrier"
+    }
+  ],
+  "comparisons": []
+}

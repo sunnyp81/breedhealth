@@ -1,0 +1,177 @@
+{
+  "slug": "brittany-vs-cocker-spaniel",
+  "breed_a": {
+    "name": "Brittany",
+    "slug": "brittany",
+    "group": "Sporting",
+    "size": "medium",
+    "weight_min_kg": 13,
+    "weight_max_kg": 18,
+    "height_min_cm": 43,
+    "height_max_cm": 53,
+    "lifespan_min": 12,
+    "lifespan_max": 14,
+    "temperament": [
+      "bright",
+      "fun-loving",
+      "upbeat",
+      "agile",
+      "eager"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "epilepsy",
+      "hypothyroidism",
+      "ear-infections",
+      "patellar-luxation"
+    ],
+    "exercise_level": 5,
+    "grooming_level": 2,
+    "shedding_level": 2,
+    "trainability": 5,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 48,
+    "origin": "France",
+    "coat_type": "medium wavy",
+    "coat_colors": [
+      "orange and white",
+      "liver and white",
+      "black and white",
+      "roan"
+    ],
+    "description": "The Brittany is a compact, athletic French bird dog originally bred in the Brittany region of northwest France to point and retrieve woodcock and other upland game, first recognized as a breed in 1907. Often described as a big dog in a small package, Brittanys are among the most energetic sporting breeds and demand significant daily exercise to remain content indoors. Their upbeat, willing temperament and intense desire to please makes them among the easiest sporting breeds to train, consistently excelling in field trials, hunt tests, and agility competitions."
+  },
+  "breed_b": {
+    "name": "Cocker Spaniel",
+    "slug": "cocker-spaniel",
+    "group": "Sporting",
+    "size": "medium",
+    "weight_min_kg": 11,
+    "weight_max_kg": 14,
+    "height_min_cm": 36,
+    "height_max_cm": 43,
+    "lifespan_min": 10,
+    "lifespan_max": 14,
+    "temperament": [
+      "gentle",
+      "smart",
+      "happy",
+      "trusting",
+      "even-tempered"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "progressive-retinal-atrophy",
+      "cherry-eye",
+      "ear-infections",
+      "autoimmune-hemolytic-anemia"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 4,
+    "shedding_level": 3,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 27,
+    "origin": "England",
+    "coat_type": "medium silky",
+    "coat_colors": [
+      "black",
+      "buff",
+      "silver",
+      "golden",
+      "chocolate",
+      "parti"
+    ],
+    "description": "The American Cocker Spaniel is the smallest of the AKC Sporting Group, developed as a specialist bird dog for hunting woodcock and small upland birds, and was the most popular breed in America for a record 23 consecutive years. Their long silky coats, soulful dark eyes, and constantly wagging tails give them enormous appeal as family companions, equally at home in the field or on the sofa. Long floppy ears trap moisture and debris, requiring weekly cleaning to prevent the chronic ear infections to which the breed is especially predisposed."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 10,
+      "winner": "brittany"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 14,
+      "breed_b_value": 14,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 13,
+      "breed_b_value": 11,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 18,
+      "breed_b_value": 14,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 43,
+      "breed_b_value": 36,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 53,
+      "breed_b_value": 43,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 5,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 2,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 2,
+      "breed_b_value": 3,
+      "winner": "brittany"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 5,
+      "breed_b_value": 4,
+      "winner": "brittany"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": true,
+      "winner": "cocker-spaniel"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

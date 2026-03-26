@@ -1,0 +1,177 @@
+{
+  "slug": "cane-corso-vs-neapolitan-mastiff",
+  "breed_a": {
+    "name": "Cane Corso",
+    "slug": "cane-corso",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 40,
+    "weight_max_kg": 50,
+    "height_min_cm": 60,
+    "height_max_cm": 70,
+    "lifespan_min": 9,
+    "lifespan_max": 12,
+    "temperament": [
+      "stable",
+      "reserved",
+      "quiet",
+      "loyal",
+      "protective"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "bloat",
+      "entropion",
+      "ectropion"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 1,
+    "shedding_level": 2,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": false,
+    "apartment_friendly": false,
+    "popularity_rank": 32,
+    "origin": "Italy",
+    "coat_type": "short coarse double",
+    "coat_colors": [
+      "black",
+      "grey",
+      "fawn",
+      "red",
+      "brindle"
+    ],
+    "description": "An ancient Italian mastiff descended from the canis pugnax war dogs of Rome, the Cane Corso takes its name from the Latin for bodyguard dog and has guarded estates and livestock in Italy for centuries. Nearly extinct by the 1970s, the breed was rescued by Italian enthusiasts and has grown dramatically in global popularity as a personal protection and family guard dog. Corsos are intelligent and deeply loyal but require experienced, confident handlers and extensive early socialization — they are definitively not suitable for first-time owners."
+  },
+  "breed_b": {
+    "name": "Neapolitan Mastiff",
+    "slug": "neapolitan-mastiff",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 50,
+    "weight_max_kg": 70,
+    "height_min_cm": 60,
+    "height_max_cm": 75,
+    "lifespan_min": 7,
+    "lifespan_max": 9,
+    "temperament": [
+      "loyal",
+      "obedient",
+      "fearless",
+      "stubborn",
+      "protective"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "bloat",
+      "cherry-eye",
+      "skin-fold-infections",
+      "cardiomyopathy"
+    ],
+    "exercise_level": 2,
+    "grooming_level": 2,
+    "shedding_level": 3,
+    "trainability": 3,
+    "good_with_children": false,
+    "good_with_dogs": false,
+    "apartment_friendly": false,
+    "popularity_rank": 81,
+    "origin": "Italy",
+    "coat_type": "short smooth",
+    "coat_colors": [
+      "gray",
+      "black",
+      "tawny",
+      "mahogany",
+      "brindle"
+    ],
+    "description": "The Neapolitan Mastiff is one of the most ancient mastiff breeds, descended directly from the war dogs of the Roman Empire that fought in gladiatorial arenas and alongside legions across Europe and the Middle East. Their extreme loose skin and deep, dramatic wrinkles are a breed-defining feature that requires daily cleaning in skin folds to prevent infections, and their massive head and jowls produce a truly exceptional level of drool. Neapolitan Mastiffs are deeply loyal to their own families but profoundly suspicious of strangers, requiring experienced owners who can provide firm, consistent guidance from puppyhood."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 9,
+      "breed_b_value": 7,
+      "winner": "cane-corso"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 9,
+      "winner": "cane-corso"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 40,
+      "breed_b_value": 50,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 50,
+      "breed_b_value": 70,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 60,
+      "breed_b_value": 60,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 70,
+      "breed_b_value": 75,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 4,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 1,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 2,
+      "breed_b_value": 3,
+      "winner": "cane-corso"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 4,
+      "breed_b_value": 3,
+      "winner": "cane-corso"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": false,
+      "winner": "cane-corso"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

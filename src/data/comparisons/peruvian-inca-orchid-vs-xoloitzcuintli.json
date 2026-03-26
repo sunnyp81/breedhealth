@@ -1,0 +1,174 @@
+{
+  "slug": "peruvian-inca-orchid-vs-xoloitzcuintli",
+  "breed_a": {
+    "name": "Peruvian Inca Orchid",
+    "slug": "peruvian-inca-orchid",
+    "group": "Hound",
+    "size": "medium",
+    "weight_min_kg": 4,
+    "weight_max_kg": 25,
+    "height_min_cm": 25,
+    "height_max_cm": 65,
+    "lifespan_min": 11,
+    "lifespan_max": 14,
+    "temperament": [
+      "affectionate",
+      "alert",
+      "lively",
+      "agile"
+    ],
+    "health_issues": [
+      "dental-problems",
+      "skin-conditions",
+      "epilepsy",
+      "irritable-bowel-syndrome"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 3,
+    "shedding_level": 1,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 168,
+    "origin": "Peru",
+    "coat_type": "hairless",
+    "coat_colors": [
+      "pink",
+      "chocolate-brown",
+      "gray-black",
+      "mottled"
+    ],
+    "description": "The Peruvian Inca Orchid, also called the Peruvian Hairless Dog, is one of South America's oldest breeds and is depicted in Moche and Chimu ceramics dating back over 2,000 years. Peru's national heritage dog exists in three sizes and two varieties (hairless and coated), with the hairless type having warm, smooth skin that some people find comforting, historically leading to claims of therapeutic healing properties. This elegant, swift sighthound retains strong primitive hunting instincts and is an agile coursing dog capable of impressive speed despite its refined, almost fragile appearance."
+  },
+  "breed_b": {
+    "name": "Xoloitzcuintli",
+    "slug": "xoloitzcuintli",
+    "group": "Non-Sporting",
+    "size": "small",
+    "weight_min_kg": 4,
+    "weight_max_kg": 14,
+    "height_min_cm": 25,
+    "height_max_cm": 57,
+    "lifespan_min": 13,
+    "lifespan_max": 18,
+    "temperament": [
+      "alert",
+      "cheerful",
+      "calm",
+      "attentive",
+      "loyal"
+    ],
+    "health_issues": [
+      "dental-disease",
+      "skin-conditions",
+      "acne",
+      "patellar-luxation",
+      "epilepsy"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 2,
+    "shedding_level": 1,
+    "trainability": 3,
+    "good_with_children": false,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 84,
+    "origin": "Mexico",
+    "coat_type": "hairless or short smooth",
+    "coat_colors": [
+      "black",
+      "gray",
+      "liver",
+      "bronze",
+      "brindle"
+    ],
+    "description": "The Xoloitzcuintli — correctly pronounced show-low-eets-queent-lee — is Mexico's national dog and one of the world's oldest and rarest breeds, named after the Aztec god of lightning Xolotl and present in Mesoamerica for over 3,000 years, used as a ceremonial and healing dog by the Aztec, Maya, and Colima cultures. Available in three sizes — toy, miniature, and standard — and two varieties, hairless and coated, the hairless variety was thought by indigenous peoples to have healing properties and was used as a living hot-water bottle to soothe arthritis and other ailments. Their lack of coat means sunscreen is required for outdoor exposure and they need a coat in cold weather, but they produce no shedding and are among the cleanest of all dogs."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 11,
+      "breed_b_value": 13,
+      "winner": "xoloitzcuintli"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 14,
+      "breed_b_value": 18,
+      "winner": "xoloitzcuintli"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 25,
+      "breed_b_value": 14,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 25,
+      "breed_b_value": 25,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 65,
+      "breed_b_value": 57,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 4,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 3,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 1,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": false,
+      "winner": "peruvian-inca-orchid"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 4,
+      "breed_b_value": 5,
+      "winner": "peruvian-inca-orchid"
+    }
+  ]
+}

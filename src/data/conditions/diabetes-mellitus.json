@@ -1,0 +1,70 @@
+{
+  "name": "Diabetes Mellitus",
+  "slug": "diabetes-mellitus",
+  "category": "Endocrine",
+  "description": "Canine diabetes mellitus is a metabolic disease caused by insufficient insulin production (type 1-like) leading to persistent hyperglycaemia. Unlike cats, dogs rarely achieve remission and require lifelong insulin therapy.",
+  "symptoms": [
+    "Increased thirst",
+    "Frequent urination",
+    "Weight loss despite normal appetite",
+    "Cataracts (secondary)",
+    "Lethargy",
+    "Recurrent infections"
+  ],
+  "severity": "high",
+  "treatment_overview": "Twice-daily insulin injections aligned with meals form the cornerstone of treatment. Consistent diet and exercise routines are essential. Regular glucose curve monitoring guides dose adjustments.",
+  "prevention_tips": [
+    "Maintain healthy weight",
+    "Spay females as progesterone worsens insulin resistance",
+    "Avoid prolonged corticosteroid use"
+  ],
+  "affected_breeds": [
+    "samoyed",
+    "australian-terrier",
+    "miniature-schnauzer",
+    "poodle",
+    "pug",
+    "bichon-frise"
+  ],
+  "typical_onset": "7-9 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,500-£4,000/year",
+  "breeds_detail": [
+    {
+      "name": "Samoyed",
+      "slug": "samoyed",
+      "size": "medium",
+      "group": "Working"
+    },
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Pug",
+      "slug": "pug",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Bichon Frise",
+      "slug": "bichon-frise",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Swedish Lapphund",
+      "slug": "swedish-lapphund",
+      "size": "medium",
+      "group": "Herding"
+    }
+  ]
+}

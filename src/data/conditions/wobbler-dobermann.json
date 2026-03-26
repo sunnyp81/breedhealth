@@ -1,0 +1,26 @@
+{
+  "name": "Wobbler Syndrome in Dobermanns (Type II IVDD)",
+  "slug": "wobbler-dobermann",
+  "category": "Neurological",
+  "description": "The Dobermann type of cervical spondylomyelopathy is caused by intervertebral disc herniation causing a 'disc-associated' form of wobbler syndrome, distinct from the malformed vertebrae form in giant breeds. It occurs at the caudal cervical spine (C5-C7).",
+  "symptoms": [
+    "Progressive hindlimb ataxia (wobbly gait)",
+    "Proprioceptive deficits",
+    "Neck pain in some cases",
+    "Foreleg shortstepping",
+    "May progress to tetraparesis"
+  ],
+  "severity": "high",
+  "treatment_overview": "Surgical decompression (ventral slot or TPLO) gives better long-term outcomes than conservative management in most cases. Recovery is variable and incomplete in dogs with severe pre-operative deficits.",
+  "prevention_tips": [
+    "MRI screening of breeding Dobermanns under investigation",
+    "Avoid breeding from families with high incidence"
+  ],
+  "affected_breeds": [
+    "dobermann"
+  ],
+  "typical_onset": "5-9 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£3,000-£7,000",
+  "breeds_detail": []
+}

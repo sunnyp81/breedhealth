@@ -1,0 +1,165 @@
+{
+  "name": "Neapolitan Mastiff",
+  "slug": "neapolitan-mastiff",
+  "group": "Working",
+  "size": "giant",
+  "weight_min_kg": 50,
+  "weight_max_kg": 70,
+  "height_min_cm": 60,
+  "height_max_cm": 75,
+  "lifespan_min": 7,
+  "lifespan_max": 9,
+  "temperament": [
+    "loyal",
+    "obedient",
+    "fearless",
+    "stubborn",
+    "protective"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "bloat",
+    "cherry-eye",
+    "skin-fold-infections",
+    "cardiomyopathy"
+  ],
+  "exercise_level": 2,
+  "grooming_level": 2,
+  "shedding_level": 3,
+  "trainability": 3,
+  "good_with_children": false,
+  "good_with_dogs": false,
+  "apartment_friendly": false,
+  "popularity_rank": 81,
+  "origin": "Italy",
+  "coat_type": "short smooth",
+  "coat_colors": [
+    "gray",
+    "black",
+    "tawny",
+    "mahogany",
+    "brindle"
+  ],
+  "description": "The Neapolitan Mastiff is one of the most ancient mastiff breeds, descended directly from the war dogs of the Roman Empire that fought in gladiatorial arenas and alongside legions across Europe and the Middle East. Their extreme loose skin and deep, dramatic wrinkles are a breed-defining feature that requires daily cleaning in skin folds to prevent infections, and their massive head and jowls produce a truly exceptional level of drool. Neapolitan Mastiffs are deeply loyal to their own families but profoundly suspicious of strangers, requiring experienced owners who can provide firm, consistent guidance from puppyhood.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Cherry Eye (Prolapsed Nictitating Membrane Gland)",
+      "slug": "cherry-eye",
+      "category": "Eye",
+      "description": "Cherry eye is the prolapse of the tear-producing gland of the third eyelid, appearing as a red or pink mass in the inner corner of the eye. It is more common in brachycephalic and young breeds, and can affect one or both eyes.",
+      "symptoms": [
+        "Red or pink mass in inner eye corner",
+        "Eye discharge",
+        "Excessive tearing",
+        "Eye rubbing",
+        "Conjunctivitis"
+      ],
+      "severity": "low",
+      "treatment_overview": "Surgical replacement (tucking or pocket technique) of the gland back into its normal position is preferred over removal to preserve tear production. Surgery success rate is high.",
+      "prevention_tips": [
+        "No proven prevention",
+        "Early surgical correction prevents secondary dry eye"
+      ],
+      "affected_breeds": [
+        "english-bulldog",
+        "cocker-spaniel",
+        "beagle",
+        "basset-hound",
+        "shih-tzu",
+        "lhasa-apso"
+      ],
+      "typical_onset": "Under 2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£600-£1,500"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Senior Formula",
+      "slug": "senior"
+    },
+    {
+      "name": "Weight Management",
+      "slug": "weight-management"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Doberman Pinscher",
+      "slug": "doberman-pinscher",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Bernese Mountain Dog",
+      "slug": "bernese-mountain-dog",
+      "size": "giant",
+      "group": "Working"
+    }
+  ],
+  "comparisons": [
+    "neapolitan-mastiff-vs-english-mastiff",
+    "cane-corso-vs-neapolitan-mastiff"
+  ]
+}

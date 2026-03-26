@@ -1,0 +1,50 @@
+{
+  "name": "Demodex (Demodicosis)",
+  "slug": "demodicosis",
+  "category": "Dermatological",
+  "description": "Demodicosis is caused by overpopulation of Demodex canis mites normally present in hair follicles. Localised disease is common in puppies and often self-resolving. Generalised disease indicates immune compromise and can be severe and difficult to treat.",
+  "symptoms": [
+    "Hair loss (alopecia)",
+    "Redness and scaling",
+    "Skin thickening and hyperpigmentation",
+    "Secondary bacterial infection (furunculosis)",
+    "Pruritus (in secondary infection)"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Isoxazoline class antiparasitic drugs (fluralaner, sarolaner, afoxolaner) are highly effective treatments. Underlying immunosuppression must be identified and addressed in adult generalised cases.",
+  "prevention_tips": [
+    "Do not breed from dogs with juvenile generalised demodex",
+    "Maintain general health and immune system"
+  ],
+  "affected_breeds": [
+    "english-bulldog",
+    "french-bulldog",
+    "staffordshire-bull-terrier",
+    "shar-pei",
+    "weimaraner",
+    "american-pit-bull-terrier"
+  ],
+  "typical_onset": "Under 18 months (juvenile) or adult with immune compromise",
+  "hereditary": true,
+  "estimated_treatment_cost": "£300-£1,500",
+  "breeds_detail": [
+    {
+      "name": "French Bulldog",
+      "slug": "french-bulldog",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Shar Pei",
+      "slug": "shar-pei",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Weimaraner",
+      "slug": "weimaraner",
+      "size": "large",
+      "group": "Sporting"
+    }
+  ]
+}

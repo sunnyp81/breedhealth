@@ -1,0 +1,57 @@
+{
+  "name": "Trichobezoar (Hair Balls) and GI Foreign Bodies",
+  "slug": "gastrointestinal-foreign-body",
+  "category": "Gastrointestinal",
+  "description": "Gastrointestinal foreign bodies occur when dogs ingest objects that cannot pass through the digestive tract. Obstruction or perforation leads to vomiting, pain, and sepsis. Some breeds are notorious for indiscriminate eating (pica).",
+  "symptoms": [
+    "Vomiting",
+    "Abdominal pain",
+    "Reduced or absent appetite",
+    "Lethargy",
+    "Inability to defecate",
+    "Shock if perforation"
+  ],
+  "severity": "high",
+  "treatment_overview": "Endoscopic removal is possible for oesophageal or gastric objects. Intestinal foreign bodies require surgical enterotomy or intestinal resection. IV fluids and antibiotics support recovery.",
+  "prevention_tips": [
+    "Dog-proof household and garden",
+    "Supervise play with toys",
+    "Avoid access to small objects, bones, and socks"
+  ],
+  "affected_breeds": [
+    "labrador-retriever",
+    "beagle",
+    "bulldog",
+    "golden-retriever",
+    "terriers"
+  ],
+  "typical_onset": "Any age",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,500-£5,000",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Bulldog",
+      "slug": "bulldog",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    }
+  ]
+}

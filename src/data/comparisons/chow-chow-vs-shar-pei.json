@@ -1,0 +1,177 @@
+{
+  "slug": "chow-chow-vs-shar-pei",
+  "breed_a": {
+    "name": "Chow Chow",
+    "slug": "chow-chow",
+    "group": "Non-Sporting",
+    "size": "medium",
+    "weight_min_kg": 20,
+    "weight_max_kg": 32,
+    "height_min_cm": 43,
+    "height_max_cm": 51,
+    "lifespan_min": 8,
+    "lifespan_max": 12,
+    "temperament": [
+      "aloof",
+      "loyal",
+      "independent",
+      "dignified"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "entropion",
+      "hypothyroidism",
+      "patellar-luxation"
+    ],
+    "exercise_level": 2,
+    "grooming_level": 4,
+    "shedding_level": 4,
+    "trainability": 2,
+    "good_with_children": false,
+    "good_with_dogs": false,
+    "apartment_friendly": true,
+    "popularity_rank": 101,
+    "origin": "China",
+    "coat_type": "rough double or smooth double",
+    "coat_colors": [
+      "red",
+      "black",
+      "blue",
+      "cinnamon",
+      "cream"
+    ],
+    "description": "The Chow Chow is one of the oldest dog breeds in the world, originating in ancient China where it served as a hunting, herding, and guard dog. Known for its distinctive lion-like mane and blue-black tongue, this breed is fiercely loyal to its family but reserved and aloof with strangers. Chow Chows require early socialisation and firm, consistent training due to their independent and sometimes stubborn nature."
+  },
+  "breed_b": {
+    "name": "Shar Pei",
+    "slug": "shar-pei",
+    "group": "Non-Sporting",
+    "size": "medium",
+    "weight_min_kg": 18,
+    "weight_max_kg": 27,
+    "height_min_cm": 46,
+    "height_max_cm": 51,
+    "lifespan_min": 8,
+    "lifespan_max": 12,
+    "temperament": [
+      "devoted",
+      "independent",
+      "calm",
+      "stubborn",
+      "confident"
+    ],
+    "health_issues": [
+      "shar-pei-fever",
+      "hip-dysplasia",
+      "entropion",
+      "skin-fold-dermatitis",
+      "amyloidosis"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 2,
+    "shedding_level": 2,
+    "trainability": 2,
+    "good_with_children": false,
+    "good_with_dogs": false,
+    "apartment_friendly": true,
+    "popularity_rank": 57,
+    "origin": "China",
+    "coat_type": "short rough",
+    "coat_colors": [
+      "fawn",
+      "red",
+      "chocolate",
+      "black",
+      "cream",
+      "blue"
+    ],
+    "description": "The Shar Pei is one of the world's rarest and most distinctive breeds, with its deep wrinkles, hippopotamus-shaped muzzle, and tiny triangular ears creating an unmistakable silhouette that appeared in Chinese art as far back as 206 BC. Bred in China as a multipurpose farm dog for herding, hunting, and guarding, Shar Pei nearly became extinct during China's Cultural Revolution before a 1970s rescue effort in Hong Kong and the United States saved the breed. Shar Pei Familial Fever — a breed-specific inflammatory condition — and complications related to their extensive skin folds make the breed expensive to maintain health-wise."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 8,
+      "breed_b_value": 8,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 12,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 20,
+      "breed_b_value": 18,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 32,
+      "breed_b_value": 27,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 43,
+      "breed_b_value": 46,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 51,
+      "breed_b_value": 51,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 2,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 4,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 4,
+      "breed_b_value": 2,
+      "winner": "shar-pei"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 2,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

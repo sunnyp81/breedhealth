@@ -1,0 +1,156 @@
+{
+  "name": "Pudelpointer",
+  "slug": "pudelpointer",
+  "group": "Sporting",
+  "size": "large",
+  "weight_min_kg": 20,
+  "weight_max_kg": 30,
+  "height_min_cm": 55,
+  "height_max_cm": 68,
+  "lifespan_min": 13,
+  "lifespan_max": 14,
+  "temperament": [
+    "eager",
+    "reliable",
+    "hardworking",
+    "versatile"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "eye-conditions",
+    "otitis-externa"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 2,
+  "shedding_level": 2,
+  "trainability": 4,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 176,
+  "origin": "Germany",
+  "coat_type": "rough",
+  "coat_colors": [
+    "liver",
+    "dead-leaf",
+    "brown"
+  ],
+  "description": "The Pudelpointer was created in Germany in 1881 by Baron von Zedlitz, who crossed the German hunting Poodle with the English Pointer to combine the Poodle's exceptional nose and water-retrieving ability with the Pointer's hunting instincts and athleticism. This methodical breeding program took over 30 years to produce a consistent type, and the Pudelpointer remains a relatively rare but highly valued versatile hunting dog today. The breed's dense, wiry, weather-resistant coat can handle cold water, thick brush, and all climates, making it one of Germany's most all-purpose gundogs.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Otitis Externa (Ear Infections)",
+      "slug": "otitis-externa",
+      "category": "Ear",
+      "description": "Otitis externa is inflammation of the external ear canal, usually caused by bacterial or yeast (Malassezia) overgrowth secondary to underlying factors such as allergies, foreign bodies, or conformational abnormalities. It is the most common reason for veterinary visits.",
+      "symptoms": [
+        "Head shaking",
+        "Scratching at ear",
+        "Ear odour",
+        "Discharge (brown, black, or yellow)",
+        "Pain on ear handling",
+        "Head tilt in severe cases"
+      ],
+      "severity": "low",
+      "treatment_overview": "Treatment involves thorough ear cleaning and topical ear drops containing antimicrobial and anti-inflammatory agents. Chronic or recurrent cases require investigation of underlying causes such as allergies.",
+      "prevention_tips": [
+        "Regular ear inspection and gentle cleaning",
+        "Dry ears thoroughly after swimming or bathing",
+        "Treat allergies to prevent recurrent infections",
+        "Regular grooming of ear hair in predisposed breeds"
+      ],
+      "affected_breeds": [
+        "cocker-spaniel",
+        "basset-hound",
+        "labrador-retriever",
+        "golden-retriever",
+        "poodle",
+        "shar-pei"
+      ],
+      "typical_onset": "Any age",
+      "hereditary": false,
+      "estimated_treatment_cost": "£150-£500/episode"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "German Shorthaired Pointer",
+      "slug": "german-shorthaired-pointer",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Vizsla",
+      "slug": "vizsla",
+      "size": "medium",
+      "group": "Sporting"
+    }
+  ],
+  "comparisons": []
+}

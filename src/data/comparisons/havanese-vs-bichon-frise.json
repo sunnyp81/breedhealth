@@ -1,0 +1,174 @@
+{
+  "slug": "havanese-vs-bichon-frise",
+  "breed_a": {
+    "name": "Havanese",
+    "slug": "havanese",
+    "group": "Toy",
+    "size": "small",
+    "weight_min_kg": 3,
+    "weight_max_kg": 6,
+    "height_min_cm": 23,
+    "height_max_cm": 27,
+    "lifespan_min": 14,
+    "lifespan_max": 16,
+    "temperament": [
+      "intelligent",
+      "outgoing",
+      "funny",
+      "gentle",
+      "responsive"
+    ],
+    "health_issues": [
+      "patellar-luxation",
+      "progressive-retinal-atrophy",
+      "hip-dysplasia",
+      "cataracts",
+      "deafness"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 4,
+    "shedding_level": 1,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 22,
+    "origin": "Cuba",
+    "coat_type": "long silky double",
+    "coat_colors": [
+      "white",
+      "black",
+      "chocolate",
+      "silver",
+      "blue",
+      "parti"
+    ],
+    "description": "The Havanese is Cuba's national dog, the only breed native to that island nation, descended from Bichon-type dogs brought by Spanish settlers to the Caribbean in the 16th and 17th centuries. Bred as a companion to the wealthy Habanero aristocracy, Havanese are social, adaptive, and unusually perceptive dogs that read human emotion with exceptional sensitivity, making them outstanding therapy dogs. Their silky double coat produces minimal shedding and can be kept in a long show coat or trimmed in a shorter puppy cut, though regular grooming is needed either way."
+  },
+  "breed_b": {
+    "name": "Bichon Frise",
+    "slug": "bichon-frise",
+    "group": "Non-Sporting",
+    "size": "small",
+    "weight_min_kg": 5,
+    "weight_max_kg": 10,
+    "height_min_cm": 23,
+    "height_max_cm": 30,
+    "lifespan_min": 14,
+    "lifespan_max": 15,
+    "temperament": [
+      "playful",
+      "gentle",
+      "feisty",
+      "affectionate",
+      "sensitive"
+    ],
+    "health_issues": [
+      "patellar-luxation",
+      "allergies",
+      "bladder-stones",
+      "cataracts",
+      "hip-dysplasia"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 5,
+    "shedding_level": 1,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 33,
+    "origin": "Belgium",
+    "coat_type": "curly double",
+    "coat_colors": [
+      "white"
+    ],
+    "description": "The Bichon Frise is a cheerful, gentle powder-puff companion with a dense curly white coat that produces very little shedding, making it popular in households where allergies are a concern. Descended from water spaniels, Bichons were favorites of French and Spanish nobility during the Renaissance and later became street performers after falling out of royal favor in the 19th century. Their sociable, gentle nature makes them excellent therapy dogs, but their coat requires professional grooming every four to six weeks to maintain its characteristic shape and prevent matting."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 14,
+      "breed_b_value": 14,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 16,
+      "breed_b_value": 15,
+      "winner": "havanese"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 3,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 6,
+      "breed_b_value": 10,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 23,
+      "breed_b_value": 23,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 27,
+      "breed_b_value": 30,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 4,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 1,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

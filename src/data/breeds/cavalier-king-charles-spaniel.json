@@ -1,0 +1,187 @@
+{
+  "name": "Cavalier King Charles Spaniel",
+  "slug": "cavalier-king-charles-spaniel",
+  "group": "Toy",
+  "size": "small",
+  "weight_min_kg": 5.5,
+  "weight_max_kg": 8,
+  "height_min_cm": 30,
+  "height_max_cm": 33,
+  "lifespan_min": 9,
+  "lifespan_max": 14,
+  "temperament": [
+    "gentle",
+    "affectionate",
+    "graceful",
+    "sociable",
+    "patient"
+  ],
+  "health_issues": [
+    "mitral-valve-disease",
+    "syringomyelia",
+    "hip-dysplasia",
+    "progressive-retinal-atrophy",
+    "episodic-falling-syndrome"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 3,
+  "shedding_level": 3,
+  "trainability": 4,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 17,
+  "origin": "England",
+  "coat_type": "medium silky",
+  "coat_colors": [
+    "blenheim",
+    "tricolor",
+    "black and tan",
+    "ruby"
+  ],
+  "description": "Named after King Charles II, who was rarely seen without several of these spaniels at his heels, the Cavalier King Charles Spaniel was reconstructed in the 1920s from old royal portraits to restore the longer-nosed look of the original dogs. They combine the gentle temperament of a lap dog with the athletic ability of a sporting spaniel, equally comfortable on a sofa or trotting through the park. Mitral valve disease affects the majority of Cavaliers by age 10, making cardiac health screening of breeding parents an absolute minimum requirement.",
+  "conditions_detail": [
+    {
+      "name": "Mitral Valve Disease (MVD)",
+      "slug": "mitral-valve-disease",
+      "category": "Cardiac",
+      "description": "MVD is the most common heart disease in dogs, characterised by progressive degeneration of the mitral valve leaflets causing regurgitation of blood back into the left atrium. It leads to cardiac enlargement and eventually congestive heart failure.",
+      "symptoms": [
+        "Heart murmur detected on examination",
+        "Coughing especially at night",
+        "Exercise intolerance",
+        "Rapid breathing at rest",
+        "Fainting"
+      ],
+      "severity": "high",
+      "treatment_overview": "The EPIC and PROTECT trials established that Pimobendan delays onset of heart failure in preclinical stages. Once failure develops, diuretics, ACE inhibitors, and Pimobendan are combined.",
+      "prevention_tips": [
+        "Follow Cavalier Health cardiac breeding protocol",
+        "Annual auscultation by cardiologist",
+        "Breed only from clear parents over recommended age"
+      ],
+      "affected_breeds": [
+        "cavalier-king-charles-spaniel",
+        "dachshund",
+        "miniature-poodle",
+        "chihuahua",
+        "shih-tzu"
+      ],
+      "typical_onset": "5-10 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£5,000/year"
+    },
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Progressive Retinal Atrophy (PRA)",
+      "slug": "progressive-retinal-atrophy",
+      "category": "Eye",
+      "description": "PRA is a group of hereditary diseases causing progressive degeneration of the photoreceptor cells in the retina. It leads to night blindness first, followed by complete blindness. There is no treatment, but DNA tests exist for many forms.",
+      "symptoms": [
+        "Night blindness (early sign)",
+        "Reluctance to enter dark rooms",
+        "Dilated pupils",
+        "Reduced daytime vision",
+        "Reflective eye shine (tapetal hyperreflectivity)"
+      ],
+      "severity": "high",
+      "treatment_overview": "There is no effective treatment or cure for PRA. Management focuses on adapting the dog's environment to maintain quality of life as vision deteriorates.",
+      "prevention_tips": [
+        "DNA test breeding stock before mating",
+        "Only breed clear or carrier-to-clear pairings",
+        "Annual ophthalmology screening (BVA/KC scheme)"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "cocker-spaniel",
+        "miniature-poodle",
+        "irish-setter",
+        "border-collie",
+        "tibetan-terrier"
+      ],
+      "typical_onset": "3-8 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£0 (management only)"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Yorkshire Terrier",
+      "slug": "yorkshire-terrier",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Shih Tzu",
+      "slug": "shih-tzu",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Havanese",
+      "slug": "havanese",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Pug",
+      "slug": "pug",
+      "size": "small",
+      "group": "Toy"
+    },
+    {
+      "name": "Maltese",
+      "slug": "maltese",
+      "size": "small",
+      "group": "Toy"
+    }
+  ],
+  "comparisons": [
+    "cavalier-king-charles-spaniel-vs-cocker-spaniel",
+    "cocker-spaniel-vs-cavalier-king-charles-spaniel",
+    "cavalier-king-charles-spaniel-vs-bichon-frise",
+    "cavalier-king-charles-spaniel-vs-shih-tzu",
+    "cavalier-king-charles-spaniel-vs-maltese",
+    "french-bulldog-vs-cavalier-king-charles-spaniel"
+  ]
+}

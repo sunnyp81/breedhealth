@@ -1,0 +1,26 @@
+{
+  "name": "Tooth Resorption",
+  "slug": "tooth-resorption",
+  "category": "Dental",
+  "description": "Tooth resorption is progressive destruction of tooth structure from the inside out or outside in, caused by odontoclastic cells. It is more commonly recognised in cats but occurs in dogs, causing pain and eventual tooth loss.",
+  "symptoms": [
+    "Reluctance to chew on one side",
+    "Drooling",
+    "Blood-tinged saliva",
+    "Visible pink discolouration of tooth surface",
+    "Behavioural changes due to pain"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Extraction of the affected tooth or teeth under general anaesthesia is the treatment of choice. Partial coronal amputation may be performed in early cases with vital pulp. Pain management is essential.",
+  "prevention_tips": [
+    "Regular dental radiography to detect lesions early",
+    "Annual dental examination under anaesthesia in middle-aged and senior dogs"
+  ],
+  "affected_breeds": [
+    "all breeds"
+  ],
+  "typical_onset": "5+ years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£400-£1,200",
+  "breeds_detail": []
+}

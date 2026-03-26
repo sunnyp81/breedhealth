@@ -1,0 +1,172 @@
+{
+  "slug": "azawakh-vs-sloughi",
+  "breed_a": {
+    "name": "Azawakh",
+    "slug": "azawakh",
+    "group": "Hound",
+    "size": "large",
+    "weight_min_kg": 15,
+    "weight_max_kg": 25,
+    "height_min_cm": 60,
+    "height_max_cm": 74,
+    "lifespan_min": 12,
+    "lifespan_max": 15,
+    "temperament": [
+      "affectionate",
+      "rugged",
+      "aloof",
+      "attentive"
+    ],
+    "health_issues": [
+      "seizures",
+      "hypothyroidism",
+      "wobbler-syndrome",
+      "bloat"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 1,
+    "shedding_level": 1,
+    "trainability": 2,
+    "good_with_children": false,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 148,
+    "origin": "West Africa",
+    "coat_type": "smooth",
+    "coat_colors": [
+      "fawn",
+      "red",
+      "blue",
+      "black",
+      "brown",
+      "brindle"
+    ],
+    "description": "The Azawakh is a West African sighthound bred by the nomadic Tuareg people of the Sahara and Sahel regions as a guard dog, companion, and coursing hound. They are exceptionally lean and tall with a bone structure visibly beneath their thin skin, yet they are powerful and capable of incredible speed over long distances. Deeply bonded to their families but aloof with strangers, they require experienced owners who understand their independent sighthound temperament."
+  },
+  "breed_b": {
+    "name": "Sloughi",
+    "slug": "sloughi",
+    "group": "Hound",
+    "size": "large",
+    "weight_min_kg": 20,
+    "weight_max_kg": 27,
+    "height_min_cm": 61,
+    "height_max_cm": 72,
+    "lifespan_min": 12,
+    "lifespan_max": 16,
+    "temperament": [
+      "sensitive",
+      "aloof",
+      "loyal",
+      "gentle"
+    ],
+    "health_issues": [
+      "progressive-retinal-atrophy",
+      "hemangiosarcoma",
+      "sensitivity-to-anesthesia"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 1,
+    "shedding_level": 1,
+    "trainability": 2,
+    "good_with_children": false,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 149,
+    "origin": "Morocco",
+    "coat_type": "smooth",
+    "coat_colors": [
+      "sandy",
+      "fawn",
+      "brindle",
+      "black-overlay"
+    ],
+    "description": "The Sloughi is a North African sighthound revered for centuries by the Berber and Arab peoples of Morocco, Algeria, Tunisia, and Libya. They are elegant, lean dogs with a smooth coat and a noble, somewhat melancholy expression that reflects their sensitive and deeply loyal nature. Though aloof with strangers, they form profound bonds with their owners and are affectionate within their family unit."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 12,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 15,
+      "breed_b_value": 16,
+      "winner": "sloughi"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 15,
+      "breed_b_value": 20,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 25,
+      "breed_b_value": 27,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 60,
+      "breed_b_value": 61,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 74,
+      "breed_b_value": 72,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 1,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 1,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 2,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 4,
+      "breed_b_value": 3,
+      "winner": "sloughi"
+    }
+  ]
+}

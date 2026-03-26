@@ -1,0 +1,169 @@
+{
+  "slug": "puli-vs-pumi",
+  "breed_a": {
+    "name": "Puli",
+    "slug": "puli",
+    "group": "Herding",
+    "size": "medium",
+    "weight_min_kg": 10,
+    "weight_max_kg": 15,
+    "height_min_cm": 37,
+    "height_max_cm": 44,
+    "lifespan_min": 10,
+    "lifespan_max": 15,
+    "temperament": [
+      "loyal",
+      "obedient",
+      "intelligent",
+      "energetic"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "progressive-retinal-atrophy",
+      "cataracts"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 5,
+    "shedding_level": 1,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 152,
+    "origin": "Hungary",
+    "coat_type": "corded",
+    "coat_colors": [
+      "black",
+      "white",
+      "gray",
+      "cream"
+    ],
+    "description": "The Puli is a Hungarian herding dog famous for its distinctive corded coat that naturally develops into long dreadlock-like cords as the dog matures. Agile and energetic, they were bred to herd flocks across the Hungarian plains, and they often ran across the backs of sheep when directing them. Clever and devoted, they are enthusiastic working dogs and family companions who need consistent training and regular exercise."
+  },
+  "breed_b": {
+    "name": "Pumi",
+    "slug": "pumi",
+    "group": "Herding",
+    "size": "medium",
+    "weight_min_kg": 8,
+    "weight_max_kg": 13,
+    "height_min_cm": 38,
+    "height_max_cm": 44,
+    "lifespan_min": 12,
+    "lifespan_max": 13,
+    "temperament": [
+      "lively",
+      "reserved",
+      "clever",
+      "energetic"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "degenerative-myelopathy",
+      "patellar-luxation"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 3,
+    "shedding_level": 1,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 153,
+    "origin": "Hungary",
+    "coat_type": "curly",
+    "coat_colors": [
+      "gray",
+      "white",
+      "black",
+      "fawn"
+    ],
+    "description": "The Pumi is a lively and versatile Hungarian herding dog with a distinctive curly or wavy coat and whimsical semi-erect ears that give it a unique, animated expression. Developed in the 17th and 18th centuries by crossing the Puli with German and French sheepdogs, the Pumi became a distinct breed well-suited to herding cattle and pigs in addition to sheep. Energetic and highly trainable, they excel in dog sports and need active owners who can channel their considerable drive."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 10,
+      "breed_b_value": 12,
+      "winner": "pumi"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 15,
+      "breed_b_value": 13,
+      "winner": "puli"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 10,
+      "breed_b_value": 8,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 15,
+      "breed_b_value": 13,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 37,
+      "breed_b_value": 38,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 44,
+      "breed_b_value": 44,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 5,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 1,
+      "breed_b_value": 1,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    }
+  ]
+}

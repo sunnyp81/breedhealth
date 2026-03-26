@@ -1,0 +1,187 @@
+{
+  "name": "Komondor",
+  "slug": "komondor",
+  "group": "Working",
+  "size": "giant",
+  "weight_min_kg": 36,
+  "weight_max_kg": 61,
+  "height_min_cm": 64,
+  "height_max_cm": 80,
+  "lifespan_min": 10,
+  "lifespan_max": 12,
+  "temperament": [
+    "steady",
+    "fearless",
+    "loyal",
+    "independent"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "gastric-dilatation-volvulus",
+    "entropion",
+    "skin-conditions"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 5,
+  "shedding_level": 1,
+  "trainability": 2,
+  "good_with_children": true,
+  "good_with_dogs": false,
+  "apartment_friendly": false,
+  "popularity_rank": 151,
+  "origin": "Hungary",
+  "coat_type": "corded",
+  "coat_colors": [
+    "white"
+  ],
+  "description": "The Komondor is a massive Hungarian livestock guardian dog immediately recognizable by its extraordinary white corded coat that resembles a mop and can weigh up to 20 pounds on an adult dog. Brought to Hungary by nomadic Magyar tribes, they have guarded sheep and cattle for centuries, using their white coat as camouflage among the flocks. Fiercely independent and protective, they are impressive dogs that require dedicated owners willing to invest in their unique grooming needs.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Gastric Dilatation-Volvulus (GDV / Bloat)",
+      "slug": "gastric-dilatation-volvulus",
+      "category": "Gastrointestinal",
+      "description": "GDV is a life-threatening emergency in which the stomach fills with gas and rotates on its axis, trapping gas, cutting off blood supply, and causing rapid circulatory shock. It can kill within hours without emergency surgery.",
+      "symptoms": [
+        "Distended abdomen",
+        "Unproductive retching",
+        "Restlessness and pain",
+        "Excessive salivation",
+        "Rapid breathing",
+        "Collapse"
+      ],
+      "severity": "high",
+      "treatment_overview": "Emergency stabilisation with IV fluids and gastric decompression, followed by immediate surgical detorsion and gastropexy. Prophylactic gastropexy is strongly recommended at the time of neutering for high-risk breeds.",
+      "prevention_tips": [
+        "Prophylactic gastropexy in at-risk breeds",
+        "Feed two smaller meals per day",
+        "Avoid vigorous exercise 1 hour before and after meals",
+        "Avoid raised food bowls (evidence is mixed)"
+      ],
+      "affected_breeds": [
+        "great-dane",
+        "standard-poodle",
+        "german-shepherd",
+        "gordon-setter",
+        "irish-setter",
+        "weimaraner"
+      ],
+      "typical_onset": "3-7 years",
+      "hereditary": false,
+      "estimated_treatment_cost": "£4,000-£8,000"
+    },
+    {
+      "name": "Entropion",
+      "slug": "entropion",
+      "category": "Eye",
+      "description": "Entropion is an inward rolling of the eyelid margin, causing the eyelashes and skin to rub against the corneal surface. This produces chronic irritation, pain, corneal ulceration, and scarring that can impair vision.",
+      "symptoms": [
+        "Squinting or pawing at eye",
+        "Excessive tearing",
+        "Eye discharge",
+        "Corneal cloudiness",
+        "Redness around eye"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Temporary eyelid tacking can relieve discomfort in puppies pending maturity. Definitive surgical correction (Hotz-Celsus procedure) is highly effective in adults.",
+      "prevention_tips": [
+        "Avoid breeding dogs with severe conformational entropion",
+        "Do not breed surgically corrected dogs"
+      ],
+      "affected_breeds": [
+        "chow-chow",
+        "shar-pei",
+        "rottweiler",
+        "labrador-retriever",
+        "golden-retriever",
+        "bullmastiff"
+      ],
+      "typical_onset": "Puppyhood - 2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£800-£2,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Senior Formula",
+      "slug": "senior"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Doberman Pinscher",
+      "slug": "doberman-pinscher",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Bernese Mountain Dog",
+      "slug": "bernese-mountain-dog",
+      "size": "giant",
+      "group": "Working"
+    }
+  ],
+  "comparisons": [
+    "komondor-vs-puli"
+  ]
+}

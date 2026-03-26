@@ -1,0 +1,73 @@
+{
+  "name": "Ectropion",
+  "slug": "ectropion",
+  "category": "Eye",
+  "description": "Ectropion is an outward rolling or drooping of the lower eyelid, exposing the conjunctiva and creating a pocket that collects debris. It leads to chronic conjunctivitis, discharge, and increased infection risk.",
+  "symptoms": [
+    "Drooping lower eyelid",
+    "Visible red conjunctiva",
+    "Chronic eye discharge",
+    "Recurrent conjunctivitis",
+    "Eye rubbing"
+  ],
+  "severity": "low",
+  "treatment_overview": "Mild cases are managed with regular eye cleaning and lubrication. Severe cases causing recurrent infections require surgical correction (V-Y plasty) to tighten the eyelid.",
+  "prevention_tips": [
+    "Avoid breeding dogs with pronounced conformational ectropion"
+  ],
+  "affected_breeds": [
+    "basset-hound",
+    "bloodhound",
+    "saint-bernard",
+    "cocker-spaniel",
+    "newfoundland",
+    "clumber-spaniel"
+  ],
+  "typical_onset": "Puppyhood - 2 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£600-£1,800",
+  "breeds_detail": [
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Bloodhound",
+      "slug": "bloodhound",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Saint Bernard",
+      "slug": "saint-bernard",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Cocker Spaniel",
+      "slug": "cocker-spaniel",
+      "size": "medium",
+      "group": "Sporting"
+    },
+    {
+      "name": "Newfoundland",
+      "slug": "newfoundland",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Clumber Spaniel",
+      "slug": "clumber-spaniel",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Cane Corso",
+      "slug": "cane-corso",
+      "size": "giant",
+      "group": "Working"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Lens Luxation",
+  "slug": "lens-luxation",
+  "category": "Eye",
+  "description": "Lens luxation is displacement of the lens from its normal position due to breakdown of the suspensory ligaments (zonules). Primary lens luxation is hereditary. A luxated lens can cause acute glaucoma and retinal detachment.",
+  "symptoms": [
+    "Sudden eye pain",
+    "Visible lens displacement",
+    "Watery eye",
+    "Corneal oedema",
+    "Vision loss"
+  ],
+  "severity": "high",
+  "treatment_overview": "Surgical removal of the luxated lens (intracapsular extraction) is the treatment of choice. Medical management with miotics helps when surgery is not immediately possible. Glaucoma treatment may also be required.",
+  "prevention_tips": [
+    "DNA test available (ADAMTS17 mutation) — do not breed affected dogs",
+    "Annual eye examinations"
+  ],
+  "affected_breeds": [
+    "jack-russell-terrier",
+    "miniature-bull-terrier",
+    "tibetan-terrier",
+    "border-collie",
+    "shar-pei"
+  ],
+  "typical_onset": "3-8 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£1,500-£3,500",
+  "breeds_detail": [
+    {
+      "name": "Miniature Bull Terrier",
+      "slug": "miniature-bull-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Tibetan Terrier",
+      "slug": "tibetan-terrier",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Border Collie",
+      "slug": "border-collie",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Shar Pei",
+      "slug": "shar-pei",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Russell Terrier",
+      "slug": "russell-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Cesky Terrier",
+      "slug": "cesky-terrier",
+      "size": "small",
+      "group": "Terrier"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "slug": "samoyed-vs-american-eskimo-dog",
+  "breed_a": {
+    "name": "Samoyed",
+    "slug": "samoyed",
+    "group": "Working",
+    "size": "medium",
+    "weight_min_kg": 16,
+    "weight_max_kg": 30,
+    "height_min_cm": 46,
+    "height_max_cm": 60,
+    "lifespan_min": 12,
+    "lifespan_max": 14,
+    "temperament": [
+      "lively",
+      "adaptable",
+      "friendly",
+      "gentle",
+      "alert"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "progressive-retinal-atrophy",
+      "hypothyroidism",
+      "samoyed-hereditary-glomerulopathy",
+      "diabetes"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 5,
+    "shedding_level": 5,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 64,
+    "origin": "Russia",
+    "coat_type": "long thick double",
+    "coat_colors": [
+      "white",
+      "biscuit",
+      "cream"
+    ],
+    "description": "The Samoyed was bred by the nomadic Samoyedic peoples of Siberia to herd reindeer and pull sleds in some of the harshest conditions on Earth, sleeping with the Samoyedic families in their tents for warmth in temperatures reaching minus 60 degrees Celsius. Their pure white or biscuit-colored coat requires daily brushing and is famously dense — many owners collect the shed undercoat and spin it into warm yarn. The characteristic upturned corners of their mouth that give the breed its ever-present Sammy smile evolved as a functional adaptation to prevent drooling, which would freeze and form ice on the face in Arctic conditions."
+  },
+  "breed_b": {
+    "name": "American Eskimo Dog",
+    "slug": "american-eskimo-dog",
+    "group": "Non-Sporting",
+    "size": "small",
+    "weight_min_kg": 3,
+    "weight_max_kg": 16,
+    "height_min_cm": 23,
+    "height_max_cm": 48,
+    "lifespan_min": 13,
+    "lifespan_max": 15,
+    "temperament": [
+      "playful",
+      "perky",
+      "smart",
+      "alert",
+      "friendly"
+    ],
+    "health_issues": [
+      "progressive-retinal-atrophy",
+      "hip-dysplasia",
+      "patellar-luxation",
+      "diabetes",
+      "legg-calve-perthes"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 3,
+    "shedding_level": 4,
+    "trainability": 5,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 85,
+    "origin": "United States",
+    "coat_type": "thick double",
+    "coat_colors": [
+      "white",
+      "white and biscuit"
+    ],
+    "description": "Despite the name, the American Eskimo Dog has no documented connection to Inuit or Eskimo peoples, deriving instead from the German Spitz dogs brought to America by German immigrants in the 19th century, with the Eskimo name adopted during World War I anti-German sentiment. Available in toy, miniature, and standard sizes, American Eskimo Dogs are highly intelligent, trainable, and agile, gaining fame as performing circus dogs in the 1800s for their exceptional trick-learning ability. Their brilliant white double coat is striking but requires brushing at least two to three times per week to manage the heavy shedding."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 13,
+      "winner": "american-eskimo-dog"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 14,
+      "breed_b_value": 15,
+      "winner": "american-eskimo-dog"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 16,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 30,
+      "breed_b_value": 16,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 46,
+      "breed_b_value": 23,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 60,
+      "breed_b_value": 48,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 4,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 5,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 5,
+      "breed_b_value": 4,
+      "winner": "american-eskimo-dog"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 5,
+      "winner": "american-eskimo-dog"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": true,
+      "winner": "american-eskimo-dog"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

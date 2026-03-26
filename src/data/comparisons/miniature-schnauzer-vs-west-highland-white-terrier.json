@@ -1,0 +1,172 @@
+{
+  "slug": "miniature-schnauzer-vs-west-highland-white-terrier",
+  "breed_a": {
+    "name": "Miniature Schnauzer",
+    "slug": "miniature-schnauzer",
+    "group": "Terrier",
+    "size": "small",
+    "weight_min_kg": 5.4,
+    "weight_max_kg": 9,
+    "height_min_cm": 30,
+    "height_max_cm": 36,
+    "lifespan_min": 12,
+    "lifespan_max": 15,
+    "temperament": [
+      "friendly",
+      "obedient",
+      "intelligent",
+      "alert",
+      "spirited"
+    ],
+    "health_issues": [
+      "pancreatitis",
+      "hyperlipidemia",
+      "bladder-stones",
+      "progressive-retinal-atrophy",
+      "myotonia-congenita"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 4,
+    "shedding_level": 1,
+    "trainability": 4,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 18,
+    "origin": "Germany",
+    "coat_type": "wiry double",
+    "coat_colors": [
+      "salt and pepper",
+      "black and silver",
+      "black",
+      "white"
+    ],
+    "description": "The Miniature Schnauzer was developed in Germany in the mid-19th century by crossing Standard Schnauzers with smaller breeds including the Affenpinscher and Miniature Pinscher to produce a compact farm ratter. They are highly adaptable, alert, and trainable, making them one of the most popular terrier-type breeds globally and well-suited to urban life. Their distinctive bearded muzzle and bushy eyebrows require regular hand-stripping or clipping to maintain correct coat texture and the breed's characteristic silhouette."
+  },
+  "breed_b": {
+    "name": "West Highland White Terrier",
+    "slug": "west-highland-white-terrier",
+    "group": "Terrier",
+    "size": "small",
+    "weight_min_kg": 6.8,
+    "weight_max_kg": 9,
+    "height_min_cm": 25,
+    "height_max_cm": 28,
+    "lifespan_min": 13,
+    "lifespan_max": 15,
+    "temperament": [
+      "alert",
+      "cheerful",
+      "independent",
+      "friendly",
+      "stubborn"
+    ],
+    "health_issues": [
+      "skin-conditions",
+      "patellar-luxation",
+      "pulmonary-fibrosis",
+      "craniomandibular-osteopathy",
+      "jawbone-disease"
+    ],
+    "exercise_level": 3,
+    "grooming_level": 4,
+    "shedding_level": 2,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": true,
+    "popularity_rank": 40,
+    "origin": "Scotland",
+    "coat_type": "wiry double",
+    "coat_colors": [
+      "white"
+    ],
+    "description": "The West Highland White Terrier was developed in Scotland in the 19th century, with its white coat reportedly bred deliberately by Colonel Malcolm of Poltalloch after he accidentally shot his brown terrier, mistaking it for a fox during a hunt. Compact, confident, and cheerful, the Westie is one of the most recognizable and popular small terriers globally, with a bold, independent terrier character that it wears with great self-assurance. Skin conditions and allergies are unusually prevalent in the breed, and Westie lung disease — idiopathic pulmonary fibrosis — is a serious breed-specific concern owners should discuss with their vet."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 13,
+      "winner": "west-highland-white-terrier"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 15,
+      "breed_b_value": 15,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 5.4,
+      "breed_b_value": 6.8,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 9,
+      "breed_b_value": 9,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 30,
+      "breed_b_value": 25,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 36,
+      "breed_b_value": 28,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 3,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 1,
+      "breed_b_value": 2,
+      "winner": "miniature-schnauzer"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 4,
+      "breed_b_value": 3,
+      "winner": "miniature-schnauzer"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "slug": "samoyed-vs-great-pyrenees",
+  "breed_a": {
+    "name": "Samoyed",
+    "slug": "samoyed",
+    "group": "Working",
+    "size": "medium",
+    "weight_min_kg": 16,
+    "weight_max_kg": 30,
+    "height_min_cm": 46,
+    "height_max_cm": 60,
+    "lifespan_min": 12,
+    "lifespan_max": 14,
+    "temperament": [
+      "lively",
+      "adaptable",
+      "friendly",
+      "gentle",
+      "alert"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "progressive-retinal-atrophy",
+      "hypothyroidism",
+      "samoyed-hereditary-glomerulopathy",
+      "diabetes"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 5,
+    "shedding_level": 5,
+    "trainability": 3,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 64,
+    "origin": "Russia",
+    "coat_type": "long thick double",
+    "coat_colors": [
+      "white",
+      "biscuit",
+      "cream"
+    ],
+    "description": "The Samoyed was bred by the nomadic Samoyedic peoples of Siberia to herd reindeer and pull sleds in some of the harshest conditions on Earth, sleeping with the Samoyedic families in their tents for warmth in temperatures reaching minus 60 degrees Celsius. Their pure white or biscuit-colored coat requires daily brushing and is famously dense — many owners collect the shed undercoat and spin it into warm yarn. The characteristic upturned corners of their mouth that give the breed its ever-present Sammy smile evolved as a functional adaptation to prevent drooling, which would freeze and form ice on the face in Arctic conditions."
+  },
+  "breed_b": {
+    "name": "Great Pyrenees",
+    "slug": "great-pyrenees",
+    "group": "Working",
+    "size": "giant",
+    "weight_min_kg": 40,
+    "weight_max_kg": 54,
+    "height_min_cm": 65,
+    "height_max_cm": 82,
+    "lifespan_min": 10,
+    "lifespan_max": 12,
+    "temperament": [
+      "patient",
+      "calm",
+      "gentle",
+      "independent"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "bloat",
+      "osteosarcoma",
+      "patellar-luxation",
+      "addisons-disease"
+    ],
+    "exercise_level": 2,
+    "grooming_level": 3,
+    "shedding_level": 5,
+    "trainability": 2,
+    "good_with_children": true,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 108,
+    "origin": "France/Spain",
+    "coat_type": "long thick double",
+    "coat_colors": [
+      "white",
+      "white with grey markings",
+      "white with tan markings",
+      "white with reddish brown markings"
+    ],
+    "description": "The Great Pyrenees is a majestic white livestock guardian dog developed in the Pyrenean mountains of France and Spain to protect flocks from wolves and bears without human supervision. Their deeply independent, nocturnal guardian instincts mean they are not always suited to suburban life — they are known to roam, bark at night, and make their own decisions about threats. However, with the right environment and experienced owners, they are gentle, devoted family dogs and effective protection animals."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 12,
+      "breed_b_value": 10,
+      "winner": "samoyed"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 14,
+      "breed_b_value": 12,
+      "winner": "samoyed"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 16,
+      "breed_b_value": 40,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 30,
+      "breed_b_value": 54,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 46,
+      "breed_b_value": 65,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 60,
+      "breed_b_value": 82,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 4,
+      "breed_b_value": 2,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 5,
+      "breed_b_value": 3,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 3,
+      "breed_b_value": 2,
+      "winner": "samoyed"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

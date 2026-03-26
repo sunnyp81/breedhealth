@@ -1,0 +1,116 @@
+{
+  "name": "Carolina Dog",
+  "slug": "carolina-dog",
+  "group": "Hound",
+  "size": "medium",
+  "weight_min_kg": 15,
+  "weight_max_kg": 20,
+  "height_min_cm": 45,
+  "height_max_cm": 61,
+  "lifespan_min": 12,
+  "lifespan_max": 15,
+  "temperament": [
+    "loyal",
+    "gentle",
+    "independent",
+    "alert"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "skin-conditions",
+    "ivermectin-sensitivity"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 1,
+  "shedding_level": 3,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 209,
+  "origin": "United States",
+  "coat_type": "short",
+  "coat_colors": [
+    "ginger",
+    "fawn",
+    "black-and-tan",
+    "piebald"
+  ],
+  "description": "The Carolina Dog, also known as the American Dingo, is a primitive breed that roamed feral in the isolated wetlands and forests of the American Southeast for thousands of years, and is genetically one of the oldest and most wolf-like of all dog breeds. DNA evidence suggests the Carolina Dog descended from the dogs that crossed the Bering land bridge with the first Native American peoples some 9,000-11,000 years ago, making it one of the oldest living dog lineages in the Americas. Despite its wild heritage, the Carolina Dog can be successfully domesticated and makes a loyal, gentle companion when raised in a home environment from a young age.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Rhodesian Ridgeback",
+      "slug": "rhodesian-ridgeback",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Bloodhound",
+      "slug": "bloodhound",
+      "size": "large",
+      "group": "Hound"
+    }
+  ],
+  "comparisons": []
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Leptospirosis",
+  "slug": "leptospirosis",
+  "category": "Urinary",
+  "description": "Leptospirosis is a bacterial infection caused by Leptospira serovars spread through contaminated water and rodent urine. It causes acute kidney injury, liver failure, and systemic inflammation. It is an important zoonosis transmissible to humans.",
+  "symptoms": [
+    "Acute kidney failure",
+    "Jaundice",
+    "Vomiting",
+    "Fever",
+    "Muscle pain",
+    "Pulmonary haemorrhage in severe cases"
+  ],
+  "severity": "high",
+  "treatment_overview": "Penicillin or amoxicillin followed by doxycycline to clear the carrier state. IV fluids for renal support, anti-nausea drugs, and monitoring of kidney and liver function. Intensive care for severe cases.",
+  "prevention_tips": [
+    "Vaccinate with 4-serovar lepto vaccine annually",
+    "Avoid stagnant water sources",
+    "Rodent control",
+    "Good hygiene when handling infected dogs"
+  ],
+  "affected_breeds": [
+    "all breeds (working and sporting dogs with outdoor exposure at higher risk)"
+  ],
+  "typical_onset": "Any age",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,500-£5,000",
+  "breeds_detail": []
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Inflammatory Bowel Disease (IBD)",
+  "slug": "inflammatory-bowel-disease",
+  "category": "Gastrointestinal",
+  "description": "Canine IBD encompasses a group of chronic idiopathic gastrointestinal disorders characterised by persistent gastrointestinal signs and histological evidence of intestinal inflammation. Protein-losing enteropathy is a severe complication.",
+  "symptoms": [
+    "Chronic vomiting",
+    "Chronic diarrhoea",
+    "Weight loss",
+    "Reduced appetite",
+    "Protein-losing enteropathy (oedema, ascites)"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Dietary trials with hydrolysed or novel protein diets form the first step. Immunosuppressive therapy (prednisolone ± azathioprine, cyclosporine) is used when diet alone is insufficient. Cobalamin supplementation is often needed.",
+  "prevention_tips": [
+    "No proven prevention",
+    "Healthy gut microbiome through varied diet and avoiding unnecessary antibiotics"
+  ],
+  "affected_breeds": [
+    "german-shepherd",
+    "shar-pei",
+    "norwegian-lundehund",
+    "rottweiler",
+    "border-collie"
+  ],
+  "typical_onset": "2-6 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£800-£3,000/year",
+  "breeds_detail": [
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Shar Pei",
+      "slug": "shar-pei",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Norwegian Lundehund",
+      "slug": "norwegian-lundehund",
+      "size": "small",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Border Collie",
+      "slug": "border-collie",
+      "size": "medium",
+      "group": "Herding"
+    }
+  ]
+}

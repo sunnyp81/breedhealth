@@ -1,0 +1,54 @@
+{
+  "name": "Multifocal Acquired Retinopathy",
+  "slug": "multifocal-acquired-retinopathy",
+  "category": "Eye",
+  "description": "Multifocal acquired retinopathy encompasses several acquired retinal conditions including sudden acquired retinal degeneration syndrome (SARDS) and immune-mediated retinitis. SARDS causes rapid, complete blindness over days to weeks with no obvious fundic changes initially.",
+  "symptoms": [
+    "Sudden vision loss over days to weeks",
+    "Increased thirst and urination (in SARDS)",
+    "Weight gain",
+    "Elevated liver enzymes",
+    "Normal fundic examination initially"
+  ],
+  "severity": "high",
+  "treatment_overview": "There is no proven treatment for SARDS. Some dogs are managed with immunomodulatory protocols (IVIG, intravenous methylprednisolone) with variable outcomes. Most remain permanently blind.",
+  "prevention_tips": [
+    "No proven prevention",
+    "Prompt investigation of sudden blindness"
+  ],
+  "affected_breeds": [
+    "miniature-schnauzer",
+    "dachshund",
+    "poodle",
+    "bichon-frise"
+  ],
+  "typical_onset": "7-12 years",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,000-£4,000",
+  "breeds_detail": [
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Poodle",
+      "slug": "poodle",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Bichon Frise",
+      "slug": "bichon-frise",
+      "size": "small",
+      "group": "Non-Sporting"
+    }
+  ]
+}

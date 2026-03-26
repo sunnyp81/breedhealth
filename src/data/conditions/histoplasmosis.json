@@ -1,0 +1,27 @@
+{
+  "name": "Histoplasma Infection",
+  "slug": "histoplasmosis",
+  "category": "Gastrointestinal",
+  "description": "Histoplasmosis is a systemic fungal infection caused by Histoplasma capsulatum, found in soil enriched with bird or bat droppings. Dogs in endemic areas (parts of North America) can develop respiratory and gastrointestinal forms.",
+  "symptoms": [
+    "Weight loss",
+    "Diarrhoea",
+    "Anaemia",
+    "Respiratory distress",
+    "Lymphadenopathy",
+    "Fever"
+  ],
+  "severity": "high",
+  "treatment_overview": "Itraconazole is the first-line treatment for 4-6 months. Amphotericin B for severe cases. Prognosis depends on disease extent. Gastrointestinal histoplasmosis has a worse prognosis than respiratory form.",
+  "prevention_tips": [
+    "Avoid known endemic areas with bird roost or bat cave exposure",
+    "Do not allow dogs to dig in soil in endemic areas"
+  ],
+  "affected_breeds": [
+    "all breeds (hunting and outdoor dogs at higher risk)"
+  ],
+  "typical_onset": "Any age",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,500-£5,000",
+  "breeds_detail": []
+}

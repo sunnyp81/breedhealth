@@ -1,0 +1,178 @@
+{
+  "slug": "borzoi-vs-afghan-hound",
+  "breed_a": {
+    "name": "Borzoi",
+    "slug": "borzoi",
+    "group": "Hound",
+    "size": "large",
+    "weight_min_kg": 27,
+    "weight_max_kg": 48,
+    "height_min_cm": 68,
+    "height_max_cm": 85,
+    "lifespan_min": 9,
+    "lifespan_max": 14,
+    "temperament": [
+      "affectionate",
+      "athletic",
+      "calm",
+      "intelligent",
+      "loyal"
+    ],
+    "health_issues": [
+      "bloat",
+      "hip-dysplasia",
+      "progressive-retinal-atrophy",
+      "osteochondritis-dissecans",
+      "heart-disease"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 3,
+    "shedding_level": 3,
+    "trainability": 2,
+    "good_with_children": false,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 67,
+    "origin": "Russia",
+    "coat_type": "long silky single",
+    "coat_colors": [
+      "white",
+      "white and gold",
+      "white and tan",
+      "brindle",
+      "black"
+    ],
+    "description": "The Borzoi was bred by Russian aristocracy as a coursing hound capable of chasing and capturing wolves on the open steppes of Russia, combining aristocratic elegance with extraordinary speed and the power to hold a wolf by the neck until the hunter arrived. Their long, silky coat flows dramatically when they run, and their tall, narrow, aerodynamic build is perfectly adapted for high-speed pursuit across open terrain. Borzoi are sensitive, intelligent dogs with an independent sight hound character that can make training challenging — they respond well to calm, patient handling and are particularly gentle with people they trust."
+  },
+  "breed_b": {
+    "name": "Afghan Hound",
+    "slug": "afghan-hound",
+    "group": "Hound",
+    "size": "large",
+    "weight_min_kg": 23,
+    "weight_max_kg": 27,
+    "height_min_cm": 63,
+    "height_max_cm": 74,
+    "lifespan_min": 12,
+    "lifespan_max": 14,
+    "temperament": [
+      "aloof",
+      "clownish",
+      "dignified",
+      "happy"
+    ],
+    "health_issues": [
+      "hip-dysplasia",
+      "cataracts",
+      "hypothyroidism",
+      "allergies",
+      "anesthesia-sensitivity"
+    ],
+    "exercise_level": 4,
+    "grooming_level": 5,
+    "shedding_level": 2,
+    "trainability": 1,
+    "good_with_children": false,
+    "good_with_dogs": true,
+    "apartment_friendly": false,
+    "popularity_rank": 169,
+    "origin": "Afghanistan",
+    "coat_type": "long",
+    "coat_colors": [
+      "black",
+      "red",
+      "cream",
+      "blue",
+      "brindle",
+      "white",
+      "domino"
+    ],
+    "description": "The Afghan Hound is one of the most visually stunning dogs in the world, with its long, silky, flowing coat, aristocratic bearing, and exotic Eastern appearance making it a perennial showstopper in the show ring. Among the oldest of all dog breeds, the Afghan originated in the mountains of Afghanistan where its thick, long coat protected it from extreme cold while its exceptional speed and agility allowed it to course leopard and deer over rugged mountain terrain. The Afghan's independent, cat-like personality makes it notoriously difficult to train, but its unique beauty and aloof elegance attract devoted admirers worldwide."
+  },
+  "differences": [
+    {
+      "category": "Min Lifespan (years)",
+      "breed_a_value": 9,
+      "breed_b_value": 12,
+      "winner": "afghan-hound"
+    },
+    {
+      "category": "Max Lifespan (years)",
+      "breed_a_value": 14,
+      "breed_b_value": 14,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Weight (kg)",
+      "breed_a_value": 27,
+      "breed_b_value": 23,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Weight (kg)",
+      "breed_a_value": 48,
+      "breed_b_value": 27,
+      "winner": "tie"
+    },
+    {
+      "category": "Min Height (cm)",
+      "breed_a_value": 68,
+      "breed_b_value": 63,
+      "winner": "tie"
+    },
+    {
+      "category": "Max Height (cm)",
+      "breed_a_value": 85,
+      "breed_b_value": 74,
+      "winner": "tie"
+    },
+    {
+      "category": "Exercise Level",
+      "breed_a_value": 4,
+      "breed_b_value": 4,
+      "winner": "tie"
+    },
+    {
+      "category": "Grooming Level",
+      "breed_a_value": 3,
+      "breed_b_value": 5,
+      "winner": "tie"
+    },
+    {
+      "category": "Shedding Level",
+      "breed_a_value": 3,
+      "breed_b_value": 2,
+      "winner": "afghan-hound"
+    },
+    {
+      "category": "Trainability",
+      "breed_a_value": 2,
+      "breed_b_value": 1,
+      "winner": "borzoi"
+    },
+    {
+      "category": "Good with Children",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Good with Dogs",
+      "breed_a_value": true,
+      "breed_b_value": true,
+      "winner": "tie"
+    },
+    {
+      "category": "Apartment Friendly",
+      "breed_a_value": false,
+      "breed_b_value": false,
+      "winner": "tie"
+    },
+    {
+      "category": "Number of Common Health Issues",
+      "breed_a_value": 5,
+      "breed_b_value": 5,
+      "winner": "tie"
+    }
+  ]
+}

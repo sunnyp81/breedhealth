@@ -1,0 +1,74 @@
+{
+  "name": "Osteochondritis Dissecans (OCD)",
+  "slug": "osteochondritis-dissecans",
+  "category": "Orthopedic",
+  "description": "OCD is a developmental condition where cartilage in a joint fails to convert to bone properly, forming a flap that causes pain, joint effusion, and lameness. Commonly affects shoulder, elbow, stifle, and hock joints.",
+  "symptoms": [
+    "Foreleg or hindleg lameness",
+    "Joint swelling",
+    "Pain on joint flexion",
+    "Reduced exercise tolerance",
+    "Worsening lameness after rest"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Surgical removal or fixation of the cartilage flap is usually required. Medical management with rest and NSAIDs may help mild cases but rarely resolves the lesion.",
+  "prevention_tips": [
+    "Avoid over-supplementation with calcium in growing puppies",
+    "Control rapid growth rate",
+    "Moderate exercise in young large-breed dogs"
+  ],
+  "affected_breeds": [
+    "labrador-retriever",
+    "golden-retriever",
+    "great-dane",
+    "bernese-mountain-dog",
+    "rottweiler"
+  ],
+  "typical_onset": "4-18 months",
+  "hereditary": true,
+  "estimated_treatment_cost": "£1,800-£4,000",
+  "breeds_detail": [
+    {
+      "name": "Labrador Retriever",
+      "slug": "labrador-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Golden Retriever",
+      "slug": "golden-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Bernese Mountain Dog",
+      "slug": "bernese-mountain-dog",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Rottweiler",
+      "slug": "rottweiler",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Borzoi",
+      "slug": "borzoi",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Kuvasz",
+      "slug": "kuvasz",
+      "size": "large",
+      "group": "Working"
+    }
+  ]
+}

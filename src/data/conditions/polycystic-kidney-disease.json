@@ -1,0 +1,47 @@
+{
+  "name": "Polycystic Kidney Disease (PKD)",
+  "slug": "polycystic-kidney-disease",
+  "category": "Urinary",
+  "description": "PKD is a hereditary condition characterised by multiple fluid-filled cysts in the kidneys that progressively replace normal renal tissue, leading to chronic kidney disease. A DNA test is available for the Bull Terrier form.",
+  "symptoms": [
+    "Increased thirst and urination",
+    "Weight loss",
+    "Vomiting",
+    "Enlarged kidneys on palpation or ultrasound",
+    "Signs of renal failure in advanced disease"
+  ],
+  "severity": "high",
+  "treatment_overview": "There is no cure. Management follows standard CKD protocols. Regular renal function monitoring and renal diet are used to slow progression.",
+  "prevention_tips": [
+    "DNA test available for Bull Terrier form (ADPKD)",
+    "Ultrasound screening of breeding animals"
+  ],
+  "affected_breeds": [
+    "bull-terrier",
+    "miniature-bull-terrier",
+    "cairn-terrier"
+  ],
+  "typical_onset": "3-7 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£800-£3,000/year",
+  "breeds_detail": [
+    {
+      "name": "Bull Terrier",
+      "slug": "bull-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    },
+    {
+      "name": "Miniature Bull Terrier",
+      "slug": "miniature-bull-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Cairn Terrier",
+      "slug": "cairn-terrier",
+      "size": "small",
+      "group": "Terrier"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "name": "Icelandic Sheepdog",
+  "slug": "icelandic-sheepdog",
+  "group": "Herding",
+  "size": "medium",
+  "weight_min_kg": 9,
+  "weight_max_kg": 14,
+  "height_min_cm": 42,
+  "height_max_cm": 46,
+  "lifespan_min": 12,
+  "lifespan_max": 14,
+  "temperament": [
+    "friendly",
+    "cheerful",
+    "inquisitive",
+    "lively",
+    "devoted"
+  ],
+  "health_issues": [
+    "hip-dysplasia",
+    "patellar-luxation",
+    "cataracts",
+    "distichiasis",
+    "malocclusion"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 3,
+  "shedding_level": 4,
+  "trainability": 4,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 94,
+  "origin": "Iceland",
+  "coat_type": "medium thick double",
+  "coat_colors": [
+    "tan and black",
+    "gold",
+    "gray",
+    "red",
+    "chocolate and white"
+  ],
+  "description": "The Icelandic Sheepdog is Iceland's only native dog breed, descended directly from the Nordic Spitz dogs brought to Iceland by the Viking settlers who colonized the island around 874 AD, making it one of the purest ancient breeds in existence. Iceland's geographic isolation preserved the genetic purity of the breed for over a thousand years until distemper nearly wiped them out in the 20th century, before conservation efforts by the Icelandic Sheepdog Association and global breeders stabilized the population. They are energetic, cheerful, and characteristically vocal dogs used traditionally to herd and protect sheep and cattle in Iceland's rugged volcanic terrain.",
+  "conditions_detail": [
+    {
+      "name": "Hip Dysplasia",
+      "slug": "hip-dysplasia",
+      "category": "Orthopedic",
+      "description": "Hip dysplasia is a genetic condition where the hip joint doesn't develop properly, causing the ball and socket to not fit together correctly. This leads to joint deterioration, pain, and arthritis over time.",
+      "symptoms": [
+        "Difficulty rising",
+        "Reluctance to jump",
+        "Bunny-hopping gait",
+        "Loss of thigh muscle",
+        "Stiffness after rest"
+      ],
+      "severity": "high",
+      "treatment_overview": "Treatment ranges from weight management and physical therapy for mild cases to total hip replacement for severe cases. NSAIDs and joint supplements help manage pain.",
+      "prevention_tips": [
+        "Screen breeding stock with hip scoring",
+        "Maintain healthy weight",
+        "Avoid excessive puppy exercise",
+        "Feed large-breed puppy food"
+      ],
+      "affected_breeds": [
+        "labrador-retriever",
+        "german-shepherd",
+        "golden-retriever",
+        "rottweiler",
+        "great-dane"
+      ],
+      "typical_onset": "1-2 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£6,000"
+    },
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+      "symptoms": [
+        "Intermittent skipping on hind leg",
+        "Sudden leg lifting",
+        "Bunny-hopping",
+        "Hind limb lameness",
+        "Visible kneecap displacement"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+      "prevention_tips": [
+        "Breed from dogs with normal patellar scores",
+        "Maintain healthy weight",
+        "Avoid high-impact activities in affected puppies"
+      ],
+      "affected_breeds": [
+        "chihuahua",
+        "yorkshire-terrier",
+        "pomeranian",
+        "toy-poodle",
+        "bichon-frise",
+        "boston-terrier"
+      ],
+      "typical_onset": "4 months - 6 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    },
+    {
+      "name": "Malocclusion",
+      "slug": "malocclusion",
+      "category": "Dental",
+      "description": "Malocclusion is abnormal tooth alignment due to jaw length discrepancy or individual tooth malposition. It ranges from breed-specific normal variation (brachycephalic underbite) to clinically significant abnormalities causing tooth-on-tooth or tooth-on-palate trauma.",
+      "symptoms": [
+        "Abnormal bite",
+        "Lower teeth hitting upper palate (causing ulcers)",
+        "Drooling",
+        "Difficulty prehending food",
+        "Abnormal facial appearance"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Minor malocclusions are monitored. Clinically significant cases causing soft tissue trauma require orthodontic treatment (bite plates, crown reduction) or extraction of offending teeth.",
+      "prevention_tips": [
+        "Do not breed dogs with clinically significant inherited malocclusion",
+        "Monitor deciduous dentition and extract retained baby teeth promptly"
+      ],
+      "affected_breeds": [
+        "english-bulldog",
+        "pug",
+        "boxer",
+        "french-bulldog",
+        "shih-tzu",
+        "lhasa-apso"
+      ],
+      "typical_onset": "Puppyhood",
+      "hereditary": true,
+      "estimated_treatment_cost": "£400-£1,500"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "German Shepherd",
+      "slug": "german-shepherd",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Pembroke Welsh Corgi",
+      "slug": "pembroke-welsh-corgi",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Australian Shepherd",
+      "slug": "australian-shepherd",
+      "size": "medium",
+      "group": "Herding"
+    },
+    {
+      "name": "Shetland Sheepdog",
+      "slug": "shetland-sheepdog",
+      "size": "small",
+      "group": "Herding"
+    },
+    {
+      "name": "Border Collie",
+      "slug": "border-collie",
+      "size": "medium",
+      "group": "Herding"
+    }
+  ],
+  "comparisons": []
+}

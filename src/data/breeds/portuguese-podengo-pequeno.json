@@ -1,0 +1,117 @@
+{
+  "name": "Portuguese Podengo Pequeno",
+  "slug": "portuguese-podengo-pequeno",
+  "group": "Hound",
+  "size": "small",
+  "weight_min_kg": 4,
+  "weight_max_kg": 6,
+  "height_min_cm": 20,
+  "height_max_cm": 30,
+  "lifespan_min": 15,
+  "lifespan_max": 17,
+  "temperament": [
+    "lively",
+    "alert",
+    "playful",
+    "hardy"
+  ],
+  "health_issues": [
+    "dental-disease",
+    "patellar-luxation",
+    "eye-conditions"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 2,
+  "shedding_level": 2,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 167,
+  "origin": "Portugal",
+  "coat_type": "smooth",
+  "coat_colors": [
+    "yellow",
+    "fawn",
+    "black",
+    "white-with-yellow",
+    "white-with-fawn"
+  ],
+  "description": "The Portuguese Podengo Pequeno is the smallest of the three Podengo sizes and one of Portugal's national breeds, an ancient primitive hound that has hunted rabbit in the rocky Portuguese countryside for over 1,000 years. This hardy, lively little dog combines the agility of a terrier with the keen senses of a sighthound, using sight, scent, and hearing to flush game from dense brush. The Podengo Pequeno's centuries of independent hunting have made it a resourceful, bold, and highly active companion that thrives with an energetic family.",
+  "conditions_detail": [
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+      "symptoms": [
+        "Intermittent skipping on hind leg",
+        "Sudden leg lifting",
+        "Bunny-hopping",
+        "Hind limb lameness",
+        "Visible kneecap displacement"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+      "prevention_tips": [
+        "Breed from dogs with normal patellar scores",
+        "Maintain healthy weight",
+        "Avoid high-impact activities in affected puppies"
+      ],
+      "affected_breeds": [
+        "chihuahua",
+        "yorkshire-terrier",
+        "pomeranian",
+        "toy-poodle",
+        "bichon-frise",
+        "boston-terrier"
+      ],
+      "typical_onset": "4 months - 6 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Beagle",
+      "slug": "beagle",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Dachshund",
+      "slug": "dachshund",
+      "size": "small",
+      "group": "Hound"
+    },
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Whippet",
+      "slug": "whippet",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Plott Hound",
+      "slug": "plott-hound",
+      "size": "medium",
+      "group": "Hound"
+    }
+  ],
+  "comparisons": []
+}

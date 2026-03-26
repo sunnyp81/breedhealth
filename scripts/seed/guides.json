@@ -1,0 +1,896 @@
+[
+  {
+    "title": "Best Dog Food for Large Breeds",
+    "slug": "best-dog-food-large-breeds",
+    "description": "Complete guide to choosing the right food for large and giant breed dogs, covering nutrition needs, portion sizes, and top recommended brands.",
+    "related_breeds": [
+      "labrador-retriever",
+      "german-shepherd",
+      "golden-retriever",
+      "great-dane",
+      "rottweiler"
+    ],
+    "related_conditions": [
+      "hip-dysplasia",
+      "bloat-gdv",
+      "obesity"
+    ],
+    "content_sections": [
+      "Why Large Breeds Need Special Nutrition",
+      "Key Nutrients for Large Dogs",
+      "Feeding Schedule by Age",
+      "Top 10 Foods Reviewed",
+      "Foods to Avoid",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Best Dog Food for Small Breeds",
+    "slug": "best-dog-food-small-breeds",
+    "description": "A comprehensive guide to feeding small and toy breed dogs, including calorie density requirements, kibble size considerations, and our top picks for miniature dogs.",
+    "related_breeds": [
+      "chihuahua",
+      "yorkshire-terrier",
+      "pomeranian",
+      "maltese",
+      "shih-tzu",
+      "toy-poodle"
+    ],
+    "related_conditions": [
+      "hypoglycemia",
+      "dental-disease",
+      "patellar-luxation"
+    ],
+    "content_sections": [
+      "Unique Nutritional Needs of Small Dogs",
+      "Calorie Requirements by Weight",
+      "Kibble Size and Dental Health",
+      "Wet vs Dry Food for Small Breeds",
+      "Top 10 Small Breed Formulas Reviewed",
+      "Feeding Frequency Guide",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Best Dog Food for Puppies",
+    "slug": "best-dog-food-puppies",
+    "description": "Everything you need to know about feeding a puppy from weaning through 12 months, including breed-size-specific formulas, feeding schedules, and what to look for on the label.",
+    "related_breeds": [
+      "labrador-retriever",
+      "golden-retriever",
+      "french-bulldog",
+      "german-shepherd",
+      "beagle"
+    ],
+    "related_conditions": [
+      "developmental-orthopedic-disease",
+      "obesity",
+      "parvovirus"
+    ],
+    "content_sections": [
+      "When to Start Solid Food",
+      "Large vs Small Breed Puppy Formulas",
+      "Key Nutrients for Puppy Development",
+      "How Much to Feed at Each Age",
+      "Transitioning Between Foods",
+      "Top 10 Puppy Foods Reviewed",
+      "Treats and Supplements",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Best Dog Food for Senior Dogs",
+    "slug": "best-dog-food-senior-dogs",
+    "description": "A guide to feeding older dogs aged 7 and above, covering reduced calorie needs, joint-supporting nutrients, digestibility, and the best senior formulas on the market.",
+    "related_breeds": [
+      "labrador-retriever",
+      "golden-retriever",
+      "beagle",
+      "cocker-spaniel",
+      "german-shepherd"
+    ],
+    "related_conditions": [
+      "arthritis",
+      "kidney-disease",
+      "cognitive-dysfunction",
+      "obesity",
+      "dental-disease"
+    ],
+    "content_sections": [
+      "When Does a Dog Become Senior?",
+      "How Nutritional Needs Change with Age",
+      "Protein Levels in Senior Diets",
+      "Joint Health Additives: Glucosamine and Chondroitin",
+      "Managing Weight in Older Dogs",
+      "Top 10 Senior Dog Foods Reviewed",
+      "Wet Food vs Dry Food for Seniors",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Your Puppy's First Year: Complete Month-by-Month Guide",
+    "slug": "puppy-first-year-guide",
+    "description": "A detailed month-by-month roadmap covering everything from bringing your puppy home at 8 weeks through their first birthday, including feeding, training, socialization, and vet milestones.",
+    "related_breeds": [
+      "labrador-retriever",
+      "golden-retriever",
+      "french-bulldog",
+      "border-collie",
+      "german-shepherd",
+      "poodle"
+    ],
+    "related_conditions": [
+      "parvovirus",
+      "kennel-cough",
+      "intestinal-parasites"
+    ],
+    "content_sections": [
+      "Weeks 8-12: Settling In",
+      "Months 3-4: Foundation Training Begins",
+      "Month 5: Teething and Chewing",
+      "Month 6: Adolescence Begins",
+      "Months 7-9: Continued Socialisation",
+      "Months 10-12: Approaching Adulthood",
+      "Vaccination Schedule",
+      "When to Spay or Neuter",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Senior Dog Care: A Complete Guide for Dogs 7+",
+    "slug": "senior-dog-care-guide",
+    "description": "How to support your ageing dog's health and happiness, covering veterinary check-ups, diet changes, exercise modifications, pain management, and quality of life decisions.",
+    "related_breeds": [
+      "labrador-retriever",
+      "golden-retriever",
+      "beagle",
+      "boxer",
+      "cocker-spaniel"
+    ],
+    "related_conditions": [
+      "arthritis",
+      "cognitive-dysfunction",
+      "kidney-disease",
+      "cancer",
+      "heart-disease",
+      "dental-disease"
+    ],
+    "content_sections": [
+      "How Dogs Age by Breed Size",
+      "Signs Your Dog Is Entering Their Senior Years",
+      "Vet Visit Frequency and What to Test",
+      "Diet and Weight Management",
+      "Exercise for Older Dogs",
+      "Pain and Mobility Management",
+      "Cognitive Health and Mental Stimulation",
+      "End-of-Life Considerations",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Dog Exercise Guide: How Much Exercise Does Your Dog Need?",
+    "slug": "dog-exercise-guide-how-much-exercise",
+    "description": "Breed-by-breed and age-by-age breakdown of daily exercise requirements for dogs, including high-energy working breeds, low-energy companion dogs, and everything in between.",
+    "related_breeds": [
+      "border-collie",
+      "labrador-retriever",
+      "siberian-husky",
+      "bulldog",
+      "basset-hound",
+      "pug",
+      "german-shepherd"
+    ],
+    "related_conditions": [
+      "obesity",
+      "hip-dysplasia",
+      "brachycephalic-syndrome",
+      "anxiety"
+    ],
+    "content_sections": [
+      "Exercise Needs by Breed Group",
+      "Exercise by Age: Puppy, Adult, Senior",
+      "Signs Your Dog Is Under-Exercised",
+      "Signs Your Dog Is Over-Exercised",
+      "Best Activities for High-Energy Breeds",
+      "Low-Impact Exercise for Dogs with Joint Issues",
+      "Mental Exercise and Enrichment",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Common Dog Health Problems: Symptoms, Causes and Treatment",
+    "slug": "common-dog-health-problems",
+    "description": "An owner's reference guide to the most frequently diagnosed canine health conditions, covering symptoms to watch for, causes, diagnosis, and treatment options.",
+    "related_breeds": [
+      "labrador-retriever",
+      "golden-retriever",
+      "bulldog",
+      "german-shepherd",
+      "poodle",
+      "dachshund"
+    ],
+    "related_conditions": [
+      "hip-dysplasia",
+      "bloat-gdv",
+      "obesity",
+      "ear-infections",
+      "dental-disease",
+      "allergies",
+      "arthritis",
+      "cancer"
+    ],
+    "content_sections": [
+      "Top 15 Most Common Dog Health Problems",
+      "Digestive Issues",
+      "Skin and Coat Conditions",
+      "Orthopaedic Problems",
+      "Ear and Eye Conditions",
+      "Heart and Respiratory Disease",
+      "When to See a Vet Immediately",
+      "Preventive Health Checklist",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Dog Grooming Guide: How to Groom Your Dog at Home",
+    "slug": "dog-grooming-guide-at-home",
+    "description": "Step-by-step instructions for grooming your dog at home, covering brushing, bathing, nail trimming, ear cleaning, and coat type-specific techniques.",
+    "related_breeds": [
+      "poodle",
+      "shih-tzu",
+      "golden-retriever",
+      "siberian-husky",
+      "yorkshire-terrier",
+      "maltese",
+      "labrador-retriever"
+    ],
+    "related_conditions": [
+      "ear-infections",
+      "skin-infections",
+      "matting",
+      "dental-disease"
+    ],
+    "content_sections": [
+      "Grooming Basics: What Every Owner Needs",
+      "How to Brush Different Coat Types",
+      "How Often to Bathe Your Dog",
+      "Step-by-Step Bath Guide",
+      "Trimming Nails Safely",
+      "Cleaning Ears",
+      "Trimming Around Eyes and Paws",
+      "When to Visit a Professional Groomer",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "How to Train a Dog: Beginner to Intermediate Guide",
+    "slug": "how-to-train-a-dog-beginners-guide",
+    "description": "A practical guide to dog training for new and intermediate owners, covering positive reinforcement techniques, essential commands, crate training, recall, and problem behaviours.",
+    "related_breeds": [
+      "labrador-retriever",
+      "golden-retriever",
+      "border-collie",
+      "german-shepherd",
+      "poodle",
+      "beagle"
+    ],
+    "related_conditions": [
+      "anxiety",
+      "aggression",
+      "separation-anxiety"
+    ],
+    "content_sections": [
+      "Why Positive Reinforcement Works",
+      "The 7 Essential Commands Every Dog Should Know",
+      "Crate Training Step-by-Step",
+      "House Training and Toilet Training",
+      "Leash Training and Walking Politely",
+      "Recall: The Most Important Command",
+      "Common Problem Behaviours and Solutions",
+      "When to Hire a Professional Trainer",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "How to Choose the Right Dog Breed for Your Lifestyle",
+    "slug": "how-to-choose-right-dog-breed",
+    "description": "A practical framework for matching a dog breed to your living situation, activity level, family composition, and budget, with breed category breakdowns and a step-by-step decision guide.",
+    "related_breeds": [
+      "labrador-retriever",
+      "golden-retriever",
+      "french-bulldog",
+      "cavalier-king-charles-spaniel",
+      "border-collie",
+      "greyhound",
+      "chihuahua"
+    ],
+    "related_conditions": [],
+    "content_sections": [
+      "Questions to Ask Before Getting a Dog",
+      "Breed Groups Explained",
+      "Best Breeds for Apartments",
+      "Best Breeds for Active Owners",
+      "Best Breeds for Families with Children",
+      "Best Breeds for First-Time Owners",
+      "Low-Shedding and Hypoallergenic Breeds",
+      "Cost of Ownership by Breed Size",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Dog Vaccination Schedule: Puppy and Adult Vaccines Explained",
+    "slug": "dog-vaccination-schedule",
+    "description": "A complete guide to core and non-core dog vaccines, covering what each protects against, when to give them, booster intervals, and what to expect after vaccination.",
+    "related_breeds": [
+      "labrador-retriever",
+      "golden-retriever",
+      "french-bulldog",
+      "german-shepherd",
+      "beagle"
+    ],
+    "related_conditions": [
+      "parvovirus",
+      "distemper",
+      "leptospirosis",
+      "kennel-cough",
+      "rabies"
+    ],
+    "content_sections": [
+      "Core vs Non-Core Vaccines",
+      "Puppy Vaccination Schedule (6 Weeks to 16 Weeks)",
+      "Adult Dog Booster Schedule",
+      "What Is a Titre Test?",
+      "Common Side Effects of Vaccines",
+      "Kennel Cough: When and Why to Vaccinate",
+      "Travel Vaccines and Pet Passports",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Dog Dental Care Guide: How to Keep Your Dog's Teeth Healthy",
+    "slug": "dog-dental-care-guide",
+    "description": "Everything you need to know about dog dental health, from daily brushing techniques to signs of periodontal disease, dental diets, and professional cleaning under anaesthesia.",
+    "related_breeds": [
+      "chihuahua",
+      "yorkshire-terrier",
+      "pomeranian",
+      "dachshund",
+      "shih-tzu",
+      "pug"
+    ],
+    "related_conditions": [
+      "dental-disease",
+      "periodontal-disease",
+      "tooth-resorption",
+      "heart-disease"
+    ],
+    "content_sections": [
+      "Why Dental Health Matters for Dogs",
+      "Signs of Dental Disease",
+      "How to Brush Your Dog's Teeth",
+      "Best Dog Toothpastes Reviewed",
+      "Dental Chews and Water Additives",
+      "Dental Diets",
+      "Professional Dental Cleaning: What to Expect",
+      "Frequency of Brushing by Breed",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Dog Weight Management: How to Help an Overweight Dog Lose Weight",
+    "slug": "dog-weight-management-guide",
+    "description": "A vet-aligned guide to identifying obesity in dogs, calculating healthy body condition score, creating a safe calorie deficit, and choosing the best weight management dog food.",
+    "related_breeds": [
+      "labrador-retriever",
+      "beagle",
+      "cocker-spaniel",
+      "dachshund",
+      "pug",
+      "basset-hound"
+    ],
+    "related_conditions": [
+      "obesity",
+      "diabetes",
+      "arthritis",
+      "hip-dysplasia",
+      "heart-disease"
+    ],
+    "content_sections": [
+      "How to Assess Your Dog's Body Condition Score",
+      "Health Risks of Obesity in Dogs",
+      "How Many Calories Should My Dog Eat?",
+      "Weight Loss Dog Food Options",
+      "Exercise for Overweight Dogs",
+      "Healthy Low-Calorie Treats",
+      "How Fast Should a Dog Lose Weight?",
+      "Monitoring Progress",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Dog Allergies: Symptoms, Causes, and Treatment Options",
+    "slug": "dog-allergies-guide",
+    "description": "A comprehensive guide to canine allergies — environmental, food-based, and contact — covering how to identify triggers, elimination diets, antihistamines, immunotherapy, and management strategies.",
+    "related_breeds": [
+      "labrador-retriever",
+      "golden-retriever",
+      "west-highland-white-terrier",
+      "french-bulldog",
+      "boxer",
+      "german-shepherd"
+    ],
+    "related_conditions": [
+      "atopic-dermatitis",
+      "food-allergy",
+      "contact-dermatitis",
+      "ear-infections",
+      "hot-spots"
+    ],
+    "content_sections": [
+      "Types of Dog Allergies Explained",
+      "Signs Your Dog Has Allergies",
+      "Environmental Allergens: Pollen, Dust, Mould",
+      "Food Allergies vs Food Intolerance",
+      "How to Run an Elimination Diet",
+      "Skin Testing and Allergy Testing in Dogs",
+      "Treatment: Antihistamines, Steroids, Apoquel, Cytopoint",
+      "Immunotherapy for Dogs",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Joint Health in Dogs: Preventing and Managing Arthritis",
+    "slug": "dog-joint-health-arthritis-guide",
+    "description": "How to support your dog's joint health from puppyhood through old age, covering breed risk factors, early prevention, supplements, weight management, physiotherapy, and pain relief options.",
+    "related_breeds": [
+      "labrador-retriever",
+      "golden-retriever",
+      "german-shepherd",
+      "rottweiler",
+      "great-dane",
+      "bernese-mountain-dog"
+    ],
+    "related_conditions": [
+      "hip-dysplasia",
+      "elbow-dysplasia",
+      "osteoarthritis",
+      "cruciate-ligament-disease",
+      "osteochondrosis"
+    ],
+    "content_sections": [
+      "How Dog Joints Work",
+      "Breeds Prone to Joint Problems",
+      "Early Signs of Joint Pain in Dogs",
+      "Hip and Elbow Dysplasia Explained",
+      "Glucosamine and Chondroitin: Do They Work?",
+      "Fish Oil and Omega-3 for Joint Health",
+      "Weight and Exercise Management",
+      "Veterinary Treatments: NSAIDs, Injections, Surgery",
+      "Hydrotherapy and Physiotherapy",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Dog Anxiety: Causes, Signs, and How to Help",
+    "slug": "dog-anxiety-guide",
+    "description": "A practical guide to understanding and managing anxiety in dogs, covering separation anxiety, noise phobia, generalised anxiety, and treatment options from behavioural techniques to medication.",
+    "related_breeds": [
+      "border-collie",
+      "german-shepherd",
+      "labrador-retriever",
+      "cavalier-king-charles-spaniel",
+      "vizsla",
+      "bichon-frise"
+    ],
+    "related_conditions": [
+      "separation-anxiety",
+      "noise-phobia",
+      "generalised-anxiety-disorder"
+    ],
+    "content_sections": [
+      "Types of Anxiety in Dogs",
+      "Recognising the Signs of Anxiety",
+      "Separation Anxiety: Causes and Solutions",
+      "Noise Phobias: Fireworks, Thunder, Traffic",
+      "Situational Anxiety: Vet Visits, Car Travel",
+      "Desensitisation and Counterconditioning",
+      "Calming Products: Adaptil, Zylkene, Thundershirts",
+      "When to Consider Medication",
+      "Working with a Behaviourist",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Travelling with Dogs: Car Trips, Holidays, and Flying",
+    "slug": "travelling-with-dogs-guide",
+    "description": "Everything dog owners need to know about travelling safely with their pet, from car safety restraints and motion sickness to pet passports, airline policies, and holiday accommodation.",
+    "related_breeds": [
+      "labrador-retriever",
+      "french-bulldog",
+      "pug",
+      "cavalier-king-charles-spaniel",
+      "golden-retriever"
+    ],
+    "related_conditions": [
+      "brachycephalic-syndrome",
+      "motion-sickness",
+      "anxiety"
+    ],
+    "content_sections": [
+      "Car Travel Safety: Crates vs Harnesses",
+      "Managing Motion Sickness in Dogs",
+      "Taking Your Dog on Holiday in the UK",
+      "Pet Travel to Europe: Pet Passports and Health Certificates",
+      "Flying with Dogs: Cabin vs Cargo",
+      "Finding Dog-Friendly Accommodation",
+      "Packing a Dog Travel Kit",
+      "Keeping Routines on the Road",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Puppy Socialisation Guide: How to Raise a Confident Dog",
+    "slug": "puppy-socialisation-guide",
+    "description": "Why the socialisation window (3-14 weeks) is so critical, what experiences to expose your puppy to, and how to build a confident, well-adjusted adult dog through positive early experiences.",
+    "related_breeds": [
+      "labrador-retriever",
+      "golden-retriever",
+      "german-shepherd",
+      "border-collie",
+      "french-bulldog",
+      "rottweiler"
+    ],
+    "related_conditions": [
+      "anxiety",
+      "aggression",
+      "fear-reactivity"
+    ],
+    "content_sections": [
+      "The Socialisation Window Explained",
+      "Why Poor Socialisation Creates Problems",
+      "People: Ages, Sizes, Uniforms, Mobility Aids",
+      "Other Animals: Dogs, Cats, Farm Animals",
+      "Environments: Traffic, Crowds, Floors, Surfaces",
+      "Sounds: Fireworks, Hoovers, Thunderstorms",
+      "Handling: Grooming, Vet Visits, Children",
+      "Puppy Classes: What to Look For",
+      "Socialising Older Dogs",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Dog Nutrition Basics: What Should Dogs Actually Eat?",
+    "slug": "dog-nutrition-basics-guide",
+    "description": "A science-based introduction to canine nutrition covering macronutrients, micronutrients, AAFCO and FEDIAF standards, raw feeding, grain-free diets, and how to read a dog food label.",
+    "related_breeds": [
+      "labrador-retriever",
+      "golden-retriever",
+      "german-shepherd",
+      "french-bulldog",
+      "poodle"
+    ],
+    "related_conditions": [
+      "obesity",
+      "allergies",
+      "dental-disease",
+      "digestive-issues"
+    ],
+    "content_sections": [
+      "Macronutrients: Protein, Fat, Carbohydrates",
+      "Essential Vitamins and Minerals",
+      "How to Read a Dog Food Label",
+      "AAFCO and FEDIAF Nutritional Standards",
+      "Dry vs Wet vs Raw vs Fresh Food",
+      "Grain-Free Diets: What the Research Says",
+      "Homemade Dog Food: Risks and Benefits",
+      "Dangerous Foods for Dogs",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Dog Skin and Coat Health: Causes of Dull Coat and Dry Skin",
+    "slug": "dog-skin-coat-health-guide",
+    "description": "How to achieve a glossy, healthy coat and address common skin issues in dogs, covering nutrition, omega fatty acids, bathing frequency, parasite control, and underlying health conditions.",
+    "related_breeds": [
+      "labrador-retriever",
+      "golden-retriever",
+      "west-highland-white-terrier",
+      "german-shepherd",
+      "french-bulldog",
+      "shih-tzu"
+    ],
+    "related_conditions": [
+      "atopic-dermatitis",
+      "allergies",
+      "hypothyroidism",
+      "mange",
+      "hot-spots",
+      "seborrhoea"
+    ],
+    "content_sections": [
+      "What a Healthy Coat Looks Like",
+      "Common Causes of Dull or Dry Coat",
+      "The Role of Omega-3 and Omega-6 Fatty Acids",
+      "Bathing: How Often Is Too Often?",
+      "Parasite Control: Fleas, Mites, and Mange",
+      "Nutritional Deficiencies and Skin Health",
+      "Hormonal Causes of Skin Problems",
+      "When to See a Vet About Skin Issues",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Spaying and Neutering Dogs: What Owners Need to Know",
+    "slug": "spaying-neutering-dogs-guide",
+    "description": "A balanced guide to the benefits and risks of spaying and neutering dogs, covering optimal age by breed size, behavioural effects, health implications, and the recovery process.",
+    "related_breeds": [
+      "labrador-retriever",
+      "golden-retriever",
+      "german-shepherd",
+      "rottweiler",
+      "great-dane",
+      "border-collie"
+    ],
+    "related_conditions": [
+      "mammary-tumours",
+      "pyometra",
+      "testicular-cancer",
+      "obesity",
+      "joint-disorders",
+      "incontinence"
+    ],
+    "content_sections": [
+      "What Is Spaying and Neutering?",
+      "Health Benefits of Neutering Female Dogs",
+      "Health Benefits of Neutering Male Dogs",
+      "Risks and Controversies: Joint Disease and Cancer",
+      "Best Age to Spay or Neuter by Breed Size",
+      "The Operation: What to Expect",
+      "Recovery and Aftercare",
+      "Behavioural Changes After Neutering",
+      "Alternatives: Vasectomy, Hormone Implants",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Dog Parasite Prevention: Fleas, Ticks, and Worms",
+    "slug": "dog-parasite-prevention-guide",
+    "description": "A complete guide to protecting your dog from internal and external parasites, covering the parasite life cycles, how infestations spread, the best preventive products, and treatment protocols.",
+    "related_breeds": [
+      "labrador-retriever",
+      "golden-retriever",
+      "beagle",
+      "german-shepherd",
+      "border-collie"
+    ],
+    "related_conditions": [
+      "tapeworm",
+      "roundworm",
+      "heartworm",
+      "lyme-disease",
+      "anaemia"
+    ],
+    "content_sections": [
+      "Types of Parasites That Affect Dogs",
+      "Fleas: Life Cycle, Symptoms, Treatment and Prevention",
+      "Ticks: How to Remove Safely and Disease Risks",
+      "Roundworms, Tapeworms, and Hookworms",
+      "Lungworm: An Underdiagnosed Risk",
+      "Heartworm in the UK and Europe",
+      "Prescription vs Over-the-Counter Products",
+      "Year-Round vs Seasonal Prevention",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "How to Introduce a New Dog to Your Home and Other Pets",
+    "slug": "introducing-new-dog-to-home",
+    "description": "Step-by-step guidance on bringing a new dog home and introducing them safely to resident dogs, cats, and children, covering the first hours, first week, and ongoing management.",
+    "related_breeds": [
+      "labrador-retriever",
+      "golden-retriever",
+      "french-bulldog",
+      "border-collie",
+      "german-shepherd",
+      "cavalier-king-charles-spaniel"
+    ],
+    "related_conditions": [
+      "anxiety",
+      "aggression",
+      "fear-reactivity"
+    ],
+    "content_sections": [
+      "Preparing Your Home Before the Dog Arrives",
+      "The First Hour: Car Journey and Arrival",
+      "Introducing to Resident Dogs: Neutral Territory Method",
+      "Introducing Dogs and Cats Safely",
+      "Supervising Around Young Children",
+      "The First Week: Routine and Rules",
+      "Signs of Stress to Watch For",
+      "Managing Resource Guarding",
+      "When to Seek Professional Help",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Dog Insurance Guide: How to Choose the Right Policy",
+    "slug": "dog-insurance-guide",
+    "description": "A practical guide to choosing dog insurance in the UK, covering policy types, exclusions, lifetime vs annual cover, breed-specific health conditions, and how to make a claim.",
+    "related_breeds": [
+      "french-bulldog",
+      "pug",
+      "labrador-retriever",
+      "golden-retriever",
+      "german-shepherd",
+      "cavalier-king-charles-spaniel"
+    ],
+    "related_conditions": [
+      "hip-dysplasia",
+      "brachycephalic-syndrome",
+      "cancer",
+      "epilepsy",
+      "heart-disease"
+    ],
+    "content_sections": [
+      "Why Dog Insurance Matters",
+      "Types of Policy: Accident-Only, Time-Limited, Maximum Benefit, Lifetime",
+      "What Is and Isn't Covered",
+      "Pre-Existing Conditions and Exclusions",
+      "How Breed Affects Your Premium",
+      "How to Compare Policies",
+      "How to Make a Claim",
+      "Is Pet Insurance Worth the Money?",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Understanding Dog Body Language and Communication",
+    "slug": "dog-body-language-guide",
+    "description": "A visual and descriptive guide to reading dog body language, covering stress signals, play signals, fear and aggression cues, tail positions, ear positions, and vocalisations.",
+    "related_breeds": [
+      "german-shepherd",
+      "labrador-retriever",
+      "border-collie",
+      "rottweiler",
+      "golden-retriever"
+    ],
+    "related_conditions": [
+      "anxiety",
+      "aggression",
+      "fear-reactivity"
+    ],
+    "content_sections": [
+      "Why Understanding Body Language Matters",
+      "Relaxed and Happy Signals",
+      "Play Signals and the Play Bow",
+      "Stress and Anxiety Signals: Yawning, Licking, Looking Away",
+      "Fear Signals",
+      "Warning Signs Before Aggression",
+      "Tail Position Guide",
+      "Ear Position Guide",
+      "Vocalisations: Barks, Growls, Whines",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "First Aid for Dogs: What Every Owner Should Know",
+    "slug": "dog-first-aid-guide",
+    "description": "Essential first aid knowledge for dog owners, covering how to handle emergencies including cuts and wounds, suspected poisoning, heat stroke, choking, fractures, and CPR.",
+    "related_breeds": [
+      "labrador-retriever",
+      "golden-retriever",
+      "german-shepherd",
+      "french-bulldog",
+      "pug"
+    ],
+    "related_conditions": [
+      "bloat-gdv",
+      "heat-stroke",
+      "poisoning",
+      "anaphylaxis",
+      "fractures",
+      "choking"
+    ],
+    "content_sections": [
+      "Building a Dog First Aid Kit",
+      "When to Call an Emergency Vet",
+      "Treating Cuts and Wounds",
+      "What to Do If Your Dog Is Choking",
+      "Suspected Poisoning: Steps to Take",
+      "Handling Suspected Fractures or Dislocations",
+      "Treating Burns and Scalds",
+      "Heatstroke: Recognition and Immediate Response",
+      "Canine CPR Step-by-Step",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Feeding Your Dog a Raw Diet: Benefits, Risks, and Getting Started",
+    "slug": "raw-dog-food-diet-guide",
+    "description": "A balanced look at raw feeding (BARF) for dogs, including the claimed benefits, food safety risks, how to create a nutritionally complete raw diet, and what the research actually says.",
+    "related_breeds": [
+      "german-shepherd",
+      "siberian-husky",
+      "labrador-retriever",
+      "border-collie",
+      "rottweiler"
+    ],
+    "related_conditions": [
+      "allergies",
+      "digestive-issues",
+      "dental-disease",
+      "obesity"
+    ],
+    "content_sections": [
+      "What Is a Raw Dog Food Diet?",
+      "Types of Raw Feeding: BARF, Prey Model, Pre-Made Raw",
+      "Claimed Benefits and What Science Shows",
+      "Food Safety Risks: Bacteria and Parasites",
+      "Nutritional Balance: How to Get It Right",
+      "Bones and Chewing Safety",
+      "Transitioning from Kibble to Raw",
+      "Raw Feeding Costs and Budget Planning",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "How to Stop a Dog Barking: Causes and Training Solutions",
+    "slug": "how-to-stop-dog-barking",
+    "description": "A practical guide to managing excessive barking in dogs, covering the main causes, proven training techniques, management strategies, and when to involve a professional behaviourist.",
+    "related_breeds": [
+      "beagle",
+      "siberian-husky",
+      "german-shepherd",
+      "chihuahua",
+      "shetland-sheepdog",
+      "miniature-schnauzer"
+    ],
+    "related_conditions": [
+      "anxiety",
+      "separation-anxiety",
+      "fear-reactivity"
+    ],
+    "content_sections": [
+      "Why Dogs Bark: Triggers and Types",
+      "Alert Barking vs Demand Barking vs Anxiety Barking",
+      "Teaching Quiet on Cue",
+      "Desensitisation to Triggers",
+      "Managing Barking at Windows and Fences",
+      "Separation Anxiety Barking",
+      "Anti-Bark Devices: Do They Work?",
+      "Nuisance Barking and the Law",
+      "FAQ"
+    ]
+  },
+  {
+    "title": "Hip Dysplasia in Dogs: Symptoms, Treatment, and Prevention",
+    "slug": "hip-dysplasia-in-dogs-guide",
+    "description": "A thorough owner's guide to canine hip dysplasia, covering which breeds are most at risk, how the condition develops, diagnosis through PennHIP and BVA scoring, and all treatment options.",
+    "related_breeds": [
+      "labrador-retriever",
+      "golden-retriever",
+      "german-shepherd",
+      "rottweiler",
+      "great-dane",
+      "saint-bernard",
+      "bernese-mountain-dog"
+    ],
+    "related_conditions": [
+      "hip-dysplasia",
+      "osteoarthritis",
+      "obesity"
+    ],
+    "content_sections": [
+      "What Is Hip Dysplasia?",
+      "Breeds Most at Risk",
+      "Signs and Symptoms at Every Age",
+      "How Hip Dysplasia Is Diagnosed",
+      "BVA Hip Scoring and PennHIP Explained",
+      "Conservative Management: Weight, Exercise, Supplements",
+      "Surgical Options: JPS, DPO, FHO, THR",
+      "Physiotherapy and Hydrotherapy",
+      "Breeding Considerations",
+      "FAQ"
+    ]
+  }
+]

@@ -1,0 +1,136 @@
+---
+import type { Breed, DietType, SizeCategory } from '../lib/types';
+
+interface Props {
+  breed: Breed;
+  diets: DietType[];
+}
+
+const { breed, diets } = Astro.props;
+
+// Build a Set of recommended diet slugs from breed.diet_recommendations
+const recommendedSlugs = new Set<string>(
+  (breed.diet_recommendations ?? []).map((d) => d.slug)
+);
+
+// Resolve feeding guidelines for the breed's size
+function getGuidelines(diet: DietType, size: SizeCategory) {
+  const g = diet.feeding_guidelines?.[size];
+  return g ?? null;
+}
+
+// Suitability config
+const recommended = {
+  label:  'Recommended',
+  bg:     '#d4edda',
+  color:  '#155724',
+  border: '#b8dbbf',
+};
+const optional = {
+  label:  'Optional',
+  bg:     '#fff3cd',
+  color:  '#7a5a00',
+  border: '#f5d87a',
+};
+---
+
+{diets.length === 0 ? (
+  <p style="color:var(--color-text-muted); font-style:italic;">No diet data available for this breed.</p>
+) : (
+  <div style="overflow-x:auto; -webkit-overflow-scrolling:touch;">
+    <table
+      style="
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.9rem;
+        color: var(--color-text);
+        background: #fff;
+        border: 1px solid var(--color-border);
+        border-radius: 10px;
+        overflow: hidden;
+      "
+    >
+      <thead>
+        <tr style="background:var(--color-primary); color:#fff;">
+          <th style="padding:0.75rem 1rem; text-align:left; font-weight:600; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.05em;">
+            Diet Type
+          </th>
+          <th style="padding:0.75rem 1rem; text-align:left; font-weight:600; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.05em;">
+            Daily Portion
+          </th>
+          <th style="padding:0.75rem 1rem; text-align:left; font-weight:600; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.05em;">
+            Frequency
+          </th>
+          <th style="padding:0.75rem 1rem; text-align:center; font-weight:600; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.05em;">
+            Suitability
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {diets.map((diet, i) => {
+          const guidelines = getGuidelines(diet, breed.size);
+          const isRecommended = recommendedSlugs.has(diet.slug);
+          const badge = isRecommended ? recommended : optional;
+          const rowBg = i % 2 === 0 ? '#fff' : 'var(--color-bg)';
+
+          return (
+            <tr
+              style={`background:${rowBg}; border-top:1px solid var(--color-border);`}
+            >
+              <!-- Diet Type — linked -->
+              <td style="padding:0.75rem 1rem; vertical-align:middle;">
+                <a
+                  href={`/diet/${diet.slug}/`}
+                  style="color:var(--color-primary); font-weight:600; text-decoration:none; hover:underline;"
+                  onmouseover="this.style.textDecoration='underline'"
+                  onmouseout="this.style.textDecoration='none'"
+                >
+                  {diet.name}
+                </a>
+              </td>
+
+              <!-- Daily Portion -->
+              <td style="padding:0.75rem 1rem; vertical-align:middle; color:var(--color-text);">
+                {guidelines
+                  ? <span>{guidelines.cups_per_day} cups/day</span>
+                  : <span style="color:var(--color-text-muted); font-style:italic;">Varies by weight</span>
+                }
+              </td>
+
+              <!-- Frequency -->
+              <td style="padding:0.75rem 1rem; vertical-align:middle; color:var(--color-text);">
+                {guidelines
+                  ? <span>{guidelines.frequency}</span>
+                  : <span style="color:var(--color-text-muted); font-style:italic;">—</span>
+                }
+              </td>
+
+              <!-- Suitability badge -->
+              <td style="padding:0.75rem 1rem; vertical-align:middle; text-align:center;">
+                <span
+                  style={`
+                    display: inline-block;
+                    padding: 0.2rem 0.65rem;
+                    border-radius: 9999px;
+                    font-size: 0.75rem;
+                    font-weight: 600;
+                    white-space: nowrap;
+                    background-color: ${badge.bg};
+                    color: ${badge.color};
+                    border: 1px solid ${badge.border};
+                  `}
+                >
+                  {badge.label}
+                </span>
+              </td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  </div>
+)}
+
+<p style="margin-top:0.6rem; font-size:0.75rem; color:var(--color-text-light);">
+  Portion sizes are approximate guidelines for a {breed.size}-breed dog. Adjust based on your dog's individual weight, age, and activity level. Always consult your vet.
+</p>

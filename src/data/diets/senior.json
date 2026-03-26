@@ -1,0 +1,186 @@
+{
+  "name": "Senior Formula",
+  "slug": "senior",
+  "description": "Senior diets are specially formulated for dogs aged 7 and older, typically featuring reduced calories, adjusted protein levels, and added joint-supporting nutrients like glucosamine and chondroitin.",
+  "suitable_for": [
+    "dogs aged 7+",
+    "dogs with joint issues",
+    "less active older dogs",
+    "dogs with age-related weight gain"
+  ],
+  "benefits": [
+    "Supports joint health with added glucosamine",
+    "Adjusted calorie density for less active dogs",
+    "Often includes antioxidants for cognitive support",
+    "May support kidney function"
+  ],
+  "risks": [
+    "Not all senior dogs need reduced protein",
+    "Blanket formulas may not suit all older dogs",
+    "Some seniors need more calories than senior food provides"
+  ],
+  "recommended_brands": [
+    "Hill's Science Diet Senior",
+    "Purina Pro Plan Bright Mind",
+    "Royal Canin Aging",
+    "Blue Buffalo Life Protection Mature"
+  ],
+  "feeding_guidelines": {
+    "small": {
+      "cups_per_day": "0.5-0.75",
+      "frequency": "2 meals"
+    },
+    "medium": {
+      "cups_per_day": "1-1.5",
+      "frequency": "2 meals"
+    },
+    "large": {
+      "cups_per_day": "1.5-2.5",
+      "frequency": "2 meals"
+    },
+    "giant": {
+      "cups_per_day": "2.5-4",
+      "frequency": "2-3 meals"
+    }
+  },
+  "suitable_breeds": [
+    {
+      "name": "Bulldog",
+      "slug": "bulldog",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Bernese Mountain Dog",
+      "slug": "bernese-mountain-dog",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Cane Corso",
+      "slug": "cane-corso",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Newfoundland",
+      "slug": "newfoundland",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Mastiff",
+      "slug": "mastiff",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Bullmastiff",
+      "slug": "bullmastiff",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Saint Bernard",
+      "slug": "saint-bernard",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Shar Pei",
+      "slug": "shar-pei",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Chinese Shar Pei (Standard)",
+      "slug": "chinese-shar-pei",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Flat-Coated Retriever",
+      "slug": "flat-coated-retriever",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Tibetan Mastiff",
+      "slug": "tibetan-mastiff",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Anatolian Shepherd Dog",
+      "slug": "anatolian-shepherd-dog",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Leonberger",
+      "slug": "leonberger",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Neapolitan Mastiff",
+      "slug": "neapolitan-mastiff",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Irish Wolfhound",
+      "slug": "irish-wolfhound",
+      "size": "giant",
+      "group": "Hound"
+    },
+    {
+      "name": "Greater Swiss Mountain Dog",
+      "slug": "greater-swiss-mountain-dog",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Estrela Mountain Dog",
+      "slug": "estrela-mountain-dog",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Chow Chow",
+      "slug": "chow-chow",
+      "size": "medium",
+      "group": "Non-Sporting"
+    },
+    {
+      "name": "Great Pyrenees",
+      "slug": "great-pyrenees",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Black Russian Terrier",
+      "slug": "black-russian-terrier",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Komondor",
+      "slug": "komondor",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Scottish Deerhound",
+      "slug": "scottish-deerhound",
+      "size": "giant",
+      "group": "Hound"
+    }
+  ]
+}

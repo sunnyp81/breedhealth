@@ -1,0 +1,41 @@
+{
+  "name": "Dermatomyositis",
+  "slug": "dermatomyositis",
+  "category": "Dermatological",
+  "description": "Dermatomyositis is an inherited inflammatory condition affecting the skin and muscles. It begins with skin lesions on pressure points and the face in young dogs and can progress to generalised skin disease and muscle atrophy causing difficulty eating and walking.",
+  "symptoms": [
+    "Skin lesions on face, ears, and legs",
+    "Muscle wasting, especially of masseters",
+    "Difficulty eating in severe cases",
+    "Scarring and pigmentation changes",
+    "Megaoesophagus in some cases"
+  ],
+  "severity": "medium",
+  "treatment_overview": "Mild cases may be managed with omega-3 fatty acids, vitamin E, and sun avoidance. Severe cases require pentoxifylline, tetracycline-niacinamide, or immunosuppressants. The condition is lifelong.",
+  "prevention_tips": [
+    "Do not breed affected dogs",
+    "Genetic testing available for Collies"
+  ],
+  "affected_breeds": [
+    "rough-collie",
+    "smooth-collie",
+    "shetland-sheepdog"
+  ],
+  "typical_onset": "Under 6 months",
+  "hereditary": true,
+  "estimated_treatment_cost": "£400-£2,000/year",
+  "breeds_detail": [
+    {
+      "name": "Rough Collie",
+      "slug": "rough-collie",
+      "size": "large",
+      "group": "Herding"
+    },
+    {
+      "name": "Shetland Sheepdog",
+      "slug": "shetland-sheepdog",
+      "size": "small",
+      "group": "Herding"
+    }
+  ]
+}

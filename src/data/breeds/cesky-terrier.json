@@ -1,0 +1,141 @@
+{
+  "name": "Cesky Terrier",
+  "slug": "cesky-terrier",
+  "group": "Terrier",
+  "size": "small",
+  "weight_min_kg": 6,
+  "weight_max_kg": 10,
+  "height_min_cm": 25,
+  "height_max_cm": 32,
+  "lifespan_min": 12,
+  "lifespan_max": 15,
+  "temperament": [
+    "calm",
+    "sporty",
+    "obedient",
+    "reserved"
+  ],
+  "health_issues": [
+    "scottie-cramp",
+    "cardiac-conditions",
+    "lens-luxation"
+  ],
+  "exercise_level": 2,
+  "grooming_level": 4,
+  "shedding_level": 1,
+  "trainability": 4,
+  "good_with_children": true,
+  "good_with_dogs": true,
+  "apartment_friendly": true,
+  "popularity_rank": 119,
+  "origin": "Czech Republic",
+  "coat_type": "silky wavy",
+  "coat_colors": [
+    "grey blue",
+    "light coffee brown"
+  ],
+  "description": "The Cesky Terrier is one of the world's rarest dog breeds, developed by Czech geneticist Frantisek Horak in 1948 by crossing the Scottish Terrier with the Sealyham Terrier to create a calmer, more cooperative working terrier for hunting in Bohemian forests. Unlike most terriers, the Cesky is notably more easygoing and trainable, making it a more suitable companion for families and less experienced dog owners. Their silky coat requires professional grooming and clipping, but they are low shedders and relatively adaptable.",
+  "conditions_detail": [
+    {
+      "name": "Scottie Cramp",
+      "slug": "scottie-cramp",
+      "category": "Neurological",
+      "description": "Scottie cramp is a hereditary episodic movement disorder in Scottish Terriers caused by a serotonin metabolism defect. Episodes of muscle over-contraction occur during excitement or exercise, causing abnormal gait and posture but no pain or loss of consciousness.",
+      "symptoms": [
+        "Episodic arching of spine",
+        "Overflexion of hindlimbs",
+        "Somersaulting",
+        "Triggered by exercise or excitement",
+        "Returns to normal between episodes"
+      ],
+      "severity": "low",
+      "treatment_overview": "Diazepam or acepromazine may reduce episode frequency and severity. Avoiding triggers is the primary management. The condition is not progressive and does not shorten lifespan.",
+      "prevention_tips": [
+        "DNA test available — avoid breeding affected dogs",
+        "Reduce exercise intensity and excitement if needed"
+      ],
+      "affected_breeds": [
+        "scottish-terrier"
+      ],
+      "typical_onset": "6 months - 3 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£100-£400/year"
+    },
+    {
+      "name": "Lens Luxation",
+      "slug": "lens-luxation",
+      "category": "Eye",
+      "description": "Lens luxation is displacement of the lens from its normal position due to breakdown of the suspensory ligaments (zonules). Primary lens luxation is hereditary. A luxated lens can cause acute glaucoma and retinal detachment.",
+      "symptoms": [
+        "Sudden eye pain",
+        "Visible lens displacement",
+        "Watery eye",
+        "Corneal oedema",
+        "Vision loss"
+      ],
+      "severity": "high",
+      "treatment_overview": "Surgical removal of the luxated lens (intracapsular extraction) is the treatment of choice. Medical management with miotics helps when surgery is not immediately possible. Glaucoma treatment may also be required.",
+      "prevention_tips": [
+        "DNA test available (ADAMTS17 mutation) — do not breed affected dogs",
+        "Annual eye examinations"
+      ],
+      "affected_breeds": [
+        "jack-russell-terrier",
+        "miniature-bull-terrier",
+        "tibetan-terrier",
+        "border-collie",
+        "shar-pei"
+      ],
+      "typical_onset": "3-8 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Weight Management",
+      "slug": "weight-management"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "West Highland White Terrier",
+      "slug": "west-highland-white-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Soft Coated Wheaten Terrier",
+      "slug": "soft-coated-wheaten-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    },
+    {
+      "name": "Cairn Terrier",
+      "slug": "cairn-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Scottish Terrier",
+      "slug": "scottish-terrier",
+      "size": "small",
+      "group": "Terrier"
+    }
+  ],
+  "comparisons": []
+}

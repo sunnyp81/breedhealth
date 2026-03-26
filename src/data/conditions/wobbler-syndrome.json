@@ -1,0 +1,62 @@
+{
+  "name": "Wobbler Syndrome (Cervical Spondylomyelopathy)",
+  "slug": "wobbler-syndrome",
+  "category": "Neurological",
+  "description": "Wobbler syndrome is spinal cord compression in the neck caused by malformed or unstable vertebrae or herniated discs. It produces a characteristic wobbly gait in the hindlimbs and can progress to complete paralysis.",
+  "symptoms": [
+    "Wobbly hindlimb gait",
+    "Neck pain or stiffness",
+    "Short-strided forelimb gait",
+    "Weakness",
+    "Reluctance to raise head"
+  ],
+  "severity": "high",
+  "treatment_overview": "Medical management with strict rest, anti-inflammatories, and physiotherapy is used for mild cases. Surgical decompression and stabilisation is recommended for moderate to severe neurological deficits.",
+  "prevention_tips": [
+    "Careful breeding selection",
+    "Avoid rapid growth in predisposed breeds",
+    "Feed large-breed appropriate diet"
+  ],
+  "affected_breeds": [
+    "dobermann",
+    "great-dane",
+    "weimaraner",
+    "basset-hound",
+    "dalmatian"
+  ],
+  "typical_onset": "3-9 years (Dobermann), under 3 years (giant breeds)",
+  "hereditary": true,
+  "estimated_treatment_cost": "£3,000-£8,000",
+  "breeds_detail": [
+    {
+      "name": "Great Dane",
+      "slug": "great-dane",
+      "size": "giant",
+      "group": "Working"
+    },
+    {
+      "name": "Weimaraner",
+      "slug": "weimaraner",
+      "size": "large",
+      "group": "Sporting"
+    },
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Doberman Pinscher",
+      "slug": "doberman-pinscher",
+      "size": "large",
+      "group": "Working"
+    },
+    {
+      "name": "Azawakh",
+      "slug": "azawakh",
+      "size": "large",
+      "group": "Hound"
+    }
+  ]
+}

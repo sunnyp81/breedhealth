@@ -1,0 +1,35 @@
+{
+  "name": "Spinal Muscular Atrophy",
+  "slug": "spinal-muscular-atrophy",
+  "category": "Neurological",
+  "description": "Canine spinal muscular atrophy (SMA) is a hereditary neurodegenerative disease causing progressive loss of motor neurons in the spinal cord, leading to muscle weakness and atrophy. It is analogous to human SMA. Affected puppies deteriorate rapidly.",
+  "symptoms": [
+    "Progressive muscle weakness from puppyhood",
+    "Hyporeflexia",
+    "Muscle atrophy",
+    "Trembling",
+    "Difficulty rising and walking",
+    "Respiratory muscle involvement in late stages"
+  ],
+  "severity": "high",
+  "treatment_overview": "There is no cure. Supportive physiotherapy maintains some function and quality of life. Most affected dogs are eventually euthanised as the disease progresses.",
+  "prevention_tips": [
+    "DNA test available for Brittany Spaniel and Maine Coon forms",
+    "Test all breeding stock"
+  ],
+  "affected_breeds": [
+    "brittany-spaniel",
+    "cairn-terrier"
+  ],
+  "typical_onset": "Under 6 months",
+  "hereditary": true,
+  "estimated_treatment_cost": "£500-£2,000 (supportive)",
+  "breeds_detail": [
+    {
+      "name": "Cairn Terrier",
+      "slug": "cairn-terrier",
+      "size": "small",
+      "group": "Terrier"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Tick-Borne Encephalitis",
+  "slug": "tick-borne-encephalitis",
+  "category": "Neurological",
+  "description": "Tick-borne encephalitis (TBE) is a viral neurological disease transmitted by Ixodes ticks, increasingly reported in dogs across Europe and parts of the UK. It causes severe brain and spinal cord inflammation and has a guarded prognosis.",
+  "symptoms": [
+    "Fever",
+    "Neck pain and rigidity",
+    "Seizures",
+    "Ataxia",
+    "Behavioural changes",
+    "Progressive neurological deterioration"
+  ],
+  "severity": "high",
+  "treatment_overview": "There is no specific antiviral treatment. Supportive care with corticosteroids for inflammation, anticonvulsants for seizures, and IV fluids. A dog-specific TBE vaccine is available in some European countries.",
+  "prevention_tips": [
+    "Regular tick prevention with licensed products",
+    "Vaccinate if available and in endemic areas",
+    "Check for and promptly remove ticks"
+  ],
+  "affected_breeds": [
+    "all breeds (outdoor dogs in endemic areas)"
+  ],
+  "typical_onset": "Any age",
+  "hereditary": false,
+  "estimated_treatment_cost": "£1,000-£4,000",
+  "breeds_detail": []
+}

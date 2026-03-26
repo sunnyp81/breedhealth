@@ -1,0 +1,159 @@
+{
+  "name": "Azawakh",
+  "slug": "azawakh",
+  "group": "Hound",
+  "size": "large",
+  "weight_min_kg": 15,
+  "weight_max_kg": 25,
+  "height_min_cm": 60,
+  "height_max_cm": 74,
+  "lifespan_min": 12,
+  "lifespan_max": 15,
+  "temperament": [
+    "affectionate",
+    "rugged",
+    "aloof",
+    "attentive"
+  ],
+  "health_issues": [
+    "seizures",
+    "hypothyroidism",
+    "wobbler-syndrome",
+    "bloat"
+  ],
+  "exercise_level": 4,
+  "grooming_level": 1,
+  "shedding_level": 1,
+  "trainability": 2,
+  "good_with_children": false,
+  "good_with_dogs": true,
+  "apartment_friendly": false,
+  "popularity_rank": 148,
+  "origin": "West Africa",
+  "coat_type": "smooth",
+  "coat_colors": [
+    "fawn",
+    "red",
+    "blue",
+    "black",
+    "brown",
+    "brindle"
+  ],
+  "description": "The Azawakh is a West African sighthound bred by the nomadic Tuareg people of the Sahara and Sahel regions as a guard dog, companion, and coursing hound. They are exceptionally lean and tall with a bone structure visibly beneath their thin skin, yet they are powerful and capable of incredible speed over long distances. Deeply bonded to their families but aloof with strangers, they require experienced owners who understand their independent sighthound temperament.",
+  "conditions_detail": [
+    {
+      "name": "Hypothyroidism",
+      "slug": "hypothyroidism",
+      "category": "Endocrine",
+      "description": "Hypothyroidism is the most common endocrine disorder in dogs, caused by reduced thyroid hormone production — most often from immune-mediated thyroiditis or idiopathic follicular atrophy. It affects metabolism, skin, and coat quality.",
+      "symptoms": [
+        "Weight gain without diet change",
+        "Lethargy",
+        "Cold intolerance",
+        "Bilateral symmetrical hair loss",
+        "Thickened skin",
+        "Ear infections"
+      ],
+      "severity": "low",
+      "treatment_overview": "Daily oral thyroxine (levothyroxine) supplementation is highly effective and required for life. Dosing is adjusted based on thyroid level monitoring every 6-12 months.",
+      "prevention_tips": [
+        "No proven prevention",
+        "Regular blood screening in at-risk breeds from age 4"
+      ],
+      "affected_breeds": [
+        "golden-retriever",
+        "dobermann",
+        "irish-setter",
+        "miniature-schnauzer",
+        "cocker-spaniel",
+        "airedale-terrier"
+      ],
+      "typical_onset": "4-10 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£300-£800/year"
+    },
+    {
+      "name": "Wobbler Syndrome (Cervical Spondylomyelopathy)",
+      "slug": "wobbler-syndrome",
+      "category": "Neurological",
+      "description": "Wobbler syndrome is spinal cord compression in the neck caused by malformed or unstable vertebrae or herniated discs. It produces a characteristic wobbly gait in the hindlimbs and can progress to complete paralysis.",
+      "symptoms": [
+        "Wobbly hindlimb gait",
+        "Neck pain or stiffness",
+        "Short-strided forelimb gait",
+        "Weakness",
+        "Reluctance to raise head"
+      ],
+      "severity": "high",
+      "treatment_overview": "Medical management with strict rest, anti-inflammatories, and physiotherapy is used for mild cases. Surgical decompression and stabilisation is recommended for moderate to severe neurological deficits.",
+      "prevention_tips": [
+        "Careful breeding selection",
+        "Avoid rapid growth in predisposed breeds",
+        "Feed large-breed appropriate diet"
+      ],
+      "affected_breeds": [
+        "dobermann",
+        "great-dane",
+        "weimaraner",
+        "basset-hound",
+        "dalmatian"
+      ],
+      "typical_onset": "3-9 years (Dobermann), under 3 years (giant breeds)",
+      "hereditary": true,
+      "estimated_treatment_cost": "£3,000-£8,000"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "High-Protein",
+      "slug": "high-protein"
+    },
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    },
+    {
+      "name": "Breed-Specific",
+      "slug": "breed-specific"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Basset Hound",
+      "slug": "basset-hound",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Rhodesian Ridgeback",
+      "slug": "rhodesian-ridgeback",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Bloodhound",
+      "slug": "bloodhound",
+      "size": "large",
+      "group": "Hound"
+    },
+    {
+      "name": "Whippet",
+      "slug": "whippet",
+      "size": "medium",
+      "group": "Hound"
+    },
+    {
+      "name": "Borzoi",
+      "slug": "borzoi",
+      "size": "large",
+      "group": "Hound"
+    }
+  ],
+  "comparisons": [
+    "azawakh-vs-sloughi"
+  ]
+}

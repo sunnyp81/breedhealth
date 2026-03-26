@@ -1,0 +1,119 @@
+{
+  "name": "Bedlington Terrier",
+  "slug": "bedlington-terrier",
+  "group": "Terrier",
+  "size": "medium",
+  "weight_min_kg": 8,
+  "weight_max_kg": 11,
+  "height_min_cm": 38,
+  "height_max_cm": 43,
+  "lifespan_min": 12,
+  "lifespan_max": 14,
+  "temperament": [
+    "spirited",
+    "alert",
+    "gentle",
+    "loyal"
+  ],
+  "health_issues": [
+    "copper-toxicosis",
+    "patellar-luxation",
+    "renal-cortical-hypoplasia",
+    "retinal-dysplasia"
+  ],
+  "exercise_level": 3,
+  "grooming_level": 4,
+  "shedding_level": 1,
+  "trainability": 3,
+  "good_with_children": true,
+  "good_with_dogs": false,
+  "apartment_friendly": true,
+  "popularity_rank": 136,
+  "origin": "United Kingdom",
+  "coat_type": "curly",
+  "coat_colors": [
+    "blue",
+    "liver",
+    "sandy",
+    "blue-and-tan",
+    "liver-and-tan",
+    "sandy-and-tan"
+  ],
+  "description": "The Bedlington Terrier is a unique breed that resembles a lamb but has the heart of a lion, combining a gentle appearance with true terrier tenacity. Originally bred for hunting vermin in the mines of Northumberland, they are athletic, fast, and capable of surprising ferocity when challenged. Their distinctive pear-shaped head and curly, non-shedding coat require regular professional grooming.",
+  "conditions_detail": [
+    {
+      "name": "Patellar Luxation",
+      "slug": "patellar-luxation",
+      "category": "Orthopedic",
+      "description": "Patellar luxation occurs when the kneecap slips out of its normal groove in the femur. It can be medial (inward) or lateral (outward) and ranges from grade 1 (occasional slipping) to grade 4 (permanent dislocation).",
+      "symptoms": [
+        "Intermittent skipping on hind leg",
+        "Sudden leg lifting",
+        "Bunny-hopping",
+        "Hind limb lameness",
+        "Visible kneecap displacement"
+      ],
+      "severity": "medium",
+      "treatment_overview": "Grade 1-2 cases are managed conservatively with weight control and physiotherapy. Grade 3-4 typically require surgical correction to deepen the patellar groove and realign the tibial crest.",
+      "prevention_tips": [
+        "Breed from dogs with normal patellar scores",
+        "Maintain healthy weight",
+        "Avoid high-impact activities in affected puppies"
+      ],
+      "affected_breeds": [
+        "chihuahua",
+        "yorkshire-terrier",
+        "pomeranian",
+        "toy-poodle",
+        "bichon-frise",
+        "boston-terrier"
+      ],
+      "typical_onset": "4 months - 6 years",
+      "hereditary": true,
+      "estimated_treatment_cost": "£1,500-£3,500"
+    }
+  ],
+  "diet_recommendations": [
+    {
+      "name": "Wet Food (Canned)",
+      "slug": "wet-food"
+    },
+    {
+      "name": "Dry Kibble",
+      "slug": "dry-kibble"
+    }
+  ],
+  "related_breeds": [
+    {
+      "name": "Miniature Schnauzer",
+      "slug": "miniature-schnauzer",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "West Highland White Terrier",
+      "slug": "west-highland-white-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Soft Coated Wheaten Terrier",
+      "slug": "soft-coated-wheaten-terrier",
+      "size": "medium",
+      "group": "Terrier"
+    },
+    {
+      "name": "Cairn Terrier",
+      "slug": "cairn-terrier",
+      "size": "small",
+      "group": "Terrier"
+    },
+    {
+      "name": "Scottish Terrier",
+      "slug": "scottish-terrier",
+      "size": "small",
+      "group": "Terrier"
+    }
+  ],
+  "comparisons": []
+}

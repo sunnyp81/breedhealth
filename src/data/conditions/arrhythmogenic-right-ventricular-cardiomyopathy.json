@@ -1,0 +1,33 @@
+{
+  "name": "Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)",
+  "slug": "arrhythmogenic-right-ventricular-cardiomyopathy",
+  "category": "Cardiac",
+  "description": "ARVC is a heritable cardiac disease in Boxers characterised by replacement of right ventricular muscle with fatty or fibrous tissue. It causes ventricular arrhythmias, syncope, and sudden death. Sometimes called Boxer cardiomyopathy.",
+  "symptoms": [
+    "Fainting episodes",
+    "Weakness",
+    "Exercise intolerance",
+    "Irregular heartbeat",
+    "Sudden death"
+  ],
+  "severity": "high",
+  "treatment_overview": "Antiarrhythmic drugs (sotalol, mexiletine) reduce the frequency of dangerous arrhythmias. Regular Holter monitoring guides treatment adjustments. No cure exists.",
+  "prevention_tips": [
+    "Annual Holter monitoring for breeding Boxers",
+    "DNA test available — do not breed homozygous affected dogs"
+  ],
+  "affected_breeds": [
+    "boxer"
+  ],
+  "typical_onset": "6 months - 9 years",
+  "hereditary": true,
+  "estimated_treatment_cost": "£1,000-£3,000/year",
+  "breeds_detail": [
+    {
+      "name": "Boxer",
+      "slug": "boxer",
+      "size": "large",
+      "group": "Working"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ConditionSeverityBadge from '../../components/ConditionSeverityBadge.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { getAllConditions } from '../../lib/data';
+import type { ConditionSummary } from '../../lib/types';
+
+const conditions = await getAllConditions();
+const conditionCount = conditions.length;
+
+const SITE_URL = 'https://breedhealth.co.uk';
+
+const breadcrumbItems = [
+  { name: 'Home', url: `${SITE_URL}/` },
+  { name: 'Health Conditions', url: `${SITE_URL}/conditions/` },
+];
+
+const title = `Dog Health Conditions — ${conditionCount} Conditions Explained | BreedHealth`;
+const description = `Browse ${conditionCount} dog health conditions grouped by category. Understand symptoms, causes, treatment options, and which breeds are most affected.`;
+
+// Group conditions by category, preserving the sorted-A-Z order within each group
+const grouped = conditions.reduce<Record<string, ConditionSummary[]>>((acc, cond) => {
+  if (!acc[cond.category]) acc[cond.category] = [];
+  acc[cond.category].push(cond);
+  return acc;
+}, {});
+
+const sortedCategories = Object.keys(grouped).sort();
+
+// Category icons (SVG path data) for visual interest
+const categoryIcons: Record<string, string> = {
+  Orthopedic: 'M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z',
+  Cardiac: 'M12 21.593c-5.63-5.539-11-10.297-11-14.402 0-3.791 3.068-5.191 5.281-5.191 1.312 0 4.151.501 5.719 4.457 1.59-3.968 4.464-4.447 5.726-4.447 2.54 0 5.274 1.621 5.274 5.181 0 4.069-5.136 8.625-11 14.402z',
+  Eye: 'M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z',
+  Dermatological: 'M9 11.75A1.25 1.25 0 107.75 13 1.25 1.25 0 009 11.75zm6 0A1.25 1.25 0 1013.75 13 1.25 1.25 0 0015 11.75zM12 2a10 10 0 100 20A10 10 0 0012 2z',
+  Neurological: 'M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93V18c0-.55-.45-1-1-1s-1 .45-1 1v1.93C7.06 19.44 4.56 16.94 4.07 14H6c.55 0 1-.45 1-1s-.45-1-1-1H4.07C4.56 9.06 7.06 6.56 10 6.07V8c0 .55.45 1 1 1s1-.45 1-1V6.07c2.94.49 5.44 2.99 5.93 5.93H16c-.55 0-1 .45-1 1s.45 1 1 1h1.93c-.49 2.94-2.99 5.44-5.93 5.93z',
+};
+
+const categoryColours: Record<string, { bg: string; text: string; border: string }> = {
+  Orthopedic:     { bg: 'bg-orange-50',  text: 'text-orange-700',  border: 'border-orange-200' },
+  Cardiac:        { bg: 'bg-red-50',     text: 'text-red-700',     border: 'border-red-200'    },
+  Eye:            { bg: 'bg-sky-50',     text: 'text-sky-700',     border: 'border-sky-200'    },
+  Dermatological: { bg: 'bg-pink-50',    text: 'text-pink-700',    border: 'border-pink-200'   },
+  Neurological:   { bg: 'bg-violet-50',  text: 'text-violet-700',  border: 'border-violet-200' },
+  Gastrointestinal:{ bg: 'bg-lime-50',   text: 'text-lime-700',    border: 'border-lime-200'   },
+  Endocrine:      { bg: 'bg-yellow-50',  text: 'text-yellow-700',  border: 'border-yellow-200' },
+  Respiratory:    { bg: 'bg-cyan-50',    text: 'text-cyan-700',    border: 'border-cyan-200'   },
+  Cancer:         { bg: 'bg-rose-50',    text: 'text-rose-700',    border: 'border-rose-200'   },
+  Autoimmune:     { bg: 'bg-indigo-50',  text: 'text-indigo-700',  border: 'border-indigo-200' },
+  Dental:         { bg: 'bg-teal-50',    text: 'text-teal-700',    border: 'border-teal-200'   },
+  Ear:            { bg: 'bg-amber-50',   text: 'text-amber-700',   border: 'border-amber-200'  },
+  Urinary:        { bg: 'bg-blue-50',    text: 'text-blue-700',    border: 'border-blue-200'   },
+};
+
+const fallbackColour = { bg: 'bg-gray-50', text: 'text-gray-700', border: 'border-gray-200' };
+---
+
+<BaseLayout title={title} description={description} canonicalUrl={`${SITE_URL}/conditions/`}>
+
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Page header -->
+  <div class="mb-8">
+    <h1 class="text-3xl sm:text-4xl font-extrabold text-primary mb-3 tracking-tight">
+      Dog Health Conditions
+    </h1>
+    <p class="text-text-muted text-base max-w-2xl leading-relaxed">
+      A comprehensive reference for {conditionCount} dog health conditions — grouped by body system.
+      Understand symptoms, causes, which breeds are most at risk, and what treatment involves.
+    </p>
+    <p class="mt-2 text-sm text-text-light font-medium">
+      {conditionCount} conditions across {sortedCategories.length} categories
+    </p>
+  </div>
+
+  <!-- Category jump links -->
+  <nav class="mb-8" aria-label="Jump to condition category">
+    <p class="text-xs text-text-muted font-semibold uppercase tracking-wide mb-3">Jump to category</p>
+    <div class="flex flex-wrap gap-2">
+      {sortedCategories.map((cat) => {
+        const col = categoryColours[cat] ?? fallbackColour;
+        return (
+          <a
+            href={`#category-${cat.toLowerCase()}`}
+            class={`px-3 py-1.5 text-xs font-semibold rounded-full no-underline border transition-colors hover:opacity-80 ${col.bg} ${col.text} ${col.border}`}
+          >
+            {cat} ({grouped[cat].length})
+          </a>
+        );
+      })}
+    </div>
+  </nav>
+
+  <!-- Ad slot -->
+  <div class="mb-10">
+    <AdSlot position="in-content" />
+  </div>
+
+  <!-- Conditions grouped by category -->
+  {sortedCategories.map((category) => {
+    const conditionsInCat = grouped[category];
+    const col = categoryColours[category] ?? fallbackColour;
+    return (
+      <section
+        id={`category-${category.toLowerCase()}`}
+        class="mb-12 scroll-mt-20"
+        aria-labelledby={`heading-${category.toLowerCase()}`}
+      >
+        <div class={`flex items-center gap-3 mb-5 pb-3 border-b ${col.border}`}>
+          <span class={`inline-flex items-center justify-center w-8 h-8 rounded-lg text-xs font-bold ${col.bg} ${col.text} border ${col.border}`}>
+            {conditionsInCat.length}
+          </span>
+          <h2
+            id={`heading-${category.toLowerCase()}`}
+            class={`text-lg sm:text-xl font-bold ${col.text}`}
+          >
+            {category}
+          </h2>
+        </div>
+
+        <ul
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3"
+          role="list"
+        >
+          {conditionsInCat.map((condition) => (
+            <li>
+              <a
+                href={`/conditions/${condition.slug}/`}
+                class="flex items-start justify-between gap-3 p-4 bg-white border border-border rounded-xl hover:border-primary hover:shadow-md transition-all no-underline group"
+              >
+                <span class="font-medium text-text text-sm group-hover:text-primary transition-colors leading-snug">
+                  {condition.name}
+                </span>
+                <span class="flex-shrink-0 mt-0.5">
+                  <ConditionSeverityBadge severity={condition.severity} />
+                </span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    );
+  })}
+
+</BaseLayout>
