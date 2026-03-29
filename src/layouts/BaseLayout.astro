@@ -30,6 +30,15 @@ const navLinks = [
       ogImage={ogImage}
     />
     <slot name="head" />
+  
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHJZXPN88D"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-DHJZXPN88D');
+    </script>
   </head>
 
   <body class="bg-bg text-text min-h-screen flex flex-col">
