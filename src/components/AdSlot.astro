@@ -2,20 +2,4 @@
 interface Props {
   position: 'header' | 'sidebar' | 'in-content';
 }
-
-const { position } = Astro.props;
-
-const classes: Record<typeof position, string> = {
-  header: 'h-24 w-full max-w-[728px] mx-auto',
-  sidebar: 'h-64 w-full max-w-[300px]',
-  'in-content': 'min-h-24 w-full',
-};
 ---
-
-<!-- AdSense placeholder -->
-<div
-  class={`${classes[position]} bg-bg-dark border border-border rounded flex items-center justify-center text-text-light text-xs`}
-  data-ad-position={position}
-  aria-hidden="true"
->
-</div>
