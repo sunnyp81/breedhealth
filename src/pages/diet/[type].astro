@@ -26,7 +26,7 @@ const { slug } = Astro.props;
 
 const diet = await getDiet(slug) as DietType;
 
-const siteUrl = 'https://breedhealth.co.uk';
+const siteUrl = 'https://breedhealth.org';
 const pageUrl = `${siteUrl}/diet/${diet.slug}/`;
 
 const breadcrumbSchema = generateBreadcrumbSchema([

@@ -204,9 +204,9 @@ export function generateFAQSchema(
  *
  * Example:
  *   generateBreadcrumbSchema([
- *     { name: 'Home', url: 'https://breedhealth.co.uk/' },
- *     { name: 'Breeds', url: 'https://breedhealth.co.uk/breeds/' },
- *     { name: 'Golden Retriever', url: 'https://breedhealth.co.uk/breeds/golden-retriever/' },
+ *     { name: 'Home', url: 'https://breedhealth.org/' },
+ *     { name: 'Breeds', url: 'https://breedhealth.org/breeds/' },
+ *     { name: 'Golden Retriever', url: 'https://breedhealth.org/breeds/golden-retriever/' },
  *   ])
  */
 export function generateBreadcrumbSchema(

@@ -51,7 +51,7 @@ const [breed, condition] = await Promise.all([
 
 if (!breed || !condition) return Astro.redirect('/breeds/');
 
-const siteUrl = 'https://breedhealth.co.uk';
+const siteUrl = 'https://breedhealth.org';
 const pageUrl = `${siteUrl}/breeds/${breed.slug}/health/${condition.slug}/`;
 
 const conditionCopy = generateConditionCopy(breed, condition);

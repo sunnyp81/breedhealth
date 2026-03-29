@@ -37,7 +37,7 @@ const comparison = await getComparison(slug);
 if (!comparison) return Astro.redirect('/compare/');
 const { breed_a, breed_b } = comparison;
 
-const siteUrl = 'https://breedhealth.co.uk';
+const siteUrl = 'https://breedhealth.org';
 const pageUrl = `${siteUrl}/compare/${slug}/`;
 
 const summaryText = generateComparisonSummary(breed_a, breed_b);

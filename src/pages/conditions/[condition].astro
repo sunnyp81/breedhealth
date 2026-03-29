@@ -31,7 +31,7 @@ const { slug } = Astro.props;
 
 const condition = await getCondition(slug) as Condition;
 
-const siteUrl = 'https://breedhealth.co.uk';
+const siteUrl = 'https://breedhealth.org';
 const pageUrl = `${siteUrl}/conditions/${condition.slug}/`;
 
 const introText = generateConditionHubIntro(condition);

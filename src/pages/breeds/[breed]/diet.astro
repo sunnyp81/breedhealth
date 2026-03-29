@@ -34,7 +34,7 @@ const diets: DietType[] =
     ? breed.diet_recommendations
     : await getDietsForBreed(slug);
 
-const siteUrl = 'https://breedhealth.co.uk';
+const siteUrl = 'https://breedhealth.org';
 const pageUrl = `${siteUrl}/breeds/${breed.slug}/diet/`;
 
 const dietIntro = generateDietCopy(breed);
