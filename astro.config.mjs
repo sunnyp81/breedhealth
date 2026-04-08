@@ -4,13 +4,13 @@ import preact from '@astrojs/preact';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  site: 'https://breedhealth.com',
+  site: 'https://breedhealth.org',
   output: 'static',
   integrations: [
     sitemap({
       entryLimit: 5000,
       serialize(item) {
-        const path = item.url.replace('https://breedhealth.com', '');
+        const path = item.url.replace('https://breedhealth.org', '');
         if (path === '/') {
           return { ...item, priority: 1.0, changefreq: 'weekly' };
         }
