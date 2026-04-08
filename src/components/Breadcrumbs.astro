@@ -10,11 +10,14 @@ interface Props {
 
 const { items } = Astro.props;
 
+const siteOrigin = (Astro.site ?? new URL('https://breedhealth.org')).origin;
+const toAbsolute = (url: string) => url.startsWith('http') ? url : `${siteOrigin}${url}`;
+
 const schemaItems = items.map((item, index) => ({
   '@type': 'ListItem',
   position: index + 1,
   name: item.name,
-  item: item.url,
+  item: toAbsolute(item.url),
 }));
 
 const schema = {
